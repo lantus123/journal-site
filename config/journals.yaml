@@ -1,0 +1,92 @@
+# ============================================
+# NICU/PICU Journal Auto-Review System
+# Journal Configuration
+# ============================================
+# Edit this file to add/remove tracked journals.
+# Push to GitHub and changes take effect next run.
+
+journals:
+  # --- 新生兒 / NICU ---
+  - name: "JAMA Pediatrics"
+    query: '"JAMA Pediatr"[jour]'
+    category: "nicu"
+
+  - name: "Pediatrics"
+    query: '"Pediatrics"[jour]'
+    category: "nicu"
+
+  - name: "Journal of Perinatology"
+    query: '"J Perinatol"[jour]'
+    category: "nicu"
+
+  - name: "NeoReviews"
+    query: '"NeoReviews"[jour]'
+    category: "nicu"
+
+  - name: "Archives of Disease in Childhood - Fetal and Neonatal Edition"
+    query: '"Arch Dis Child Fetal Neonatal Ed"[jour]'
+    category: "nicu"
+
+  # --- 兒童重症 / PICU ---
+  - name: "Pediatric Critical Care Medicine"
+    query: '"Pediatr Crit Care Med"[jour]'
+    category: "picu"
+
+  - name: "Critical Care Medicine"
+    query: '"Crit Care Med"[jour]'
+    category: "picu"
+
+  - name: "Intensive Care Medicine"
+    query: '"Intensive Care Med"[jour]'
+    category: "picu"
+
+  # --- 綜合醫學頂刊 ---
+  - name: "New England Journal of Medicine"
+    query: '"N Engl J Med"[jour]'
+    category: "general"
+    # Filter: only fetch pediatric/neonatal articles from general journals
+    filter_keywords:
+      - neonat
+      - pediatr
+      - infant
+      - child
+      - newborn
+      - preterm
+      - NICU
+      - PICU
+
+  - name: "The Lancet"
+    query: '"Lancet"[jour]'
+    category: "general"
+    filter_keywords:
+      - neonat
+      - pediatr
+      - infant
+      - child
+      - newborn
+      - preterm
+      - NICU
+      - PICU
+
+  - name: "BMJ"
+    query: '"BMJ"[jour]'
+    category: "general"
+    filter_keywords:
+      - neonat
+      - pediatr
+      - infant
+      - child
+      - newborn
+      - preterm
+      - NICU
+      - PICU
+
+# PubMed API settings
+pubmed:
+  # How many hours back to search (48h to avoid missing articles)
+  lookback_hours: 48
+  # Max articles per journal per run
+  max_results_per_journal: 20
+  # NCBI API key (optional, increases rate limit from 3/s to 10/s)
+  # Set as NCBI_API_KEY in GitHub Secrets
+  api_key_env: "NCBI_API_KEY"
