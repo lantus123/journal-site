@@ -26,7 +26,11 @@ journals:
   - name: "Archives of Disease in Childhood - Fetal and Neonatal Edition"
     query: '"Arch Dis Child Fetal Neonatal Ed"[jour]'
     category: "nicu"
-
+    
+- name: "Cochrane Database of Systematic Reviews - Neonatal"
+    query: '"Cochrane Database Syst Rev"[jour] AND (neonat*[tiab] OR preterm[tiab] OR prematur*[tiab] OR newborn[tiab] OR VLBW[tiab] OR ELBW[tiab] OR "low birth weight"[tiab])'
+    category: "nicu"
+    
   # --- 兒童重症 / PICU ---
   - name: "Pediatric Critical Care Medicine"
     query: '"Pediatr Crit Care Med"[jour]'
