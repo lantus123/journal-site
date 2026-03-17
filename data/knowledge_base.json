@@ -1,1 +1,703 @@
-[]
+[
+  {
+    "pmid": "41837717",
+    "title": "Inhaled Antibiotics to Treat Ventilator-Associated Pneumonia: A Systematic Review and Meta-Analysis.",
+    "journal": "Critical Care Medicine",
+    "pub_date": "2026 Mar 16",
+    "total_score": 5,
+    "scores": {
+      "design": 5,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 5
+    },
+    "keywords": [
+      "呼吸器相關肺炎(VAP)",
+      "吸入性抗生素",
+      "重症患者",
+      "統合分析",
+      "抗藥性菌株"
+    ],
+    "one_liner": "高品質統合分析證實吸入性抗生素輔助治療VAP可改善臨床治癒率與死亡率，特別在純VAP患者族群效果顯著，值得在PICU推廣應用。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": true
+  },
+  {
+    "pmid": "41837993",
+    "title": "Comparative Effectiveness of Antihypertensive Medications in Children With Chronic Kidney Disease.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 5
+    },
+    "keywords": [
+      "慢性腎臟病（CKD）",
+      "兒童高血壓",
+      "RAAS 抑制劑",
+      "腎功能保護",
+      "比較效果研究"
+    ],
+    "one_liner": "大規模比較效果研究證實 RAASi 優於 CCB 用於兒童 CKD 患者，應成為一線抗高血壓治療選擇。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": true
+  },
+  {
+    "pmid": "41833316",
+    "title": "Speech Auditory Brainstem Response to Predict Language Delay.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 4,
+      "novelty": 4,
+      "generalizability": 4
+    },
+    "keywords": [
+      "語言發展遲緩預測",
+      "聽覺腦幹反應(ABR)",
+      "早期療育(EI)",
+      "神經生物標誌物",
+      "早產兒追蹤"
+    ],
+    "one_liner": "Speech ABR作為客觀神經生物標誌物可早期精準預測語言遲緩，優於傳統臨床指標，有助於及時介入。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": true
+  },
+  {
+    "pmid": "41837728",
+    "title": "Effect of Adjunctive Train-of-Four Monitoring Using Peripheral Nerve Stimulation on Neuromuscular Blocking Agent Dose in PICU Patients: A Randomized Crossover Study.",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Mar 16",
+    "total_score": 4,
+    "scores": {
+      "design": 5,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "neuromuscular blocking agent (NMBA)",
+      "train-of-four monitoring",
+      "cisatracurium",
+      "PICU",
+      "paralysis depth assessment"
+    ],
+    "one_liner": "首個兒童RCT證實TOF監測在PICU中未能改變NMBA給藥，但樣本數偏小(n=16)，臨床推廣前需更大規模驗證。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": true
+  },
+  {
+    "pmid": "41837966",
+    "title": "Long-Term Trends in Pediatric Self-Injury in High-Income Countries: A Systematic Review and Meta-Analysis.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 4,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "自傷行為",
+      "青少年心理健康",
+      "流行病學趨勢",
+      "性別差異",
+      "高所得國家"
+    ],
+    "one_liner": "高所得國家兒童青少年自傷行為呈上升趨勢且女性風險更高，對急診與心理健康服務有重要啟示，但與NICU/新生兒照護的直接臨床關聯性較低。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41839447",
+    "title": "An Electronic Health Record-Based Tobacco Treatment System for Parents in Pediatric Primary Care.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 17",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "家長戒菸",
+      "電子病歷整合",
+      "二手菸暴露",
+      "兒科預防照護",
+      "菸草治療系統"
+    ],
+    "one_liner": "自動化EHR菸草治療系統在兒科初級照護中對母親戒菸有中等效益，但父親無效，提示需性別化干預策略。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41839225",
+    "title": "Pulmonary Hypertension Associated With Vitamin C Deficiency Is Rapidly Reversible.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 17",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 4,
+      "generalizability": 2
+    },
+    "keywords": [
+      "維生素C缺乏症",
+      "肺高壓",
+      "壞血病",
+      "營養缺乏",
+      "可逆性心臟病"
+    ],
+    "one_liner": "罕見但可完全逆轉的維生素C缺乏症肺高壓病例系列，提醒臨床醫師勿忽視營養因素在不明肺高壓的角色。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41833317",
+    "title": "Clinical Practice Guideline for Diagnosis and Management of Faltering Weight.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 1,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 5
+    },
+    "keywords": [
+      "faltering weight",
+      "營養不良",
+      "診斷標準",
+      "臨床實踐指南",
+      "兒童營養評估"
+    ],
+    "one_liner": "更新診斷標準與管理建議的指南性文件，臨床實用性高但缺乏新證據生成，主要價值在於規範化診療流程與減少過度檢查。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41839539",
+    "title": "Current knowledge and future perspectives on management and prevention of group B streptococcus in neonates and young infants.",
+    "journal": "Archives of Disease in Childhood - Fetal and Neonatal Edition",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 1,
+      "relevance": 5,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "B群鏈球菌",
+      "新生兒敗血症",
+      "產時抗生素預防",
+      "母親疫苗接種",
+      "流行病學監測"
+    ],
+    "one_liner": "系統性回顧GBS預防現況與未來方向，雖無新穎發現但對NICU感染防控政策制定具重要指導意義。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41837730",
+    "title": "Point-of-Care Electrolyte Measurement in ICU: Mind the Interpretation Bias, Operational, and Knowledge Gaps.",
+    "journal": "Critical Care Medicine",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "床邊檢測",
+      "電解質監測",
+      "品質控制",
+      "解釋偏差",
+      "重症照護"
+    ],
+    "one_liner": "床邊電解質檢測的臨床應用存在多層次缺陷，需要系統性改善以確保重症患者的安全照護。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41838085",
+    "title": "Neurotoxicity of ICU sedatives: we should end the surrogate debate and standardize long-term brain outcomes with a core neuro-outcome set.",
+    "journal": "Intensive Care Medicine",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 1,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 3
+    },
+    "keywords": [
+      "ICU鎮靜劑神經毒性",
+      "長期神經發展預後",
+      "核心預後指標集",
+      "NICU/PICU"
+    ],
+    "one_liner": "重要的方法論倡議，呼籲建立標準化神經預後評估指標以解決ICU鎮靜劑神經毒性的臨床證據困境，但本身為評論而非新證據。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41838084",
+    "title": "Parenting, pregnancy and work-family balance in intensive care medicine: an ESICM survey and a call for action.",
+    "journal": "Intensive Care Medicine",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "工作與家庭平衡",
+      "重症醫學人力",
+      "職場性別平等",
+      "醫療人員福祉",
+      "ESICM"
+    ],
+    "one_liner": "重症醫學工作環境的人力資源與職場福利問題調查，雖非臨床治療研究但對醫療機構政策與人員留任具參考價值。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41838011",
+    "title": "Annual Trends in Unmet Health Care Needs Among Children With Autism Spectrum Disorder.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "自閉症譜系障礙",
+      "醫療可及性",
+      "兒童健康照護",
+      "健康不平等",
+      "趨勢分析"
+    ],
+    "one_liner": "ASD兒童醫療可及性研究與重症醫學直接相關性低，且摘要資訊不足以評估臨床價值。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41837976",
+    "title": "Missed Opportunities for Human Papillomavirus Vaccination Before Sexual Debut Among Adolescents.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 2
+    },
+    "keywords": [
+      "HPV疫苗接種",
+      "青少年預防醫學",
+      "公衛政策",
+      "疫苗覆蓋率"
+    ],
+    "one_liner": "HPV疫苗接種政策研究與新生兒/兒童重症醫學無直接相關，臨床應用價值低。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41833320",
+    "title": "The Benefits and Harms of Endoscopy and Other Diagnostic Tests to Detect Underlying Conditions in Children With Faltering Weight: Technical Report.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "faltering weight",
+      "failure to thrive",
+      "diagnostic testing",
+      "endoscopy",
+      "systematic review"
+    ],
+    "one_liner": "證據品質極低的系統性回顧，呼籲臨床醫師應謹慎選擇診斷檢查而非過度檢查，但未提供具體指引。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41833314",
+    "title": "The Impact of Socioeconomic Status and Different Treatment Modalities on Children With Faltering Weight: Technical Report.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "體重不增長",
+      "社經地位",
+      "營養介入",
+      "兒童營養",
+      "系統性回顧"
+    ],
+    "one_liner": "系統性回顧顯示SES與體重不增長的關聯不確定，現有治療方式缺乏有力證據支持，對重症醫學臨床決策的直接應用價值有限。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41839538",
+    "title": "Twin congenital heart disease in the setting of twin-to-twin transfusion syndrome.",
+    "journal": "Archives of Disease in Childhood - Fetal and Neonatal Edition",
+    "pub_date": "2026 Mar 16",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "雙胞胎輸血症候群",
+      "先天性心臟病",
+      "胎兒異常",
+      "個案報告"
+    ],
+    "one_liner": "罕見個案報告，臨床教學價值大於實證證據強度，對日常照護決策影響有限。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41837725",
+    "title": "Offering a Potential Route to Better Neonatal ICU to PICU Transitions.",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Mar 16",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "NICU-PICU轉院",
+      "照護銜接",
+      "轉院流程",
+      "新生兒重症照護"
+    ],
+    "one_liner": "意見文章提出NICU-PICU轉院改善方向，但缺乏實證數據支持，參考價值有限。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41838012",
+    "title": "Screens and Youth Sleep.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "青少年睡眠",
+      "螢幕使用",
+      "睡眠衛生"
+    ],
+    "one_liner": "文獻資訊不完整（缺少摘要內容），無法進行有效的臨床評估。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41838010",
+    "title": "JAMA Pediatrics-The Year in Review, 2025.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "文獻回顧",
+      "年度總結",
+      "兒科研究趨勢",
+      "學術綜述"
+    ],
+    "one_liner": "年度文獻回顧性質，無原創臨床證據，對實務照護決策的直接影響有限。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41837995",
+    "title": "Coding Error in Dataset of Study of Behavior Problems in Low-Income Young Children Screened in Pediatric Primary Care.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "資料品質",
+      "行為篩檢",
+      "低收入兒童",
+      "勘誤",
+      "初級照護"
+    ],
+    "one_liner": "資料勘誤公告，無新臨床證據，主要為學術誠信與資料品質管理之重要性提醒。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41837992",
+    "title": "JAMA Pediatrics Peer Reviewers in 2025.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "期刊管理",
+      "編輯致謝",
+      "同儕審查"
+    ],
+    "one_liner": "編輯致謝文件，非臨床研究論文，無臨床證據價值。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41837986",
+    "title": "The US Advisory Committee on Immunization Practices Dismantled.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "免疫政策",
+      "疫苗接種",
+      "公衛政策",
+      "兒童健康"
+    ],
+    "one_liner": "政策評論文章，缺乏原始臨床證據，對新生兒重症照護的直接指導意義不大。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41837982",
+    "title": "Coding Error in Study of Behavior Problems in Low-Income Children.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "編碼錯誤",
+      "研究方法學",
+      "資料品質",
+      "行為問題",
+      "勘誤"
+    ],
+    "one_liner": "編碼錯誤勘誤報告，與新生兒/兒童重症醫學無關，臨床應用價值極低。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41837964",
+    "title": "Digital Media, Attention Fracking, and Youth Mental Health.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "青少年心理健康",
+      "數位媒體",
+      "注意力",
+      "行為醫學"
+    ],
+    "one_liner": "本文為青少年心理健康評論，與新生兒/兒童重症醫學臨床實務無直接相關性。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41837954",
+    "title": "Generative AI in Adolescence-A Developmental Framework.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "生成式人工智能",
+      "青少年發展",
+      "倫理框架",
+      "心理社會影響",
+      "文獻回顧"
+    ],
+    "one_liner": "此為青少年發展與AI倫理的理論框架文章，與新生兒/兒童重症醫學臨床實踐無直接相關性。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41833319",
+    "title": "Opportunities and Alternative Approaches for Improving Language Outcomes in Young Children.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "語言發展",
+      "幼兒發展",
+      "語言干預",
+      "綜述",
+      "發展兒科"
+    ],
+    "one_liner": "語言發展綜述文章，與新生兒/兒童重症醫學的直接臨床應用關聯性不高。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41838088",
+    "title": "Immunosuppressive treatment in solid organ transplant critically ill patients: still an unanswered question?",
+    "journal": "Intensive Care Medicine",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "器官移植",
+      "免疫抑制治療",
+      "成人重症醫學",
+      "臨床決策"
+    ],
+    "one_liner": "此為器官移植成人ICU的文獻回顧，與新生兒/兒童重症醫學無直接關聯，臨床參考價值有限。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41838087",
+    "title": "Should decision-making for cardiac arrest survivors be frailty-driven or frailty-informed? Author's reply.",
+    "journal": "Intensive Care Medicine",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "心跳停止",
+      "虛弱評估",
+      "倫理決策",
+      "預後評估",
+      "成人ICU"
+    ],
+    "one_liner": "編輯往來信函缺乏原始實證數據，對兒童重症照護的實際應用價值有限。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41838086",
+    "title": "Between two worlds: from ESICM lives back to my ICU-a perspective from Tunisia.",
+    "journal": "Intensive Care Medicine",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "個人觀點",
+      "國際學術交流",
+      "重症醫學",
+      "臨床實踐差異",
+      "突尼西亞醫療"
+    ],
+    "one_liner": "個人評論文章，無實證研究設計與數據支持，臨床參考價值有限。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41839490",
+    "title": "Measles: children and vulnerable communities face disproportionate harms.",
+    "journal": "BMJ",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "麻疹",
+      "兒童健康",
+      "公共衛生政策",
+      "弱勢族群",
+      "疫苗預防"
+    ],
+    "one_liner": "政策評論文章，缺乏原始研究數據，對新生兒/兒童重症臨床實務的直接指導價值有限。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  }
+]
