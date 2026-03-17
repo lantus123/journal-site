@@ -1,20 +1,4 @@
-# ============================================
-# NICU/PICU Journal Auto-Review System
-# Journal Configuration
-# ============================================
-# Edit this file to add/remove tracked journals.
-# Push to GitHub and changes take effect next run.
-
 journals:
-  # --- 新生兒 / NICU ---
-  - name: "JAMA Pediatrics"
-    query: '"JAMA Pediatr"[jour]'
-    category: "nicu"
-
-  - name: "Pediatrics"
-    query: '"Pediatrics"[jour]'
-    category: "nicu"
-
   - name: "Journal of Perinatology"
     query: '"J Perinatol"[jour]'
     category: "nicu"
@@ -26,71 +10,306 @@ journals:
   - name: "Archives of Disease in Childhood - Fetal and Neonatal Edition"
     query: '"Arch Dis Child Fetal Neonatal Ed"[jour]'
     category: "nicu"
-    
-- name: "Cochrane Database of Systematic Reviews - Neonatal"
-    query: '"Cochrane Database Syst Rev"[jour] AND (neonat*[tiab] OR preterm[tiab] OR prematur*[tiab] OR newborn[tiab] OR VLBW[tiab] OR ELBW[tiab] OR "low birth weight"[tiab])'
+
+  - name: "Neonatology"
+    query: '"Neonatology"[jour]'
     category: "nicu"
-    
-  # --- 兒童重症 / PICU ---
+
+  - name: "Seminars in Fetal and Neonatal Medicine"
+    query: '"Semin Fetal Neonatal Med"[jour]'
+    category: "nicu"
+
+  - name: "Seminars in Perinatology"
+    query: '"Semin Perinatol"[jour]'
+    category: "nicu"
+
+  - name: "Early Human Development"
+    query: '"Early Hum Dev"[jour]'
+    category: "nicu"
+
+  - name: "Pediatrics and Neonatology"
+    query: '"Pediatr Neonatol"[jour]'
+    category: "nicu"
+
+  - name: "Cochrane Database of Systematic Reviews - Neonatal"
+    query: '"Cochrane Database Syst Rev"[jour] AND (neonat*[tiab] OR preterm[tiab] OR prematur*[tiab] OR newborn[tiab] OR VLBW[tiab] OR ELBW[tiab])'
+    category: "nicu"
+
+  - name: "JAMA Pediatrics"
+    query: '"JAMA Pediatr"[jour]'
+    category: "pediatrics"
+    filter_keywords:
+      - neonat
+      - newborn
+      - preterm
+      - prematur
+      - very low birth weight
+      - VLBW
+      - ELBW
+      - extremely low
+      - gestational age
+      - NICU
+      - surfactant
+      - bronchopulmonary
+      - BPD
+      - necrotizing enterocolitis
+      - NEC
+      - retinopathy
+      - ROP
+      - intraventricular hemorrhage
+      - IVH
+      - periventricular
+      - PVL
+      - caffeine
+      - apnea of prematurity
+      - kangaroo
+      - human milk
+      - breast milk
+      - fortifier
+      - parenteral nutrition
+      - TPN
+      - umbilical
+      - developmental follow
+      - neurodevelopment
+      - bayley
+      - early intervention
+      - cerebral palsy
+      - developmental delay
+      - corrected age
+      - postnatal growth
+
+  - name: "Pediatrics"
+    query: '"Pediatrics"[jour]'
+    category: "pediatrics"
+    filter_keywords:
+      - neonat
+      - newborn
+      - preterm
+      - prematur
+      - very low birth weight
+      - VLBW
+      - ELBW
+      - extremely low
+      - gestational age
+      - NICU
+      - surfactant
+      - bronchopulmonary
+      - BPD
+      - necrotizing enterocolitis
+      - NEC
+      - retinopathy
+      - ROP
+      - intraventricular hemorrhage
+      - IVH
+      - periventricular
+      - PVL
+      - caffeine
+      - apnea of prematurity
+      - kangaroo
+      - human milk
+      - breast milk
+      - fortifier
+      - parenteral nutrition
+      - TPN
+      - umbilical
+      - developmental follow
+      - neurodevelopment
+      - bayley
+      - early intervention
+      - cerebral palsy
+      - developmental delay
+      - corrected age
+      - postnatal growth
+
+  - name: "The Journal of Pediatrics"
+    query: '"J Pediatr"[jour]'
+    category: "pediatrics"
+    filter_keywords:
+      - neonat
+      - newborn
+      - preterm
+      - prematur
+      - very low birth weight
+      - VLBW
+      - ELBW
+      - extremely low
+      - gestational age
+      - NICU
+      - surfactant
+      - bronchopulmonary
+      - BPD
+      - necrotizing enterocolitis
+      - NEC
+      - retinopathy
+      - ROP
+      - intraventricular hemorrhage
+      - IVH
+      - periventricular
+      - PVL
+      - caffeine
+      - apnea of prematurity
+      - kangaroo
+      - human milk
+      - breast milk
+      - fortifier
+      - parenteral nutrition
+      - TPN
+      - umbilical
+      - developmental follow
+      - neurodevelopment
+      - bayley
+      - early intervention
+      - cerebral palsy
+      - developmental delay
+      - corrected age
+      - postnatal growth
+
+  - name: "Acta Paediatrica"
+    query: '"Acta Paediatr"[jour]'
+    category: "pediatrics"
+    filter_keywords:
+      - neonat
+      - newborn
+      - preterm
+      - prematur
+      - VLBW
+      - ELBW
+      - NICU
+      - BPD
+      - NEC
+      - ROP
+      - IVH
+      - surfactant
+      - caffeine
+      - human milk
+      - kangaroo
+      - neurodevelopment
+      - developmental follow
+      - bayley
+      - cerebral palsy
+      - corrected age
+
+  - name: "Pediatric Research"
+    query: '"Pediatr Res"[jour]'
+    category: "pediatrics"
+    filter_keywords:
+      - neonat
+      - newborn
+      - preterm
+      - prematur
+      - VLBW
+      - ELBW
+      - NICU
+      - BPD
+      - NEC
+      - ROP
+      - IVH
+      - surfactant
+      - lung development
+      - brain development
+      - gut microbiome
+      - necrotizing
+      - neurodevelopment
+      - fetal
+      - placenta
+
   - name: "Pediatric Critical Care Medicine"
     query: '"Pediatr Crit Care Med"[jour]'
     category: "picu"
+    filter_keywords:
+      - neonat
+      - newborn
+      - preterm
+      - prematur
+      - NICU
+      - infant
+      - ECMO
+      - congenital heart
+      - congenital diaphragmatic
 
   - name: "Critical Care Medicine"
     query: '"Crit Care Med"[jour]'
     category: "picu"
+    filter_keywords:
+      - neonat
+      - newborn
+      - preterm
+      - NICU
+      - pediatr
+      - infant
+      - child
 
   - name: "Intensive Care Medicine"
     query: '"Intensive Care Med"[jour]'
     category: "picu"
-
-  # --- 綜合醫學頂刊 ---
-  - name: "New England Journal of Medicine"
-    query: '"N Engl J Med"[jour]'
-    category: "general"
-    # Filter: only fetch pediatric/neonatal articles from general journals
     filter_keywords:
       - neonat
-      - pediatr
-      - infant
-      - child
       - newborn
       - preterm
       - NICU
-      - PICU
+      - pediatr
+      - infant
+      - child
+
+  - name: "New England Journal of Medicine"
+    query: '"N Engl J Med"[jour]'
+    category: "general"
+    filter_keywords:
+      - neonat
+      - newborn
+      - preterm
+      - prematur
+      - NICU
+      - infant
+      - surfactant
+      - BPD
+      - NEC
 
   - name: "The Lancet"
     query: '"Lancet"[jour]'
     category: "general"
     filter_keywords:
       - neonat
-      - pediatr
-      - infant
-      - child
       - newborn
       - preterm
+      - prematur
       - NICU
-      - PICU
+      - infant
+      - surfactant
+      - BPD
+      - NEC
 
   - name: "BMJ"
     query: '"BMJ"[jour]'
     category: "general"
     filter_keywords:
       - neonat
-      - pediatr
-      - infant
-      - child
       - newborn
       - preterm
+      - prematur
       - NICU
-      - PICU
+      - infant
+      - surfactant
+      - BPD
+      - NEC
 
-# PubMed API settings
+  - name: "JAMA Network Open"
+    query: '"JAMA Netw Open"[jour]'
+    category: "general"
+    filter_keywords:
+      - neonat
+      - newborn
+      - preterm
+      - prematur
+      - NICU
+      - VLBW
+      - ELBW
+      - BPD
+      - NEC
+      - neurodevelopment
+      - developmental follow
+
 pubmed:
-  # How many hours back to search (48h to avoid missing articles)
   lookback_hours: 48
-  # Max articles per journal per run
   max_results_per_journal: 20
-  # NCBI API key (optional, increases rate limit from 3/s to 10/s)
-  # Set as NCBI_API_KEY in GitHub Secrets
   api_key_env: "NCBI_API_KEY"
