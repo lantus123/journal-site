@@ -1425,5 +1425,438 @@
     "one_liner": "評論文章缺乏原始臨床數據，對新生兒/兒童重症照護無直接應用價值。",
     "processed_date": "2026-03-17",
     "has_deep_analysis": false
+  },
+  {
+    "pmid": "41838827",
+    "title": "European Consensus Guidelines on the Management of Respiratory Distress Syndrome - 2026.",
+    "journal": "Neonatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 5,
+    "scores": {
+      "design": 5,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 4
+    },
+    "keywords": [
+      "RDS",
+      "surfactant",
+      "CPAP",
+      "INSURE",
+      "LISA",
+      "VLBW",
+      "早產兒呼吸支持"
+    ],
+    "one_liner": "歐洲最新 RDS 共識指引整合了 INSURE、LISA、permissive hypercapnia 等關鍵策略，應納入台灣早產兒呼吸照護的標準參考。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": true
+  },
+  {
+    "pmid": "41833316",
+    "title": "Speech Auditory Brainstem Response to Predict Language Delay.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 4,
+      "novelty": 4,
+      "generalizability": 3
+    },
+    "keywords": [
+      "neurodevelopment",
+      "language delay",
+      "early intervention",
+      "preterm infant",
+      "EEG biomarker"
+    ],
+    "one_liner": "以EEG speech ABR作為客觀神經生物標誌預測語言遲緩具高度準確性，可強化早產兒發育追蹤的精準度並指導早期介入時機，值得納入NICU出院後追蹤評估工具。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": true
+  },
+  {
+    "pmid": "41831781",
+    "title": "Effects of Extracorporeal Life Support Volume on Neonatal Mortality in Congenital Diaphragmatic Hernia: A Retrospective Cohort Study.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Mar 12",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "CDH",
+      "ECLS",
+      "volume-outcome relationship",
+      "neonatal mortality",
+      "procedural experience"
+    ],
+    "one_liner": "大型回溯性研究證實 ECLS 中心的手術量與 CDH 患者死亡率呈反相關，支持建立區域轉診機制以集中高危患者至高量中心。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": true
+  },
+  {
+    "pmid": "41840153",
+    "title": "Influence of mode of delivery on neonatal QTc.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 4,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 4
+    },
+    "keywords": [
+      "QTc interval",
+      "mode of delivery",
+      "neonatal ECG",
+      "cardiac electrophysiology",
+      "population-based cohort"
+    ],
+    "one_liner": "分娩方式與新生兒 QTc 有統計相關性，但臨床意義有限，不足以改變現有 NICU 照護實踐。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41840151",
+    "title": "Annual trends and regional variations in medical interventions and survival to discharge for trisomies 18 and 13, 2011-2022: a nationwide inpatient database study.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 4
+    },
+    "keywords": [
+      "trisomy 18",
+      "trisomy 13",
+      "survival outcomes",
+      "regional disparities",
+      "medical interventions"
+    ],
+    "one_liner": "這是日本全國資料庫的描述性研究，記錄三體症新生兒介入與存活率的長期趨勢與區域差異，但缺乏機制性洞見或實證介入策略，對台灣 NICU 臨床決策的參考價值有限。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41840150",
+    "title": "Effects of surfactant therapy, ventilation, and patent ductus arteriosus on regional pulmonary and cerebral oxygenation in preterm infants using near-infrared spectroscopy.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "NIRS",
+      "surfactant",
+      "PDA",
+      "pulmonary oxygenation",
+      "preterm infants"
+    ],
+    "one_liner": "小樣本觀察性研究首次應用 NIRS 監測早產兒肺部區域氧合，發現 surfactant 與 hsPDA 的影響模式，具創新性但證據等級低，可作為未來大型研究的基礎。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41840149",
+    "title": "Development of an interdisciplinary tool to assess severe BPD phase of illness and application evaluating impact of tracheostomy.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "BPD",
+      "tracheostomy",
+      "sBPD",
+      "interdisciplinary assessment",
+      "chronic lung disease"
+    ],
+    "one_liner": "為重度 BPD 患者提供新的縱向評估工具並初步驗證氣管造口術效益，但因設計為回溯性且樣本規模不明，實用性有待大型前瞻性研究確認。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41840148",
+    "title": "Hereditary red cell defects as an underrecognized cause of neonatal jaundice.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "neonatal jaundice",
+      "hereditary elliptocytosis",
+      "SPTB mutation",
+      "hemolytic anemia",
+      "phototherapy"
+    ],
+    "one_liner": "提醒新生兒科醫師在評估早期黃疸時應考慮 HE 作為血型不合以外的遺傳性病因，但因樣本來自單一機構且缺乏長期追蹤數據，證據力有限。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41839539",
+    "title": "Current knowledge and future perspectives on management and prevention of group B streptococcus in neonates and young infants.",
+    "journal": "Archives of Disease in Childhood - Fetal and Neonatal Edition",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "GBS",
+      "neonatal sepsis",
+      "meningitis",
+      "intrapartum antibiotic prophylaxis",
+      "neurodevelopmental outcome"
+    ],
+    "one_liner": "英國 GBS 預防策略的現況檢視與未來展望，對理解全球 GBS 防治方向有參考價值，但缺乏新的臨床證據或改變現行做法的具體建議。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41840152",
+    "title": "Diversity, equity, and inclusion considerations for anti-racist, equity-focused NICU family mental health.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "health equity",
+      "perinatal mental health",
+      "health disparities",
+      "NICU family support",
+      "anti-racism"
+    ],
+    "one_liner": "重要的社會正義議題但缺乏實證數據支持，不會直接改變 NICU 臨床照護決策；適合機構政策討論而非臨床指引參考。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41839447",
+    "title": "An Electronic Health Record-Based Tobacco Treatment System for Parents in Pediatric Primary Care.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 17",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "secondhand smoke exposure",
+      "parental smoking cessation",
+      "pediatric primary care",
+      "EHR-based intervention",
+      "preventive care"
+    ],
+    "one_liner": "此為小兒初級照護的公共衛生研究，與新生兒重症照護無直接關聯，NICU 醫師可跳過。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41833971",
+    "title": "Modified stress scores enhance prediction of outcomes after pediatric cardiac surgery.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 15",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "pediatric cardiac surgery",
+      "metabolic stress",
+      "risk stratification",
+      "perioperative outcomes"
+    ],
+    "one_liner": "本研究聚焦小兒心臟手術風險分層，與新生兒科照護無直接相關性，可跳過。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41838001",
+    "title": "Incidence of Adverse Events in Peripheral Intravenous Vasopressor Use: A Systematic Review and Meta-Analysis.",
+    "journal": "JAMA Network Open",
+    "pub_date": "2026 Mar 02",
+    "total_score": 2,
+    "scores": {
+      "design": 5,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人重症醫學",
+      "周邊靜脈導管",
+      "血管升壓劑",
+      "不良事件",
+      "非新生兒"
+    ],
+    "one_liner": "此為成人 ICU 周邊靜脈血管升壓劑安全性的高品質統合分析，與新生兒照護無直接關聯，可跳過。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41839538",
+    "title": "Twin congenital heart disease in the setting of twin-to-twin transfusion syndrome.",
+    "journal": "Archives of Disease in Childhood - Fetal and Neonatal Edition",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "TTTS",
+      "先天性心臟病",
+      "雙胞胎",
+      "個案報告",
+      "新生兒診斷"
+    ],
+    "one_liner": "罕見個案報告，臨床教學價值有限，不影響 NICU 標準照護決策，可選擇性閱讀。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41832085",
+    "title": "Introduction.",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Feb 28",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "incomplete submission",
+      "abstract missing",
+      "unable to assess"
+    ],
+    "one_liner": "提供的資料不完整（僅有標題與出版資訊，無摘要），無法進行實質評估；建議補充完整摘要後重新提交。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41837993",
+    "title": "Comparative Effectiveness of Antihypertensive Medications in Children With Chronic Kidney Disease.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "慢性腎臟病",
+      "兒童高血壓",
+      "RAASi",
+      "鈣通道阻斷劑",
+      "腎功能保護"
+    ],
+    "one_liner": "此為兒童腎臟病學研究，與新生兒/早產兒照護無關，新生兒科醫師可跳過。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41833974",
+    "title": "The pathway of early detection, diagnosis, and intervention for autistic children: a multi-center mixed method study.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 15",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "autism spectrum disorder",
+      "early detection",
+      "care pathway",
+      "health system barriers",
+      "low-middle income countries"
+    ],
+    "one_liner": "可跳過：此為自閉症兒童社區照護路徑研究，與新生兒科 NICU 照護決策無直接相關性。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41832260",
+    "title": "Interpreting bone age advancement in premature adrenarche remains challenging.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 15",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "premature adrenarche",
+      "bone age",
+      "pediatric endocrinology",
+      "non-NICU"
+    ],
+    "one_liner": "此為兒科內分泌學的敘述性評論，與新生兒科/早產兒照護無關，可跳過。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41837725",
+    "title": "Offering a Potential Route to Better Neonatal ICU to PICU Transitions.",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Mar 16",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "NICU-PICU transition",
+      "critical care",
+      "incomplete data"
+    ],
+    "one_liner": "摘要內容缺失，無法進行實質評估；建議補充完整摘要後重新提交。",
+    "processed_date": "2026-03-17",
+    "has_deep_analysis": false
   }
 ]
