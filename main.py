@@ -140,24 +140,42 @@ def run_pipeline(dry_run: bool = False):
     # 7. Save PMID cache
     fetcher.save_cache()
 
-    # 8. Send email digest
+    # 8. Send digest (Email + LINE)
     if not dry_run:
         logger.info("\n--- Phase 4: Sending digest ---")
         on_demand = load_on_demand_queue()
         if on_demand:
             logger.info(f"Including {len(on_demand)} on-demand analyses from yesterday")
 
-        emailer = EmailPusher()
-        # Only include score >= 2 in digest
         digest_articles = [a for a in articles if a.get("total_score", 0) >= 2]
-        success = emailer.send_digest(digest_articles, on_demand)
-        if success:
-            logger.info("Digest sent successfully!")
+
+        # Email
+        emailer = EmailPusher()
+        email_ok = emailer.send_digest(digest_articles, on_demand)
+        if email_ok:
+            logger.info("Email digest sent!")
         else:
-            logger.error("Failed to send digest")
+            logger.warning("Email not sent (not configured or failed)")
+
+        # LINE
+        from src.push_line import LinePusher
+        line = LinePusher()
+        if line.is_configured:
+            line_ok = line.send_digest(digest_articles, on_demand)
+            if line_ok:
+                logger.info("LINE digest sent!")
+            else:
+                logger.error("LINE digest failed")
+
+            # Instant alert for Score 5
+            score5 = [a for a in articles if a.get("total_score", 0) >= 5]
+            for a in score5:
+                line.send_instant_alert(a)
+                logger.info(f"LINE instant alert sent for PMID {a['pmid']}")
+        else:
+            logger.warning("LINE not configured - skipping")
     else:
-        logger.info("\n[DRY RUN] Skipping email send")
-        # Print sample output for verification
+        logger.info("\n[DRY RUN] Skipping push")
         for a in articles[:3]:
             logger.info(
                 f"  [{a.get('total_score', '?')}] {a['title'][:70]}..."
