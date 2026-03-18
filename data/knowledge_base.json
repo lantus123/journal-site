@@ -1858,5 +1858,256 @@
     "one_liner": "摘要內容缺失，無法進行實質評估；建議補充完整摘要後重新提交。",
     "processed_date": "2026-03-17",
     "has_deep_analysis": false
+  },
+  {
+    "pmid": "41844440",
+    "title": "Early motor repertoire and motor development at 1, 2 and 5 years in infants born very preterm: A prospective cohort study.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 03",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "早產兒發育追蹤",
+      "General Movements Assessment",
+      "運動發育",
+      "GMOS-R",
+      "神經發育預後"
+    ],
+    "one_liner": "GMOS-R 在極早產兒 1 歲前運動發育預測具有價值，但對 2-5 歲長期預測力有限，適合作為早期篩檢工具但需搭配後續追蹤評估。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": true
+  },
+  {
+    "pmid": "41844834",
+    "title": "Trends in admissions and costs for neonatal intensive care in US children's hospitals, 2017-2022.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 17",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "NICU admissions",
+      "healthcare costs",
+      "patient acuity",
+      "preterm infants",
+      "health economics"
+    ],
+    "one_liner": "這是一篇重要的健康經濟學與流行病學研究，揭示美國 NICU 患者複雜度與成本上升趨勢，對醫院管理與資源規劃有參考價值，但對臨床照護決策的直接影響有限。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41844833",
+    "title": "Feasibility of integration of a novel bCPAP system into the NICU of a Public Referral Hospital in Mysuru, India.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 17",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "bCPAP",
+      "NICU",
+      "feasibility study",
+      "respiratory support",
+      "low-resource setting"
+    ],
+    "one_liner": "本研究確認新型 bCPAP 在資源受限的印度 NICU 可行性，但缺乏臨床預後數據，對台灣 NICU 的直接應用價值有限。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41846196",
+    "title": "Approaches to red blood cell transfusion for the very low birth weight infant.",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 06",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "VLBW",
+      "red blood cell transfusion",
+      "anemia",
+      "NICU management",
+      "clinical decision-making"
+    ],
+    "one_liner": "VLBW 嬰兒輸血管理的實用綜述，適合作為臨床決策參考但無paradigm-shifting證據。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41844441",
+    "title": "Exploring early intervention models at home to support the development of preterm infants: A literature review to guide professionals and involve parents.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 11",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "早產兒發育追蹤",
+      "居家介入",
+      "家長心理健康",
+      "親子互動",
+      "神經發育預防"
+    ],
+    "one_liner": "確認居家早期介入對早產兒發育與家長心理健康有益，但文獻缺乏標準化內容指引，適合作為建立本院出院後追蹤計畫的參考框架，惟需進一步發展具體實施方案。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41844439",
+    "title": "Associations of intrapartum synthetic oxytocin administration with reduced neonatal salivary oxytocin levels and altered sucking patterns.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 14",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "oxytocin",
+      "breastfeeding",
+      "sucking pattern",
+      "neonatal feeding",
+      "maternal-neonatal interaction"
+    ],
+    "one_liner": "小型前瞻性研究發現產程催產素與新生兒催產素降低及吸吮模式異常相關，但樣本量小且未涵蓋早產兒，可作為後續大型研究的基礎但不足以改變現行做法。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41846197",
+    "title": "Extremely premature infant care: Reasonable progress or therapeutic fury?",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 04",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "extreme prematurity",
+      "shared decision-making",
+      "neurodevelopmental outcome",
+      "ethics",
+      "GA 22-24 weeks"
+    ],
+    "one_liner": "重要的倫理與決策框架提醒，但缺乏新的臨床證據，適合用於反思照護哲學而非改變具體臨床做法。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41848319",
+    "title": "EBNEO Commentary: Cerebral Saturation and Fractional Tissue Oxygen Extraction Are Associated With Anterior Cerebral Artery Doppler Parameters in Neonates With Congenital Heart Defects.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 18",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "先天性心臟病",
+      "NIRS",
+      "腦部灌流",
+      "都卜勒超音波",
+      "新生兒血流動力學"
+    ],
+    "one_liner": "評論性文章，提供先天性心臟病新生兒腦部灌流監測的背景知識，但缺乏原始數據與臨床可行性建議，可作為參考但不具實踐改變潛力。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41845053",
+    "title": "Cardio-metabolic risks in preterm children: opportunities, cautions and the importance of longer-term study.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 17",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "早產兒長期追蹤",
+      "心代謝風險",
+      "DOHaD",
+      "生長軌跡",
+      "代謝評估"
+    ],
+    "one_liner": "評論性文章，強調早產兒長期心代謝研究的重要性與方法學挑戰，但無新證據可直接改變臨床做法，適合作為長期追蹤計畫規劃的背景閱讀。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41849630",
+    "title": "Erratum.",
+    "journal": "Neonatology",
+    "pub_date": "2026 Mar 18",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "erratum",
+      "open access license",
+      "neonatal seizures"
+    ],
+    "one_liner": "純粹的期刊勘誤聲明，無臨床實質內容，可跳過。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41848733",
+    "title": "An AI Approach to Differentiating Lung Squamous Cell Carcinoma From Metastases of Other Origins.",
+    "journal": "JAMA Network Open",
+    "pub_date": "2026 Mar 02",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人腫瘤",
+      "病理診斷",
+      "人工智慧",
+      "鱗狀細胞癌",
+      "非新生兒相關"
+    ],
+    "one_liner": "成人肺癌病理診斷研究，與新生兒科照護無關，可跳過。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
   }
 ]
