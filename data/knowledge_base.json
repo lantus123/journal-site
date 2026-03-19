@@ -3665,5 +3665,256 @@
     "one_liner": "成人肺癌診斷研究，與新生兒照護無任何相關性，新生兒科醫師可直接跳過。",
     "processed_date": "2026-03-19",
     "has_deep_analysis": false
+  },
+  {
+    "pmid": "41855134",
+    "title": "Early Diagnoses of Concern Appear Valid in Predicting Adverse Neurodevelopmental Outcomes in Mid-Childhood.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 19",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "neurodevelopmental outcome",
+      "early diagnosis",
+      "follow-up",
+      "cerebral palsy",
+      "developmental delay"
+    ],
+    "one_liner": "大型登錄資料庫研究證實早期神經發育風險診斷具有良好預測效度，支持 NICU 出院後的系統性神經發育追蹤，但診斷標準化仍需改進。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41850187",
+    "title": "Paternal homocysteine concentrations and prenatal growth outcomes in early and late gestation: the Rotterdam Periconception Cohort (Predict Study).",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 16",
+    "total_score": 2,
+    "scores": {
+      "design": 4,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "periconception",
+      "homocysteine",
+      "fetal growth",
+      "prenatal development",
+      "paternal factors"
+    ],
+    "one_liner": "此為產科圍孕期研究，探討父親同半胱胺酸與胎兒宮內生長的關聯，與新生兒科日常照護決策無直接關聯，可跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41850186",
+    "title": "Emotion regulation in the two-year-old offspring of pregnant persons in a diet-and-exercise intervention: A randomized controlled trial.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 13",
+    "total_score": 2,
+    "scores": {
+      "design": 4,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "neurodevelopment",
+      "prenatal intervention",
+      "EEG",
+      "emotion regulation",
+      "behavioral outcome"
+    ],
+    "one_liner": "孕期飲食運動介入與幼兒情緒調節的關聯研究，與新生兒科臨床照護無直接相關性，可跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41850572",
+    "title": "Growth of Children With Cerebral Palsy and Health Outcomes.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 19",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "cerebral palsy",
+      "growth charts",
+      "GMFCS",
+      "long-term outcomes",
+      "neurodevelopment"
+    ],
+    "one_liner": "此為腦性麻痺兒童長期生長與健康結果研究，與新生兒期照護決策無直接相關，新生兒科醫師可跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41850419",
+    "title": "Comparative Effectiveness of Intravenous Immunoglobulin vs Steroids in the Treatment of Pediatric Acute (non-COVID) Myocarditis.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "myocarditis",
+      "pediatric",
+      "IVIg",
+      "steroids",
+      "non-NICU"
+    ],
+    "one_liner": "此為兒童心肌炎免疫治療的比較效果研究，與新生兒科日常照護無直接關聯，可跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41855408",
+    "title": "Mode of Conception and Long-Term Infectious Morbidity of the Offspring; a Sibling Analysis.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 19",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "fertility treatment",
+      "infectious morbidity",
+      "long-term follow-up",
+      "sibling analysis",
+      "reproductive medicine"
+    ],
+    "one_liner": "這是一項關於輔助生殖長期感染風險的人口世代研究，結論為無顯著增加風險，但與新生兒期照護決策無直接關聯，可跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41851496",
+    "title": "Downregulation of pigment epithelium-derived factor increases compensatory lung growth in mice after extended pneumonectomy.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 18",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "pulmonary hypoplasia",
+      "compensatory lung growth",
+      "FG-4592",
+      "angiogenesis",
+      "congenital lung disease"
+    ],
+    "one_liner": "有趣的基礎研究發現 FG-4592 促進代償性肺生長的機制，但目前僅為小鼠模型，臨床轉譯價值待評估，不影響現行早產兒或先天性肺疾病的照護策略。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41851494",
+    "title": "Impact of varying range of maternal oxygenation targets on fetal oxygenation and fetoplacental circulation in an ovine model of pregnancy.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 18",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "孕婦 ARDS",
+      "胎兒氧合",
+      "動物模型",
+      "fetoplacental circulation",
+      "基礎研究"
+    ],
+    "one_liner": "動物實驗研究孕婦氧合對胎兒的影響，設計嚴謹度有限且與新生兒 NICU 日常照護決策無直接關聯，可跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41851229",
+    "title": "Continuous Medicaid coverage: a policy strategy to improve access to care for high-risk neonates.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 18",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Medicaid",
+      "health insurance policy",
+      "access to care",
+      "NICU graduates",
+      "healthcare advocacy"
+    ],
+    "one_liner": "此為政策評論而非臨床研究，對 NICU 照護實務無直接指導價值，可跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41850579",
+    "title": "Weight and Health Outcomes in Cerebral Palsy: A Causality Dilemma.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 19",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "cerebral palsy",
+      "weight management",
+      "pediatric outcomes",
+      "narrative review"
+    ],
+    "one_liner": "可跳過——此為腦性麻痺患者長期體重管理的敘述性評論，與早產兒或新生兒重症照護無直接相關性。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41851497",
+    "title": "Correction: Determinants of unbound bilirubin and clinical utility of the total bilirubin/albumin ratio in neonates.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 18",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "bilirubin",
+      "albumin",
+      "neonatal jaundice",
+      "correction"
+    ],
+    "one_liner": "此為期刊更正聲明而非原始研究，建議查閱原始文章與更正內容後再評估臨床價值。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
   }
 ]
