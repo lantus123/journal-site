@@ -1,6 +1,10 @@
 """
 LINE Messaging API push module.
 Sends Flex Message digests to LINE group and individual users.
+
+Strategy:
+- Score 4-5: Flex Message carousel (rich cards with deep analysis)
+- Score 2-3: Text message list (title + PubMed link + deep analysis button)
 """
 
 import os
@@ -35,15 +39,42 @@ class LinePusher:
         if not self.is_configured:
             logger.warning("LINE not configured - skipping push")
             return False
-
         return self._push(self.group_id, message)
+
+    def push_to_group_multi(self, messages: list[dict]) -> bool:
+        """Push multiple messages in one API call (max 5)."""
+        if not self.is_configured:
+            logger.warning("LINE not configured - skipping push")
+            return False
+        # LINE allows max 5 messages per push
+        for i in range(0, len(messages), 5):
+            batch = messages[i:i+5]
+            payload = {
+                "to": self.group_id,
+                "messages": batch,
+            }
+            try:
+                resp = requests.post(
+                    f"{LINE_API_URL}/push",
+                    headers=self._headers(),
+                    json=payload,
+                    timeout=30,
+                )
+                if resp.status_code == 200:
+                    logger.info(f"LINE push sent ({len(batch)} messages)")
+                else:
+                    logger.error(f"LINE push failed: {resp.status_code} {resp.text}")
+                    return False
+            except Exception as e:
+                logger.error(f"LINE push error: {e}")
+                return False
+        return True
 
     def push_to_user(self, user_id: str, message: dict) -> bool:
         """Push a message to a specific user (for on-demand responses)."""
         if not self.channel_token:
             logger.warning("LINE not configured - skipping push")
             return False
-
         return self._push(user_id, message)
 
     def _push(self, to: str, message: dict) -> bool:
@@ -52,7 +83,6 @@ class LinePusher:
             "to": to,
             "messages": [message],
         }
-
         try:
             resp = requests.post(
                 f"{LINE_API_URL}/push",
@@ -60,31 +90,82 @@ class LinePusher:
                 json=payload,
                 timeout=30,
             )
-
             if resp.status_code == 200:
                 logger.info(f"LINE push sent to {to[:10]}...")
                 return True
             else:
                 logger.error(f"LINE push failed: {resp.status_code} {resp.text}")
                 return False
-
         except Exception as e:
             logger.error(f"LINE push error: {e}")
             return False
 
     def send_digest(self, articles: list[dict], on_demand: list[dict] = None):
-        """Build and send the daily digest to LINE group."""
+        """
+        Build and send the daily digest to LINE group.
+        - Score 4-5 + on-demand: Flex Message carousel (rich cards)
+        - Score 2-3: Text message with title list + links
+        """
         from .line_flex_builder import build_digest_flex
 
         on_demand = on_demand or []
-        digest_articles = [a for a in articles if a.get("total_score", 0) >= 2]
+        high = [a for a in articles if a.get("total_score", 0) >= 4]
+        medium = [a for a in articles if 2 <= a.get("total_score", 0) <= 3]
 
-        if not digest_articles and not on_demand:
+        if not high and not medium and not on_demand:
             logger.info("No articles to send to LINE")
             return False
 
-        flex_message = build_digest_flex(digest_articles, on_demand)
-        return self.push_to_group(flex_message)
+        messages = []
+
+        # Message 1: Flex carousel for Score 4-5 + on-demand
+        if high or on_demand:
+            flex_message = build_digest_flex(high, on_demand)
+            messages.append(flex_message)
+
+        # Message 2: Text list for Score 2-3
+        if medium:
+            text = self._build_medium_text(medium)
+            messages.append({"type": "text", "text": text})
+
+        # Summary line if nothing high-scored
+        if not high and not on_demand and medium:
+            summary = f"NICU Journal Digest\n{len(medium)} articles today (Score 2-3)\n\n"
+            text = summary + self._build_medium_text_body(medium)
+            messages = [{"type": "text", "text": text}]
+
+        return self.push_to_group_multi(messages)
+
+    def _build_medium_text(self, articles: list[dict]) -> str:
+        """Build text message for Score 2-3 articles."""
+        header = f"━━━ Score 2-3: {len(articles)} articles ━━━\n"
+        return header + self._build_medium_text_body(articles)
+
+    def _build_medium_text_body(self, articles: list[dict]) -> str:
+        """Build the body of the text list."""
+        lines = []
+        for i, a in enumerate(articles, 1):
+            score = a.get("total_score", 0)
+            pmid = a.get("pmid", "")
+            title = a.get("title", "")[:80]
+            journal = a.get("source_journal", "")
+            one_liner = a.get("one_liner", "")
+
+            line = f"\n[{score}] {title}"
+            if len(a.get("title", "")) > 80:
+                line += "..."
+            line += f"\n    {journal}"
+            if one_liner:
+                line += f"\n    → {one_liner[:60]}"
+            line += f"\n    pubmed.ncbi.nlm.nih.gov/{pmid}/"
+
+            lines.append(line)
+
+        # Max LINE text message = 5000 chars
+        text = "\n".join(lines)
+        if len(text) > 4800:
+            text = text[:4800] + "\n\n... (more articles in email/web)"
+        return text
 
     def send_instant_alert(self, article: dict):
         """Send immediate alert for Score 5 articles."""
@@ -94,13 +175,11 @@ class LinePusher:
         if not flex:
             return False
 
-        # Prepend alert text
         alert_msg = {
             "type": "text",
             "text": f"🔔 Must-read alert: Score {article.get('total_score', 5)}\n{article['title'][:60]}...",
         }
 
-        # Send alert text first, then the flex card
         self.push_to_group(alert_msg)
         return self.push_to_group(flex)
 
@@ -112,7 +191,6 @@ class LinePusher:
         if not flex:
             return False
 
-        # Notify user
         notify_msg = {
             "type": "text",
             "text": f"Deep analysis 完成 ✅\n{article['title'][:50]}...",
