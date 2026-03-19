@@ -3276,5 +3276,394 @@
     "one_liner": "成人肺癌診斷研究，與新生兒科完全無關，可跳過。",
     "processed_date": "2026-03-19",
     "has_deep_analysis": false
+  },
+  {
+    "pmid": "41844440",
+    "title": "Early motor repertoire and motor development at 1, 2 and 5 years in infants born very preterm: A prospective cohort study.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 03",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "General Movements",
+      "GMOS-R",
+      "極早產兒",
+      "運動發展",
+      "神經發育追蹤"
+    ],
+    "one_liner": "GMOS-R 在極早產兒 1 歲時具有運動預測價值，但對 2-5 歲長期預後的預測力有限，適合作為早期篩檢工具但需搭配後續追蹤評估。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": true
+  },
+  {
+    "pmid": "41844834",
+    "title": "Trends in admissions and costs for neonatal intensive care in US children's hospitals, 2017-2022.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 17",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "NICU admissions",
+      "healthcare costs",
+      "patient acuity",
+      "preterm infants",
+      "epidemiologic trends"
+    ],
+    "one_liner": "大型美國資料庫研究確認 NICU 患者複雜度與成本持續上升，適合醫療行政與資源規劃參考，但對臨床照護決策的直接指導有限。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41844833",
+    "title": "Feasibility of integration of a novel bCPAP system into the NICU of a Public Referral Hospital in Mysuru, India.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 17",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "bCPAP",
+      "NICU",
+      "feasibility study",
+      "low-resource setting",
+      "implementation"
+    ],
+    "one_liner": "本研究為資源有限國家引入新型 bCPAP 的可行性提供實踐證據，但缺乏臨床效果對照，對台灣 NICU 的直接應用價值有限。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41840153",
+    "title": "Influence of mode of delivery on neonatal QTc.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 4,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 4
+    },
+    "keywords": [
+      "QTc interval",
+      "mode of delivery",
+      "neonatal ECG",
+      "cardiac electrophysiology",
+      "population-based cohort"
+    ],
+    "one_liner": "分娩方式與新生兒 QTc 有統計相關性，但臨床意義有限，不足以改變現有 NICU 照護決策，可作為背景知識參考。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41840151",
+    "title": "Annual trends and regional variations in medical interventions and survival to discharge for trisomies 18 and 13, 2011-2022: a nationwide inpatient database study.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 4
+    },
+    "keywords": [
+      "trisomy 18",
+      "trisomy 13",
+      "survival outcomes",
+      "regional variation",
+      "medical intervention"
+    ],
+    "one_liner": "日本全國資料庫研究顯示三體症新生兒的介入率與存活率逐年增加但區域差異大，對台灣 NICU 的直接臨床指導意義有限，因該族群預後與照護決策涉及倫理與家庭價值觀而非單純醫學證據。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41840150",
+    "title": "Effects of surfactant therapy, ventilation, and patent ductus arteriosus on regional pulmonary and cerebral oxygenation in preterm infants using near-infrared spectroscopy.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "NIRS",
+      "surfactant",
+      "hsPDA",
+      "regional pulmonary oxygenation",
+      "preterm infants"
+    ],
+    "one_liner": "小樣本前瞻性研究首次展示 NIRS 監測肺部區域性氧合的潛力，發現 hsPDA 與 surfactant 效應的側別差異，具臨床參考價值但證據等級有限，適合作為後續大型研究的基礎。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41840149",
+    "title": "Development of an interdisciplinary tool to assess severe BPD phase of illness and application evaluating impact of tracheostomy.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "BPD",
+      "severe bronchopulmonary dysplasia",
+      "tracheostomy",
+      "assessment tool",
+      "interdisciplinary care"
+    ],
+    "one_liner": "為 sBPD 患兒提供一套新的跨專科評估工具，可幫助追蹤疾病進展與介入效果，但目前證據等級為工具開發與回溯性應用，尚需前瞻性驗證其臨床實用性。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41840148",
+    "title": "Hereditary red cell defects as an underrecognized cause of neonatal jaundice.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "neonatal jaundice",
+      "hereditary elliptocytosis",
+      "SPTB mutation",
+      "hyperbilirubinemia",
+      "hemolytic anemia"
+    ],
+    "one_liner": "提醒 NICU 醫師應將遺傳性橢圓形紅血球症列入早期黃疸伴貧血的鑑別診斷，但因樣本來自單一地區且缺乏對照組，臨床推廣價值有限。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41846196",
+    "title": "Approaches to red blood cell transfusion for the very low birth weight infant.",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 06",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "VLBW",
+      "red blood cell transfusion",
+      "transfusion threshold",
+      "anemia of prematurity",
+      "NICU management"
+    ],
+    "one_liner": "VLBW 輸血策略的實用綜述，適合用於教學與指引制定，但無突破性新發現。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41844441",
+    "title": "Exploring early intervention models at home to support the development of preterm infants: A literature review to guide professionals and involve parents.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 11",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "early intervention",
+      "preterm infants",
+      "neurodevelopment",
+      "parental mental health",
+      "home-based programs"
+    ],
+    "one_liner": "文獻回顧確認居家早期介入對早產兒發育和家長心理健康有益，但缺乏具體實施指引，可作為發展本院出院後家庭支持計畫的背景證據，惟不足以改變現有臨床決策。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41844439",
+    "title": "Associations of intrapartum synthetic oxytocin administration with reduced neonatal salivary oxytocin levels and altered sucking patterns.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 14",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "oxytocin",
+      "breastfeeding",
+      "sucking pattern",
+      "neonatal feeding",
+      "maternal-neonatal interaction"
+    ],
+    "one_liner": "小型前瞻性研究發現產程催產素與新生兒催產素降低及吸吮模式改變相關，但未證實影響實際餵哺成功，可作為早期餵哺困難評估的背景知識參考。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41840152",
+    "title": "Diversity, equity, and inclusion considerations for anti-racist, equity-focused NICU family mental health.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 16",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "health equity",
+      "mental health",
+      "NICU family support",
+      "health disparities",
+      "social determinants"
+    ],
+    "one_liner": "重要的社會正義與心理健康倡議文章，但屬政策/倫理層面而非臨床實證研究，新生兒科醫師可參考作為機構改革思考但無直接臨床決策指引。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41846197",
+    "title": "Extremely premature infant care: Reasonable progress or therapeutic fury?",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 04",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "extreme prematurity",
+      "shared decision-making",
+      "neurodevelopmental outcome",
+      "ethics",
+      "GA 22-24 weeks"
+    ],
+    "one_liner": "重要的倫理與決策框架討論，但屬敘述性評論而非實證研究，適合反思照護哲學但無法直接改變臨床操作。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41848319",
+    "title": "EBNEO Commentary: Cerebral Saturation and Fractional Tissue Oxygen Extraction Are Associated With Anterior Cerebral Artery Doppler Parameters in Neonates With Congenital Heart Defects.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 18",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "先天性心臟病",
+      "NIRS",
+      "腦部灌流",
+      "都卜勒超音波",
+      "新生兒血流動力學"
+    ],
+    "one_liner": "評論文章，提供先天性心臟病新生兒NIRS與腦部血流的關聯性討論，但缺乏原創數據與具體臨床建議，可參考但不改變照護決策。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41845053",
+    "title": "Cardio-metabolic risks in preterm children: opportunities, cautions and the importance of longer-term study.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 17",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "早產兒長期追蹤",
+      "心代謝風險",
+      "DOHaD",
+      "生長軌跡",
+      "代謝評估"
+    ],
+    "one_liner": "評論文章，強調早產兒長期心代謝研究的必要性與方法學考量，但無新的臨床證據或實踐改變建議，可作為研究設計參考但不影響當前 NICU 照護。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41849630",
+    "title": "Erratum.",
+    "journal": "Neonatology",
+    "pub_date": "2026 Mar 18",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "erratum",
+      "open access",
+      "administrative correction"
+    ],
+    "one_liner": "純粹的期刊勘誤公告，無臨床實質內容，可跳過。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41848733",
+    "title": "An AI Approach to Differentiating Lung Squamous Cell Carcinoma From Metastases of Other Origins.",
+    "journal": "JAMA Network Open",
+    "pub_date": "2026 Mar 02",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "肺癌",
+      "成人腫瘤學",
+      "診斷準確性",
+      "人工智慧",
+      "與新生兒無關"
+    ],
+    "one_liner": "成人肺癌診斷研究，與新生兒照護無任何相關性，新生兒科醫師可直接跳過。",
+    "processed_date": "2026-03-19",
+    "has_deep_analysis": false
   }
 ]
