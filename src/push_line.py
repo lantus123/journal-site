@@ -121,24 +121,33 @@ class LinePusher:
         # Message 1: Flex carousel for Score 4-5 + on-demand
         if high or on_demand:
             flex_message = build_digest_flex(high, on_demand)
-            messages.append(flex_message)
+            if flex_message:
+                messages.append(flex_message)
 
-        # Message 2: Text list for Score 2-3
+        # Message 2: Compact Flex for Score 2-3 (with feedback buttons)
         if medium:
-            text = self._build_medium_text(medium)
-            messages.append({"type": "text", "text": text})
+            from .line_flex_builder import build_compact_list_flex
+            compact = build_compact_list_flex(medium, len(high), len(on_demand))
+            if compact:
+                messages.append(compact)
 
-        # Summary line if nothing high-scored
+        # Fallback if only medium articles
         if not high and not on_demand and medium:
-            summary = f"NICU Journal Digest\n{len(medium)} articles today (Score 2-3)\n\n"
-            text = summary + self._build_medium_text_body(medium)
-            messages = [{"type": "text", "text": text}]
+            from .line_flex_builder import build_compact_list_flex
+            compact = build_compact_list_flex(medium, 0, 0)
+            if compact:
+                messages = [compact]
 
         return self.push_to_group_multi(messages)
 
-    def _build_medium_text(self, articles: list[dict]) -> str:
-        """Build text message for Score 2-3 articles."""
-        header = f"━━━ Score 2-3: {len(articles)} articles ━━━\n"
+    def _build_medium_text(self, articles: list[dict], high_count: int = 0, on_demand_count: int = 0) -> str:
+        """Build text message for Score 2-3 articles with daily stats."""
+        total = len(articles) + high_count + on_demand_count
+        header = f"NICU Journal Digest\n"
+        header += f"Today: {total} articles total"
+        if high_count:
+            header += f" · {high_count} deep analysis ↑"
+        header += f"\n\n━━━ Score 2-3: {len(articles)} articles ━━━\n"
         return header + self._build_medium_text_body(articles)
 
     def _build_medium_text_body(self, articles: list[dict]) -> str:
