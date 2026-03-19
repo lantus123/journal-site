@@ -2,10 +2,8 @@ name: Daily Journal Review
 
 on:
   schedule:
-    # Run at 23:00 UTC = 07:00 Taiwan time
     - cron: '0 23 * * *'
   workflow_dispatch:
-    # Allow manual trigger for testing
     inputs:
       dry_run:
         description: 'Dry run (no email)'
@@ -51,10 +49,31 @@ jobs:
             python main.py
           fi
 
-      - name: Commit updated cache and knowledge base
+      - name: Commit updated data
         run: |
           git config user.name "Journal Review Bot"
           git config user.email "bot@noreply.github.com"
-          git add data/pmid_cache.json data/knowledge_base.json data/on_demand_queue.json data/feedback.json docs/
-          git diff --staged --quiet || git commit -m "Update data + digest: $(date -u +%Y-%m-%d)"
+          git add data/pmid_cache.json data/knowledge_base.json data/on_demand_queue.json data/feedback.json
+          git diff --staged --quiet || git commit -m "Update data: $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Deploy digest to public site
+        if: inputs.dry_run != true
+        env:
+          SITE_TOKEN: ${{ secrets.SITE_DEPLOY_TOKEN }}
+        run: |
+          if [ ! -d "docs" ] || [ -z "$(ls -A docs/*.html 2>/dev/null)" ]; then
+            echo "No HTML files to deploy"
+            exit 0
+          fi
+          cd docs
+          git init
+          git config user.name "Journal Review Bot"
+          git config user.email "bot@noreply.github.com"
+          git remote add origin https://x-access-token:${SITE_TOKEN}@github.com/lantus123/nicu-journal-site.git
+          git fetch origin main --depth=1 || true
+          git checkout -b main
+          git pull origin main --allow-unrelated-histories --no-edit || true
+          git add -A
+          git diff --staged --quiet || git commit -m "Digest: $(date -u +%Y-%m-%d)"
+          git push origin main --force
