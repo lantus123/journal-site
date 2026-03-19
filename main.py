@@ -174,6 +174,12 @@ def run_pipeline(dry_run: bool = False):
                 logger.info(f"LINE instant alert sent for PMID {a['pmid']}")
         else:
             logger.warning("LINE not configured - skipping")
+
+        # Web digest (GitHub Pages)
+        from src.web_digest import WebDigestGenerator
+        web = WebDigestGenerator()
+        web.generate(digest_articles, on_demand)
+        logger.info("Web digest generated")
     else:
         logger.info("\n[DRY RUN] Skipping push")
         for a in articles[:3]:
