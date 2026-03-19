@@ -75,7 +75,7 @@ def _header_bubble(total: int, must_read: int, on_demand: int) -> dict:
 
     return {
         "type": "bubble",
-        "size": "kilo",
+        "size": "mega",
         "header": {
             "type": "box",
             "layout": "vertical",
