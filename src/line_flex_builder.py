@@ -9,16 +9,13 @@ from typing import Optional
 
 def build_digest_flex(articles: list[dict], on_demand: list[dict] = None) -> list[dict]:
     """
-    Build Flex Message bubbles for the daily digest.
-    Returns a list of Flex Message bubble dicts (max 12 per carousel).
+    Build Flex Message bubbles for Score 4-5 + on-demand articles only.
+    Score 2-3 articles are handled as text messages in push_line.py.
     """
     on_demand = on_demand or []
     bubbles = []
 
-    # Header bubble
-    high = [a for a in articles if a.get("total_score", 0) >= 4]
-    medium = [a for a in articles if 2 <= a.get("total_score", 0) <= 3]
-    total = len(high) + len(medium) + len(on_demand)
+    total = len(articles) + len(on_demand)
     must_read = sum(1 for a in articles if a.get("total_score", 0) == 5)
 
     bubbles.append(_header_bubble(total, must_read, len(on_demand)))
@@ -30,14 +27,8 @@ def build_digest_flex(articles: list[dict], on_demand: list[dict] = None) -> lis
             bubbles.append(b)
 
     # Score 4-5 with deep analysis
-    for a in high:
+    for a in articles:
         b = _deep_article_bubble(a)
-        if b:
-            bubbles.append(b)
-
-    # Score 2-3 with Haiku summary
-    for a in medium[:6]:  # Limit to avoid carousel overflow
-        b = _summary_article_bubble(a)
         if b:
             bubbles.append(b)
 
@@ -46,7 +37,7 @@ def build_digest_flex(articles: list[dict], on_demand: list[dict] = None) -> lis
 
     return {
         "type": "flex",
-        "altText": f"NICU/PICU Journal Digest - {total} articles",
+        "altText": f"NICU Journal Digest - {total} articles (Score 4-5)",
         "contents": {
             "type": "carousel",
             "contents": bubbles,
