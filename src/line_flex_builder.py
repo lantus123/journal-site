@@ -1,24 +1,20 @@
 """
 LINE Flex Message builder.
 Converts scored articles into Flex Message JSON for LINE Messaging API.
+Focus: Score 4-5 articles with deep analysis in Flex carousel.
 """
 
 import json
 from typing import Optional
 
 
-def build_digest_flex(articles: list[dict], on_demand: list[dict] = None) -> list[dict]:
+def build_digest_flex(articles: list[dict], on_demand: list[dict] = None) -> dict:
     """
-    Build Flex Message bubbles for Score 4-5 + on-demand articles only.
-    Score 2-3 articles are handled as text messages in push_line.py.
+    Build Flex Message carousel for Score 4-5 + on-demand articles.
+    No header bubble — first card is the first article.
     """
     on_demand = on_demand or []
     bubbles = []
-
-    total = len(articles) + len(on_demand)
-    must_read = sum(1 for a in articles if a.get("total_score", 0) == 5)
-
-    bubbles.append(_header_bubble(total, must_read, len(on_demand)))
 
     # On-demand articles first
     for a in on_demand:
@@ -35,6 +31,10 @@ def build_digest_flex(articles: list[dict], on_demand: list[dict] = None) -> lis
     # LINE carousel max 12 bubbles
     bubbles = bubbles[:12]
 
+    if not bubbles:
+        return None
+
+    total = len(articles) + len(on_demand)
     return {
         "type": "flex",
         "altText": f"NICU Journal Digest - {total} articles (Score 4-5)",
@@ -47,48 +47,13 @@ def build_digest_flex(articles: list[dict], on_demand: list[dict] = None) -> lis
 
 def build_single_article_flex(article: dict) -> dict:
     """Build a single Flex Message for instant alert or on-demand response."""
-    bubble = _deep_article_bubble(article) or _summary_article_bubble(article)
+    bubble = _deep_article_bubble(article)
     if not bubble:
         return None
     return {
         "type": "flex",
         "altText": f"[Score {article.get('total_score', '?')}] {article['title'][:40]}...",
         "contents": bubble,
-    }
-
-
-def _header_bubble(total: int, must_read: int, on_demand: int) -> dict:
-    stats = f"{total} articles"
-    if must_read:
-        stats += f" · {must_read} must-read"
-    if on_demand:
-        stats += f" · {on_demand} requested"
-
-    return {
-        "type": "bubble",
-        "size": "mega",
-        "header": {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-                {
-                    "type": "text",
-                    "text": "NICU/PICU Journal Digest",
-                    "weight": "bold",
-                    "size": "lg",
-                    "color": "#1B6B93",
-                },
-                {
-                    "type": "text",
-                    "text": stats,
-                    "size": "xs",
-                    "color": "#888888",
-                    "margin": "sm",
-                },
-            ],
-            "paddingAll": "16px",
-            "backgroundColor": "#F8FAFB",
-        },
     }
 
 
@@ -105,7 +70,7 @@ def _score_color(score: int) -> tuple[str, str]:
 
 
 def _deep_article_bubble(article: dict, is_on_demand: bool = False) -> Optional[dict]:
-    """Build a bubble for Score 4-5 article with deep analysis."""
+    """Build a bubble for an article with deep analysis."""
     score = article.get("total_score", 0)
     deep = article.get("deep_analysis", {})
     summary = article.get("summary", {})
@@ -121,7 +86,6 @@ def _deep_article_bubble(article: dict, is_on_demand: bool = False) -> Optional[
             "color": badge_color,
             "weight": "bold",
             "flex": 0,
-            "decoration": "none",
         },
         {
             "type": "text",
@@ -253,17 +217,25 @@ def _deep_article_bubble(article: dict, is_on_demand: bool = False) -> Optional[
 
     # Footer: feedback buttons + links
     footer_contents = [
-        # Feedback buttons row
+        # Feedback buttons row - using emoji for readability
         {
             "type": "box",
             "layout": "horizontal",
             "contents": [
-                _feedback_button("Must read", pmid, "#3C3489"),
-                _feedback_button("Useful", pmid, "#085041"),
-                _feedback_button("So-so", pmid, "#5F5E5A"),
-                _feedback_button("Skip", pmid, "#791F1F"),
+                _feedback_button("🔥", "must_read", pmid, "#3C3489"),
+                _feedback_button("👍", "useful", pmid, "#085041"),
+                _feedback_button("➖", "so_so", pmid, "#5F5E5A"),
+                _feedback_button("👎", "skip", pmid, "#791F1F"),
             ],
-            "spacing": "xs",
+            "spacing": "sm",
+        },
+        # Feedback label
+        {
+            "type": "text",
+            "text": "🔥Must read · 👍Useful · ➖So-so · 👎Skip",
+            "size": "xxs",
+            "color": "#BBBBBB",
+            "align": "center",
         },
         # PubMed link
         {
@@ -298,135 +270,159 @@ def _deep_article_bubble(article: dict, is_on_demand: bool = False) -> Optional[
     }
 
 
-def _summary_article_bubble(article: dict) -> Optional[dict]:
-    """Build a bubble for Score 2-3 article with Haiku summary."""
-    score = article.get("total_score", 0)
-    summary = article.get("summary", {})
-    pmid = article.get("pmid", "")
-    badge_bg, badge_color = _score_color(score)
-
-    body_contents = [
-        # Tags
-        {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-                {"type": "text", "text": f"Score {score}", "size": "xxs",
-                 "color": badge_color, "weight": "bold", "flex": 0},
-                {"type": "text", "text": article.get("source_journal", ""),
-                 "size": "xxs", "color": "#888888", "flex": 0},
-            ],
-            "spacing": "sm",
-        },
-        # Title
-        {
-            "type": "text",
-            "text": article["title"][:100] + ("..." if len(article["title"]) > 100 else ""),
-            "weight": "bold",
-            "size": "sm",
-            "wrap": True,
-            "maxLines": 3,
-            "margin": "md",
-        },
-        # Summary
-        {"type": "separator", "margin": "lg"},
-    ]
-
-    if summary.get("purpose"):
-        body_contents.append({
-            "type": "text",
-            "text": f"研究目的：{summary['purpose'][:100]}",
-            "size": "xs", "color": "#555555", "wrap": True, "margin": "md",
-        })
-    if summary.get("findings"):
-        body_contents.append({
-            "type": "text",
-            "text": f"主要發現：{summary['findings'][:120]}",
-            "size": "xs", "color": "#555555", "wrap": True, "margin": "sm",
-        })
-    if summary.get("significance"):
-        body_contents.append({
-            "type": "text",
-            "text": f"臨床意義：{summary['significance'][:100]}",
-            "size": "xs", "color": "#555555", "wrap": True, "margin": "sm",
-        })
-
-    footer_contents = [
-        # Feedback row
-        {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-                _feedback_button("Must read", pmid, "#3C3489"),
-                _feedback_button("Useful", pmid, "#085041"),
-                _feedback_button("So-so", pmid, "#5F5E5A"),
-                _feedback_button("Skip", pmid, "#791F1F"),
-            ],
-            "spacing": "xs",
-        },
-        # Deep analysis + PubMed row
-        {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-                {
-                    "type": "button",
-                    "action": {
-                        "type": "postback",
-                        "label": "Deep analysis →",
-                        "data": f"action=deep_analysis&pmid={pmid}",
-                        "displayText": f"Requesting deep analysis for PMID {pmid}...",
-                    },
-                    "style": "link",
-                    "height": "sm",
-                    "color": "#3C3489",
-                },
-                {
-                    "type": "button",
-                    "action": {
-                        "type": "uri",
-                        "label": "PubMed →",
-                        "uri": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
-                    },
-                    "style": "link",
-                    "height": "sm",
-                    "color": "#1B6B93",
-                },
-            ],
-            "spacing": "none",
-        },
-    ]
-
-    return {
-        "type": "bubble",
-        "size": "mega",
-        "body": {
-            "type": "box",
-            "layout": "vertical",
-            "contents": body_contents,
-            "paddingAll": "16px",
-        },
-        "footer": {
-            "type": "box",
-            "layout": "vertical",
-            "contents": footer_contents,
-            "paddingAll": "12px",
-            "spacing": "sm",
-        },
-    }
-
-
-def _feedback_button(label: str, pmid: str, color: str) -> dict:
+def _feedback_button(label: str, rating: str, pmid: str, color: str) -> dict:
     return {
         "type": "button",
         "action": {
             "type": "postback",
             "label": label,
-            "data": f"action=feedback&pmid={pmid}&rating={label.lower().replace(' ', '_')}",
-            "displayText": f"{label}",
+            "data": f"action=feedback&pmid={pmid}&rating={rating}",
+            "displayText": f"{label} ({rating.replace('_', ' ')})",
         },
         "style": "link",
         "height": "sm",
         "color": color,
         "flex": 1,
+    }
+
+
+def build_compact_list_flex(articles: list[dict], high_count: int = 0, on_demand_count: int = 0) -> Optional[dict]:
+    """
+    Build compact Flex carousel for Score 2-3 articles.
+    Packs 2 articles per bubble with feedback buttons.
+    """
+    if not articles:
+        return None
+
+    bubbles = []
+
+    # Pack 2 articles per bubble
+    for i in range(0, len(articles), 2):
+        chunk = articles[i:i+2]
+        body_contents = []
+
+        # Stats header on first bubble only
+        if i == 0:
+            total = len(articles) + high_count + on_demand_count
+            stats = f"NICU Journal Digest · {total} articles today"
+            if high_count:
+                stats += f" · {high_count} deep ↑"
+            body_contents.append({
+                "type": "text",
+                "text": stats,
+                "size": "xxs",
+                "color": "#1B6B93",
+                "weight": "bold",
+            })
+            body_contents.append({"type": "separator", "margin": "sm"})
+
+        for j, a in enumerate(chunk):
+            if j > 0:
+                body_contents.append({"type": "separator", "margin": "lg"})
+
+            score = a.get("total_score", 0)
+            pmid = a.get("pmid", "")
+            badge_bg, badge_color = _score_color(score)
+            summary = a.get("summary", {})
+            one_liner = a.get("one_liner", "")
+
+            # Score + journal
+            body_contents.append({
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {"type": "text", "text": f"Score {score}", "size": "xxs",
+                     "color": badge_color, "weight": "bold", "flex": 0},
+                    {"type": "text", "text": a.get("source_journal", ""),
+                     "size": "xxs", "color": "#888888", "flex": 0},
+                ],
+                "spacing": "sm",
+                "margin": "md",
+            })
+
+            # Title
+            body_contents.append({
+                "type": "text",
+                "text": a.get("title", "")[:90] + ("..." if len(a.get("title", "")) > 90 else ""),
+                "weight": "bold",
+                "size": "xs",
+                "wrap": True,
+                "maxLines": 2,
+                "margin": "sm",
+            })
+
+            # One-liner or significance
+            hint = one_liner or summary.get("significance", "") or summary.get("findings", "")
+            if hint:
+                body_contents.append({
+                    "type": "text",
+                    "text": f"→ {hint[:80]}",
+                    "size": "xxs",
+                    "color": "#666666",
+                    "wrap": True,
+                    "maxLines": 2,
+                    "margin": "xs",
+                })
+
+            # Feedback + actions row
+            body_contents.append({
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    _feedback_button("🔥", "must_read", pmid, "#3C3489"),
+                    _feedback_button("👍", "useful", pmid, "#085041"),
+                    _feedback_button("➖", "so_so", pmid, "#5F5E5A"),
+                    _feedback_button("👎", "skip", pmid, "#791F1F"),
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "postback",
+                            "label": "🔬",
+                            "data": f"action=deep_analysis&pmid={pmid}",
+                            "displayText": f"Requesting deep analysis for PMID {pmid}...",
+                        },
+                        "style": "link",
+                        "height": "sm",
+                        "color": "#3C3489",
+                        "flex": 1,
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "📄",
+                            "uri": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+                        },
+                        "style": "link",
+                        "height": "sm",
+                        "color": "#1B6B93",
+                        "flex": 1,
+                    },
+                ],
+                "spacing": "none",
+                "margin": "sm",
+            })
+
+        bubble = {
+            "type": "bubble",
+            "size": "mega",
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": body_contents,
+                "paddingAll": "14px",
+            },
+        }
+        bubbles.append(bubble)
+
+    # Max 12 bubbles
+    bubbles = bubbles[:12]
+
+    return {
+        "type": "flex",
+        "altText": f"NICU Journal Digest - {len(articles)} articles (Score 2-3)",
+        "contents": {
+            "type": "carousel",
+            "contents": bubbles,
+        },
     }
