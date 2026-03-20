@@ -4510,5 +4510,597 @@
     "one_liner": "可以跳過——本研究為青少年骨骼健康研究，與新生兒科臨床照護完全無關。",
     "processed_date": "2026-03-20",
     "has_deep_analysis": false
+  },
+  {
+    "pmid": "41844440",
+    "title": "Early motor repertoire and motor development at 1, 2 and 5 years in infants born very preterm: A prospective cohort study.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 03",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "極早產兒（ELBW/VLBW）",
+      "運動發展評估（General Movements, GMOS-R）",
+      "神經發育追蹤（neurodevelopmental follow-up）",
+      "腦性麻痺（cerebral palsy）",
+      "早期介入（early intervention）"
+    ],
+    "one_liner": "GMOS-R在極早產兒新生兒期的評估可預測1歲運動發展，但長期預測力有限，適合作為早期篩檢工具但不宜過度解讀長期預後。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": true
+  },
+  {
+    "pmid": "41855134",
+    "title": "Early Diagnoses of Concern Appear Valid in Predicting Adverse Neurodevelopmental Outcomes in Mid-Childhood.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 19",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "neurodevelopmental outcome",
+      "early diagnosis",
+      "cerebral palsy",
+      "developmental delay",
+      "long-term follow-up"
+    ],
+    "one_liner": "大型丹麥世代研究證實 2 歲前的神經發育風險診斷具有良好的長期預測力，強化了早產兒發育追蹤與早期介入的重要性，但診斷率上升趨勢需注意過度診斷問題。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": true
+  },
+  {
+    "pmid": "41844834",
+    "title": "Trends in admissions and costs for neonatal intensive care in US children's hospitals, 2017-2022.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 17",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "NICU admissions",
+      "healthcare costs",
+      "patient acuity",
+      "preterm infants",
+      "health services research"
+    ],
+    "one_liner": "大型美國資料庫研究確認 NICU 患者複雜度與成本持續上升，適合醫院行政與資源規劃參考，但對臨床醫療決策影響有限。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41844833",
+    "title": "Feasibility of integration of a novel bCPAP system into the NICU of a Public Referral Hospital in Mysuru, India.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 17",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "bCPAP",
+      "NICU",
+      "呼吸支持",
+      "可行性研究",
+      "低收入國家"
+    ],
+    "one_liner": "可跳過：此為可行性研究而非臨床效能研究，無法比較 bCPAP 與傳統 CPAP 的預後差異，對台灣 NICU 的直接應用價值有限。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41846196",
+    "title": "Approaches to red blood cell transfusion for the very low birth weight infant.",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 06",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "VLBW",
+      "red blood cell transfusion",
+      "transfusion threshold",
+      "anemia of prematurity",
+      "NICU management"
+    ],
+    "one_liner": "VLBW 嬰兒輸血策略的實用綜述，適合作為 NICU 團隊討論與制定輸血指引的參考，但本身無新證據。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41850187",
+    "title": "Paternal homocysteine concentrations and prenatal growth outcomes in early and late gestation: the Rotterdam Periconception Cohort (Predict Study).",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 16",
+    "total_score": 3,
+    "scores": {
+      "design": 4,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "paternal homocysteine",
+      "prenatal growth",
+      "fetal biometry",
+      "periconception care",
+      "one-carbon metabolism"
+    ],
+    "one_liner": "父親同型半胱氨酸濃度與產前生長軌跡相關，但未見新生兒不良結局，對 NICU 照護決策影響有限，可作為圍孕期保健參考但非急迫臨床議題。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41844441",
+    "title": "Exploring early intervention models at home to support the development of preterm infants: A literature review to guide professionals and involve parents.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 11",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "早產兒發育追蹤",
+      "居家介入",
+      "家長心理健康",
+      "親子互動",
+      "神經發育結果"
+    ],
+    "one_liner": "此文獻回顧確認居家早期介入對早產兒發育及家長心理健康有益，但缺乏具體實施建議，適合 NICU 出院追蹤團隊參考，惟無新穎臨床證據。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41844439",
+    "title": "Associations of intrapartum synthetic oxytocin administration with reduced neonatal salivary oxytocin levels and altered sucking patterns.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 14",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "oxytocin",
+      "breastfeeding",
+      "sucking patterns",
+      "neonatal feeding",
+      "intrapartum medication"
+    ],
+    "one_liner": "小型觀察性研究提示產時合成催產素可能影響新生兒內源性 OXT 及吸吮效率，值得在更大規模早產兒族群中驗證，但目前證據強度有限。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41857387",
+    "title": "Amplitude integrated electroencephalography for neonatal seizure detection: an alternative opinion to the 2025 Cochrane review.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 19",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "aEEG",
+      "neonatal seizure",
+      "EEG monitoring",
+      "neurodevelopment",
+      "resource-limited settings"
+    ],
+    "one_liner": "針對 aEEG 癲癇偵測效能的 Cochrane 結論提出臨床反駁，強調其在資源有限環境的實用價值，但因屬意見文章而證據等級有限。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41857355",
+    "title": "Impact of gastrostomy tube placement on meningitis in infants with hydrocephalus requiring ventriculoperitoneal shunt.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 19",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "VPS",
+      "hydrocephalus",
+      "gastrostomy tube",
+      "device-associated infection",
+      "meningitis"
+    ],
+    "one_liner": "回溯性研究提示 GT 置放與 VPS 感染風險相關，但樣本量小、未能確定最佳手術順序，暫不足以改變臨床實務，可先參考但需待更強證據。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41846197",
+    "title": "Extremely premature infant care: Reasonable progress or therapeutic fury?",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 04",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "extreme prematurity",
+      "shared decision-making",
+      "periviable birth",
+      "neurodevelopmental outcome",
+      "ethics"
+    ],
+    "one_liner": "這是一篇倫理評論而非臨床證據文章，適合用於反思極早產兒照護的決策過程與家庭自主性，但無新的臨床數據或治療建議可直接應用於NICU實務。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41850186",
+    "title": "Emotion regulation in the two-year-old offspring of pregnant persons in a diet-and-exercise intervention: A randomized controlled trial.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 13",
+    "total_score": 2,
+    "scores": {
+      "design": 4,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "prenatal intervention",
+      "neurodevelopment",
+      "emotion regulation",
+      "EEG",
+      "early childhood"
+    ],
+    "one_liner": "此研究探討孕期介入對幼兒情緒調節的長期影響，屬發育心理學範疇，與新生兒科日常 NICU 照護決策無直接相關性，可跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41850572",
+    "title": "Growth of Children With Cerebral Palsy and Health Outcomes.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 19",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "cerebral palsy",
+      "growth charts",
+      "GMFCS",
+      "long-term follow-up",
+      "pediatric neurodevelopment"
+    ],
+    "one_liner": "此為腦性麻痺兒童長期健康追蹤研究，與新生兒期照護無直接相關性，新生兒科醫師可跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41850419",
+    "title": "Comparative Effectiveness of Intravenous Immunoglobulin vs Steroids in the Treatment of Pediatric Acute (non-COVID) Myocarditis.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "myocarditis",
+      "pediatric",
+      "immunoglobulin",
+      "steroids",
+      "non-neonatal"
+    ],
+    "one_liner": "本研究聚焦兒童心肌炎的IVIg與類固醇治療比較，與新生兒照護無直接相關性，可跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41855408",
+    "title": "Mode of Conception and Long-Term Infectious Morbidity of the Offspring; a Sibling Analysis.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 19",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "fertility treatment",
+      "infectious morbidity",
+      "long-term follow-up",
+      "sibling analysis",
+      "population-based cohort"
+    ],
+    "one_liner": "可跳過：這是一篇針對輔助生殖與兒童感染風險的長期流行病學研究，與新生兒重症照護決策無直接關聯，且結論為陰性。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41848319",
+    "title": "EBNEO Commentary: Cerebral Saturation and Fractional Tissue Oxygen Extraction Are Associated With Anterior Cerebral Artery Doppler Parameters in Neonates With Congenital Heart Defects.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 18",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "先天性心臟病",
+      "NIRS",
+      "腦部灌流",
+      "都卜勒超音波",
+      "新生兒血流動力學"
+    ],
+    "one_liner": "評論文章，提供先天性心臟病新生兒腦部 NIRS 監測的背景知識，但缺乏原始數據支持，臨床實用性有限。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41851496",
+    "title": "Downregulation of pigment epithelium-derived factor increases compensatory lung growth in mice after extended pneumonectomy.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 18",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "pulmonary hypoplasia",
+      "compensatory lung growth",
+      "FG-4592",
+      "angiogenesis",
+      "congenital lung disease"
+    ],
+    "one_liner": "基礎研究證實 FG-4592 可促進小鼠代償性肺生長，但距離臨床應用仍遠，新生兒科醫師目前可暫時跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41851494",
+    "title": "Impact of varying range of maternal oxygenation targets on fetal oxygenation and fetoplacental circulation in an ovine model of pregnancy.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 18",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "maternal oxygenation",
+      "fetal hemodynamics",
+      "ARDS",
+      "animal model",
+      "pregnancy"
+    ],
+    "one_liner": "動物模型研究提示孕婦過度低氧可能危害胎兒，但設計為基礎研究、樣本為羊隻、與新生兒出生後照護無直接關聯，可暫時跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41845053",
+    "title": "Cardio-metabolic risks in preterm children: opportunities, cautions and the importance of longer-term study.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 17",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "早產兒長期追蹤",
+      "代謝風險",
+      "心血管風險",
+      "DOHaD",
+      "生長軌跡"
+    ],
+    "one_liner": "評論文章強調早產兒長期代謝追蹤的重要性與方法學挑戰，但無新實證數據，適合作為背景閱讀而非決策依據。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41851229",
+    "title": "Continuous Medicaid coverage: a policy strategy to improve access to care for high-risk neonates.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 18",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Medicaid",
+      "health insurance policy",
+      "NICU graduates",
+      "access to care",
+      "healthcare advocacy"
+    ],
+    "one_liner": "此為美國 Medicaid 政策評論文章，非臨床實證研究，對台灣 NICU 照護實務無直接指導價值，可跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41849630",
+    "title": "Erratum.",
+    "journal": "Neonatology",
+    "pub_date": "2026 Mar 18",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "勘誤",
+      "開放取用授權",
+      "行政更正"
+    ],
+    "one_liner": "純粹期刊勘誤聲明，無臨床內容，可跳過；若對 neonatal seizure 與 lidocaine 治療有興趣，應直接查閱原始文章。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41850579",
+    "title": "Weight and Health Outcomes in Cerebral Palsy: A Causality Dilemma.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 19",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "cerebral palsy",
+      "weight outcomes",
+      "pediatric neurology"
+    ],
+    "one_liner": "可以跳過——此為腦性麻痺患者長期健康的敘述性討論，與 NICU 早產兒急性期或發育追蹤照護無直接臨床應用價值。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41857388",
+    "title": "Correction: Impact of ultrasound-guided circulatory management protocol on intraventricular hemorrhage in extremely preterm infants.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 19",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "IVH",
+      "ELBW",
+      "ultrasound-guided hemodynamic management",
+      "correction"
+    ],
+    "one_liner": "本文為期刊更正公告而非原始研究，無法進行實質學術評估，建議查閱原始文章以了解超音波導引循環管理對極低出生體重兒腦室內出血的影響。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41857386",
+    "title": "Nonlinear association between physical activity and bone mineral density in adolescents.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 19",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "青少年",
+      "骨礦物質密度",
+      "身體活動",
+      "非線性關聯",
+      "一般兒科"
+    ],
+    "one_liner": "可以跳過——本文研究對象為青少年，與新生兒科臨床照護無關。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41851497",
+    "title": "Correction: Determinants of unbound bilirubin and clinical utility of the total bilirubin/albumin ratio in neonates.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 18",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "bilirubin",
+      "albumin",
+      "neonatal jaundice",
+      "correction"
+    ],
+    "one_liner": "此為正誤更正文章而非原始研究，無法獨立評估臨床價值，應查閱原始論文以判斷膽紅素/白蛋白比值在新生兒黃疸管理中的實用性。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41848733",
+    "title": "An AI Approach to Differentiating Lung Squamous Cell Carcinoma From Metastases of Other Origins.",
+    "journal": "JAMA Network Open",
+    "pub_date": "2026 Mar 02",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人腫瘤",
+      "病理診斷",
+      "人工智慧",
+      "鱗狀細胞癌",
+      "非新生兒科"
+    ],
+    "one_liner": "成人肺癌病理診斷研究，與新生兒科完全無關，可跳過。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
   }
 ]
