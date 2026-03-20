@@ -751,34 +751,34 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
     def _css(self):
         return """<style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.7}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.8;font-size:16px}
 .container{max-width:720px;margin:0 auto;padding:20px}
 header{padding:20px 0;border-bottom:2px solid #1B6B93;margin-bottom:24px}
-.back{font-size:13px;color:#1B6B93;text-decoration:none}
+.back{font-size:15px;color:#1B6B93;text-decoration:none}
 .back:hover{text-decoration:underline}
-.date{font-size:13px;color:#888;margin-top:8px}
-h1{font-size:24px;font-weight:700;color:#1B6B93;margin-top:4px}
-.stats{font-size:13px;color:#666;margin-top:6px}
-.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:18px;margin-bottom:16px}
+.date{font-size:15px;color:#888;margin-top:8px}
+h1{font-size:26px;font-weight:700;color:#1B6B93;margin-top:4px}
+.stats{font-size:15px;color:#666;margin-top:6px}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:18px}
 .card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
-.tag{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
-.tag-journal{font-size:11px;color:#999}
-.card-title{font-size:16px;font-weight:600;color:#222;line-height:1.4;margin-bottom:6px}
-.card-authors{font-size:12px;color:#999;margin-bottom:12px}
-.section{padding:12px 0;border-top:1px solid #f0f0ec}
-.section p{font-size:13px;color:#555;margin-bottom:6px}
-.section-label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:8px}
-.hl{border-left:3px solid;padding:8px 12px;margin:6px 0;font-size:13px;line-height:1.6;border-radius:0}
+.tag{padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600}
+.tag-journal{font-size:13px;color:#999}
+.card-title{font-size:18px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px}
+.card-authors{font-size:14px;color:#999;margin-bottom:14px}
+.section{padding:14px 0;border-top:1px solid #f0f0ec}
+.section p{font-size:15px;color:#555;margin-bottom:8px}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:10px}
+.hl{border-left:3px solid;padding:10px 14px;margin:8px 0;font-size:15px;line-height:1.7;border-radius:0}
 .hl-green{border-color:#639922;background:#EAF3DE;color:#27500A}
 .hl-amber{border-color:#BA7517;background:#FAEEDA;color:#633806}
 .hl-red{border-color:#E24B4A;background:#FCEBEB;color:#791F1F}
 .hl-blue{border-color:#378ADD;background:#E6F1FB;color:#0C447C}
-.related{font-size:13px;color:#555;padding:6px 0;border-bottom:1px solid #f5f5f0}
+.related{font-size:15px;color:#555;padding:8px 0;border-bottom:1px solid #f5f5f0}
 .related:last-child{border-bottom:none}
-.card-links{padding-top:12px;display:flex;gap:16px}
-.card-links a{font-size:12px;color:#1B6B93;text-decoration:none}
+.card-links{padding-top:14px;display:flex;gap:16px}
+.card-links a{font-size:14px;color:#1B6B93;text-decoration:none}
 .card-links a:hover{text-decoration:underline}
-footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:11px;color:#999;text-align:center}
-.vote-count{font-size:11px;color:#1B6B93;font-weight:600}
-@media(max-width:600px){.container{padding:12px}.card{padding:14px}}
+footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;color:#999;text-align:center}
+.vote-count{font-size:13px;color:#1B6B93;font-weight:600}
+@media(max-width:600px){.container{padding:12px}.card{padding:16px}}
 </style>"""
