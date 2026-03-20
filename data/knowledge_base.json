@@ -4418,5 +4418,97 @@
     "one_liner": "成人肺癌病理診斷研究，與新生兒/早產兒照護無關，可跳過。",
     "processed_date": "2026-03-20",
     "has_deep_analysis": false
+  },
+  {
+    "pmid": "41857387",
+    "title": "Amplitude integrated electroencephalography for neonatal seizure detection: an alternative opinion to the 2025 Cochrane review.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 19",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "aEEG",
+      "seizure detection",
+      "HIE",
+      "neuromonitoring",
+      "Cochrane review"
+    ],
+    "one_liner": "意見文章挑戰 Cochrane 對 aEEG 的評估結論，提醒臨床醫師在 HIE 與癲癇監測中 aEEG 仍有實用價值，但證據等級有限，需與連續 EEG 併用。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41857355",
+    "title": "Impact of gastrostomy tube placement on meningitis in infants with hydrocephalus requiring ventriculoperitoneal shunt.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 19",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "VPS (ventriculoperitoneal shunt)",
+      "gastrostomy tube",
+      "hydrocephalus",
+      "meningitis",
+      "device-associated infection"
+    ],
+    "one_liner": "可跳過：雖然指出 GT 增加 VPS 感染風險，但未提供可行的臨床決策指引，且樣本量有限、研究設計為回溯性分析，對一般 NICU 照護影響有限。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41857388",
+    "title": "Correction: Impact of ultrasound-guided circulatory management protocol on intraventricular hemorrhage in extremely preterm infants.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 19",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "IVH",
+      "極早產兒",
+      "超音波導引",
+      "循環管理",
+      "更正公告"
+    ],
+    "one_liner": "本文為期刊更正公告而非原始研究，無法評估其臨床價值；應查閱原始論文及勘誤內容以判斷是否影響臨床決策。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41857386",
+    "title": "Nonlinear association between physical activity and bone mineral density in adolescents.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 19",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "青少年",
+      "骨礦物質密度",
+      "身體活動",
+      "非線性關聯",
+      "一般兒科"
+    ],
+    "one_liner": "可以跳過——本研究為青少年骨骼健康研究，與新生兒科臨床照護完全無關。",
+    "processed_date": "2026-03-20",
+    "has_deep_analysis": false
   }
 ]
