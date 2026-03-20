@@ -95,6 +95,19 @@ class WebDigestGenerator:
         self._update_index(date_str, display_date, digest_articles, on_demand, token)
         logger.info("Index page updated")
 
+    def regenerate_index(self):
+        """Regenerate index.html from existing archive.json without creating a new daily page."""
+        archive_path = self.output_dir / "archive.json"
+        if not archive_path.exists():
+            logger.info("No archive.json found, skipping index regeneration")
+            return
+        with open(archive_path) as f:
+            archive = json.load(f)
+        index_html = self._build_index(archive)
+        with open(self.output_dir / "index.html", "w", encoding="utf-8") as f:
+            f.write(index_html)
+        logger.info("Index page regenerated from existing archive")
+
     def _auth_gate_js(self, token_hash: str) -> str:
         """JavaScript for password + token authentication gate."""
         return f"""<script>

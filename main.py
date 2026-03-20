@@ -104,8 +104,14 @@ def run_pipeline(dry_run: bool = False):
     articles = fetcher.fetch_new_articles()
 
     if not articles:
-        logger.info("No new articles found. Exiting.")
+        logger.info("No new articles found.")
         fetcher.save_cache()
+        # Still regenerate index page (picks up code changes, feedback updates)
+        if not dry_run:
+            from src.web_digest import WebDigestGenerator
+            web = WebDigestGenerator()
+            web.regenerate_index()
+            logger.info("Index page regenerated (no new articles)")
         return
 
     # 3. Check OA availability
