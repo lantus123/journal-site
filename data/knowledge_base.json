@@ -5695,5 +5695,166 @@
     "one_liner": "成人肺癌病理診斷研究，與新生兒科照護無關，可跳過。",
     "processed_date": "2026-03-20",
     "has_deep_analysis": false
+  },
+  {
+    "pmid": "41860109",
+    "title": "Patent Ductus Arteriosus Persistence and Neurodevelopmental Outcomes: A Restrictive Treatment Approach Does Not Compromise Neurological Development.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 20",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "PDA",
+      "neurodevelopment",
+      "restrictive treatment",
+      "VLBW",
+      "Bayley"
+    ],
+    "one_liner": "這項研究支持限制性 PDA 治療不會損害神經發育，但因為是單中心回溯性設計且樣本中等，結論應與其他高品質證據（如 PDA-TOLERATE trial）並行參考。",
+    "processed_date": "2026-03-21",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41860325",
+    "title": "Society of Critical Care Medicine 2026 Guidelines on the Care and Management of Pediatric and Neonatal Intensive Care Patients at the End of Life.",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Mar 20",
+    "total_score": 3,
+    "scores": {
+      "design": 5,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 5
+    },
+    "keywords": [
+      "end-of-life care",
+      "palliative care",
+      "NICU",
+      "family support",
+      "bereavement"
+    ],
+    "one_liner": "高品質指引但主軸為臨終照護與家庭支持而非急性 NICU 救治決策，適合建立照護流程但對日常臨床用藥、呼吸器策略等無直接影響。",
+    "processed_date": "2026-03-21",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41860282",
+    "title": "Executive Summary of Society of Critical Care Medicine 2026 Guidelines on the Care and Management of Pediatric and Neonatal Intensive Care Patients at the End of Life.",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Mar 20",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "end-of-life care",
+      "palliative care",
+      "NICU ethics",
+      "family communication",
+      "symptom management"
+    ],
+    "one_liner": "新生兒科醫師應參考此指引以建立 NICU 末期照護的標準化流程與倫理決策框架，但本身非新證據而是現有最佳實踐的總結。",
+    "processed_date": "2026-03-21",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41860115",
+    "title": "Risk Factors for Airway Infantile Hemangioma.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 20",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "infantile hemangioma",
+      "airway compromise",
+      "segmental hemangioma",
+      "propranolol",
+      "risk stratification"
+    ],
+    "one_liner": "可跳過：此為一般小兒血管異常疾病的風險分層研究，與新生兒重症照護、早產兒發育追蹤無直接關聯，臨床價值主要在於提醒小兒科醫師進行篩檢而非改變 NICU 照護策略。",
+    "processed_date": "2026-03-21",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41860323",
+    "title": "Viral and Host-Related Factors in the Nasal Inflammatory Response to Critical Bronchiolitis in Infants and Children.",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Mar 20",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "bronchiolitis",
+      "RSV",
+      "inflammatory cytokines",
+      "PICU",
+      "viral infection"
+    ],
+    "one_liner": "本研究為細支氣管炎發炎機制的基礎研究，對象為 PICU 患童而非新生兒，對 NICU 照護決策無直接影響，可跳過。",
+    "processed_date": "2026-03-21",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41860319",
+    "title": "Ten Steps to Improve Sepsis Care in Low-Resource Settings.",
+    "journal": "Critical Care Medicine",
+    "pub_date": "2026 Mar 20",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "敗血症",
+      "低資源設置",
+      "共識框架",
+      "品質改善",
+      "全球衛生"
+    ],
+    "one_liner": "此為成人及一般兒科敗血症的全球共識框架，與新生兒/早產兒重症照護無直接關聯，NICU 醫師可跳過。",
+    "processed_date": "2026-03-21",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41860549",
+    "title": "FDA-Regulated AI-Enabled Medical Devices With Pediatric Indications.",
+    "journal": "JAMA Network Open",
+    "pub_date": "2026 Mar 02",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "AI",
+      "FDA regulation",
+      "pediatric devices",
+      "policy analysis",
+      "medical device"
+    ],
+    "one_liner": "此為 FDA 監管政策分析研究，與新生兒科臨床實踐無直接相關性，可跳過。",
+    "processed_date": "2026-03-21",
+    "has_deep_analysis": false
   }
 ]
