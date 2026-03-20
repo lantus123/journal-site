@@ -63,7 +63,7 @@ class LinePusher:
 
     def send_digest(self, articles: list[dict], on_demand: list[dict] = None):
         """
-        Send a concise text notification to LINE group with web link.
+        Send a Flex Message carousel digest to LINE group.
         """
         if not self.is_configured:
             logger.warning("LINE not configured - skipping push")
@@ -80,41 +80,16 @@ class LinePusher:
         today = datetime.now(TW_TZ)
         date_str = today.strftime("%Y-%m-%d")
         display_date = today.strftime("%m/%d (%a)")
-        total = len(high) + len(medium) + len(on_demand)
         web_url = f"{self.site_url}/{date_str}.html"
 
-        lines = [
-            f"📰 NICU Journal Digest {display_date}",
-            f"共 {total} 篇文章",
-            "",
-        ]
+        from .line_flex_builder import build_digest_flex
 
-        # Score 4-5 titles
-        if high:
-            lines.append(f"⭐ Score 4-5: {len(high)} 篇")
-            for a in high:
-                score = a.get("total_score", 0)
-                title = a.get("title", "")[:70]
-                if len(a.get("title", "")) > 70:
-                    title += "..."
-                lines.append(f"  [{score}] {title}")
-            lines.append("")
+        flex = build_digest_flex(articles, on_demand, display_date, web_url)
+        if not flex:
+            logger.info("No digest flex to send")
+            return False
 
-        # Score 2-3 count only
-        if medium:
-            lines.append(f"📋 Score 2-3: {len(medium)} 篇")
-            lines.append("")
-
-        # On-demand
-        if on_demand:
-            lines.append(f"🔬 同事要求分析: {len(on_demand)} 篇")
-            lines.append("")
-
-        lines.append(f"👉 完整內容：{web_url}")
-
-        text = "\n".join(lines)
-        message = {"type": "text", "text": text}
-        return self._push(self.group_id, message)
+        return self._push(self.group_id, flex)
 
     def send_instant_alert(self, article: dict):
         """Send immediate Flex Message alert for Score 5 articles."""

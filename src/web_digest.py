@@ -32,6 +32,7 @@ class WebDigestGenerator:
         if self.password:
             self.password_hash = hashlib.sha256(self.password.encode()).hexdigest()
         self.scoring_config = self._load_scoring_config()
+        self.journals_config = self._load_journals_config()
 
     def _load_scoring_config(self) -> dict:
         """Load scoring config for display on index page."""
@@ -40,6 +41,25 @@ class WebDigestGenerator:
             with open(config_path) as f:
                 return yaml.safe_load(f)
         return {}
+
+    def _build_feedback_map(self, feedback: list) -> dict:
+        """Build a map of pmid -> {rating: count} from feedback entries."""
+        fb_map: dict[str, dict[str, int]] = {}
+        for entry in feedback:
+            pmid = entry.get("pmid", "")
+            rating = entry.get("rating", "")
+            if pmid and rating:
+                fb_map.setdefault(pmid, {})
+                fb_map[pmid][rating] = fb_map[pmid].get(rating, 0) + 1
+        return fb_map
+
+    def _load_journals_config(self) -> list:
+        """Load journals config for display on index page."""
+        config_path = Path("config/journals.yaml")
+        if config_path.exists():
+            with open(config_path) as f:
+                return yaml.safe_load(f).get("journals", [])
+        return []
 
     def generate(self, articles: list[dict], on_demand: list[dict] = None):
         """Generate today's digest page and update the index."""
@@ -52,6 +72,11 @@ class WebDigestGenerator:
         if not digest_articles and not on_demand:
             logger.info("No articles for web digest")
             return
+
+        # Load feedback summaries
+        from .feedback import load_feedback
+        all_feedback = load_feedback()
+        self.feedback_map = self._build_feedback_map(all_feedback)
 
         # Generate a daily token
         token = secrets.token_hex(4)  # 8-char hex
@@ -194,6 +219,15 @@ class WebDigestGenerator:
         el.style.background = '#1B6B93';
         el.style.color = '#fff';
 
+        // Update vote count
+        var cntEl = document.getElementById('cnt-' + pmid + '-' + rating);
+        if (cntEl) {{
+          var n = parseInt(cntEl.textContent || '0') + 1;
+          cntEl.textContent = n;
+          cntEl.style.display = '';
+          cntEl.style.color = '#fff';
+        }}
+
         var label = document.getElementById('voted-' + pmid);
         if (label) {{
           var labels = {{"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"}};
@@ -296,6 +330,11 @@ class WebDigestGenerator:
         must_read = sum(1 for a in articles if a.get("total_score", 0) == 5)
         deep = sum(1 for a in articles if a.get("total_score", 0) >= 4)
 
+        # Count votes for today's articles
+        fb_map = getattr(self, "feedback_map", {})
+        all_pmids = [a.get("pmid", "") for a in articles] + [a.get("pmid", "") for a in on_demand]
+        vote_count = sum(sum(fb_map.get(pmid, {}).values()) for pmid in all_pmids if pmid)
+
         entry = {
             "date": date_str,
             "display_date": display_date,
@@ -304,6 +343,7 @@ class WebDigestGenerator:
             "deep_analysis": deep,
             "top_article": "",
             "token": token,
+            "votes": vote_count,
         }
 
         top = [a for a in articles if a.get("total_score", 0) >= 4]
@@ -334,6 +374,11 @@ class WebDigestGenerator:
             if entry.get("deep_analysis", 0) > 0:
                 deep_badge = f'<span class="badge badge-deep">{entry["deep_analysis"]} deep</span>'
 
+            votes = entry.get("votes", 0)
+            vote_badge = ""
+            if votes > 0:
+                vote_badge = f'<span class="badge badge-vote">💬 {votes} votes</span>'
+
             top = entry.get("top_article", "")
             if top:
                 top = f'<div class="top-article">{top}...</div>'
@@ -349,7 +394,7 @@ class WebDigestGenerator:
   <div class="archive-date">{entry['display_date']}</div>
   <div class="archive-info">
     <span class="archive-count">{entry['total']} articles</span>
-    {must_badge}{deep_badge}
+    {must_badge}{deep_badge}{vote_badge}
     {top}
   </div>
 </a>"""
@@ -370,6 +415,7 @@ class WebDigestGenerator:
 .badge{{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}}
 .badge-must{{background:#EEEDFE;color:#3C3489}}
 .badge-deep{{background:#E1F5EE;color:#085041}}
+.badge-vote{{background:#FFF3E0;color:#E65100}}
 .top-article{{font-size:12px;color:#999;width:100%;margin-top:4px}}
 .hero{{padding:24px 0;margin-bottom:20px}}
 .hero h1{{font-size:28px;font-weight:700;color:#1B6B93;margin:0 0 8px}}
@@ -402,6 +448,7 @@ class WebDigestGenerator:
 </div>
 
 {self._scoring_info_html()}
+{self._journals_info_html()}
 
 {rows if rows else '<p style="color:#999;text-align:center;padding:40px;">No digests yet. Check back tomorrow morning!</p>'}
 
@@ -484,6 +531,50 @@ class WebDigestGenerator:
 details[open] summary span:first-child{{transform:rotate(90deg)}}
 </style>"""
 
+    def _journals_info_html(self) -> str:
+        """Build collapsible monitored journals section from config."""
+        journals = self.journals_config
+        if not journals:
+            return ""
+
+        category_labels = {
+            "nicu": ("🏥", "NICU 專科期刊", "全部收錄"),
+            "pediatrics": ("👶", "兒科期刊", "關鍵字過濾新生兒相關"),
+            "picu": ("🫁", "重症醫學期刊", "關鍵字過濾新生兒相關"),
+            "general": ("📚", "綜合頂尖期刊", "關鍵字過濾新生兒相關"),
+        }
+
+        # Group by category
+        grouped: dict[str, list] = {}
+        for j in journals:
+            cat = j.get("category", "other")
+            grouped.setdefault(cat, []).append(j)
+
+        sections = ""
+        for cat in ["nicu", "pediatrics", "picu", "general"]:
+            if cat not in grouped:
+                continue
+            icon, label, note = category_labels.get(cat, ("•", cat, ""))
+            names = "、".join(j["name"] for j in grouped[cat])
+            sections += (
+                f'<div style="padding:8px 0;border-bottom:1px solid #f0f0ec;">'
+                f'<div style="font-size:12px;font-weight:600;color:#1B6B93;margin-bottom:4px;">'
+                f'{icon} {label} <span style="font-weight:400;color:#999;font-size:11px;">— {note}</span></div>'
+                f'<div style="font-size:12px;color:#555;line-height:1.6;">{names}</div>'
+                f'</div>'
+            )
+
+        total = len(journals)
+        return f"""
+<details style="background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:0;margin-bottom:20px;">
+<summary style="padding:14px 18px;cursor:pointer;font-size:14px;font-weight:600;color:#1B6B93;list-style:none;display:flex;align-items:center;gap:8px;">
+  <span style="transition:transform .2s;">▶</span> 監控期刊（{total} 本）
+</summary>
+<div style="padding:0 18px 18px;">
+  {sections}
+</div>
+</details>"""
+
     def _section_header(self, title):
         return f"""
 <div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
@@ -493,19 +584,31 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
 </div>"""
 
     def _feedback_buttons(self, pmid: str) -> str:
-        """Render feedback buttons for an article."""
+        """Render feedback buttons and vote counts for an article."""
         if not self.feedback_url:
             return ""
+        fb = getattr(self, "feedback_map", {}).get(pmid, {})
+        total_votes = sum(fb.values())
+
         buttons = ""
-        for rating, label in [("must_read", "🔥"), ("useful", "👍"), ("so_so", "➖"), ("skip", "👎")]:
+        for rating, emoji in [("must_read", "🔥"), ("useful", "👍"), ("so_so", "➖"), ("skip", "👎")]:
+            count = fb.get(rating, 0)
+            count_html = f'<span class="vote-count" id="cnt-{pmid}-{rating}">{count}</span>' if count > 0 else f'<span class="vote-count" id="cnt-{pmid}-{rating}" style="display:none;">0</span>'
             buttons += (
-                f'<button data-pmid="{pmid}" onclick="vote(\'{pmid}\',\'{rating}\',this)" '
-                f'style="padding:6px 14px;border:1px solid #ddd;border-radius:6px;background:#fff;'
-                f'cursor:pointer;font-size:14px;transition:all .15s;">{label}</button> '
+                f'<button data-pmid="{pmid}" data-rating="{rating}" onclick="vote(\'{pmid}\',\'{rating}\',this)" '
+                f'style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;'
+                f'cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">'
+                f'{emoji}{count_html}</button> '
             )
+
+        vote_summary = ""
+        if total_votes > 0:
+            vote_summary = f'<span style="font-size:11px;color:#999;margin-left:4px;">{total_votes} 票</span>'
+
         return f"""
 <div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
   {buttons}
+  {vote_summary}
   <span id="voted-{pmid}" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
 </div>"""
 
@@ -663,5 +766,6 @@ h1{font-size:24px;font-weight:700;color:#1B6B93;margin-top:4px}
 .card-links a{font-size:12px;color:#1B6B93;text-decoration:none}
 .card-links a:hover{text-decoration:underline}
 footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:11px;color:#999;text-align:center}
+.vote-count{font-size:11px;color:#1B6B93;font-weight:600}
 @media(max-width:600px){.container{padding:12px}.card{padding:14px}}
 </style>"""
