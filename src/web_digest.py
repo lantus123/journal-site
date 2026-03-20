@@ -1,10 +1,14 @@
 """
 HTML Digest Generator for GitHub Pages.
 Creates daily digest HTML pages and an index page with archive.
+Features: password + token gate, JSONP feedback buttons, localStorage voting memory.
 """
 
+import hashlib
 import json
 import logging
+import os
+import secrets
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -19,6 +23,12 @@ class WebDigestGenerator:
     def __init__(self, output_dir: str = "docs"):
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        self.feedback_url = os.environ.get("FEEDBACK_WEBHOOK_URL", "")
+        self.feedback_secret = os.environ.get("FEEDBACK_SECRET", "")
+        self.password = os.environ.get("DIGEST_PASSWORD", "")
+        self.password_hash = ""
+        if self.password:
+            self.password_hash = hashlib.sha256(self.password.encode()).hexdigest()
 
     def generate(self, articles: list[dict], on_demand: list[dict] = None):
         """Generate today's digest page and update the index."""
@@ -32,18 +42,165 @@ class WebDigestGenerator:
             logger.info("No articles for web digest")
             return
 
+        # Generate a daily token
+        token = secrets.token_hex(4)  # 8-char hex
+        token_hash = hashlib.sha256(token.encode()).hexdigest()
+
         # Generate daily page
-        daily_html = self._build_daily_page(digest_articles, on_demand, date_str, display_date)
+        daily_html = self._build_daily_page(
+            digest_articles, on_demand, date_str, display_date, token_hash
+        )
         daily_path = self.output_dir / f"{date_str}.html"
         with open(daily_path, "w", encoding="utf-8") as f:
             f.write(daily_html)
         logger.info(f"Daily digest page: {daily_path}")
 
         # Update index
-        self._update_index(date_str, display_date, digest_articles, on_demand)
+        self._update_index(date_str, display_date, digest_articles, on_demand, token)
         logger.info("Index page updated")
 
-    def _build_daily_page(self, articles, on_demand, date_str, display_date):
+    def _auth_gate_js(self, token_hash: str) -> str:
+        """JavaScript for password + token authentication gate."""
+        return f"""<script>
+(function() {{
+  var TOKEN_HASH = "{token_hash}";
+  var PW_HASH = "{self.password_hash}";
+  var content = document.getElementById('digest-content');
+  var gate = document.getElementById('auth-gate');
+
+  function sha256(str) {{
+    var encoder = new TextEncoder();
+    return crypto.subtle.digest('SHA-256', encoder.encode(str)).then(function(buf) {{
+      return Array.from(new Uint8Array(buf)).map(function(b) {{
+        return b.toString(16).padStart(2, '0');
+      }}).join('');
+    }});
+  }}
+
+  function unlock() {{
+    gate.style.display = 'none';
+    content.style.display = 'block';
+  }}
+
+  function checkAccess() {{
+    // 1. Check URL token
+    var params = new URLSearchParams(window.location.search);
+    var t = params.get('t');
+    if (t && TOKEN_HASH) {{
+      sha256(t).then(function(h) {{
+        if (h === TOKEN_HASH) {{
+          localStorage.setItem('digest_token', t);
+          unlock();
+        }} else {{
+          checkPassword();
+        }}
+      }});
+      return;
+    }}
+
+    // 2. Check stored password
+    checkPassword();
+  }}
+
+  function checkPassword() {{
+    if (!PW_HASH) {{ unlock(); return; }}
+    var saved = localStorage.getItem('digest_pw');
+    if (saved) {{
+      sha256(saved).then(function(h) {{
+        if (h === PW_HASH) {{ unlock(); }}
+        else {{ gate.style.display = 'flex'; }}
+      }});
+    }} else {{
+      gate.style.display = 'flex';
+    }}
+  }}
+
+  window.submitPassword = function() {{
+    var input = document.getElementById('pw-input').value;
+    sha256(input).then(function(h) {{
+      if (h === PW_HASH) {{
+        localStorage.setItem('digest_pw', input);
+        unlock();
+      }} else {{
+        document.getElementById('pw-error').style.display = 'block';
+      }}
+    }});
+  }};
+
+  document.addEventListener('DOMContentLoaded', checkAccess);
+}})();
+</script>"""
+
+    def _feedback_js(self) -> str:
+        """JavaScript for JSONP feedback buttons with localStorage memory."""
+        if not self.feedback_url:
+            return ""
+        return f"""<script>
+(function() {{
+  var FEEDBACK_URL = "{self.feedback_url}";
+  var SECRET = "{self.feedback_secret}";
+  var voted = JSON.parse(localStorage.getItem('digest_voted') || '{{}}'  );
+
+  window.addEventListener('DOMContentLoaded', function() {{
+    // Restore previous votes
+    Object.keys(voted).forEach(function(pmid) {{
+      var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+      btns.forEach(function(btn) {{
+        btn.style.opacity = '0.4';
+        btn.style.pointerEvents = 'none';
+      }});
+      var label = document.getElementById('voted-' + pmid);
+      if (label) {{
+        var labels = {{"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"}};
+        label.textContent = "Voted: " + (labels[voted[pmid]] || voted[pmid]) + " ✓";
+        label.style.display = 'block';
+      }}
+    }});
+  }});
+
+  window.vote = function(pmid, rating, el) {{
+    if (voted[pmid]) return;
+
+    // Get uid from token or anonymous
+    var uid = 'web_anon';
+    var t = new URLSearchParams(window.location.search).get('t');
+    if (t) uid = 'web_' + t.substring(0, 8);
+
+    // JSONP call
+    var script = document.createElement('script');
+    var cb = 'fb_' + Date.now();
+    window[cb] = function(resp) {{
+      if (resp && resp.status === 'ok') {{
+        voted[pmid] = rating;
+        localStorage.setItem('digest_voted', JSON.stringify(voted));
+
+        var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+        btns.forEach(function(btn) {{
+          btn.style.opacity = '0.4';
+          btn.style.pointerEvents = 'none';
+        }});
+        el.style.opacity = '1';
+        el.style.background = '#1B6B93';
+        el.style.color = '#fff';
+
+        var label = document.getElementById('voted-' + pmid);
+        if (label) {{
+          var labels = {{"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"}};
+          label.textContent = "Voted: " + (labels[rating] || rating) + " ✓";
+          label.style.display = 'block';
+        }}
+      }}
+      delete window[cb];
+      script.remove();
+    }};
+    script.src = FEEDBACK_URL + '?action=feedback&pmid=' + pmid + '&rating=' + rating +
+      '&uid=' + uid + '&source=web&secret=' + SECRET + '&callback=' + cb;
+    document.body.appendChild(script);
+  }};
+}})();
+</script>"""
+
+    def _build_daily_page(self, articles, on_demand, date_str, display_date, token_hash):
         high = [a for a in articles if a.get("total_score", 0) >= 4]
         medium = [a for a in articles if 2 <= a.get("total_score", 0) <= 3]
         total = len(high) + len(medium) + len(on_demand)
@@ -79,6 +236,23 @@ class WebDigestGenerator:
 {self._css()}
 </head>
 <body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">NICU Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">或從 LINE / Email 點擊連結直接閱讀</p>
+</div>
+</div>
+
+<!-- Digest content (hidden until auth) -->
+<div id="digest-content" style="display:none;">
 <div class="container">
 <header>
   <a href="index.html" class="back">← Back to archive</a>
@@ -92,10 +266,14 @@ class WebDigestGenerator:
   AI scoring by Claude (Haiku + Sonnet)
 </footer>
 </div>
+</div>
+
+{self._auth_gate_js(token_hash)}
+{self._feedback_js()}
 </body>
 </html>"""
 
-    def _update_index(self, date_str, display_date, articles, on_demand):
+    def _update_index(self, date_str, display_date, articles, on_demand, token):
         """Update index.html with link to today's digest."""
         archive_path = self.output_dir / "archive.json"
         archive = []
@@ -114,6 +292,7 @@ class WebDigestGenerator:
             "must_read": must_read,
             "deep_analysis": deep,
             "top_article": "",
+            "token": token,
         }
 
         top = [a for a in articles if a.get("total_score", 0) >= 4]
@@ -130,11 +309,11 @@ class WebDigestGenerator:
             json.dump(archive, f, ensure_ascii=False, indent=2)
 
         # Generate index.html
-        index_html = self._build_index(archive, date_str)
+        index_html = self._build_index(archive)
         with open(self.output_dir / "index.html", "w", encoding="utf-8") as f:
             f.write(index_html)
 
-    def _build_index(self, archive, latest_date):
+    def _build_index(self, archive):
         rows = ""
         for entry in archive:
             must_badge = ""
@@ -148,8 +327,14 @@ class WebDigestGenerator:
             if top:
                 top = f'<div class="top-article">{top}...</div>'
 
+            # Link includes token if available
+            token = entry.get("token", "")
+            href = f"{entry['date']}.html"
+            if token:
+                href += f"?t={token}"
+
             rows += f"""
-<a href="{entry['date']}.html" class="archive-row">
+<a href="{href}" class="archive-row">
   <div class="archive-date">{entry['display_date']}</div>
   <div class="archive-info">
     <span class="archive-count">{entry['total']} articles</span>
@@ -181,6 +366,23 @@ class WebDigestGenerator:
 </style>
 </head>
 <body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">NICU Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">密碼請洽科內同仁</p>
+</div>
+</div>
+
+<!-- Index content -->
+<div id="digest-content" style="display:none;">
 <div class="container">
 <div class="hero">
   <h1>NICU Journal Digest</h1>
@@ -194,6 +396,9 @@ class WebDigestGenerator:
   NICU Journal Auto-Review System · AI scoring by Claude (Haiku + Sonnet)
 </footer>
 </div>
+</div>
+
+{self._auth_gate_js("")}
 </body>
 </html>"""
 
@@ -203,6 +408,23 @@ class WebDigestGenerator:
   <div style="flex:1;height:1px;background:#ddd;"></div>
   <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">{title}</div>
   <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>"""
+
+    def _feedback_buttons(self, pmid: str) -> str:
+        """Render feedback buttons for an article."""
+        if not self.feedback_url:
+            return ""
+        buttons = ""
+        for rating, label in [("must_read", "🔥"), ("useful", "👍"), ("so_so", "➖"), ("skip", "👎")]:
+            buttons += (
+                f'<button data-pmid="{pmid}" onclick="vote(\'{pmid}\',\'{rating}\',this)" '
+                f'style="padding:6px 14px;border:1px solid #ddd;border-radius:6px;background:#fff;'
+                f'cursor:pointer;font-size:14px;transition:all .15s;">{label}</button> '
+            )
+        return f"""
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  {buttons}
+  <span id="voted-{pmid}" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
 </div>"""
 
     def _render_article(self, article, is_deep=False, is_on_demand=False):
@@ -315,6 +537,9 @@ class WebDigestGenerator:
         if article.get("oa_url"):
             links += f' <a href="{article["oa_url"]}" target="_blank">Full text (OA) →</a>'
 
+        # Feedback buttons
+        feedback = self._feedback_buttons(pmid)
+
         return f"""
 <div class="card">
   <div class="card-tags">{tags}</div>
@@ -322,6 +547,7 @@ class WebDigestGenerator:
   <div class="card-authors">{article.get('authors', '')} · {article.get('pub_date', '')}</div>
   {content}
   <div class="card-links">{links}</div>
+  {feedback}
 </div>"""
 
     def _css(self):

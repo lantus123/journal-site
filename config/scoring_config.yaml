@@ -69,3 +69,25 @@ actions:
 # Topic boost (auto-updated by feedback in Phase 4)
 # Format: keyword -> bonus points added to total score
 topic_boost: {}
+
+# Impact Factor tier boost
+# High-IF journals get a score bonus to reflect publication prestige
+if_tier_boost:
+  top_tier:
+    boost: 0.5
+    journals:
+      - "N Engl J Med"
+      - "Lancet"
+      - "BMJ"
+      - "JAMA"
+      - "JAMA Netw Open"
+  high_tier:
+    boost: 0.3
+    journals:
+      - "Pediatrics"
+      - "JAMA Pediatr"
+      - "J Pediatr"
+      - "Crit Care Med"
+      - "Intensive Care Med"
+      - "Pediatr Crit Care Med"
+      - "Cochrane Database Syst Rev"

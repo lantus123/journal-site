@@ -3,8 +3,8 @@ Email digest sender via Resend API.
 Builds HTML email from scored articles and sends to department.
 """
 
+import hashlib
 import os
-import json
 import logging
 from datetime import datetime, timezone, timedelta
 
@@ -27,6 +27,8 @@ class EmailPusher:
         )
         self.recipients = os.environ.get("EMAIL_RECIPIENTS", "").split(",")
         self.recipients = [r.strip() for r in self.recipients if r.strip()]
+        self.feedback_url = os.environ.get("FEEDBACK_WEBHOOK_URL", "")
+        self.feedback_secret = os.environ.get("FEEDBACK_SECRET", "")
 
     def send_digest(self, articles: list[dict], on_demand: list[dict] = None):
         """Build and send the daily digest email."""
@@ -38,44 +40,46 @@ class EmailPusher:
             return False
 
         on_demand = on_demand or []
-        html = self._build_html(articles, on_demand)
         today = datetime.now(TW_TZ).strftime("%Y/%m/%d")
-
-        high_score = [a for a in articles if a.get("total_score", 0) >= 4]
         must_reads = sum(1 for a in articles if a.get("total_score", 0) == 5)
 
         subject = f"NICU Journal Digest - {today}"
         if must_reads:
             subject += f" ({must_reads} must-read)"
 
-        try:
-            resp = requests.post(
-                RESEND_API_URL,
-                headers={
-                    "Authorization": f"Bearer {self.api_key}",
-                    "Content-Type": "application/json",
-                },
-                json={
-                    "from": self.from_address,
-                    "to": self.recipients,
-                    "subject": subject,
-                    "html": html,
-                },
-                timeout=30,
-            )
+        # Send per-recipient for unique feedback uid
+        success = True
+        for recipient in self.recipients:
+            html = self._build_html(articles, on_demand, recipient)
+            try:
+                resp = requests.post(
+                    RESEND_API_URL,
+                    headers={
+                        "Authorization": f"Bearer {self.api_key}",
+                        "Content-Type": "application/json",
+                    },
+                    json={
+                        "from": self.from_address,
+                        "to": [recipient],
+                        "subject": subject,
+                        "html": html,
+                    },
+                    timeout=30,
+                )
 
-            if resp.status_code == 200:
-                logger.info(f"Digest sent to {len(self.recipients)} recipients via Resend")
-                return True
-            else:
-                logger.error(f"Resend failed: {resp.status_code} {resp.text}")
-                return False
+                if resp.status_code == 200:
+                    logger.info(f"Digest sent to {recipient} via Resend")
+                else:
+                    logger.error(f"Resend failed for {recipient}: {resp.status_code} {resp.text}")
+                    success = False
 
-        except Exception as e:
-            logger.error(f"Failed to send email: {e}")
-            return False
+            except Exception as e:
+                logger.error(f"Failed to send email to {recipient}: {e}")
+                success = False
 
-    def _build_html(self, articles: list[dict], on_demand: list[dict]) -> str:
+        return success
+
+    def _build_html(self, articles: list[dict], on_demand: list[dict], recipient: str = "") -> str:
         """Build the full HTML digest."""
         today = datetime.now(TW_TZ).strftime("%Y/%m/%d (%A)")
         high = [a for a in articles if a.get("total_score", 0) >= 4]
@@ -86,17 +90,17 @@ class EmailPusher:
         if on_demand:
             sections.append(self._section_header("REQUESTED BY COLLEAGUE", "#0C447C"))
             for a in on_demand:
-                sections.append(self._render_deep_article(a, is_on_demand=True))
+                sections.append(self._render_deep_article(a, is_on_demand=True, recipient=recipient))
 
         if high:
             sections.append(self._section_header("SCORE 4-5: DEEP ANALYSIS", "#3C3489"))
             for a in high:
-                sections.append(self._render_deep_article(a))
+                sections.append(self._render_deep_article(a, recipient=recipient))
 
         if medium:
             sections.append(self._section_header("SCORE 2-3: QUICK SUMMARY", "#5F5E5A"))
             for a in medium:
-                sections.append(self._render_summary_article(a))
+                sections.append(self._render_summary_article(a, recipient=recipient))
 
         total = len(high) + len(medium) + len(on_demand)
         must_read = sum(1 for a in articles if a.get("total_score", 0) == 5)
@@ -128,6 +132,30 @@ class EmailPusher:
 </body>
 </html>"""
 
+    def _feedback_buttons(self, pmid: str, recipient: str) -> str:
+        """Render email feedback buttons for an article."""
+        if not self.feedback_url:
+            return ""
+        uid = "email_" + hashlib.sha256(recipient.encode()).hexdigest()[:8]
+        buttons = ""
+        for rating, emoji, label in [
+            ("must_read", "🔥", "Must read"),
+            ("useful", "👍", "Useful"),
+            ("so_so", "➖", "So-so"),
+            ("skip", "👎", "Skip"),
+        ]:
+            url = (
+                f"{self.feedback_url}?action=feedback&pmid={pmid}"
+                f"&rating={rating}&uid={uid}&source=email&secret={self.feedback_secret}"
+            )
+            buttons += (
+                f'<a href="{url}" style="display:inline-block;padding:4px 12px;'
+                f'border:1px solid #ddd;border-radius:6px;text-decoration:none;'
+                f'font-size:12px;color:#555;margin-right:4px;">'
+                f'{emoji} {label}</a>'
+            )
+        return f'<div style="padding:8px 16px 4px;">{buttons}</div>'
+
     def _section_header(self, title: str, color: str) -> str:
         return f"""
 <div style="display:flex;align-items:center;gap:10px;margin:24px 0 12px;">
@@ -136,7 +164,7 @@ class EmailPusher:
   <div style="flex:1;height:1px;background:#ddd;"></div>
 </div>"""
 
-    def _render_deep_article(self, article: dict, is_on_demand: bool = False) -> str:
+    def _render_deep_article(self, article: dict, is_on_demand: bool = False, recipient: str = "") -> str:
         score = article.get("total_score", 0)
         deep = article.get("deep_analysis", {})
         summary = article.get("summary", {})
@@ -229,10 +257,11 @@ class EmailPusher:
   <div style="padding:0 16px;font-size:15px;font-weight:600;color:#222;line-height:1.4;">{article['title']}</div>
   <div style="padding:4px 16px 0;font-size:11px;color:#999;">{article['authors']} · {article.get('source_journal', '')} · {article.get('pub_date', '')}</div>
   {deep_html}
+  {self._feedback_buttons(pmid, recipient)}
   <div style="padding:10px 16px 14px;">{links}</div>
 </div>"""
 
-    def _render_summary_article(self, article: dict) -> str:
+    def _render_summary_article(self, article: dict, recipient: str = "") -> str:
         score = article.get("total_score", 0)
         summary = article.get("summary", {})
         pmid = article.get("pmid", "")
@@ -255,5 +284,6 @@ class EmailPusher:
     <p style="margin:0 0 6px;"><b>主要發現：</b>{summary.get('findings', '')}</p>
     <p style="margin:0;"><b>臨床意義：</b>{summary.get('significance', '')}</p>
   </div>
+  {self._feedback_buttons(pmid, recipient)}
   <div style="padding:8px 16px 14px;">{links}</div>
 </div>"""

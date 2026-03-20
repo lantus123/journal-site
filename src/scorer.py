@@ -41,6 +41,17 @@ class ArticleScorer:
             weights[dim["id"]] = dim["weight"]
         return weights
 
+    def _get_if_boost(self, article: dict) -> float:
+        """Get Impact Factor tier boost for the article's journal."""
+        if_config = self.config.get("if_tier_boost", {})
+        journal = article.get("source_journal", article.get("journal", ""))
+        for tier_key in ("top_tier", "high_tier"):
+            tier = if_config.get(tier_key, {})
+            journals = tier.get("journals", [])
+            if journal in journals:
+                return tier.get("boost", 0)
+        return 0.0
+
     def _load_manual_chunks(self) -> list[dict]:
         """Load pre-processed manual chunks if available."""
         chunks_path = Path("data/manual_chunks.json")
@@ -79,9 +90,16 @@ class ArticleScorer:
         # Apply topic boost
         topic_boost = self.config.get("topic_boost", {})
         keywords = result.get("keywords", [])
-        boost = sum(topic_boost.get(kw, 0) for kw in keywords)
+        topic_boost_val = sum(topic_boost.get(kw, 0) for kw in keywords)
+
+        # Apply IF tier boost
+        if_boost_val = self._get_if_boost(article)
+
         original_total = result.get("total", 3)
-        boosted_total = min(5, max(1, round(original_total + boost)))
+        total_boost = topic_boost_val + if_boost_val
+        # Cap: boost cannot increase score by more than 1
+        total_boost = min(total_boost, 1.0)
+        boosted_total = min(5, max(1, round(original_total + total_boost)))
 
         # Merge results into article
         article["scores"] = result.get("scores", {})
@@ -90,10 +108,18 @@ class ArticleScorer:
         article["summary"] = result.get("summary", {})
         article["one_liner"] = result.get("one_liner", "")
         article["keywords"] = keywords
+        article["if_boost"] = if_boost_val
+
+        boost_info = []
+        if topic_boost_val > 0:
+            boost_info.append(f"topic+{round(topic_boost_val, 1)}")
+        if if_boost_val > 0:
+            boost_info.append(f"IF+{round(if_boost_val, 1)}")
+        boost_str = "↑" + ",".join(boost_info) if boost_info else "no boost"
 
         logger.info(
             f"  [{article['pmid']}] Score: {boosted_total} "
-            f"({'↑' + str(round(boost, 1)) if boost > 0 else 'no boost'}) "
+            f"({boost_str}) "
             f"- {article['title'][:60]}..."
         )
         return article

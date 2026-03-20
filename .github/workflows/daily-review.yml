@@ -33,15 +33,16 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
           UNPAYWALL_EMAIL: ${{ secrets.UNPAYWALL_EMAIL }}
-          FEEDBACK_URL: ${{ secrets.FEEDBACK_URL }}
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_GROUP_ID: ${{ secrets.LINE_GROUP_ID }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_FROM: "NICU Journal Bot <nicu-journal@schedule.mmhped.org>"
+          FEEDBACK_WEBHOOK_URL: ${{ secrets.FEEDBACK_WEBHOOK_URL }}
+          FEEDBACK_SECRET: ${{ secrets.FEEDBACK_SECRET }}
+          DIGEST_PASSWORD: ${{ secrets.DIGEST_PASSWORD }}
+          DIGEST_SITE_URL: "https://lantus123.github.io/nicu-journal-site"
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             python main.py --dry-run
