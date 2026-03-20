@@ -12,6 +12,8 @@ import secrets
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+import yaml
+
 logger = logging.getLogger(__name__)
 
 TW_TZ = timezone(timedelta(hours=8))
@@ -29,6 +31,15 @@ class WebDigestGenerator:
         self.password_hash = ""
         if self.password:
             self.password_hash = hashlib.sha256(self.password.encode()).hexdigest()
+        self.scoring_config = self._load_scoring_config()
+
+    def _load_scoring_config(self) -> dict:
+        """Load scoring config for display on index page."""
+        config_path = Path("config/scoring_config.yaml")
+        if config_path.exists():
+            with open(config_path) as f:
+                return yaml.safe_load(f)
+        return {}
 
     def generate(self, articles: list[dict], on_demand: list[dict] = None):
         """Generate today's digest page and update the index."""
@@ -390,6 +401,8 @@ class WebDigestGenerator:
   <p style="margin-top:8px;font-size:13px;color:#aaa;">Tracking {len(archive)} days of neonatal literature</p>
 </div>
 
+{self._scoring_info_html()}
+
 {rows if rows else '<p style="color:#999;text-align:center;padding:40px;">No digests yet. Check back tomorrow morning!</p>'}
 
 <footer>
@@ -401,6 +414,75 @@ class WebDigestGenerator:
 {self._auth_gate_js("")}
 </body>
 </html>"""
+
+    def _scoring_info_html(self) -> str:
+        """Build collapsible scoring methodology section from config."""
+        dims = self.scoring_config.get("scoring", {}).get("dimensions", [])
+        if_boost = self.scoring_config.get("if_tier_boost", {})
+        actions = self.scoring_config.get("actions", {})
+
+        # Dimension icons
+        icons = {"design": "📐", "relevance": "🏥", "novelty": "💡", "generalizability": "🌐"}
+
+        dim_rows = ""
+        for d in dims:
+            icon = icons.get(d["id"], "•")
+            pct = int(d["weight"] * 100)
+            dim_rows += (
+                f'<div style="display:flex;justify-content:space-between;align-items:baseline;'
+                f'padding:6px 0;border-bottom:1px solid #f0f0ec;">'
+                f'<span>{icon} {d["name"]}</span>'
+                f'<span style="font-weight:600;color:#1B6B93;">{pct}%</span></div>'
+            )
+
+        # IF boost info
+        boost_html = ""
+        for tier_key, label in [("top_tier", "Top tier"), ("high_tier", "High tier")]:
+            tier = if_boost.get(tier_key, {})
+            if tier:
+                journals = ", ".join(tier.get("journals", []))
+                boost_val = tier.get("boost", 0)
+                boost_html += (
+                    f'<div style="padding:4px 0;font-size:12px;color:#555;">'
+                    f'<b>{label} (+{boost_val})：</b>{journals}</div>'
+                )
+
+        # Score actions
+        action_labels = {
+            5: ("🔔", "即時 LINE 推播 + Sonnet 深度分析"),
+            4: ("⭐", "Sonnet 深度分析"),
+            3: ("📋", "Haiku 快速摘要"),
+            2: ("📝", "Haiku 一行摘要"),
+            1: ("—", "不列入 digest"),
+        }
+        action_rows = ""
+        for score in [5, 4, 3, 2, 1]:
+            icon, desc = action_labels.get(score, ("", ""))
+            action_rows += (
+                f'<div style="display:flex;gap:8px;padding:3px 0;font-size:12px;color:#555;">'
+                f'<span style="font-weight:600;min-width:60px;">Score {score}</span>'
+                f'<span>{icon} {desc}</span></div>'
+            )
+
+        return f"""
+<details style="background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:0;margin-bottom:20px;">
+<summary style="padding:14px 18px;cursor:pointer;font-size:14px;font-weight:600;color:#1B6B93;list-style:none;display:flex;align-items:center;gap:8px;">
+  <span style="transition:transform .2s;">▶</span> 評分方式
+</summary>
+<div style="padding:0 18px 18px;">
+  <div style="font-size:11px;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:8px;">四維度加權平均（1-5 分）</div>
+  {dim_rows}
+
+  <div style="font-size:11px;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:0.3px;margin:16px 0 8px;">期刊 IF 加分（上限 +1）</div>
+  {boost_html}
+
+  <div style="font-size:11px;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:0.3px;margin:16px 0 8px;">分數對應動作</div>
+  {action_rows}
+</div>
+</details>
+<style>
+details[open] summary span:first-child{{transform:rotate(90deg)}}
+</style>"""
 
     def _section_header(self, title):
         return f"""
