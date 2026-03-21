@@ -42,6 +42,7 @@ jobs:
           FEEDBACK_WEBHOOK_URL: ${{ secrets.FEEDBACK_WEBHOOK_URL }}
           FEEDBACK_SECRET: ${{ secrets.FEEDBACK_SECRET }}
           DIGEST_PASSWORD: ${{ secrets.DIGEST_PASSWORD }}
+          ELSEVIER_API_KEY: ${{ secrets.ELSEVIER_API_KEY }}
           DIGEST_SITE_URL: "https://lantus123.github.io/nicu-journal-site"
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
