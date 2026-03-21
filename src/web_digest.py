@@ -42,6 +42,13 @@ class WebDigestGenerator:
                 return yaml.safe_load(f)
         return {}
 
+    def _load_pdf_analyses(self) -> set:
+        """Load set of PMIDs that have PDF analyses."""
+        analyses_dir = Path("data/pdf_analyses")
+        if not analyses_dir.exists():
+            return set()
+        return {p.stem for p in analyses_dir.glob("*.json")}
+
     def _build_feedback_map(self, feedback: list) -> dict:
         """Build a map of pmid -> {rating: count} from feedback entries."""
         fb_map: dict[str, dict[str, int]] = {}
@@ -77,6 +84,9 @@ class WebDigestGenerator:
         from .feedback import load_feedback
         all_feedback = load_feedback()
         self.feedback_map = self._build_feedback_map(all_feedback)
+
+        # Load existing PDF analyses
+        self.pdf_analyses = self._load_pdf_analyses()
 
         # Generate a daily token
         token = secrets.token_hex(4)  # 8-char hex
@@ -328,6 +338,7 @@ class WebDigestGenerator:
 
 {self._auth_gate_js(token_hash)}
 {self._feedback_js()}
+{self._upload_js()}
 </body>
 </html>"""
 
@@ -625,6 +636,154 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
   <span id="voted-{pmid}" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
 </div>"""
 
+    def _upload_button(self, pmid: str, title: str, has_fulltext: bool) -> str:
+        """Render PDF upload button for an article."""
+        if not self.feedback_url:
+            return ""
+        if has_fulltext:
+            return '<div style="padding:8px 0;font-size:13px;color:#085041;">✓ 已有全文分析</div>'
+        safe_title = title.replace("'", "\\'").replace('"', "&quot;")
+        return f"""
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-{pmid}" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('{pmid}','{safe_title}',this)">
+  <button id="upload-btn-{pmid}" onclick="document.getElementById('pdf-{pmid}').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-{pmid}" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>"""
+
+    def _upload_js(self) -> str:
+        """JavaScript for PDF upload and instant analysis."""
+        if not self.feedback_url:
+            return ""
+        return f"""<script>
+(function() {{
+  var WEBHOOK_URL = "{self.feedback_url}";
+  var SECRET = "{self.feedback_secret}";
+  var uploaded = JSON.parse(localStorage.getItem('digest_uploaded') || '{{}}');
+
+  // Restore uploaded state on load
+  window.addEventListener('DOMContentLoaded', function() {{
+    Object.keys(uploaded).forEach(function(pmid) {{
+      var btn = document.getElementById('upload-btn-' + pmid);
+      if (btn) {{
+        btn.textContent = '✓ 已上傳，已分析';
+        btn.disabled = true;
+        btn.style.opacity = '0.5';
+        btn.style.cursor = 'default';
+      }}
+    }});
+  }});
+
+  window.handlePdfSelect = function(pmid, title, input) {{
+    var file = input.files[0];
+    if (!file) return;
+    if (file.size > 10 * 1024 * 1024) {{
+      alert('PDF 檔案不能超過 10MB');
+      return;
+    }}
+
+    var btn = document.getElementById('upload-btn-' + pmid);
+    var status = document.getElementById('upload-status-' + pmid);
+    btn.textContent = '⏳ 上傳分析中...';
+    btn.disabled = true;
+    status.textContent = '正在提取全文並進行 AI 深度分析，約需 1 分鐘...';
+    status.style.display = 'inline';
+    status.style.color = '#1B6B93';
+
+    var reader = new FileReader();
+    reader.onload = function(e) {{
+      var base64 = e.target.result.split(',')[1];
+
+      fetch(WEBHOOK_URL, {{
+        method: 'POST',
+        headers: {{ 'Content-Type': 'application/json' }},
+        body: JSON.stringify({{
+          action: 'upload_pdf',
+          pmid: pmid,
+          title: title,
+          pdf_base64: base64,
+          secret: SECRET
+        }})
+      }})
+      .then(function(r) {{ return r.json(); }})
+      .then(function(resp) {{
+        if (resp.status === 'ok' && resp.analysis) {{
+          btn.textContent = '✓ 全文分析完成';
+          btn.style.color = '#085041';
+          btn.style.borderColor = '#085041';
+          status.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
+          status.style.color = '#085041';
+
+          uploaded[pmid] = true;
+          localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
+
+          // Render analysis result inline
+          renderAnalysis(pmid, resp.analysis);
+        }} else {{
+          btn.textContent = '❌ 分析失敗';
+          btn.disabled = false;
+          status.textContent = resp.message || '請稍後再試';
+          status.style.color = '#E24B4A';
+        }}
+      }})
+      .catch(function(err) {{
+        btn.textContent = '❌ 上傳失敗';
+        btn.disabled = false;
+        status.textContent = '網路錯誤，請稍後再試';
+        status.style.color = '#E24B4A';
+      }});
+    }};
+    reader.readAsDataURL(file);
+  }};
+
+  window.renderAnalysis = function(pmid, data) {{
+    var container = document.getElementById('analysis-result-' + pmid);
+    if (!container) return;
+
+    var a = data.deep_analysis || data;
+    var html = '';
+
+    if (a.thirty_second_summary) {{
+      html += '<div class="section"><b>30 秒重點：</b>' + a.thirty_second_summary + '</div>';
+    }}
+
+    var hidden = a.hidden_findings || [];
+    if (hidden.length > 0) {{
+      html += '<div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div>';
+      for (var i = 0; i < hidden.length; i++) {{
+        html += '<p><b>' + (hidden[i].finding || '') + '</b> ' + (hidden[i].source || '') + '。' + (hidden[i].implication || '') + '</p>';
+      }}
+      html += '</div>';
+    }}
+
+    var meth = a.methodology_audit || {{}};
+    var methHtml = '';
+    (meth.strengths || []).forEach(function(s) {{ methHtml += '<div class="hl hl-green"><b>Strong：</b>' + s + '</div>'; }});
+    (meth.notes || []).forEach(function(n) {{ methHtml += '<div class="hl hl-amber"><b>Note：</b>' + n + '</div>'; }});
+    (meth.weaknesses || []).forEach(function(w) {{ methHtml += '<div class="hl hl-red"><b>Weak：</b>' + w + '</div>'; }});
+    if (methHtml) {{
+      html += '<div class="section"><div class="section-label" style="color:#633806">方法學評估</div>' + methHtml + '</div>';
+    }}
+
+    var impact = a.protocol_impact || {{}};
+    if (impact.proposed_change) {{
+      var impactHtml = '<div class="hl hl-blue">';
+      if (impact.current_practice) impactHtml += '<b>目前做法：</b>' + impact.current_practice + '<br>';
+      if (impact.proposed_change) impactHtml += '<b>建議調整：</b>' + impact.proposed_change + '<br>';
+      if (impact.missing_evidence) impactHtml += '<b>等待的證據：</b>' + impact.missing_evidence;
+      impactHtml += '</div>';
+      html += '<div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div>' + impactHtml + '</div>';
+    }}
+
+    container.innerHTML = html;
+  }};
+}})();
+</script>"""
+
     def _render_article(self, article, is_deep=False, is_on_demand=False):
         score = article.get("total_score", 0)
         deep = article.get("deep_analysis", {})
@@ -738,14 +897,26 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
         # Feedback buttons
         feedback = self._feedback_buttons(pmid)
 
+        # Upload PDF button
+        pdf_analyses = getattr(self, "pdf_analyses", set())
+        has_fulltext = bool(article.get("fulltext")) or pmid in pdf_analyses
+        upload_btn = self._upload_button(pmid, article.get("title", ""), has_fulltext)
+
+        # NEW badge for fulltext analysis
+        fulltext_badge = ""
+        if pmid in pdf_analyses:
+            tags += '<span class="tag" style="background:#FFF3E0;color:#E65100">🆕 全文分析</span>'
+
         return f"""
 <div class="card">
   <div class="card-tags">{tags}</div>
   <h2 class="card-title">{article.get('title', '')}</h2>
   <div class="card-authors">{article.get('authors', '')} · {article.get('pub_date', '')}</div>
   {content}
+  <div id="analysis-result-{pmid}"></div>
   <div class="card-links">{links}</div>
   {feedback}
+  {upload_btn}
 </div>"""
 
     def _css(self):

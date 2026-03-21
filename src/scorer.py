@@ -132,6 +132,11 @@ class ArticleScorer:
         if article.get("total_score", 0) < self.deep_threshold:
             return article
 
+        # Skip if pre-computed analysis exists (from web PDF upload)
+        if article.get("deep_analysis") and article.get("fulltext_source") == "manual":
+            logger.info(f"  Using pre-computed analysis for PMID {article['pmid']}")
+            return article
+
         logger.info(f"  Deep analysis for PMID {article['pmid']}...")
 
         # Build protocol context

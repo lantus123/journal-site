@@ -1,13 +1,16 @@
 """
-Full text retrieval via PMC, Elsevier, and Unpaywall.
+Full text retrieval via manual PDF, PMC, Elsevier, and Unpaywall.
+- Manual PDF: uploaded by users via web digest
 - PMC: free structured full text for articles in PubMed Central
 - Elsevier: full text for subscribed Elsevier journals via API
 - Unpaywall: OA URL detection for articles not in PMC/Elsevier
 """
 
+import json
 import os
 import logging
 import xml.etree.ElementTree as ET
+from pathlib import Path
 
 import requests
 
@@ -127,6 +130,55 @@ class FulltextFetcher:
             fulltext = fulltext[:MAX_FULLTEXT_CHARS] + "\n\n[... truncated]"
 
         return fulltext
+
+    def _try_existing_analysis(self, article: dict) -> bool:
+        """Check if a pre-computed PDF analysis exists."""
+        pmid = article.get("pmid", "")
+        if not pmid:
+            return False
+        analysis_path = Path(f"data/pdf_analyses/{pmid}.json")
+        if not analysis_path.exists():
+            return False
+        try:
+            with open(analysis_path) as f:
+                data = json.load(f)
+            article["deep_analysis"] = data.get("deep_analysis", {})
+            article["fulltext_source"] = "manual"
+            logger.info(f"  Pre-computed analysis for PMID {pmid}")
+            return True
+        except Exception as e:
+            logger.debug(f"  Failed to load analysis for PMID {pmid}: {e}")
+        return False
+
+    def _try_manual_pdf(self, article: dict) -> bool:
+        """Check for manually uploaded PDF in data/pdfs/."""
+        pmid = article.get("pmid", "")
+        if not pmid:
+            return False
+        pdf_path = Path(f"data/pdfs/{pmid}.pdf")
+        if not pdf_path.exists():
+            return False
+        try:
+            import fitz  # PyMuPDF
+            doc = fitz.open(str(pdf_path))
+            text_parts = []
+            for page in doc:
+                text_parts.append(page.get_text())
+            doc.close()
+            fulltext = "\n".join(text_parts).strip()
+            if not fulltext or len(fulltext) < 100:
+                return False
+            if len(fulltext) > MAX_FULLTEXT_CHARS:
+                fulltext = fulltext[:MAX_FULLTEXT_CHARS] + "\n\n[... truncated]"
+            article["fulltext"] = fulltext
+            article["fulltext_source"] = "manual"
+            logger.info(f"  Manual PDF for PMID {pmid}: {len(fulltext)} chars")
+            return True
+        except ImportError:
+            logger.warning("  PyMuPDF not installed, skipping manual PDF")
+        except Exception as e:
+            logger.debug(f"  Failed to read PDF for PMID {pmid}: {e}")
+        return False
 
     def _try_pmc(self, article: dict) -> bool:
         """Try to get full text from PMC. Returns True if successful."""
@@ -272,11 +324,23 @@ class FulltextFetcher:
     def try_fetch(self, article: dict) -> dict:
         """
         Try to get full text for an article.
-        1. PMC (free structured full text)
-        2. Elsevier API (subscribed journals)
-        3. Unpaywall (OA URL detection)
+        1. Existing analysis (pre-computed via web upload)
+        2. Manual PDF (uploaded but not yet analyzed)
+        3. PMC (free structured full text)
+        4. Elsevier API (subscribed journals)
+        5. Unpaywall (OA URL detection)
         """
-        # Try PMC first
+        # Check for pre-computed analysis from web upload
+        if self._try_existing_analysis(article):
+            self._try_unpaywall(article)
+            return article
+
+        # Check for manually uploaded PDF
+        if self._try_manual_pdf(article):
+            self._try_unpaywall(article)
+            return article
+
+        # Try PMC
         if self._try_pmc(article):
             self._try_unpaywall(article)
             return article
@@ -295,13 +359,14 @@ class FulltextFetcher:
         for i, article in enumerate(articles):
             articles[i] = self.try_fetch(article)
 
+        manual_count = sum(1 for a in articles if a.get("fulltext_source") == "manual")
         pmc_count = sum(1 for a in articles if a.get("fulltext_source") == "pmc")
         els_count = sum(1 for a in articles if a.get("fulltext_source") == "elsevier")
         oa_count = sum(1 for a in articles if a.get("is_oa"))
-        ft_total = pmc_count + els_count
+        ft_total = manual_count + pmc_count + els_count
         logger.info(
             f"Fulltext: {ft_total}/{len(articles)} "
-            f"(PMC: {pmc_count}, Elsevier: {els_count}), "
+            f"(manual: {manual_count}, PMC: {pmc_count}, Elsevier: {els_count}), "
             f"OA detected: {oa_count}/{len(articles)}"
         )
         return articles

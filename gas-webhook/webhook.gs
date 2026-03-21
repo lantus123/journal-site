@@ -27,6 +27,13 @@
 function doPost(e) {
   try {
     var body = JSON.parse(e.postData.contents);
+
+    // PDF upload from web digest
+    if (body.action === "upload_pdf") {
+      return handlePdfUpload(body);
+    }
+
+    // LINE webhook
     var events = body.events || [];
 
     for (var i = 0; i < events.length; i++) {
@@ -449,6 +456,189 @@ function saveOnDemandToGitHub(pmid, userId, article, analysis) {
 
   } catch (err) {
     console.error("Error saving on-demand to GitHub:", err);
+  }
+}
+
+
+// ============================================
+// PDF Upload + Instant Full-Text Analysis
+// ============================================
+
+function handlePdfUpload(body) {
+  var pmid = body.pmid || "";
+  var title = body.title || "";
+  var pdfBase64 = body.pdf_base64 || "";
+  var secret = body.secret || "";
+
+  // Validate
+  var expectedSecret = getProperty("FEEDBACK_SECRET");
+  if (expectedSecret && secret !== expectedSecret) {
+    return ContentService.createTextOutput(JSON.stringify({ status: "error", message: "Unauthorized" }))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+
+  if (!pmid || !pdfBase64) {
+    return ContentService.createTextOutput(JSON.stringify({ status: "error", message: "Missing pmid or pdf_base64" }))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+
+  if (!/^\d+$/.test(pmid)) {
+    return ContentService.createTextOutput(JSON.stringify({ status: "error", message: "Invalid PMID" }))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+
+  try {
+    var repo = getProperty("GITHUB_REPO");
+    var githubToken = getProperty("GITHUB_TOKEN");
+
+    // 1. Check if analysis already exists
+    var existingAnalysis = getGitHubFile(repo, "data/pdf_analyses/" + pmid + ".json", githubToken);
+    if (existingAnalysis && existingAnalysis.content) {
+      var existing = JSON.parse(
+        Utilities.newBlob(
+          Utilities.base64Decode(existingAnalysis.content.replace(/\n/g, ""))
+        ).getDataAsString("UTF-8")
+      );
+      return ContentService.createTextOutput(JSON.stringify({ status: "ok", analysis: existing, cached: true }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    // 2. Commit PDF to GitHub
+    var pdfPath = "data/pdfs/" + pmid + ".pdf";
+    var existingPdf = getGitHubFile(repo, pdfPath, githubToken);
+    updateGitHubFile(repo, pdfPath, pdfBase64, existingPdf ? existingPdf.sha : null,
+                     "Upload PDF: PMID " + pmid, githubToken);
+
+    // 3. Extract text from PDF via Google Drive
+    var fulltext = extractPdfText(pdfBase64);
+    if (!fulltext) {
+      return ContentService.createTextOutput(JSON.stringify({ status: "error", message: "Failed to extract text from PDF" }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    // 4. Fetch article metadata from PubMed
+    var article = fetchPubMedArticle(pmid);
+    if (!article) {
+      article = { pmid: pmid, title: title, abstract: "", authors: "", journal: "", doi: "" };
+    }
+
+    // 5. Call Sonnet with full text
+    var analysis = callSonnetWithFulltext(article, fulltext);
+    if (!analysis) {
+      return ContentService.createTextOutput(JSON.stringify({ status: "error", message: "AI analysis failed" }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    // 6. Save analysis result to GitHub
+    var result = {
+      pmid: pmid,
+      title: article.title,
+      authors: article.authors,
+      source_journal: article.journal,
+      deep_analysis: analysis,
+      fulltext_source: "manual",
+      analyzed_at: new Date().toISOString()
+    };
+
+    var resultJson = JSON.stringify(result, null, 2);
+    var resultBase64 = Utilities.base64Encode(
+      Utilities.newBlob(resultJson, "text/plain").getBytes()
+    );
+    updateGitHubFile(repo, "data/pdf_analyses/" + pmid + ".json", resultBase64, null,
+                     "PDF analysis: PMID " + pmid, githubToken);
+
+    return ContentService.createTextOutput(JSON.stringify({ status: "ok", analysis: result, cached: false }))
+      .setMimeType(ContentService.MimeType.JSON);
+
+  } catch (err) {
+    console.error("PDF upload error:", err);
+    return ContentService.createTextOutput(JSON.stringify({ status: "error", message: err.message }))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+}
+
+
+function extractPdfText(pdfBase64) {
+  try {
+    // Upload PDF to Google Drive, convert to Google Docs, extract text
+    var pdfBlob = Utilities.newBlob(Utilities.base64Decode(pdfBase64), "application/pdf", "upload.pdf");
+    var resource = { title: "temp_pdf_" + Date.now(), mimeType: "application/pdf" };
+    var file = Drive.Files.insert(resource, pdfBlob, { convert: true, ocr: true });
+
+    // Read text from converted Google Doc
+    var doc = DocumentApp.openById(file.id);
+    var text = doc.getBody().getText();
+
+    // Clean up: delete the temp file
+    DriveApp.getFileById(file.id).setTrashed(true);
+
+    if (!text || text.trim().length < 100) {
+      return null;
+    }
+
+    // Truncate to 8000 chars
+    if (text.length > 8000) {
+      text = text.substring(0, 8000) + "\n\n[... truncated]";
+    }
+
+    return text;
+  } catch (err) {
+    console.error("PDF text extraction error:", err);
+    return null;
+  }
+}
+
+
+function callSonnetWithFulltext(article, fulltext) {
+  try {
+    var apiKey = getProperty("ANTHROPIC_API_KEY");
+
+    var prompt = "你是一位台灣馬偕紀念醫院的新生兒/兒童重症專科資深主治醫師。\n" +
+      "請針對以下文章做深度分析，用繁體中文回覆。\n" +
+      "臨床常用英文縮寫和藥物名稱保留英文，統計數據保留原始格式。\n" +
+      "這是完整全文，請特別注意 abstract 沒有提到的次要結果、亞群分析、方法學細節。\n\n" +
+      "回覆純 JSON：\n" +
+      '{"thirty_second_summary":"<30秒重點>",' +
+      '"hidden_findings":[{"finding":"<發現>","source":"<出處章節>","implication":"<意義>"}],' +
+      '"methodology_audit":{"strengths":["<優點>"],"notes":["<注意>"],"weaknesses":["<缺陷>"]},' +
+      '"evidence_positioning":{"related_studies":[{"citation":"<引用>","comparison":"<比較>"}],"guideline_status":"<指引現況>","evidence_gap_filled":"<填補的gap>","ongoing_trials":"<進行中試驗>"},' +
+      '"protocol_impact":{"current_practice":"<一般做法>","proposed_change":"<建議調整>","prerequisites":["<導入準備>"],"missing_evidence":"<缺少的證據>"}}\n\n' +
+      "Article:\n" +
+      "Title: " + article.title + "\n" +
+      "Journal: " + article.journal + "\n" +
+      "Authors: " + article.authors + "\n" +
+      "PMID: " + article.pmid + "\n\n" +
+      "Full text:\n" + fulltext;
+
+    var payload = {
+      model: "claude-sonnet-4-20250514",
+      max_tokens: 6000,
+      temperature: 0.2,
+      messages: [{ role: "user", content: prompt }]
+    };
+
+    var resp = UrlFetchApp.fetch("https://api.anthropic.com/v1/messages", {
+      method: "post",
+      contentType: "application/json",
+      headers: {
+        "x-api-key": apiKey,
+        "anthropic-version": "2023-06-01"
+      },
+      payload: JSON.stringify(payload),
+      muteHttpExceptions: true
+    });
+
+    var data = JSON.parse(resp.getContentText("UTF-8"));
+    var text = data.content[0].text;
+
+    // Strip markdown fences
+    text = text.replace(/^```json\s*/, "").replace(/```\s*$/, "").trim();
+
+    return JSON.parse(text);
+
+  } catch (err) {
+    console.error("Sonnet fulltext analysis error:", err);
+    return null;
   }
 }
 
