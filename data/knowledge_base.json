@@ -6406,5 +6406,74 @@
     "one_liner": "此為成人與一般兒科敗血症的政策性共識文件，與新生兒/早產兒特定照護無直接相關性，可跳過。",
     "processed_date": "2026-03-21",
     "has_deep_analysis": false
+  },
+  {
+    "pmid": "41862592",
+    "title": "Association between NNNS-II profiles and pharmacological treatment in infants with prenatal opioid exposure.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 20",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "neonatal abstinence syndrome",
+      "prenatal opioid exposure",
+      "NNNS-II",
+      "neurobehavioral assessment",
+      "pharmacological treatment"
+    ],
+    "one_liner": "NNNS-II 神經行為特徵可預測產前鴉片類藥物暴露嬰兒的藥物治療需求，有助於早期識別與個別化照護決策，值得在 NICU 導入評估。",
+    "processed_date": "2026-03-22",
+    "has_deep_analysis": true
+  },
+  {
+    "pmid": "41862666",
+    "title": "AI, machine learning, and adjudication of hemodynamically significant PDA in extremely premature infants.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 20",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 4,
+      "generalizability": 2
+    },
+    "keywords": [
+      "PDA",
+      "ELBW",
+      "machine learning",
+      "hemodynamics",
+      "diagnostic accuracy"
+    ],
+    "one_liner": "AI 在 PDA 診斷中的應用前景值得關注，但目前仍屬概念探討階段，缺乏臨床驗證證據，不足以改變現行照護決策。",
+    "processed_date": "2026-03-22",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41862593",
+    "title": "Catheter and echocardiographic-focused management of primary pulmonary vein stenosis in premature infants: a single center 5-year experience.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 20",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "pulmonary vein stenosis",
+      "cardiac catheterization",
+      "echocardiography",
+      "extremely premature infants",
+      "congenital heart disease"
+    ],
+    "one_liner": "極罕見的先天性肺靜脈狹窄病例系列，臨床應用價值有限，可作為參考但不足以改變實踐。",
+    "processed_date": "2026-03-22",
+    "has_deep_analysis": false
   }
 ]
