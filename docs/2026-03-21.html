@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NICU Journal Digest - 2026-03-21</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.8;font-size:16px}
+.container{max-width:720px;margin:0 auto;padding:20px}
+header{padding:20px 0;border-bottom:2px solid #1B6B93;margin-bottom:24px}
+.back{font-size:15px;color:#1B6B93;text-decoration:none}
+.back:hover{text-decoration:underline}
+.date{font-size:15px;color:#888;margin-top:8px}
+h1{font-size:26px;font-weight:700;color:#1B6B93;margin-top:4px}
+.stats{font-size:15px;color:#666;margin-top:6px}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:18px}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600}
+.tag-journal{font-size:13px;color:#999}
+.card-title{font-size:18px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px}
+.card-authors{font-size:14px;color:#999;margin-bottom:14px}
+.section{padding:14px 0;border-top:1px solid #f0f0ec}
+.section p{font-size:15px;color:#555;margin-bottom:8px}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:10px}
+.hl{border-left:3px solid;padding:10px 14px;margin:8px 0;font-size:15px;line-height:1.7;border-radius:0}
+.hl-green{border-color:#639922;background:#EAF3DE;color:#27500A}
+.hl-amber{border-color:#BA7517;background:#FAEEDA;color:#633806}
+.hl-red{border-color:#E24B4A;background:#FCEBEB;color:#791F1F}
+.hl-blue{border-color:#378ADD;background:#E6F1FB;color:#0C447C}
+.related{font-size:15px;color:#555;padding:8px 0;border-bottom:1px solid #f5f5f0}
+.related:last-child{border-bottom:none}
+.card-links{padding-top:14px;display:flex;gap:16px}
+.card-links a{font-size:14px;color:#1B6B93;text-decoration:none}
+.card-links a:hover{text-decoration:underline}
+footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;color:#999;text-align:center}
+.vote-count{font-size:13px;color:#1B6B93;font-weight:600}
+@media(max-width:600px){.container{padding:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">NICU Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">或從 LINE / Email 點擊連結直接閱讀</p>
+</div>
+</div>
+
+<!-- Digest content (hidden until auth) -->
+<div id="digest-content" style="display:none;">
+<div class="container">
+<header>
+  <a href="index.html" class="back">← Back to archive</a>
+  <div class="date">2026/03/21 (Saturday)</div>
+  <h1>NICU Journal Digest</h1>
+  <div class="stats">5 articles</div>
+</header>
+
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 2-3: QUICK SUMMARY</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Acta Paediatrica</span></div>
+  <h2 class="card-title">Patent Ductus Arteriosus Persistence and Neurodevelopmental Outcomes: A Restrictive Treatment Approach Does Not Compromise Neurological Development.</h2>
+  <div class="card-authors">Kallenberger M, Bartling A, Hüning B, et al. · 2026 Mar 20</div>
+  <div class="section"><p><b>研究目的：</b>探討限制性 PDA 治療策略下，PDA 持續時間對早產兒神經發育的影響，以及 hsPDA 治療是否會危害神經發育預後。</p><p><b>研究設計：</b>單中心回溯性 cohort 研究，納入 171 名 ≤32 週早產兒，分為 hsPDA（血流動力學顯著 PDA，接受治療）、ntPDA（未治療 PDA）及無 PDA 三組。排除嚴重 IVH ≥III°。評估項目包括足月年齡時腦部 MRI、8-16 週 General Movement Assessment 及 22-26 月矯正年齡 Bayley III。</p><p><b>主要發現：</b>hsPDA 組出生體重及孕齡較低，BPD 發生率及住院時間較長（p<0.001）。小腦橫徑在三組間有顯著差異（p=0.004）。在 hsPDA 亞組中，PDA 持續時間與 MRI 檢出的 IVH ≤II° 呈統計相關（OR 1.01/day，p=0.05）。多變量分析調整混淆因子後，PDA 組別及持續時間對神經發育預後無顯著影響。</p><p><b>臨床意義：</b>支持限制性 PDA 治療策略的安全性，提示在無嚴重腦傷的極低體重兒中，孕齡及合併症（如 BPD）而非 PDA 本身才是決定神經發育預後的主要因素。有助於減少不必要的 PDA 藥物或手術治療，降低相關併發症風險。</p></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41860109/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1111/apa.70511" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41860109" data-rating="must_read" onclick="vote('41860109','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41860109-must_read" style="display:none;">0</span></button> <button data-pmid="41860109" data-rating="useful" onclick="vote('41860109','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41860109-useful" style="display:none;">0</span></button> <button data-pmid="41860109" data-rating="so_so" onclick="vote('41860109','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41860109-so_so" style="display:none;">0</span></button> <button data-pmid="41860109" data-rating="skip" onclick="vote('41860109','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41860109-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41860109" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Pediatric Critical Care Medicine</span></div>
+  <h2 class="card-title">Society of Critical Care Medicine 2026 Guidelines on the Care and Management of Pediatric and Neonatal Intensive Care Patients at the End of Life.</h2>
+  <div class="card-authors">Derrington S, Broden Arciprete EG, Lin MC, et al. · 2026 Mar 20</div>
+  <div class="section"><p><b>研究目的：</b>由美國重症醫學會發展基於證據的新生兒及兒童重症患者臨終照護指引，涵蓋預先照護計畫、症狀管理、家庭支持及健康公平性。</p><p><b>研究設計：</b>多學科專家小組（21人，含新生兒科醫師、護理師、心理師、靈性照護、社工、生物倫理、姑息治療等）進行系統性文獻回顧（2000-2025年），採用 GRADE 方法論評估證據品質並制定建議。</p><p><b>主要發現：</b>產出五項條件性建議及一項良好實踐聲明，涵蓋：(1)預先照護計畫、(2)兒童姑息治療諮詢與教育、(3)系統性症狀管理、(4)喪親支持、(5)臨終照護中的健康公平性。</p><p><b>臨床意義：</b>提供 NICU 及 PICU 臨終照護的結構化、多學科指引框架，有助於改善家庭溝通、症狀控制及喪親照護品質，但不涉及急性救治策略或預防重症併發症的臨床決策。</p></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41860325/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1097/PCC.0000000000003914" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41860325" data-rating="must_read" onclick="vote('41860325','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41860325-must_read" style="display:none;">0</span></button> <button data-pmid="41860325" data-rating="useful" onclick="vote('41860325','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41860325-useful" style="display:none;">0</span></button> <button data-pmid="41860325" data-rating="so_so" onclick="vote('41860325','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41860325-so_so" style="display:none;">0</span></button> <button data-pmid="41860325" data-rating="skip" onclick="vote('41860325','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41860325-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41860325" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Pediatric Critical Care Medicine</span></div>
+  <h2 class="card-title">Executive Summary of Society of Critical Care Medicine 2026 Guidelines on the Care and Management of Pediatric and Neonatal Intensive Care Patients at the End of Life.</h2>
+  <div class="card-authors">Derrington S, Broden Arciprete EG, Lin MC, et al. · 2026 Mar 20</div>
+  <div class="section"><p><b>研究目的：</b>呈現美國重症醫學會 2026 年關於小兒及新生兒加護病房末期照護與管理的指引摘要。</p><p><b>研究設計：</b>指引性文件（executive summary），非原始研究。涵蓋小兒及新生兒 ICU 患者的末期照護管理建議。</p><p><b>主要發現：</b>文章為指引摘要，未提供具體臨床試驗數據或 effect size。內容應涵蓋末期照護決策、家庭溝通、症狀緩解、倫理考量等面向的建議。</p><p><b>臨床意義：</b>對 NICU 團隊在面對無法存活或預後極差的早產兒（如極低出生體重合併重症敗血症、不可逆性神經損傷）時，提供結構化的末期照護決策框架與家庭溝通策略，有助於改善臨終關懷品質與家庭支持。</p></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41860282/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1097/PCC.0000000000003915" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41860282" data-rating="must_read" onclick="vote('41860282','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41860282-must_read" style="display:none;">0</span></button> <button data-pmid="41860282" data-rating="useful" onclick="vote('41860282','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41860282-useful" style="display:none;">0</span></button> <button data-pmid="41860282" data-rating="so_so" onclick="vote('41860282','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41860282-so_so" style="display:none;">0</span></button> <button data-pmid="41860282" data-rating="skip" onclick="vote('41860282','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41860282-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41860282" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Acta Paediatrica</span></div>
+  <h2 class="card-title">Risk Factors for Airway Infantile Hemangioma.</h2>
+  <div class="card-authors">Castrén E, Salminen P, Kyrklund K · 2026 Mar 20</div>
+  <div class="section"><p><b>研究目的：</b>識別嬰幼兒氣道血管瘤（infantile hemangioma, IH）的風險因子，以預防潛在的氣道阻塞。</p><p><b>研究設計：</b>回溯性 cohort 研究，納入 798 名於 2008-2017 年間至小兒血管異常門診就診的患童，分析人口統計學特徵與血管瘤相關資料以識別氣道 IH 的危險因子。</p><p><b>主要發現：</b>氣道 IH 發生率為 1.6%（13/798）。鬍鬚分布型分節性血管瘤（segmental beard distribution）合併氣道 IH 的風險最高（33.3%），非鬍鬚分布型分節性血管瘤位於臉部或頸部者風險為 11.5%；焦點型血管瘤佔氣道 IH 患者的 38.5%，多位於口周或鼻部。Propranolol 對 80.0% 的氣道 IH 患者有效。</p><p><b>臨床意義：</b>本研究提供臨床篩檢工具，協助新生兒科及小兒科醫師識別高風險患者，及早進行氣道評估以防止危及生命的氣道阻塞；鬍鬚分布型分節性血管瘤應視為強烈的氣道 IH 預警指標。</p></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41860115/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1111/apa.70513" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41860115" data-rating="must_read" onclick="vote('41860115','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41860115-must_read" style="display:none;">0</span></button> <button data-pmid="41860115" data-rating="useful" onclick="vote('41860115','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41860115-useful" style="display:none;">0</span></button> <button data-pmid="41860115" data-rating="so_so" onclick="vote('41860115','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41860115-so_so" style="display:none;">0</span></button> <button data-pmid="41860115" data-rating="skip" onclick="vote('41860115','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41860115-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41860115" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Pediatric Critical Care Medicine</span></div>
+  <h2 class="card-title">Viral and Host-Related Factors in the Nasal Inflammatory Response to Critical Bronchiolitis in Infants and Children.</h2>
+  <div class="card-authors">Sliwicki AL, Kreger JE, Essoh SN, et al. · 2026 Mar 20</div>
+  <div class="section"><p><b>研究目的：</b>評估重症細支氣管炎患童的鼻腔發炎細胞激素反應，並比較不同病毒病原體（RSV、鼻病毒、多病毒感染）與宿主發炎反應的關聯。</p><p><b>研究設計：</b>單中心前瞻性 cohort 研究，2021年10月至2024年7月期間收集 PICU 重症細支氣管炎患者42名及健康對照組9名，採集鼻腔吸取物進行細胞激素 ELISA 檢測及部分樣本進行 RNA-seq 分析。</p><p><b>主要發現：</b>重症細支氣管炎患者鼻腔樣本顯示第一型及第二型干擾素與免疫相關細胞激素升高；RSV 與鼻病毒感染間細胞激素水準無顯著差異；多次入院患者發炎細胞激素低於首次入院患者；RNA-seq 顯示兩種病毒均上調白血球趨化、干擾素信號傳導及腫瘤壞死因子超家族相關基因，但 RSV 對纖毛功能基因的下調更明顯。</p><p><b>臨床意義：</b>本研究為基礎免疫學研究，著重於病毒感染的分子機制與發炎反應特徵，對 NICU 日常照護決策（如呼吸支持策略、感染控制、預防性用藥）無直接指導意義。研究對象為 PICU 重症患童而非新生兒或早產兒，臨床應用性有限。</p></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41860323/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1097/PCC.0000000000003910" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41860323" data-rating="must_read" onclick="vote('41860323','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41860323-must_read" style="display:none;">0</span></button> <button data-pmid="41860323" data-rating="useful" onclick="vote('41860323','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41860323-useful" style="display:none;">0</span></button> <button data-pmid="41860323" data-rating="so_so" onclick="vote('41860323','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41860323-so_so" style="display:none;">0</span></button> <button data-pmid="41860323" data-rating="skip" onclick="vote('41860323','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41860323-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41860323" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+</div>
+<footer>
+  NICU Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  AI scoring by Claude (Haiku + Sonnet)
+</footer>
+</div>
+</div>
+
+<script>
+(function() {
+  var TOKEN_HASH = "8ff058e3737120037eed79385981c52813bd505ef56de54d9cc81710ba868440";
+  var PW_HASH = "b6cf8ade465cb0435fd6e1a86d7f8a5b3f67639655691545ced5912ce1cfc08f";
+  var content = document.getElementById('digest-content');
+  var gate = document.getElementById('auth-gate');
+
+  function sha256(str) {
+    var encoder = new TextEncoder();
+    return crypto.subtle.digest('SHA-256', encoder.encode(str)).then(function(buf) {
+      return Array.from(new Uint8Array(buf)).map(function(b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    });
+  }
+
+  function unlock() {
+    gate.style.display = 'none';
+    content.style.display = 'block';
+  }
+
+  function checkAccess() {
+    // 1. Check URL token
+    var params = new URLSearchParams(window.location.search);
+    var t = params.get('t');
+    if (t && TOKEN_HASH) {
+      sha256(t).then(function(h) {
+        if (h === TOKEN_HASH) {
+          localStorage.setItem('digest_token', t);
+          unlock();
+        } else {
+          checkPassword();
+        }
+      });
+      return;
+    }
+
+    // 2. Check stored password
+    checkPassword();
+  }
+
+  function checkPassword() {
+    if (!PW_HASH) { unlock(); return; }
+    var saved = localStorage.getItem('digest_pw');
+    if (saved) {
+      sha256(saved).then(function(h) {
+        if (h === PW_HASH) { unlock(); }
+        else { gate.style.display = 'flex'; }
+      });
+    } else {
+      gate.style.display = 'flex';
+    }
+  }
+
+  window.submitPassword = function() {
+    var input = document.getElementById('pw-input').value;
+    sha256(input).then(function(h) {
+      if (h === PW_HASH) {
+        localStorage.setItem('digest_pw', input);
+        unlock();
+      } else {
+        document.getElementById('pw-error').style.display = 'block';
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', checkAccess);
+})();
+</script>
+<script>
+(function() {
+  var FEEDBACK_URL = "https://script.google.com/macros/s/AKfycbyC1qAlug8iyrEDkdtg4SX868JVHUM4v3xlpK9a6fhxHsrLWmznt5TUDY9n7AVsJo85/exec";
+  var SECRET = "nicu2026review";
+  var voted = JSON.parse(localStorage.getItem('digest_voted') || '{}'  );
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore previous votes
+    Object.keys(voted).forEach(function(pmid) {
+      var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+      btns.forEach(function(btn) {
+        btn.style.opacity = '0.4';
+        btn.style.pointerEvents = 'none';
+      });
+      var label = document.getElementById('voted-' + pmid);
+      if (label) {
+        var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+        label.textContent = "Voted: " + (labels[voted[pmid]] || voted[pmid]) + " ✓";
+        label.style.display = 'block';
+      }
+    });
+  });
+
+  window.vote = function(pmid, rating, el) {
+    if (voted[pmid]) return;
+
+    // Get uid from token or anonymous
+    var uid = 'web_anon';
+    var t = new URLSearchParams(window.location.search).get('t');
+    if (t) uid = 'web_' + t.substring(0, 8);
+
+    // JSONP call
+    var script = document.createElement('script');
+    var cb = 'fb_' + Date.now();
+    window[cb] = function(resp) {
+      if (resp && resp.status === 'ok') {
+        voted[pmid] = rating;
+        localStorage.setItem('digest_voted', JSON.stringify(voted));
+
+        var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+        btns.forEach(function(btn) {
+          btn.style.opacity = '0.4';
+          btn.style.pointerEvents = 'none';
+        });
+        el.style.opacity = '1';
+        el.style.background = '#1B6B93';
+        el.style.color = '#fff';
+
+        // Update vote count
+        var cntEl = document.getElementById('cnt-' + pmid + '-' + rating);
+        if (cntEl) {
+          var n = parseInt(cntEl.textContent || '0') + 1;
+          cntEl.textContent = n;
+          cntEl.style.display = '';
+          cntEl.style.color = '#fff';
+        }
+
+        var label = document.getElementById('voted-' + pmid);
+        if (label) {
+          var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+          label.textContent = "Voted: " + (labels[rating] || rating) + " ✓";
+          label.style.display = 'block';
+        }
+      }
+      delete window[cb];
+      script.remove();
+    };
+    script.src = FEEDBACK_URL + '?action=feedback&pmid=' + pmid + '&rating=' + rating +
+      '&uid=' + uid + '&source=web&secret=' + SECRET + '&callback=' + cb;
+    document.body.appendChild(script);
+  };
+})();
+</script>
+</body>
+</html>
