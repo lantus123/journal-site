@@ -42,7 +42,7 @@ jobs:
           FEEDBACK_WEBHOOK_URL: ${{ secrets.FEEDBACK_WEBHOOK_URL }}
           FEEDBACK_SECRET: ${{ secrets.FEEDBACK_SECRET }}
           DIGEST_PASSWORD: ${{ secrets.DIGEST_PASSWORD }}
-          DIGEST_SITE_URL: "https://lantus123.github.io/journal-review-bot"
+          DIGEST_SITE_URL: "https://lantus123.github.io/nicu-journal-site"
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             python main.py --dry-run
@@ -50,11 +50,37 @@ jobs:
             python main.py
           fi
 
-      - name: Commit updated data and site
+      - name: Commit updated data
         run: |
           git config user.name "Journal Review Bot"
           git config user.email "bot@noreply.github.com"
           git add data/pmid_cache.json data/knowledge_base.json data/on_demand_queue.json data/feedback.json
-          git add docs/
           git diff --staged --quiet || git commit -m "Update data: $(date -u +%Y-%m-%d)"
           git push
+
+      - name: Deploy digest to public site
+        if: inputs.dry_run != true
+        env:
+          SITE_TOKEN: ${{ secrets.SITE_DEPLOY_TOKEN }}
+        run: |
+          if [ ! -d "docs" ] || [ -z "$(ls -A docs/*.html 2>/dev/null)" ]; then
+            echo "No HTML files to deploy"
+            exit 0
+          fi
+          # Clone existing site first to preserve old pages
+          git clone --depth=1 https://x-access-token:${SITE_TOKEN}@github.com/lantus123/nicu-journal-site.git /tmp/site || true
+          if [ ! -d /tmp/site/.git ]; then
+            mkdir -p /tmp/site
+            cd /tmp/site
+            git init
+            git checkout -b main
+            git remote add origin https://x-access-token:${SITE_TOKEN}@github.com/lantus123/nicu-journal-site.git
+          fi
+          # Copy new files over (preserves old HTML pages)
+          cp -f docs/* /tmp/site/
+          cd /tmp/site
+          git config user.name "Journal Review Bot"
+          git config user.email "bot@noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Digest: $(date -u +%Y-%m-%d)"
+          git push origin main --force
