@@ -6475,5 +6475,165 @@
     "one_liner": "極罕見的先天性肺靜脈狹窄病例系列，臨床應用價值有限，可作為參考但不足以改變實踐。",
     "processed_date": "2026-03-22",
     "has_deep_analysis": false
+  },
+  {
+    "pmid": "41864826",
+    "title": "Combined use of erythropoiesis-stimulating agents and transfusion guidelines in NICU infants.",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 10",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "輸血管理",
+      "ELBW",
+      "erythropoietin",
+      "ROP",
+      "neurodevelopment"
+    ],
+    "one_liner": "敘述性綜述確認 erythropoiesis-stimulating agents 搭配輸血管理策略可減少 ELBW 嬰兒輸血率和相關併發症，但缺乏新穎證據，適合作為臨床實踐參考而非突破性發現。",
+    "processed_date": "2026-03-23",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41864053",
+    "title": "The impact of the multimodal neurologic enhancement music therapy intervention on clinical outcomes: A randomized trial of preterm infants hospitalized in the neonatal intensive care unit.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 14",
+    "total_score": 3,
+    "scores": {
+      "design": 4,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "music therapy",
+      "preterm infants",
+      "ELBW",
+      "neurodevelopmental support",
+      "NICU outcomes"
+    ],
+    "one_liner": "音樂治療在極早產兒中可能縮短住院時間，但對氧療、餵食等主要臨床預後無顯著改善，可作為輔助性舒適照護選項但非必要介入。",
+    "processed_date": "2026-03-23",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41864499",
+    "title": "Intrauterine SARS-CoV-2 Exposure and Infant Neurodevelopment.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Mar 19",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "SARS-CoV-2",
+      "neurodevelopment",
+      "intrauterine exposure",
+      "long-term follow-up",
+      "Bayley"
+    ],
+    "one_liner": "新興議題但摘要資訊不足，無法判斷是否改變現有神經發育追蹤做法；建議待全文發表後再評估臨床應用價值。",
+    "processed_date": "2026-03-23",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41865193",
+    "title": "The role of breastfeeding in modulating antimicrobial resistance in neonates: a systematic review.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 21",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "breastfeeding",
+      "antimicrobial resistance",
+      "neonatal microbiome",
+      "ARG transfer",
+      "infection prevention"
+    ],
+    "one_liner": "母乳哺餵在新生兒 AMR 調控中的角色值得關注，但現有證據多為關聯性而非因果性，尚需機制性研究支持臨床實踐改變。",
+    "processed_date": "2026-03-23",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41864052",
+    "title": "The association of birth weight with children's anxiety, depression and developmental disabilities.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 14",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "low birth weight",
+      "neurodevelopment",
+      "long-term follow-up",
+      "developmental disabilities",
+      "mental health"
+    ],
+    "one_liner": "確認 LBW 與學齡期多項發育障礙及心理健康問題之關聯，提供長期追蹤證據但對 NICU 急性期照護決策無直接影響，可作為家長衛教與長期追蹤規劃的參考。",
+    "processed_date": "2026-03-23",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41864854",
+    "title": "Laparoscopic management of congenital pyloric Atresia: A case series and surgical perspective.",
+    "journal": "Pediatrics and Neonatology",
+    "pub_date": "2026 Feb 28",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "congenital pyloric atresia",
+      "laparoscopic surgery",
+      "neonatal gastric outlet obstruction",
+      "case series",
+      "pediatric surgery"
+    ],
+    "one_liner": "極罕見先天性幽門閉鎖症的小規模外科技術報告，與新生兒內科照護決策無直接關聯，可跳過。",
+    "processed_date": "2026-03-23",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41864740",
+    "title": "Safeguarding against dengue fever risks in a more connected world.",
+    "journal": "The Lancet",
+    "pub_date": "2026 Mar 21",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "登革熱",
+      "傳染病",
+      "公衛政策",
+      "非新生兒科"
+    ],
+    "one_liner": "可跳過——本文為登革熱公衛政策評論，與新生兒重症醫學、早產兒照護或發育追蹤無關。",
+    "processed_date": "2026-03-23",
+    "has_deep_analysis": false
   }
 ]
