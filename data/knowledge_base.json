@@ -6635,5 +6635,73 @@
     "one_liner": "可跳過——本文為登革熱公衛政策評論，與新生兒重症醫學、早產兒照護或發育追蹤無關。",
     "processed_date": "2026-03-23",
     "has_deep_analysis": false
+  },
+  {
+    "pmid": "41866270",
+    "title": "The case against use of inhaled nitric oxide for hypoxic respiratory failure in the premature neonate.",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 20",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "iNO",
+      "早產兒",
+      "低氧性呼吸衰竭",
+      "RDS",
+      "VLBW"
+    ],
+    "one_liner": "敘述性評論質疑 iNO 在早產兒低氧性呼吸衰竭的使用價值，提供批判性觀點但缺乏新的實證數據支持。",
+    "processed_date": "2026-03-23",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41866039",
+    "title": "Responding to Parental Requests for Potentially Nonbeneficial Treatment in Life-Threatening Situations: Clinical Report.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 23",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "ethics",
+      "shared decision making",
+      "life-sustaining treatment",
+      "parental request",
+      "communication"
+    ],
+    "one_liner": "倫理與溝通指引而非實證研究，對 NICU 照護決策的直接影響有限，可參考但非必讀。",
+    "processed_date": "2026-03-23",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41866047",
+    "title": "Responding to Parental Requests for Potentially Nonbeneficial Treatment in Life-Threatening Situations: Technical Report.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 23",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "ethics",
+      "shared decision making",
+      "end-of-life care",
+      "parental communication"
+    ],
+    "one_liner": "倫理與溝通指引而非臨床實證，新生兒科醫師可參考但不涉及早產兒重症照護的證據基礎。",
+    "processed_date": "2026-03-23",
+    "has_deep_analysis": false
   }
 ]
