@@ -6703,5 +6703,142 @@
     "one_liner": "倫理與溝通指引而非臨床實證，新生兒科醫師可參考但不涉及早產兒重症照護的證據基礎。",
     "processed_date": "2026-03-23",
     "has_deep_analysis": false
+  },
+  {
+    "pmid": "41871215",
+    "title": "Transfusion histories of neonates who developed severe retinopathy of prematurity.",
+    "journal": "Neonatology",
+    "pub_date": "2026 Mar 23",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "ROP",
+      "ELGAN",
+      "transfusion",
+      "cord blood",
+      "prevention"
+    ],
+    "one_liner": "支持臍帶血輸血可能減少嚴重 ROP 風險，但因樣本小且為單中心回溯性研究，需更大型 RCT 驗證；對 ELBW 輸血決策有參考價值但證據力中等。",
+    "processed_date": "2026-03-24",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41869844",
+    "title": "Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Mar 23",
+    "total_score": 3,
+    "scores": {
+      "design": 5,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 5
+    },
+    "keywords": [
+      "sepsis",
+      "septic shock",
+      "infants",
+      "guideline",
+      "evidence-based management"
+    ],
+    "one_liner": "國際敗血症指引更新涵蓋嬰幼兒，但證據品質多為低等級，新生兒科醫師應參考其中新生兒特異性建議（如早期抗生素時間窗、液體管理策略），但需搭配新生兒特定指引（如 NRP、AAP）使用。",
+    "processed_date": "2026-03-24",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41870559",
+    "title": "Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.",
+    "journal": "Intensive Care Medicine",
+    "pub_date": "2026 Mar 23",
+    "total_score": 3,
+    "scores": {
+      "design": 5,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 4
+    },
+    "keywords": [
+      "sepsis",
+      "septic shock",
+      "children",
+      "guideline",
+      "evidence-based management"
+    ],
+    "one_liner": "這是高品質的國際指引但證據基礎薄弱（僅5%強烈建議），對 NICU 敗血症管理有參考價值但不足以改變現有做法，可作為定期更新的參考工具而非決策改變者。",
+    "processed_date": "2026-03-24",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41871223",
+    "title": "Research at the Paris Foundling Hospitals. Part 2: After the Revolution.",
+    "journal": "Neonatology",
+    "pub_date": "2026 Mar 23",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "醫學史",
+      "新生兒復甦",
+      "歷史回顧",
+      "棄嬰醫院",
+      "早期新生兒醫學"
+    ],
+    "one_liner": "純醫學史敘述，無臨床實證內容，新生兒科醫師可跳過。",
+    "processed_date": "2026-03-24",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41869981",
+    "title": "Can We Talk About Fetal Consciousness?",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 23",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "fetal consciousness",
+      "philosophy",
+      "prenatal development",
+      "theoretical framework"
+    ],
+    "one_liner": "可跳過——此為胎兒意識的哲學性綜述，與新生兒科臨床照護決策無關。",
+    "processed_date": "2026-03-24",
+    "has_deep_analysis": false
+  },
+  {
+    "pmid": "41870213",
+    "title": "Quality of Bag-Mask Ventilation for Children Before Intubation: Single-Center PICU Pilot Observational Study, 2019-2022.",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Mar 23",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "bag-mask ventilation",
+      "PICU",
+      "airway management",
+      "pediatric intubation",
+      "ventilation quality"
+    ],
+    "one_liner": "本研究聚焦 PICU 兒童患者的手動通氣技術品質，與新生兒科日常照護（早產兒呼吸支持、BPD 預防、RDS 管理）無直接關聯，新生兒科醫師可跳過。",
+    "processed_date": "2026-03-24",
+    "has_deep_analysis": false
   }
 ]
