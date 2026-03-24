@@ -65,14 +65,19 @@ def save_to_knowledge_base(articles: list[dict]):
         kb_entry = {
             "pmid": article["pmid"],
             "title": article["title"],
+            "authors": article.get("authors", ""),
             "journal": article.get("source_journal", ""),
             "pub_date": article.get("pub_date", ""),
+            "doi": article.get("doi", ""),
             "total_score": article.get("total_score", 0),
             "scores": article.get("scores", {}),
             "keywords": article.get("keywords", []),
             "one_liner": article.get("one_liner", ""),
+            "summary": article.get("summary", {}),
+            "deep_analysis": article.get("deep_analysis", {}),
+            "is_oa": article.get("is_oa", False),
+            "oa_url": article.get("oa_url", ""),
             "processed_date": today,
-            "has_deep_analysis": "deep_analysis" in article,
         }
         kb.append(kb_entry)
 
