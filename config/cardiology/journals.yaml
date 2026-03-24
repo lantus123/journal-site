@@ -233,6 +233,6 @@ journals:
     category: "general"
 
 pubmed:
-  lookback_hours: 48
+  lookback_hours: 168
   max_results_per_journal: 20
   api_key_env: "NCBI_API_KEY"
