@@ -10,6 +10,11 @@ on:
         required: false
         default: 'false'
         type: boolean
+      backfill_dates:
+        description: 'Backfill dates (e.g. "2026-03-22 2026-03-23"), leave empty for normal run'
+        required: false
+        default: ''
+        type: string
 
 jobs:
   review:
@@ -45,7 +50,9 @@ jobs:
           ELSEVIER_API_KEY: ${{ secrets.ELSEVIER_API_KEY }}
           DIGEST_SITE_URL: "https://lantus123.github.io/nicu-journal-site"
         run: |
-          if [ "${{ inputs.dry_run }}" = "true" ]; then
+          if [ -n "${{ inputs.backfill_dates }}" ]; then
+            python scripts/backfill_digest.py ${{ inputs.backfill_dates }} --full
+          elif [ "${{ inputs.dry_run }}" = "true" ]; then
             python main.py --dry-run
           else
             python main.py
