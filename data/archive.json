@@ -2,11 +2,21 @@
   {
     "date": "2026-03-23",
     "display_date": "2026/03/23 (Monday)",
-    "total": 6,
+    "total": 8,
     "must_read": 0,
     "deep_analysis": 0,
     "top_article": "",
-    "token": "383853f3",
+    "token": "6e4a36c9",
+    "votes": 0
+  },
+  {
+    "date": "2026-03-22",
+    "display_date": "2026/03/22 (Sunday)",
+    "total": 3,
+    "must_read": 0,
+    "deep_analysis": 1,
+    "top_article": "Association between NNNS-II profiles and pharmacological treatment in infants wi",
+    "token": "a6fc4425",
     "votes": 0
   },
   {

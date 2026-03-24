@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NICU Journal Digest - 2026-03-22</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.8;font-size:16px}
+.container{max-width:720px;margin:0 auto;padding:20px}
+header{padding:20px 0;border-bottom:2px solid #1B6B93;margin-bottom:24px}
+.back{font-size:15px;color:#1B6B93;text-decoration:none}
+.back:hover{text-decoration:underline}
+.date{font-size:15px;color:#888;margin-top:8px}
+h1{font-size:26px;font-weight:700;color:#1B6B93;margin-top:4px}
+.stats{font-size:15px;color:#666;margin-top:6px}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:18px}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600}
+.tag-journal{font-size:13px;color:#999}
+.card-title{font-size:18px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px}
+.card-authors{font-size:14px;color:#999;margin-bottom:14px}
+.section{padding:14px 0;border-top:1px solid #f0f0ec}
+.section p{font-size:15px;color:#555;margin-bottom:8px}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:10px}
+.hl{border-left:3px solid;padding:10px 14px;margin:8px 0;font-size:15px;line-height:1.7;border-radius:0}
+.hl-green{border-color:#639922;background:#EAF3DE;color:#27500A}
+.hl-amber{border-color:#BA7517;background:#FAEEDA;color:#633806}
+.hl-red{border-color:#E24B4A;background:#FCEBEB;color:#791F1F}
+.hl-blue{border-color:#378ADD;background:#E6F1FB;color:#0C447C}
+.related{font-size:15px;color:#555;padding:8px 0;border-bottom:1px solid #f5f5f0}
+.related:last-child{border-bottom:none}
+.card-links{padding-top:14px;display:flex;gap:16px}
+.card-links a{font-size:14px;color:#1B6B93;text-decoration:none}
+.card-links a:hover{text-decoration:underline}
+footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;color:#999;text-align:center}
+.vote-count{font-size:13px;color:#1B6B93;font-weight:600}
+@media(max-width:600px){.container{padding:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">NICU Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">或從 LINE / Email 點擊連結直接閱讀</p>
+</div>
+</div>
+
+<!-- Digest content (hidden until auth) -->
+<div id="digest-content" style="display:none;">
+<div class="container">
+<header>
+  <a href="index.html" class="back">← Back to archive</a>
+  <div class="date">2026/03/22 (Sunday)</div>
+  <h1>NICU Journal Digest</h1>
+  <div class="stats">3 articles</div>
+</header>
+
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 4-5: DEEP ANALYSIS</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal"></span></div>
+  <h2 class="card-title">Association between NNNS-II profiles and pharmacological treatment in infants with prenatal opioid exposure.</h2>
+  <div class="card-authors">Donahue M, Heil MR, Camerota M, et al. · 2026 Mar 20</div>
+  <div class="section"><p><b>臨床意義：</b>NNNS-II 神經行為特徵可預測產前鴉片類藥物暴露嬰兒的藥物治療需求，有助於早期識別與個別化照護決策，值得在 NICU 導入評估。</p></div>
+  <div id="analysis-result-41862592"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41862592/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41372-026-02628-7" target="_blank">DOI →</a></div>
+  
+  
+</div>
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 2-3: QUICK SUMMARY</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal"></span></div>
+  <h2 class="card-title">AI, machine learning, and adjudication of hemodynamically significant PDA in extremely premature infants.</h2>
+  <div class="card-authors">Rios DR, McNamara PJ · 2026 Mar 20</div>
+  <div class="section"><p><b>臨床意義：</b>AI 在 PDA 診斷中的應用前景值得關注，但目前仍屬概念探討階段，缺乏臨床驗證證據，不足以改變現行照護決策。</p></div>
+  <div id="analysis-result-41862666"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41862666/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41390-026-04828-5" target="_blank">DOI →</a></div>
+  
+  
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal"></span></div>
+  <h2 class="card-title">Catheter and echocardiographic-focused management of primary pulmonary vein stenosis in premature infants: a single center 5-year experience.</h2>
+  <div class="card-authors">Nassetta K, O'Halloran CP, Hoyt E, et al. · 2026 Mar 20</div>
+  <div class="section"><p><b>臨床意義：</b>極罕見的先天性肺靜脈狹窄病例系列，臨床應用價值有限，可作為參考但不足以改變實踐。</p></div>
+  <div id="analysis-result-41862593"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41862593/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41372-026-02611-2" target="_blank">DOI →</a></div>
+  
+  
+</div>
+<footer>
+  NICU Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  AI scoring by Claude (Haiku + Sonnet)
+</footer>
+</div>
+</div>
+
+<script>
+(function() {
+  var TOKEN_HASH = "c855993f85a5c2dea423e9631cafeedbe91870ae06d74daa043436d91a63a7ee";
+  var PW_HASH = "";
+  var content = document.getElementById('digest-content');
+  var gate = document.getElementById('auth-gate');
+
+  function sha256(str) {
+    var encoder = new TextEncoder();
+    return crypto.subtle.digest('SHA-256', encoder.encode(str)).then(function(buf) {
+      return Array.from(new Uint8Array(buf)).map(function(b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    });
+  }
+
+  function unlock() {
+    gate.style.display = 'none';
+    content.style.display = 'block';
+  }
+
+  function checkAccess() {
+    // 1. Check URL token
+    var params = new URLSearchParams(window.location.search);
+    var t = params.get('t');
+    if (t && TOKEN_HASH) {
+      sha256(t).then(function(h) {
+        if (h === TOKEN_HASH) {
+          localStorage.setItem('digest_token', t);
+          unlock();
+        } else {
+          checkPassword();
+        }
+      });
+      return;
+    }
+
+    // 2. Check stored password
+    checkPassword();
+  }
+
+  function checkPassword() {
+    if (!PW_HASH) { unlock(); return; }
+    var saved = localStorage.getItem('digest_pw');
+    if (saved) {
+      sha256(saved).then(function(h) {
+        if (h === PW_HASH) { unlock(); }
+        else { gate.style.display = 'flex'; }
+      });
+    } else {
+      gate.style.display = 'flex';
+    }
+  }
+
+  window.submitPassword = function() {
+    var input = document.getElementById('pw-input').value;
+    sha256(input).then(function(h) {
+      if (h === PW_HASH) {
+        localStorage.setItem('digest_pw', input);
+        unlock();
+      } else {
+        document.getElementById('pw-error').style.display = 'block';
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', checkAccess);
+})();
+</script>
+
+
+</body>
+</html>
