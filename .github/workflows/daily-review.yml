@@ -15,11 +15,16 @@ on:
         required: false
         default: ''
         type: string
+      backfill_dept:
+        description: 'Department for backfill (newborn or cardiology)'
+        required: false
+        default: 'newborn'
+        type: string
 
 jobs:
   review:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repo
@@ -46,23 +51,33 @@ jobs:
           EMAIL_FROM: "NICU Journal Bot <nicu-journal@schedule.mmhped.org>"
           FEEDBACK_WEBHOOK_URL: ${{ secrets.FEEDBACK_WEBHOOK_URL }}
           FEEDBACK_SECRET: ${{ secrets.FEEDBACK_SECRET }}
-          DIGEST_PASSWORD: ${{ secrets.DIGEST_PASSWORD }}
+          DIGEST_PASSWORD_NEWBORN: ${{ secrets.DIGEST_PASSWORD }}
+          DIGEST_PASSWORD_CARDIOLOGY: ${{ secrets.DIGEST_PASSWORD_CARDIOLOGY }}
           ELSEVIER_API_KEY: ${{ secrets.ELSEVIER_API_KEY }}
-          DIGEST_SITE_URL: "https://lantus123.github.io/nicu-journal-site"
+          DIGEST_SITE_URL: "https://lantus123.github.io/journal-site"
         run: |
           if [ -n "${{ inputs.backfill_dates }}" ]; then
-            python scripts/backfill_digest.py ${{ inputs.backfill_dates }} --full
+            python scripts/backfill_digest.py ${{ inputs.backfill_dates }} --dept ${{ inputs.backfill_dept }} --full
           elif [ "${{ inputs.dry_run }}" = "true" ]; then
-            python main.py --dry-run
+            for dept in newborn cardiology; do
+              echo "=== Running $dept (dry-run) ==="
+              python main.py --dept $dept --dry-run
+            done
           else
-            python main.py
+            for dept in newborn cardiology; do
+              echo "=== Running $dept ==="
+              python main.py --dept $dept
+            done
           fi
+
+      - name: Generate root landing page
+        run: python scripts/generate_root_index.py
 
       - name: Commit updated data
         run: |
           git config user.name "Journal Review Bot"
           git config user.email "bot@noreply.github.com"
-          git add data/pmid_cache.json data/knowledge_base.json data/on_demand_queue.json data/feedback.json data/archive.json docs/
+          git add data/newborn/ data/cardiology/ docs/
           git diff --staged --quiet || git commit -m "Update data: $(date -u +%Y-%m-%d)"
           git push
 
@@ -71,21 +86,25 @@ jobs:
         env:
           SITE_TOKEN: ${{ secrets.SITE_DEPLOY_TOKEN }}
         run: |
-          if [ ! -d "docs" ] || [ -z "$(ls -A docs/*.html 2>/dev/null)" ]; then
+          # Check if there are any HTML files to deploy
+          if [ -z "$(find docs -name '*.html' 2>/dev/null)" ]; then
             echo "No HTML files to deploy"
             exit 0
           fi
-          # Clone existing site first to preserve old pages
-          git clone --depth=1 https://x-access-token:${SITE_TOKEN}@github.com/lantus123/nicu-journal-site.git /tmp/site || true
+          # Clone existing site to preserve old pages
+          git clone --depth=1 https://x-access-token:${SITE_TOKEN}@github.com/lantus123/journal-site.git /tmp/site || true
           if [ ! -d /tmp/site/.git ]; then
             mkdir -p /tmp/site
             cd /tmp/site
             git init
             git checkout -b main
-            git remote add origin https://x-access-token:${SITE_TOKEN}@github.com/lantus123/nicu-journal-site.git
+            git remote add origin https://x-access-token:${SITE_TOKEN}@github.com/lantus123/journal-site.git
           fi
-          # Copy new files over (preserves old HTML pages)
-          cp -f docs/* /tmp/site/
+          # Copy department directories and root index
+          mkdir -p /tmp/site/newborn /tmp/site/cardiology
+          cp -f docs/index.html /tmp/site/ 2>/dev/null || true
+          cp -f docs/newborn/* /tmp/site/newborn/ 2>/dev/null || true
+          cp -f docs/cardiology/* /tmp/site/cardiology/ 2>/dev/null || true
           cd /tmp/site
           git config user.name "Journal Review Bot"
           git config user.email "bot@noreply.github.com"

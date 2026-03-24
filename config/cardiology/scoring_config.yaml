@@ -1,0 +1,87 @@
+# ============================================
+# Scoring Configuration — Pediatric Cardiology
+# ============================================
+
+scoring:
+  dimensions:
+    - id: "design"
+      name: "研究設計嚴謹度"
+      description: "RCT=5, prospective cohort=4, retrospective=3, case series=2, case report/review=1"
+      weight: 0.25
+
+    - id: "relevance"
+      name: "臨床相關性"
+      description: "對小兒心臟科日常照護的直接影響程度，包含先天性心臟病診斷與處置、心導管介入、心臟手術術前術後照護、胎兒心臟超音波、心律不整處理"
+      weight: 0.30
+
+    - id: "novelty"
+      name: "創新性 / Practice-changing potential"
+      description: "是否挑戰現行做法、確認爭議觀點、或引入新的診斷/治療方法"
+      weight: 0.25
+
+    - id: "generalizability"
+      name: "樣本量與可推廣性"
+      description: "多中心、足夠統計檢力、族群可類推到台灣小兒心臟科環境"
+      weight: 0.20
+
+# Model routing
+model_routing:
+  default_model: "haiku"
+  deep_analysis_threshold: 4
+  deep_analysis_model: "sonnet"
+  instant_alert_threshold: 5
+
+# Score-based actions
+actions:
+  1:
+    label: "Low relevance"
+    include_in_digest: false
+    save_to_kb: true
+  2:
+    label: "Background"
+    include_in_digest: true
+    digest_format: "one_liner"
+    save_to_kb: true
+  3:
+    label: "Worth knowing"
+    include_in_digest: true
+    digest_format: "haiku_summary"
+    save_to_kb: true
+  4:
+    label: "Important"
+    include_in_digest: true
+    digest_format: "deep_analysis"
+    save_to_kb: true
+    try_fulltext: true
+  5:
+    label: "Must read"
+    include_in_digest: true
+    digest_format: "deep_analysis"
+    save_to_kb: true
+    try_fulltext: true
+    instant_alert: true
+
+topic_boost: {}
+
+if_tier_boost:
+  top_tier:
+    boost: 0.5
+    journals:
+      - "N Engl J Med"
+      - "Lancet"
+      - "BMJ"
+      - "JAMA"
+      - "JAMA Netw Open"
+      - "Circulation"
+      - "J Am Coll Cardiol"
+  high_tier:
+    boost: 0.3
+    journals:
+      - "Eur Heart J"
+      - "Heart"
+      - "JAMA Pediatr"
+      - "Pediatrics"
+      - "J Pediatr"
+      - "J Thorac Cardiovasc Surg"
+      - "Cochrane Database Syst Rev"
+      - "Pediatr Crit Care Med"

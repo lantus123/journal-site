@@ -1,0 +1,238 @@
+journals:
+  # ── 小兒心臟專科期刊（全部收錄）──
+  - name: "Pediatric Cardiology"
+    query: '"Pediatr Cardiol"[jour]'
+    category: "pediatric_cardiology"
+
+  - name: "Cardiology in the Young"
+    query: '"Cardiol Young"[jour]'
+    category: "pediatric_cardiology"
+
+  - name: "World Journal for Pediatric and Congenital Heart Surgery"
+    query: '"World J Pediatr Congenit Heart Surg"[jour]'
+    category: "pediatric_cardiology"
+
+  - name: "Annals of Pediatric Cardiology"
+    query: '"Ann Pediatr Cardiol"[jour]'
+    category: "pediatric_cardiology"
+
+  - name: "Journal of the American Heart Association"
+    query: '"J Am Heart Assoc"[jour]'
+    category: "pediatric_cardiology"
+    filter_keywords: &congenital_keywords
+      - congenital heart
+      - congenital cardiac
+      - pediatric cardiol
+      - paediatric cardiol
+      - Fontan
+      - single ventricle
+      - tetralogy
+      - transposition
+      - hypoplastic left heart
+      - coarctation
+      - atrial septal defect
+      - ventricular septal defect
+      - patent ductus arteriosus
+      - Ebstein
+      - pulmonary atresia
+      - tricuspid atresia
+      - Norwood
+      - Glenn
+      - arterial switch
+      - Kawasaki
+      - neonat
+      - infant cardiac
+      - fetal heart
+      - fetal cardiac
+      - fetal echocardiogra
+      - adult congenital
+      - pediatric heart transplant
+      - pediatric heart failure
+      - pediatric arrhythm
+      - device closure
+      - balloon valvuloplasty
+      - pediatric ECMO
+      - cardiomyopath
+      - myocarditis
+      - pulmonary hypertension
+      - long QT
+      - Brugada
+      - Wolff-Parkinson
+
+  # ── 心胸外科期刊（過濾先天性/小兒相關）──
+  - name: "Journal of Thoracic and Cardiovascular Surgery"
+    query: '"J Thorac Cardiovasc Surg"[jour]'
+    category: "cardiothoracic_surgery"
+    filter_keywords: *congenital_keywords
+
+  - name: "Annals of Thoracic Surgery"
+    query: '"Ann Thorac Surg"[jour]'
+    category: "cardiothoracic_surgery"
+    filter_keywords: *congenital_keywords
+
+  - name: "European Journal of Cardio-Thoracic Surgery"
+    query: '"Eur J Cardiothorac Surg"[jour]'
+    category: "cardiothoracic_surgery"
+    filter_keywords: *congenital_keywords
+
+  # ── 成人心臟頂刊（過濾小兒/先天性相關）──
+  - name: "Journal of the American College of Cardiology"
+    query: '"J Am Coll Cardiol"[jour]'
+    category: "adult_cardiology"
+    filter_keywords: *congenital_keywords
+
+  - name: "Circulation"
+    query: '"Circulation"[jour]'
+    category: "adult_cardiology"
+    filter_keywords: *congenital_keywords
+
+  - name: "European Heart Journal"
+    query: '"Eur Heart J"[jour]'
+    category: "adult_cardiology"
+    filter_keywords: *congenital_keywords
+
+  - name: "Heart"
+    query: '"Heart"[jour]'
+    category: "adult_cardiology"
+    filter_keywords: *congenital_keywords
+
+  - name: "JACC: Cardiovascular Interventions"
+    query: '"JACC Cardiovasc Interv"[jour]'
+    category: "adult_cardiology"
+    filter_keywords: *congenital_keywords
+
+  - name: "JACC: Cardiovascular Imaging"
+    query: '"JACC Cardiovasc Imaging"[jour]'
+    category: "adult_cardiology"
+    filter_keywords: *congenital_keywords
+
+  - name: "Heart Rhythm"
+    query: '"Heart Rhythm"[jour]'
+    category: "adult_cardiology"
+    filter_keywords: *congenital_keywords
+
+  - name: "Catheterization and Cardiovascular Interventions"
+    query: '"Catheter Cardiovasc Interv"[jour]'
+    category: "adult_cardiology"
+    filter_keywords: *congenital_keywords
+
+  # ── 心臟移植/機械循環 ──
+  - name: "Journal of Heart and Lung Transplantation"
+    query: '"J Heart Lung Transplant"[jour]'
+    category: "transplant"
+    filter_keywords: *congenital_keywords
+
+  # ── 胎兒診斷 ──
+  - name: "Fetal Diagnosis and Therapy"
+    query: '"Fetal Diagn Ther"[jour]'
+    category: "fetal"
+    filter_keywords:
+      - heart
+      - cardiac
+      - echocardiogra
+      - arrhythm
+      - cardiomyopath
+
+  - name: "Prenatal Diagnosis"
+    query: '"Prenat Diagn"[jour]'
+    category: "fetal"
+    filter_keywords:
+      - heart
+      - cardiac
+      - echocardiogra
+      - congenital heart
+
+  # ── 兒科期刊（過濾心臟相關）──
+  - name: "JAMA Pediatrics"
+    query: '"JAMA Pediatr"[jour]'
+    category: "pediatrics"
+    filter_keywords: &cardiac_in_peds
+      - heart
+      - cardiac
+      - cardiology
+      - cardiovascular
+      - congenital heart
+      - echocardiogra
+      - arrhythm
+      - cardiomyopath
+      - myocarditis
+      - Kawasaki
+      - heart failure
+      - heart transplant
+      - Fontan
+      - heart defect
+      - ECMO
+      - extracorporeal membrane
+      - pericarditis
+      - endocarditis
+      - aortic
+      - pulmonary hypertension
+      - cardiac catheter
+      - cardiac MRI
+      - cardiopulmonary bypass
+
+  - name: "Pediatrics"
+    query: '"Pediatrics"[jour]'
+    category: "pediatrics"
+    filter_keywords: *cardiac_in_peds
+
+  - name: "The Journal of Pediatrics"
+    query: '"J Pediatr"[jour]'
+    category: "pediatrics"
+    filter_keywords: *cardiac_in_peds
+
+  - name: "Pediatric Critical Care Medicine"
+    query: '"Pediatr Crit Care Med"[jour]'
+    category: "pediatrics"
+    filter_keywords: *cardiac_in_peds
+
+  - name: "Pediatric Research"
+    query: '"Pediatr Res"[jour]'
+    category: "pediatrics"
+    filter_keywords: *cardiac_in_peds
+
+  # ── 綜合頂刊（嚴格過濾）──
+  - name: "New England Journal of Medicine"
+    query: '"N Engl J Med"[jour]'
+    category: "general"
+    filter_keywords: &cardiac_strict
+      - congenital heart
+      - pediatric heart
+      - pediatric cardiac
+      - fetal heart
+      - Fontan
+      - Kawasaki
+      - single ventricle
+      - tetralogy
+      - heart defect
+      - pediatric cardiomyopath
+      - pediatric arrhythm
+
+  - name: "The Lancet"
+    query: '"Lancet"[jour]'
+    category: "general"
+    filter_keywords: *cardiac_strict
+
+  - name: "The Lancet Child and Adolescent Health"
+    query: '"Lancet Child Adolesc Health"[jour]'
+    category: "general"
+    filter_keywords: *cardiac_strict
+
+  - name: "BMJ"
+    query: '"BMJ"[jour]'
+    category: "general"
+    filter_keywords: *cardiac_strict
+
+  - name: "JAMA Network Open"
+    query: '"JAMA Netw Open"[jour]'
+    category: "general"
+    filter_keywords: *cardiac_strict
+
+  - name: "Cochrane Database of Systematic Reviews"
+    query: '"Cochrane Database Syst Rev"[jour] AND (congenital heart[tiab] OR pediatric cardiac[tiab] OR Fontan[tiab] OR Kawasaki[tiab] OR tetralogy[tiab])'
+    category: "general"
+
+pubmed:
+  lookback_hours: 48
+  max_results_per_journal: 20
+  api_key_env: "NCBI_API_KEY"

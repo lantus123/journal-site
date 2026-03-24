@@ -1,0 +1,93 @@
+# ============================================
+# Scoring Configuration
+# ============================================
+# Weights auto-calibrate via feedback (Phase 4).
+# You can also manually adjust anytime.
+
+scoring:
+  dimensions:
+    - id: "design"
+      name: "研究設計嚴謹度"
+      description: "RCT=5, prospective cohort=4, retrospective=3, case series=2, case report/review=1"
+      weight: 0.25
+
+    - id: "relevance"
+      name: "臨床相關性"
+      description: "對 NICU/PICU 日常照護的直接影響程度"
+      weight: 0.30
+
+    - id: "novelty"
+      name: "創新性 / Practice-changing potential"
+      description: "是否挑戰現行做法、確認爭議觀點、或引入新方法"
+      weight: 0.25
+
+    - id: "generalizability"
+      name: "樣本量與可推廣性"
+      description: "多中心、足夠統計檢力、族群可類推到台灣 NICU/PICU 環境"
+      weight: 0.20
+
+# Model routing
+model_routing:
+  # All articles: Haiku for scoring + Chinese summary
+  default_model: "haiku"
+  # Score >= threshold: Sonnet for deep analysis
+  deep_analysis_threshold: 4
+  deep_analysis_model: "sonnet"
+  # Score 5: also triggers instant LINE alert (Phase 2)
+  instant_alert_threshold: 5
+
+# Score-based actions
+actions:
+  1:
+    label: "Low relevance"
+    include_in_digest: false
+    save_to_kb: true
+  2:
+    label: "Background"
+    include_in_digest: true
+    digest_format: "one_liner"
+    save_to_kb: true
+  3:
+    label: "Worth knowing"
+    include_in_digest: true
+    digest_format: "haiku_summary"
+    save_to_kb: true
+  4:
+    label: "Important"
+    include_in_digest: true
+    digest_format: "deep_analysis"
+    save_to_kb: true
+    try_fulltext: true
+  5:
+    label: "Must read"
+    include_in_digest: true
+    digest_format: "deep_analysis"
+    save_to_kb: true
+    try_fulltext: true
+    instant_alert: true
+
+# Topic boost (auto-updated by feedback in Phase 4)
+# Format: keyword -> bonus points added to total score
+topic_boost: {}
+
+# Impact Factor tier boost
+# High-IF journals get a score bonus to reflect publication prestige
+if_tier_boost:
+  top_tier:
+    boost: 0.5
+    journals:
+      - "N Engl J Med"
+      - "Lancet"
+      - "BMJ"
+      - "JAMA"
+      - "JAMA Netw Open"
+  high_tier:
+    boost: 0.3
+    journals:
+      - "Pediatrics"
+      - "JAMA Pediatr"
+      - "J Pediatr"
+      - "Crit Care Med"
+      - "Intensive Care Med"
+      - "Pediatr Crit Care Med"
+      - "Cochrane Database Syst Rev"

@@ -11,25 +11,30 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 TW_TZ = timezone(timedelta(hours=8))
-FEEDBACK_PATH = Path("data/feedback.json")
 
 
-def load_feedback() -> list[dict]:
+def _feedback_path(dept: str = "newborn") -> Path:
+    return Path(f"data/{dept}/feedback.json")
+
+
+def load_feedback(dept: str = "newborn") -> list[dict]:
     """Load existing feedback data."""
-    if FEEDBACK_PATH.exists():
-        with open(FEEDBACK_PATH) as f:
+    path = _feedback_path(dept)
+    if path.exists():
+        with open(path) as f:
             return json.load(f)
     return []
 
 
-def save_feedback(feedback: list[dict]):
+def save_feedback(feedback: list[dict], dept: str = "newborn"):
     """Save feedback data."""
-    FEEDBACK_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(FEEDBACK_PATH, "w") as f:
+    path = _feedback_path(dept)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w") as f:
         json.dump(feedback, f, ensure_ascii=False, indent=2)
 
 
-def add_feedback(pmid: str, rating: str, source: str = "line", user_id: str = "anonymous"):
+def add_feedback(pmid: str, rating: str, source: str = "line", user_id: str = "anonymous", dept: str = "newborn"):
     """
     Add a single feedback entry.
 
@@ -38,8 +43,9 @@ def add_feedback(pmid: str, rating: str, source: str = "line", user_id: str = "a
         rating: must_read | useful | so_so | skip | not_relevant
         source: line | email
         user_id: LINE user ID or email tracking ID (anonymized)
+        dept: department ID
     """
-    feedback = load_feedback()
+    feedback = load_feedback(dept)
 
     entry = {
         "pmid": pmid,
@@ -54,21 +60,21 @@ def add_feedback(pmid: str, rating: str, source: str = "line", user_id: str = "a
         if existing["pmid"] == pmid and existing["user_id"] == user_id:
             feedback[i] = entry  # Update existing vote
             logger.info(f"Updated feedback: PMID {pmid} = {rating} (by {user_id[:8]}...)")
-            save_feedback(feedback)
+            save_feedback(feedback, dept)
             return entry
 
     feedback.append(entry)
     logger.info(f"New feedback: PMID {pmid} = {rating} (by {user_id[:8]}...)")
-    save_feedback(feedback)
+    save_feedback(feedback, dept)
     return entry
 
 
-def add_on_demand_request(pmid: str, user_id: str):
+def add_on_demand_request(pmid: str, user_id: str, dept: str = "newborn"):
     """
     Add an on-demand deep analysis request to the queue.
     The GAS webhook calls this (via API), and main.py picks it up next day.
     """
-    queue_path = Path("data/on_demand_queue.json")
+    queue_path = Path(f"data/{dept}/on_demand_queue.json")
     queue = []
     if queue_path.exists():
         with open(queue_path) as f:
@@ -90,9 +96,9 @@ def add_on_demand_request(pmid: str, user_id: str):
     logger.info(f"On-demand queued: PMID {pmid} (requested by {user_id[:8]}...)")
 
 
-def get_feedback_summary(pmid: str) -> dict:
+def get_feedback_summary(pmid: str, dept: str = "newborn") -> dict:
     """Get aggregated feedback for an article."""
-    feedback = load_feedback()
+    feedback = load_feedback(dept)
     article_fb = [f for f in feedback if f["pmid"] == pmid]
 
     if not article_fb:

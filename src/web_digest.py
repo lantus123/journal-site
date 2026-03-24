@@ -19,15 +19,31 @@ logger = logging.getLogger(__name__)
 TW_TZ = timezone(timedelta(hours=8))
 
 
+DEPT_NAMES = {
+    "newborn": "NICU Journal Digest",
+    "cardiology": "Pediatric Cardiology Digest",
+}
+
+DEPT_SUBTITLES = {
+    "newborn": "馬偕紀念醫院新生兒科 · AI-powered daily literature review",
+    "cardiology": "馬偕紀念醫院小兒心臟科 · AI-powered daily literature review",
+}
+
+
 class WebDigestGenerator:
     """Generate static HTML digest pages for GitHub Pages."""
 
-    def __init__(self, output_dir: str = "docs"):
-        self.output_dir = Path(output_dir)
+    def __init__(self, dept: str = "newborn", output_dir: str = None):
+        self.dept = dept
+        self.dept_name = DEPT_NAMES.get(dept, dept)
+        self.dept_subtitle = DEPT_SUBTITLES.get(dept, "")
+        self.output_dir = Path(output_dir) if output_dir else Path(f"docs/{dept}")
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.feedback_url = os.environ.get("FEEDBACK_WEBHOOK_URL", "")
         self.feedback_secret = os.environ.get("FEEDBACK_SECRET", "")
-        self.password = os.environ.get("DIGEST_PASSWORD", "")
+        # Per-department password: DIGEST_PASSWORD_NEWBORN, DIGEST_PASSWORD_CARDIOLOGY
+        pw_env = f"DIGEST_PASSWORD_{dept.upper()}"
+        self.password = os.environ.get(pw_env, os.environ.get("DIGEST_PASSWORD", ""))
         self.password_hash = ""
         if self.password:
             self.password_hash = hashlib.sha256(self.password.encode()).hexdigest()
@@ -36,7 +52,7 @@ class WebDigestGenerator:
 
     def _load_scoring_config(self) -> dict:
         """Load scoring config for display on index page."""
-        config_path = Path("config/scoring_config.yaml")
+        config_path = Path(f"config/{self.dept}/scoring_config.yaml")
         if config_path.exists():
             with open(config_path) as f:
                 return yaml.safe_load(f)
@@ -44,7 +60,7 @@ class WebDigestGenerator:
 
     def _load_pdf_analyses(self) -> set:
         """Load set of PMIDs that have PDF analyses."""
-        analyses_dir = Path("data/pdf_analyses")
+        analyses_dir = Path(f"data/{self.dept}/pdf_analyses")
         if not analyses_dir.exists():
             return set()
         return {p.stem for p in analyses_dir.glob("*.json")}
@@ -62,7 +78,7 @@ class WebDigestGenerator:
 
     def _load_journals_config(self) -> list:
         """Load journals config for display on index page."""
-        config_path = Path("config/journals.yaml")
+        config_path = Path(f"config/{self.dept}/journals.yaml")
         if config_path.exists():
             with open(config_path) as f:
                 return yaml.safe_load(f).get("journals", [])
@@ -91,7 +107,7 @@ class WebDigestGenerator:
 
         # Load feedback summaries
         from .feedback import load_feedback
-        all_feedback = load_feedback()
+        all_feedback = load_feedback(dept=self.dept)
         self.feedback_map = self._build_feedback_map(all_feedback)
 
         # Load existing PDF analyses
@@ -116,7 +132,7 @@ class WebDigestGenerator:
 
     def regenerate_index(self):
         """Regenerate index.html from existing archive.json without creating a new daily page."""
-        archive_path = Path("data/archive.json")
+        archive_path = Path(f"data/{self.dept}/archive.json")
         if not archive_path.exists():
             logger.info("No archive.json found, skipping index regeneration")
             return
@@ -309,7 +325,7 @@ class WebDigestGenerator:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>NICU Journal Digest - {date_str}</title>
+<title>{self.dept_name} - {date_str}</title>
 {self._css()}
 </head>
 <body>
@@ -317,8 +333,8 @@ class WebDigestGenerator:
 <!-- Auth gate -->
 <div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
 <div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
-  <h2 style="color:#1B6B93;margin:0 0 8px;">NICU Journal Digest</h2>
-  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <h2 style="color:#1B6B93;margin:0 0 8px;">{self.dept_name}</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">{self.dept_subtitle.split(' · ')[0]}</p>
   <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
     style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
   <button onclick="submitPassword()"
@@ -334,12 +350,12 @@ class WebDigestGenerator:
 <header>
   <a href="index.html" class="back">← Back to archive</a>
   <div class="date">{display_date}</div>
-  <h1>NICU Journal Digest</h1>
+  <h1>{self.dept_name}</h1>
   <div class="stats">{stats}</div>
 </header>
 {''.join(sections)}
 <footer>
-  NICU Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  Journal Auto-Review System · {self.dept_subtitle.split(' · ')[0]}<br>
   AI scoring by Claude (Haiku + Sonnet)
 </footer>
 </div>
@@ -353,7 +369,7 @@ class WebDigestGenerator:
 
     def _update_index(self, date_str, display_date, articles, on_demand, token):
         """Update index.html with link to today's digest."""
-        archive_path = Path("data/archive.json")
+        archive_path = Path(f"data/{self.dept}/archive.json")
         archive = []
         if archive_path.exists():
             with open(archive_path) as f:
@@ -437,7 +453,7 @@ class WebDigestGenerator:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>NICU Journal Digest - Archive</title>
+<title>{self.dept_name} - Archive</title>
 {self._css()}
 <style>
 .archive-row{{display:block;padding:16px;border:1px solid #e0e0e0;border-radius:12px;margin-bottom:10px;text-decoration:none;color:inherit;transition:border-color .15s}}
@@ -460,8 +476,8 @@ class WebDigestGenerator:
 <!-- Auth gate -->
 <div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
 <div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
-  <h2 style="color:#1B6B93;margin:0 0 8px;">NICU Journal Digest</h2>
-  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <h2 style="color:#1B6B93;margin:0 0 8px;">{self.dept_name}</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">{self.dept_subtitle.split(' · ')[0]}</p>
   <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
     style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
   <button onclick="submitPassword()"
@@ -475,9 +491,9 @@ class WebDigestGenerator:
 <div id="digest-content" style="display:none;">
 <div class="container">
 <div class="hero">
-  <h1>NICU Journal Digest</h1>
-  <p>馬偕紀念醫院新生兒科 · AI-powered daily literature review</p>
-  <p style="margin-top:8px;font-size:13px;color:#aaa;">Tracking {len(archive)} days of neonatal literature</p>
+  <h1>{self.dept_name}</h1>
+  <p>{self.dept_subtitle}</p>
+  <p style="margin-top:8px;font-size:13px;color:#aaa;">Tracking {len(archive)} days of literature</p>
 </div>
 
 {self._scoring_info_html()}
@@ -486,7 +502,7 @@ class WebDigestGenerator:
 {rows if rows else '<p style="color:#999;text-align:center;padding:40px;">No digests yet. Check back tomorrow morning!</p>'}
 
 <footer>
-  NICU Journal Auto-Review System · AI scoring by Claude (Haiku + Sonnet)
+  Journal Auto-Review System · AI scoring by Claude (Haiku + Sonnet)
 </footer>
 </div>
 </div>

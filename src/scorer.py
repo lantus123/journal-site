@@ -25,9 +25,10 @@ logger = logging.getLogger(__name__)
 class ArticleScorer:
     """Score and analyze articles using Claude Haiku/Sonnet."""
 
-    def __init__(self, llm: LLMClient, scoring_config: dict):
+    def __init__(self, llm: LLMClient, scoring_config: dict, dept: str = "newborn"):
         self.llm = llm
         self.config = scoring_config
+        self.dept = dept
         self.weights = self._load_weights()
         self.deep_threshold = (
             scoring_config.get("model_routing", {}).get("deep_analysis_threshold", 4)
@@ -54,7 +55,7 @@ class ArticleScorer:
 
     def _load_manual_chunks(self) -> list[dict]:
         """Load pre-processed manual chunks if available."""
-        chunks_path = Path("data/manual_chunks.json")
+        chunks_path = Path(f"data/{self.dept}/manual_chunks.json")
         if chunks_path.exists():
             with open(chunks_path) as f:
                 chunks = json.load(f)

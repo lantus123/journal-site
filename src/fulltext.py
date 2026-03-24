@@ -35,7 +35,8 @@ ELSEVIER_JOURNALS = {
 class FulltextFetcher:
     """Attempt to retrieve full text via PMC, Elsevier, then Unpaywall."""
 
-    def __init__(self):
+    def __init__(self, dept: str = "newborn"):
+        self.dept = dept
         self.email = os.environ.get("UNPAYWALL_EMAIL", "nicu-bot@example.com")
         self.ncbi_api_key = os.environ.get("NCBI_API_KEY", "")
         self.elsevier_api_key = os.environ.get("ELSEVIER_API_KEY", "")
@@ -136,7 +137,7 @@ class FulltextFetcher:
         pmid = article.get("pmid", "")
         if not pmid:
             return False
-        analysis_path = Path(f"data/pdf_analyses/{pmid}.json")
+        analysis_path = Path(f"data/{self.dept}/pdf_analyses/{pmid}.json")
         if not analysis_path.exists():
             return False
         try:

@@ -8,12 +8,11 @@ Two modes:
 
 Usage:
   python scripts/backfill_digest.py 2026-03-22
-  python scripts/backfill_digest.py 2026-03-22 2026-03-23
-  python scripts/backfill_digest.py 2026-03-22 --full   # full AI re-scoring
+  python scripts/backfill_digest.py 2026-03-22 2026-03-23 --dept cardiology
+  python scripts/backfill_digest.py 2026-03-22 --full --dept newborn
 
 Requires env vars: NCBI_API_KEY (optional but recommended)
 For --full mode: ANTHROPIC_API_KEY
-Optional: DIGEST_PASSWORD, FEEDBACK_WEBHOOK_URL, FEEDBACK_SECRET
 """
 
 import argparse
@@ -38,7 +37,7 @@ logging.basicConfig(
 logger = logging.getLogger("backfill")
 
 
-def backfill_date(target_date: str, kb: list[dict], fetcher: PubMedFetcher, full: bool):
+def backfill_date(target_date: str, kb: list[dict], fetcher: PubMedFetcher, full: bool, dept: str):
     """Backfill a single date's digest."""
     try:
         datetime.strptime(target_date, "%Y-%m-%d")
@@ -56,12 +55,12 @@ def backfill_date(target_date: str, kb: list[dict], fetcher: PubMedFetcher, full
     logger.info(f"Found {len(pmids)} articles for {target_date}: {pmids}")
 
     if full:
-        return _backfill_full(target_date, pmids, fetcher)
+        return _backfill_full(target_date, pmids, fetcher, dept)
     else:
-        return _backfill_from_kb(target_date, target_entries, fetcher)
+        return _backfill_from_kb(target_date, target_entries, fetcher, dept)
 
 
-def _backfill_from_kb(target_date: str, kb_entries: list[dict], fetcher: PubMedFetcher) -> bool:
+def _backfill_from_kb(target_date: str, kb_entries: list[dict], fetcher: PubMedFetcher, dept: str) -> bool:
     """Backfill using existing knowledge_base data + PubMed details."""
     pmids = [e["pmid"] for e in kb_entries]
     kb_lookup = {e["pmid"]: e for e in kb_entries}
@@ -85,7 +84,6 @@ def _backfill_from_kb(target_date: str, kb_entries: list[dict], fetcher: PubMedF
             a["keywords"] = entry.get("keywords", [])
             a["source_journal"] = entry.get("journal", a.get("source_journal", ""))
 
-            # Use full summary/deep_analysis if available in KB
             if entry.get("summary"):
                 a["summary"] = entry["summary"]
             elif entry.get("one_liner"):
@@ -104,10 +102,10 @@ def _backfill_from_kb(target_date: str, kb_entries: list[dict], fetcher: PubMedF
     for a in articles:
         logger.info(f"  [{a.get('total_score', '?')}] {a['title'][:70]}")
 
-    return _generate_digest(target_date, articles)
+    return _generate_digest(target_date, articles, dept)
 
 
-def _backfill_full(target_date: str, pmids: list[str], fetcher: PubMedFetcher) -> bool:
+def _backfill_full(target_date: str, pmids: list[str], fetcher: PubMedFetcher, dept: str) -> bool:
     """Backfill with full AI re-scoring."""
     from src.fulltext import FulltextFetcher
     from src.scorer import ArticleScorer
@@ -121,15 +119,15 @@ def _backfill_full(target_date: str, pmids: list[str], fetcher: PubMedFetcher) -
         return False
 
     # OA check
-    ft_fetcher = FulltextFetcher()
+    ft_fetcher = FulltextFetcher(dept=dept)
     articles = ft_fetcher.enrich_articles(articles)
 
     # AI scoring
-    with open("config/scoring_config.yaml") as f:
+    with open(f"config/{dept}/scoring_config.yaml") as f:
         scoring_config = yaml.safe_load(f)
 
     llm = LLMClient()
-    scorer = ArticleScorer(llm, scoring_config)
+    scorer = ArticleScorer(llm, scoring_config, dept=dept)
     articles = scorer.process_all(articles)
 
     for a in articles:
@@ -138,17 +136,17 @@ def _backfill_full(target_date: str, pmids: list[str], fetcher: PubMedFetcher) -
     usage = llm.get_usage_summary()
     logger.info(f"LLM usage: {json.dumps(usage)}")
 
-    return _generate_digest(target_date, articles)
+    return _generate_digest(target_date, articles, dept)
 
 
-def _generate_digest(target_date: str, articles: list[dict]) -> bool:
+def _generate_digest(target_date: str, articles: list[dict], dept: str) -> bool:
     """Generate web digest HTML from scored articles."""
     digest_articles = [a for a in articles if a.get("total_score", 0) >= 2]
     if not digest_articles:
         logger.warning(f"No articles scored >= 2 for {target_date}, skipping")
         return False
 
-    web = WebDigestGenerator()
+    web = WebDigestGenerator(dept=dept)
     web.generate(digest_articles, [], override_date=target_date)
     logger.info(f"Web digest generated for {target_date}")
     return True
@@ -157,28 +155,32 @@ def _generate_digest(target_date: str, articles: list[dict]) -> bool:
 def main():
     parser = argparse.ArgumentParser(description="Backfill missing web digests")
     parser.add_argument("dates", nargs="+", help="Dates to backfill (YYYY-MM-DD)")
+    parser.add_argument("--dept", default="newborn",
+                        help="Department (newborn, cardiology)")
     parser.add_argument("--full", action="store_true",
                         help="Full AI re-scoring (requires ANTHROPIC_API_KEY)")
     args = parser.parse_args()
 
+    dept = args.dept
+
     # Load knowledge base
-    kb_path = Path("data/knowledge_base.json")
+    kb_path = Path(f"data/{dept}/knowledge_base.json")
     if not kb_path.exists():
-        logger.error("knowledge_base.json not found")
+        logger.error(f"knowledge_base.json not found for {dept}")
         sys.exit(1)
 
     with open(kb_path) as f:
         kb = json.load(f)
 
     # Initialize PubMed fetcher
-    with open("config/journals.yaml") as f:
+    with open(f"config/{dept}/journals.yaml") as f:
         journals_config = yaml.safe_load(f)
     fetcher = PubMedFetcher(journals_config)
 
     # Backfill each date
     success = 0
     for date in args.dates:
-        if backfill_date(date, kb, fetcher, full=args.full):
+        if backfill_date(date, kb, fetcher, full=args.full, dept=dept):
             success += 1
 
     logger.info(f"Backfill complete: {success}/{len(args.dates)} dates processed")

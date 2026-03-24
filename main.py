@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """
-NICU/PICU Journal Auto-Review System
+Journal Auto-Review System (Multi-department)
 Main entry point for daily pipeline.
 
 Usage:
-  python main.py                    # Full daily run
-  python main.py --dry-run          # Fetch + score, don't send email
-  python main.py --test-email       # Send test email with sample data
+  python main.py --dept newborn             # Full daily run for NICU
+  python main.py --dept cardiology          # Full daily run for Cardiology
+  python main.py --dept newborn --dry-run   # Fetch + score, don't send
+  python main.py --test-email               # Send test email with sample data
 """
 
 import argparse
 import json
 import logging
+import os
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -29,19 +31,25 @@ logger = logging.getLogger("main")
 # Taiwan timezone
 TW_TZ = timezone(timedelta(hours=8))
 
+# Department display names
+DEPT_NAMES = {
+    "newborn": "新生兒科 NICU",
+    "cardiology": "小兒心臟科 Pediatric Cardiology",
+}
 
-def load_config() -> tuple[dict, dict]:
-    """Load journal and scoring configs."""
-    with open("config/journals.yaml") as f:
+
+def load_config(dept: str) -> tuple[dict, dict]:
+    """Load journal and scoring configs for a department."""
+    with open(f"config/{dept}/journals.yaml") as f:
         journals_config = yaml.safe_load(f)
-    with open("config/scoring_config.yaml") as f:
+    with open(f"config/{dept}/scoring_config.yaml") as f:
         scoring_config = yaml.safe_load(f)
     return journals_config, scoring_config
 
 
-def load_on_demand_queue() -> list[dict]:
+def load_on_demand_queue(dept: str) -> list[dict]:
     """Load and clear on-demand analysis queue from yesterday."""
-    queue_path = Path("data/on_demand_queue.json")
+    queue_path = Path(f"data/{dept}/on_demand_queue.json")
     if not queue_path.exists():
         return []
     with open(queue_path) as f:
@@ -52,9 +60,9 @@ def load_on_demand_queue() -> list[dict]:
     return queue
 
 
-def save_to_knowledge_base(articles: list[dict]):
+def save_to_knowledge_base(articles: list[dict], dept: str):
     """Append processed articles to knowledge base."""
-    kb_path = Path("data/knowledge_base.json")
+    kb_path = Path(f"data/{dept}/knowledge_base.json")
     kb = []
     if kb_path.exists():
         with open(kb_path) as f:
@@ -86,26 +94,28 @@ def save_to_knowledge_base(articles: list[dict]):
     logger.info(f"Knowledge base updated: {len(kb)} total entries")
 
 
-def run_pipeline(dry_run: bool = False):
-    """Execute the full daily pipeline."""
+def run_pipeline(dept: str, dry_run: bool = False):
+    """Execute the full daily pipeline for a department."""
     from src.fetcher import PubMedFetcher
     from src.fulltext import FulltextFetcher
     from src.scorer import ArticleScorer
     from src.llm import LLMClient
     from src.push_email import EmailPusher
 
+    dept_name = DEPT_NAMES.get(dept, dept)
+
     logger.info("=" * 60)
-    logger.info("NICU/PICU Journal Auto-Review System")
+    logger.info(f"Journal Auto-Review System — {dept_name}")
     logger.info(f"Run time: {datetime.now(TW_TZ).strftime('%Y-%m-%d %H:%M:%S')} (Taiwan)")
     logger.info("=" * 60)
 
     # 1. Load configs
-    journals_config, scoring_config = load_config()
+    journals_config, scoring_config = load_config(dept)
     logger.info(f"Tracking {len(journals_config.get('journals', []))} journals")
 
     # 2. Fetch new articles from PubMed
     logger.info("\n--- Phase 1: Fetching articles ---")
-    fetcher = PubMedFetcher(journals_config)
+    fetcher = PubMedFetcher(journals_config, cache_path=f"data/{dept}/pmid_cache.json")
     articles = fetcher.fetch_new_articles()
 
     if not articles:
@@ -114,20 +124,20 @@ def run_pipeline(dry_run: bool = False):
         # Still regenerate index page (picks up code changes, feedback updates)
         if not dry_run:
             from src.web_digest import WebDigestGenerator
-            web = WebDigestGenerator()
+            web = WebDigestGenerator(dept=dept)
             web.regenerate_index()
             logger.info("Index page regenerated (no new articles)")
         return
 
     # 3. Check OA availability
     logger.info("\n--- Phase 2: Checking OA availability ---")
-    ft_fetcher = FulltextFetcher()
+    ft_fetcher = FulltextFetcher(dept=dept)
     articles = ft_fetcher.enrich_articles(articles)
 
     # 4. Score with Haiku + Deep analyze with Sonnet
     logger.info("\n--- Phase 3: AI Scoring & Analysis ---")
     llm = LLMClient()
-    scorer = ArticleScorer(llm, scoring_config)
+    scorer = ArticleScorer(llm, scoring_config, dept=dept)
     articles = scorer.process_all(articles)
 
     # 5. Report results
@@ -146,21 +156,21 @@ def run_pipeline(dry_run: bool = False):
     logger.info(f"LLM usage: {json.dumps(usage)}")
 
     # 6. Save to knowledge base
-    save_to_knowledge_base(articles)
+    save_to_knowledge_base(articles, dept)
 
     # 7. Save PMID cache
     fetcher.save_cache()
 
-    # 8. Send digest (Email + LINE)
+    # 8. Send digest (Email + LINE + Web)
     if not dry_run:
         logger.info("\n--- Phase 4: Sending digest ---")
-        on_demand = load_on_demand_queue()
+        on_demand = load_on_demand_queue(dept)
         if on_demand:
             logger.info(f"Including {len(on_demand)} on-demand analyses from yesterday")
 
         digest_articles = [a for a in articles if a.get("total_score", 0) >= 2]
 
-        # Email
+        # Email (only for departments with configured recipients)
         emailer = EmailPusher()
         email_ok = emailer.send_digest(digest_articles, on_demand, total_scanned=len(articles))
         if email_ok:
@@ -168,7 +178,7 @@ def run_pipeline(dry_run: bool = False):
         else:
             logger.warning("Email not sent (not configured or failed)")
 
-        # LINE
+        # LINE (only for departments with configured LINE)
         from src.push_line import LinePusher
         line = LinePusher()
         if line.is_configured:
@@ -188,7 +198,7 @@ def run_pipeline(dry_run: bool = False):
 
         # Web digest (GitHub Pages)
         from src.web_digest import WebDigestGenerator
-        web = WebDigestGenerator()
+        web = WebDigestGenerator(dept=dept)
         web.generate(digest_articles, on_demand)
         logger.info("Web digest generated")
     else:
@@ -237,7 +247,9 @@ def test_email():
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="NICU/PICU Journal Auto-Review System")
+    parser = argparse.ArgumentParser(description="Journal Auto-Review System")
+    parser.add_argument("--dept", default="newborn",
+                        help="Department to run (newborn, cardiology)")
     parser.add_argument("--dry-run", action="store_true", help="Run without sending emails")
     parser.add_argument("--test-email", action="store_true", help="Send test email")
     args = parser.parse_args()
@@ -245,4 +257,4 @@ if __name__ == "__main__":
     if args.test_email:
         test_email()
     else:
-        run_pipeline(dry_run=args.dry_run)
+        run_pipeline(dept=args.dept, dry_run=args.dry_run)
