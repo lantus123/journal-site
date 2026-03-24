@@ -30,7 +30,7 @@ class EmailPusher:
         self.feedback_url = os.environ.get("FEEDBACK_WEBHOOK_URL", "")
         self.feedback_secret = os.environ.get("FEEDBACK_SECRET", "")
 
-    def send_digest(self, articles: list[dict], on_demand: list[dict] = None):
+    def send_digest(self, articles: list[dict], on_demand: list[dict] = None, total_scanned: int = 0):
         """Build and send the daily digest email."""
         if not self.api_key:
             logger.error("Resend API key not configured")
@@ -41,6 +41,13 @@ class EmailPusher:
 
         on_demand = on_demand or []
         today = datetime.now(TW_TZ).strftime("%Y/%m/%d")
+
+        # Empty digest: send brief notification instead of full email
+        if not articles and not on_demand:
+            subject = f"NICU Journal Digest - {today} (no articles qualified)"
+            html = self._build_empty_html(today, total_scanned)
+            return self._send_to_all(subject, html)
+
         must_reads = sum(1 for a in articles if a.get("total_score", 0) == 5)
 
         subject = f"NICU Journal Digest - {today}"
@@ -78,6 +85,59 @@ class EmailPusher:
                 success = False
 
         return success
+
+    def _send_to_all(self, subject: str, html: str) -> bool:
+        """Send the same HTML to all recipients."""
+        success = True
+        for recipient in self.recipients:
+            try:
+                resp = requests.post(
+                    RESEND_API_URL,
+                    headers={
+                        "Authorization": f"Bearer {self.api_key}",
+                        "Content-Type": "application/json",
+                    },
+                    json={
+                        "from": self.from_address,
+                        "to": [recipient],
+                        "subject": subject,
+                        "html": html,
+                    },
+                    timeout=30,
+                )
+                if resp.status_code == 200:
+                    logger.info(f"Email sent to {recipient}")
+                else:
+                    logger.error(f"Resend failed for {recipient}: {resp.status_code} {resp.text}")
+                    success = False
+            except Exception as e:
+                logger.error(f"Failed to send email to {recipient}: {e}")
+                success = False
+        return success
+
+    def _build_empty_html(self, today: str, total_scanned: int) -> str:
+        """Build a minimal HTML email for days with no qualifying articles."""
+        scanned_msg = f"已掃描 <b>{total_scanned}</b> 篇文章" if total_scanned else "今日無新文章"
+        return f"""<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head>
+<body style="margin:0;padding:0;background:#f5f5f0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+<div style="max-width:640px;margin:0 auto;padding:20px;">
+<div style="padding:20px 0;border-bottom:2px solid #1B6B93;">
+  <div style="font-size:13px;color:#888;">{today}</div>
+  <div style="font-size:22px;font-weight:600;color:#1B6B93;margin-top:4px;">NICU Journal Digest</div>
+</div>
+<div style="padding:30px 0;text-align:center;color:#666;">
+  <div style="font-size:16px;">{scanned_msg}</div>
+  <div style="font-size:14px;margin-top:8px;color:#999;">無文章達到推薦門檻（score &ge; 2）</div>
+</div>
+<div style="padding:20px 0;margin-top:20px;border-top:1px solid #ddd;font-size:11px;color:#999;text-align:center;">
+  NICU Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  AI scoring by Claude (Haiku + Sonnet)
+</div>
+</div>
+</body>
+</html>"""
 
     def _build_html(self, articles: list[dict], on_demand: list[dict], recipient: str = "") -> str:
         """Build the full HTML digest."""

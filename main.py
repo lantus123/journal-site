@@ -157,7 +157,7 @@ def run_pipeline(dry_run: bool = False):
 
         # Email
         emailer = EmailPusher()
-        email_ok = emailer.send_digest(digest_articles, on_demand)
+        email_ok = emailer.send_digest(digest_articles, on_demand, total_scanned=len(articles))
         if email_ok:
             logger.info("Email digest sent!")
         else:

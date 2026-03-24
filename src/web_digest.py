@@ -68,12 +68,21 @@ class WebDigestGenerator:
                 return yaml.safe_load(f).get("journals", [])
         return []
 
-    def generate(self, articles: list[dict], on_demand: list[dict] = None):
-        """Generate today's digest page and update the index."""
+    def generate(self, articles: list[dict], on_demand: list[dict] = None, override_date: str = None):
+        """Generate today's digest page and update the index.
+
+        Args:
+            override_date: Optional YYYY-MM-DD string to generate for a past date (backfill).
+        """
         on_demand = on_demand or []
-        today = datetime.now(TW_TZ)
-        date_str = today.strftime("%Y-%m-%d")
-        display_date = today.strftime("%Y/%m/%d (%A)")
+        if override_date:
+            dt = datetime.strptime(override_date, "%Y-%m-%d")
+            date_str = override_date
+            display_date = dt.strftime("%Y/%m/%d (%A)")
+        else:
+            today = datetime.now(TW_TZ)
+            date_str = today.strftime("%Y-%m-%d")
+            display_date = today.strftime("%Y/%m/%d (%A)")
 
         digest_articles = [a for a in articles if a.get("total_score", 0) >= 2]
         if not digest_articles and not on_demand:
@@ -107,7 +116,7 @@ class WebDigestGenerator:
 
     def regenerate_index(self):
         """Regenerate index.html from existing archive.json without creating a new daily page."""
-        archive_path = self.output_dir / "archive.json"
+        archive_path = Path("data/archive.json")
         if not archive_path.exists():
             logger.info("No archive.json found, skipping index regeneration")
             return
@@ -344,7 +353,7 @@ class WebDigestGenerator:
 
     def _update_index(self, date_str, display_date, articles, on_demand, token):
         """Update index.html with link to today's digest."""
-        archive_path = self.output_dir / "archive.json"
+        archive_path = Path("data/archive.json")
         archive = []
         if archive_path.exists():
             with open(archive_path) as f:
