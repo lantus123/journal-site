@@ -100,9 +100,11 @@ jobs:
             git checkout -b main
             git remote add origin https://x-access-token:${SITE_TOKEN}@github.com/lantus123/journal-site.git
           fi
+          # Remove old root-level files from pre-multi-dept era
+          rm -f /tmp/site/*.html /tmp/site/archive.json 2>/dev/null || true
           # Copy department directories and root index
           mkdir -p /tmp/site/newborn /tmp/site/cardiology
-          cp -f docs/index.html /tmp/site/ 2>/dev/null || true
+          cp -f docs/index.html /tmp/site/
           cp -f docs/newborn/* /tmp/site/newborn/ 2>/dev/null || true
           cp -f docs/cardiology/* /tmp/site/cardiology/ 2>/dev/null || true
           cd /tmp/site
