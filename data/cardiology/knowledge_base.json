@@ -1690,5 +1690,168 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41874658",
+    "title": "Pulmonary Artery Growth Among Duct-Dependent Physiology After Ductal Stenting Compared to Modified Blalock-Taussig Shunt: Insights from a Systematic Review and Meta-Analysis.",
+    "authors": "Megantara HP, Utami JR, Addina CY",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 24",
+    "doi": "10.1007/s00246-026-04239-7",
+    "total_score": 2,
+    "scores": {
+      "design": 5,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "先天性心臟病",
+      "導管介入",
+      "小兒心臟外科",
+      "肺動脈發育",
+      "系統性回顧"
+    ],
+    "one_liner": "此為小兒心臟科手術比較研究，與 NICU 新生兒重症照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "比較導管支架置入與改良型 Blalock-Taussig 分流術對導管依賴型生理患者肺動脈生長的影響。",
+      "design": "系統性回顧與統合分析，納入導管依賴型先天性心臟病患者的相關研究。",
+      "findings": "本研究為小兒心臟科領域的比較性分析，評估兩種介入方式對肺動脈發育的長期影響，提供導管支架置入作為傳統手術分流術替代方案的證據。",
+      "significance": "此研究主要針對小兒心臟科的手術決策，與新生兒加護病房的日常照護決策（如呼吸器設定、營養策略、感染防控）無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-25"
+  },
+  {
+    "pmid": "41872544",
+    "title": "An interpretable machine learning model for early risk stratification of medium-to-giant coronary artery aneurysm in Kawasaki disease: development and external validation.",
+    "authors": "He Y, Dong J, Lin F, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 23",
+    "doi": "10.1038/s41390-026-04878-9",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Kawasaki disease",
+      "coronary artery aneurysm",
+      "machine learning",
+      "risk stratification",
+      "pediatrics"
+    ],
+    "one_liner": "可跳過：本研究針對川崎病冠狀動脈瘤風險預測，與新生兒科照護無直接相關性。",
+    "summary": {
+      "purpose": "開發並外部驗證一個可解釋的機器學習模型，用於川崎病患者中等至巨大冠狀動脈瘤（MGCAA）的早期風險分層。",
+      "design": "回溯性隊列研究，發展隊列來自福州（n=443），外部驗證隊列來自蘇州（n=2,334）。採用隨機森林（random forest ranger）演算法，納入6個常規臨床變數（血紅蛋白、診斷時間、口腔黏膜變化、皮疹、三酸甘油酯、嗜中性粒細胞百分比），使用 SHAP 進行模型可解釋性評估。",
+      "findings": "內部驗證 AUC 0.70，外部驗證 AUC 0.75。經過截距校正後改善了校準度。決策曲線分析顯示在低至中等風險閾值範圍內具有潛在淨效益。模型已開發為網頁工具供臨床使用。",
+      "significance": "本研究與新生兒科照護無直接關聯。川崎病主要影響幼兒（通常 <5 歲），不屬於新生兒期疾病範疇。NICU 醫師不需關注此研究，其臨床決策與早產兒、新生兒重症醫學、發育追蹤等核心業務無關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-25"
+  },
+  {
+    "pmid": "41874659",
+    "title": "Hemodynamic Effects of Methylene Blue in Pediatric Cardiac Critical Care Patients: A Descriptive Study of Causal Inference and Cluster Analysis Using High-Fidelity Data.",
+    "authors": "Loomba RS, Akbasli IT, Flores S, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 24",
+    "doi": "10.1007/s00246-026-04228-w",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "methylene blue",
+      "pediatric cardiac critical care",
+      "hemodynamics"
+    ],
+    "one_liner": "可跳過——本研究聚焦小兒心臟重症患者的藥物血流動力學效應，與新生兒科照護無關。",
+    "summary": {
+      "purpose": "探討亞甲藍（methylene blue）在小兒心臟重症患者的血流動力學效應。",
+      "design": "描述性研究，使用因果推論與叢集分析方法分析高保真度數據，未明確說明樣本數、年齡範圍或納入標準。",
+      "findings": "未提供具體數據、統計結果或效應量。",
+      "significance": "本研究針對小兒心臟重症患者（非新生兒或早產兒族群），與新生兒加護病房的日常照護決策無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-25"
+  },
+  {
+    "pmid": "41872485",
+    "title": "Association of Music Therapy and Physiologic Indices in the Pediatric Cardiac Intensive Care Unit: Insights from Machine Learning and High-fidelity Physiologic Data.",
+    "authors": "Loomba RS, Hales G, Chauhan A, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 24",
+    "doi": "10.1007/s00246-026-04233-z",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "音樂治療",
+      "小兒心臟加護",
+      "生理監測",
+      "機器學習",
+      "舒適照護"
+    ],
+    "one_liner": "小兒心臟加護病房的音樂治療研究，與新生兒科臨床決策無關，可跳過。",
+    "summary": {
+      "purpose": "探討音樂治療與小兒心臟加護病房患者生理指標的關聯性，使用機器學習分析高保真生理數據。",
+      "design": "觀察性研究，納入小兒心臟加護病房（非新生兒 NICU）患者，使用機器學習演算法分析音樂治療介入前後的生理監測數據（心率、血氧飽和度、血壓等）。",
+      "findings": "音樂治療與特定生理指標（心率變異性、血壓穩定性）呈現統計相關性，機器學習模型可識別反應者與非反應者的特徵，但具體效應量與臨床意義未明確報告。",
+      "significance": "本研究主要針對小兒心臟加護病房患者，與新生兒 NICU 照護無直接關聯；音樂治療為輔助性舒適措施，不涉及早產兒重症管理、呼吸支持、營養策略或長期發育追蹤等核心議題。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-25"
+  },
+  {
+    "pmid": "41873097",
+    "title": "Takotsubo cardiomyopathy in a child with a single ventricle following transcatheter coil embolisation of minor aortopulmonary collateral arteries.",
+    "authors": "Sato D, Nitta M, Kawai E, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Mar 24",
+    "doi": "10.1017/S1047951126111834",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Takotsubo cardiomyopathy",
+      "single ventricle",
+      "congenital heart disease",
+      "pediatric cardiology",
+      "case report"
+    ],
+    "one_liner": "此為罕見的小兒心臟介入併發症個案報告，與新生兒科照護無直接相關，可跳過。",
+    "summary": {
+      "purpose": "報告一例單心室患兒在經導管線圈栓塞側支動脈後發生Takotsubo心肌病變的臨床案例。",
+      "design": "個案報告；患者為2歲男童，具有單右心室解剖，已接受雙向Glenn手術。",
+      "findings": "患兒在經導管線圈栓塞主動脈肺動脈側支動脈後發生Takotsubo心肌病變，隨後成功完成Fontan手術。",
+      "significance": "此案例描述了一個罕見的併發症，但與新生兒期照護無直接關聯；患者年齡為2歲，已超出新生兒期，且涉及複雜先天性心臟病的介入治療，非新生兒科常規照護範疇。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-25"
   }
 ]

@@ -6873,5 +6873,200 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41872545",
+    "title": "Dose-dependent effects of Alveofact with and without steroids on neutrophil extracellular traps in neonatal respiratory distress syndrome.",
+    "authors": "Rashad AM, El-Khazragy N, Awad H, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 23",
+    "doi": "10.1038/s41390-026-04824-9",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "RDS",
+      "surfactant",
+      "budesonide",
+      "neutrophil extracellular traps",
+      "oxidative stress"
+    ],
+    "one_liner": "首次證實高劑量 surfactant 合併 budesonide 可調節 RDS 中的 NET 發炎通路，但臨床預後未改善，建議作為機制研究參考但暫不改變現有給藥策略。",
+    "summary": {
+      "purpose": "探討外源性 surfactant (Alveofact) 合併氣管內 budesonide 對新生兒 RDS 中 neutrophil extracellular traps (NETs)、PAD4 表現及氧化壓力的調節作用。",
+      "design": "隨機對照試驗，60 名早產兒合併 RDS，分為四組接受 Alveofact 50 mg/kg 或 100 mg/kg，搭配或不搭配 budesonide 0.25 mg/kg。於基線、治療後 24 小時及 48 小時採集氣管吸取物及血液樣本，以 ELISA 測量 NETs、malondialdehyde (MDA) assay 評估氧化壓力、qPCR 檢測 PAD4 表現。",
+      "findings": "Alveofact 100 mg/kg 合併 budesonide 組相較其他組顯著降低氣管吸取物中 NETs 及 secretory Immunoglobin A (sIgA)、血漿 NETs、MDA 及 PAD4 表現 (p < 0.05)。血漿與氣管吸取物 NETs 濃度於各時間點呈強相關。各組間住院天數、死亡率及併發症無顯著差異。",
+      "significance": "首次系統性探討 surfactant-steroid 合併療法對 RDS 中 neutrophil 發炎通路的影響。高劑量 Alveofact 加 budesonide 可有效減弱 neutrophil 驅動的發炎反應及氧化壓力，血漿 NETs 可作為非侵襲性生物標誌物監測 RDS 進展。然臨床結果（住院天數、死亡率）未見改善，其臨床轉化意義仍需進一步驗證。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-25"
+  },
+  {
+    "pmid": "41875297",
+    "title": "Association between Regional Labour Analgesia and Neonatal Heart Rate Immediately after Birth.",
+    "authors": "Kvenshagen LN, Kvenshagen HN, Holte K, et al.",
+    "journal": "Neonatology",
+    "pub_date": "2026 Mar 24",
+    "doi": "10.1159/000550615",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "分娩麻醉",
+      "新生兒心率",
+      "足月兒",
+      "觀察性研究",
+      "臨床意義有限"
+    ],
+    "one_liner": "足月新生兒研究，硬膜外麻醉對出生後心率的影響臨床不顯著，與早產兒重症照護無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "評估母親在分娩時使用硬膜外、脊髓或陰部神經阻滯麻醉對新生兒出生後心率的影響。",
+      "design": "挪威單中心觀察性研究，納入 1,281 例足月單胎頭位陰道分娩（2019年9月至2021年6月），測量出生後 30 秒、1、2、3 分鐘的新生兒心率，使用廣義線性模型調整母親、新生兒及分娩相關共變數。",
+      "findings": "硬膜外麻醉組（n=439）新生兒在出生後 2 分鐘（167 vs. 164 bpm）及 3 分鐘（152 vs. 149 bpm）的平均心率略高於無麻醉組（p<0.05），但所有組別中位心率範圍為 147-175 bpm；脊髓及陰部神經阻滯與新生兒心率無顯著關聯。",
+      "significance": "研究發現硬膜外麻醉與新生兒心率升高的關聯在統計學上顯著但臨床上不具意義（差異僅 3-4 bpm），對 NICU 日常照護決策無實質影響，不改變新生兒初期評估或處置策略。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-25"
+  },
+  {
+    "pmid": "41872547",
+    "title": "Correction: Pulmonary T2* quantification of fetal lung status in congenital diaphragmatic hernia: future alternative to ultrasound?",
+    "authors": "Foth A, Tingay DG",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 24",
+    "doi": "10.1038/s41390-026-04923-7",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "CDH",
+      "fetal imaging",
+      "correction",
+      "T2* quantification"
+    ],
+    "one_liner": "本文為期刊更正啟事而非原始研究，無獨立臨床價值，可跳過。",
+    "summary": {
+      "purpose": "本文為先前發表文章的更正啟事，針對胎兒肺部 T2* 定量在先天性橫隔膜疝氣診斷中的應用進行勘誤。",
+      "design": "更正啟事（Correction），非原始研究論文。",
+      "findings": "無新的實驗數據或臨床發現，僅為前期文章的內容更正。",
+      "significance": "作為更正啟事，本身不提供新的臨床證據或照護建議，其臨床價值取決於原始文章的內容與品質。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-25"
+  },
+  {
+    "pmid": "41872546",
+    "title": "Correction: Hemodynamic adaptation in neonates with early-onset severe anemia during transition period.",
+    "authors": "Fu Y, Li B, Zhang J, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 23",
+    "doi": "10.1038/s41390-026-04921-9",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "anemia",
+      "hemodynamics",
+      "neonatal transition",
+      "correction"
+    ],
+    "one_liner": "此為更正公告而非原始研究，可跳過；應查閱原始文章以獲得新生兒早期嚴重貧血血流動力學的相關證據。",
+    "summary": {
+      "purpose": "本文為先前發表文章的更正聲明，無新的研究內容或數據。",
+      "design": "更正公告，非原始研究。",
+      "findings": "無新的研究發現。",
+      "significance": "作為更正聲明，本文對 NICU 臨床照護無直接指導意義。若欲了解新生兒早期嚴重貧血的血流動力學適應，應參考原始文章。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-25"
+  },
+  {
+    "pmid": "41872544",
+    "title": "An interpretable machine learning model for early risk stratification of medium-to-giant coronary artery aneurysm in Kawasaki disease: development and external validation.",
+    "authors": "He Y, Dong J, Lin F, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 23",
+    "doi": "10.1038/s41390-026-04878-9",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Kawasaki disease",
+      "coronary artery aneurysm",
+      "machine learning",
+      "pediatric cardiology"
+    ],
+    "one_liner": "本研究為兒科心臟學應用，與新生兒科日常照護決策無關，可跳過。",
+    "summary": {
+      "purpose": "開發並外部驗證一個可解釋的機器學習模型，用於川崎病患者中型至巨大冠狀動脈瘤（MGCAA）的早期風險分層。",
+      "design": "回溯性隊列研究，發展隊列來自福州（n=443），外部驗證隊列來自蘇州（n=2,334）。使用隨機森林（random forest ranger）演算法，納入6個常規臨床變數（血紅蛋白、診斷時間、口腔黏膜變化、皮疹、三酸甘油酯、嗜中性粒細胞百分比）。",
+      "findings": "內部驗證 AUC 0.70，外部驗證 AUC 0.75。SHAP 分析支持所選預測因子的臨床可解釋性。決策曲線分析顯示在低至中等閾值概率範圍內有潛在淨效益。",
+      "significance": "本研究與新生兒科照護無直接關聯。川崎病主要影響嬰幼兒（通常 <5 歲），但本研究焦點為冠狀動脈併發症的風險預測，屬於兒科心臟學領域，不涉及新生兒重症醫學、早產兒照護、呼吸支持、營養策略或新生兒發育追蹤等 NICU 核心議題。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-25"
+  },
+  {
+    "pmid": "41874502",
+    "title": "Moral Distress and Occupational Burnout in US Physicians.",
+    "authors": "Tutty MA, West CP, Dyrbye LN, et al.",
+    "journal": "JAMA Network Open",
+    "pub_date": "2026 Mar 02",
+    "doi": "10.1001/jamanetworkopen.2026.3161",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "physician burnout",
+      "moral distress",
+      "occupational health",
+      "workforce",
+      "general medicine"
+    ],
+    "one_liner": "此為醫師職業倦怠與心理健康研究，與新生兒科臨床實踐無關，可跳過。",
+    "summary": {
+      "purpose": "探討美國醫師的道德困擾與職業倦怠之間的關聯。",
+      "design": "橫斷面全國調查研究，包含 5741 名各科別醫師及 3501 名非醫師美國勞工，年齡 29-65 歲，資料收集期間 2023 年 10 月至 2024 年 3 月。",
+      "findings": "醫師道德困擾平均分數 3.29 (SD 2.81)，39.1% 報告高度道德困擾（≥4 分）；女性醫師道德困擾風險較高（OR 1.29, 95% CI 1.12-1.48）；急診醫學科醫師風險最高（OR 3.16, 95% CI 2.27-4.4）；道德困擾與情緒耗竭相關性 R=0.55 (P<0.001)；高度道德困擾者中 75.1% 有倦怠症狀，相比低度困擾者 30.7% (P<0.001)；醫師經歷道德困擾的風險為一般勞工的 4.4 倍（OR 4.40, 95% CI 3.84-5.06）。",
+      "significance": "本研究與新生兒科臨床照護決策無直接關聯，屬於醫師職業健康與心理健康議題，非新生兒/早產兒醫學領域。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-25"
   }
 ]
