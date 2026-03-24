@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NICU Journal Digest - 2026-03-22</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.8;font-size:16px}
+.container{max-width:720px;margin:0 auto;padding:20px}
+header{padding:20px 0;border-bottom:2px solid #1B6B93;margin-bottom:24px}
+.back{font-size:15px;color:#1B6B93;text-decoration:none}
+.back:hover{text-decoration:underline}
+.date{font-size:15px;color:#888;margin-top:8px}
+h1{font-size:26px;font-weight:700;color:#1B6B93;margin-top:4px}
+.stats{font-size:15px;color:#666;margin-top:6px}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:18px}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600}
+.tag-journal{font-size:13px;color:#999}
+.card-title{font-size:18px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px}
+.card-authors{font-size:14px;color:#999;margin-bottom:14px}
+.section{padding:14px 0;border-top:1px solid #f0f0ec}
+.section p{font-size:15px;color:#555;margin-bottom:8px}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:10px}
+.hl{border-left:3px solid;padding:10px 14px;margin:8px 0;font-size:15px;line-height:1.7;border-radius:0}
+.hl-green{border-color:#639922;background:#EAF3DE;color:#27500A}
+.hl-amber{border-color:#BA7517;background:#FAEEDA;color:#633806}
+.hl-red{border-color:#E24B4A;background:#FCEBEB;color:#791F1F}
+.hl-blue{border-color:#378ADD;background:#E6F1FB;color:#0C447C}
+.related{font-size:15px;color:#555;padding:8px 0;border-bottom:1px solid #f5f5f0}
+.related:last-child{border-bottom:none}
+.card-links{padding-top:14px;display:flex;gap:16px}
+.card-links a{font-size:14px;color:#1B6B93;text-decoration:none}
+.card-links a:hover{text-decoration:underline}
+footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;color:#999;text-align:center}
+.vote-count{font-size:13px;color:#1B6B93;font-weight:600}
+@media(max-width:600px){.container{padding:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">NICU Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">或從 LINE / Email 點擊連結直接閱讀</p>
+</div>
+</div>
+
+<!-- Digest content (hidden until auth) -->
+<div id="digest-content" style="display:none;">
+<div class="container">
+<header>
+  <a href="index.html" class="back">← Back to archive</a>
+  <div class="date">2026/03/22 (Sunday)</div>
+  <h1>NICU Journal Digest</h1>
+  <div class="stats">3 articles</div>
+</header>
+
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 4-5: DEEP ANALYSIS</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal"></span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Association between NNNS-II profiles and pharmacological treatment in infants with prenatal opioid exposure.</h2>
+  <div class="card-authors">Donahue M, Heil MR, Camerota M, et al. · 2026 Mar 20</div>
+  <div class="section"><b>30 秒重點：</b>這項前瞻性研究納入217名產前鴉片類藥物暴露新生兒，發現NNNS-II神經行為評估可識別出3種特徵：典型(67%)、過度喚醒(19%)、低度喚醒(15%)。非典型神經行為特徵的嬰兒需要藥物治療的風險增加3.45倍(95% CI 1.21-9.81)，提供了比傳統Finnegan評分更早期的預測工具，可能改善NOWS管理策略。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>研究同時使用三種不同的戒斷評估工具(FNAST、NWI、ESC)，但abstract未說明如何統一判定治療需求標準，這可能造成selection bias</b> Abstract中提及使用三種工具但未說明整合方式。不同評估工具的敏感度和特異度差異很大，ESC較寬鬆而Finnegan較嚴格，這會直接影響需要治療的比例和OR值的可信度</p><p><b>Abstract未提及研究對象的GA分布、是否包含早產兒，以及NNNS-II評估的時間點</b> Abstract缺乏基本人口學資料。早產兒的神經行為發展與足月兒不同，GA<37週的嬰兒可能無法準確完成NNNS-II評估，影響結果的臨床適用性</p><p><b>67%典型組別中仍有部分需要藥物治療，但abstract未提供具體比例和這些嬰兒的特徵</b> 僅提及OR值但未說明各組治療比例。如果典型組也有相當比例需要治療，則NNNS-II的negative predictive value可能不夠高，限制其作為篩檢工具的價值</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>使用Latent Profile Analysis進行客觀分類，避免主觀切點設定</div><div class="hl hl-green"><b>Strong：</b>前瞻性設計減少recall bias</div><div class="hl hl-green"><b>Strong：</b>樣本數217例對於NOWS研究算是中等規模</div><div class="hl hl-amber"><b>Note：</b>NNNS-II評估需要專業訓練，inter-rater reliability未在abstract中提及</div><div class="hl hl-amber"><b>Note：</b>使用三種不同戒斷評估工具可能反映real-world practice但增加heterogeneity</div><div class="hl hl-amber"><b>Note：</b>未提及是否為多中心研究，可能限制generalizability</div><div class="hl hl-red"><b>Weak：</b>缺乏blinding設計，NNNS-II評估者可能知道嬰兒的暴露史</div><div class="hl hl-red"><b>Weak：</b>未控制母親的methadone vs buprenorphine治療差異</div><div class="hl hl-red"><b>Weak：</b>缺乏長期neurodevelopmental outcome追蹤</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Grossman 2018, Pediatrics</b> — 該研究建立ESC protocol顯著縮短住院天數，本研究若能證實NNNS-II預測價值，可與ESC結合使用</div><div class="related"><b>Jones 2019, NEJM</b> — 大型RCT比較morphine vs methadone治療NOWS，本研究未區分不同藥物治療對NNNS-II profile的影響</div><p><b>指引現況：</b>AAP 2020 NOWS guideline建議使用function-based assessment如ESC，但未納入neurobehavioral assessment。台灣新生兒科醫學會目前主要參考Finnegan scoring</p><p><b>填補的 evidence gap：</b>首次將標準化神經行為評估工具應用於NOWS治療決策，提供比症狀評分更客觀的生物標記</p><p><b>進行中的相關試驗：</b>NIH HEAL Initiative正進行多項NOWS相關研究，包括比較不同非藥物介入措施的效果</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>目前多數NICU使用modified Finnegan scoring每4-8小時評估，分數>8連續2次或>12一次考慮藥物治療，首選morphine 0.1-0.2 mg/kg q4h或methadone 0.1 mg/kg q12h<br><b>建議調整：</b>在現有protocol基礎上，於入院後24-48小時內加做NNNS-II評估，非典型profile(hyper/hypo-aroused)的嬰兒提高監測頻率至q2-3h，並考慮提早介入非藥物措施如skin-to-skin、環境調控<br><b>導入準備：</b>NNNS-II評估訓練課程，至少需要8小時認證, 建立標準化評估時間點(建議出生後48-72小時), 修訂NOWS care pathway納入neurobehavioral assessment<br><b>等待的證據：</b>['需要validation study確認NNNS-II在台灣族群的cut-off值', '缺乏18-24個月neurodevelopmental outcome資料', '未知與母乳哺育、rooming-in等非藥物介入的交互作用']</div></div>
+  <div id="analysis-result-41862592"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41862592/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41372-026-02628-7" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41862592" data-rating="must_read" onclick="vote('41862592','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41862592-must_read" style="display:none;">0</span></button> <button data-pmid="41862592" data-rating="useful" onclick="vote('41862592','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41862592-useful" style="display:none;">0</span></button> <button data-pmid="41862592" data-rating="so_so" onclick="vote('41862592','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41862592-so_so" style="display:none;">0</span></button> <button data-pmid="41862592" data-rating="skip" onclick="vote('41862592','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41862592-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41862592" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41862592" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41862592','Association between NNNS-II profiles and pharmacological treatment in infants with prenatal opioid exposure.',this)">
+  <button id="upload-btn-41862592" onclick="document.getElementById('pdf-41862592').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41862592" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 2-3: QUICK SUMMARY</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal"></span></div>
+  <h2 class="card-title">AI, machine learning, and adjudication of hemodynamically significant PDA in extremely premature infants.</h2>
+  <div class="card-authors">Rios DR, McNamara PJ · 2026 Mar 20</div>
+  <div class="section"><p><b>研究目的：</b>探討人工智慧與機器學習在極早產兒血流動力學顯著性動脈導管未閉（hemodynamically significant PDA）診斷與判定中的應用潛力。</p><p><b>研究設計：</b>文獻回顧與概念性分析，針對極早產兒（ELBW, <1000g）PDA 診斷的現有挑戰與 AI/機器學習的可能解決方案進行討論。</p><p><b>主要發現：</b>傳統 PDA 診斷依賴超音波評估與臨床判斷，存在觀察者間變異性大、診斷標準不一致等問題；AI/機器學習可透過整合多模態數據（超音波影像、生理參數、生化標誌物）改善診斷準確性與一致性，但目前缺乏大規模臨床驗證。</p><p><b>臨床意義：</b>PDA 診斷的客觀化與標準化對 NICU 治療決策至關重要，AI 輔助診斷可減少不必要的藥物治療（ibuprofen/indomethacin）或手術介入，但需要多中心前瞻性研究驗證其臨床效益與成本效益。</p></div>
+  <div id="analysis-result-41862666"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41862666/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41390-026-04828-5" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41862666" data-rating="must_read" onclick="vote('41862666','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41862666-must_read" style="display:none;">0</span></button> <button data-pmid="41862666" data-rating="useful" onclick="vote('41862666','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41862666-useful" style="display:none;">0</span></button> <button data-pmid="41862666" data-rating="so_so" onclick="vote('41862666','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41862666-so_so" style="display:none;">0</span></button> <button data-pmid="41862666" data-rating="skip" onclick="vote('41862666','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41862666-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41862666" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41862666" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41862666','AI, machine learning, and adjudication of hemodynamically significant PDA in extremely premature infants.',this)">
+  <button id="upload-btn-41862666" onclick="document.getElementById('pdf-41862666').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41862666" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal"></span></div>
+  <h2 class="card-title">Catheter and echocardiographic-focused management of primary pulmonary vein stenosis in premature infants: a single center 5-year experience.</h2>
+  <div class="card-authors">Nassetta K, O'Halloran CP, Hoyt E, et al. · 2026 Mar 20</div>
+  <div class="section"><p><b>研究目的：</b>描述極早產兒原發性肺靜脈狹窄的經導管介入治療結果，並評估以心臟超音波為主要監測方法的積極管理策略的有效性。</p><p><b>研究設計：</b>單中心回溯性病例系列研究，納入 15 名極早產兒（中位 GA 24 週），於 2018-2023 年間接受肺靜脈介入治療。主要結果為患者存活率，次要結果為肺靜脈保留率。</p><p><b>主要發現：</b>診斷後 1 年和 2 年的患者存活率分別為 100% 和 89%；肺靜脈保留率分別為 88% 和 83%。患者在每次心導管檢查間隔期間接受中位 4 次心臟超音波檢查，平均每 1.5 年進行 1 次 CT 掃描。</p><p><b>臨床意義：</b>本研究為極小樣本的單中心經驗報告，針對罕見的新生兒肺靜脈狹窄提供經導管介入的初步結果。然而，樣本數極少（n=15）、無對照組、無長期神經發育追蹤資料，難以改變臨床實踐。對於大多數 NICU 而言，肺靜脈狹窄為罕見疾病，本研究主要適用於具有小兒心臟介入能力的大型醫學中心參考。</p></div>
+  <div id="analysis-result-41862593"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41862593/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41372-026-02611-2" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41862593" data-rating="must_read" onclick="vote('41862593','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41862593-must_read" style="display:none;">0</span></button> <button data-pmid="41862593" data-rating="useful" onclick="vote('41862593','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41862593-useful" style="display:none;">0</span></button> <button data-pmid="41862593" data-rating="so_so" onclick="vote('41862593','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41862593-so_so" style="display:none;">0</span></button> <button data-pmid="41862593" data-rating="skip" onclick="vote('41862593','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41862593-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41862593" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41862593" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41862593','Catheter and echocardiographic-focused management of primary pulmonary vein stenosis in premature infants: a single center 5-year experience.',this)">
+  <button id="upload-btn-41862593" onclick="document.getElementById('pdf-41862593').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41862593" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<footer>
+  NICU Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  AI scoring by Claude (Haiku + Sonnet)
+</footer>
+</div>
+</div>
+
+<script>
+(function() {
+  var TOKEN_HASH = "af480e8a33ae9c70a0db3e2657dc7da2723ed4f5c5fae125e8d550be48de5e3e";
+  var PW_HASH = "b6cf8ade465cb0435fd6e1a86d7f8a5b3f67639655691545ced5912ce1cfc08f";
+  var content = document.getElementById('digest-content');
+  var gate = document.getElementById('auth-gate');
+
+  function sha256(str) {
+    var encoder = new TextEncoder();
+    return crypto.subtle.digest('SHA-256', encoder.encode(str)).then(function(buf) {
+      return Array.from(new Uint8Array(buf)).map(function(b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    });
+  }
+
+  function unlock() {
+    gate.style.display = 'none';
+    content.style.display = 'block';
+  }
+
+  function checkAccess() {
+    // 1. Check URL token
+    var params = new URLSearchParams(window.location.search);
+    var t = params.get('t');
+    if (t && TOKEN_HASH) {
+      sha256(t).then(function(h) {
+        if (h === TOKEN_HASH) {
+          localStorage.setItem('digest_token', t);
+          unlock();
+        } else {
+          checkPassword();
+        }
+      });
+      return;
+    }
+
+    // 2. Check stored password
+    checkPassword();
+  }
+
+  function checkPassword() {
+    if (!PW_HASH) { unlock(); return; }
+    var saved = localStorage.getItem('digest_pw');
+    if (saved) {
+      sha256(saved).then(function(h) {
+        if (h === PW_HASH) { unlock(); }
+        else { gate.style.display = 'flex'; }
+      });
+    } else {
+      gate.style.display = 'flex';
+    }
+  }
+
+  window.submitPassword = function() {
+    var input = document.getElementById('pw-input').value;
+    sha256(input).then(function(h) {
+      if (h === PW_HASH) {
+        localStorage.setItem('digest_pw', input);
+        unlock();
+      } else {
+        document.getElementById('pw-error').style.display = 'block';
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', checkAccess);
+})();
+</script>
+<script>
+(function() {
+  var FEEDBACK_URL = "https://script.google.com/macros/s/AKfycbyC1qAlug8iyrEDkdtg4SX868JVHUM4v3xlpK9a6fhxHsrLWmznt5TUDY9n7AVsJo85/exec";
+  var SECRET = "nicu2026review";
+  var voted = JSON.parse(localStorage.getItem('digest_voted') || '{}'  );
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore previous votes
+    Object.keys(voted).forEach(function(pmid) {
+      var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+      btns.forEach(function(btn) {
+        btn.style.opacity = '0.4';
+        btn.style.pointerEvents = 'none';
+      });
+      var label = document.getElementById('voted-' + pmid);
+      if (label) {
+        var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+        label.textContent = "Voted: " + (labels[voted[pmid]] || voted[pmid]) + " ✓";
+        label.style.display = 'block';
+      }
+    });
+  });
+
+  window.vote = function(pmid, rating, el) {
+    if (voted[pmid]) return;
+
+    // Get uid from token or anonymous
+    var uid = 'web_anon';
+    var t = new URLSearchParams(window.location.search).get('t');
+    if (t) uid = 'web_' + t.substring(0, 8);
+
+    // JSONP call
+    var script = document.createElement('script');
+    var cb = 'fb_' + Date.now();
+    window[cb] = function(resp) {
+      if (resp && resp.status === 'ok') {
+        voted[pmid] = rating;
+        localStorage.setItem('digest_voted', JSON.stringify(voted));
+
+        var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+        btns.forEach(function(btn) {
+          btn.style.opacity = '0.4';
+          btn.style.pointerEvents = 'none';
+        });
+        el.style.opacity = '1';
+        el.style.background = '#1B6B93';
+        el.style.color = '#fff';
+
+        // Update vote count
+        var cntEl = document.getElementById('cnt-' + pmid + '-' + rating);
+        if (cntEl) {
+          var n = parseInt(cntEl.textContent || '0') + 1;
+          cntEl.textContent = n;
+          cntEl.style.display = '';
+          cntEl.style.color = '#fff';
+        }
+
+        var label = document.getElementById('voted-' + pmid);
+        if (label) {
+          var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+          label.textContent = "Voted: " + (labels[rating] || rating) + " ✓";
+          label.style.display = 'block';
+        }
+      }
+      delete window[cb];
+      script.remove();
+    };
+    script.src = FEEDBACK_URL + '?action=feedback&pmid=' + pmid + '&rating=' + rating +
+      '&uid=' + uid + '&source=web&secret=' + SECRET + '&callback=' + cb;
+    document.body.appendChild(script);
+  };
+})();
+</script>
+<script>
+(function() {
+  var WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyC1qAlug8iyrEDkdtg4SX868JVHUM4v3xlpK9a6fhxHsrLWmznt5TUDY9n7AVsJo85/exec";
+  var SECRET = "nicu2026review";
+  var uploaded = JSON.parse(localStorage.getItem('digest_uploaded') || '{}');
+
+  // Restore uploaded state on load
+  window.addEventListener('DOMContentLoaded', function() {
+    Object.keys(uploaded).forEach(function(pmid) {
+      var btn = document.getElementById('upload-btn-' + pmid);
+      if (btn) {
+        btn.textContent = '✓ 已上傳，已分析';
+        btn.disabled = true;
+        btn.style.opacity = '0.5';
+        btn.style.cursor = 'default';
+      }
+    });
+  });
+
+  window.handlePdfSelect = function(pmid, title, input) {
+    var file = input.files[0];
+    if (!file) return;
+    if (file.size > 10 * 1024 * 1024) {
+      alert('PDF 檔案不能超過 10MB');
+      return;
+    }
+
+    var btn = document.getElementById('upload-btn-' + pmid);
+    var status = document.getElementById('upload-status-' + pmid);
+    btn.textContent = '⏳ 上傳分析中...';
+    btn.disabled = true;
+    status.textContent = '正在提取全文並進行 AI 深度分析，約需 1 分鐘...';
+    status.style.display = 'inline';
+    status.style.color = '#1B6B93';
+
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var base64 = e.target.result.split(',')[1];
+
+      fetch(WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'upload_pdf',
+          pmid: pmid,
+          title: title,
+          pdf_base64: base64,
+          secret: SECRET
+        })
+      })
+      .then(function(r) { return r.json(); })
+      .then(function(resp) {
+        if (resp.status === 'ok' && resp.analysis) {
+          btn.textContent = '✓ 全文分析完成';
+          btn.style.color = '#085041';
+          btn.style.borderColor = '#085041';
+          status.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
+          status.style.color = '#085041';
+
+          uploaded[pmid] = true;
+          localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
+
+          // Render analysis result inline
+          renderAnalysis(pmid, resp.analysis);
+        } else {
+          btn.textContent = '❌ 分析失敗';
+          btn.disabled = false;
+          status.textContent = resp.message || '請稍後再試';
+          status.style.color = '#E24B4A';
+        }
+      })
+      .catch(function(err) {
+        btn.textContent = '❌ 上傳失敗';
+        btn.disabled = false;
+        status.textContent = '網路錯誤，請稍後再試';
+        status.style.color = '#E24B4A';
+      });
+    };
+    reader.readAsDataURL(file);
+  };
+
+  window.renderAnalysis = function(pmid, data) {
+    var container = document.getElementById('analysis-result-' + pmid);
+    if (!container) return;
+
+    var a = data.deep_analysis || data;
+    var html = '';
+
+    if (a.thirty_second_summary) {
+      html += '<div class="section"><b>30 秒重點：</b>' + a.thirty_second_summary + '</div>';
+    }
+
+    var hidden = a.hidden_findings || [];
+    if (hidden.length > 0) {
+      html += '<div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div>';
+      for (var i = 0; i < hidden.length; i++) {
+        html += '<p><b>' + (hidden[i].finding || '') + '</b> ' + (hidden[i].source || '') + '。' + (hidden[i].implication || '') + '</p>';
+      }
+      html += '</div>';
+    }
+
+    var meth = a.methodology_audit || {};
+    var methHtml = '';
+    (meth.strengths || []).forEach(function(s) { methHtml += '<div class="hl hl-green"><b>Strong：</b>' + s + '</div>'; });
+    (meth.notes || []).forEach(function(n) { methHtml += '<div class="hl hl-amber"><b>Note：</b>' + n + '</div>'; });
+    (meth.weaknesses || []).forEach(function(w) { methHtml += '<div class="hl hl-red"><b>Weak：</b>' + w + '</div>'; });
+    if (methHtml) {
+      html += '<div class="section"><div class="section-label" style="color:#633806">方法學評估</div>' + methHtml + '</div>';
+    }
+
+    var impact = a.protocol_impact || {};
+    if (impact.proposed_change) {
+      var impactHtml = '<div class="hl hl-blue">';
+      if (impact.current_practice) impactHtml += '<b>目前做法：</b>' + impact.current_practice + '<br>';
+      if (impact.proposed_change) impactHtml += '<b>建議調整：</b>' + impact.proposed_change + '<br>';
+      if (impact.missing_evidence) impactHtml += '<b>等待的證據：</b>' + impact.missing_evidence;
+      impactHtml += '</div>';
+      html += '<div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div>' + impactHtml + '</div>';
+    }
+
+    container.innerHTML = html;
+  };
+})();
+</script>
+</body>
+</html>
