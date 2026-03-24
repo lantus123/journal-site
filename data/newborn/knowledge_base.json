@@ -6840,5 +6840,38 @@
     "one_liner": "本研究聚焦 PICU 兒童患者的手動通氣技術品質，與新生兒科日常照護（早產兒呼吸支持、BPD 預防、RDS 管理）無直接關聯，新生兒科醫師可跳過。",
     "processed_date": "2026-03-24",
     "has_deep_analysis": false
+  },
+  {
+    "pmid": "41871826",
+    "title": "Use of Emergency Medical Services for Children With Medical Complexity.",
+    "authors": "Ramgopal S, Foster C, Macy ML, et al.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 24",
+    "doi": "10.1542/peds.2025-074802",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "EMS",
+      "medical complexity",
+      "prehospital care",
+      "pediatric transport",
+      "system-level intervention"
+    ],
+    "one_liner": "本研究為院前急救系統研究，與 NICU 日常照護決策無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "檢視兒童醫學複雜症（CMC）患者的緊急醫療服務（EMS）使用模式、院前照護特性及臨床結果，包括心跳停止和死亡率。",
+      "design": "多中心、多 EMS 機構的回溯性隊列研究，納入 68,890 例兒童運送案例，其中 13,732 例（19.9%）為 CMC 患者。根據診斷和程序代碼識別 CMC，分析院前特性與院前心跳停止及院內死亡的相關因素。",
+      "findings": "CMC 患者中 33.0% 需住院，7.2% 需重症照護；院前心跳停止發生率 1.0%，院內死亡率 0.7%。院前心跳停止與心血管（OR 3.10, 95% CI: 2.08-4.62）、神經肌肉（OR 2.71, 95% CI: 1.82-4.03）及新生兒相關疾病（OR 2.71, 95% CI: 1.65-4.44）相關。醫學複雜症與院內死亡風險增加 9.55 倍（95% CI: 6.01-15.18）。",
+      "significance": "本研究主要聚焦院前緊急醫療服務系統層級的 EMS 訓練與協議優化，與新生兒加護病房（NICU）的日常照護決策無直接關聯。雖涉及「新生兒相關疾病」子群，但未提供具體的新生兒特異性照護建議或臨床介入策略。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
   }
 ]

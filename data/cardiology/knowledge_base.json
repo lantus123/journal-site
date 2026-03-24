@@ -393,5 +393,1302 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41862068",
+    "title": "Results of a Preoperative Screening Brain Magnetic Resonance Imaging Protocol in Neonates Undergoing Cardiopulmonary Bypass.",
+    "authors": "Islam IS, McGetrick ME, Leon RL, et al.",
+    "journal": "Annals of Thoracic Surgery",
+    "pub_date": "2026 Mar 18",
+    "doi": "10.1016/j.athoracsur.2026.03.011",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "先天性心臟病",
+      "心肺繞道",
+      "腦部 MRI",
+      "神經影像",
+      "IVH"
+    ],
+    "one_liner": "術前腦部 MRI 篩檢在先天性心臟病新生兒中發現率高但臨床決策改變率極低（0.6%），可跳過除非有特定臨床指徵。",
+    "summary": {
+      "purpose": "評估先天性心臟病新生兒接受心肺繞道手術前的腦部 MRI 篩檢協議，是否能識別未被發現的中樞神經系統損傷並改變手術計畫。",
+      "design": "回溯性隊列研究，納入 2017-2025 年間 397 名接受心肺繞道手術的新生兒，分為接受術前腦部 MRI 組（n=339, 85%）與未接受組（n=58, 15%）。",
+      "findings": "術前腦部 MRI 發現異常者佔 47%（159/339），但僅 2 例（0.6%）因低度異常發現（IVH grade II 及微小硬膜下血腫）而延遲手術 2 週。兩組間術後神經學併發症無顯著差異：癲癇發作（無 MRI 組 5% vs. MRI 組 4%, p=0.71）、中風（2% vs. 3%, p>0.99）、腦出血（2% vs. 1%, p=0.53）。",
+      "significance": "本研究提示術前腦部 MRI 篩檢雖能發現高比例的無症狀腦部異常，但臨床上極少改變手術決策，且未能降低術後神經系統併發症發生率，對於資源有限的 NICU 環境應審慎評估其成本效益。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41860325",
+    "title": "Society of Critical Care Medicine 2026 Guidelines on the Care and Management of Pediatric and Neonatal Intensive Care Patients at the End of Life.",
+    "authors": "Derrington S, Broden Arciprete EG, Lin MC, et al.",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Mar 20",
+    "doi": "10.1097/PCC.0000000000003914",
+    "total_score": 3,
+    "scores": {
+      "design": 5,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 5
+    },
+    "keywords": [
+      "end-of-life care",
+      "palliative care",
+      "advance care planning",
+      "bereavement support",
+      "neonatal ICU"
+    ],
+    "one_liner": "重要的倫理與組織指引，但非臨床決策工具，適合 NICU 建立 EOL care protocol 時參考，不涉及急性治療策略改變。",
+    "summary": {
+      "purpose": "由美國重症醫學會發展基於實證的新生兒及小兒重症患者生命末期照護指引，涵蓋預立醫療計畫、症狀管理、家庭支持及健康公平性。",
+      "design": "多學科專家小組（21名成員，含新生兒科醫師、護理師、心理師、靈性照護、社工、生物倫理專家及喪親家屬代表）進行系統性文獻回顧（2000-2025年），採用 GRADE 方法論評估證據品質並制定建議。",
+      "findings": "產出五項條件性建議及一項良好實踐聲明，涵蓋預立醫療計畫、小兒緩和醫療諮詢與教育、系統性症狀管理、喪親支持及生命末期照護中的健康公平性。",
+      "significance": "提供 NICU 及 PICU 團隊在面對瀕危或預期死亡患者時的結構化、多面向照護框架，強調家庭中心照護、症狀緩解及文化敏感性，但主要為倫理與支持性指引而非臨床介入策略。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41860524",
+    "title": "Borderline left ventricle: Interpreting hemodynamic vulnerability and adaptive potential after neonatal biventricular repair.",
+    "authors": "Asanuma T, Asanuma S",
+    "journal": "Journal of Thoracic and Cardiovascular Surgery",
+    "pub_date": "2026 Mar 20",
+    "doi": "10.1016/j.jtcvs.2026.02.016",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "先天性心臟病",
+      "心臟外科",
+      "血流動力學",
+      "小兒心臟學",
+      "手術後管理"
+    ],
+    "one_liner": "專科心臟外科研究，與一般 NICU 早產兒照護無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "探討邊界型左心室在新生兒雙心室修復術後的血流動力學脆弱性與適應潛能。",
+      "design": "個案系列或臨床觀察研究，針對接受雙心室修復術的邊界型左心室新生兒患者進行血流動力學評估。",
+      "findings": "文章分析邊界型左心室患者術後血流動力學特徵與長期適應能力，但具體數據、樣本數、隨訪期間未在摘要中呈現。",
+      "significance": "該研究涉及先天性心臟病手術後的血流動力學管理，與一般新生兒重症照護（呼吸支持、營養、感染防治）的關聯性有限，主要屬於小兒心臟外科專科領域。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41871180",
+    "title": "Epicardial Complement C3 Activation in Neonatal Cardiac Regeneration.",
+    "authors": "Zhu AY, Chen MS, Braun AMT, et al.",
+    "journal": "Circulation",
+    "pub_date": "2026 Mar 24",
+    "doi": "10.1161/CIRCULATIONAHA.125.075712",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "cardiac regeneration",
+      "complement system",
+      "basic science",
+      "translational research"
+    ],
+    "one_liner": "純基礎心臟生物學研究，與新生兒重症照護無直接關聯，臨床醫師可跳過。",
+    "summary": {
+      "purpose": "探討新生兒心臟再生過程中補體系統 C3 在心外膜的活化機制。",
+      "design": "基礎科學研究，使用動物模型（未明確說明物種、樣本數或新生兒特定族群定義），聚焦於心臟組織層級的分子機制研究。",
+      "findings": "發現補體 C3 在心外膜層的活化與新生兒心臟再生能力相關，但未提供臨床轉譯數據或人類新生兒的驗證。",
+      "significance": "此研究為基礎科學探索，對 NICU 日常臨床決策無直接影響。新生兒心臟再生的分子機制研究可能有長期 translational 價值，但目前距離臨床應用甚遠，不涉及早產兒常見併發症（BPD、NEC、IVH 等）或標準照護策略。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41866315",
+    "title": "Twin Reversed Arterial Perfusion (TRAP) Sequence: Proposal for Morphologic Classification System Predicting Natural History.",
+    "authors": "Lu L, Li L, Gan Q, et al.",
+    "journal": "Prenatal Diagnosis",
+    "pub_date": "2026 Mar 22",
+    "doi": "10.1002/pd.70125",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "TRAP sequence",
+      "prenatal diagnosis",
+      "fetal morphology",
+      "expectant management",
+      "prognosis"
+    ],
+    "one_liner": "此為產前診斷研究，雖建立了 TRAP 序列的預測分類系統，但與新生兒出生後的 NICU 照護決策無直接影響，新生兒科醫師可作為背景知識參考但無需優先閱讀。",
+    "summary": {
+      "purpose": "建立基於骨骼形態學特徵的雙胎反向動脈灌流序列（TRAP）分類系統，評估其對期待性管理預後的預測價值。",
+      "design": "單中心回溯性隊列研究，納入 2001 年 2 月至 2022 年 4 月期間 116 例期待性管理的 TRAP 序列病例，分為五種形態學類型（I 型：半心臟；II 型：全無心臟；III 型：無頭軀幹；IV 型：無頭無軀幹；V 型：無心臟畸形）。",
+      "findings": "III 型最常見（41.4%），其次為 II 型（23.3%）、I 型（17.2%）、IV 型（7.8%）、V 型（10.3%）。116 例中 29 例（25.0%）預後良好，87 例（75.0%）預後不良。存活率因類型而異（p=0.001）：V 型 66.7%（8/12）、IV 型 33.3%（3/9）、II 型 22.2%（6/27）、III 型 18.8%（9/48）、I 型 15.0%（3/20）。",
+      "significance": "該分類系統可用於產前諮詢，幫助臨床醫師評估泵心雙胎的存活預期。然而，此研究主要針對產前診斷與期待性管理策略，與新生兒出生後的 NICU 照護決策關聯性有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41871826",
+    "title": "Use of Emergency Medical Services for Children With Medical Complexity.",
+    "authors": "Ramgopal S, Foster C, Macy ML, et al.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 24",
+    "doi": "10.1542/peds.2025-074802",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "EMS",
+      "醫療複雜度",
+      "院前急救",
+      "兒科運送",
+      "死亡率"
+    ],
+    "one_liner": "本研究為一般兒科 EMS 運送研究，與 NICU 照護決策無直接相關性，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "檢視兒童醫療複雜度患者（CMC）的緊急醫療服務（EMS）使用模式、院前照護特性及臨床結果。",
+      "design": "多中心、多 EMS 機構的回溯性隊列研究，納入 68,890 次兒科運送紀錄（其中 13,732 次涉及 CMC），來自整合醫療系統內 17 家醫院。根據診斷與手術代碼識別 CMC，分析院前心跳停止與院內死亡率相關因素。",
+      "findings": "CMC 佔兒科 EMS 運送的 19.9%，最常見為神經肌肉疾病（29.7%）。CMC 患者中 33.0% 需住院，7.2% 需重症照護；院前心跳停止發生率 1.0%，院內死亡率 0.7%。心血管、神經肌肉及新生兒相關疾病與院前心跳停止相關（OR 分別為 3.10、2.71、2.71）；醫療複雜度與院內死亡率增加 9.55 倍相關（95% CI: 6.01-15.18）。",
+      "significance": "本研究主要聚焦於院前急救服務（EMS）與一般兒科複雜患者的運送結果，與新生兒科 NICU 照護決策無直接關聯。雖涉及「新生兒相關疾病」子群，但未提供新生兒特異性的照護建議或早產兒相關數據，無法指導 NICU 日常臨床實踐。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41850419",
+    "title": "Comparative Effectiveness of Intravenous Immunoglobulin vs Steroids in the Treatment of Pediatric Acute (non-COVID) Myocarditis.",
+    "authors": "Kanyo I, An A, Haque K, et al.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Mar 16",
+    "doi": "10.1016/j.jpeds.2026.115065",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "myocarditis",
+      "pediatric",
+      "IVIg",
+      "steroids",
+      "mortality"
+    ],
+    "one_liner": "本研究為兒童肌炎的全年齡層治療比較，與新生兒科NICU日常照護決策無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "描述兒童急性非COVID肌炎的流行病學特徵，並評估靜脈免疫球蛋白(IVIg)和/或類固醇治療與住院死亡率的關聯。",
+      "design": "使用兒科健康資訊系統(PHIS)資料庫進行回溯性世代研究，納入2012-2022年間0-18歲診斷為肌炎的兒童2294名，排除藥學資料缺失或COVID-19確診者。分為四組治療：無IVIg或類固醇、類固醇單獨、IVIg單獨、IVIg加類固醇。",
+      "findings": "住院死亡率8%。經多變數調整後，IVIg單獨使用(OR 0.24, 95% CI 0.13-0.42)或IVIg加類固醇(OR 0.60, 95% CI 0.42-0.87)相比類固醇單獨使用與死亡率降低獨立相關。IVIg單獨使用比例在研究期間顯著下降(tau=-0.527, p=0.03)。",
+      "significance": "本研究主要針對兒童肌炎患者(包括新生兒至18歲)，但重點在於全年齡層兒童的心臟疾病治療，與新生兒科日常照護決策(如呼吸支持、營養策略、感染防治)無直接關聯。新生兒肌炎為罕見疾病，本研究未特別分層分析新生兒或早產兒族群，臨床應用價值有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41863591",
+    "title": "International Experience of Transcatheter Sinus Venosus Defect Closure in Children and Adolescents.",
+    "authors": "Thejaswi P, Sagar P, Sivakumar K, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 21",
+    "doi": "10.1007/s00246-026-04200-8",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "先天性心臟病",
+      "經導管介入",
+      "小兒心臟學",
+      "支架置放",
+      "竇靜脈缺損"
+    ],
+    "one_liner": "此為小兒心臟介入治療的技術報告，與新生兒科照護無直接相關，可跳過。",
+    "summary": {
+      "purpose": "評估經導管關閉竇靜脈缺損（SVD）在兒童及青少年患者的可行性與安全性。",
+      "design": "12個中心的回溯性研究，納入54名年齡<18歲的患者，接受覆蓋支架進行SVD經導管關閉術。",
+      "findings": "程序成功率98.1%（53/54），1例支架栓塞需手術治療。7例因支架移位或不穩定需追加支架。輕微併發症包括心律不整和支架血栓。追蹤期1-174個月，3例殘留分流需再介入，無晚期支架血栓，1例深靜脈血栓和2例輕微無症狀肺靜脈梯度保守治療。",
+      "significance": "本研究為小兒心臟介入領域的技術報告，與新生兒重症醫學照護無直接關聯。SVD多為先天性心臟病，通常在新生兒期發現但多數在嬰幼兒或兒童期才進行介入治療，不屬於NICU日常照護決策範疇。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41863590",
+    "title": "Pulmonary Hypertension in Pediatric Patients with Noonan Syndrome Undergoing Cardiac Catheterization.",
+    "authors": "Collins SL, Critser PJ, Gauvreau K, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 21",
+    "doi": "10.1007/s00246-026-04235-x",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Noonan syndrome",
+      "pulmonary hypertension",
+      "pediatric cardiology",
+      "genetic mutation",
+      "cardiac catheterization"
+    ],
+    "one_liner": "本研究為兒童心臟病學專科文獻，探討Noonan症候群之肺高血壓特徵，與新生兒加護照護無直接相關性，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "探討Noonan症候群患者肺高血壓的盛行率、遺傳特徵及臨床預後，包括血流動力學、心臟介入治療及無移植存活率。",
+      "design": "回溯性描述性世代研究，收納2000-2020年間於Boston Children's Hospital接受心導管檢查的87名Noonan症候群兒童患者，其中59名(68%)具有RAS-MAPK訊號路徑相關遺傳突變，28名(32%)為臨床診斷。",
+      "findings": "11/87患者(13%)合併肺高血壓；RAF1及KRAS基因變異在肺高血壓患者中更常見(p=0.013及p=0.015)；肥厚性心肌病在肺高血壓組更常見(p=0.009)，而肺動脈狹窄在肺高血壓組較少見(p=0.011)；肺高血壓患者接受更多主動脈瓣介入治療(p=0.025)但右心瓣膜介入治療較少(p=0.037)；肺高血壓組無移植存活率顯著較低(p=0.004)。",
+      "significance": "本研究為單中心回溯性分析，主要聚焦於Noonan症候群之遺傳學及兒童心臟病學，與新生兒加護病房(NICU)的日常照護決策無直接關聯。早產兒或新生兒期Noonan症候群的診斷與管理並非本研究重點，且患者族群為接受心導管檢查的兒童，不屬於典型新生兒照護範疇。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41862724",
+    "title": "Severe Aortic Regurgitation with New Congestive Heart Failure Following Fetal Aortic Valvuloplasty - A Case Report.",
+    "authors": "Hochpoechler J, Tulzer G, Tulzer A",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 21",
+    "doi": "10.1007/s00246-026-04227-x",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "fetal cardiology",
+      "aortic valvuloplasty",
+      "congenital heart disease",
+      "case report"
+    ],
+    "one_liner": "胎兒心臟介入的罕見併發症個案報告，與一般 NICU 照護無直接相關性，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "報告一例胎兒主動脈瓣膜成形術後發生嚴重主動脈逆流與新發充血性心衰竭的病例。",
+      "design": "個案報告，單一患者的臨床觀察與追蹤。",
+      "findings": "患者於胎兒期接受主動脈瓣膜成形術，出生後發展出嚴重主動脈逆流並伴隨充血性心衰竭，需要進一步心臟介入或外科治療。",
+      "significance": "此案例屬於胎兒心臟介入的罕見併發症報告，與新生兒加護病房的日常照護決策無直接關聯，主要為小兒心臟科領域的教學個案。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41843015",
+    "title": "Correction: Comprehensive Functional Echocardiographic Assessment of Transposition of the Great Arteries: From Fetus to Newborn.",
+    "authors": "Walter C, Soveral I, Bartrons J, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 17",
+    "doi": "10.1007/s00246-026-04217-z",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "TGA",
+      "echocardiography",
+      "correction"
+    ],
+    "one_liner": "此為期刊勘誤聲明而非原始研究，可跳過。",
+    "summary": {
+      "purpose": "本文為先前發表文章的更正聲明，針對大動脈轉位（TGA）的胎兒至新生兒期超音波心動圖評估進行勘誤。",
+      "design": "更正聲明（Correction），非原始研究。",
+      "findings": "未提供具體研究數據，僅為文獻更正。",
+      "significance": "本文為期刊勘誤公告，無新的臨床證據或照護建議。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41843014",
+    "title": "Modification of Nicks Technique for Aortic Annular Enlargement in Children.",
+    "authors": "Masaki N, Kumae M, Sai S",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 17",
+    "doi": "10.1007/s00246-026-04230-2",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "pediatric cardiology",
+      "aortic valve",
+      "surgical technique"
+    ],
+    "one_liner": "小兒心臟外科技術報告，與新生兒科照護無關，可跳過。",
+    "summary": {
+      "purpose": "本文介紹 Nicks 技術在兒童主動脈瓣膜環擴大術中的改良方法。",
+      "design": "技術報告/病例系列，無明確樣本數、GA 或出生體重資訊。",
+      "findings": "未提供具體臨床數據、統計分析或療效比較。",
+      "significance": "本研究屬小兒心臟外科領域，與新生兒重症醫學、早產兒照護無直接關聯，不影響 NICU 日常決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41843013",
+    "title": "Diastolic Function Unchanged After Lifestyle Intervention Despite Improved VO",
+    "authors": "Brennan A, Mardy C, Punn R, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 17",
+    "doi": "10.1007/s00246-026-04213-3",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "兒童心臟移植",
+      "舒張功能",
+      "運動介入",
+      "非新生兒族群"
+    ],
+    "one_liner": "本篇研究對象為兒童心臟移植患者而非新生兒/早產兒，與 NICU 照護無關，可跳過。",
+    "summary": {
+      "purpose": "探討監督式運動與營養介入是否能改善兒童心臟移植患者的舒張功能障礙及運動耐受力。",
+      "design": "前瞻性介入研究，納入 14 名年齡 8-19 歲、移植後至少 1 年的穩定心臟移植患者，進行 12-16 週監督式運動與營養介入，後續維持期相同時長。於基線、介入後及維持期後進行心臟超音波檢查，回溯性分析舒張功能參數（E/A ratio、mitral deceleration time、E/e' ratio、tricuspid regurgitant jet velocity）及心房應變。",
+      "findings": "介入後運動耐受力（peak VO2）及內皮功能改善，但傳統舒張功能參數及心房應變無顯著改善，包括基線時有舒張功能障礙的患者（n=9）。基線舒張功能障礙患者中，E/A ratio 變化與 peak VO2 變化呈強負相關（r=-0.94）。",
+      "significance": "本研究對新生兒加護病房照護無直接臨床意義。研究對象為兒童心臟移植患者（年齡 8-19 歲），非早產兒或新生兒族群，且探討的舒張功能改變與新生兒常見疾病（如 BPD、PDA、IVH）無關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41843012",
+    "title": "Performance of Kawasaki Disease Risk Scores in a 30-Year Regional Spanish Cohort.",
+    "authors": "Viadero MT, Caldeiro MJ, Garde J, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 17",
+    "doi": "10.1007/s00246-026-04223-1",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "川崎病",
+      "兒童心臟病",
+      "診斷評分",
+      "非新生兒相關"
+    ],
+    "one_liner": "此文專注川崎病診斷評分驗證，與新生兒科臨床實踐無關，可跳過。",
+    "summary": {
+      "purpose": "評估川崎病風險評分在西班牙地區隊列中的表現。",
+      "design": "30年回溯性區域隊列研究，針對川崎病患者進行風險評分驗證，未涉及新生兒族群。",
+      "findings": "研究評估既有川崎病風險評分工具的臨床表現，但未提供具體數據摘要。",
+      "significance": "川崎病主要影響幼兒（通常 >6 個月齡），與新生兒重症照護、早產兒管理、呼吸支持、營養策略或神經發育追蹤無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41866970",
+    "title": "Not just palliation: integrating patent ductus arteriosus and right ventricular outflow tract stenting into modern surgical pathways for tetralogy of Fallot.",
+    "authors": "Castaldi B, Prati F, Di Salvo G",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Mar 23",
+    "doi": "10.1017/S1047951126111317",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "tetralogy of Fallot",
+      "patent ductus arteriosus",
+      "congenital heart disease",
+      "surgical intervention",
+      "pediatric cardiology"
+    ],
+    "one_liner": "本文為先天性心臟病外科策略的敘述性回顧，與新生兒科日常照護決策無直接相關，可跳過。",
+    "summary": {
+      "purpose": "探討在現代手術路徑中整合動脈導管未閉（PDA）和右心室流出道支架置入術於法洛氏四聯症的治療策略。",
+      "design": "敘述性回顧，針對法洛氏四聯症患者的手術和介入治療方法進行討論，非新生兒特異性研究。",
+      "findings": "文章討論 PDA 和右心室流出道支架在法洛氏四聯症治療中的角色，但未提供具體臨床試驗數據或量化結果。",
+      "significance": "本研究主要針對先天性心臟病（特別是法洛氏四聯症）的外科和介入治療策略，與新生兒重症照護（NICU 日常管理、呼吸支持、營養、感染防控等）無直接關聯。雖然 PDA 在早產兒中常見，但本文重點為複雜先天性心臟病的手術決策，非早產兒 PDA 的醫學或介入管理。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41859897",
+    "title": "Prognostic Impact of Elevated Pulmonary Vascular Resistance in Group 2 Pulmonary Hypertension: Insights From a Japanese Multicenter Registry.",
+    "authors": "Satoh T, Sugimura K, Fukumoto Y, et al.",
+    "journal": "Journal of the American Heart Association",
+    "pub_date": "2026 Mar 20",
+    "doi": "10.1161/JAHA.125.045155",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人肺高血壓",
+      "左心疾病",
+      "SGLT2抑制劑",
+      "與新生兒無關"
+    ],
+    "one_liner": "成人左心疾病相關肺高血壓研究，與新生兒科臨床實務無關，可跳過。",
+    "summary": {
+      "purpose": "評估第2類肺高血壓患者的肺血管阻力與預後的關係，以及新興治療（SGLT2抑制劑）的療效。",
+      "design": "日本多中心前瞻性登錄研究，分析2018-2024年（n=563）及2012-2016年（n=425）兩個時期的成人患者，使用傾向分數配對分析。",
+      "findings": "肺血管阻力>3 Wood units與較差預後相關（6年無事件率：前期登錄72.9% vs 61.4%；現期登錄75.2% vs 55.4%）。SGLT2抑制劑使用與改善預後相關（無事件率73.8% vs 35.5%）。",
+      "significance": "本研究完全針對成人左心疾病引起的肺高血壓，與新生兒/早產兒照護無任何關聯。新生兒肺高血壓（如 PH secondary to BPD、CDH、PVL）的病生理、診斷標準及治療策略與成人Group 2 PH 完全不同。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41848043",
+    "title": "Clinical, Functional, and Quality-of-Life Outcomes After Contemporary Transcatheter Edge-to-Edge Repair for Primary Mitral Regurgitation in the Very Elderly.",
+    "authors": "Price MJ, Singh GD, Rogers JH, et al.",
+    "journal": "Journal of the American Heart Association",
+    "pub_date": "2026 Mar 18",
+    "doi": "10.1161/JAHA.125.044794",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟病學",
+      "二尖瓣逆流",
+      "經導管介入治療",
+      "高齡患者",
+      "與新生兒無關"
+    ],
+    "one_liner": "本文為成人心臟內科研究，與新生兒/早產兒照護完全無關，可直接跳過。",
+    "summary": {
+      "purpose": "本研究探討高齡患者接受經導管二尖瓣邊緣對邊緣修復術治療原發性二尖瓣逆流的臨床、功能及生活品質結果。",
+      "design": "來自 EXPAND 和 EXPAND G4 研究的患者層級統合分析，納入 854 名原發性二尖瓣逆流患者，按年齡分層（最高齡組 86-99 歲，較年輕組 21-85 歲）。",
+      "findings": "最高齡組 30 天主要不良事件發生率為 5.7% vs 較年輕組 4.3%（P=0.46）；1 年時二尖瓣逆流 ≤1+ 者分別為 81% vs 88%（P=0.08）；左心室舒張末期容積改善程度相似（P=0.34）；功能狀態和生活品質評分各年齡組均顯著改善；調整後 1 年死亡率最高齡組較高（調整風險比 1.74，95% CI 1.02-2.98，P=0.04）。",
+      "significance": "本研究與新生兒照護無任何關聯，屬成人心臟介入治療領域。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41856201",
+    "title": "Commentary: Learning to Evolve: Personalizing Fontan Risk Prediction in the Machine Learning Era.",
+    "authors": "Bhavana S, Jegatheeswaran A, Karamlou T",
+    "journal": "Journal of Thoracic and Cardiovascular Surgery",
+    "pub_date": "2026 Mar 17",
+    "doi": "10.1016/j.jtcvs.2026.03.566",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Fontan surgery",
+      "machine learning",
+      "congenital heart disease",
+      "risk prediction",
+      "pediatric cardiothoracic surgery"
+    ],
+    "one_liner": "本文為心臟外科評論，與新生兒科照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "本文為評論文章，討論機器學習在 Fontan 手術風險預測中的應用與個人化醫療的發展方向。",
+      "design": "評論文章（Commentary），非原始研究。",
+      "findings": "文章未提供具體研究數據或臨床試驗結果，主要為概念性討論。",
+      "significance": "與新生兒重症醫學、早產兒照護無直接關聯。Fontan 手術為先天性心臟病患者的姑息性手術，通常在嬰幼兒期進行，但本文重點在於機器學習應用於手術風險分層，非新生兒 NICU 的日常照護議題。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41865960",
+    "title": "Isolated Ventricular Septal Defect Closure in Mild Aortic Coarctation: Hemodynamic and Anatomic Evolution of Aortic Isthmus.",
+    "authors": "Hui C, Zhou S, Qiu M, et al.",
+    "journal": "Annals of Thoracic Surgery",
+    "pub_date": "2026 Mar 20",
+    "doi": "10.1016/j.athoracsur.2026.03.017",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "congenital heart disease",
+      "ventricular septal defect",
+      "aortic coarctation",
+      "pediatric cardiac surgery",
+      "hemodynamic remodeling"
+    ],
+    "one_liner": "本文為兒童心臟外科手術預後研究，與新生兒科臨床照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "探討單獨進行心室中隔缺損（VSD）關閉手術對輕度主動脈縮窄患者主動脈峽部血流動力學及解剖學重塑的長期影響。",
+      "design": "回溯性世代研究，納入231名患有輕度主動脈縮窄（峽部血流速度≥1.50 m/s但低於介入治療閾值）且接受單獨VSD關閉手術的兒童患者，中位追蹤時間5.5年（4.3-6.4年）。",
+      "findings": "7年存活率99.6%（95% CI 96.9-99.9），僅2.2%患者（5例）在3.7年內需要主動脈縮窄再介入治療。峽部血流速度呈三相軌跡：術後暫時升高、3年內快速下降（佔總下降的71.4%）、隨後穩定。76.1%患者於3年追蹤時達到正常血流速度（<1.50 m/s）。多變量分析顯示術前主動脈瓣血流速度升高（OR 6.82, 95% CI 1.56-36.28; P=0.032）及術前峽部Z評分較小（OR 0.77, 95% CI 0.63-0.94; P=0.028）為持續性梗阻的獨立預測因子。",
+      "significance": "本研究為兒童心臟外科領域研究，與新生兒科照護無直接關聯。雖涉及先天性心臟病患者，但研究對象為接受手術治療的兒童患者，非新生兒期急性照護或早產兒特定問題，不屬於NICU日常決策範疇。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41865956",
+    "title": "Career-Long Earnings in Cardiothoracic Surgery: A Comparative Net Present Value Analysis.",
+    "authors": "Greiten LE, Rajab TK, Mokashi S, et al.",
+    "journal": "Annals of Thoracic Surgery",
+    "pub_date": "2026 Mar 20",
+    "doi": "10.1016/j.athoracsur.2026.03.019",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "職業財務",
+      "薪酬分析",
+      "心胸外科",
+      "經濟模型",
+      "非新生兒相關"
+    ],
+    "one_liner": "此為心胸外科醫師職業財務分析，與新生兒科臨床照護無任何相關性，可直接跳過。",
+    "summary": {
+      "purpose": "本研究評估心胸外科醫師的終身淨現值收入，比較不同次專科、訓練途徑及收入百分位數的財務影響。",
+      "design": "淨現值（NPV）經濟模型分析，使用 2024 年胸腔外科醫學會薪酬報告數據，涵蓋整合式與傳統訓練途徑，並進行蒙地卡羅模擬分析。",
+      "findings": "成人心臟外科醫師終身 NPV 為 $19.3 百萬（50 百分位數），先天性心臟外科 $19.1 百萬，胸腔外科 $14.1 百萬。先天性心臟外科在 90 百分位數加上延長職涯與領導角色時，終身收入超過 $40 百萬。",
+      "significance": "本研究與新生兒加護病房照護、早產兒管理、新生兒重症醫學或新生兒發育追蹤完全無關，屬於醫療職業財務分析，非臨床醫學研究。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41856345",
+    "title": "Mechanical atrioventricular valve replacement during and after the single ventricle palliation.",
+    "authors": "Matsubara M, Deimel C, Schaeffer T, et al.",
+    "journal": "Annals of Thoracic Surgery",
+    "pub_date": "2026 Mar 17",
+    "doi": "10.1016/j.athoracsur.2026.03.010",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "congenital heart disease",
+      "single ventricle",
+      "valve replacement",
+      "pediatric cardiac surgery",
+      "Fontan procedure"
+    ],
+    "one_liner": "此為心臟外科單心室患者的瓣膜置換預後研究，與新生兒科照護無直接相關，可跳過。",
+    "summary": {
+      "purpose": "評估單心室患者進行機械性房室瓣膜置換術的預後及死亡率風險因子。",
+      "design": "回溯性病例系列研究，納入 22 名患者（1997-2022 年），年齡中位數 1.7 歲，均已完成至少第一階段 Fontan 分期手術。患者按術後心室功能（正常 vs. 受損）及瓣膜置換時機（原發 vs. 瓣膜修補後）分層。",
+      "findings": "院內死亡率 18.2%（4/22），1 年無移植存活率 55.6%。術後心室功能受損（HR 4.890, p=0.018）及體外循環時間延長（HR 1.013, p=0.033）為獨立死亡風險因子。心室功能保留者 1 年存活率 100%，功能受損者 25.7%（p<0.001）。",
+      "significance": "本研究為小樣本回溯性分析，主要對象為先天性心臟病患者（特別是單心室病變），與新生兒科 NICU 日常照護決策無直接關聯。雖涉及嬰幼兒患者，但屬心臟外科領域，非新生兒重症醫學範疇。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41850471",
+    "title": "Successful Atrioventricular Valve Repair Modifies Clinical Outcomes in Single Ventricle Patients: Multistate Model Analysis.",
+    "authors": "Kadowaki S, Steve Fan CP, Venet M, et al.",
+    "journal": "Annals of Thoracic Surgery",
+    "pub_date": "2026 Mar 16",
+    "doi": "10.1016/j.athoracsur.2026.03.008",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "congenital heart disease",
+      "atrioventricular valve repair",
+      "single ventricle",
+      "pediatric cardiac surgery",
+      "long-term outcomes"
+    ],
+    "one_liner": "本研究聚焦先天性心臟病患者的心臟外科修復策略與長期存活，與 NICU 新生兒重症照護無直接相關性，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "評估單心室患者主動脈瓣膜反流（AVVR）發生時機與主動脈瓣膜修復（AVVrep）對存活率的影響，並分析成功修復如何改變臨床病程。",
+      "design": "回溯性隊列研究，納入 1998-2022 年接受外科姑息治療的 716 名單心室患者，其中 195 人發生 AVVR，155 人接受 AVVrep（69 人成功修復）。使用多狀態模型分析時間依賴變數，並以 Kaplan-Meier 和競爭風險分析估計無移植存活率。",
+      "findings": "成功 AVVrep 顯著降低死亡/心臟移植風險（HR 0.16, 95% CI 0.07-0.40, p<0.001），存活率與無 AVVR 患者相當（p=0.94）。AVVR 在雙向腔肺分流（BCPS）前發生者，若在 BCPS 前或後成功修復可降低死亡/移植風險（HR 分別為 0.18 和 0.24, p<0.01）。心室功能障礙與不良預後強相關。",
+      "significance": "本研究為先天性心臟病患者的心臟外科長期追蹤研究，與新生兒重症照護無直接關聯。雖涉及新生兒期可能出現的先天性心臟病，但重點在於兒童期至青少年期的外科介入時機與預後，超出新生兒科的主要照護範疇。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41863344",
+    "title": "Long-term results after senning and mustard operations for d-Transposition of the great arteries: Atrial switch should remain in armamentarium.",
+    "authors": "Kari FA, Ortac E, Michel SG, et al.",
+    "journal": "European Journal of Cardio-Thoracic Surgery",
+    "pub_date": "2026 Mar 21",
+    "doi": "10.1093/ejcts/ezag126",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "d-TGA",
+      "congenital heart disease",
+      "cardiac surgery",
+      "long-term outcomes",
+      "pediatric cardiology"
+    ],
+    "one_liner": "此為先天性心臟病長期心臟外科預後研究，與 NICU 新生兒照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "評估 Senning 和 Mustard 心房轉位手術治療大動脈轉位（d-TGA）的長期預後，比較兩種術式的生存率和再手術風險。",
+      "design": "單中心回溯性追蹤研究，417 名 d-TGA 患者（男性 70%），其中 Mustard 手術 88 例、Senning 手術 329 例，手術時間 1974-2001 年，平均追蹤時間 29.7 年（中位數 34.2 年，範圍 10-50 年），末次追蹤時平均年齡 30.9 歲。",
+      "findings": "40 年整體生存率 78.3%（95% CI: 74.0%-82.8%），Senning 術後 81.6%（95% CI: 77.0-86.5%）優於 Mustard 術後 66.7%（95% CI: 57.2-77.8%，log-rank p<0.001）；40 年無再手術率 73.1%（95% CI: 68.4%-78.0%）；Senning 術後長期生存率略低於一般人口樣本。",
+      "significance": "本研究為先天性心臟病患者的長期心臟外科預後研究，與新生兒重症醫學和早產兒照護無直接關聯，屬於兒童心臟外科領域。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41860934",
+    "title": "Evolution of Right Ventricular Function and Pulmonary Artery Coupling After Transapical Transcatheter Mitral Valve Replacement.",
+    "authors": "Anselmi A, Hell M, Baldus S, et al.",
+    "journal": "European Journal of Cardio-Thoracic Surgery",
+    "pub_date": "2026 Mar 10",
+    "doi": "10.1093/ejcts/ezag107",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟病學",
+      "經導管瓣膜置換",
+      "右心室功能",
+      "非新生兒科"
+    ],
+    "one_liner": "成人心臟介入治療研究，與新生兒/早產兒照護無任何關聯，可跳過。",
+    "summary": {
+      "purpose": "本研究旨在探討經心尖途徑經導管二尖瓣膜置換術（TMVR）對右心室功能及右心室-肺動脈耦合的影響。",
+      "design": "多中心登錄研究（TENDER registry），納入195名接受 Tendyne 瓣膜經心尖 TMVR 的成人患者，評估基線及術後1年的右心室收縮功能、三尖瓣逆流、肺動脈收縮壓及 TAPSE/sPAP 比值。",
+      "findings": "基線時57.4%患者右心室-肺動脈耦合受損（TAPSE/sPAP < 0.4）；術後1年肺動脈收縮壓及三尖瓣逆流明顯改善，TAPSE 輕微下降，TAPSE/sPAP 比值輕微上升；基線右心室-肺動脈耦合保留者死亡率及心衰住院率數值上較低但未達統計顯著性；肺高血壓逆轉與較低的死亡或再住院風險相關。",
+      "significance": "本研究與新生兒照護完全無關，涉及成人心臟介入治療，不適用於 NICU 臨床決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41848469",
+    "title": "Long-Term Outcomes of the Norwood Operation: Why We Are Surprised But Should Not Be.",
+    "authors": "Winlaw DS, Allen KY, Steltzer MM",
+    "journal": "Journal of the American College of Cardiology",
+    "pub_date": "2026 Mar 05",
+    "doi": "10.1016/j.jacc.2026.02.5078",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "HLHS",
+      "先天性心臟病",
+      "心臟外科",
+      "長期預後"
+    ],
+    "one_liner": "小兒心臟外科文獻，與 NICU 早產兒照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "探討 Norwood 手術的長期預後及其臨床意義。",
+      "design": "敘述性回顧，針對先天性心臟病（hypoplastic left heart syndrome, HLHS）患者接受 Norwood 手術後的長期追蹤資料。",
+      "findings": "文章討論 Norwood 手術患者的長期存活率、心臟功能、生活品質等預後指標，但 abstract 未提供具體數據。",
+      "significance": "本文主要針對小兒心臟外科領域，與新生兒重症醫學及早產兒照護的核心議題（呼吸窘迫、餵食、神經發育、慢性肺病等）無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41847775",
+    "title": "Comparative Prognosis of Chagas and Other Cardiomyopathies.",
+    "authors": "Ono R, Docherty KF, Henderson AD, et al.",
+    "journal": "Journal of the American College of Cardiology",
+    "pub_date": "2026 Mar 06",
+    "doi": "10.1016/j.jacc.2026.03.022",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "成人心衰",
+      "查加斯病",
+      "心血管預後",
+      "非新生兒患者"
+    ],
+    "one_liner": "成人心衰病因學研究，與新生兒科臨床實踐無關，可跳過。",
+    "summary": {
+      "purpose": "比較查加斯病引起的心衰與缺血性及其他非缺血性心衰的臨床預後。",
+      "design": "回溯性分析三項成人心衰臨床試驗（ATMOSPHERE、PARADIGM-HF、GALACTIC-HF）的患者資料，共 23,647 名 HFrEF 患者，按心衰病因分類（缺血性、瓣膜性、酒精性、高血壓性、特發性、病毒性、查加斯病、其他），使用 Cox 比例風險模型進行調整分析。",
+      "findings": "查加斯病 HF（n=308）相比缺血性 HF 患者，調整後危害比（95% CI）：複合終點 1.65（1.36-2.02）、心衰住院 1.75（1.36-2.25）、心血管死亡 1.86（1.47-2.35）、全因死亡 1.82（1.47-2.25）、中風 2.16（1.20-3.88），均具統計顯著性（p<0.05）。",
+      "significance": "本研究完全針對成人心衰患者，與新生兒及早產兒照護無任何相關性，不涉及 NICU 日常決策、新生兒疾病管理或發育追蹤。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41858116",
+    "title": "Real-time acoustic monitoring of perinatal volume fluctuations in a pregnant woman after complex congenital heart disease surgery: a case report.",
+    "authors": "Zhao Y, Fu Y, He Y",
+    "journal": "European Heart Journal",
+    "pub_date": "2026 Mar 20",
+    "doi": "10.1093/eurheartj/ehag208",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "maternal cardiac disease",
+      "pregnancy monitoring",
+      "congenital heart disease"
+    ],
+    "one_liner": "可跳過——此為孕婦心臟監測個案報告，與 NICU 新生兒照護無相關性。",
+    "summary": {
+      "purpose": "報告一名先天性複雜心臟病手術後懷孕婦女的聲學監測案例。",
+      "design": "個案報告，無新生兒族群數據。",
+      "findings": "未提供具體新生兒相關臨床數據。",
+      "significance": "本文主要聚焦於孕婦心臟血流動力學監測，與新生兒照護無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41858107",
+    "title": "Genetic counselling implementation in dilated cardiomyopathy.",
+    "authors": "Verdonschot JAJ, van Spaendonck-Zwarts KY, Hellebrekers DMEI, et al.",
+    "journal": "European Heart Journal",
+    "pub_date": "2026 Mar 20",
+    "doi": "10.1093/eurheartj/ehag159",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "dilated cardiomyopathy",
+      "genetic testing",
+      "adult cardiology",
+      "genetic counselling"
+    ],
+    "one_liner": "成人擴張型心肌病變的遺傳諮詢指引，與新生兒/早產兒照護完全無關，可跳過。",
+    "summary": {
+      "purpose": "本文探討成人擴張型心肌病變（DCM）患者的遺傳諮詢與基因檢測策略，著重於臨床決策應用。",
+      "design": "敘述性回顧與臨床指引建議，無原始研究設計、無特定樣本量、無新生兒族群。",
+      "findings": "遺傳檢測陽性率 8-36%（依病因與家族史而異）；建議對所有 DCM 患者進行基因檢測以進行風險分層、預後評估與家族篩檢；強調多基因面板與單基因檢測策略的應用。",
+      "significance": "本文為成人心臟病學領域的遺傳諮詢指引，與新生兒重症醫學、早產兒照護無直接關聯；新生兒科醫師無需關注此文。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41871951",
+    "title": "Cardiopulmonary exercise testing in contemporary cardiology: physiological insights, novel applications and evolving algorithms.",
+    "authors": "Guazzi M",
+    "journal": "Heart",
+    "pub_date": "2026 Mar 23",
+    "doi": "10.1136/heartjnl-2025-327739",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟病學",
+      "運動耐受",
+      "心衰竭",
+      "非新生兒科"
+    ],
+    "one_liner": "成人心臟病學綜述，與新生兒/早產兒照護完全無關，可跳過。",
+    "summary": {
+      "purpose": "綜述心肺運動測試（CPET）在當代心臟病學中的應用、生理學洞見及演進中的演算法。",
+      "design": "敘述性綜述文章，針對成人心臟病患者的運動耐受不良評估，無新生兒或早產兒相關數據。",
+      "findings": "CPET 結合心臟超音波或侵襲性 CPET（iCPET）在診斷心衰竭保留射出分數（HFpEF）及運動誘發肺高壓具有臨床價值；可穿戴系統與人工智慧應用於估計最大攝氧量為新興應用。",
+      "significance": "本文專注於成人心臟病患者的運動生理評估，與新生兒重症醫學、早產兒照護及發育追蹤無直接關聯，不適用於 NICU 臨床決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41871950",
+    "title": "The day we made a patient: another case of a 'genotype-only' cardiomyopathy.",
+    "authors": "Mapelli M",
+    "journal": "Heart",
+    "pub_date": "2026 Mar 23",
+    "doi": "10.1136/heartjnl-2025-327520",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟病",
+      "遺傳性心肌病變",
+      "非新生兒相關"
+    ],
+    "one_liner": "成人心臟病遺傳診斷個案報告，與新生兒科照護無關，可跳過。",
+    "summary": {
+      "purpose": "本文為心臟病學領域的個案報告，討論基因型心肌病變的診斷議題，與新生兒照護無直接關聯。",
+      "design": "個案報告（case report），主題為成人或一般心臟病患者的遺傳性心肌病變診斷。",
+      "findings": "文章聚焦於『僅有基因型』心肌病變的臨床診斷困境，無新生兒特異性的臨床數據或介入結果。",
+      "significance": "本研究主題屬心臟內科/遺傳醫學領域，與新生兒重症醫學、早產兒照護、發育追蹤等 NICU 核心議題無關，對新生兒科臨床決策無直接指導價值。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41850786",
+    "title": "Unmasking platypnoea-orthodeoxia syndrome: a systematic review of the pathophysiology, clinical spectrum and outcomes of percutaneous intracardiac shunt closure.",
+    "authors": "Ermongkonchai T, Ha FJ, Yudi MB, et al.",
+    "journal": "Heart",
+    "pub_date": "2026 Mar 18",
+    "doi": "10.1136/heartjnl-2025-327484",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "PFO/ASD",
+      "成人心臟病",
+      "體位性低血氧症",
+      "經皮導管閉合",
+      "非新生兒相關"
+    ],
+    "one_liner": "成人心臟病學系統性回顧，與新生兒科臨床實踐無關，可跳過。",
+    "summary": {
+      "purpose": "系統性回顧成人患者的心房間隔缺損相關右-左分流導致的體位性低血氧症，評估經皮導管閉合治療的臨床結果。",
+      "design": "系統性文獻回顧，納入 196 篇研究共 469 名患者（平均年齡 68.3±14.1 歲，51% 女性），包括病例報告/系列及觀察性研究。",
+      "findings": "體位性低血氧症發生率 95%，主要解剖學因素為主動脈擴張 (33%)、胸腔結構異常 (33%)、右心疾病 (15%)；經皮導管閉合後血氧飽和度顯著改善（治療前 79.5±8.7% vs 治療後 94.5±5.0%），82% 患者症狀改善，程序併發症率 5%。",
+      "significance": "本研究完全聚焦於成人心臟病患者的心房間隔缺損管理，與新生兒及早產兒照護無任何直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41871646",
+    "title": "Impact of Extended Rhythm Monitoring on Arrhythmic Risk Estimates in Phospholamban Cardiomyopathy.",
+    "authors": "van der Heide MYC, Amin AS, Wilde AAM, et al.",
+    "journal": "Heart Rhythm",
+    "pub_date": "2026 Mar 21",
+    "doi": "10.1016/j.hrthm.2026.03.1905",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟病",
+      "磷酸鑭蛋白心肌病",
+      "心律不整",
+      "與新生兒無關"
+    ],
+    "one_liner": "成人心臟病學研究，與新生兒/早產兒照護無關，可跳過。",
+    "summary": {
+      "purpose": "本研究評估延長心律監測對磷酸鑭蛋白心肌病患者心律不整風險評估的影響。",
+      "design": "成人心臟病學研究，針對磷酸鑭蛋白相關遺傳性心肌病患者進行心律監測分析，與新生兒/早產兒照護無關。",
+      "findings": "研究聚焦於成人患者的心律不整風險分層，與新生兒期心臟疾病管理無直接關聯。",
+      "significance": "本研究主題為成人遺傳性心肌病的心律監測策略，與新生兒加護病房（NICU）的日常臨床決策、早產兒照護、新生兒重症醫學完全無關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41866697",
+    "title": "Atrial Fibrillation Ablation Outcomes by Hospital Academic Status.",
+    "authors": "Shabbir MR, Ahmad K, Imtiaz M, et al.",
+    "journal": "Catheterization and Cardiovascular Interventions",
+    "pub_date": "2026 Mar 22",
+    "doi": "10.1002/ccd.70570",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心律不整",
+      "導管消融",
+      "心房顫動",
+      "非新生兒科"
+    ],
+    "one_liner": "成人心房顫動導管消融術的醫學中心比較研究，與新生兒科完全無關，可跳過。",
+    "summary": {
+      "purpose": "比較成人心房顫動導管消融術在學術醫學中心與非學術醫學中心的治療成效。",
+      "design": "回溯性 cohort 研究，使用美國 TriNetX 合作網絡資料庫，納入 2010-2020 年間年齡 35-90 歲接受心房顫動消融術的成人患者，以傾向分數配對進行 1:1 配對分析，追蹤期為術後 365 天。",
+      "findings": "學術醫學中心患者相比非學術中心，需要重複消融的風險較低（OR: 1.844; 95% CI: 1.409-2.415），急性腎損傷發生率亦較低（OR: 1.534; 95% CI: 1.054-2.232）；心臟停止、心包填塞、食道穿孔及出血等併發症兩組無顯著差異。",
+      "significance": "本研究與新生兒科照護無任何關聯，研究對象為成人心律不整患者，不涉及新生兒、早產兒或小兒族群。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41871746",
+    "title": "Long term effects of medical therapy pre- and post- pulmonary endarterectomy - insights from the UK CURATE registry.",
+    "authors": "Appenzeller P, Reddy A, Ghani H, et al.",
+    "journal": "Journal of Heart and Lung Transplantation",
+    "pub_date": "2026 Mar 21",
+    "doi": "10.1016/j.healun.2026.03.020",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "CTEPH",
+      "pulmonary hypertension",
+      "pulmonary endarterectomy",
+      "adult cardiology",
+      "heart-lung transplantation"
+    ],
+    "one_liner": "成人肺高血壓及心肺移植研究，與新生兒照護無關，可跳過。",
+    "summary": {
+      "purpose": "評估肺動脈內膜切除術（PEA）前後使用肺高血壓醫療藥物治療的長期效果，及術後殘留肺高血壓的特徵。",
+      "design": "英國 CURATE 登錄資料庫的次級分析，納入 2015-2022 年間接受 PEA 的慢性血栓栓塞性肺高血壓（CTEPH）患者 1102 名，其中 661 名（60%）接受橋接治療。",
+      "findings": "接受橋接治療患者基線 mPAP 較高（46 vs 44 mmHg, p=0.038）、功能分級較差（NYHA III 84% vs 76%, p=0.003），1 年及 3 年存活率較低（93% vs 96% 及 89% vs 94%, p=0.002）。術後 47% 患者出現殘留肺高血壓（mPAP ≥25 mmHg），但僅 15% 接受術後藥物治療。經 6MWD 調整後，術前藥物治療與否無存活差異。",
+      "significance": "本研究涉及成人肺高血壓及心肺移植領域，與新生兒重症醫學無直接關聯。新生兒科不涉及 PEA 或 CTEPH 的臨床決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41862039",
+    "title": "Safety and Immunogenicity of Varicella-Zoster Vaccination in Pediatric Heart Transplant Recipients.",
+    "authors": "Zhang D, Rosenthal LM, Seifert-Hansen M, et al.",
+    "journal": "Journal of Heart and Lung Transplantation",
+    "pub_date": "2026 Mar 18",
+    "doi": "10.1016/j.healun.2026.03.010",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "heart transplant",
+      "varicella-zoster vaccination",
+      "immunosuppression",
+      "pediatric",
+      "vaccine safety"
+    ],
+    "one_liner": "本研究為兒童心臟移植患者的疫苗接種指引，與新生兒科日常照護無關，可跳過。",
+    "summary": {
+      "purpose": "評估心臟移植兒童接受帶狀皰疹病毒（VZV）疫苗接種的安全性和免疫原性。",
+      "design": "單中心回溯性研究，納入 2019 年 11 月至 2025 年 4 月間接受移植後 VZV 疫苗接種的兒童心臟移植受者，共 40 名患者（30 名完成兩劑接種），分析基線特徵、免疫參數、免疫抑制方案、血清學反應及不良事件。",
+      "findings": "97% 患者（n=36）達到血清轉換，中位追蹤 20 個月時 80% 維持陽性；37.5% 患者發生不良事件，主要為輕微局部自限性皮疹；1 例發生輕微痘瘡，1 例在再移植後短期內發生疫苗株 VZV 播散性感染；53% 患者使用 mycophenolate mofetil，25% tacrolimus 濃度 ≥8 μg/mL，55% CD4 計數低於年齡參考值，20% 有可檢測的 EBV 病毒載量。",
+      "significance": "本研究涉及兒童心臟移植患者的疫苗接種策略，與新生兒科照護無直接關聯。新生兒科醫師不需關注此研究，因其針對移植後兒童的免疫抑制狀態下的疫苗安全性，非早產兒或新生兒重症醫學的核心議題。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41862036",
+    "title": "Advancing ABO-Histocompatibility: Impact of Multiplexed ABO Antibody Immunoassay to Increase Precision in Pediatric Heart Transplantation.",
+    "authors": "Glass LD, Murphey C, Castleberry CD, et al.",
+    "journal": "Journal of Heart and Lung Transplantation",
+    "pub_date": "2026 Mar 18",
+    "doi": "10.1016/j.healun.2026.03.003",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "心臟移植",
+      "ABO 不相容",
+      "免疫檢測",
+      "小兒患者",
+      "移植免疫學"
+    ],
+    "one_liner": "本文為心臟移植免疫檢測技術的病例報告，與新生兒科臨床實踐無關，可跳過。",
+    "summary": {
+      "purpose": "評估新型多重檢測 ABO 抗體免疫分析法在小兒心臟移植中的臨床應用，特別是 ABO 不相容移植的候選人評估與移植後監測。",
+      "design": "病例報告，呈現兩例接受 ABO 不相容心臟移植的嬰幼兒患者，使用新型多重檢測免疫分析法測定 IgG 和 IgM 抗體，與傳統血球凝集試驗進行比較。",
+      "findings": "新型多重檢測免疫分析法能更精確測定針對供體心臟組織 ABO 醣蛋白亞型的特異性抗體，相比傳統血球凝集試驗具有更高的標準化與再現性。案例一：儘管傳統試驗顯示邊界高值，新檢測法支持成功進行 ABOi 移植；案例二：移植後意外高滴度經新檢測法判定為臨床無關，避免不必要的治療。",
+      "significance": "本研究與新生兒加護病房照護無直接關聯。雖涉及小兒患者，但主題為心臟移植免疫學檢測技術，不屬於新生兒重症醫學、早產兒照護或新生兒發育追蹤範疇。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41871212",
+    "title": "Catheter-based Foetal Cardiac Interventions (FCI) - Literature Review.",
+    "authors": "Chow PC",
+    "journal": "Fetal Diagnosis and Therapy",
+    "pub_date": "2026 Mar 23",
+    "doi": "10.1159/000551612",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "fetal cardiac intervention",
+      "congenital heart disease",
+      "prenatal diagnosis",
+      "literature review"
+    ],
+    "one_liner": "此為胎兒心臟介入治療的產前醫學文獻回顧，與新生兒科日常 NICU 照護決策無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "系統性回顧胎兒心臟介入治療（FCI）的適應症、技術、併發症及預後，涵蓋胎兒主動脈瓣膜成形術、肺動脈瓣膜成形術及心房中隔介入治療。",
+      "design": "文獻回顧（narrative review），無特定樣本量、GA 範圍或出生體重限制，主要針對已發表文獻進行敘述性整合。",
+      "findings": "胎兒心臟介入治療為重症先天性心臟病提供宮內治療機會，但缺乏隨機對照試驗支持，最佳個案選擇標準尚未確立。",
+      "significance": "本文為產前診斷與胎兒治療領域的文獻回顧，與新生兒出生後的 NICU 照護決策無直接關聯；胎兒介入治療的預後與新生兒期的管理策略（如 PGE1、CPAP、早期手術評估）有間接關係，但本文未涉及新生兒期的臨床管理建議。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41866303",
+    "title": "Hypertrophic Cardiomyopathy as a Key Feature of MRAS-Related Noonan Syndrome: New Case and Comprehensive Literature Review.",
+    "authors": "Martineau R, Wells C, Fuchs F, et al.",
+    "journal": "Prenatal Diagnosis",
+    "pub_date": "2026 Mar 22",
+    "doi": "10.1002/pd.70134",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Noonan syndrome",
+      "hypertrophic cardiomyopathy",
+      "MRAS",
+      "RASopathy",
+      "prenatal diagnosis"
+    ],
+    "one_liner": "罕見遺傳症候群的個案報告，與新生兒重症照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "報告一例具有早期嚴重心肌肥厚症表現的 MRAS 相關 Noonan syndrome 病例，並回顧相關文獻。",
+      "design": "個案報告加文獻回顧。描述一例 33 週出生的胎兒，產前超音波發現頸部透明帶增厚、靜脈導管缺失、肺淋巴管擴張及複雜肝臟血管異常。",
+      "findings": "該新生兒出生後因難治性休克和多器官衰竭死亡。病理檢查確認心肌肥厚症、閉塞性門脈病變及淋巴管擴張。文獻回顧顯示 MRAS 基因變異病例（共 8 例）均表現心肌肥厚症（100%）。",
+      "significance": "本案例為首例記錄 MRAS 相關 Noonan syndrome 產前早期嚴重表現者。強調 MRAS 變異與高風險心肌肥厚症的關聯，並提及 MEK 抑制劑等新興標靶治療的潛力，但對 NICU 日常照護決策的直接影響有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41870449",
+    "title": "Role of Biomarkers in Acute Brain Injury During ECMO Support.",
+    "authors": "Lorusso R, Fan E",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Mar 23",
+    "doi": "10.1001/jamapediatrics.2026.0387",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "ECMO",
+      "腦損傷",
+      "生物標誌物",
+      "新生兒重症"
+    ],
+    "one_liner": "可跳過——此為 ECMO 相關生物標誌物的敘述性回顧，缺乏具體研究數據與新生兒特異性證據，對 NICU 日常照護決策無直接影響。",
+    "summary": {
+      "purpose": "探討體外膜肺氧合（ECMO）支持期間生物標誌物在急性腦損傷診斷與監測中的角色。",
+      "design": "文獻回顧或專家評論（editorial/narrative review），未提供具體研究設計、樣本數或患者族群資訊。",
+      "findings": "未提供具體研究數據、統計結果或臨床發現。",
+      "significance": "ECMO 支持的患者族群（包括新生兒與兒童）確實面臨腦損傷風險，但本文未提供新的臨床證據或改變現有照護策略的具體建議。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
+  },
+  {
+    "pmid": "41862665",
+    "title": "Children with congenital heart disease (CHD): families coping strategies and support systems.",
+    "authors": "Ganguly NK, Saha GK",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 20",
+    "doi": "10.1038/s41390-026-04892-x",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "CHD",
+      "family support",
+      "pediatric cardiology",
+      "psychosocial"
+    ],
+    "one_liner": "本文為一般兒科心臟病的家庭社會心理研究，與新生兒重症醫學及早產兒照護無直接相關性，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "探討先天性心臟病（CHD）兒童家庭的因應策略與支持系統。",
+      "design": "研究設計未在摘要中明確說明，主題為一般兒科心臟病患者的家庭社會心理議題，非新生兒特異性研究。",
+      "findings": "摘要內容未提供具體數據或統計結果。",
+      "significance": "本研究主要聚焦於 CHD 患者家庭的心理社會層面，與新生兒重症醫學、早產兒照護、新生兒呼吸窘迫症候群（RDS）、支氣管肺發育不全（BPD）、壞死性腸炎（NEC）等新生兒科核心議題無直接關聯。雖然某些 CHD 患者可能為新生兒期診斷，但本研究未針對新生兒期特異性的臨床管理或發育追蹤進行評估。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-24"
   }
 ]
