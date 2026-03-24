@@ -156,7 +156,7 @@ class FulltextFetcher:
         pmid = article.get("pmid", "")
         if not pmid:
             return False
-        pdf_path = Path(f"data/pdfs/{pmid}.pdf")
+        pdf_path = Path(f"data/{self.dept}/pdfs/{pmid}.pdf")
         if not pdf_path.exists():
             return False
         try:

@@ -76,6 +76,7 @@ function doGet(e) {
   var uid = params.uid || "anonymous";
   var secret = params.secret || "";
   var callback = params.callback || "";
+  var dept = validateDept(params.dept);
 
   if (!pmid || !rating) {
     var errMsg = "Missing pmid or rating";
@@ -98,7 +99,7 @@ function doGet(e) {
   }
 
   // Save feedback
-  saveFeedbackToGitHub(pmid, rating, uid, source);
+  saveFeedbackToGitHub(pmid, rating, uid, source, dept);
 
   // Return response based on source
   if (callback) {
@@ -133,17 +134,68 @@ function doGet(e) {
 
 
 // ============================================
+// Department Validation
+// ============================================
+
+var VALID_DEPTS = ["newborn", "cardiology"];
+
+function validateDept(dept) {
+  if (dept && VALID_DEPTS.indexOf(dept) !== -1) return dept;
+  return "newborn";
+}
+
+
+/**
+ * Robustly parse JSON from Claude API response.
+ * Handles markdown fences, trailing commas, and extracts JSON object if surrounded by text.
+ */
+function parseJsonFromLLM(resp) {
+  var data = JSON.parse(resp.getContentText("UTF-8"));
+
+  // Check for API error
+  if (data.type === "error" || !data.content || !data.content[0]) {
+    console.error("API error:", JSON.stringify(data));
+    return null;
+  }
+
+  var text = data.content[0].text;
+
+  // Strip markdown fences (```json ... ``` or ``` ... ```)
+  text = text.replace(/^```(?:json)?\s*\n?/, "").replace(/\n?```\s*$/, "").trim();
+
+  // Try direct parse first
+  try {
+    return JSON.parse(text);
+  } catch (e) {
+    // Fallback: extract the first { ... } block
+    var match = text.match(/\{[\s\S]*\}/);
+    if (match) {
+      try {
+        return JSON.parse(match[0]);
+      } catch (e2) {
+        // Try fixing trailing commas: ,} → } and ,] → ]
+        var fixed = match[0].replace(/,\s*([}\]])/g, "$1");
+        return JSON.parse(fixed);
+      }
+    }
+    throw new Error("Could not parse JSON from LLM response: " + text.substring(0, 200));
+  }
+}
+
+
+// ============================================
 // Postback Handler (LINE)
 // ============================================
 
 function handlePostback(event) {
   var data = parsePostbackData(event.postback.data);
   var userId = event.source.userId || "anonymous";
+  var dept = validateDept(data.dept);
 
   if (data.action === "feedback") {
-    handleFeedback(data.pmid, data.rating, userId);
+    handleFeedback(data.pmid, data.rating, userId, dept);
   } else if (data.action === "deep_analysis") {
-    handleDeepAnalysisRequest(data.pmid, userId, event.replyToken);
+    handleDeepAnalysisRequest(data.pmid, userId, event.replyToken, dept);
   }
 }
 
@@ -164,17 +216,18 @@ function parsePostbackData(dataStr) {
 // Feedback Handler
 // ============================================
 
-function handleFeedback(pmid, rating, userId) {
-  console.log("Feedback: PMID " + pmid + " = " + rating + " by " + userId.substring(0, 8));
-  saveFeedbackToGitHub(pmid, rating, "line_" + userId, "line");
+function handleFeedback(pmid, rating, userId, dept) {
+  console.log("Feedback: PMID " + pmid + " = " + rating + " by " + userId.substring(0, 8) + " dept=" + dept);
+  saveFeedbackToGitHub(pmid, rating, "line_" + userId, "line", dept);
 }
 
 
-function saveFeedbackToGitHub(pmid, rating, userId, source) {
+function saveFeedbackToGitHub(pmid, rating, userId, source, dept) {
+  dept = dept || "newborn";
   try {
     var repo = getProperty("GITHUB_REPO");
     var githubToken = getProperty("GITHUB_TOKEN");
-    var path = "data/feedback.json";
+    var path = "data/" + dept + "/feedback.json";
 
     // Get current file
     var fileData = getGitHubFile(repo, path, githubToken);
@@ -227,8 +280,9 @@ function saveFeedbackToGitHub(pmid, rating, userId, source) {
 // On-Demand Deep Analysis
 // ============================================
 
-function handleDeepAnalysisRequest(pmid, userId, replyToken) {
-  console.log("On-demand request: PMID " + pmid + " by " + userId.substring(0, 8));
+function handleDeepAnalysisRequest(pmid, userId, replyToken, dept) {
+  dept = dept || "newborn";
+  console.log("On-demand request: PMID " + pmid + " by " + userId.substring(0, 8) + " dept=" + dept);
 
   // 1. Reply immediately: "Analyzing..."
   replyMessage(replyToken, "正在使用 Sonnet 進行深度分析，大約需要 60 秒...\nPMID: " + pmid);
@@ -256,7 +310,7 @@ function handleDeepAnalysisRequest(pmid, userId, replyToken) {
   pushMessage(userId, resultText);
 
   // 6. Save to on-demand queue for tomorrow's digest
-  saveOnDemandToGitHub(pmid, userId, article, analysis);
+  saveOnDemandToGitHub(pmid, userId, article, analysis, dept);
 
   console.log("On-demand analysis complete for PMID " + pmid);
 }
@@ -351,13 +405,7 @@ function callSonnetAnalysis(article) {
       muteHttpExceptions: true
     });
 
-    var data = JSON.parse(resp.getContentText("UTF-8"));
-    var text = data.content[0].text;
-
-    // Strip markdown fences
-    text = text.replace(/^```json\s*/, "").replace(/```\s*$/, "").trim();
-
-    return JSON.parse(text);
+    return parseJsonFromLLM(resp);
 
   } catch (err) {
     console.error("Sonnet analysis error:", err);
@@ -414,11 +462,12 @@ function formatDeepAnalysisText(article, analysis) {
 // On-Demand Queue (save to GitHub for next day digest)
 // ============================================
 
-function saveOnDemandToGitHub(pmid, userId, article, analysis) {
+function saveOnDemandToGitHub(pmid, userId, article, analysis, dept) {
+  dept = dept || "newborn";
   try {
     var repo = getProperty("GITHUB_REPO");
     var githubToken = getProperty("GITHUB_TOKEN");
-    var path = "data/on_demand_queue.json";
+    var path = "data/" + dept + "/on_demand_queue.json";
 
     var fileData = getGitHubFile(repo, path, githubToken);
     var queue = [];
@@ -469,6 +518,7 @@ function handlePdfUpload(body) {
   var title = body.title || "";
   var pdfBase64 = body.pdf_base64 || "";
   var secret = body.secret || "";
+  var dept = validateDept(body.dept);
 
   // Validate
   var expectedSecret = getProperty("FEEDBACK_SECRET");
@@ -492,7 +542,7 @@ function handlePdfUpload(body) {
     var githubToken = getProperty("GITHUB_TOKEN");
 
     // 1. Check if analysis already exists
-    var existingAnalysis = getGitHubFile(repo, "data/pdf_analyses/" + pmid + ".json", githubToken);
+    var existingAnalysis = getGitHubFile(repo, "data/" + dept + "/pdf_analyses/" + pmid + ".json", githubToken);
     if (existingAnalysis && existingAnalysis.content) {
       var existing = JSON.parse(
         Utilities.newBlob(
@@ -504,7 +554,7 @@ function handlePdfUpload(body) {
     }
 
     // 2. Commit PDF to GitHub
-    var pdfPath = "data/pdfs/" + pmid + ".pdf";
+    var pdfPath = "data/" + dept + "/pdfs/" + pmid + ".pdf";
     var existingPdf = getGitHubFile(repo, pdfPath, githubToken);
     updateGitHubFile(repo, pdfPath, pdfBase64, existingPdf ? existingPdf.sha : null,
                      "Upload PDF: PMID " + pmid, githubToken);
@@ -544,7 +594,7 @@ function handlePdfUpload(body) {
     var resultBase64 = Utilities.base64Encode(
       Utilities.newBlob(resultJson, "text/plain").getBytes()
     );
-    updateGitHubFile(repo, "data/pdf_analyses/" + pmid + ".json", resultBase64, null,
+    updateGitHubFile(repo, "data/" + dept + "/pdf_analyses/" + pmid + ".json", resultBase64, null,
                      "PDF analysis: PMID " + pmid, githubToken);
 
     return ContentService.createTextOutput(JSON.stringify({ status: "ok", analysis: result, cached: false }))
@@ -569,8 +619,8 @@ function extractPdfText(pdfBase64) {
     var doc = DocumentApp.openById(file.id);
     var text = doc.getBody().getText();
 
-    // Clean up: delete the temp file
-    DriveApp.getFileById(file.id).setTrashed(true);
+    // Clean up: permanently delete the temp file (not just trash)
+    Drive.Files.remove(file.id);
 
     if (!text || text.trim().length < 100) {
       return null;
@@ -628,13 +678,7 @@ function callSonnetWithFulltext(article, fulltext) {
       muteHttpExceptions: true
     });
 
-    var data = JSON.parse(resp.getContentText("UTF-8"));
-    var text = data.content[0].text;
-
-    // Strip markdown fences
-    text = text.replace(/^```json\s*/, "").replace(/```\s*$/, "").trim();
-
-    return JSON.parse(text);
+    return parseJsonFromLLM(resp);
 
   } catch (err) {
     console.error("Sonnet fulltext analysis error:", err);

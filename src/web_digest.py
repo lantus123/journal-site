@@ -223,6 +223,7 @@ class WebDigestGenerator:
 (function() {{
   var FEEDBACK_URL = "{self.feedback_url}";
   var SECRET = "{self.feedback_secret}";
+  var DEPT = "{self.dept}";
   var voted = JSON.parse(localStorage.getItem('digest_voted') || '{{}}'  );
 
   window.addEventListener('DOMContentLoaded', function() {{
@@ -287,7 +288,7 @@ class WebDigestGenerator:
       script.remove();
     }};
     script.src = FEEDBACK_URL + '?action=feedback&pmid=' + pmid + '&rating=' + rating +
-      '&uid=' + uid + '&source=web&secret=' + SECRET + '&callback=' + cb;
+      '&uid=' + uid + '&source=web&secret=' + SECRET + '&dept=' + DEPT + '&callback=' + cb;
     document.body.appendChild(script);
   }};
 }})();
@@ -688,6 +689,7 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
 (function() {{
   var WEBHOOK_URL = "{self.feedback_url}";
   var SECRET = "{self.feedback_secret}";
+  var DEPT = "{self.dept}";
   var uploaded = JSON.parse(localStorage.getItem('digest_uploaded') || '{{}}');
 
   // Restore uploaded state on load
@@ -731,7 +733,8 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
           pmid: pmid,
           title: title,
           pdf_base64: base64,
-          secret: SECRET
+          secret: SECRET,
+          dept: DEPT
         }})
       }})
       .then(function(r) {{ return r.json(); }})
