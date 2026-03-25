@@ -64,9 +64,43 @@ function doGet(e) {
   var action = params.action || "";
 
   // Health check
-  if (action !== "feedback") {
+  if (action !== "feedback" && action !== "check_pdf") {
     return ContentService.createTextOutput("NICU/PICU Journal Bot Webhook Active")
       .setMimeType(ContentService.MimeType.TEXT);
+  }
+
+  // Check PDF analysis status (JSONP)
+  if (action === "check_pdf") {
+    var pmid = params.pmid || "";
+    var secret = params.secret || "";
+    var callback = params.callback || "";
+    var dept = validateDept(params.dept);
+
+    var expectedSecret = getProperty("FEEDBACK_SECRET");
+    if (expectedSecret && secret !== expectedSecret) {
+      var errResp = callback + '({"status":"error","message":"Unauthorized"})';
+      return ContentService.createTextOutput(errResp).setMimeType(ContentService.MimeType.JAVASCRIPT);
+    }
+
+    if (!pmid) {
+      var errResp = callback + '({"status":"error","message":"Missing pmid"})';
+      return ContentService.createTextOutput(errResp).setMimeType(ContentService.MimeType.JAVASCRIPT);
+    }
+
+    var repo = getProperty("GITHUB_REPO");
+    var githubToken = getProperty("GITHUB_TOKEN");
+    var existing = getGitHubFile(repo, "data/" + dept + "/pdf_analyses/" + pmid + ".json", githubToken);
+
+    if (existing && existing.content) {
+      var analysis = JSON.parse(
+        Utilities.newBlob(Utilities.base64Decode(existing.content.replace(/\n/g, ""))).getDataAsString("UTF-8")
+      );
+      var okResp = callback + '(' + JSON.stringify({ status: "ok", analysis: analysis, cached: true }) + ')';
+      return ContentService.createTextOutput(okResp).setMimeType(ContentService.MimeType.JAVASCRIPT);
+    }
+
+    var pendingResp = callback + '({"status":"pending"})';
+    return ContentService.createTextOutput(pendingResp).setMimeType(ContentService.MimeType.JAVASCRIPT);
   }
 
   // Validate required params

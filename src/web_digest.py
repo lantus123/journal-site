@@ -705,6 +705,55 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
     }});
   }});
 
+  // JSONP helper for polling
+  function jsonpGet(url, callback) {{
+    var script = document.createElement('script');
+    var cb = 'pdfcb_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5);
+    window[cb] = function(resp) {{
+      delete window[cb];
+      document.head.removeChild(script);
+      callback(resp);
+    }};
+    script.src = url + '&callback=' + cb;
+    script.onerror = function() {{
+      delete window[cb];
+      document.head.removeChild(script);
+      callback({{ status: 'error', message: 'Network error' }});
+    }};
+    document.head.appendChild(script);
+  }}
+
+  // Poll for analysis result via JSONP GET
+  function pollForResult(pmid, btn, statusEl, attempts) {{
+    if (attempts <= 0) {{
+      btn.textContent = '❌ 分析逾時';
+      btn.disabled = false;
+      statusEl.textContent = '伺服器處理時間過長，請稍後再試';
+      statusEl.style.color = '#E24B4A';
+      return;
+    }}
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {{
+      if (resp.status === 'ok' && resp.analysis) {{
+        btn.textContent = '✓ 全文分析完成';
+        btn.style.color = '#085041';
+        btn.style.borderColor = '#085041';
+        statusEl.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
+        statusEl.style.color = '#085041';
+        uploaded[pmid] = true;
+        localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
+        renderAnalysis(pmid, resp.analysis);
+      }} else if (resp.status === 'pending') {{
+        setTimeout(function() {{ pollForResult(pmid, btn, statusEl, attempts - 1); }}, 10000);
+      }} else {{
+        btn.textContent = '❌ 分析失敗';
+        btn.disabled = false;
+        statusEl.textContent = resp.message || '請稍後再試';
+        statusEl.style.color = '#E24B4A';
+      }}
+    }});
+  }}
+
   window.handlePdfSelect = function(pmid, title, input) {{
     var file = input.files[0];
     if (!file) return;
@@ -717,7 +766,7 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
     var status = document.getElementById('upload-status-' + pmid);
     btn.textContent = '⏳ 上傳分析中...';
     btn.disabled = true;
-    status.textContent = '正在提取全文並進行 AI 深度分析，約需 1 分鐘...';
+    status.textContent = '正在提取全文並進行 AI 深度分析，約需 1-2 分鐘...';
     status.style.display = 'inline';
     status.style.color = '#1B6B93';
 
@@ -725,8 +774,10 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
     reader.onload = function(e) {{
       var base64 = e.target.result.split(',')[1];
 
+      // Step 1: Fire-and-forget POST (no-cors to bypass CORS preflight)
       fetch(WEBHOOK_URL, {{
         method: 'POST',
+        mode: 'no-cors',
         headers: {{ 'Content-Type': 'text/plain' }},
         body: JSON.stringify({{
           action: 'upload_pdf',
@@ -736,34 +787,10 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
           secret: SECRET,
           dept: DEPT
         }})
-      }})
-      .then(function(r) {{ return r.json(); }})
-      .then(function(resp) {{
-        if (resp.status === 'ok' && resp.analysis) {{
-          btn.textContent = '✓ 全文分析完成';
-          btn.style.color = '#085041';
-          btn.style.borderColor = '#085041';
-          status.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
-          status.style.color = '#085041';
+      }}).catch(function() {{}});
 
-          uploaded[pmid] = true;
-          localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
-
-          // Render analysis result inline
-          renderAnalysis(pmid, resp.analysis);
-        }} else {{
-          btn.textContent = '❌ 分析失敗';
-          btn.disabled = false;
-          status.textContent = resp.message || '請稍後再試';
-          status.style.color = '#E24B4A';
-        }}
-      }})
-      .catch(function(err) {{
-        btn.textContent = '❌ 上傳失敗';
-        btn.disabled = false;
-        status.textContent = '網路錯誤，請稍後再試';
-        status.style.color = '#E24B4A';
-      }});
+      // Step 2: Poll for result via JSONP (every 10s, up to 18 attempts = 3 min)
+      setTimeout(function() {{ pollForResult(pmid, btn, status, 18); }}, 15000);
     }};
     reader.readAsDataURL(file);
   }};
