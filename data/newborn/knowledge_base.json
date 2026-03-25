@@ -7068,5 +7068,202 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-25"
+  },
+  {
+    "pmid": "41876331",
+    "title": "Neonatal posthemorrhagic ventricular dilatation: Monitoring and medical intervention.",
+    "authors": "Acun C, Qattea I, Aly H, et al.",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 21",
+    "doi": "10.1016/j.siny.2026.101731",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 5,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "IVH",
+      "PHVD",
+      "PHH",
+      "cranial ultrasonography",
+      "neurodevelopmental outcome"
+    ],
+    "one_liner": "必讀綜述：系統整合 PHVD/PHH 的監測與醫學治療證據，直接影響極早產兒 IVH 後續管理決策與神經發育預後。",
+    "summary": {
+      "purpose": "綜述極早產兒腦室出血後腦室擴張（PHVD）和腦室出血後腦積水（PHH）的病理生理、監測策略及醫學治療的最新證據。",
+      "design": "敘述性綜述文章，整合隨機對照試驗與統合分析的證據，針對極早產兒 IVH 後續併發症的管理進行系統性回顧。",
+      "findings": "PHVD/PHH 涉及腦脊髓液動力學多重障礙（吸收受損、流動阻塞、發炎介導損傷）；定量顱骨超音波與早期個別化介入可減少進行性腦損傷；各中心治療時機與閾值仍存在顯著差異。",
+      "significance": "直接指導 NICU 對 IVH 後續患兒的神經影像監測頻率、醫學治療決策時機（如利尿劑、穿刺引流），以及何時轉介神經外科手術；強調早期定量超音波評估對預防進行性腦損傷的重要性，有助於改善神經發育預後。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-26"
+  },
+  {
+    "pmid": "41875791",
+    "title": "Glucose abnormalities in infants with birth asphyxia are associated with later neurological diagnoses.",
+    "authors": "Viitaharju N, Parikka V, Löyttyniemi E, et al.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 17",
+    "doi": "10.1016/j.earlhumdev.2026.106536",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "HIE",
+      "出生窒息",
+      "血糖異常",
+      "神經發育預後",
+      "腦性麻痺"
+    ],
+    "one_liner": "單中心回溯性研究提示 HIE 新生兒早期血糖異常與神經發育障礙相關，但樣本量有限且缺乏介入證據，目前尚無法直接改變臨床照護決策，需更大型研究驗證。",
+    "summary": {
+      "purpose": "探討出生窒息新生兒早期血糖異常與後續神經發育預後的關聯性。",
+      "design": "單中心回溯性世代研究，納入 272 名足月至近足月新生兒（GA ≥36 週），診斷為出生窒息及/或缺氧缺血性腦病變（HIE），收集出生後 72 小時內血糖值及臨床追蹤資料；44 名接受治療性低溫，228 名未接受。",
+      "findings": "多變量分析顯示血糖 <2.6 mmol/L 與聽覺障礙相關（aOR 6.7, 95% CI 1.2-37.3）；血糖 >8.3 mmol/L 與腦性麻痺（OR 4.5, 95% CI 1.2-16.4）及聽覺障礙（OR 6.1, 95% CI 1.2-29.7）相關。未接受治療性低溫的 228 名嬰兒中，低血糖及高血糖均與腦性麻痺、癲癇及聽覺障礙相關，效應量較大（OR 5.63-19.4）。",
+      "significance": "提示出生窒息新生兒早期血糖失調與神經發育障礙（包括腦性麻痺、癲癇、聽覺障礙）的關聯，但因為單中心回溯性設計、樣本量中等、未進行嚴格血糖控制介入試驗，目前證據尚不足以改變臨床實務；建議未來需大型多中心前瞻性研究驗證，並評估積極血糖控制是否能改善神經預後。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-26"
+  },
+  {
+    "pmid": "41876332",
+    "title": "Understanding intraventricular hemorrhage: Historical perspectives and definitions.",
+    "authors": "Perlman JM",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 21",
+    "doi": "10.1016/j.siny.2026.101724",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 1,
+      "generalizability": 2
+    },
+    "keywords": [
+      "IVH",
+      "germinal matrix",
+      "cerebral autoregulation",
+      "indomethacin",
+      "antenatal steroids"
+    ],
+    "one_liner": "可跳過——此為歷史回顧性章節，無新數據或臨床建議，適合教學背景閱讀但不影響當前 NICU 決策。",
+    "summary": {
+      "purpose": "回顧 IVH 在早產兒的演進歷史，強調生殖基質的重要性、腦血流擾動在出血發生中的角色，以及臨床危險因子與預防策略。",
+      "design": "敘述性回顧與歷史文獻整理，涵蓋 1970 年代至 1990 年代的神經病理學、臨床研究與實驗證據，無原始數據或新的臨床試驗。",
+      "findings": "1970 年代：生殖基質毛細血管破裂為 IVH 來源；腦自動調節喪失在病重嬰兒中被證實。1980 年代：顱部超音波促進診斷；腦血流速度波動與後續出血的關聯被確立；surfactant 未減少 IVH 發生率。1990 年代：產前類固醇加速肺部發育並意外減少 IVH；早期 indomethacin 給藥與重度 IVH 減少相關。",
+      "significance": "提供 IVH 病生理的歷史脈絡與概念演進，有助於理解現代 NICU 中 IVH 預防策略（如產前類固醇、早期 indomethacin、血流穩定化）的證據基礎，但本身不提供新的臨床指引或實踐改變建議。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-26"
+  },
+  {
+    "pmid": "41875973",
+    "title": "Approaches to Identifying Social Needs: The SECURE RCT.",
+    "authors": "Cullen D, Brown R, McPeak K, et al.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Mar 25",
+    "doi": "10.1542/peds.2025-073800",
+    "total_score": 2,
+    "scores": {
+      "design": 4,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "social determinants",
+      "screening",
+      "resource navigation",
+      "general pediatrics",
+      "health equity"
+    ],
+    "one_liner": "此為一般兒科社會需求篩檢策略研究，與新生兒/早產兒照護無直接關聯，NICU 醫師可跳過。",
+    "summary": {
+      "purpose": "比較社會風險篩檢、資源菜單及無篩檢三種方式對照顧者社會資源需求意願與使用率的影響。",
+      "design": "多語言 RCT，納入兒童醫院急診室及初級照護門診的 3949 名成人照顧者，隨機分配至三組（社會風險篩檢、資源菜單、對照組），30 天追蹤調查 906 人，以卡方檢定及迴歸分析評估組間差異。",
+      "findings": "資源菜單組報告需要資源的比例顯著高於篩檢組（38.4% vs 29.0%, P<0.001）；非英語使用者在資源菜單呈現時報告資源需求的勝算比為 2.7（95% CI 1.6-4.7）；資源導航參與度與所需資源領域數呈劑量反應關係（P<0.001）；追蹤者中 40.1% 報告使用資源、33.4% 分享資源地圖。",
+      "significance": "本研究聚焦於一般兒科照顧者的社會需求評估策略，與新生兒重症照護無直接關聯，不涉及早產兒、NICU 特定族群、或新生兒臨床決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-26"
+  },
+  {
+    "pmid": "41876697",
+    "title": "Integrated transcriptomics and proteomics analysis reveal potential target in pediatric primary restrictive cardiomyopathy.",
+    "authors": "Fu X, Liu J, Guo Q, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 24",
+    "doi": "10.1038/s41390-026-04857-0",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "restrictive cardiomyopathy",
+      "transcriptomics",
+      "proteomics",
+      "pediatric cardiology",
+      "drug repurposing"
+    ],
+    "one_liner": "本篇為小兒心臟病學的基礎分子研究，與 NICU 早產兒照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "透過整合轉錄體學和蛋白質體學分析，探討小兒原發性限制型心肌病變（RCM）的分子機制並識別潛在治療靶點。",
+      "design": "小樣本組織學研究，包含 7 名小兒 RCM 患者和 3 名對照捐獻者的心肌組織，進行 DEG 和 DEP 分析（log2FC>1 或 <-1，P<0.05 after FDR correction），並進行 RNA 驗證和生物資訊預測。",
+      "findings": "多體學整合發現 23 個一致性失調的基因/蛋白質（FDR adjusted P<0.05）；CKB、PGAM2 和 TPM2 在 RCM 心肌中明顯下調（P<0.05）；功能富集分析顯示涉及肌肉收縮、肌動蛋白組織和細胞外基質重塑的關鍵通路；藥物預測分析識別苯妥英、地西泮和帕立骨化三醇等可能的藥物重新定位候選物。",
+      "significance": "本研究與新生兒重症醫學無直接關聯。限制型心肌病變是罕見的小兒心臟疾病，不屬於 NICU 常見的早產兒併發症（如 BPD、NEC、IVH、ROP）；樣本量極小（n=7），缺乏臨床驗證；藥物預測結果（苯妥英、地西泮）尚未進入臨床試驗階段，距離實際應用遙遠。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-26"
+  },
+  {
+    "pmid": "41875914",
+    "title": "Proton beam therapy for oropharyngeal cancer (TORPEdO): a phase 3, randomised controlled trial.",
+    "authors": "Thomson DJ, Price JM, Tyler M, et al.",
+    "journal": "The Lancet",
+    "pub_date": "2026 Mar 21",
+    "doi": "10.1016/S0140-6736(26)00314-4",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人腫瘤",
+      "放射治療",
+      "口咽癌",
+      "與新生兒無關"
+    ],
+    "one_liner": "成人口咽癌放射治療試驗，與新生兒科照護無關，可跳過。",
+    "summary": {
+      "purpose": "本研究比較質子束治療（IMPT）與調強放射治療（IMRT）對口咽鱗狀細胞癌患者的晚期功能、生活品質、疾病控制及存活率的影響。",
+      "design": "第三期隨機對照試驗，納入英國20家NHS醫院，205名局部晚期口咽鱗狀細胞癌患者（男性136名，女性69名），隨機分配至IMPT組（n=136）或IMRT組（n=69），搭配高劑量順鉑化療。主要終點為12個月時胃造口管依賴或嚴重體重下降（≥20%）及生活品質評分。",
+      "findings": "12個月時，胃造口管依賴發生率IMPT組2%（2/119）vs IMRT組2%（1/59），嚴重體重下降IMPT組18%（20/110）vs IMRT組6%（3/53），合併勝算比2.80（p=0.079）。生活品質評分IMPT組78.3 vs IMRT組77.1（p=0.56）。中位追蹤28.3個月，24個月無局部區域復發率IMPT 94% vs IMRT 97%（p=0.24），整體存活率IMPT 95% vs IMRT 95%（p=0.47）。",
+      "significance": "本研究與新生兒照護完全無關，屬成人腫瘤放射治療領域，對NICU臨床決策無任何影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-26"
   }
 ]
