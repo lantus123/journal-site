@@ -727,7 +727,7 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
 
       fetch(WEBHOOK_URL, {{
         method: 'POST',
-        headers: {{ 'Content-Type': 'application/json' }},
+        headers: {{ 'Content-Type': 'text/plain' }},
         body: JSON.stringify({{
           action: 'upload_pdf',
           pmid: pmid,
