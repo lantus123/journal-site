@@ -763,34 +763,56 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
     }}
 
     var btn = document.getElementById('upload-btn-' + pmid);
-    var status = document.getElementById('upload-status-' + pmid);
+    var statusEl = document.getElementById('upload-status-' + pmid);
     btn.textContent = '⏳ 上傳分析中...';
     btn.disabled = true;
-    status.textContent = '正在提取全文並進行 AI 深度分析，約需 1-2 分鐘...';
-    status.style.display = 'inline';
-    status.style.color = '#1B6B93';
+    statusEl.textContent = '正在提取全文並進行 AI 深度分析，約需 1-2 分鐘...';
+    statusEl.style.display = 'inline';
+    statusEl.style.color = '#1B6B93';
 
     var reader = new FileReader();
     reader.onload = function(e) {{
       var base64 = e.target.result.split(',')[1];
 
-      // Step 1: Fire-and-forget POST (no-cors to bypass CORS preflight)
-      fetch(WEBHOOK_URL, {{
-        method: 'POST',
-        mode: 'no-cors',
-        headers: {{ 'Content-Type': 'text/plain' }},
-        body: JSON.stringify({{
-          action: 'upload_pdf',
-          pmid: pmid,
-          title: title,
-          pdf_base64: base64,
-          secret: SECRET,
-          dept: DEPT
-        }})
-      }}).catch(function() {{}});
+      // Step 1: Submit via hidden form + iframe (bypasses CORS entirely)
+      var iframe = document.createElement('iframe');
+      iframe.name = 'pdf_upload_frame_' + pmid;
+      iframe.style.display = 'none';
+      document.body.appendChild(iframe);
+
+      var form = document.createElement('form');
+      form.method = 'POST';
+      form.action = WEBHOOK_URL;
+      form.target = iframe.name;
+      form.style.display = 'none';
+
+      var fields = {{
+        action: 'upload_pdf',
+        pmid: pmid,
+        title: title,
+        pdf_base64: base64,
+        secret: SECRET,
+        dept: DEPT
+      }};
+      for (var key in fields) {{
+        var input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = key;
+        input.value = fields[key];
+        form.appendChild(input);
+      }}
+
+      document.body.appendChild(form);
+      form.submit();
+
+      // Clean up form after submit
+      setTimeout(function() {{
+        document.body.removeChild(form);
+        document.body.removeChild(iframe);
+      }}, 5000);
 
       // Step 2: Poll for result via JSONP (every 10s, up to 18 attempts = 3 min)
-      setTimeout(function() {{ pollForResult(pmid, btn, status, 18); }}, 15000);
+      setTimeout(function() {{ pollForResult(pmid, btn, statusEl, 18); }}, 15000);
     }};
     reader.readAsDataURL(file);
   }};

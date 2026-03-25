@@ -26,9 +26,15 @@
 
 function doPost(e) {
   try {
+    // Handle form-encoded POST (from hidden iframe upload)
+    var params = e.parameter || {};
+    if (params.action === "upload_pdf") {
+      return handlePdfUpload(params);
+    }
+
     var body = JSON.parse(e.postData.contents);
 
-    // PDF upload from web digest
+    // PDF upload from JSON POST (legacy)
     if (body.action === "upload_pdf") {
       return handlePdfUpload(body);
     }
