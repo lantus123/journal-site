@@ -724,6 +724,28 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
   }}
 
   // Poll for analysis result via JSONP GET
+  var POLL_TOTAL = 18;
+  var POLL_STEPS = [
+    '📤 PDF 已上傳，伺服器接收中...',
+    '📄 正在提取 PDF 全文...',
+    '📄 正在提取 PDF 全文...',
+    '🔍 全文提取中，準備進行 AI 分析...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '💾 正在儲存分析結果...',
+    '💾 正在儲存分析結果...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 即將完成...',
+    '⏳ 即將完成...'
+  ];
+
   function pollForResult(pmid, btn, statusEl, attempts) {{
     if (attempts <= 0) {{
       btn.textContent = '❌ 分析逾時';
@@ -732,6 +754,13 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
       statusEl.style.color = '#E24B4A';
       return;
     }}
+
+    // Update progress message
+    var stepIdx = POLL_TOTAL - attempts;
+    var elapsed = (stepIdx + 1) * 10 + 15;
+    var msg = POLL_STEPS[Math.min(stepIdx, POLL_STEPS.length - 1)];
+    statusEl.textContent = msg + '（' + elapsed + '秒）';
+
     var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
     jsonpGet(url, function(resp) {{
       if (resp.status === 'ok' && resp.analysis) {{
@@ -764,9 +793,9 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
 
     var btn = document.getElementById('upload-btn-' + pmid);
     var statusEl = document.getElementById('upload-status-' + pmid);
-    btn.textContent = '⏳ 上傳分析中...';
+    btn.textContent = '⏳ 上傳中...';
     btn.disabled = true;
-    statusEl.textContent = '正在提取全文並進行 AI 深度分析，約需 1-2 分鐘...';
+    statusEl.textContent = '📤 正在上傳 PDF 至伺服器...';
     statusEl.style.display = 'inline';
     statusEl.style.color = '#1B6B93';
 
