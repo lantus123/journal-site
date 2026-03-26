@@ -7265,5 +7265,240 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-26"
+  },
+  {
+    "pmid": "41881430",
+    "title": "Umbilical cord antiseptics for preventing sepsis and death among newborns.",
+    "authors": "Imdad A, Medina M, Cooper C, et al.",
+    "journal": "Cochrane Database of Systematic Reviews - Neonatal",
+    "pub_date": "2026 Mar 26",
+    "doi": "10.1002/14651858.CD008635.pub3",
+    "total_score": 4,
+    "scores": {
+      "design": 5,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "umbilical cord care",
+      "chlorhexidine",
+      "neonatal sepsis",
+      "omphalitis",
+      "LMICs vs HICs"
+    ],
+    "one_liner": "Cochrane 高品質證據支持在低中收入國家使用 CHX 消毒臍帶可減少臍炎與可能降低新生兒死亡率，但在台灣等高收入國家證據不足，且需權衡臍帶脫落延遲的影響。",
+    "summary": {
+      "purpose": "評估臍帶消毒劑應用於新生兒臍帶以預防敗血症和死亡的效益與危害，特別針對低中收入國家（LMICs）和高收入國家（HICs）進行比較分析。",
+      "design": "Cochrane systematic review 與 meta-analysis，納入 18 項隨機對照試驗（143,150 名參與者），比較各類消毒劑（4.0% chlorhexidine、70% alcohol、silver sulfadiazine、povidone iodine）與無消毒劑對照組。主要結果測量包括全因新生兒死亡率、臍炎發生率及臍帶脫落時間，涵蓋所有胎齡與出生體重的新生兒（0-28 天）。",
+      "findings": "在 LMICs 中，5 項人口基礎試驗顯示 CHX 可能使全因新生兒死亡率從 18/1000 降至 15/1000（RR 0.86; 95% CI 0.73-1.01；低確定性證據）；CHX 可能將臍炎風險從 87/1000 降至 62/1000（RR 0.71; 95% CI 0.60-0.85；中等確定性證據），但延長臍帶脫落時間約 1.85 天（MD 1.85 days; 95% CI 0.81-2.90；中等確定性證據）。在 HICs 中，CHX 證據極不確定；70% alcohol 可能延長臍帶脫落時間 1.63 天（MD 1.63 days; 95% CI 1.11-2.15；中等確定性證據）。",
+      "significance": "本 review 提供高品質證據支持在 LMICs 使用 4.0% CHX 進行臍帶消毒以降低臍炎與可能減少新生兒死亡率，特別對於感染風險較高的低資源環境具有實踐價值。然而在台灣等 HICs 環境中，CHX 證據不足，70% alcohol 主要影響為延長臍帶脫落時間，臨床應用需謹慎。此 review 強調不同經濟發展水準國家的基線風險差異，建議照護決策應考量當地感染流行病學。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這項 Cochrane review 納入 18 項 RCT（143,150 名新生兒）評估臍帶消毒劑效益。在 LMICs 中，4.0% chlorhexidine 可能降低新生兒死亡率（18/1000→15/1000，RR 0.86）並減少臍炎風險（87/1000→62/1000，RR 0.71），但延長臍帶脫落時間 1.85 天。在台灣等 HICs 中，CHX 證據極不確定，70% alcohol 主要影響為延長臍帶脫落時間 1.63 天。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 未提及不同胎齡（特別是 <32 週極早產兒）或出生體重亞群的差異分析，但這些高風險族群的感染風險和臍帶癒合模式可能顯著不同",
+          "source": "需查閱 supplementary data 中的 subgroup analysis 或 forest plots",
+          "implication": "極早產兒皮膚屏障功能不成熟，CHX 吸收和毒性風險可能更高，且臍帶脫落延遲對 NICU 照護的影響需特別評估"
+        },
+        {
+          "finding": "Abstract 僅報告 all-cause mortality 但未區分感染相關死亡率，且缺乏長期神經發育追蹤結果",
+          "source": "全文中應有 cause-specific mortality 分析和 adverse events 詳細描述",
+          "implication": "無法確定死亡率降低是否真正來自感染預防，且 CHX 的神經毒性風險（特別是早產兒）需要長期追蹤數據"
+        },
+        {
+          "finding": "研究間存在 moderate 至 high risk of bias，特別是 detection 和 performance bias，但 abstract 未詳述具體影響",
+          "source": "Risk of bias tables 和 sensitivity analysis 結果",
+          "implication": "臍炎診斷的主觀性和無法盲化的介入可能高估治療效果，需要客觀的感染指標如血液培養陽性率來驗證"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "Cochrane 標準方法學，包含 GRADE 證據品質評估",
+          "區分 LMICs 和 HICs 進行分析，考量基線風險差異",
+          "納入大樣本人口基礎研究（129,381 名參與者）",
+          "預先註冊 protocol（2010 年）避免 reporting bias"
+        ],
+        "notes": [
+          "臍炎定義可能因研究而異，需確認是否使用標準化診斷標準",
+          "追蹤期間限制在新生兒期（28 天），缺乏長期安全性數據",
+          "CHX 濃度統一為 4.0%，但臨床上常用濃度範圍更廣",
+          "未報告是否進行 intention-to-treat 分析"
+        ],
+        "weaknesses": [
+          "高 detection 和 performance bias 風險，臍炎診斷主觀性強",
+          "moderate selection 和 attrition bias，可能影響結果可信度",
+          "缺乏不同胎齡亞群的預設分析計畫",
+          "未評估 CHX 血中濃度或皮膚吸收相關的安全性指標"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Soofi 2012, Lancet",
+            "comparison": "巴基斯坦社區研究，4% CHX vs dry cord care，本 review 的重要組成研究之一"
+          },
+          {
+            "citation": "Mullany 2006, Pediatrics",
+            "comparison": "尼泊爾研究，評估不同 CHX 濃度，提供劑量反應關係的重要證據"
+          }
+        ],
+        "guideline_status": "WHO 2013 年建議在高新生兒死亡率地區（>30/1000）使用 CHX 臍帶照護；AAP 2016 年建議 HICs 採用 dry cord care；台灣新生兒科醫學會目前建議 dry cord care 為主",
+        "evidence_gap_filled": "首次系統性比較 LMICs 與 HICs 的臍帶消毒劑效益差異，提供不同經濟發展水準國家的實證基礎",
+        "ongoing_trials": "目前無大型進行中 RCT，但需要針對極早產兒和 HICs 環境的專門研究"
+      },
+      "protocol_impact": {
+        "current_practice": "台灣 level III NICU 目前採用 dry cord care，每日以無菌水清潔臍帶根部，保持乾燥。若出現臍炎徵象才使用 75% alcohol 或 povidone iodine 局部消毒，每日 2-3 次直至症狀改善",
+        "proposed_change": "基於此 review，台灣 HICs 環境不建議常規改變現行 dry cord care。若考慮在高風險族群（如極早產兒、免疫不全）使用 CHX，建議濃度 0.5-2%（低於研究的 4%），每日一次，並密切監測皮膚反應和臍帶脫落時間",
+        "prerequisites": [
+          "制定 CHX 使用的適應症和禁忌症清單",
+          "建立臍炎標準化診斷標準和監測流程",
+          "準備不同濃度 CHX 溶液和相關衛材",
+          "對護理人員進行臍帶照護標準化訓練"
+        ],
+        "missing_evidence": [
+          "極早產兒（<28 週）使用 CHX 的安全性和有效性數據",
+          "CHX 血中濃度監測和神經毒性的長期追蹤",
+          "台灣本土新生兒臍炎發生率和病原菌分布",
+          "成本效益分析比較不同臍帶照護策略"
+        ]
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41881726",
+    "title": "The case for inhaled nitric oxide use in preterm infants.",
+    "authors": "Bischoff AR",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 20",
+    "doi": "10.1016/j.siny.2026.101721",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "iNO",
+      "早產兒",
+      "肺高血壓",
+      "RDS",
+      "VLBW"
+    ],
+    "one_liner": "敘述性綜論，提供 iNO 在早產兒應用的論述框架，但無新穎數據，適合背景知識補充而非改變臨床決策。",
+    "summary": {
+      "purpose": "檢視早產兒使用吸入性一氧化氮（iNO）的臨床證據與應用論據。",
+      "design": "敘述性綜論文章，針對早產兒族群 iNO 使用的現有文獻進行評述，未提供新的原始數據或系統性統合分析。",
+      "findings": "文章提出 iNO 在特定早產兒族群（如肺高血壓、RDS 合併肺血管阻力升高）的潛在臨床效益，但未呈現具體的統計數據、effect size 或新的臨床試驗結果。",
+      "significance": "iNO 在早產兒的角色仍存爭議；本文為立場性論述，可作為臨床決策的參考背景，但缺乏強有力的新證據支持改變現有 NICU 實踐。對於 ELBW 或 VLBW 合併肺高血壓的個案可能有參考價值，但不足以推動指引改變。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41885565",
+    "title": "International Incidence of Out-of-Hospital Cardiac Arrest in Children: A Systematic Review and Meta-Analysis of Epidemiological Studies.",
+    "authors": "Mellett-Smith A, Caunt M, Buckle A, et al.",
+    "journal": "Critical Care Medicine",
+    "pub_date": "2026 Mar 26",
+    "doi": "10.1097/CCM.0000000000007110",
+    "total_score": 2,
+    "scores": {
+      "design": 5,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 4
+    },
+    "keywords": [
+      "cardiac arrest",
+      "children",
+      "epidemiology",
+      "out-of-hospital",
+      "systematic review"
+    ],
+    "one_liner": "此為兒童院外心跳停止的流行病學統合分析，與新生兒科照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "系統性回顧與統合分析兒童院外心跳停止的全球發生率，以提供人口基礎的流行病學數據。",
+      "design": "系統性回顧與隨機效應模型統合分析。檢索 MEDLINE、Embase、CINAHL 及灰色文獻（至 2025 年 3 月 12 日）。納入 50 篇研究，涵蓋 18 個國家（17 個高收入國家、1 個中上收入國家）的 37,681 件心跳停止事件，追蹤人年數 547,267,107。使用 JBI Critical Appraisal Checklist 評估偏差風險。",
+      "findings": "統合發生率為 5.56 件院外心跳停止事件/100,000 人年（95% CI, 4.54-6.58；I² = 100%）。發生率在病因、初始心律及年齡等預先設定的次族群中有顯著變異。納入研究因院外心跳停止診斷標準報告不一致而存在不明確的整體偏差風險。",
+      "significance": "本研究與新生兒加護病房（NICU）的日常照護決策無直接關聯。院外心跳停止主要涉及較大兒童族群，與早產兒或新生兒的臨床管理無關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41885860",
+    "title": "Maternal Nativity and Residence in US Territories and Preterm Birth.",
+    "authors": "Montoya-Williams D, Barreto A, Formanowski B, et al.",
+    "journal": "JAMA Network Open",
+    "pub_date": "2026 Mar 02",
+    "doi": "10.1001/jamanetworkopen.2026.3601",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "preterm birth",
+      "social determinants",
+      "health disparities",
+      "insurance coverage",
+      "epidemiology"
+    ],
+    "one_liner": "美國領土地區的社會決定因素與早產風險研究，為公衛政策導向，對NICU臨床照護決策無直接影響，可跳過。",
+    "summary": {
+      "purpose": "探討美國領土地區（關島、北馬里亞納群島、波多黎各、美屬維京群島）的母親籍貫與居住地與早產風險的關聯，及保險類型的修飾效應。",
+      "design": "2014-2023年美國及領土地區醫院內單胎活產的橫斷面研究，使用限制使用出生證明資料，共28,627,700例出生，其中465,291例（1.6%）具有領土地區籍貫或居住史。",
+      "findings": "領土地區籍貫且居住者的早產率最高（10.5%; 95% CI, 10.4%-10.7%），相較於本土籍貫且居住者（8.4%; 95% CI, 8.4%-8.5%）。領土地區籍貫且居住者的調整相對風險（aRR）為1.30（95% CI, 1.29-1.32）。領土地區居住且持Medicaid保險者風險最高（aRR, 1.57; 95% CI, 1.55-1.59），領土地區居住且持私人保險者次之（aRR, 1.42; 95% CI, 1.39-1.45）。",
+      "significance": "本研究為描述性流行病學研究，確認美國領土地區居民早產風險升高，與醫療可及性、保險覆蓋及社會決定因素相關。對台灣NICU照護的直接指導意義有限，但提示應關注地理位置與社經地位對早產風險的影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41885544",
+    "title": "Factors Associated With R01 Submission Among Pediatric Critical Care Medicine Career Development Award Recipients.",
+    "authors": "Killien EY, Carlton EF, Pierce RW, et al.",
+    "journal": "Critical Care Medicine",
+    "pub_date": "2026 Mar 26",
+    "doi": "10.1097/CCM.0000000000007109",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "career development",
+      "research funding",
+      "pediatric critical care",
+      "clinician-scientist",
+      "academic medicine"
+    ],
+    "one_liner": "此為兒童重症醫學科研究生涯發展調查，與新生兒科臨床照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "探討兒童重症醫學科醫師獲得 NIH 生涯發展獎（K award）後，哪些因素與後續提交 R01 研究計畫申請相關。",
+      "design": "橫斷面問卷調查，於 2024 年 9-11 月針對 2014-2023 年間獲得 NIH K award（K12、KL2、K08、K23、K99/R00）的兒童重症醫學科醫師進行網路問卷，共 102 名受試者完成調查（回應率 83.6%）。",
+      "findings": "在 76 名已完成或即將完成 K award 的受試者中，53 人（69.7%）提交了 R01 申請。獨立相關因素包括：個人 K award（aRR 2.38, 95% CI 1.30-4.38）或機構後接個人 K award（aRR 2.13, 95% CI 1.19-3.83）、進行基礎科學研究（aRR 1.45, 95% CI 1.11-1.89）、獲得 NIH 貸款償還計畫獎助（aRR 1.63, 95% CI 1.21-2.19）、部門內其他 K award 受獎人較少（aRR 2.33, 95% CI 1.45-3.76）、夜班時數較少（aRR 1.89, 95% CI 1.17-3.06）。",
+      "significance": "本研究與新生兒科臨床照護無直接關聯，屬於醫學教育與研究生涯發展議題，非 NICU 日常診療決策相關研究。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
   }
 ]

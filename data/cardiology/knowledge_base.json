@@ -2498,5 +2498,330 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-26"
+  },
+  {
+    "pmid": "41885934",
+    "title": "Umbilical Artery Access for PDA Stenting: Feasibility in Select Anatomy.",
+    "authors": "Roberts T, Hesari M, Peterson D, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 26",
+    "doi": "10.1007/s00246-026-04215-1",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "PDA stenting",
+      "umbilical artery access",
+      "ductal-dependent congenital heart disease",
+      "catheter intervention",
+      "neonatal cardiology"
+    ],
+    "one_liner": "臍動脈 PDA 支架置入的小型可行性研究，技術創新但樣本數過少（n=7），難以改變臨床實踐，可作為後續大型研究的基礎。",
+    "summary": {
+      "purpose": "評估臍動脈途徑進行 PDA 支架置入的可行性與安全性，作為傳統手術分流術的微創替代方案。",
+      "design": "單中心病例系列研究，納入 7 名新生兒（中位孕齡 38 週、中位出生體重 2.97 kg），於 2020-2024 年間接受臍動脈途徑 PDA 支架置入術。收集患者人口統計、PDA 形態學及手術細節。",
+      "findings": "71% 為女性患者，中位導管年齡 8 天（範圍 3-10 天）。PDA 起源於降主動脈（57.1%）或頭臂動脈（42.9%）。中位手術時間 126 分鐘（範圍 42-161 分鐘），中位透視時間 24.7 分鐘（11.4-58.6 分鐘）。中位支架直徑 3.5 mm，85.7% 患者僅需單一支架。無術中或術後併發症發生。",
+      "significance": "臍動脈途徑 PDA 支架置入提供微創替代方案，避免股動脈途徑相關風險，同時保留逆向進入優勢。對於需要導管介入治療的導管依賴型先天性心臟病新生兒，提供技術上可行的選項，但樣本極小，需更大規模研究驗證。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41879976",
+    "title": "Quantitative Electroencephalogram Patterns During Neonatal Antegrade Cerebral Perfusion and Deep Hypothermic Circulatory Arrest that Suggest Neurologic Injury.",
+    "authors": "Orie GA, Swartz MF, Seltzer L, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 25",
+    "doi": "10.1007/s00246-026-04193-4",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "cardiac surgery",
+      "DHCA",
+      "ACP",
+      "qEEG",
+      "neurologic injury",
+      "neonatal"
+    ],
+    "one_liner": "心臟手術中 qEEG 的 ADR 不對稱可能預示神經損傷，但這是單中心回溯性研究、樣本小、與一般 NICU 照護距離遠，臨床推廣價值有限。",
+    "summary": {
+      "purpose": "探討新生兒心臟手術期間接受腦部前向灌流（ACP）或深度低溫循環停止（DHCA）時，定量腦電圖（qEEG）的 Alpha:Delta Ratio（ADR）和不對稱百分比是否能預測術後神經損傷。",
+      "design": "回溯性單中心隊列研究，納入 86 名接受 DHCA（n=14, 16.2%）或 ACP（n=72, 83.8%）且術中有 EEG 監測的新生兒，每 5 分鐘測量左右前、後及半球 ADR 和不對稱百分比。神經損傷定義為術後中風或癲癇發作（n=11, 12.8%）。",
+      "findings": "DHCA 期間 ADR 明顯下降，ACP 期間不對稱百分比明顯上升。發生神經損傷的新生兒前右 vs. 左 ADR 差異 >25% 的累積時間更長（25 [IQR 0-65] vs. 5 [IQR 0-15] 分鐘，p<0.001），多變量分析確認（OR 1.044; 95% CI 1.010-1.080; p=0.012）。",
+      "significance": "qEEG 的前側 ADR 不對稱可能作為心臟手術中腦缺血的早期預警指標，但本研究樣本量小、單中心、神經損傷發生率低（12.8%），臨床應用價值有限。對於接受 ACP/DHCA 的新生兒術中神經監測有參考意義，但尚需多中心驗證。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41885933",
+    "title": "Transforming Pediatric Cardiology Fellowship Education: Multi-center Outcomes of the MACH-3 Virtual Reality Program for HLHS.",
+    "authors": "McCormick AD, Pritz BW, Yu S, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 26",
+    "doi": "10.1007/s00246-026-04234-y",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "HLHS",
+      "醫學教育",
+      "虛擬實境",
+      "小兒心臟科",
+      "住院醫師訓練"
+    ],
+    "one_liner": "可跳過——本文為小兒心臟科教育研究，與新生兒科臨床照護決策無直接相關性。",
+    "summary": {
+      "purpose": "評估虛擬實境程式（MACH-3）在小兒心臟科住院醫師教育中的應用成效，特別針對左心發育不全症（HLHS）的訓練。",
+      "design": "多中心教育成效研究，針對小兒心臟科住院醫師進行虛擬實境模擬訓練，評估學習成果與臨床技能。",
+      "findings": "文章摘要未提供具體數據，但研究評估虛擬實境程式對心臟科住院醫師教育的影響。",
+      "significance": "本研究主要針對小兒心臟科住院醫師教育訓練，與新生兒科臨床照護決策無直接關聯。HLHS 雖為新生兒期重症先天性心臟病，但本文重點在於醫學教育方法論而非新生兒 NICU 照護策略、藥物治療、營養支持或發育追蹤。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41885932",
+    "title": "Medical Versus Surgical Therapy of Infected Percutaneous Pulmonary Valve.",
+    "authors": "ALJufan MB, Saleem M, Yansaneh AA, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 26",
+    "doi": "10.1007/s00246-026-04232-0",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "小兒心臟病",
+      "瓣膜感染",
+      "經皮置換術",
+      "非新生兒相關"
+    ],
+    "one_liner": "小兒心臟病學文章，與新生兒科照護無關，可跳過。",
+    "summary": {
+      "purpose": "比較感染性經皮肺動脈瓣的內科與外科治療方式。",
+      "design": "小兒心臟病學期刊發表之文章，涉及先天性心臟病患者的瓣膜感染治療策略，非新生兒特定族群研究。",
+      "findings": "文章聚焦於經皮肺動脈瓣置換術後感染的治療選擇，與新生兒急性期照護無直接關聯。",
+      "significance": "本研究主題為小兒心臟病領域，與新生兒科 NICU 日常照護決策（呼吸支持、營養、感染控制、發育追蹤等）無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41885931",
+    "title": "Pulmonary Arterial Hypertension-Specific Therapy for Atrial Septal Defects with Severe Pulmonary Arterial Hypertension.",
+    "authors": "Nakayama S, Asano R, Tsuji A, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 26",
+    "doi": "10.1007/s00246-026-04226-y",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "先天性心臟病",
+      "肺動脈高壓",
+      "心房中隔缺損",
+      "兒童心臟學",
+      "非新生兒重症"
+    ],
+    "one_liner": "可跳過：此為小兒心臟科的先天性心臟病長期管理研究，與新生兒科 NICU 急性期照護無直接相關性。",
+    "summary": {
+      "purpose": "評估肺動脈高壓特異性藥物治療對心房中隔缺損伴嚴重肺動脈高壓患者的療效。",
+      "design": "小型病例系列研究，患者族群為心房中隔缺損合併嚴重肺動脈高壓的兒童患者（具體 GA、出生體重、樣本數未於摘要提供）。",
+      "findings": "摘要內容未提供具體的臨床數據、效果量或統計結果。",
+      "significance": "本研究主要針對先天性心臟病患者的長期心血管管理，與新生兒重症照護（NICU 急性期處置）無直接關聯。早產兒肺動脈高壓多與 BPD、PDA 或肺部疾病相關，而非原發性心房中隔缺損。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41885930",
+    "title": "What Limits Cardiorespiratory Fitness in Adolescents with Fontan Circulation: An Integrated Hemodynamic and Pulmonary Perspective.",
+    "authors": "Klungerbo V, Døhlen G, Holmstrøm H, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 26",
+    "doi": "10.1007/s00246-026-04231-1",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Fontan circulation",
+      "adolescent cardiology",
+      "cardiorespiratory fitness",
+      "exercise physiology",
+      "congenital heart disease"
+    ],
+    "one_liner": "此為先天性心臟病青少年患者的運動耐力研究，與 NICU 新生兒照護無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "探討青少年 Fontan 循環患者的心肺耐力與血流動力學、肺功能的關聯，以及運動振盪通氣（EOV）的臨床意義。",
+      "design": "全國性橫斷面研究，44 名青少年患者（中位年齡 16.6 歲），接受心肺運動測試、心導管檢查及肺功能評估。以 peak V̇O₂ 為依變項進行多元線性迴歸分析。",
+      "findings": "絕對 V̇O₂peak 的多元迴歸模型解釋 61% 的變異；較低的 VEDP 和較高的身高與更高的 V̇O₂peak 獨立相關。相對體重的 V̇O₂peak 模型解釋 30% 的變異，TPG 亦成為相關因子。DLCO/VA 與 V̇O₂peak 無獨立相關性。50% 患者出現 EOV，但與 V̇O₂peak、血流動力學或肺功能變數無顯著關聯。",
+      "significance": "本研究為先天性心臟病（Fontan 手術後）青少年患者的運動生理學研究，與新生兒重症醫學及早產兒照護無直接關聯。雖提供長期追蹤資訊，但主要對象為青少年期患者，非新生兒期的臨床決策相關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41879977",
+    "title": "Correction to: Prediction of Symptoms and Evaluation of Surgical Indications After Birth Based on Tracheal Morphology of Double Aortic Arch.",
+    "authors": "Ikegawa T, Kato A, Kawataki M, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 25",
+    "doi": "10.1007/s00246-026-04209-z",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "correction",
+      "double aortic arch",
+      "congenital heart disease",
+      "surgical indication"
+    ],
+    "one_liner": "本文為期刊勘誤啟事而非原始研究，且主題為先天性心臟病影像診斷，與新生兒重症照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "本文為先前發表文章的更正啟事，涉及雙主動脈弓患者的氣管形態學預測與手術適應症評估。",
+      "design": "更正啟事（Correction），非原始研究論文。",
+      "findings": "無新的研究數據或臨床發現，僅為前期發表內容的勘誤。",
+      "significance": "本文為期刊勘誤公告，不涉及新生兒重症照護、早產兒管理或發育追蹤等 NICU 核心議題。雙主動脈弓雖為先天性心臟病，但本文重點為影像學診斷與手術決策，與新生兒加護病房日常照護決策無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41879975",
+    "title": "The Incidence and Spectrum of Congenital Heart Defects in Patients with Anorectal Malformations: A 10-Year Retrospective Cohort Study.",
+    "authors": "Shalaby MM, Shalaby HK, Taha FA",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 25",
+    "doi": "10.1007/s00246-026-04206-2",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "congenital heart defects",
+      "anorectal malformations",
+      "pediatric cardiology"
+    ],
+    "one_liner": "此為小兒心臟學與小兒外科的交界研究，與新生兒重症醫學及早產兒照護無直接相關，NICU 醫師可跳過。",
+    "summary": {
+      "purpose": "探討肛門直腸畸形患者併發先天性心臟病的發生率與臨床譜系。",
+      "design": "10年回溯性隊列研究，納入肛門直腸畸形患者，評估先天性心臟病的關聯性與臨床特徵。",
+      "findings": "研究量化肛門直腸畸形患者中先天性心臟病的發生率及其臨床表現型，但具體數據未在摘要中呈現。",
+      "significance": "本研究主要聚焦於肛門直腸畸形與心臟病的關聯，與新生兒重症照護、早產兒管理、呼吸窘迫症候群、支氣管肺發育不全等核心 NICU 議題無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41885668",
+    "title": "Corrigendum to 'The landscape of referrals for lung transplantation in pulmonary arterial hypertension: A report from the Pulmonary Hypertension Association Registry'[J Heart Lung Transplant, 45 (2026) 125-136].",
+    "authors": "Kolaitis NA, Singer JP, Bartolome S, et al.",
+    "journal": "Journal of Heart and Lung Transplantation",
+    "pub_date": "2026 Mar 26",
+    "doi": "10.1016/j.healun.2026.03.002",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心肺移植",
+      "肺動脈高血壓",
+      "非新生兒相關"
+    ],
+    "one_liner": "可跳過——本文為成人心肺移植登錄研究的勘誤啟事，與新生兒科完全無關。",
+    "summary": {
+      "purpose": "本文為肺動脈高血壓患者肺臟移植轉介景況之登錄研究的勘誤啟事。",
+      "design": "勘誤啟事（Corrigendum），非原始研究論文。",
+      "findings": "未提供具體研究發現，僅為前期發表文章之更正聲明。",
+      "significance": "與新生兒或早產兒照護無任何關聯。肺動脈高血壓與肺臟移植為成人心肺疾病領域，不涉及 NICU 臨床決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41885567",
+    "title": "Dilute Thrombin Time to Monitor Bivalirudin in Pediatric Extracorporeal Membrane Oxygenation-Progress Does Not Always Have to Cost More.",
+    "authors": "Niebler RA",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Mar 26",
+    "doi": "10.1097/PCC.0000000000003949",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "ECMO",
+      "bivalirudin",
+      "anticoagulation monitoring",
+      "pediatric critical care",
+      "cost-effectiveness"
+    ],
+    "one_liner": "針對 ECMO 患者的抗凝監測技術報告，與一般早產兒照護無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "探討使用稀釋凝血酶時間（dilute thrombin time）監測 bivalirudin 在小兒體外膜肺氧合（ECMO）中的應用，強調成本效益。",
+      "design": "病例系列或技術報告，針對接受 ECMO 治療的兒童患者（包括新生兒），評估 dilute thrombin time 作為 bivalirudin 抗凝監測工具的可行性。",
+      "findings": "dilute thrombin time 可作為監測 bivalirudin 抗凝效果的有效且經濟的替代方法，相較於其他凝血檢查具有成本優勢。",
+      "significance": "本研究主要針對小兒 ECMO 患者的抗凝管理，與一般新生兒 NICU 日常照護（如呼吸支持、營養、感染防治）無直接相關性。ECMO 應用在新生兒科雖重要，但此文著重於特定凝血監測工具的成本比較，非臨床結果改善的證據。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-27"
   }
 ]
