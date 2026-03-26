@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NICU Journal Digest - 2026-03-27</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.8;font-size:16px}
+.container{max-width:720px;margin:0 auto;padding:20px}
+header{padding:20px 0;border-bottom:2px solid #1B6B93;margin-bottom:24px}
+.back{font-size:15px;color:#1B6B93;text-decoration:none}
+.back:hover{text-decoration:underline}
+.date{font-size:15px;color:#888;margin-top:8px}
+h1{font-size:26px;font-weight:700;color:#1B6B93;margin-top:4px}
+.stats{font-size:15px;color:#666;margin-top:6px}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:18px}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600}
+.tag-journal{font-size:13px;color:#999}
+.card-title{font-size:18px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px}
+.card-authors{font-size:14px;color:#999;margin-bottom:14px}
+.section{padding:14px 0;border-top:1px solid #f0f0ec}
+.section p{font-size:15px;color:#555;margin-bottom:8px}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:10px}
+.hl{border-left:3px solid;padding:10px 14px;margin:8px 0;font-size:15px;line-height:1.7;border-radius:0}
+.hl-green{border-color:#639922;background:#EAF3DE;color:#27500A}
+.hl-amber{border-color:#BA7517;background:#FAEEDA;color:#633806}
+.hl-red{border-color:#E24B4A;background:#FCEBEB;color:#791F1F}
+.hl-blue{border-color:#378ADD;background:#E6F1FB;color:#0C447C}
+.related{font-size:15px;color:#555;padding:8px 0;border-bottom:1px solid #f5f5f0}
+.related:last-child{border-bottom:none}
+.card-links{padding-top:14px;display:flex;gap:16px}
+.card-links a{font-size:14px;color:#1B6B93;text-decoration:none}
+.card-links a:hover{text-decoration:underline}
+footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;color:#999;text-align:center}
+.vote-count{font-size:13px;color:#1B6B93;font-weight:600}
+@media(max-width:600px){.container{padding:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">NICU Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">或從 LINE / Email 點擊連結直接閱讀</p>
+</div>
+</div>
+
+<!-- Digest content (hidden until auth) -->
+<div id="digest-content" style="display:none;">
+<div class="container">
+<header>
+  <a href="index.html" class="back">← Back to archive</a>
+  <div class="date">2026/03/27 (Friday)</div>
+  <h1>NICU Journal Digest</h1>
+  <div class="stats">4 articles</div>
+</header>
+
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 4-5: DEEP ANALYSIS</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">Cochrane Database of Systematic Reviews - Neonatal</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Umbilical cord antiseptics for preventing sepsis and death among newborns.</h2>
+  <div class="card-authors">Imdad A, Medina M, Cooper C, et al. · 2026 Mar 26</div>
+  <div class="section"><b>30 秒重點：</b>這項 Cochrane review 納入 18 項 RCT（143,150 名新生兒）評估臍帶消毒劑效益。在 LMICs 中，4.0% chlorhexidine 可能降低新生兒死亡率（18/1000→15/1000，RR 0.86）並減少臍炎風險（87/1000→62/1000，RR 0.71），但延長臍帶脫落時間 1.85 天。在台灣等 HICs 中，CHX 證據極不確定，70% alcohol 主要影響為延長臍帶脫落時間 1.63 天。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 未提及不同胎齡（特別是 <32 週極早產兒）或出生體重亞群的差異分析，但這些高風險族群的感染風險和臍帶癒合模式可能顯著不同</b> 需查閱 supplementary data 中的 subgroup analysis 或 forest plots。極早產兒皮膚屏障功能不成熟，CHX 吸收和毒性風險可能更高，且臍帶脫落延遲對 NICU 照護的影響需特別評估</p><p><b>Abstract 僅報告 all-cause mortality 但未區分感染相關死亡率，且缺乏長期神經發育追蹤結果</b> 全文中應有 cause-specific mortality 分析和 adverse events 詳細描述。無法確定死亡率降低是否真正來自感染預防，且 CHX 的神經毒性風險（特別是早產兒）需要長期追蹤數據</p><p><b>研究間存在 moderate 至 high risk of bias，特別是 detection 和 performance bias，但 abstract 未詳述具體影響</b> Risk of bias tables 和 sensitivity analysis 結果。臍炎診斷的主觀性和無法盲化的介入可能高估治療效果，需要客觀的感染指標如血液培養陽性率來驗證</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>Cochrane 標準方法學，包含 GRADE 證據品質評估</div><div class="hl hl-green"><b>Strong：</b>區分 LMICs 和 HICs 進行分析，考量基線風險差異</div><div class="hl hl-green"><b>Strong：</b>納入大樣本人口基礎研究（129,381 名參與者）</div><div class="hl hl-green"><b>Strong：</b>預先註冊 protocol（2010 年）避免 reporting bias</div><div class="hl hl-amber"><b>Note：</b>臍炎定義可能因研究而異，需確認是否使用標準化診斷標準</div><div class="hl hl-amber"><b>Note：</b>追蹤期間限制在新生兒期（28 天），缺乏長期安全性數據</div><div class="hl hl-amber"><b>Note：</b>CHX 濃度統一為 4.0%，但臨床上常用濃度範圍更廣</div><div class="hl hl-amber"><b>Note：</b>未報告是否進行 intention-to-treat 分析</div><div class="hl hl-red"><b>Weak：</b>高 detection 和 performance bias 風險，臍炎診斷主觀性強</div><div class="hl hl-red"><b>Weak：</b>moderate selection 和 attrition bias，可能影響結果可信度</div><div class="hl hl-red"><b>Weak：</b>缺乏不同胎齡亞群的預設分析計畫</div><div class="hl hl-red"><b>Weak：</b>未評估 CHX 血中濃度或皮膚吸收相關的安全性指標</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Soofi 2012, Lancet</b> — 巴基斯坦社區研究，4% CHX vs dry cord care，本 review 的重要組成研究之一</div><div class="related"><b>Mullany 2006, Pediatrics</b> — 尼泊爾研究，評估不同 CHX 濃度，提供劑量反應關係的重要證據</div><p><b>指引現況：</b>WHO 2013 年建議在高新生兒死亡率地區（>30/1000）使用 CHX 臍帶照護；AAP 2016 年建議 HICs 採用 dry cord care；台灣新生兒科醫學會目前建議 dry cord care 為主</p><p><b>填補的 evidence gap：</b>首次系統性比較 LMICs 與 HICs 的臍帶消毒劑效益差異，提供不同經濟發展水準國家的實證基礎</p><p><b>進行中的相關試驗：</b>目前無大型進行中 RCT，但需要針對極早產兒和 HICs 環境的專門研究</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>台灣 level III NICU 目前採用 dry cord care，每日以無菌水清潔臍帶根部，保持乾燥。若出現臍炎徵象才使用 75% alcohol 或 povidone iodine 局部消毒，每日 2-3 次直至症狀改善<br><b>建議調整：</b>基於此 review，台灣 HICs 環境不建議常規改變現行 dry cord care。若考慮在高風險族群（如極早產兒、免疫不全）使用 CHX，建議濃度 0.5-2%（低於研究的 4%），每日一次，並密切監測皮膚反應和臍帶脫落時間<br><b>導入準備：</b>制定 CHX 使用的適應症和禁忌症清單, 建立臍炎標準化診斷標準和監測流程, 準備不同濃度 CHX 溶液和相關衛材, 對護理人員進行臍帶照護標準化訓練<br><b>等待的證據：</b>['極早產兒（<28 週）使用 CHX 的安全性和有效性數據', 'CHX 血中濃度監測和神經毒性的長期追蹤', '台灣本土新生兒臍炎發生率和病原菌分布', '成本效益分析比較不同臍帶照護策略']</div></div>
+  <div id="analysis-result-41881430"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41881430/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1002/14651858.CD008635.pub3" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41881430" data-rating="must_read" onclick="vote('41881430','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41881430-must_read" style="display:none;">0</span></button> <button data-pmid="41881430" data-rating="useful" onclick="vote('41881430','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41881430-useful" style="display:none;">0</span></button> <button data-pmid="41881430" data-rating="so_so" onclick="vote('41881430','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41881430-so_so" style="display:none;">0</span></button> <button data-pmid="41881430" data-rating="skip" onclick="vote('41881430','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41881430-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41881430" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41881430" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41881430','Umbilical cord antiseptics for preventing sepsis and death among newborns.',this)">
+  <button id="upload-btn-41881430" onclick="document.getElementById('pdf-41881430').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41881430" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 2-3: QUICK SUMMARY</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Seminars in Fetal and Neonatal Medicine</span></div>
+  <h2 class="card-title">The case for inhaled nitric oxide use in preterm infants.</h2>
+  <div class="card-authors">Bischoff AR · 2026 Mar 20</div>
+  <div class="section"><p><b>研究目的：</b>檢視早產兒使用吸入性一氧化氮（iNO）的臨床證據與應用論據。</p><p><b>研究設計：</b>敘述性綜論文章，針對早產兒族群 iNO 使用的現有文獻進行評述，未提供新的原始數據或系統性統合分析。</p><p><b>主要發現：</b>文章提出 iNO 在特定早產兒族群（如肺高血壓、RDS 合併肺血管阻力升高）的潛在臨床效益，但未呈現具體的統計數據、effect size 或新的臨床試驗結果。</p><p><b>臨床意義：</b>iNO 在早產兒的角色仍存爭議；本文為立場性論述，可作為臨床決策的參考背景，但缺乏強有力的新證據支持改變現有 NICU 實踐。對於 ELBW 或 VLBW 合併肺高血壓的個案可能有參考價值，但不足以推動指引改變。</p></div>
+  <div id="analysis-result-41881726"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41881726/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1016/j.siny.2026.101721" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41881726" data-rating="must_read" onclick="vote('41881726','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41881726-must_read" style="display:none;">0</span></button> <button data-pmid="41881726" data-rating="useful" onclick="vote('41881726','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41881726-useful" style="display:none;">0</span></button> <button data-pmid="41881726" data-rating="so_so" onclick="vote('41881726','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41881726-so_so" style="display:none;">0</span></button> <button data-pmid="41881726" data-rating="skip" onclick="vote('41881726','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41881726-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41881726" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41881726" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41881726','The case for inhaled nitric oxide use in preterm infants.',this)">
+  <button id="upload-btn-41881726" onclick="document.getElementById('pdf-41881726').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41881726" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Critical Care Medicine</span></div>
+  <h2 class="card-title">International Incidence of Out-of-Hospital Cardiac Arrest in Children: A Systematic Review and Meta-Analysis of Epidemiological Studies.</h2>
+  <div class="card-authors">Mellett-Smith A, Caunt M, Buckle A, et al. · 2026 Mar 26</div>
+  <div class="section"><p><b>研究目的：</b>系統性回顧與統合分析兒童院外心跳停止的全球發生率，以提供人口基礎的流行病學數據。</p><p><b>研究設計：</b>系統性回顧與隨機效應模型統合分析。檢索 MEDLINE、Embase、CINAHL 及灰色文獻（至 2025 年 3 月 12 日）。納入 50 篇研究，涵蓋 18 個國家（17 個高收入國家、1 個中上收入國家）的 37,681 件心跳停止事件，追蹤人年數 547,267,107。使用 JBI Critical Appraisal Checklist 評估偏差風險。</p><p><b>主要發現：</b>統合發生率為 5.56 件院外心跳停止事件/100,000 人年（95% CI, 4.54-6.58；I² = 100%）。發生率在病因、初始心律及年齡等預先設定的次族群中有顯著變異。納入研究因院外心跳停止診斷標準報告不一致而存在不明確的整體偏差風險。</p><p><b>臨床意義：</b>本研究與新生兒加護病房（NICU）的日常照護決策無直接關聯。院外心跳停止主要涉及較大兒童族群，與早產兒或新生兒的臨床管理無關。</p></div>
+  <div id="analysis-result-41885565"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41885565/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1097/CCM.0000000000007110" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41885565" data-rating="must_read" onclick="vote('41885565','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41885565-must_read" style="display:none;">0</span></button> <button data-pmid="41885565" data-rating="useful" onclick="vote('41885565','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41885565-useful" style="display:none;">0</span></button> <button data-pmid="41885565" data-rating="so_so" onclick="vote('41885565','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41885565-so_so" style="display:none;">0</span></button> <button data-pmid="41885565" data-rating="skip" onclick="vote('41885565','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41885565-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41885565" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41885565" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41885565','International Incidence of Out-of-Hospital Cardiac Arrest in Children: A Systematic Review and Meta-Analysis of Epidemiological Studies.',this)">
+  <button id="upload-btn-41885565" onclick="document.getElementById('pdf-41885565').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41885565" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">JAMA Network Open</span></div>
+  <h2 class="card-title">Maternal Nativity and Residence in US Territories and Preterm Birth.</h2>
+  <div class="card-authors">Montoya-Williams D, Barreto A, Formanowski B, et al. · 2026 Mar 02</div>
+  <div class="section"><p><b>研究目的：</b>探討美國領土地區（關島、北馬里亞納群島、波多黎各、美屬維京群島）的母親籍貫與居住地與早產風險的關聯，及保險類型的修飾效應。</p><p><b>研究設計：</b>2014-2023年美國及領土地區醫院內單胎活產的橫斷面研究，使用限制使用出生證明資料，共28,627,700例出生，其中465,291例（1.6%）具有領土地區籍貫或居住史。</p><p><b>主要發現：</b>領土地區籍貫且居住者的早產率最高（10.5%; 95% CI, 10.4%-10.7%），相較於本土籍貫且居住者（8.4%; 95% CI, 8.4%-8.5%）。領土地區籍貫且居住者的調整相對風險（aRR）為1.30（95% CI, 1.29-1.32）。領土地區居住且持Medicaid保險者風險最高（aRR, 1.57; 95% CI, 1.55-1.59），領土地區居住且持私人保險者次之（aRR, 1.42; 95% CI, 1.39-1.45）。</p><p><b>臨床意義：</b>本研究為描述性流行病學研究，確認美國領土地區居民早產風險升高，與醫療可及性、保險覆蓋及社會決定因素相關。對台灣NICU照護的直接指導意義有限，但提示應關注地理位置與社經地位對早產風險的影響。</p></div>
+  <div id="analysis-result-41885860"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41885860/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1001/jamanetworkopen.2026.3601" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41885860" data-rating="must_read" onclick="vote('41885860','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41885860-must_read" style="display:none;">0</span></button> <button data-pmid="41885860" data-rating="useful" onclick="vote('41885860','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41885860-useful" style="display:none;">0</span></button> <button data-pmid="41885860" data-rating="so_so" onclick="vote('41885860','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41885860-so_so" style="display:none;">0</span></button> <button data-pmid="41885860" data-rating="skip" onclick="vote('41885860','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41885860-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41885860" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41885860" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41885860','Maternal Nativity and Residence in US Territories and Preterm Birth.',this)">
+  <button id="upload-btn-41885860" onclick="document.getElementById('pdf-41885860').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41885860" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<footer>
+  Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  AI scoring by Claude (Haiku + Sonnet)
+</footer>
+</div>
+</div>
+
+<script>
+(function() {
+  var TOKEN_HASH = "85cc76020fe4964fbee0e9f508c3ec5fdfe082270ab616016992bf46e9d7e55b";
+  var PW_HASH = "b6cf8ade465cb0435fd6e1a86d7f8a5b3f67639655691545ced5912ce1cfc08f";
+  var content = document.getElementById('digest-content');
+  var gate = document.getElementById('auth-gate');
+
+  function sha256(str) {
+    var encoder = new TextEncoder();
+    return crypto.subtle.digest('SHA-256', encoder.encode(str)).then(function(buf) {
+      return Array.from(new Uint8Array(buf)).map(function(b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    });
+  }
+
+  function unlock() {
+    gate.style.display = 'none';
+    content.style.display = 'block';
+  }
+
+  function checkAccess() {
+    // 1. Check URL token
+    var params = new URLSearchParams(window.location.search);
+    var t = params.get('t');
+    if (t && TOKEN_HASH) {
+      sha256(t).then(function(h) {
+        if (h === TOKEN_HASH) {
+          localStorage.setItem('digest_token', t);
+          unlock();
+        } else {
+          checkPassword();
+        }
+      });
+      return;
+    }
+
+    // 2. Check stored password
+    checkPassword();
+  }
+
+  function checkPassword() {
+    if (!PW_HASH) { unlock(); return; }
+    var saved = localStorage.getItem('digest_pw');
+    if (saved) {
+      sha256(saved).then(function(h) {
+        if (h === PW_HASH) { unlock(); }
+        else { gate.style.display = 'flex'; }
+      });
+    } else {
+      gate.style.display = 'flex';
+    }
+  }
+
+  window.submitPassword = function() {
+    var input = document.getElementById('pw-input').value;
+    sha256(input).then(function(h) {
+      if (h === PW_HASH) {
+        localStorage.setItem('digest_pw', input);
+        unlock();
+      } else {
+        document.getElementById('pw-error').style.display = 'block';
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', checkAccess);
+})();
+</script>
+<script>
+(function() {
+  var FEEDBACK_URL = "https://script.google.com/macros/s/AKfycbyC1qAlug8iyrEDkdtg4SX868JVHUM4v3xlpK9a6fhxHsrLWmznt5TUDY9n7AVsJo85/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "newborn";
+  var voted = JSON.parse(localStorage.getItem('digest_voted') || '{}'  );
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore previous votes
+    Object.keys(voted).forEach(function(pmid) {
+      var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+      btns.forEach(function(btn) {
+        btn.style.opacity = '0.4';
+        btn.style.pointerEvents = 'none';
+      });
+      var label = document.getElementById('voted-' + pmid);
+      if (label) {
+        var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+        label.textContent = "Voted: " + (labels[voted[pmid]] || voted[pmid]) + " ✓";
+        label.style.display = 'block';
+      }
+    });
+  });
+
+  window.vote = function(pmid, rating, el) {
+    if (voted[pmid]) return;
+
+    // Get uid from token or anonymous
+    var uid = 'web_anon';
+    var t = new URLSearchParams(window.location.search).get('t');
+    if (t) uid = 'web_' + t.substring(0, 8);
+
+    // JSONP call
+    var script = document.createElement('script');
+    var cb = 'fb_' + Date.now();
+    window[cb] = function(resp) {
+      if (resp && resp.status === 'ok') {
+        voted[pmid] = rating;
+        localStorage.setItem('digest_voted', JSON.stringify(voted));
+
+        var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+        btns.forEach(function(btn) {
+          btn.style.opacity = '0.4';
+          btn.style.pointerEvents = 'none';
+        });
+        el.style.opacity = '1';
+        el.style.background = '#1B6B93';
+        el.style.color = '#fff';
+
+        // Update vote count
+        var cntEl = document.getElementById('cnt-' + pmid + '-' + rating);
+        if (cntEl) {
+          var n = parseInt(cntEl.textContent || '0') + 1;
+          cntEl.textContent = n;
+          cntEl.style.display = '';
+          cntEl.style.color = '#fff';
+        }
+
+        var label = document.getElementById('voted-' + pmid);
+        if (label) {
+          var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+          label.textContent = "Voted: " + (labels[rating] || rating) + " ✓";
+          label.style.display = 'block';
+        }
+      }
+      delete window[cb];
+      script.remove();
+    };
+    script.src = FEEDBACK_URL + '?action=feedback&pmid=' + pmid + '&rating=' + rating +
+      '&uid=' + uid + '&source=web&secret=' + SECRET + '&dept=' + DEPT + '&callback=' + cb;
+    document.body.appendChild(script);
+  };
+})();
+</script>
+<script>
+(function() {
+  var WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyC1qAlug8iyrEDkdtg4SX868JVHUM4v3xlpK9a6fhxHsrLWmznt5TUDY9n7AVsJo85/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "newborn";
+  var uploaded = JSON.parse(localStorage.getItem('digest_uploaded') || '{}');
+
+  // Restore uploaded state on load
+  window.addEventListener('DOMContentLoaded', function() {
+    Object.keys(uploaded).forEach(function(pmid) {
+      var btn = document.getElementById('upload-btn-' + pmid);
+      if (btn) {
+        btn.textContent = '✓ 已上傳，已分析';
+        btn.disabled = true;
+        btn.style.opacity = '0.5';
+        btn.style.cursor = 'default';
+      }
+    });
+  });
+
+  // JSONP helper for polling
+  function jsonpGet(url, callback) {
+    var script = document.createElement('script');
+    var cb = 'pdfcb_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5);
+    window[cb] = function(resp) {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback(resp);
+    };
+    script.src = url + '&callback=' + cb;
+    script.onerror = function() {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback({ status: 'error', message: 'Network error' });
+    };
+    document.head.appendChild(script);
+  }
+
+  // Poll for analysis result via JSONP GET
+  var POLL_TOTAL = 18;
+  var POLL_STEPS = [
+    '📤 PDF 已上傳，伺服器接收中...',
+    '📄 正在提取 PDF 全文...',
+    '📄 正在提取 PDF 全文...',
+    '🔍 全文提取中，準備進行 AI 分析...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '💾 正在儲存分析結果...',
+    '💾 正在儲存分析結果...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 即將完成...',
+    '⏳ 即將完成...'
+  ];
+
+  function pollForResult(pmid, btn, statusEl, attempts) {
+    if (attempts <= 0) {
+      btn.textContent = '❌ 分析逾時';
+      btn.disabled = false;
+      statusEl.textContent = '伺服器處理時間過長，請稍後再試';
+      statusEl.style.color = '#E24B4A';
+      return;
+    }
+
+    // Update progress message
+    var stepIdx = POLL_TOTAL - attempts;
+    var elapsed = (stepIdx + 1) * 10 + 15;
+    var msg = POLL_STEPS[Math.min(stepIdx, POLL_STEPS.length - 1)];
+    statusEl.textContent = msg + '（' + elapsed + '秒）';
+
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        btn.textContent = '✓ 全文分析完成';
+        btn.style.color = '#085041';
+        btn.style.borderColor = '#085041';
+        statusEl.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
+        statusEl.style.color = '#085041';
+        uploaded[pmid] = true;
+        localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
+        renderAnalysis(pmid, resp.analysis);
+      } else if (resp.status === 'pending') {
+        setTimeout(function() { pollForResult(pmid, btn, statusEl, attempts - 1); }, 10000);
+      } else {
+        btn.textContent = '❌ 分析失敗';
+        btn.disabled = false;
+        statusEl.textContent = resp.message || '請稍後再試';
+        statusEl.style.color = '#E24B4A';
+      }
+    });
+  }
+
+  window.handlePdfSelect = function(pmid, title, input) {
+    var file = input.files[0];
+    if (!file) return;
+    if (file.size > 10 * 1024 * 1024) {
+      alert('PDF 檔案不能超過 10MB');
+      return;
+    }
+
+    var btn = document.getElementById('upload-btn-' + pmid);
+    var statusEl = document.getElementById('upload-status-' + pmid);
+    btn.textContent = '⏳ 上傳中...';
+    btn.disabled = true;
+    statusEl.textContent = '📤 正在上傳 PDF 至伺服器...';
+    statusEl.style.display = 'inline';
+    statusEl.style.color = '#1B6B93';
+
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var base64 = e.target.result.split(',')[1];
+
+      // Step 1: Submit via hidden form + iframe (bypasses CORS entirely)
+      var iframe = document.createElement('iframe');
+      iframe.name = 'pdf_upload_frame_' + pmid;
+      iframe.style.display = 'none';
+      document.body.appendChild(iframe);
+
+      var form = document.createElement('form');
+      form.method = 'POST';
+      form.action = WEBHOOK_URL;
+      form.target = iframe.name;
+      form.style.display = 'none';
+
+      var fields = {
+        action: 'upload_pdf',
+        pmid: pmid,
+        title: title,
+        pdf_base64: base64,
+        secret: SECRET,
+        dept: DEPT
+      };
+      for (var key in fields) {
+        var input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = key;
+        input.value = fields[key];
+        form.appendChild(input);
+      }
+
+      document.body.appendChild(form);
+      form.submit();
+
+      // Clean up form after submit
+      setTimeout(function() {
+        document.body.removeChild(form);
+        document.body.removeChild(iframe);
+      }, 5000);
+
+      // Step 2: Poll for result via JSONP (every 10s, up to 18 attempts = 3 min)
+      setTimeout(function() { pollForResult(pmid, btn, statusEl, 18); }, 15000);
+    };
+    reader.readAsDataURL(file);
+  };
+
+  window.renderAnalysis = function(pmid, data) {
+    var container = document.getElementById('analysis-result-' + pmid);
+    if (!container) return;
+
+    var a = data.deep_analysis || data;
+    var html = '';
+
+    if (a.thirty_second_summary) {
+      html += '<div class="section"><b>30 秒重點：</b>' + a.thirty_second_summary + '</div>';
+    }
+
+    var hidden = a.hidden_findings || [];
+    if (hidden.length > 0) {
+      html += '<div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div>';
+      for (var i = 0; i < hidden.length; i++) {
+        html += '<p><b>' + (hidden[i].finding || '') + '</b> ' + (hidden[i].source || '') + '。' + (hidden[i].implication || '') + '</p>';
+      }
+      html += '</div>';
+    }
+
+    var meth = a.methodology_audit || {};
+    var methHtml = '';
+    (meth.strengths || []).forEach(function(s) { methHtml += '<div class="hl hl-green"><b>Strong：</b>' + s + '</div>'; });
+    (meth.notes || []).forEach(function(n) { methHtml += '<div class="hl hl-amber"><b>Note：</b>' + n + '</div>'; });
+    (meth.weaknesses || []).forEach(function(w) { methHtml += '<div class="hl hl-red"><b>Weak：</b>' + w + '</div>'; });
+    if (methHtml) {
+      html += '<div class="section"><div class="section-label" style="color:#633806">方法學評估</div>' + methHtml + '</div>';
+    }
+
+    var impact = a.protocol_impact || {};
+    if (impact.proposed_change) {
+      var impactHtml = '<div class="hl hl-blue">';
+      if (impact.current_practice) impactHtml += '<b>目前做法：</b>' + impact.current_practice + '<br>';
+      if (impact.proposed_change) impactHtml += '<b>建議調整：</b>' + impact.proposed_change + '<br>';
+      if (impact.missing_evidence) impactHtml += '<b>等待的證據：</b>' + impact.missing_evidence;
+      impactHtml += '</div>';
+      html += '<div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div>' + impactHtml + '</div>';
+    }
+
+    container.innerHTML = html;
+  };
+})();
+</script>
+</body>
+</html>
