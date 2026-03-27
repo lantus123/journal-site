@@ -2823,5 +2823,296 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-27"
+  },
+  {
+    "pmid": "41894016",
+    "title": "Current Status of Patent Ductus Arteriosus Stenting: An International Practice Based Study.",
+    "authors": "McMahon CJ, Peterson D, Said HE",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 27",
+    "doi": "10.1007/s00246-026-04236-w",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "PDA",
+      "介入治療",
+      "支架置入",
+      "早產兒",
+      "心臟科"
+    ],
+    "one_liner": "此為 PDA 支架置入術的國際實踐現況調查，缺乏臨床療效數據，對台灣 NICU 的 PDA 管理決策參考價值有限，可暫時跳過。",
+    "summary": {
+      "purpose": "調查全球 PDA 支架置入術的現況與臨床實踐模式，評估此新興介入治療在不同醫療體系中的應用情況。",
+      "design": "國際多中心實踐調查研究，涵蓋多個國家的兒童心臟科中心，採用問卷或登錄資料蒐集 PDA 支架置入術的臨床應用數據，樣本數與具體 GA/出生體重範圍未在摘要中明確說明。",
+      "findings": "摘要未提供具體的臨床數據、成功率、併發症發生率或與傳統 PDA 治療方式（藥物治療、外科結紮）的比較結果。",
+      "significance": "PDA 支架置入術為新興介入技術，可能適用於特定高風險早產兒族群（如極低出生體重兒或藥物治療失敗者），但本研究主要聚焦於技術現況調查而非臨床療效證據，對 NICU 日常照護決策的直接影響有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-28"
+  },
+  {
+    "pmid": "41891166",
+    "title": "Infective endocarditis in patients with and without CHD: a meta-analysis of age-specific outcomes.",
+    "authors": "Pinilla J, Baral B, Rosseto G, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Mar 27",
+    "doi": "10.1017/S1047951126111755",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "CHD",
+      "infective endocarditis",
+      "mortality",
+      "pediatric",
+      "meta-analysis"
+    ],
+    "one_liner": "此為一般兒科心臟病學統合分析，與新生兒/早產兒照護無直接關聯，NICU 醫師可跳過。",
+    "summary": {
+      "purpose": "比較先天性心臟病（CHD）與非 CHD 患者的感染性心內膜炎預後，並按年齡分層分析死亡率和病原體特性。",
+      "design": "系統性回顧與統合分析，納入 6 項觀察性世代研究，共 180,194 名患者（成人 176,882 名，兒童 3,312 名）。未明確區分新生兒族群。",
+      "findings": "CHD 患者在成人組死亡率較低（RR 0.42; 95% CI 0.34-0.53; p<0.01），但兒童組死亡率較高（RR 1.59; 95% CI 1.08-2.32; p=0.02）。鏈球菌感染在 CHD 成人患者中更常見（RR 1.28; 95% CI 1.09-1.50; p<0.01），金黃色葡萄球菌感染在 CHD 患者（成人與兒童）中較少見。",
+      "significance": "本研究主要針對成人與一般兒科患者，未特別聚焦新生兒或早產兒族群。感染性心內膜炎在新生兒 NICU 中罕見，主要見於先天性心臟病術後或長期中心靜脈導管患者，臨床應用有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-28"
+  },
+  {
+    "pmid": "41894017",
+    "title": "Higher Mortality After Cardiac Surgery is Observed in Cohort from Disadvantaged Neighborhoods.",
+    "authors": "Haverty MC, Mehta R, Reitz JG, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 27",
+    "doi": "10.1007/s00246-026-04237-9",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "pediatric cardiac surgery",
+      "socioeconomic disparities",
+      "mortality outcomes"
+    ],
+    "one_liner": "兒童心臟手術社經差異研究，與新生兒科 NICU 照護無直接相關，可跳過。",
+    "summary": {
+      "purpose": "探討社經地位較低社區的兒童心臟手術後死亡率是否升高。",
+      "design": "回溯性 cohort 研究，納入接受心臟手術的兒童患者，分析社經地位與手術預後的關聯。",
+      "findings": "來自弱勢社區的患者心臟手術後死亡率較高，提示社經因素可能影響手術預後。",
+      "significance": "本研究主要關注兒童心臟手術患者的社經健康差異，與新生兒重症照護（NICU）無直接關聯。新生兒科醫師在 NICU 環境中不會面臨此類心臟手術決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-28"
+  },
+  {
+    "pmid": "41891181",
+    "title": "Double-inlet double-outlet right ventricle: a case report and systematic review of the literature with cluster analysis.",
+    "authors": "Loomba RS, Spicer D, Anderson RH",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Mar 27",
+    "doi": "10.1017/S1047951126111780",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "先天性心臟病",
+      "雙進口雙出口右心室",
+      "心臟外科",
+      "系統性回顧"
+    ],
+    "one_liner": "罕見先天性心臟病的分類學研究，與早產兒常見病症無關，可跳過。",
+    "summary": {
+      "purpose": "透過系統性文獻回顧與叢集分析，探討雙進口雙出口右心室的臨床特徵與分類模式。",
+      "design": "病例報告加系統性文獻回顧，進行叢集分析以識別雙進口雙出口右心室的自然分類模式。",
+      "findings": "雙進口雙出口右心室傾向分為兩個主要叢集，主要依據為主動脈閉鎖與體靜脈連接的特徵。",
+      "significance": "本研究為罕見先天性心臟病的分類學研究，對新生兒重症照護的直接臨床決策影響有限；屬心臟外科/心臟學專科領域，與一般 NICU 早產兒照護（BPD、NEC、ROP、IVH 等）無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-28"
+  },
+  {
+    "pmid": "41891179",
+    "title": "Interferon-γ and interleukin-17A associations with vascular dysfunction following paediatric cardiac surgery with cardiopulmonary bypass.",
+    "authors": "Solomon MA, Fontes M, Krispinsky L, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Mar 27",
+    "doi": "10.1017/S1047951126111779",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "cardiac surgery",
+      "cardiopulmonary bypass",
+      "cytokine",
+      "inflammation",
+      "pediatric"
+    ],
+    "one_liner": "本研究聚焦心臟手術後的細胞激素機制，樣本量小且與新生兒/早產兒照護無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "探討心肺旁路術後兒童血管功能障礙與干擾素-γ及白細胞介素-17A的關聯性。",
+      "design": "前瞻性多中心觀察性研究，納入26名接受心臟矯正手術且使用心肺旁路的兒童；術前、術後0-4小時及24小時採集血漿樣本，以酵素連結免疫吸附分析法量化細胞激素濃度。",
+      "findings": "干擾素-γ與血管活性藥物輸注評分呈反向關聯（p<0.05），與血管反應性強相關（p=0.001）；白細胞介素-17A及白細胞介素-23與術後第一天累積液體平衡增加相關（p<0.01及0.03）；體外實驗顯示干擾素-γ暴露增加內皮通透性。",
+      "significance": "本研究為基礎科學導向的細胞激素分析，樣本量極小（n=26），主要著重於心臟手術後的血管生物學機制，與新生兒科日常照護決策無直接關聯。研究對象為接受心臟矯正手術的兒童，非早產兒或新生兒重症照護的核心族群。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-28"
+  },
+  {
+    "pmid": "41891175",
+    "title": "Paediatric patient with ",
+    "authors": "Gökçeer Akbulut D, Bornaun H, Saygılı H, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Mar 27",
+    "doi": "10.1017/S104795112611186X",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "pediatric cardiology",
+      "arrhythmogenic cardiomyopathy",
+      "genetic variants",
+      "case report"
+    ],
+    "one_liner": "此為兒童心臟學病例報告，與新生兒/早產兒照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "報告一名8歲男童罕見的遺傳性心律不整與心肌病變病例，探討FLNC和CTNNA3基因變異的表型相關性。",
+      "design": "單一病例報告，患者為8歲兒童（非新生兒或早產兒族群），無對照組或系列性設計。",
+      "findings": "患者攜帶FLNC和CTNNA3雜合變異，表現為頻繁心室早期收縮與輕度左心室功能不全，藥物治療後收縮功能改善、心律不整負擔減少。",
+      "significance": "本研究對新生兒加護病房照護無直接應用價值，屬兒童心臟學領域之罕見遺傳性疾病報告，與新生兒重症醫學、早產兒照護、發育追蹤等核心議題無關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-28"
+  },
+  {
+    "pmid": "41891164",
+    "title": "Anomalous right coronary artery and aborted sudden cardiac death.",
+    "authors": "McIntyre K, Greco-Hiranaka C, Bayle KM, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Mar 27",
+    "doi": "10.1017/S1047951126111895",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "congenital heart disease",
+      "sudden cardiac death",
+      "cardiac MRI",
+      "adult cardiology"
+    ],
+    "one_liner": "成人/青少年心臟病學個案報告，與新生兒科照護無關，可跳過。",
+    "summary": {
+      "purpose": "報告一例異常主動脈起源右冠狀動脈合併心跳停止的罕見病例。",
+      "design": "個案報告，涉及一名患有異常冠狀動脈起源的患者，使用心臟 MRI 進行診斷確認。",
+      "findings": "心臟 MRI 顯示右冠狀動脈領域的全層心肌梗塞，與需求性缺血導致的心跳停止相關。",
+      "significance": "本文為成人/青少年心臟病學個案報告，與新生兒重症醫學、早產兒照護、發育追蹤無直接關聯，不適用於 NICU 臨床決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-28"
+  },
+  {
+    "pmid": "41881370",
+    "title": "Electrophysiological Predictors of Super-response to Left Bundle Branch Area Pacing in Non-ischemic Cardiomyopathy: The PRECISION LBBAP Study.",
+    "authors": "Shroff JP, Chandh Raja D, Abhilash SP, et al.",
+    "journal": "Heart Rhythm",
+    "pub_date": "2026 Mar 23",
+    "doi": "10.1016/j.hrthm.2026.03.1908",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟病學",
+      "心臟再同步化治療",
+      "電生理",
+      "非新生兒"
+    ],
+    "one_liner": "成人心臟起搏研究，與新生兒照護無關，可跳過。",
+    "summary": {
+      "purpose": "評估左束支區域起搏（LBBAP）在非缺血性心肌病患者中的心臟電生理反應預測因子，以區分超級反應者與部分反應者。",
+      "design": "小型配對病例對照研究，納入10名超級反應者（左心室射血分數改善≥20%）與10名部分反應者（改善<10%），使用非侵襲性心電圖影像（ECGi）評估內在心律與起搏期間的雙心室激動時間、左心室激動時間及心室電耦聯。",
+      "findings": "超級反應者相比部分反應者顯示左心室激動時間更大幅度下降（平均差異15.2 ms, 95% CI: 3.4-27.1; P=0.015）、雙心室激動時間下降更顯著（29.0 vs 16.5 ms; P=0.045）、心室電耦聯改善更優（55.7% vs 5.8%; P=0.014）。確認左束支捕獲相比左心室隔膜捕獲導致更大幅度左心室激動時間下降（33.2 ± 10.4 ms vs 13.1 ± 9.9 ms, P<0.001）；左心室激動時間減少≥26.86%預測左束支捕獲準確度高（AUC=0.96; 敏感度83%, 特異度100%）；確認左束支捕獲與超級反應相關聯的勝算比為7.4倍。",
+      "significance": "本研究與新生兒照護完全無關，屬成人心臟電生理領域，對NICU臨床決策無任何影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-28"
+  },
+  {
+    "pmid": "41881367",
+    "title": "Genotype-phenotype correlation of 139 p.Gln530Ter-KCNQ1 patients with inherited long QT syndrome.",
+    "authors": "Savelev A, Larsson N, Dahlberg P, et al.",
+    "journal": "Heart Rhythm",
+    "pub_date": "2026 Mar 23",
+    "doi": "10.1016/j.hrthm.2026.03.1911",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "KCNQ1",
+      "Long QT syndrome",
+      "Genotype-phenotype",
+      "Cardiac arrhythmia",
+      "Adult cardiology"
+    ],
+    "one_liner": "成人心律不整遺傳學研究，與新生兒 NICU 照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "描述具有 p.Gln530Ter-KCNQ1 病原性變異的長 QT 症候群患者的臨床表型，並與其他 KCNQ1 變異及基因陰性對照組進行比較。",
+      "design": "多中心回溯性隊列研究，納入來自瑞典、丹麥、挪威及美國六家大學醫院的患者。p.Gln530Ter-KCNQ1 組 139 人（65% 女性，平均追蹤年齡 51±20 歲），非 p.Gln530Ter-KCNQ1 組 194 人，基因陰性對照組 717 人。",
+      "findings": "p.Gln530Ter-KCNQ1 患者心臟事件（CE）發生率為 22%（30/139），其中 5 例室性心律不整均非致命；非 p.Gln530Ter-KCNQ1 組為 24%（46/194）；對照組為 11%（81/717）。p.Gln530Ter-KCNQ1 患者 CE 發生年齡顯著晚於其他 KCNQ1 變異（44±22 vs. 31±22 歲，p=0.02）。30 歲前 CE 風險與對照組無差異（HRadj 1.11, 95% CI 0.65-1.89, p=0.707），但低於其他 KCNQ1 變異；30 歲後 CE 風險顯著升高（HRadj 3.21, 95% CI 1.49-6.92, p=0.003）。",
+      "significance": "本研究與新生兒科照護無直接關聯。長 QT 症候群雖可在新生兒期發現，但本研究主要針對成人患者的遺傳學-表型相關性分析，平均追蹤年齡 51 歲，不涉及新生兒篩檢、診斷策略或早期干預方案。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-28"
   }
 ]
