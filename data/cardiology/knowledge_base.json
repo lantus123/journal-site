@@ -3114,5 +3114,36 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-28"
+  },
+  {
+    "pmid": "41895786",
+    "title": "Biatrial macro-reentrant atrial tachycardia after surgical atrial septal defect closure and maze procedure identified by activation and coherent mapping.",
+    "authors": "Kwon CH, Chee HK",
+    "journal": "European Heart Journal",
+    "pub_date": "2026 Mar 28",
+    "doi": "10.1093/eurheartj/ehag232",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟手術",
+      "心房心律不整",
+      "非新生兒患者"
+    ],
+    "one_liner": "成人心臟手術後心律不整個案報告，與新生兒科照護無關，可跳過。",
+    "summary": {
+      "purpose": "本文報告成人心房中隔缺損手術後併發雙心房巨大折返性心房心律不整的病例。",
+      "design": "個案報告，涉及成人心臟手術患者的術後心律不整管理。",
+      "findings": "利用心電生理激活圖與同調性圖譜識別雙心房巨大折返性心房心律不整的機制。",
+      "significance": "本研究與新生兒重症醫學、早產兒照護、新生兒發育追蹤無任何關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-29"
   }
 ]

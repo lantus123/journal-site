@@ -7729,5 +7729,138 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-28"
+  },
+  {
+    "pmid": "41896077",
+    "title": "Diagnostic neuroimaging and early detection of germinal matrix hemorrhage-intraventricular hemorrhage.",
+    "authors": "Cizmeci MN, Leijser LM, de Vries LS",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 21",
+    "doi": "10.1016/j.siny.2026.101726",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "IVH",
+      "neuroimaging",
+      "cranial ultrasonography",
+      "MRI",
+      "very preterm infants",
+      "neurodevelopmental outcome"
+    ],
+    "one_liner": "這是一篇實用的神經影像回顧，適合強化 NICU 醫師對 GMH-IVH 診斷工具的認識，但無新穎臨床證據或治療建議。",
+    "summary": {
+      "purpose": "回顧新生兒腦部神經影像檢查在早產兒顱內出血（GMH-IVH）診斷與早期偵測的角色，並討論不同影像模式的臨床應用與預後意義。",
+      "design": "敘述性回顧文章（narrative review），針對早產兒（特別是 very preterm infants）的 GMH-IVH 神經影像診斷進行系統性文獻回顧，未涉及原始臨床試驗或新的臨床數據。",
+      "findings": "顱部超音波（cUS）為 NICU 最廣泛使用的篩檢工具，可進行序列性檢查、準確分級與併發症監測；腦部 MRI 在偵測顳葉與枕葉細微出血、白質損傷、小腦出血及提供預後資訊方面優於 cUS。GMH-IVH 仍與高率神經發育不良相關，尤其當合併進行性腦室擴張或腦室周圍出血性梗塞時預後更差。",
+      "significance": "為 NICU 臨床醫師提供 GMH-IVH 神經影像診斷的實用指引，強調 cUS 作為一線篩檢工具的重要性，以及 MRI 在複雜病例中的補充角色，有助於早期偵測、準確分級與預後評估，但未提供新的治療策略或預防方法。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-29"
+  },
+  {
+    "pmid": "41896159",
+    "title": "Drug-associated torsades de pointes and QT prolongation in infants: A focused real-world disproportionality analysis pharmacovigilance study.",
+    "authors": "Sridharan K, Sivaramakrishnan G",
+    "journal": "Pediatrics and Neonatology",
+    "pub_date": "2026 Mar 07",
+    "doi": "10.1016/j.pedneo.2025.11.013",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "QT prolongation",
+      "torsades de pointes",
+      "drug safety",
+      "pharmacovigilance",
+      "infants"
+    ],
+    "one_liner": "NICU 常用的 fentanyl、midazolam、erythromycin 等藥物與嬰幼兒 QT 延長和 TdP 風險相關，值得臨床警惕但本研究為被動通報分析，因果關係未確立。",
+    "summary": {
+      "purpose": "利用美國 FDA 藥物不良事件通報系統（AERS）進行藥物警戒分析，識別與嬰幼兒 torsades de pointes（TdP）和 QT 延長相關的藥物。",
+      "design": "回溯性藥物警戒不相稱性分析（disproportionality analysis），納入 ≤1 歲嬰幼兒的 AERS 通報案例（n=224），採用頻率論和貝葉斯統計方法進行信號檢測。",
+      "findings": "共識別 224 例獨特通報案例。主要藥物信號包括：麻醉藥物（fentanyl、propofol）、系統性抗菌藥（erythromycin、azithromycin）、心臟用藥（propranolol、amiodarone、flecainide）。midazolam 與長 QT 症候群強相關。整體而言，8.5% 導致死亡，52.2% 涉及住院，22.8% 為危及生命事件。",
+      "significance": "提示 NICU 常用藥物（fentanyl、midazolam、erythromycin）可能引發 QT 延長和致命性心律不整，強調在早產兒和新生兒使用這些藥物時需加強心電圖監測和劑量謹慎評估，特別是多藥併用或肝腎功能不全時。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-29"
+  },
+  {
+    "pmid": "41895814",
+    "title": "Comparison of functional features and user experience with different types of video laryngoscopes when used on neonatal manikins.",
+    "authors": "Kannan Loganathan P, Yasmeen T, Nair V, et al.",
+    "journal": "Archives of Disease in Childhood - Fetal and Neonatal Edition",
+    "pub_date": "2026 Mar 27",
+    "doi": "10.1136/archdischild-2025-329515",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "video laryngoscope",
+      "airway management",
+      "neonatal intubation",
+      "equipment comparison",
+      "training"
+    ],
+    "one_liner": "可跳過：此為模型實驗研究，缺乏臨床插管成功率或患者預後數據，對 NICU 日常決策的直接影響有限，適合設備採購委員會參考但不足以改變臨床做法。",
+    "summary": {
+      "purpose": "比較四種常用新生兒視頻喉鏡（C-MAC、GlideScope、InfantView、NeoView）的物理特性與功能設計，評估使用者體驗與臨床應用偏好。",
+      "design": "觀察性研究，於新生兒氣道管理工作坊中進行。23位參與者（臨床背景多元，65%定期執行新生兒插管，80%年插管少於10次）在新生兒模型上試用各裝置，並以4點量表評分六個面向（易用性、氣道視野、插管難度、影像品質、刀片大小、刀片設計）。同時進行技術性比較（刀片設計、尺寸）與傳統 Miller 刀片對照。",
+      "findings": "23位參與者完成評估。65%偏好傳統喉鏡。試用後，多數參與者偏好 C-MAC 與 NeoView；GlideScope 被認為最接近傳統喉鏡操作感。NeoView 與 C-MAC 的攝像頭至刀片尖端距離最短。所有視頻喉鏡均支持影像擷取；NeoView 與 GlideScope 使用拋棄式刀片，其他使用可重複使用刀片。",
+      "significance": "提供新生兒視頻喉鏡的系統性物理特性與使用偏好比較，可指導醫院設備採購決策與訓練課程設計。然而本研究基於模型實驗而非臨床實際插管成功率或併發症數據，證據強度有限。對於已有插管經驗的 NICU 團隊，實際臨床效益需進一步驗證。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-29"
+  },
+  {
+    "pmid": "41902354",
+    "title": "Air Quality Indicators and Perinatal-Neonatal Outcomes: A Scoping Review.",
+    "authors": "Bhatt AH, Nimbalkar SM, Bharti LK, et al.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 27",
+    "doi": "10.1111/apa.70515",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "air pollution",
+      "PM2.5",
+      "preterm birth",
+      "birth weight",
+      "perinatal outcomes"
+    ],
+    "one_liner": "此為環境流行病學 scoping review，確認空氣污染與早產/低出生體重的關聯，但對 NICU 日常照護決策無直接影響，可作為背景知識參考但不改變臨床實踐。",
+    "summary": {
+      "purpose": "系統性地整合環境空氣污染（特別是細懸浮微粒 PM2.5、二氧化氮、臭氧）與周產期及新生兒不良預後之間的關聯證據。",
+      "design": "Scoping review，檢索 PubMed、Embase 及 Web of Science；納入 20 篇研究（12 篇 cohort、3 篇 case-control、4 篇含 meta-analysis 的 systematic review、1 篇 cross-sectional）。主要評估孕期（按三個月期或全孕期平均）空氣污染暴露與出生體重、早產、死胎、新生兒死亡、先天異常及 NICU 入院之關聯。",
+      "findings": "PM2.5 與低出生體重及早產風險呈現最一致的關聯；二氧化氮亦與早產及出生體重下降相關。大多數研究評估孕期暴露，少數評估分娩前後暴露，無研究主要評估受孕前暴露。",
+      "significance": "本 scoping review 確認環境空氣污染（尤其 PM2.5 與 NO2）與周產期不良預後的關聯，但主要為環境公衛議題而非直接改變 NICU 臨床照護決策；對早產兒發生機制的理解有限，未提供具體的新生兒重症照護策略或預防介入建議。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-29"
   }
 ]
