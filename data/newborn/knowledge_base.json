@@ -7862,5 +7862,71 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-29"
+  },
+  {
+    "pmid": "41904318",
+    "title": "Efficacy, safety, route of administration of midazolam and diazepam for pediatric status epilepticus: systematic review, meta-analysis, and trial sequential analysis.",
+    "authors": "Kertam A, Hatem N, Al-Azzawi OM, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 28",
+    "doi": "10.1038/s41390-025-04722-6",
+    "total_score": 3,
+    "scores": {
+      "design": 5,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "status epilepticus",
+      "midazolam",
+      "benzodiazepine",
+      "pediatric emergency",
+      "seizure management"
+    ],
+    "one_liner": "高品質系統性回顧，但主要針對一般兒科癲癇急症，與新生兒科日常照護關聯性低，可跳過。",
+    "summary": {
+      "purpose": "系統性回顧與統合分析 midazolam 和 diazepam 在兒童癲癇重積狀態的療效、安全性及給藥途徑比較。",
+      "design": "Cochrane 系統性回顧與 meta-analysis，納入 9 項 RCT（n=1135 兒童），比較 buccal、intramuscular、intravenous 給藥途徑，評估療效成功率、復發率及藥物不良反應。",
+      "findings": "Midazolam 優於 diazepam，治療成功率 RR=1.13（95% CI 1.03-1.25, p=0.01），buccal 途徑 RR=1.30（p=0.002）；降低治療失敗 RR=0.74（p=0.02）及癲癇復發 RR=0.51（p=0.04）；非靜脈途徑發作停止時間更短（MD=-2.39 分鐘, p=0.01）；呼吸抑制安全性相當。",
+      "significance": "本研究主要針對一般兒科癲癇急症處置，與新生兒科照護的直接相關性有限。新生兒癲癇重積狀態罕見，且新生兒給藥途徑（靜脈、肌肉注射）與年長兒童不同；buccal 途徑在新生兒實務上應用有限。對 NICU 的臨床決策影響不大。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-30"
+  },
+  {
+    "pmid": "41904078",
+    "title": "Echocardiographic diagnosis of pulmonary thromboembolism in a preterm infant presenting with congenital chylothorax.",
+    "authors": "Kobayashi T, Iwatani S, Yoshimoto S",
+    "journal": "Pediatrics and Neonatology",
+    "pub_date": "2026 Mar 25",
+    "doi": "10.1016/j.pedneo.2026.01.005",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "chylothorax",
+      "pulmonary thromboembolism",
+      "echocardiography",
+      "preterm infant",
+      "case report"
+    ],
+    "one_liner": "罕見個案報告，臨床參考價值有限，可跳過除非特別關注乳糜胸合併症的診斷。",
+    "summary": {
+      "purpose": "報告一例早產兒合併先天性乳糜胸，以超音波心臟檢查診斷肺栓塞的罕見臨床案例。",
+      "design": "個案報告，未提供具體的胎齡、出生體重或詳細臨床過程資訊。",
+      "findings": "利用超音波心臟檢查成功診斷早產兒肺栓塞合併先天性乳糜胸，但未提供具體的超音波影像特徵、治療方式或臨床預後數據。",
+      "significance": "此案例提示臨床醫師在處理早產兒乳糜胸時應警覺肺栓塞的可能性，但因為是單一案例報告，缺乏足夠的證據支持改變現有的診療指引或照護策略。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-30"
   }
 ]

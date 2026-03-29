@@ -3145,5 +3145,269 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-29"
+  },
+  {
+    "pmid": "41902792",
+    "title": "Automated Echocardiographic Detection of Congenital Heart Disease Using Artificial Intelligence.",
+    "authors": "Lukyanenko P, Ghelani S, Yang Y, et al.",
+    "journal": "Circulation",
+    "pub_date": "2026 Mar 28",
+    "doi": "10.1161/CIRCULATIONAHA.126.079781",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "congenital heart disease",
+      "artificial intelligence",
+      "echocardiography",
+      "automated detection",
+      "domain shift"
+    ],
+    "one_liner": "AI 輔助 CHD 超音波診斷具潛力但樣本以年長兒為主，新生兒科醫師可參考其 domain shift 警示，但直接臨床應用於新生兒篩檢的證據仍不足。",
+    "summary": {
+      "purpose": "開發 AI 模型（EchoFocus-CHD）自動偵測先天性心臟病（CHD），以改善全球診斷可及性與及時性。",
+      "design": "多中心回溯性研究。內部隊列：波士頓兒童醫院 54,727 次超音波檢查（340 萬段影片），中位年齡 7.1 歲（IQR 0.2-15.0），5.8% 重症 CHD；外部轉介隊列：美國及國際中心 3,356 次檢查（167,484 段影片），中位年齡 2.5 歲（IQR 0.3-9.4），29.4% 重症 CHD。模型基於 transformer 架構進行 12 項重症及 8 項非重症 CHD 病灶偵測。",
+      "findings": "內部隊列：重症 CHD 複合結果 AUROC 0.94（LR+ 7.50, LR- 0.14），個別重症病灶 AUROC 0.83-1.00；非重症 CHD 複合結果 AUROC 0.90（LR+ 5.00, LR- 0.23），個別非重症病灶 AUROC 0.70-0.96。外部轉介隊列性能下降至 AUROC 0.77（重症 CHD），與專家判讀一致性下降相關（κ=0.72 vs 0.82）。經美國患者資料重新訓練後，國際重症 CHD 偵測改善至 AUROC 0.87。",
+      "significance": "本研究針對一般兒科人口（中位年齡 7.1 歲），與新生兒科直接相關性有限。雖然早期 CHD 診斷對新生兒照護重要，但研究樣本主要為年長兒童，新生兒特定族群（GA <32 週、VLBW/ELBW）未單獨分析。Domain shift 問題提示 AI 模型在不同臨床環境的推廣困難，對台灣 NICU 導入有實務考量。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "EchoFocus-CHD AI 模型在內部隊列偵測重症 CHD 表現優異（AUROC 0.94），但外部驗證性能下降至 0.77，顯示 domain shift 問題。研究主要針對一般兒科人口（中位年齡 7.1 歲），新生兒特定族群分析不足。雖然 AI 輔助診斷具潛力，但目前證據對 NICU 直接應用價值有限。",
+      "hidden_findings": [
+        {
+          "finding": "研究未提供新生兒特定族群（<28 天、GA <32 週、VLBW）的 subgroup 分析，儘管 5.8% 重症 CHD 患者中應包含相當比例的新生兒",
+          "source": "Abstract 僅提供整體年齡中位數 7.1 歲，缺乏年齡分層結果",
+          "implication": "無法評估 AI 模型在新生兒族群的診斷準確性，而新生兒 CHD 診斷時機對預後至關重要"
+        },
+        {
+          "finding": "Domain shift 問題導致外部驗證 AUROC 從 0.94 降至 0.77，專家一致性也從 κ=0.82 降至 0.72",
+          "source": "Abstract 中 UMAP 分析顯示 cohort 間存在 domain shift",
+          "implication": "AI 模型在不同醫院、不同超音波設備間的推廣可能面臨重大挑戰，需要本土化訓練"
+        },
+        {
+          "finding": "模型優先關注 parasternal long-axis、parasternal short-axis、subxiphoid long-axis、apical 等 view，但未說明新生兒特殊 view（如 ductal arch view）的處理",
+          "source": "Abstract 中 explainability analyses 結果",
+          "implication": "新生兒 CHD 診斷常需要特殊 view 評估 PDA、coarctation 等，模型可能遺漏關鍵診斷資訊"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "多中心外部驗證設計，包含美國及國際中心",
+          "大樣本量（340 萬段影片）",
+          "使用 transformer 架構改善 view 聚焦能力",
+          "進行 explainability 和 domain shift 分析"
+        ],
+        "notes": [
+          "未說明 CHD 診斷的 gold standard（心導管？手術？專家共識？）",
+          "缺乏 inter-observer variability 詳細分析",
+          "未提及是否排除 image quality 不佳的案例",
+          "Follow-up duration 未明確說明"
+        ],
+        "weaknesses": [
+          "回溯性設計無法評估實際臨床應用效果",
+          "年齡分布偏向年長兒童，新生兒代表性不足",
+          "Domain shift 問題顯著影響外部驗證結果",
+          "缺乏與現有 screening protocol（如 pulse oximetry screening）的比較"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Plana 2022, Nature Medicine",
+            "comparison": "該研究聚焦成人心臟超音波 AI，本研究擴展至兒科 CHD 偵測，但同樣面臨 domain shift 挑戰"
+          },
+          {
+            "citation": "Kemper 2011, Pediatrics (AAP CHD Screening Statement)",
+            "comparison": "建立了 pulse oximetry screening 標準，本研究提供 AI 輔助診斷的補充方法，但尚未整合至現有 screening protocol"
+          }
+        ],
+        "guideline_status": "AAP 建議新生兒 CHD screening 使用 pulse oximetry，台灣新生兒科醫學會跟進此建議。目前國際指引尚未納入 AI 輔助診斷，仍以臨床評估和傳統 screening 為主",
+        "evidence_gap_filled": "首次針對兒科 CHD 開發大規模 AI 偵測模型，但新生兒特定證據仍不足",
+        "ongoing_trials": "目前無已知的新生兒 CHD AI 診斷大型前瞻性試驗，多數 AI 研究仍在回溯性驗證階段"
+      },
+      "protocol_impact": {
+        "current_practice": "目前 level III NICU 依循 AAP 建議，所有新生兒出院前進行 pulse oximetry screening，懷疑 CHD 時安排小兒心臟科會診及心臟超音波檢查。高風險新生兒（如 22q11 deletion、maternal diabetes）常規心臟評估",
+        "proposed_change": "暫不建議改變現行 protocol。若未來導入，可考慮作為心臟超音波檢查的輔助工具，協助住院醫師初步判讀，但仍需專科醫師最終確認。建議先進行本土化驗證研究",
+        "prerequisites": [
+          "建立本土新生兒心臟超音波資料庫進行模型訓練",
+          "與小兒心臟科合作制定 AI 輔助診斷 SOP",
+          "評估現有超音波設備與 AI 系統的相容性",
+          "制定 AI 結果判讀和責任歸屬準則"
+        ],
+        "missing_evidence": [
+          "新生兒特定族群（特別是早產兒）的診斷準確性",
+          "與現有 pulse oximetry screening 的成本效益比較",
+          "Long-term neurodevelopmental outcome 是否因早期 AI 診斷而改善",
+          "台灣本土 CHD 流行病學資料的模型驗證結果"
+        ]
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-30"
+  },
+  {
+    "pmid": "41904795",
+    "title": "Sotatercept for Combined Post- and Pre-capillary Pulmonary Hypertension Associated With Heart Failure: Results from the Phase 2, Randomized, Placebo-Controlled CADENCE Study.",
+    "authors": "Gomberg-Maitland M, Tedford RJ, Langleben D, et al.",
+    "journal": "Circulation",
+    "pub_date": "2026 Mar 29",
+    "doi": "10.1161/CIRCULATIONAHA.126.079918",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心衰竭",
+      "肺高血壓",
+      "sotatercept",
+      "與新生兒無關"
+    ],
+    "one_liner": "成人心衰竭肺高血壓研究，與新生兒科無關，可跳過。",
+    "summary": {
+      "purpose": "評估 sotatercept（activin 訊號抑制劑）對成人心衰竭伴肺高血壓患者的療效。",
+      "design": "多中心、隨機、安慰劑對照第二期臨床試驗，納入 164 名成人患者（年齡未明確，但為成人族群），分為 sotatercept 0.3 mg/kg、0.7 mg/kg 及安慰劑組，每 3 週給藥一次，追蹤 24 週。",
+      "findings": "sotatercept 0.3 mg/kg 組肺血管阻力下降 0.67 Wood units（Hodges-Lehmann shift estimate -1.02，95% CI -1.81 to -0.23，P=0.004），0.7 mg/kg 組下降 0.33 Wood units（shift estimate -0.75，95% CI -1.52 to 0.03，P=0.024）；平均肺動脈壓兩劑量組均下降約 9 mm Hg；6 分鐘步行距離 0.3 mg/kg 組改善 20.3 公尺；主要不良事件為血紅素升高及腹瀉。",
+      "significance": "本研究完全針對成人心衰竭患者，與新生兒及早產兒照護無任何關聯，不適用於 NICU 臨床決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-30"
+  },
+  {
+    "pmid": "41903740",
+    "title": "State and Regional Variation in Access to Pediatric Extracorporeal Membrane Oxygenation.",
+    "authors": "Joseph AM, Lautz AJ, Myers CN, et al.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Mar 26",
+    "doi": "10.1016/j.jpeds.2026.115083",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "ECMO",
+      "healthcare access",
+      "resource allocation",
+      "geospatial analysis"
+    ],
+    "one_liner": "美國 ECMO 資源配置的地理分析，與新生兒科日常照護決策無直接關聯，台灣醫師可跳過。",
+    "summary": {
+      "purpose": "利用地理空間分析評估美國各州及地區兒童 ECMO 可及性的差異，以識別需要發展新 ECMO 計畫的地區。",
+      "design": "回溯性地理空間分析研究，檢視 ECMO 中心分布與兒童人口的關係，未明確報告具體樣本數或年份範圍。",
+      "findings": "發現美國各州及地區間 ECMO 中心供應量與兒童 ECMO 可及性存在顯著差異，但 abstract 未提供具體的地理分布數據、可及性指標或量化結果。",
+      "significance": "本研究主要針對醫療資源配置與公衛政策層面，對 NICU 日常臨床決策（如呼吸器策略、surfactant 使用、feeding protocol）無直接影響。ECMO 在新生兒科的應用侷限於極少數重症個案（如 meconium aspiration syndrome、severe persistent pulmonary hypertension、ARDS），且台灣馬偕等大型醫學中心已具備此技術，本研究的美國地理分析對台灣 NICU 實務參考價值有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-30"
+  },
+  {
+    "pmid": "41902912",
+    "title": "Bile Acids and Fontan Multisystem Dysfunction: Why Longitudinal Clinics Matter.",
+    "authors": "Shah AH",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 28",
+    "doi": "10.1007/s00246-026-04238-8",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Fontan procedure",
+      "膽酸代謝",
+      "先天性心臟病",
+      "長期追蹤",
+      "兒童心臟學"
+    ],
+    "one_liner": "本文為先天性心臟病 Fontan 手術後患者的長期併發症評論，與新生兒科 NICU 照護無關，可跳過。",
+    "summary": {
+      "purpose": "探討膽酸與 Fontan 手術後多系統功能障礙的關聯，強調長期追蹤門診的重要性。",
+      "design": "敘述性評論文章，針對先天性心臟病 Fontan 手術患者的長期併發症進行討論，非新生兒族群研究。",
+      "findings": "文章討論膽酸代謝異常與 Fontan 術後肝臟、腎臟、神經系統等多器官功能障礙的關聯，強調建立結構化長期追蹤門診的必要性。",
+      "significance": "本文主要針對已進行 Fontan 手術的兒童患者（通常為學齡期或青少年），與新生兒重症照護無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-30"
+  },
+  {
+    "pmid": "41902911",
+    "title": "Same Brand, Different Risk: Global Processed Foods and Cardiometabolic Health.",
+    "authors": "Shah AH",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Mar 28",
+    "doi": "10.1007/s00246-026-04240-0",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "processed foods",
+      "pediatric cardiology",
+      "cardiometabolic health"
+    ],
+    "one_liner": "可跳過：此為兒童心臟代謝營養研究，與新生兒科臨床決策無直接相關性。",
+    "summary": {
+      "purpose": "探討全球加工食品品牌與心代謝健康的關聯。",
+      "design": "文章主題為兒童心臟代謝健康與加工食品，非新生兒或早產兒相關研究。",
+      "findings": "無法評估，因文章主題與新生兒科照護無直接關聯。",
+      "significance": "本文針對兒童期營養與心血管風險，與新生兒重症醫學、早產兒照護、發育追蹤等 NICU 核心議題無關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-30"
+  },
+  {
+    "pmid": "41903159",
+    "title": "Fetal Instability and Resuscitative Management During Fetal Intervention: A Retrospective, Descriptive Analysis of 245 Fetal Cardiac and Spina Bifida Procedures.",
+    "authors": "Naus CA, Yilmaz Furtun B, Munoz JL, et al.",
+    "journal": "Prenatal Diagnosis",
+    "pub_date": "2026 Mar 28",
+    "doi": "10.1002/pd.70127",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "fetal surgery",
+      "fetal intervention",
+      "FASI",
+      "fMMC",
+      "prenatal management"
+    ],
+    "one_liner": "此為胎兒手術中的管理描述研究，與新生兒科日常照護決策無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "描述胎兒心臟介入治療（FASI）與胎兒脊髓膜膨出修復（fMMC）手術中胎兒不穩定的發生率、時機、病因及處置方式。",
+      "design": "單中心回溯性描述性分析，納入 2012 年 3 月至 2025 年 4 月間接受 FASI（28 位患者，35 例手術）或 fMMC 修復（210 位患者）的胎兒，共 245 例手術。",
+      "findings": "胎兒不穩定發生率為 20.8%（51/245 例），FASI 組明顯高於 fMMC 組（85.7% vs. 10.0%，p<0.01）。FASI 中所有不穩定均為手術相關，fMMC 中多數與子宮環境有關。FASI 採用侵襲性處置（如心包穿刺），fMMC 則多採非侵襲性措施（如重新定位）。",
+      "significance": "本研究主要針對胎兒手術中的管理策略，與新生兒出生後的 NICU 照護決策無直接關聯。雖涉及高危胎兒（心臟異常、脊髓膜膨出），但重點在產前介入而非新生兒期照護。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-30"
   }
 ]
