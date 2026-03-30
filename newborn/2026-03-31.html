@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NB Journal Digest - 2026-03-31</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.8;font-size:16px}
+.container{max-width:720px;margin:0 auto;padding:20px}
+header{padding:20px 0;border-bottom:2px solid #1B6B93;margin-bottom:24px}
+.back{font-size:15px;color:#1B6B93;text-decoration:none}
+.back:hover{text-decoration:underline}
+.date{font-size:15px;color:#888;margin-top:8px}
+h1{font-size:26px;font-weight:700;color:#1B6B93;margin-top:4px}
+.stats{font-size:15px;color:#666;margin-top:6px}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:18px}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600}
+.tag-journal{font-size:13px;color:#999}
+.card-title{font-size:18px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px}
+.card-authors{font-size:14px;color:#999;margin-bottom:14px}
+.section{padding:14px 0;border-top:1px solid #f0f0ec}
+.section p{font-size:15px;color:#555;margin-bottom:8px}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:10px}
+.hl{border-left:3px solid;padding:10px 14px;margin:8px 0;font-size:15px;line-height:1.7;border-radius:0}
+.hl-green{border-color:#639922;background:#EAF3DE;color:#27500A}
+.hl-amber{border-color:#BA7517;background:#FAEEDA;color:#633806}
+.hl-red{border-color:#E24B4A;background:#FCEBEB;color:#791F1F}
+.hl-blue{border-color:#378ADD;background:#E6F1FB;color:#0C447C}
+.related{font-size:15px;color:#555;padding:8px 0;border-bottom:1px solid #f5f5f0}
+.related:last-child{border-bottom:none}
+.card-links{padding-top:14px;display:flex;gap:16px}
+.card-links a{font-size:14px;color:#1B6B93;text-decoration:none}
+.card-links a:hover{text-decoration:underline}
+footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;color:#999;text-align:center}
+.vote-count{font-size:13px;color:#1B6B93;font-weight:600}
+@media(max-width:600px){.container{padding:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">NB Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">或從 LINE / Email 點擊連結直接閱讀</p>
+</div>
+</div>
+
+<!-- Digest content (hidden until auth) -->
+<div id="digest-content" style="display:none;">
+<div class="container">
+<header>
+  <a href="index.html" class="back">← Back to archive</a>
+  <div class="date">2026/03/31 (Tuesday)</div>
+  <h1>NB Journal Digest</h1>
+  <div class="stats">5 articles</div>
+</header>
+
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 4-5: DEEP ANALYSIS</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">Seminars in Fetal and Neonatal Medicine</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">The Golden Hour and beyond: A neuroprotection bundle to reduce intraventricular hemorrhage.</h2>
+  <div class="card-authors">Qattea I, Acun C, Mohamed MA, et al. · 2026 Mar 24</div>
+  <div class="section"><b>30 秒重點：</b>這篇綜合性回顧提出極早產兒 IVH 預防的整合性神經保護策略，涵蓋黃金時段（0-60分鐘）及生命早期數日。關鍵組件包括：延遲臍帶結紮≥60秒、維持體溫36.5-37.5°C、早期CPAP使用、限制性血小板輸血（<25,000/μL才輸血）、嚴格鈉離子控制（<150 mEq/L）。多中心QI計畫顯示整合性協議化照護可降低any-grade IVH發生率，強調bundle approach優於單一介入。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>對於<28週極早產兒，intact umbilical cord milking不建議使用，可能增加severe IVH風險；而28-34週早產兒的證據不足以支持常規使用</b> Full text中NRP 9th edition更新內容。需要修正目前許多NICU仍在使用cord milking的做法，特別是對ELBW嬰兒</p><p><b>臍帶血培養的敏感性等同或高於周邊血培養，且可減少新生兒失血量，對EOS評估具有良好的陰性預測值</b> Full text中postnatal cord blood sampling段落。可考慮將臍帶血培養納入EOS評估protocol，減少早產兒採血量以降低IVH風險</p><p><b>運送保溫箱常在15分鐘後自動降溫至33°C，需指定專人定期確認溫度設定維持在36.5-37.5°C</b> Full text中transport incubator段落。需要建立運送過程中的溫度監控SOP，避免因設備預設值造成的hypothermia</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>整合多種研究設計（RCT、觀察性研究、QI計畫）提供全面性證據</div><div class="hl hl-green"><b>Strong：</b>提供具體的operational tables便於臨床實施</div><div class="hl hl-green"><b>Strong：</b>涵蓋完整時間軸從產前到生命早期數日</div><div class="hl hl-amber"><b>Note：</b>未明確說明IVH分級定義是使用Papile分類還是其他系統</div><div class="hl hl-amber"><b>Note：</b>QI計畫的outcome measurement時間點和follow-up期間不一致</div><div class="hl hl-amber"><b>Note：</b>部分建議基於生理學合理性而非直接的IVH預防證據</div><div class="hl hl-red"><b>Weak：</b>非系統性回顧，可能存在選擇性偏差</div><div class="hl hl-red"><b>Weak：</b>缺乏個別bundle組件的效果量化分析</div><div class="hl hl-red"><b>Weak：</b>未提供長期神經發育結果的證據強度評估</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>SUPPORT Trial, NEJM 2010</b> — 本研究建議SpO2目標90-95%，與SUPPORT trial的85-89% vs 91-95%比較組不同，採用較保守的氧氣策略</div><div class="related"><b>PlaNet-2 Trial, Lancet 2019</b> — 支持限制性血小板輸血策略（<25,000/μL），與PlaNet-2的<50,000/μL閾值更為嚴格</div><p><b>指引現況：</b>AAP NRP 9th edition已更新cord management建議；ILCOR 2020支持delayed cord clamping；台灣新生兒科醫學會尚未發布完整的IVH預防指引</p><p><b>填補的 evidence gap：</b>首次提供時間分層的整合性IVH預防策略，填補了從產前到生命早期完整照護流程的evidence gap</p><p><b>進行中的相關試驗：</b>目前有多個針對極早產兒神經保護的大型RCT進行中，包括magnesium sulfate的最適劑量研究和新型神經保護藥物試驗</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>目前多數level III NICU採用部分組件：產前類固醇、延遲臍帶結紮30-60秒、早期CPAP、溫和通氣策略。血小板輸血閾值通常為20,000-50,000/μL，caffeine在生命第1-3天開始使用（loading dose 20mg/kg，maintenance 5-10mg/kg/day）<br><b>建議調整：</b>建立標準化Golden Hour checklist，包括：確保延遲臍帶結紮≥60秒、嚴格體溫控制36.5-37.5°C、SpO2目標90-95%、限制性血小板輸血<25,000/μL、鈉離子控制<150 mEq/L、結構化最小刺激護理、早期但限制性靜脈營養<br><b>導入準備：</b>團隊教育訓練包括產房到NICU的seamless handoff, 修訂現有輸血protocol降低血小板輸血閾值, 建立運送過程溫度監控SOP, 導入臍帶血培養作為EOS評估選項<br><b>等待的證據：</b>缺乏台灣本土極早產兒族群的IVH發生率基線資料、個別bundle組件的成本效益分析、以及18-24個月corrected age的神經發育長期追蹤結果</div></div>
+  <div id="analysis-result-41905845"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41905845/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1016/j.siny.2026.101729" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41905845" data-rating="must_read" onclick="vote('41905845','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41905845-must_read" style="display:none;">0</span></button> <button data-pmid="41905845" data-rating="useful" onclick="vote('41905845','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41905845-useful" style="display:none;">0</span></button> <button data-pmid="41905845" data-rating="so_so" onclick="vote('41905845','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41905845-so_so" style="display:none;">0</span></button> <button data-pmid="41905845" data-rating="skip" onclick="vote('41905845','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41905845-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41905845" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  <div style="padding:8px 0;font-size:13px;color:#085041;">✓ 已有全文分析</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">JAMA Pediatrics</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Cognitive and Educational Outcomes After Preterm Birth or Low Birth Weight: An Umbrella Review and Meta-Analysis.</h2>
+  <div class="card-authors">Hu M, Truong T, Zhu S, et al. · 2026 Mar 30</div>
+  <div class="section"><b>30 秒重點：</b>這項傘式回顧分析40篇系統性文獻回顧，發現早產或低出生體重兒的認知與教育預後顯著較差：IQ下降0.65個標準差、數學能力下降0.77個標準差、需要特殊教育支持風險增加58%。效應在更早胎齡與更低體重時更強，青春期後減弱但成年期仍存在。這強調NICU需建立系統性長期追蹤至學齡期，特別針對ELBW與極早產兒。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract未明確說明各胎齡亞群（如<28週 vs 28-32週 vs 32-37週）的具體效應差異，只提到「在更早胎齡時效應更強」</b> 需查看全文的subgroup analysis或supplementary tables中按GA分層的詳細數據。不同GA亞群的風險分層對於我們決定追蹤頻率與介入強度至關重要，特別是資源有限時的優先順序</p><p><b>788個效應量估計值來自22篇meta-analysis，但未說明這些研究的重疊程度與去重方法</b> 全文methodology section應有詳細的overlap處理策略。如果同一批病人被重複計算，可能高估效應量，影響我們對風險程度的判斷</p><p><b>「青春期後效應減弱但成年期仍存在」這個發現缺乏具體數據，不知道減弱程度</b> 需查看按年齡分層的forest plot或age-stratified analysis。了解不同年齡階段的風險變化，有助於決定追蹤計畫的持續時間與轉銜安排</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>使用Joanna Briggs Institute指引評估品質與偏差風險</div><div class="hl hl-green"><b>Strong：</b>重新分析原始研究的效應量並轉換為標準化Hedges g</div><div class="hl hl-green"><b>Strong：</b>採用隨機效應模型處理異質性</div><div class="hl hl-green"><b>Strong：</b>進行胎齡、出生體重、年齡的分層分析</div><div class="hl hl-amber"><b>Note：</b>未說明認知評估工具的版本（如Bayley-III vs Bayley-4, WISC版本）</div><div class="hl hl-amber"><b>Note：</b>未提及BPD或其他併發症的定義標準</div><div class="hl hl-amber"><b>Note：</b>788個效應量的研究重疊程度不明</div><div class="hl hl-amber"><b>Note：</b>追蹤時間範圍從嬰幼兒期到成年期，但各年齡段的樣本數不詳</div><div class="hl hl-red"><b>Weak：</b>傘式回顧固有的二手資料限制</div><div class="hl hl-red"><b>Weak：</b>未能控制NICU照護品質的時代差異</div><div class="hl hl-red"><b>Weak：</b>缺乏社經地位、家庭支持等重要confounders的統一調整</div><div class="hl hl-red"><b>Weak：</b>教育制度的國家差異可能影響結果的可比性</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Twilhaar et al. 2018, Pediatrics</b> — 該研究專注於極早產兒(<28週)的meta-analysis，本研究涵蓋更廣的GA範圍但可能稀釋了極早產的特定風險</div><div class="related"><b>Aarnoudse-Moens et al. 2009, Pediatrics</b> — 經典的極早產認知預後回顧，本研究提供更新的證據並包含教育成果，但時間跨度大可能混合不同照護時代</div><p><b>指引現況：</b>AAP建議高風險早產兒追蹤至學齡期，台灣新生兒科醫學會建議VLBW追蹤至2歲。目前缺乏針對不同GA亞群的分層追蹤建議</p><p><b>填補的 evidence gap：</b>首次系統性整合認知與教育雙重預後的證據，提供跨生命週期的風險評估，有助於建立evidence-based的長期追蹤策略</p><p><b>進行中的相關試驗：</b>目前主要是觀察性追蹤研究，缺乏針對認知介入策略的大型RCT，如早期認知刺激或特殊教育介入的效果評估</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>目前多數level III NICU對VLBW(<1500g)進行追蹤至2歲，使用Bayley-III評估，32-37週早產兒多在1歲前結束追蹤。認知評估主要依賴兒童發展聯合評估<br><b>建議調整：</b>建議建立分層追蹤策略：ELBW(<1000g)追蹤至學齡期(6-7歲)，VLBW追蹤至學前期(4-5歲)，moderate preterm(32-37週)至少追蹤至2歲。增加學習能力評估(閱讀、數學、拼寫)，建立與教育單位的轉銜機制<br><b>導入準備：</b>制定按GA/BW分層的追蹤protocol, 訓練團隊使用標準化認知評估工具, 建立與教育局特教資源中心的合作機制, 設計家長衛教材料說明長期風險<br><b>等待的證據：</b>缺乏本土化的長期追蹤數據、早期認知介入策略的成效證據、成本效益分析資料，以及不同社經背景下介入策略的差異化效果</div></div>
+  <div id="analysis-result-41910988"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41910988/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1001/jamapediatrics.2026.0533" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41910988" data-rating="must_read" onclick="vote('41910988','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41910988-must_read" style="display:none;">0</span></button> <button data-pmid="41910988" data-rating="useful" onclick="vote('41910988','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41910988-useful" style="display:none;">0</span></button> <button data-pmid="41910988" data-rating="so_so" onclick="vote('41910988','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41910988-so_so" style="display:none;">0</span></button> <button data-pmid="41910988" data-rating="skip" onclick="vote('41910988','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41910988-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41910988" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41910988" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41910988','Cognitive and Educational Outcomes After Preterm Birth or Low Birth Weight: An Umbrella Review and Meta-Analysis.',this)">
+  <button id="upload-btn-41910988" onclick="document.getElementById('pdf-41910988').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41910988" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 2-3: QUICK SUMMARY</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Neonatology</span></div>
+  <h2 class="card-title">Pulmonary Hypertension Association with mortality in Newborns with Giant Omphalocele: A Systematic Review and Meta-Analysis.</h2>
+  <div class="card-authors">Isaac Maximo LM, Assis de Carlos G, Messias Hirano Padrao E, et al. · 2026 Mar 30</div>
+  <div class="section"><p><b>研究目的：</b>評估肺高血壓（PH）與巨大臍膨出新生兒死亡率及其他臨床結果的關聯。</p><p><b>研究設計：</b>系統性回顧與統合分析；納入 5 篇回溯性 cohort 研究，共 258 名患者（43% 有 PH，57% 無 PH）；使用 Newcastle-Ottawa Scale 評估偏差風險；PROSPERO 註冊（CRD420251025073）。</p><p><b>主要發現：</b>PH 與死亡率增加相關（OR 6.78, 95% CI 2.72-16.88, p<0.001, I²=0%）；機械通氣時間延長（平均差異 21.25 天，95% CI 13.19-29.31, p<0.001, I²=0%）；無異質性。</p><p><b>臨床意義：</b>確認 PH 為巨大臍膨出新生兒的重要預後不良因子，提示臨床應加強 PH 篩檢與管理；但現有證據仍侷限於小樣本回溯性研究，缺乏標準化診斷準則與危險因子分析，難以指導具體臨床介入策略。</p></div>
+  <div id="analysis-result-41911150"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41911150/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1159/000551723" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41911150" data-rating="must_read" onclick="vote('41911150','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41911150-must_read" style="display:none;">0</span></button> <button data-pmid="41911150" data-rating="useful" onclick="vote('41911150','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41911150-useful" style="display:none;">0</span></button> <button data-pmid="41911150" data-rating="so_so" onclick="vote('41911150','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41911150-so_so" style="display:none;">0</span></button> <button data-pmid="41911150" data-rating="skip" onclick="vote('41911150','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41911150-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41911150" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41911150" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41911150','Pulmonary Hypertension Association with mortality in Newborns with Giant Omphalocele: A Systematic Review and Meta-Analysis.',this)">
+  <button id="upload-btn-41911150" onclick="document.getElementById('pdf-41911150').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41911150" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Neonatology</span></div>
+  <h2 class="card-title">Sudden unexpected postnatal collapse (SUPC) in the Netherlands: a national registry study.</h2>
+  <div class="card-authors">Bergman KA, Rosman AN, Reiss IKM, et al. · 2026 Mar 30</div>
+  <div class="section"><p><b>研究目的：</b>調查荷蘭新生兒突然意外崩潰（SUPC）的發生率、病因及發生環境差異，特別比較院內與居家發生的情況。</p><p><b>研究設計：</b>全國登錄制研究，透過荷蘭兒科監測單位之網路登錄系統收集 2019 年 4 月至 2022 年 4 月期間的 SUPC 病例。納入條件：出生後 24 小時內發生崩潰、需要至少正壓通氣之復甦、出生週數 ≥35 週、5 分鐘 Apgar 分數 ≥8。共 94 例登錄、60 例符合納入條件（院內 52 例、居家 8 例）。</p><p><b>主要發現：</b>年發生率 7-17 per 100,000 活產（平均 11 per 100,000）。中位崩潰時間 64 分鐘，2/3 發生於出生後 2 小時內。居家發生者崩潰時間明顯延後（165 分鐘 vs. 60 分鐘；p<0.05），死亡率顯著高於院內（37.5% vs. 6%；p<0.05）。約半數病例涉及可能或確定的氣道阻塞，與其他病因相比，更常與可預防因素相關（如母親警覺性降低、嬰兒口鼻被覆蓋）。</p><p><b>臨床意義：</b>SUPC 雖罕見但致命性高，居家發生的預後明顯較差。本研究強調院內外皆需提升警覺，特別是對氣道阻塞的預防（如正確的嬰兒睡眠姿勢、避免口鼻覆蓋）。對台灣 NICU 的啟示在於：應加強產後立即照護期間的監測，並強化家屬衛教以減少居家 SUPC 風險。</p></div>
+  <div id="analysis-result-41911090"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41911090/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1159/000551725" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41911090" data-rating="must_read" onclick="vote('41911090','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41911090-must_read" style="display:none;">0</span></button> <button data-pmid="41911090" data-rating="useful" onclick="vote('41911090','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41911090-useful" style="display:none;">0</span></button> <button data-pmid="41911090" data-rating="so_so" onclick="vote('41911090','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41911090-so_so" style="display:none;">0</span></button> <button data-pmid="41911090" data-rating="skip" onclick="vote('41911090','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41911090-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41911090" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41911090" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41911090','Sudden unexpected postnatal collapse (SUPC) in the Netherlands: a national registry study.',this)">
+  <button id="upload-btn-41911090" onclick="document.getElementById('pdf-41911090').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41911090" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Acta Paediatrica</span></div>
+  <h2 class="card-title">Liver Transplantation for Inherited Metabolic Disorders: A Work in Progress.</h2>
+  <div class="card-authors">Sreekantam V, Kurkal K, Santra S, et al. · 2026 Mar 29</div>
+  <div class="section"><p><b>研究目的：</b>描述單一肝臟移植中心30年間針對遺傳代謝疾病進行肝臟移植的適應症趨勢與預後。</p><p><b>研究設計：</b>回溯性病歷審查，1989-2021年間進行肝臟移植的患者，共55名患者（女性29名）進行62次移植，使用Kaplan-Meier分析評估患者與移植物存活率。</p><p><b>主要發現：</b>術後併發症包括排斥反應（27.4%）、膽漏（8%）、原發性無功能（6.5%）、肝動脈血栓（9.7%）及門脈血栓（1.6%）。整體患者存活率：1年78.1%、5年76.3%、10年74.5%；移植物存活率：1年69.3%、5年67.7%、10年66.1%。死亡率隨時間改善：1989-2000年為53.3%，2001-2010年為18.8%，2011-2021年為8.3%。</p><p><b>臨床意義：</b>本研究與新生兒加護病房日常照護無直接關聯。雖涉及遺傳代謝疾病，但重點為肝臟移植手術預後，屬於兒童肝臟移植領域而非新生兒重症醫學。新生兒科醫師對此研究的臨床應用價值有限。</p></div>
+  <div id="analysis-result-41906323"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41906323/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1111/apa.70512" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41906323" data-rating="must_read" onclick="vote('41906323','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41906323-must_read" style="display:none;">0</span></button> <button data-pmid="41906323" data-rating="useful" onclick="vote('41906323','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41906323-useful" style="display:none;">0</span></button> <button data-pmid="41906323" data-rating="so_so" onclick="vote('41906323','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41906323-so_so" style="display:none;">0</span></button> <button data-pmid="41906323" data-rating="skip" onclick="vote('41906323','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41906323-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41906323" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41906323" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41906323','Liver Transplantation for Inherited Metabolic Disorders: A Work in Progress.',this)">
+  <button id="upload-btn-41906323" onclick="document.getElementById('pdf-41906323').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41906323" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<footer>
+  Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  AI scoring by Claude (Haiku + Sonnet)
+</footer>
+</div>
+</div>
+
+<script>
+(function() {
+  var TOKEN_HASH = "cbb8457394f9ae3d83abcfc31c9dbf6a0bbc649f830deb510dbb93fb189980bd";
+  var PW_HASH = "b6cf8ade465cb0435fd6e1a86d7f8a5b3f67639655691545ced5912ce1cfc08f";
+  var content = document.getElementById('digest-content');
+  var gate = document.getElementById('auth-gate');
+
+  function sha256(str) {
+    var encoder = new TextEncoder();
+    return crypto.subtle.digest('SHA-256', encoder.encode(str)).then(function(buf) {
+      return Array.from(new Uint8Array(buf)).map(function(b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    });
+  }
+
+  function unlock() {
+    gate.style.display = 'none';
+    content.style.display = 'block';
+  }
+
+  function checkAccess() {
+    // 1. Check URL token
+    var params = new URLSearchParams(window.location.search);
+    var t = params.get('t');
+    if (t && TOKEN_HASH) {
+      sha256(t).then(function(h) {
+        if (h === TOKEN_HASH) {
+          localStorage.setItem('digest_token', t);
+          unlock();
+        } else {
+          checkPassword();
+        }
+      });
+      return;
+    }
+
+    // 2. Check stored password
+    checkPassword();
+  }
+
+  function checkPassword() {
+    if (!PW_HASH) { unlock(); return; }
+    var saved = localStorage.getItem('digest_pw');
+    if (saved) {
+      sha256(saved).then(function(h) {
+        if (h === PW_HASH) { unlock(); }
+        else { gate.style.display = 'flex'; }
+      });
+    } else {
+      gate.style.display = 'flex';
+    }
+  }
+
+  window.submitPassword = function() {
+    var input = document.getElementById('pw-input').value;
+    sha256(input).then(function(h) {
+      if (h === PW_HASH) {
+        localStorage.setItem('digest_pw', input);
+        unlock();
+      } else {
+        document.getElementById('pw-error').style.display = 'block';
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', checkAccess);
+})();
+</script>
+<script>
+(function() {
+  var FEEDBACK_URL = "https://script.google.com/macros/s/AKfycbyC1qAlug8iyrEDkdtg4SX868JVHUM4v3xlpK9a6fhxHsrLWmznt5TUDY9n7AVsJo85/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "newborn";
+  var voted = JSON.parse(localStorage.getItem('digest_voted') || '{}'  );
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore previous votes
+    Object.keys(voted).forEach(function(pmid) {
+      var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+      btns.forEach(function(btn) {
+        btn.style.opacity = '0.4';
+        btn.style.pointerEvents = 'none';
+      });
+      var label = document.getElementById('voted-' + pmid);
+      if (label) {
+        var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+        label.textContent = "Voted: " + (labels[voted[pmid]] || voted[pmid]) + " ✓";
+        label.style.display = 'block';
+      }
+    });
+  });
+
+  window.vote = function(pmid, rating, el) {
+    if (voted[pmid]) return;
+
+    // Get uid from token or anonymous
+    var uid = 'web_anon';
+    var t = new URLSearchParams(window.location.search).get('t');
+    if (t) uid = 'web_' + t.substring(0, 8);
+
+    // JSONP call
+    var script = document.createElement('script');
+    var cb = 'fb_' + Date.now();
+    window[cb] = function(resp) {
+      if (resp && resp.status === 'ok') {
+        voted[pmid] = rating;
+        localStorage.setItem('digest_voted', JSON.stringify(voted));
+
+        var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+        btns.forEach(function(btn) {
+          btn.style.opacity = '0.4';
+          btn.style.pointerEvents = 'none';
+        });
+        el.style.opacity = '1';
+        el.style.background = '#1B6B93';
+        el.style.color = '#fff';
+
+        // Update vote count
+        var cntEl = document.getElementById('cnt-' + pmid + '-' + rating);
+        if (cntEl) {
+          var n = parseInt(cntEl.textContent || '0') + 1;
+          cntEl.textContent = n;
+          cntEl.style.display = '';
+          cntEl.style.color = '#fff';
+        }
+
+        var label = document.getElementById('voted-' + pmid);
+        if (label) {
+          var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+          label.textContent = "Voted: " + (labels[rating] || rating) + " ✓";
+          label.style.display = 'block';
+        }
+      }
+      delete window[cb];
+      script.remove();
+    };
+    script.src = FEEDBACK_URL + '?action=feedback&pmid=' + pmid + '&rating=' + rating +
+      '&uid=' + uid + '&source=web&secret=' + SECRET + '&dept=' + DEPT + '&callback=' + cb;
+    document.body.appendChild(script);
+  };
+})();
+</script>
+<script>
+(function() {
+  var WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyC1qAlug8iyrEDkdtg4SX868JVHUM4v3xlpK9a6fhxHsrLWmznt5TUDY9n7AVsJo85/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "newborn";
+  var uploaded = JSON.parse(localStorage.getItem('digest_uploaded') || '{}');
+
+  // Restore uploaded state on load
+  window.addEventListener('DOMContentLoaded', function() {
+    Object.keys(uploaded).forEach(function(pmid) {
+      var btn = document.getElementById('upload-btn-' + pmid);
+      if (btn) {
+        btn.textContent = '✓ 已上傳，已分析';
+        btn.disabled = true;
+        btn.style.opacity = '0.5';
+        btn.style.cursor = 'default';
+      }
+    });
+  });
+
+  // JSONP helper for polling
+  function jsonpGet(url, callback) {
+    var script = document.createElement('script');
+    var cb = 'pdfcb_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5);
+    window[cb] = function(resp) {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback(resp);
+    };
+    script.src = url + '&callback=' + cb;
+    script.onerror = function() {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback({ status: 'error', message: 'Network error' });
+    };
+    document.head.appendChild(script);
+  }
+
+  // Poll for analysis result via JSONP GET
+  var POLL_TOTAL = 18;
+  var POLL_STEPS = [
+    '📤 PDF 已上傳，伺服器接收中...',
+    '📄 正在提取 PDF 全文...',
+    '📄 正在提取 PDF 全文...',
+    '🔍 全文提取中，準備進行 AI 分析...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '💾 正在儲存分析結果...',
+    '💾 正在儲存分析結果...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 即將完成...',
+    '⏳ 即將完成...'
+  ];
+
+  function pollForResult(pmid, btn, statusEl, attempts) {
+    if (attempts <= 0) {
+      btn.textContent = '❌ 分析逾時';
+      btn.disabled = false;
+      statusEl.textContent = '伺服器處理時間過長，請稍後再試';
+      statusEl.style.color = '#E24B4A';
+      return;
+    }
+
+    // Update progress message
+    var stepIdx = POLL_TOTAL - attempts;
+    var elapsed = (stepIdx + 1) * 10 + 15;
+    var msg = POLL_STEPS[Math.min(stepIdx, POLL_STEPS.length - 1)];
+    statusEl.textContent = msg + '（' + elapsed + '秒）';
+
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        btn.textContent = '✓ 全文分析完成';
+        btn.style.color = '#085041';
+        btn.style.borderColor = '#085041';
+        statusEl.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
+        statusEl.style.color = '#085041';
+        uploaded[pmid] = true;
+        localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
+        renderAnalysis(pmid, resp.analysis);
+      } else if (resp.status === 'pending') {
+        setTimeout(function() { pollForResult(pmid, btn, statusEl, attempts - 1); }, 10000);
+      } else {
+        btn.textContent = '❌ 分析失敗';
+        btn.disabled = false;
+        statusEl.textContent = resp.message || '請稍後再試';
+        statusEl.style.color = '#E24B4A';
+      }
+    });
+  }
+
+  window.handlePdfSelect = function(pmid, title, input) {
+    var file = input.files[0];
+    if (!file) return;
+    if (file.size > 10 * 1024 * 1024) {
+      alert('PDF 檔案不能超過 10MB');
+      return;
+    }
+
+    var btn = document.getElementById('upload-btn-' + pmid);
+    var statusEl = document.getElementById('upload-status-' + pmid);
+    btn.textContent = '⏳ 上傳中...';
+    btn.disabled = true;
+    statusEl.textContent = '📤 正在上傳 PDF 至伺服器...';
+    statusEl.style.display = 'inline';
+    statusEl.style.color = '#1B6B93';
+
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var base64 = e.target.result.split(',')[1];
+
+      // Step 1: Submit via hidden form + iframe (bypasses CORS entirely)
+      var iframe = document.createElement('iframe');
+      iframe.name = 'pdf_upload_frame_' + pmid;
+      iframe.style.display = 'none';
+      document.body.appendChild(iframe);
+
+      var form = document.createElement('form');
+      form.method = 'POST';
+      form.action = WEBHOOK_URL;
+      form.target = iframe.name;
+      form.style.display = 'none';
+
+      var fields = {
+        action: 'upload_pdf',
+        pmid: pmid,
+        title: title,
+        pdf_base64: base64,
+        secret: SECRET,
+        dept: DEPT
+      };
+      for (var key in fields) {
+        var input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = key;
+        input.value = fields[key];
+        form.appendChild(input);
+      }
+
+      document.body.appendChild(form);
+      form.submit();
+
+      // Clean up form after submit
+      setTimeout(function() {
+        document.body.removeChild(form);
+        document.body.removeChild(iframe);
+      }, 5000);
+
+      // Step 2: Poll for result via JSONP (every 10s, up to 18 attempts = 3 min)
+      setTimeout(function() { pollForResult(pmid, btn, statusEl, 18); }, 15000);
+    };
+    reader.readAsDataURL(file);
+  };
+
+  window.renderAnalysis = function(pmid, data) {
+    var container = document.getElementById('analysis-result-' + pmid);
+    if (!container) return;
+
+    var a = data.deep_analysis || data;
+    var html = '';
+
+    if (a.thirty_second_summary) {
+      html += '<div class="section"><b>30 秒重點：</b>' + a.thirty_second_summary + '</div>';
+    }
+
+    var hidden = a.hidden_findings || [];
+    if (hidden.length > 0) {
+      html += '<div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div>';
+      for (var i = 0; i < hidden.length; i++) {
+        html += '<p><b>' + (hidden[i].finding || '') + '</b> ' + (hidden[i].source || '') + '。' + (hidden[i].implication || '') + '</p>';
+      }
+      html += '</div>';
+    }
+
+    var meth = a.methodology_audit || {};
+    var methHtml = '';
+    (meth.strengths || []).forEach(function(s) { methHtml += '<div class="hl hl-green"><b>Strong：</b>' + s + '</div>'; });
+    (meth.notes || []).forEach(function(n) { methHtml += '<div class="hl hl-amber"><b>Note：</b>' + n + '</div>'; });
+    (meth.weaknesses || []).forEach(function(w) { methHtml += '<div class="hl hl-red"><b>Weak：</b>' + w + '</div>'; });
+    if (methHtml) {
+      html += '<div class="section"><div class="section-label" style="color:#633806">方法學評估</div>' + methHtml + '</div>';
+    }
+
+    var impact = a.protocol_impact || {};
+    if (impact.proposed_change) {
+      var impactHtml = '<div class="hl hl-blue">';
+      if (impact.current_practice) impactHtml += '<b>目前做法：</b>' + impact.current_practice + '<br>';
+      if (impact.proposed_change) impactHtml += '<b>建議調整：</b>' + impact.proposed_change + '<br>';
+      if (impact.missing_evidence) impactHtml += '<b>等待的證據：</b>' + impact.missing_evidence;
+      impactHtml += '</div>';
+      html += '<div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div>' + impactHtml + '</div>';
+    }
+
+    container.innerHTML = html;
+  };
+})();
+</script>
+</body>
+</html>
