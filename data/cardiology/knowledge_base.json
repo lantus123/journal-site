@@ -3409,5 +3409,133 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-30"
+  },
+  {
+    "pmid": "41911353",
+    "title": "Group 1 Pulmonary Hypertension With Elevated Pulmonary Artery Wedge Pressure: Characterizing A Complex Phenotype.",
+    "authors": "Forbes LM, Cornwell WK",
+    "journal": "Circulation",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1161/CIRCULATIONAHA.126.078855",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人肺高血壓",
+      "肺循環",
+      "非新生兒相關"
+    ],
+    "one_liner": "成人肺高血壓研究，與新生兒科無關，可跳過。",
+    "summary": {
+      "purpose": "本研究探討第一類肺高血壓合併肺動脈楔壓升高的複雜表型特徵。",
+      "design": "成人肺循環疾病的表型分析研究，與新生兒族群無關。",
+      "findings": "無法評估，因文章主題為成人肺高血壓疾病。",
+      "significance": "本研究與新生兒/早產兒照護無直接關聯，不適用於 NICU 臨床決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41911350",
+    "title": "Letter by Meng et al Regarding Article, \"An Aberrant Resurgence of Endogenous Retroviruses Prompts Myocarditis and Heart Failure\".",
+    "authors": "Meng C, Wang Y, Miao G",
+    "journal": "Circulation",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1161/CIRCULATIONAHA.125.077923",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "myocarditis",
+      "heart failure",
+      "adult cardiology",
+      "letter to editor"
+    ],
+    "one_liner": "成人心臟病學的學術信函，與新生兒科照護無關，可跳過。",
+    "summary": {
+      "purpose": "此為心臟學期刊 Circulation 上關於內源性逆轉錄病毒與心肌炎、心臟衰竭的學術信函回應。",
+      "design": "Letter to the editor，非原始研究，無新生兒族群數據。",
+      "findings": "文章內容未提供，但根據標題涉及成人心臟病學領域的病理機制討論。",
+      "significance": "與新生兒/早產兒照護無直接關聯，不屬於 NICU 臨床決策參考範疇。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41911347",
+    "title": "Response by Xiong and Zhang to Letter Regarding Article, \"An Aberrant Resurgence of Endogenous Retroviruses Prompts Myocarditis and Heart Failure\".",
+    "authors": "Xiong J, Zhang B",
+    "journal": "Circulation",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1161/CIRCULATIONAHA.125.079058",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "myocarditis",
+      "heart failure",
+      "adult cardiology",
+      "not neonatal"
+    ],
+    "one_liner": "成人心臟病學編輯回應信函，與新生兒/早產兒照護無關，可跳過。",
+    "summary": {
+      "purpose": "本文為對先前發表於 Circulation 期刊文章的回應信函，針對內源性逆轉錄病毒與心肌炎及心臟衰竭關聯性的討論。",
+      "design": "編輯回應信函（letter to editor），非原始研究。",
+      "findings": "無新的實驗數據或臨床發現，僅為學術討論與澄清。",
+      "significance": "與新生兒及早產兒照護無直接關聯。本文涉及成人心臟病學領域（心肌炎、心臟衰竭、逆轉錄病毒），不屬於新生兒重症醫學或早產兒特定照護議題。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41910403",
+    "title": "\"In-Series\" Continuous Renal Replacement Therapy and Therapeutic Plasma Exchange: Single-Center Retrospective Cohort, 2018-2022.",
+    "authors": "Williams RH, Carter BG, Escudie M, et al.",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1097/PCC.0000000000003942",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "CRRT",
+      "therapeutic plasma exchange",
+      "pediatric ICU",
+      "extracorporeal therapy",
+      "technical innovation"
+    ],
+    "one_liner": "此為一般兒童 PICU 的技術創新報告，與新生兒照護無關，可跳過。",
+    "summary": {
+      "purpose": "描述一種「串聯式」持續腎臟替代療法（CRRT）與治療性血漿置換（TPE）的技術應用經驗。",
+      "design": "單中心回溯性病歷審查，2018-2022年間於澳洲墨爾本皇家兒童醫院一般及心臟 PICU 收治需同時接受 CRRT 和 TPE 的兒童患者（0-18歲），樣本數 n=12。",
+      "findings": "12名患者共接受32次 TPE 療程和38次 CRRT 療程，使用20套體外循環迴路和11個額外血漿過濾器或血液過濾器，相比標準迴路使用減少71%。未發生預期外不良事件。",
+      "significance": "本研究主要針對一般兒童 ICU 患者的體外淨化技術優化，與新生兒重症照護無直接關聯。新生兒 NICU 極少需要同時進行 CRRT 和 TPE，此技術方案對新生兒科臨床決策無實質影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
   }
 ]
