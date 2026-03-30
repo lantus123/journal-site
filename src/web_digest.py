@@ -20,8 +20,8 @@ TW_TZ = timezone(timedelta(hours=8))
 
 
 DEPT_NAMES = {
-    "newborn": "NICU Journal Digest",
-    "cardiology": "Pediatric Cardiology Digest",
+    "newborn": "NB Journal Digest",
+    "cardiology": "Cardiology Journal Digest",
 }
 
 DEPT_SUBTITLES = {

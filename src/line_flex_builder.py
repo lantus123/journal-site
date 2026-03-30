@@ -311,6 +311,7 @@ def build_digest_flex(
     on_demand: list[dict],
     display_date: str,
     web_url: str,
+    dept_short: str = "NB",
 ) -> Optional[dict]:
     """Build a Flex Message carousel for the daily digest.
 
@@ -375,7 +376,7 @@ def build_digest_flex(
             "type": "box",
             "layout": "vertical",
             "contents": [
-                {"type": "text", "text": "NICU Journal Digest",
+                {"type": "text", "text": f"{dept_short} Journal Digest",
                  "weight": "bold", "size": "lg", "color": "#1B6B93"},
                 {"type": "text", "text": display_date, "size": "xs",
                  "color": "#999999", "margin": "xs"},
@@ -465,7 +466,7 @@ def build_digest_flex(
 
     return {
         "type": "flex",
-        "altText": f"📰 NICU Journal Digest {display_date} - {total} 篇文章",
+        "altText": f"📰 {dept_short} Journal Digest {display_date} - {total} 篇文章",
         "contents": {
             "type": "carousel",
             "contents": bubbles,

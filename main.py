@@ -33,8 +33,13 @@ TW_TZ = timezone(timedelta(hours=8))
 
 # Department display names
 DEPT_NAMES = {
-    "newborn": "新生兒科 NICU",
-    "cardiology": "小兒心臟科 Pediatric Cardiology",
+    "newborn": "新生兒科 NB",
+    "cardiology": "小兒心臟科 Cardiology",
+}
+
+DEPT_SHORT_NAMES = {
+    "newborn": "NB",
+    "cardiology": "Cardiology",
 }
 
 
@@ -171,7 +176,9 @@ def run_pipeline(dept: str, dry_run: bool = False):
         digest_articles = [a for a in articles if a.get("total_score", 0) >= 2]
 
         # Email (only for departments with configured recipients)
-        emailer = EmailPusher()
+        dept_label = DEPT_NAMES.get(dept, dept)
+        dept_short = DEPT_SHORT_NAMES.get(dept, dept)
+        emailer = EmailPusher(dept_label=dept_label, dept_short=dept_short)
         email_ok = emailer.send_digest(digest_articles, on_demand, total_scanned=len(articles))
         if email_ok:
             logger.info("Email digest sent!")
@@ -180,7 +187,7 @@ def run_pipeline(dept: str, dry_run: bool = False):
 
         # LINE (only for departments with configured LINE)
         from src.push_line import LinePusher
-        line = LinePusher()
+        line = LinePusher(dept_label=dept_label, dept_short=dept_short, dept=dept)
         if line.is_configured:
             line_ok = line.send_digest(digest_articles, on_demand)
             if line_ok:

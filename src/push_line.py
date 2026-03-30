@@ -21,12 +21,15 @@ TW_TZ = timezone(timedelta(hours=8))
 class LinePusher:
     """Send messages via LINE Messaging API."""
 
-    def __init__(self):
+    def __init__(self, dept_label: str = "新生兒科 NB", dept_short: str = "NB", dept: str = "newborn"):
         self.channel_token = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN", "")
         self.group_id = os.environ.get("LINE_GROUP_ID", "")
         self.site_url = os.environ.get(
             "DIGEST_SITE_URL", "https://lantus123.github.io/nicu-journal-site"
         )
+        self.dept_label = dept_label
+        self.dept_short = dept_short
+        self.dept = dept
 
     @property
     def is_configured(self) -> bool:
@@ -80,11 +83,11 @@ class LinePusher:
         today = datetime.now(TW_TZ)
         date_str = today.strftime("%Y-%m-%d")
         display_date = today.strftime("%m/%d (%a)")
-        web_url = f"{self.site_url}/{date_str}.html"
+        web_url = f"{self.site_url}/{self.dept}/{date_str}.html"
 
         from .line_flex_builder import build_digest_flex
 
-        flex = build_digest_flex(articles, on_demand, display_date, web_url)
+        flex = build_digest_flex(articles, on_demand, display_date, web_url, dept_short=self.dept_short)
         if not flex:
             logger.info("No digest flex to send")
             return False

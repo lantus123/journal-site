@@ -20,7 +20,7 @@ RESEND_API_URL = "https://api.resend.com/emails"
 class EmailPusher:
     """Send HTML digest email via Resend."""
 
-    def __init__(self):
+    def __init__(self, dept_label: str = "新生兒科 NB", dept_short: str = "NB"):
         self.api_key = os.environ.get("RESEND_API_KEY", "")
         self.from_address = os.environ.get(
             "EMAIL_FROM", "NICU Journal Bot <nicu-journal@schedule.mmhped.org>"
@@ -29,6 +29,8 @@ class EmailPusher:
         self.recipients = [r.strip() for r in self.recipients if r.strip()]
         self.feedback_url = os.environ.get("FEEDBACK_WEBHOOK_URL", "")
         self.feedback_secret = os.environ.get("FEEDBACK_SECRET", "")
+        self.dept_label = dept_label
+        self.dept_short = dept_short
 
     def send_digest(self, articles: list[dict], on_demand: list[dict] = None, total_scanned: int = 0):
         """Build and send the daily digest email."""
@@ -44,13 +46,13 @@ class EmailPusher:
 
         # Empty digest: send brief notification instead of full email
         if not articles and not on_demand:
-            subject = f"NICU Journal Digest - {today} (no articles qualified)"
+            subject = f"{self.dept_short} Journal Digest - {today} (no articles qualified)"
             html = self._build_empty_html(today, total_scanned)
             return self._send_to_all(subject, html)
 
         must_reads = sum(1 for a in articles if a.get("total_score", 0) == 5)
 
-        subject = f"NICU Journal Digest - {today}"
+        subject = f"{self.dept_short} Journal Digest - {today}"
         if must_reads:
             subject += f" ({must_reads} must-read)"
 
@@ -125,14 +127,14 @@ class EmailPusher:
 <div style="max-width:640px;margin:0 auto;padding:20px;">
 <div style="padding:20px 0;border-bottom:2px solid #1B6B93;">
   <div style="font-size:13px;color:#888;">{today}</div>
-  <div style="font-size:22px;font-weight:600;color:#1B6B93;margin-top:4px;">NICU Journal Digest</div>
+  <div style="font-size:22px;font-weight:600;color:#1B6B93;margin-top:4px;">{self.dept_short} Journal Digest</div>
 </div>
 <div style="padding:30px 0;text-align:center;color:#666;">
   <div style="font-size:16px;">{scanned_msg}</div>
   <div style="font-size:14px;margin-top:8px;color:#999;">無文章達到推薦門檻（score &ge; 2）</div>
 </div>
 <div style="padding:20px 0;margin-top:20px;border-top:1px solid #ddd;font-size:11px;color:#999;text-align:center;">
-  NICU Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  {self.dept_label} Journal Auto-Review System · 馬偕紀念醫院<br>
   AI scoring by Claude (Haiku + Sonnet)
 </div>
 </div>
@@ -173,7 +175,7 @@ class EmailPusher:
 
 <div style="padding:20px 0;border-bottom:2px solid #1B6B93;">
   <div style="font-size:13px;color:#888;">{today}</div>
-  <div style="font-size:22px;font-weight:600;color:#1B6B93;margin-top:4px;">NICU Journal Digest</div>
+  <div style="font-size:22px;font-weight:600;color:#1B6B93;margin-top:4px;">{self.dept_short} Journal Digest</div>
   <div style="font-size:13px;color:#666;margin-top:8px;">
     <b>{total}</b> articles today
     {f' · <b>{must_read}</b> must-read' if must_read else ''}
@@ -184,7 +186,7 @@ class EmailPusher:
 {''.join(sections)}
 
 <div style="padding:20px 0;margin-top:20px;border-top:1px solid #ddd;font-size:11px;color:#999;text-align:center;">
-  NICU Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  {self.dept_label} Journal Auto-Review System · 馬偕紀念醫院<br>
   AI scoring by Claude (Haiku + Sonnet) · Feedback shapes future scoring
 </div>
 
