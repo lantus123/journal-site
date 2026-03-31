@@ -417,45 +417,23 @@ footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;c
     reader.onload = function(e) {
       var base64 = e.target.result.split(',')[1];
 
-      // Step 1: Submit via hidden form + iframe (bypasses CORS entirely)
-      var iframe = document.createElement('iframe');
-      iframe.name = 'pdf_upload_frame_' + pmid;
-      iframe.style.display = 'none';
-      document.body.appendChild(iframe);
+      // Step 1: Submit via fetch (no-cors mode, response ignored — polling handles result)
+      var formData = new FormData();
+      formData.append('action', 'upload_pdf');
+      formData.append('pmid', pmid);
+      formData.append('title', title);
+      formData.append('pdf_base64', base64);
+      formData.append('secret', SECRET);
+      formData.append('dept', DEPT);
 
-      var form = document.createElement('form');
-      form.method = 'POST';
-      form.action = WEBHOOK_URL;
-      form.target = iframe.name;
-      form.style.display = 'none';
+      fetch(WEBHOOK_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: formData
+      }).catch(function() {});
 
-      var fields = {
-        action: 'upload_pdf',
-        pmid: pmid,
-        title: title,
-        pdf_base64: base64,
-        secret: SECRET,
-        dept: DEPT
-      };
-      for (var key in fields) {
-        var input = document.createElement('input');
-        input.type = 'hidden';
-        input.name = key;
-        input.value = fields[key];
-        form.appendChild(input);
-      }
-
-      document.body.appendChild(form);
-      form.submit();
-
-      // Clean up form after submit
-      setTimeout(function() {
-        document.body.removeChild(form);
-        document.body.removeChild(iframe);
-      }, 5000);
-
-      // Step 2: Poll for result via JSONP (every 10s, up to 18 attempts = 3 min)
-      setTimeout(function() { pollForResult(pmid, btn, statusEl, 18); }, 15000);
+      // Step 2: Poll for result via JSONP (every 10s, up to POLL_TOTAL attempts)
+      setTimeout(function() { pollForResult(pmid, btn, statusEl, POLL_TOTAL); }, 15000);
     };
     reader.readAsDataURL(file);
   };

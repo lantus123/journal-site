@@ -667,12 +667,24 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
         if not self.feedback_url:
             return ""
         if has_fulltext:
-            return '<div style="padding:8px 0;font-size:13px;color:#085041;">✓ 已有全文分析</div>'
+            safe_title = title.replace("'", "\\'").replace('"', "&quot;")
+            return f"""
+<div class="card-upload" style="padding:8px 0;">
+  <span style="font-size:13px;color:#085041;">✓ 已有全文分析</span>
+  <input type="file" id="pdf-{pmid}" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('{pmid}','{safe_title}',this,true)">
+  <button id="upload-btn-{pmid}" onclick="document.getElementById('pdf-{pmid}').click()"
+    style="padding:4px 10px;border:1px solid #999;border-radius:6px;background:#fff;
+    color:#666;cursor:pointer;font-size:12px;margin-left:8px;">
+    🔄 重新分析
+  </button>
+  <span id="upload-status-{pmid}" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>"""
         safe_title = title.replace("'", "\\'").replace('"', "&quot;")
         return f"""
 <div class="card-upload" style="padding:8px 0;">
   <input type="file" id="pdf-{pmid}" accept=".pdf" style="display:none"
-    onchange="handlePdfSelect('{pmid}','{safe_title}',this)">
+    onchange="handlePdfSelect('{pmid}','{safe_title}',this,false)">
   <button id="upload-btn-{pmid}" onclick="document.getElementById('pdf-{pmid}').click()"
     style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
     color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
@@ -795,11 +807,16 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
     }});
   }}
 
-  window.handlePdfSelect = function(pmid, title, input) {{
+  window.handlePdfSelect = function(pmid, title, input, force) {{
     var file = input.files[0];
     if (!file) return;
     if (file.size > 10 * 1024 * 1024) {{
       alert('PDF 檔案不能超過 10MB');
+      return;
+    }}
+
+    if (force && !confirm('確定要重新上傳並分析此 PDF？將會覆蓋現有的分析結果。')) {{
+      input.value = '';
       return;
     }}
 
@@ -815,42 +832,21 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
     reader.onload = function(e) {{
       var base64 = e.target.result.split(',')[1];
 
-      // Step 1: Submit via hidden form + iframe (bypasses CORS entirely)
-      var iframe = document.createElement('iframe');
-      iframe.name = 'pdf_upload_frame_' + pmid;
-      iframe.style.display = 'none';
-      document.body.appendChild(iframe);
+      // Step 1: Submit via fetch (no-cors mode, response ignored — polling handles result)
+      var formData = new FormData();
+      formData.append('action', 'upload_pdf');
+      formData.append('pmid', pmid);
+      formData.append('title', title);
+      formData.append('pdf_base64', base64);
+      formData.append('secret', SECRET);
+      formData.append('dept', DEPT);
+      formData.append('force', force ? 'true' : 'false');
 
-      var form = document.createElement('form');
-      form.method = 'POST';
-      form.action = WEBHOOK_URL;
-      form.target = iframe.name;
-      form.style.display = 'none';
-
-      var fields = {{
-        action: 'upload_pdf',
-        pmid: pmid,
-        title: title,
-        pdf_base64: base64,
-        secret: SECRET,
-        dept: DEPT
-      }};
-      for (var key in fields) {{
-        var input = document.createElement('input');
-        input.type = 'hidden';
-        input.name = key;
-        input.value = fields[key];
-        form.appendChild(input);
-      }}
-
-      document.body.appendChild(form);
-      form.submit();
-
-      // Clean up form after submit
-      setTimeout(function() {{
-        document.body.removeChild(form);
-        document.body.removeChild(iframe);
-      }}, 5000);
+      fetch(WEBHOOK_URL, {{
+        method: 'POST',
+        mode: 'no-cors',
+        body: formData
+      }}).catch(function() {{}});
 
       // Step 2: Poll for result via JSONP (every 10s, up to POLL_TOTAL attempts)
       setTimeout(function() {{ pollForResult(pmid, btn, statusEl, POLL_TOTAL); }}, 15000);
