@@ -652,35 +652,21 @@ function handlePdfUpload(body) {
 function extractPdfText(pdfBase64) {
   var fileId = null;
   try {
-    // Upload PDF to Google Drive, convert to Google Docs, extract text
+    // Upload PDF to Google Drive, convert to Google Docs (Drive API v3)
     var pdfBlob = Utilities.newBlob(Utilities.base64Decode(pdfBase64), "application/pdf", "upload.pdf");
-    var resource = { title: "temp_pdf_" + Date.now(), mimeType: "application/pdf" };
-
-    // Try insert with convert
-    try {
-      var file = Drive.Files.insert(resource, pdfBlob, { convert: true, ocr: true });
-      fileId = file.id;
-    } catch (insertErr) {
-      console.error("Drive.Files.insert failed:", insertErr);
-      // Fallback: upload without conversion, then copy as Google Doc
-      var uploaded = Drive.Files.insert(resource, pdfBlob);
-      fileId = uploaded.id;
-      try {
-        var copied = Drive.Files.copy({ title: "temp_converted_" + Date.now(), mimeType: "application/vnd.google-apps.document" }, fileId);
-        Drive.Files.remove(fileId);
-        fileId = copied.id;
-      } catch (copyErr) {
-        Drive.Files.remove(fileId);
-        return { error: "Drive conversion failed: " + insertErr.message + " / copy: " + copyErr.message };
-      }
-    }
+    var resource = {
+      name: "temp_pdf_" + Date.now(),
+      mimeType: "application/vnd.google-apps.document"  // convert to Google Doc
+    };
+    var file = Drive.Files.create(resource, pdfBlob, { ocrLanguage: "en" });
+    fileId = file.id;
 
     // Read text from converted Google Doc
     var doc = DocumentApp.openById(fileId);
     var text = doc.getBody().getText();
 
-    // Clean up: permanently delete the temp file
-    Drive.Files.remove(fileId);
+    // Clean up: move to trash then delete permanently
+    Drive.Files.update({ trashed: true }, fileId);
     fileId = null;
 
     if (!text || text.trim().length < 50) {
@@ -695,9 +681,8 @@ function extractPdfText(pdfBase64) {
     return { text: text };
   } catch (err) {
     console.error("PDF text extraction error:", err);
-    // Clean up on error
     if (fileId) {
-      try { Drive.Files.remove(fileId); } catch (e) {}
+      try { Drive.Files.update({ trashed: true }, fileId); } catch (e) {}
     }
     return { error: err.message };
   }
