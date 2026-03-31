@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-03-30",
+    "display_date": "2026/03/30 (Monday)",
+    "total": 1,
+    "must_read": 0,
+    "deep_analysis": 0,
+    "top_article": "",
+    "token": "063083e6",
+    "votes": 0
+  },
+  {
     "date": "2026-03-31",
     "display_date": "2026/03/31 (Tuesday)",
     "total": 13,
@@ -7,16 +17,6 @@
     "deep_analysis": 1,
     "top_article": "Comparison of nasal interfaces and pressures during critical time-points in NICU",
     "token": "4b45fd21",
-    "votes": 0
-  },
-  {
-    "date": "2026-03-30",
-    "display_date": "2026/03/30 (Monday)",
-    "total": 1,
-    "must_read": 0,
-    "deep_analysis": 0,
-    "top_article": "",
-    "token": "438b523a",
     "votes": 0
   },
   {
