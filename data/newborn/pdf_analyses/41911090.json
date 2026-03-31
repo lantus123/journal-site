@@ -1,0 +1,67 @@
+{
+  "pmid": "41911090",
+  "title": "Sudden unexpected postnatal collapse (SUPC) in the Netherlands: a national registry study.",
+  "authors": "Bergman KA, Rosman AN, Reiss IKM, et al.",
+  "source_journal": "Neonatology",
+  "deep_analysis": {
+    "thirty_second_summary": "荷蘭全國性登錄研究發現SUPC發生率為11/100,000活產，家中發生的SUPC較醫院內發生者延遲(165分鐘 vs 60分鐘)且死亡率顯著較高(37.5% vs 6%)。約半數SUPC涉及呼吸道阻塞，多與可預防因素相關如母親警覺性降低、遮蔽嬰兒口鼻等。",
+    "hidden_findings": [
+      {
+        "finding": "家中發生的SUPC案例僅8例，樣本數過小可能影響統計結果的可靠性",
+        "source": "Results section",
+        "implication": "需要更大規模研究來確認家中vs醫院內SUPC的真實差異"
+      },
+      {
+        "finding": "研究期間橫跨COVID-19疫情(2019-2022)，但未討論疫情對醫療照護模式的潛在影響",
+        "source": "Methods section",
+        "implication": "疫情期間的醫療資源重新配置和照護模式改變可能影響SUPC的發生率和處理"
+      },
+      {
+        "finding": "問卷設計刻意簡化以提高配合度，可能遺漏重要臨床細節",
+        "source": "Methods - questionnaire design",
+        "implication": "可能低估了某些風險因素或病因的重要性"
+      }
+    ],
+    "methodology_audit": {
+      "strengths": [
+        "全國性前瞻性登錄研究設計",
+        "明確的SUPC定義標準(24小時內、≥35週、5分鐘Apgar≥8、需正壓通氣)",
+        "涵蓋醫院和家中兩種不同照護環境"
+      ],
+      "notes": [
+        "依賴主動通報可能存在通報偏差",
+        "家中發生案例數量有限影響統計檢定力",
+        "缺乏對照組比較基線特徵差異"
+      ],
+      "weaknesses": [
+        "94例登錄中僅60例符合納入標準，篩選標準可能過於嚴格",
+        "未能完全排除通報不足的可能性",
+        "缺乏長期神經發育預後追蹤"
+      ]
+    },
+    "evidence_positioning": {
+      "related_studies": [
+        {
+          "citation": "先前文獻報告SUPC發生率1.9-133/100,000差異極大",
+          "comparison": "本研究提供較穩定的發生率估計(7-17/100,000)，有助於建立基準值"
+        }
+      ],
+      "guideline_status": "目前缺乏針對SUPC預防的標準化指引，特別是家中照護環境",
+      "evidence_gap_filled": "首次系統性比較醫院內與家中SUPC的發生特徵和預後差異",
+      "ongoing_trials": "文中未提及相關進行中試驗"
+    },
+    "protocol_impact": {
+      "current_practice": "目前主要關注醫院內skin-to-skin contact期間的監測，家中照護的SUPC預防措施相對不足",
+      "proposed_change": "建議加強家中照護期間的家長教育，包括安全擺位、呼吸道通暢維持、緊急處理技能訓練",
+      "prerequisites": [
+        "建立標準化的家長教育課程",
+        "制定家中照護安全檢核表",
+        "強化社區助產士和家庭醫師的SUPC識別能力",
+        "建立快速轉診機制"
+      ],
+      "missing_evidence": "缺乏家中照護環境下具體預防措施的效果評估，以及最佳監測頻率和持續時間的證據"
+    }
+  },
+  "fulltext_source": "manual",
+  "analyzed_at": "2026-03-31T08:09:19.912Z"
+}
