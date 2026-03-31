@@ -669,7 +669,7 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
         if has_fulltext:
             safe_title = title.replace("'", "\\'").replace('"', "&quot;")
             return f"""
-<div class="card-upload" style="padding:8px 0;">
+<div class="card-upload" style="padding:8px 0;" data-has-analysis="{pmid}">
   <span style="font-size:13px;color:#085041;">✓ 已有全文分析</span>
   <input type="file" id="pdf-{pmid}" accept=".pdf" style="display:none"
     onchange="handlePdfSelect('{pmid}','{safe_title}',this,true)">
@@ -704,8 +704,18 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
   var DEPT = "{self.dept}";
   var uploaded = JSON.parse(localStorage.getItem('digest_uploaded') || '{{}}');
 
-  // Restore uploaded state on load
+  // Load analysis results on page load
+  function loadAnalysis(pmid) {{
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {{
+      if (resp.status === 'ok' && resp.analysis) {{
+        renderAnalysis(pmid, resp.analysis);
+      }}
+    }});
+  }}
+
   window.addEventListener('DOMContentLoaded', function() {{
+    // Restore uploaded state from localStorage
     Object.keys(uploaded).forEach(function(pmid) {{
       var btn = document.getElementById('upload-btn-' + pmid);
       if (btn) {{
@@ -713,6 +723,14 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
         btn.disabled = true;
         btn.style.opacity = '0.5';
         btn.style.cursor = 'default';
+      }}
+      loadAnalysis(pmid);
+    }});
+    // Auto-load analysis for articles that already have fulltext analysis
+    document.querySelectorAll('[data-has-analysis]').forEach(function(el) {{
+      var pmid = el.getAttribute('data-has-analysis');
+      if (!uploaded[pmid]) {{
+        loadAnalysis(pmid);
       }}
     }});
   }});
