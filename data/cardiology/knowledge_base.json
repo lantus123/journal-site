@@ -3666,5 +3666,233 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41914183",
+    "title": "MR-ProADM Predicts Mortality and Heart Failure Events in ATTR Cardiac Amyloidosis.",
+    "authors": "Peiró-Aventín B, Revuelta-Lopez E, Brandao M, et al.",
+    "journal": "Circulation",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1161/CIRCULATIONAHA.125.077833",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "ATTR-CM",
+      "成人心臟病學",
+      "生物標誌物",
+      "預後分層",
+      "與新生兒無關"
+    ],
+    "one_liner": "成人心臟澱粉樣變性預後研究，與新生兒科無關，可跳過。",
+    "summary": {
+      "purpose": "本研究評估多種循環生物標誌物在轉甲狀腺素澱粉樣心肌病變（ATTR-CM）患者中預測死亡率和心衰事件的價值。",
+      "design": "多中心回溯性隊列研究，納入西班牙 337 名 ATTR-CM 患者作為主要隊列，並在美國 210 名患者和 ATTR-ACT 試驗 416 名患者進行外部驗證。評估 12 種循環生物標誌物，包括 NT-proBNP、hsTnI、MR-proADM、CA125、sST2 等。",
+      "findings": "中位追蹤 19.7 個月期間，67 名患者（19.9%）死亡或接受心臟移植，81 名（24%）發生心衰事件。MR-proADM 為最強預測生物標誌物，全因死亡率 C-index 0.788（95% CI, 0.723-0.851），死亡和心衰複合終點 C-index 0.721（95% CI, 0.669-0.772）。MR-proADM ≥1.1 nmol/L 為最佳預後閾值，將其加入 National Amyloid Center、Mayo 和 Columbia 分期系統可顯著改善死亡率預測（AUC 分別從 0.682、0.659、0.699 提升至 0.737、0.749、0.768，P<0.001）。",
+      "significance": "本研究與新生兒照護完全無關，針對成人心臟澱粉樣變性患者的預後分層工具開發，對 NICU 臨床決策無任何應用價值。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-01"
+  },
+  {
+    "pmid": "41914268",
+    "title": "The role of interatrial stenting in the management of CHD.",
+    "authors": "Balci M, Ugan Atik S, Gokalp S, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Feb",
+    "doi": "10.1017/S1047951126111652",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "CHD",
+      "interatrial stenting",
+      "paediatric cardiology",
+      "interventional procedure",
+      "haemodynamics"
+    ],
+    "one_liner": "本文為兒童心臟介入治療的單中心小樣本回溯性研究，與新生兒科照護決策無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "評估經心房間隔支架置入術在先天性心臟病兒童患者的程序成功率、臨床結果及血流動力學改善的影響因素。",
+      "design": "單中心回溯性研究，納入 2018-2024 年間接受經心房間隔支架置入術的 16 名患者（中位年齡 10.5 個月，中位體重 5.0 kg），分為 ≤12 個月組（n=10）及 >12 個月組（n=6）。",
+      "findings": "程序成功率 93.8%（15/16），一例因支架栓塞失敗；中位輻射暴露 244.5 mGy（IQR 123.8-447.0），與患者體重呈正相關（rs=0.596, p=0.015）；中位追蹤 17.5 個月期間，6 名患者（37.5%）死亡，2 名需再次擴張，無支架血栓形成。",
+      "significance": "本研究為小樣本單中心回溯性分析，主要對象為 >12 個月的兒童心臟病患者，與新生兒科日常照護決策無直接關聯。雖涉及新生兒期患者（≤12 個月，n=10），但重點在於介入性心導管治療技術，非新生兒重症醫學或早產兒照護的核心議題。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-01"
+  },
+  {
+    "pmid": "41914267",
+    "title": "Surgical versus transcatheter pulmonary valve replacement after tetralogy of Fallot repair: a clinical decision analysis comparison.",
+    "authors": "Zhu Y, Hoenig SM, Sarnaik KS, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Feb",
+    "doi": "10.1017/S1047951125110755",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "tetralogy of Fallot",
+      "pulmonary valve replacement",
+      "adult cardiology",
+      "decision analysis",
+      "cost-effectiveness"
+    ],
+    "one_liner": "本文為成人先天性心臟病患者的瓣膜置換決策分析，與新生兒/早產兒照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "利用 Markov 決策分析模型比較 18 歲成人接受經導管肺動脈瓣膜置換與外科手術置換的 5 年長期預後與成本效益。",
+      "design": "決策分析模型研究，模擬 10,000 名假設患者，納入文獻數據進行成本效益分析（incremental cost-effectiveness ratio）與敏感性分析，無實際臨床患者數據。",
+      "findings": "外科肺動脈瓣膜置換相比經導管置換顯示：更優越的存活率、更低的心內膜炎發生率、更低的再介入率、更低的累積成本（$10,767 vs $14,528）、更高的生活品質調整年數（3.16 vs 3.12 QALYs），ICER 為 -$88,743/QALY，敏感性分析顯示若經導管置換的心內膜炎率或再介入率降至 0%/月則策略改變。",
+      "significance": "本研究針對成人先天性心臟病患者的瓣膜置換策略選擇，與新生兒重症照護無直接關聯；研究對象為 18 歲成人，超出新生兒科照護範疇。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-01"
+  },
+  {
+    "pmid": "41914266",
+    "title": "Positive bubbles, negative clarity: the diagnostic blind spot in Fontan physiology.",
+    "authors": "Shah AH",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Feb",
+    "doi": "10.1017/S1047951125111116",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Fontan physiology",
+      "congenital heart disease",
+      "cardiac imaging",
+      "pediatric cardiology"
+    ],
+    "one_liner": "先天性心臟病診斷文獻，與新生兒科 NICU 日常照護（呼吸支持、營養、感染防治）無直接相關，可跳過。",
+    "summary": {
+      "purpose": "探討 Fontan 手術生理學中的診斷盲點，特別是氣泡與影像清晰度的關係。",
+      "design": "敘述性評論或臨床觀察，非原始研究數據。",
+      "findings": "文章標題暗示在 Fontan 手術患者的診斷評估中存在影像學或生理學的解釋困難，但 abstract 未提供具體數據。",
+      "significance": "本文主要針對先天性心臟病（特別是單心室缺陷需要 Fontan 手術）的診斷問題，與新生兒重症照護無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-01"
+  },
+  {
+    "pmid": "41913959",
+    "title": "",
+    "authors": "Novak S, Hernandez-Bautista V, Ashwath R",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1017/S1047951126111846",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "infective endocarditis",
+      "Aerococcus urinae",
+      "adolescent",
+      "congenital heart disease"
+    ],
+    "one_liner": "青少年感染性心內膜炎個案報告，與新生兒科臨床實務無關，可跳過。",
+    "summary": {
+      "purpose": "報告一例 15 歲青少年患者因 Aerococcus urinae 引起的二尖瓣感染性心內膜炎併栓塞性中風的臨床案例。",
+      "design": "個案報告（case report），患者年齡 15 歲，屬青少年而非新生兒族群。",
+      "findings": "患者具有先天性心臟病和神經性膀胱，A. urinae 引起感染性心內膜炎並導致栓塞性中風。文章強調 MALDI-TOF 質譜法在提高診斷準確度的角色，以及多學科管理的重要性。",
+      "significance": "本研究與新生兒或早產兒照護無直接關聯。患者為青少年而非新生兒，感染性心內膜炎雖可發生於先天性心臟病患者，但本案例的臨床管理、診斷策略及預後因素與 NICU 照護決策無關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-01"
+  },
+  {
+    "pmid": "41913945",
+    "title": "Traumatic paediatric chylothorax and chylopericardium following a low-energy firecracker blast successfully treated with thoracic duct embolisation.",
+    "authors": "Ng SW, Ahmad Zahedi NA, Jamil MT",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1017/S1047951126112074",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "chylothorax",
+      "pediatric trauma",
+      "thoracic duct embolisation",
+      "case report"
+    ],
+    "one_liner": "11歲兒童創傷性乳糜胸病例報告，與新生兒照護無關，可跳過。",
+    "summary": {
+      "purpose": "報告一例11歲男童因鞭炮爆炸傷導致創傷性乳糜胸和乳糜心包膜積液的罕見病例。",
+      "design": "單一病例報告，患者年齡11歲（非新生兒或早產兒族群）。",
+      "findings": "患者於鞭炮低能量爆炸後發生廣泛頸部和上胸部腫脹，影像檢查發現大量乳糜性胸膜和心包膜積液。保守治療失敗後，經胸管栓塞術成功解決積液。",
+      "significance": "本病例與新生兒重症醫學無直接關聯。創傷性乳糜胸在兒童罕見，本報告強調創傷後淋巴管損傷的診斷重要性，但患者年齡遠超新生兒期，臨床情境（鞭炮傷）與 NICU 照護決策無關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-01"
+  },
+  {
+    "pmid": "41915022",
+    "title": "Ross-Konno in neonates and infants: A demanding operation with persistent risk.",
+    "authors": "Lehtinen ML, Pätilä T",
+    "journal": "European Journal of Cardio-Thoracic Surgery",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1093/ejcts/ezag141",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "先天性心臟病",
+      "心臟外科",
+      "手術預後",
+      "嬰幼兒",
+      "主動脈根部替換"
+    ],
+    "one_liner": "心臟外科手術預後研究，與 NICU 日常照護決策無直接相關性，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "評估 Ross-Konno 手術（主動脈根部替換術）在新生兒和嬰幼兒的手術風險與長期預後。",
+      "design": "回顧性病例系列研究，涵蓋接受 Ross-Konno 手術的新生兒至嬰幼兒患者，具體樣本數、年齡範圍及隨訪期限需參考全文。",
+      "findings": "Ross-Konno 手術在新生兒和嬰幼兒族群中仍存在持續的手術風險和併發症，具體數據（死亡率、主要併發症發生率）需參考全文。",
+      "significance": "本研究聚焦先天性心臟病的外科治療，與新生兒重症醫學照護（NICU 日常管理、呼吸支持、營養策略等）無直接關聯，屬心臟外科領域。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-01"
   }
 ]

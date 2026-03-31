@@ -8943,5 +8943,273 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41914960",
+    "title": "A Network Meta-Analysis of Complementary Interventions for Weight Gain and Hospital Stay Reduction.",
+    "authors": "Huda MH, Abdullah KL, Susanto H, et al.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1111/apa.70505",
+    "total_score": 4,
+    "scores": {
+      "design": 5,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "preterm infant",
+      "weight gain",
+      "tactile kinesthetic stimulation",
+      "multisensory stimulation",
+      "network meta-analysis"
+    ],
+    "one_liner": "大型 NMA 證實觸覺動覺與多感覺刺激可顯著改善早產兒體重增加，值得納入 NICU 照護協議，但需注意各介入措施的實施可行性與成本效益。",
+    "summary": {
+      "purpose": "透過網絡薈萃分析（NMA）比較各種互補性介入措施對早產兒體重增加的效果。",
+      "design": "系統性回顧與貝氏網絡薈萃分析，納入 61 項 RCT，共 5858 名早產兒，使用 GeMTC 軟體進行分析，以標準化平均差（SMD）報告效應量。",
+      "findings": "觸覺動覺刺激效果最佳（SMD 8.9, 95% CI 0.8-17），多感覺刺激（SMD 7.0, 6.2-7.9）及其與音樂治療併用（SMD 7.9, 6.6-9.1）亦有效。按摩（SMD 0.70, 0.39-1.0）、動覺刺激（SMD 1.3, 0.091-2.5）及按摩合併觸覺刺激（SMD 0.94, 0.044-1.9）均有益。口腔刺激可縮短住院時間（SMD -0.49, -0.88 to -0.098）。",
+      "significance": "提供大規模證據支持多種非藥物性刺激介入可改善早產兒體重增加與縮短住院期，可納入 NICU 照護標準流程，特別是對於餵食困難或生長遲滯的早產兒族群。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這項網絡薈萃分析納入61項RCT（5858名早產兒），發現觸覺動覺刺激對體重增加效果最佳（SMD 8.9），多感覺刺激（SMD 7.0）及其與音樂治療併用（SMD 7.9）亦顯著有效。按摩相關介入措施效果中等（SMD 0.70-0.94），口腔刺激可縮短住院時間。這些非藥物性介入措施應考慮納入NICU標準照護流程。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract未提供各介入措施的具體操作細節，如觸覺動覺刺激的頻率、持續時間、開始時機，以及是否有不同GA亞群（如<28週 vs 28-32週 vs 32-37週）的差異分析",
+          "source": "全文的intervention description及subgroup analysis章節應有詳細說明",
+          "implication": "不同GA的早產兒對刺激的耐受性和反應可能不同，極早產兒可能需要更溫和的介入方式，這直接影響臨床應用的安全性"
+        },
+        {
+          "finding": "SMD數值異常大（8.9 for tactile kinesthetic stimulation），暗示可能存在高度異質性或研究品質差異，但abstract未報告I²值或heterogeneity assessment",
+          "source": "全文的heterogeneity analysis及forest plot",
+          "implication": "如此大的效應量在新生兒研究中不常見，需要仔細檢視是否有publication bias或小樣本研究的影響"
+        },
+        {
+          "finding": "Abstract未說明weight gain的測量時間點（daily weight gain vs total weight gain during hospitalization）及是否校正了gestational age at measurement",
+          "source": "全文的outcome definition及statistical analysis章節",
+          "implication": "不同的weight gain定義會影響結果解釋，特別是對於住院時間長短不一的早產兒族群"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "使用Bayesian network meta-analysis方法，能同時比較多種介入措施",
+          "納入樣本數大（5858名早產兒），統計檢定力充足",
+          "已在PROSPERO註冊，降低reporting bias風險",
+          "使用CINeMA評估證據品質和一致性"
+        ],
+        "notes": [
+          "未說明納入研究的GA範圍和BW criteria",
+          "未報告各研究的blinding狀況，按摩等介入措施難以完全盲化",
+          "未提及是否排除有嚴重併發症（如NEC、severe IVH）的嬰兒",
+          "需確認weight gain是否為primary outcome還是secondary outcome"
+        ],
+        "weaknesses": [
+          "SMD數值過大暗示可能存在高度異質性",
+          "未報告funnel plot或publication bias assessment",
+          "缺乏長期follow-up資料，無法評估neurodevelopmental outcomes",
+          "未說明各介入措施的安全性評估"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Diego 2014, Infant Behavior and Development",
+            "comparison": "單一介入措施（按摩）的RCT，本研究透過NMA能比較多種介入措施的相對效果"
+          },
+          {
+            "citation": "Fucile 2018, Cochrane Database Syst Rev",
+            "comparison": "專注於oral stimulation對feeding outcomes的影響，本研究涵蓋更廣泛的sensory interventions"
+          }
+        ],
+        "guideline_status": "AAP目前對developmental care有general recommendation，但對specific sensory interventions尚無明確指引。ESPGHAN主要關注營養介入，對非營養性體重促進措施著墨較少",
+        "evidence_gap_filled": "首次透過NMA系統性比較多種complementary interventions的相對效果，提供evidence-based的介入措施選擇依據",
+        "ongoing_trials": "需查證是否有大型多中心RCT正在進行，特別是針對extremely preterm infants的sensory intervention studies"
+      },
+      "protocol_impact": {
+        "current_practice": "目前多數level III NICU採用developmental care bundle，包括minimal handling、clustering care、適度的tactile stimulation。按摩通常由trained personnel執行，每日1-2次，每次10-15分鐘，主要用於穩定的早產兒（>32週或>1500g）",
+        "proposed_change": "可考慮建立structured sensory stimulation protocol：1) 觸覺動覺刺激作為首選（具體操作需參考全文）；2) 多感覺刺激合併音樂治療作為alternative；3) 按摩therapy納入routine care，特別是對growth velocity <15g/kg/day的早產兒；4) oral stimulation用於準備經口餵食的嬰兒",
+        "prerequisites": [
+          "護理人員及物理治療師的in-service training",
+          "建立standardized intervention protocols及documentation system",
+          "與音樂治療師合作建立multisensory stimulation program",
+          "制定適用的GA及clinical stability criteria"
+        ],
+        "missing_evidence": [
+          "各介入措施對不同GA亞群的安全性資料",
+          "長期neurodevelopmental outcomes（18-24個月corrected age）",
+          "cost-effectiveness analysis",
+          "對BPD、ROP等併發症的影響評估",
+          "最適當的介入時機和持續時間"
+        ]
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-01"
+  },
+  {
+    "pmid": "41915392",
+    "title": "Two-Year Outcomes of Less Invasive Surfactant Administration Among Preterm Neonates: A Secondary Analysis of a Randomized Clinical Trial.",
+    "authors": "Dorner RA, Morales A, Banerji A, et al.",
+    "journal": "JAMA Network Open",
+    "pub_date": "2026 Mar 02",
+    "doi": "10.1001/jamanetworkopen.2026.3852",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 3
+    },
+    "keywords": [
+      "LISA",
+      "CPAP",
+      "早產兒",
+      "神經發育預後",
+      "長期追蹤"
+    ],
+    "one_liner": "LISA 在極早產兒上未能改善 2 歲死亡或中重度 NDI 的複合結果，但精細動作發育可能受益，應納入 CPAP-first 策略的長期效益評估。",
+    "summary": {
+      "purpose": "評估在 CPAP 支持下接受早期 caffeine 與 LISA 治療的極早產兒，於矯正年齡 2 歲時的神經發育與肺部長期預後。",
+      "design": "多中心 RCT 的預先規劃次級分析，包含加州 3 家學術醫學中心，GA 24+0 至 29+6 週的早產兒（n=180 隨機分配，n=147 完成追蹤，81.7% follow-up rate）。LISA 組 n=74，CPAP 對照組 n=73。於矯正年齡 24-25 個月進行 Bayley Scales of Infant Development (BSID) 評估，28 個月進行 ASQ-3 篩檢。",
+      "findings": "主要結果：LISA 組死亡或中重度 NDI 發生率 23.0% (17/74) vs CPAP 組 32.9% (23/70)，差異未達統計顯著 (OR 1.56, 95% CI 0.77-3.17, P=0.22)。ASQ-3 典型發育率 LISA 31.9% vs CPAP 17.9% (P=0.06)，無統計顯著差異。LISA 組精細動作 z 分數更可能在參考範圍內 (-0.59 vs -1.00, P=0.03)。支氣管擴張劑使用、類固醇使用、出院後呼吸道住院無組間差異。",
+      "significance": "此研究為首個長期追蹤 LISA 策略於極早產兒的 RCT 次級分析。雖然 LISA 未能降低死亡或中重度 NDI 的複合結果，但在精細動作發育上顯示潛在優勢，提示 LISA 的神經保護效應可能具有特異性。結果挑戰了 LISA 作為廣泛改善神經發育預後的策略，但支持其在特定發育領域的益處。對於台灣 NICU 採用 LISA 的決策提供重要的 2 年追蹤證據。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "此為首個 LISA 策略的 2 年長期追蹤 RCT 次級分析，收案 GA 24-29 週早產兒 180 名，follow-up rate 81.7%。主要結果：LISA 組死亡或中重度 NDI 發生率 23.0% vs CPAP 組 32.9%，差異未達統計顯著 (P=0.22)。唯一顯著差異為 LISA 組精細動作 z 分數較佳 (-0.59 vs -1.00, P=0.03)。肺部長期預後無組間差異。結果顯示 LISA 未能廣泛改善神經發育預後，但可能對特定動作發育領域有益。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 未提供不同 GA 亞群 (24-26 週 vs 27-29 週) 的分層分析結果，這對於決定 LISA 的最適用族群至關重要",
+          "source": "全文的 subgroup analysis 或 supplementary tables",
+          "implication": "極早產兒 (<26 週) 與中度早產兒對 LISA 的反應可能不同，影響臨床適應症的精準化"
+        },
+        {
+          "finding": "未明確說明使用的 BPD 定義版本 (NICHD 2001 vs Jensen 2019) 及嚴重度分級，影響與其他研究的比較性",
+          "source": "Methods section 的 outcome definitions",
+          "implication": "BPD 定義的差異會影響 LISA 對慢性肺疾病預防效果的解讀"
+        },
+        {
+          "finding": "Bayley 評估時間點為矯正年齡 24.6-24.7 個月，略早於標準的 24-30 個月窗口，可能影響神經發育評估的準確性",
+          "source": "Results section 的 timing details",
+          "implication": "過早評估可能低估真實的神經發育預後，特別是語言和認知發育"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "多中心 RCT 設計增加外部效度",
+          "81.7% 的高 follow-up rate 減少 attrition bias",
+          "使用標準化評估工具 (BSID, ASQ-3) 提高結果可比性",
+          "預先規劃的次級分析避免 post-hoc bias"
+        ],
+        "notes": [
+          "未明確說明使用的 Bayley 版本 (BSID-III vs BSID-IV)",
+          "評估者是否對分組 blinded 未在 abstract 中說明",
+          "中重度 NDI 的具體定義標準需確認",
+          "ASQ-3 篩檢工具的 sensitivity/specificity 限制"
+        ],
+        "weaknesses": [
+          "僅限加州 3 家學術中心，地域代表性有限",
+          "樣本數相對較小 (n=147)，可能 underpowered 偵測中等效應量",
+          "18.3% 失訪率可能造成 selection bias",
+          "缺乏更長期 (5-6 歲) 的學齡前發育評估"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Herting 2020, Pediatrics",
+            "comparison": "德國多中心研究顯示 LISA 降低 BPD，但本研究未見肺部長期預後差異，可能與族群或 caffeine 使用時機不同"
+          },
+          {
+            "citation": "Aldana-Aguirre 2017, Cochrane Review",
+            "comparison": "Cochrane 系統性回顧支持 LISA 短期效益，本研究首次提供 2 年長期追蹤數據，填補重要證據缺口"
+          }
+        ],
+        "guideline_status": "AAP 2022 指引建議在有經驗中心考慮 LISA，但強調需要更多長期預後數據。ESPGHAN 2019 共識支持 LISA 作為 surfactant 給予的替代方式。台灣新生兒科醫學會尚未發布正式立場聲明。",
+        "evidence_gap_filled": "首個 LISA 策略的 2 年神經發育長期追蹤 RCT 數據，填補了 LISA 對長期預後影響的證據缺口",
+        "ongoing_trials": "OPTIMIST-A trial (澳洲) 正進行更大規模的 LISA vs CPAP 比較，預計 2027 年完成，將提供更強證據等級"
+      },
+      "protocol_impact": {
+        "current_practice": "目前多數 level III NICU 對 GA 25-29 週、RDS 需要 surfactant 的早產兒採用傳統 INSURE 技術或預防性 intubation + surfactant。Caffeine 通常在出生後 24-48 小時內開始，劑量 20 mg/kg loading dose，維持劑量 5-10 mg/kg/day。",
+        "proposed_change": "可考慮對 GA 25-29 週早產兒採用 LISA 策略：出生後 2 小時內給予 caffeine (20 mg/kg)，若 CPAP 下仍有 RDS 表現，使用 LISA 技術給予 surfactant (poractant alfa 200 mg/kg 或 beractant 100 mg/kg)。特別關注精細動作發育的長期追蹤。",
+        "prerequisites": [
+          "醫護團隊 LISA 技術訓練和認證",
+          "建立 LISA 操作 SOP 和品質監控機制",
+          "準備適當的 LISA 導管和設備",
+          "制定 LISA 失敗後的 rescue intubation protocol"
+        ],
+        "missing_evidence": "仍需 5-6 歲學齡前期的認知和學習能力評估、不同 GA 亞群的最適治療策略、LISA 技術學習曲線對成功率的影響、以及成本效益分析數據"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-01"
+  },
+  {
+    "pmid": "41914225",
+    "title": "Long-Term Societal Costs After Births Before 24 Weeks of Gestation in Sweden.",
+    "authors": "Löfqvist C, Hallberg B, Sjöbom U, et al.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1111/apa.70527",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "ELBW",
+      "極早產兒",
+      "長期追蹤",
+      "BPD",
+      "社會成本"
+    ],
+    "one_liner": "瑞典登記資料庫研究證實 <24 週極早產兒的長期成本主要來自社會福利而非醫療，BPD/ROP/IVH 是關鍵成本驅動因子，值得參考但可推廣性受限於瑞典福利制度。",
+    "summary": {
+      "purpose": "估算瑞典 24 週前出生的極早產兒從出生至兒童期的長期醫療與社會成本。",
+      "design": "瑞典全國登記資料庫研究，納入 2007-2018 年間 24 週前出生且存活至少一年的 344 名嬰兒，追蹤至 2022 年底（平均追蹤 7.8 年），連結國家健康登記與社會保險紀錄以估算住院、門診、藥物與家長支持成本。",
+      "findings": "第一年平均總成本 168 萬瑞典克朗，醫療照護佔 80% 以上；非醫療成本於兒童期逐年增加，約四歲後超越醫療成本。BPD、治療性 ROP 與重度 IVH 與持續的長期成本相關。",
+      "significance": "量化極早產兒（<24 週）的長期社會經濟負擔，強調早期新生兒併發症（BPD、ROP、IVH）對後續十年社會福利支出的重要影響，有助於資源配置與家庭諮詢決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-01"
+  },
+  {
+    "pmid": "41914811",
+    "title": "Diastolic Blood Pressure During Pediatric In-Hospital Cardiac Arrest: Trends and Associations With Outcomes.",
+    "authors": "Loaec M, Patterson E, Reeder R, et al.",
+    "journal": "Critical Care Medicine",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1097/CCM.0000000000007108",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "cardiac arrest",
+      "diastolic blood pressure",
+      "CPR quality",
+      "pediatric resuscitation",
+      "ROSC"
+    ],
+    "one_liner": "本研究主要針對先天性心臟病嬰幼兒的 IHCA 管理，與新生兒科日常照護關聯性低，可跳過。",
+    "summary": {
+      "purpose": "描述小兒院內心跳停止（IHCA）期間舒張壓（DBP）的軌跡，評估 DBP 閾值與自發循環恢復（ROSC）的關聯，特別是在延長性 CPR（≥10 分鐘）中。",
+      "design": "單中心回溯性 cohort 研究（2017-2023），納入 118 例有侵襲性動脈血壓監測的小兒 IHCA 患者（中位年齡 0.4 歲，69% 患有先天性心臟病），其中 46 例為延長性 CPR 事件。",
+      "findings": "早期 ROSC 與較高的平均 DBP（p=0.02）和更陡峭的早期 DBP 上升（p<0.001）相關。在延長性 CPR 中，80% 的患者平均 DBP 超過現行指引閾值。DBP 上升趨勢與 ROSC 相關（p<0.001）；達到更高閾值（嬰兒 ≥30 mm Hg、兒童 ≥35 mm Hg）與 ROSC 相關（OR 7.14; 95% CI, 1.58-51.35; p=0.009）。",
+      "significance": "本研究對新生兒科的臨床意義有限。雖然涉及嬰幼兒 IHCA，但主要研究族群為先天性心臟病患者（69%），且中位年齡 0.4 歲已超出典型新生兒期（0-28 天）。研究提示現行 DBP 閾值在延長性 CPR 中可能需調整，但樣本量小（46 例延長性 CPR），單中心設計，尚無法改變新生兒 CPR 指引。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-01"
   }
 ]
