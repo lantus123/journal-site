@@ -3537,5 +3537,134 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912362",
+    "title": "Optimising gross motor outcomes for children with single ventricle CHD using a collaborative learning health network.",
+    "authors": "Butler SC, Malik L, Kuhnell P, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1017/S1047951126111603",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "CHD",
+      "gross motor development",
+      "neurodevelopmental outcome",
+      "quality improvement",
+      "Ages and Stages Questionnaires"
+    ],
+    "one_liner": "此為先天性心臟病特定族群的品質改善研究，與一般 NICU 早產兒照護決策無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "評估一項品質改善計畫對單心室先天性心臟病（CHD）嬰幼兒粗動作發育的影響。",
+      "design": "多中心品質改善研究，15個參與中心與對照中心比較。使用 Ages and Stages Questionnaires 第三版在 6 個月和 12 個月時評估粗動作技能，採用 Plan-Do-Study-Act 循環與控制圖進行數據分析。",
+      "findings": "參與中心粗動作評分達標或進步的嬰幼兒比例從基線 41% 上升至 89%，而非參與中心則從 54% 上升至 68%。自訂嬰幼兒發育計畫的建立率在參與中心從 62% 增至 74%，非參與中心從 53% 增至 61%。介入措施包括建立一致的篩檢流程、發育計畫管理、俯臥位置評估、治療資源取得與早期介入轉介。",
+      "significance": "本研究針對單心室 CHD 嬰幼兒的粗動作延遲提出系統性品質改善策略，但主要對象為先天性心臟病患者而非早產兒或一般新生兒重症患者。對馬偕 NICU 的直接臨床應用有限，除非機構內有大量單心室 CHD 患者需要長期發育追蹤。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912356",
+    "title": "Transcatheter and hybrid closure of muscular ventricular septal defects using the KONAR-MF™ occluder: a multicentre paediatric experience in India.",
+    "authors": "Sastry UMK, Koneti NR, Dhulipudi B, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1017/S1047951126111664",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "先天性心臟病",
+      "心室中隔缺損",
+      "介入治療",
+      "兒童心臟學",
+      "裝置關閉"
+    ],
+    "one_liner": "此為兒童心臟介入治療研究，與新生兒科臨床照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "評估 KONAR-MF™ occluder 用於經導管關閉肌肉性心室中隔缺損的可行性、安全性及臨床成效。",
+      "design": "三家印度兒童心臟中心的回溯性研究（2018-2024），納入 50 名患者（54 個裝置），中位年齡 48 個月（IQR 12-96），包括 14 名嬰幼兒（9 名 <7 kg），採用逆行、順行、經中隔或混合手術途徑進行裝置植入。",
+      "findings": "立即殘留分流 18%，一週後降至 9%，三個月內完全消失；輕微暫時性三尖瓣逆流 14%；中位隨訪 9 個月（範圍 1-60）無心傳導阻滯或溶血；肺動脈壓顯著下降（37 ± 13.4 至 19 ± 3.8 mmHg，p < 0.001）；一例裝置栓塞需手術取出。",
+      "significance": "本研究主要針對兒童心臟介入治療，與新生兒重症照護無直接關聯。雖涉及嬰幼兒患者，但焦點為先天性心臟病的導管治療技術，非新生兒科日常 NICU 照護決策相關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912047",
+    "title": "A plea for early intervention for atrioventricular valve regurgitation in patients with a single ventricle.",
+    "authors": "Patel M, d'Usdekem Y",
+    "journal": "Annals of Thoracic Surgery",
+    "pub_date": "2026 Mar 28",
+    "doi": "10.1016/j.athoracsur.2026.03.040",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "congenital heart disease",
+      "single ventricle",
+      "atrioventricular valve regurgitation",
+      "cardiac surgery"
+    ],
+    "one_liner": "心胸外科專業文獻，與 NICU 早產兒照護無關，可跳過。",
+    "summary": {
+      "purpose": "本文為心胸外科專業文獻，探討單心室患者主動脈瓣反流的早期介入策略。",
+      "design": "意見文章/臨床倡議，非原始研究設計。",
+      "findings": "無具體臨床數據或統計分析。",
+      "significance": "與新生兒重症醫學、早產兒照護、呼吸窘迫症候群、支氣管肺發育不全等 NICU 核心議題無直接關聯。屬心臟外科領域，超出新生兒科日常照護範疇。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41913083",
+    "title": "Concomitant Transcatheter Edge-to-Edge Repair for Mitral and Tricuspid Regurgitation for Polyvalvular Disease.",
+    "authors": "Khan O, Summers M",
+    "journal": "Catheterization and Cardiovascular Interventions",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1002/ccd.70590",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟病",
+      "經導管修復",
+      "瓣膜疾病"
+    ],
+    "one_liner": "成人心臟介入治療案例報告，與新生兒科完全無關，可跳過。",
+    "summary": {
+      "purpose": "報告一例 77 歲成人患者接受同時進行二尖瓣及三尖瓣經導管邊緣對邊緣修復術的臨床案例。",
+      "design": "單一病例報告，患者為成人（77 歲），非缺血性心肌病變伴嚴重三尖瓣逆流及中度二尖瓣逆流。",
+      "findings": "患者術後症狀明顯改善，瓣膜逆流程度減輕，證實雙瓣膜 TEER 在高風險患者的可行性。",
+      "significance": "本研究為成人心臟介入治療案例，與新生兒及早產兒照護無任何關聯，對 NICU 臨床決策無指導意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
   }
 ]

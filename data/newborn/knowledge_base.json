@@ -8413,5 +8413,535 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912704",
+    "title": "Comparison of nasal interfaces and pressures during critical time-points in NICU: observation data from over 10 years.",
+    "authors": "Hillman NH, Williams HL, Joshi SR, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1038/s41372-026-02642-9",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "CPAP",
+      "nasal interface",
+      "VLBW",
+      "respiratory support",
+      "NICU"
+    ],
+    "one_liner": "大型長期觀察研究證實Babi.Plus™在NICU中相比RAM®有更低的CPAP失敗率和呼吸暫停，可指導臨床鼻腔介面選擇，但證據等級為回溯性設計。",
+    "summary": {
+      "purpose": "比較不同鼻腔介面（RAM®和Babi.Plus™）在bubble CPAP治療中傳遞的壓力波動及其臨床效果，評估CPAP失敗率和呼吸事件的差異。",
+      "design": "回溯性觀察研究，納入2432名<33週GA早產兒，於四個關鍵時間點（交付室、初始72小時、拔管後、31週PMA）電子提取呼吸變數，比較RAM®和Babi.Plus™在不同瓶壓設定（5/6 vs 7/8 cmH2O）下的表現。",
+      "findings": "RAM5/6的CPAP失敗率高於RAM7/8或Babi5/6；Babi5/6在NICU初始72小時內CPAP失敗率較低，但RAM7/8在交付室表現較佳；Babi5/6在拔管時因呼吸暫停事件減少而CPAP失敗率更低。",
+      "significance": "提供10年長期觀察數據，支持在NICU環境中選擇Babi.Plus™可降低CPAP失敗和呼吸暫停，但RAM®在交付室應用便利性優勢，有助於臨床制定不同場景的鼻腔介面選擇策略，特別是對<33週早產兒的呼吸支持決策。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這項10年回溯性研究比較2432名<33週早產兒使用RAM®與Babi.Plus™鼻腔介面的bubble CPAP效果。關鍵發現：Babi.Plus™在5-6 cmH2O壓力下NICU內CPAP失敗率較低，拔管後呼吸暫停事件也較少；但RAM®在交付室應用較便利。研究支持不同場景選用不同介面的策略，對VLBW早產兒呼吸支持決策具重要參考價值。",
+      "hidden_findings": [
+        {
+          "finding": "研究涵蓋四個關鍵時間點的比較，但abstract未說明各時間點的樣本數分布，特別是31週PMA時的存活率和介面使用情況",
+          "source": "Abstract提到四個時間點但未提供各點的詳細數據分布",
+          "implication": "不同GA亞群在各時間點的介面選擇可能有bias，影響結果解釋，特別是極早產兒(<28週)的長期使用模式"
+        },
+        {
+          "finding": "Abstract僅提及'電子提取呼吸變數'但未說明具體監測參數、取樣頻率、或如何定義CPAP失敗",
+          "source": "Study design部分缺乏方法學細節",
+          "implication": "CPAP失敗定義可能影響不同中心的結果重現性，且未知是否包含BPD或其他長期呼吸併發症的評估"
+        },
+        {
+          "finding": "研究強調'相似的鼻咽傳遞壓力'下的比較，但未說明如何測量或校正實際傳遞壓力",
+          "source": "Results section提到'similar transmitted nasopharyngeal pressures'",
+          "implication": "壓力傳遞效率的差異可能是介面選擇的關鍵因素，但缺乏客觀測量方法可能影響臨床應用指引"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "大樣本量2432名嬰兒提供充足統計檢定力",
+          "10年長期觀察期間可減少時間偏差",
+          "多時間點評估涵蓋CPAP使用的關鍵場景",
+          "電子資料提取減少人為偏差"
+        ],
+        "notes": [
+          "未說明BPD定義版本或神經發育追蹤",
+          "CPAP失敗定義標準未明確",
+          "未提及多中心或單中心研究設計",
+          "缺乏randomization，可能存在selection bias"
+        ],
+        "weaknesses": [
+          "回溯性設計無法控制介面選擇的臨床決策因素",
+          "未說明失訪率或incomplete data處理",
+          "缺乏blinding可能影響CPAP失敗判定",
+          "未控制同期其他呼吸照護protocol變化"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Kieran EA 2012, Arch Dis Child Fetal Neonatal Ed",
+            "comparison": "該研究比較不同CPAP介面的壓力傳遞，但樣本較小且未包含長期臨床結果，本研究提供更大規模的臨床效果證據"
+          },
+          {
+            "citation": "Courtney SE 2001, Pediatrics",
+            "comparison": "CPAP vs ventilator的經典研究，本研究聚焦於CPAP介面選擇的細節優化，填補了介面比較的evidence gap"
+          }
+        ],
+        "guideline_status": "AAP和ILCOR指引建議早產兒優先使用CPAP，但對特定介面選擇無明確建議。台灣新生兒科醫學會呼吸照護指引亦未特別推薦特定品牌介面",
+        "evidence_gap_filled": "首次提供大規模、多時間點的鼻腔介面比較數據，特別是在不同臨床場景下的效果差異",
+        "ongoing_trials": "目前無大型RCT專門比較CPAP介面，但OPTIMIST-A trial等研究可能包含相關subgroup分析"
+      },
+      "protocol_impact": {
+        "current_practice": "多數level III NICU同時備有RAM®和Babi.Plus™，通常根據醫師偏好或availability選擇，交付室多用RAM®因應用便利，NICU內兩者使用頻率相當，壓力設定多為5-6 cmH2O起始",
+        "proposed_change": "建議制定場景導向的介面選擇protocol：交付室優先RAM®便於快速應用，NICU內穩定期優先Babi.Plus™（特別是5-6 cmH2O設定），拔管後考慮Babi.Plus™以減少呼吸暫停事件",
+        "prerequisites": [
+          "護理同仁in-service training兩種介面的optimal application技巧",
+          "修訂呼吸照護protocol納入介面選擇指引",
+          "確保兩種介面充足庫存",
+          "建立CPAP失敗標準化定義和監測流程"
+        ],
+        "missing_evidence": [
+          "長期neurodevelopmental outcome比較",
+          "成本效益分析",
+          "不同GA亞群(<28週 vs 28-32週)的最適介面選擇",
+          "與其他品牌介面的比較數據",
+          "壓力傳遞效率的客觀測量標準"
+        ]
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912711",
+    "title": "Caffeine for prostaglandin E1-induced apnea in neonates with ductal dependent congenital heart disease: integrating evidence into practice.",
+    "authors": "Iwashita Lages T, Sen S, Chaudhry PM, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1038/s41372-026-02639-4",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "caffeine",
+      "PGE1",
+      "ductal-dependent congenital heart disease",
+      "apnea",
+      "neonatal cardiology"
+    ],
+    "one_liner": "針對 PGE1 相關呼吸暫停的特殊族群（導管依賴型先天性心臟病）提供實用證據，但樣本量與設計強度有限，適合作為臨床參考而非改變標準做法的依據。",
+    "summary": {
+      "purpose": "探討 caffeine 在導管依賴型先天性心臟病（ductal-dependent congenital heart disease）新生兒使用 prostaglandin E1（PGE1）引發呼吸暫停時的治療效果，並將證據整合至臨床實踐。",
+      "design": "病例系列研究（case series），納入使用 PGE1 維持動脈導管開放的導管依賴型先天性心臟病新生兒，評估 caffeine 對 PGE1 誘發呼吸暫停的影響。具體樣本數、GA 範圍及出生體重未在摘要中明確說明。",
+      "findings": "Caffeine 可有效減少 PGE1 誘發的呼吸暫停發生率，改善新生兒呼吸穩定性，支持在此特定族群中使用 caffeine 作為輔助治療策略。具體數據（如相對風險、NNT、p 值）未在摘要中提供。",
+      "significance": "對於需要 PGE1 維持導管開放的先天性心臟病新生兒，caffeine 可作為預防或減輕呼吸暫停的有效工具，有助於減少機械通氣需求並改善臨床管理。此發現特別適用於等待介入或手術治療期間的穩定策略。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912707",
+    "title": "Designing and implementing a clinical decision support tool to improve compliance with NICU transfusions.",
+    "authors": "Husain AN, Drury A, Swenson EA, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1038/s41372-026-02637-6",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "transfusion",
+      "clinical decision support",
+      "quality improvement",
+      "NICU",
+      "guideline compliance"
+    ],
+    "one_liner": "首個 NICU 紅血球及血小板整合 CDS 工具的初步報告，概念可行但缺乏效果數據，適合關注輸血品質改善的單位參考，惟需等待完整成效評估。",
+    "summary": {
+      "purpose": "評估在 NICU 導入電子臨床決策支持工具對輸血指引遵循度的影響，並報告該工具的設計與實施經驗。",
+      "design": "單中心品質改善計畫，針對猶他大學醫院 NICU 的輸血實務進行審計與介入。未明確報告樣本數、GA 範圍或出生體重分層資料。",
+      "findings": "該院既有輸血指引但遵循度不佳；臨床醫師反映主要原因為指引在輸血訂單流程中無法即時取得。研究團隊開發了首個整合紅血球及血小板輸血的電子病歷式 CDS 工具，但 abstract 未報告實施後的遵循度改善數據或臨床結果。",
+      "significance": "該工具針對 NICU 輸血決策的常見障礙（資訊可及性）提出實用解決方案，有助於減少不必要的輸血、降低資源浪費與成本。然而，缺乏量化的效果評估數據，難以評估實際臨床影響。對於有類似輸血指引遵循問題的 NICU 具有參考價值，但需要後續完整的實施結果報告。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912706",
+    "title": "Optimal endotracheal tube insertion depth in infants with birth weights under 500 grams.",
+    "authors": "Yoo K, Kim SH, Kwak JI, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1038/s41372-026-02634-9",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "ELBW",
+      "endotracheal intubation",
+      "airway management",
+      "birth anthropometry",
+      "NICU procedures"
+    ],
+    "one_liner": "針對 ELBW <500 g 嬰兒的氣管內管深度預測提供實用床邊工具，但樣本量小且單中心，需多中心驗證前謹慎應用。",
+    "summary": {
+      "purpose": "開發基於出生人體測量學的模型，用於預測出生體重 <500 g 極低出生體重兒的初始氣管內管插管深度。",
+      "design": "單中心回溯性隊列研究（2010-2025），納入出生體重 <500 g、出生當日插管且有插管後胸部 X 光檢查的新生兒，共 82 例。適當深度定義為唇端至管尖距離位於 T1 上緣至 T2 下緣之間。比較線性和二次方模型，最終以床邊速查表呈現。",
+      "findings": "出生體重和身長均獨立預測 X 光測定的最佳深度（p < 0.001）。二次方聯合模型擬合度最佳（adjusted R² = 0.70），優於單一參數規則。",
+      "significance": "針對極低出生體重兒（ELBW <500 g）的氣管內管初始插管深度提供量化預測工具，可減少盲目插管導致的位置不當（過深或過淺）風險，降低相關併發症如單側肺通氣、氣管損傷等。床邊速查表便於臨床快速應用，特別適用於搶救室或 NICU 緊急插管情境。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912705",
+    "title": "U.S. infant mortality, by gestational age, 2015-2023.",
+    "authors": "Wolf ER, Yitayew M, Chahin N, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1038/s41372-026-02646-5",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 5
+    },
+    "keywords": [
+      "infant mortality",
+      "gestational age",
+      "epidemiology",
+      "VLBW",
+      "ELBW"
+    ],
+    "one_liner": "全國性死亡率趨勢資料有助於了解近年早產兒預後變化，但缺乏機制性發現，適合作為品質監測背景資訊而非臨床決策依據。",
+    "summary": {
+      "purpose": "分析 2015-2023 年美國嬰兒死亡率與胎齡的關係，提供近期全國性死亡率趨勢數據。",
+      "design": "回溯性資料庫分析，使用美國全國出生證明資料，涵蓋所有胎齡新生兒，樣本為該時期全美出生人口。",
+      "findings": "未提供具體數據摘要，但研究涵蓋 2015-2023 年間不同胎齡群組（極早產兒、早產兒、足月兒）的死亡率變化趨勢。",
+      "significance": "提供美國近期嬰兒死亡率的流行病學數據，可用於評估 NICU 照護品質改善、比較不同胎齡群組的預後，以及作為品質改善計畫的基準數據。對台灣 NICU 的直接應用有限，但可參考國際趨勢。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41911960",
+    "title": "Implementation of RetCam® Screening in a Large Tertiary Center.",
+    "authors": "Kaza E, Vanderveen D, Gise R, et al.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Mar 28",
+    "doi": "10.1016/j.jpeds.2026.115087",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "ROP",
+      "retinopathy of prematurity",
+      "telemedicine screening",
+      "RetCam",
+      "NICU implementation"
+    ],
+    "one_liner": "RetCam® 導入經驗分享對 NICU 建置遠距 ROP 篩檢有參考價值，但本文為實施報告而非臨床療效研究，證據等級有限。",
+    "summary": {
+      "purpose": "描述大型教學醫院成功導入 RetCam® 視網膜病變篩檢系統的實施經驗，並分享操作上的挑戰與學習成果。",
+      "design": "單中心實施經驗報告，涵蓋 21 個月期間 887 次 RetCam® 檢查，服務對象為該院 NICU 收治的早產兒（包括 GA 低至 21 週的極低出生體重兒）。",
+      "findings": "成功建立 RetCam® ROP 篩檢計畫，提供數位影像記錄、疾病進展追蹤與早期介入的優勢。文章重點在於實施過程中的操作挑戰、技術應用與工作流程優化，而非臨床療效數據。",
+      "significance": "對於計畫導入遠距 ROP 篩檢或 RetCam® 系統的 NICU 提供實務參考，特別是在眼科醫師人力短缺的環境下，可支持建立非醫師執行的篩檢模式。然而缺乏與傳統眼科檢查的敏感性/特異性比較或臨床結果數據。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912709",
+    "title": "The effect of an automated patient engagement solutions (APES) on step-by-step parental communication around time of discharge and length of stay.",
+    "authors": "Stefanescu BM, Deford AB, Boyd LJ, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1038/s41372-026-02633-w",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "patient engagement",
+      "discharge planning",
+      "parental communication",
+      "length of stay",
+      "health equity"
+    ],
+    "one_liner": "本研究為行政/溝通工具評估而非臨床介入研究，對新生兒醫學實踐的直接影響有限，可跳過。",
+    "summary": {
+      "purpose": "評估自動化患者參與解決方案（APES）在新生兒出院時對親職溝通和住院天數的影響。",
+      "design": "準實驗性研究，於第四級 NICU 進行。2022年1月18日實施 APES-D 路徑，前一年入院的嬰兒為對照組（Pre-Intervention），實施後分為 APES-D 使用者（同意使用）和非使用者（拒絕使用）。未報告具體樣本數、胎齡範圍或出生體重分層。",
+      "findings": "Pre-Intervention 和 APES-D 組住院天數相似（p=0.54）；APES-D 使用者住院天數短於非使用者（p=0.007）；出院文件完成至實際出院的時間在 APES-D 組更長（p<0.001）；商業保險與較短住院天數相關（p<0.001）；APES-D 使用者中 91.7% 參與平台。",
+      "significance": "本研究主要聚焦於行政管理工具和親職溝通平台，而非臨床醫療介入。住院天數的改善可能受社會決定因素影響，且缺乏對新生兒臨床結果（如呼吸窘迫、感染、神經發育預後）的評估，對 NICU 臨床決策的直接影響有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912708",
+    "title": "Well-being in parents of infants with neurological conditions: from birth to 6 months after discharge.",
+    "authors": "Moreira DH, Lemmon ME, Greenberg RG, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1038/s41372-026-02631-y",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "parental well-being",
+      "neurological conditions",
+      "PTSD",
+      "anxiety",
+      "family-centered care"
+    ],
+    "one_liner": "雖然揭示神經異常新生兒父母的心理健康風險，但本研究主要為家庭心理社會研究，與 NICU 臨床照護決策無直接關聯，可作為跨領域轉介參考但非必讀。",
+    "summary": {
+      "purpose": "描述神經學異常新生兒在 ICU 住院期間及出院後 6 個月內，其父母的身心健康狀況。",
+      "design": "前瞻性 cohort 研究，納入 2018-2020 年間因神經學疾病住院 ICU 的 40 名新生兒及其父母（40 位母親、21 位父親），於入院、出院及出院後 6 個月時進行問卷調查。",
+      "findings": "母親在入院時焦慮評分異常最常見（58%），父親在出院後 6 個月時最常見（71%）；睡眠障礙在母親入院時最常見（75%），父親在出院時最常見（73%）；47% 的母親及 33% 的父親出現 PTSD 症狀。",
+      "significance": "本研究強調神經學異常新生兒的父母面臨顯著的心理健康風險，包括焦慮、PTSD 及身體功能障礙。然而該研究未涉及 NICU 臨床照護決策（如呼吸器管理、營養策略、神經保護措施），而是聚焦於家庭心理社會層面，對直接的新生兒醫療管理影響有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912703",
+    "title": "Neonatal acute kidney injury: a survey of practices in Canadian neonatal intensive care units.",
+    "authors": "Hussein A, Ding L, Lee KS, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1038/s41372-026-02635-8",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "acute kidney injury",
+      "AKI",
+      "NICU practice variation",
+      "monitoring protocol",
+      "VLBW"
+    ],
+    "one_liner": "這是加拿大 NICU 的實踐調查，揭示 AKI 管理的變異性，但缺乏新的臨床證據或介入策略，對台灣 NICU 的直接指導意義有限。",
+    "summary": {
+      "purpose": "評估加拿大三級新生兒加護病房在新生兒急性腎損傷（AKI）的診斷、監測和追蹤的臨床實踐現況。",
+      "design": "橫斷面電子問卷調查，於 2023 年 12 月至 2024 年 1 月間發放給加拿大新生兒網絡成員，共 26 家單位回應（回應率 81.3%）。",
+      "findings": "26 家單位中，15 家（57.7%）可獲得現場腎臟科會診；僅 5 家（19.2%）主動追蹤 GA <33 週嬰兒的 AKI 發生率。AKI 定義、監測方法及追蹤協議存在廣泛變異；15 家單位（57.7%）在使用非類固醇抗發炎藥物前測量血清肌酐酸；11 家單位（42.3%）在尿量低於 0.5 mL/kg/小時時監測肌酐酸。",
+      "significance": "揭示加拿大 NICU 在 AKI 識別與監測的實踐差異，強調需要建立標準化診斷標準與追蹤策略以改善早期偵測與長期腎臟預後。對台灣 NICU 的直接臨床應用有限，但可作為檢視本院 AKI 管理一致性的參考。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912702",
+    "title": "Factors influencing SARS-CoV-2 placental antibody transfer and neonatal transmission. A prospective, cohort study and review of available literature.",
+    "authors": "Candel-Pau J, Maya-Enero S, García-García J, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1038/s41372-026-02640-x",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "SARS-CoV-2",
+      "placental antibody transfer",
+      "maternal-fetal transmission",
+      "neonatal infection",
+      "COVID-19 vaccination"
+    ],
+    "one_liner": "本研究確認 COVID-19 孕期感染的胎盤抗體轉移效率高且新生兒傳播風險低，但屬於流行病學觀察性研究，對 NICU 日常照護決策的直接影響有限，可作為參考但非必讀。",
+    "summary": {
+      "purpose": "描述孕期 COVID-19 感染後的 SARS-CoV-2 血清學狀態、相關因素及新生兒傳播風險。",
+      "design": "前瞻性 cohort 研究，納入 2020 年 3 月至 2022 年 5 月於巴塞隆納 Hospital del Mar 出生之 263 名新生兒及其 261 位孕期感染 COVID-19 的母親。",
+      "findings": "感染母親血清陽性率 88.9%，新生兒 82.8%；早期孕期感染、輕中度感染及已接種疫苗的母親顯示較高的胎盤抗體轉移；新生兒抗體至少持續 6 個月；僅 6.1% 的新生兒（母親有活動性感染）檢測陽性，無先天性傳播證據。",
+      "significance": "確認 SARS-CoV-2 胎盤抗體轉移頻繁且有效，為新生兒提供被動免疫保護至少 6 個月；新生兒感染率低且主要為水平傳播，支持現有的分娩期感染控制措施。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41911961",
+    "title": "Housing-Based Socioeconomic Status at Birth and Risk of Mental, Behavioral, and Developmental Disorders in a Population-Based Cohort.",
+    "authors": "Kaczor MW, Hentz RC, Wi CI, et al.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Mar 28",
+    "doi": "10.1016/j.jpeds.2026.115089",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "socioeconomic status",
+      "neurodevelopment",
+      "ADHD",
+      "autism spectrum disorder",
+      "long-term follow-up"
+    ],
+    "one_liner": "此為一般兒科人口研究，探討社經地位與兒童心理行為發育障礙的長期關聯，與新生兒重症照護決策無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "評估住房基礎社經地位指數（HOUSES index）是否能預測兒童心理、行為及發育障礙（MBDD）的風險。",
+      "design": "回溯性世代研究，使用 Rochester Epidemiology Project 資料庫，納入 2010-2021 年間 79,444 名活產兒，追蹤至 9 歲，以 HOUSES index 四分位數分層分析，使用 Cox proportional hazards model 調整早產兒因素。",
+      "findings": "22.8% 兒童診斷為 MBDD；社經地位最低組（Q1）相比最高組（Q4）的調整危害比（aHR）為 1.35（95% CI 1.29-1.41），呈現劑量反應關係。自閉症譜系障礙（aHR 1.98）、ADHD（aHR 1.60）、壓力相關障礙（aHR 1.57）風險最高；考慮居住地流動性後風險進一步升高（HR 1.69）；Q1 組急診就診率更高（IRR 1.44）。",
+      "significance": "本研究為一般兒科人口層級研究，非新生兒特異性研究。雖涉及發育追蹤，但重點在社經地位與心理行為障礙的關聯，而非新生兒期特定臨床介入或照護策略。對 NICU 日常決策（如呼吸支持、營養、感染防治）無直接影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912893",
+    "title": "Hypoxanthine-early biomarker of outcomes in an ovine model of neonatal hypoxic ischemic encephalopathy.",
+    "authors": "Mike JK, Natarajan E, Ha J, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1038/s41390-026-04856-1",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "HIE",
+      "biomarker",
+      "metabolomics",
+      "animal model",
+      "prognostication"
+    ],
+    "one_liner": "動物模型研究發現低氧黃嘌呤可能為 HIE 早期生物標誌物，但尚需臨床驗證，目前對 NICU 實務照護的直接指導意義有限，可暫時跳過。",
+    "summary": {
+      "purpose": "在綿羊 HIE 模型中識別早期生物標誌物，特別是低氧血症相關代謝物，並評估其與神經學預後嚴重程度的關聯。",
+      "design": "動物實驗研究，使用臍帶阻斷（UCO）誘發 HIE。第一隊列（n=46 HIE 羊 + 19 對照）進行非靶向液相層析質譜分析；第二隊列（n=25 UCO 羊）作為驗證隊列。多時間點採血樣本分析，以 p<1e-6 為顯著性閾值。",
+      "findings": "共識別 145 個低氧血症生物標誌物，在兩個隊列中呈現一致且可重複的時間模式。生命第 20 分鐘的血漿低氧黃嘌呤（hypoxanthine）水平與神經學預後嚴重程度呈強相關。",
+      "significance": "本研究為基礎科學研究，尚未進入臨床驗證階段。低氧黃嘌呤作為 HIE 早期生物標誌物的發現具有理論意義，但距離臨床應用（如床邊快速診斷工具或預後評估）仍有重大距離。對現有 NICU HIE 照護決策（如冷療指示、治療強度調整）的直接影響有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912238",
+    "title": "The GP using poetry to connect with creative medics and find catharsis.",
+    "authors": "Dean E",
+    "journal": "BMJ",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1136/bmj.s500",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "醫療人文",
+      "醫師心理健康",
+      "敘述醫學"
+    ],
+    "one_liner": "本文為醫療人文敘述，與新生兒/早產兒照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本文探討全科醫師透過詩歌與創意醫療專業人士建立連結並尋求情感宣洩的經驗。",
+      "design": "敘述性文章，無臨床研究設計、無患者族群定義、無樣本量。",
+      "findings": "文章聚焦於醫療專業人士的個人創意表達與心理健康，未提供量化數據或臨床證據。",
+      "significance": "與新生兒科臨床照護、早產兒管理、新生兒重症醫學無直接關聯，不涉及 NICU 決策制定或患者預後。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
+  },
+  {
+    "pmid": "41912710",
+    "title": "The impact of abortion bans on neonatal intensive care utilization.",
+    "authors": "Gamber RA, Murphy HR, Lakshminrusimha S",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1038/s41372-026-02645-6",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "政策分析",
+      "公共衛生",
+      "生殖健康",
+      "社會決定因素"
+    ],
+    "one_liner": "政策分析文章，與新生兒臨床照護無直接相關性，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本文探討墮胎禁令對新生兒加護病房使用率的影響。",
+      "design": "政策分析與社會學研究，非臨床試驗或觀察性醫學研究。",
+      "findings": "摘要未提供具體臨床數據、統計結果或實證發現。",
+      "significance": "本文主要涉及生殖政策與公共衛生議題，與新生兒臨床照護決策（如呼吸支持、營養策略、藥物治療、發育追蹤）無直接關聯。不影響 NICU 日常診療實務。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-03-31"
   }
 ]
