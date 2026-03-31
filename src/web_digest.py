@@ -852,8 +852,8 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
         document.body.removeChild(iframe);
       }}, 5000);
 
-      // Step 2: Poll for result via JSONP (every 10s, up to 18 attempts = 3 min)
-      setTimeout(function() {{ pollForResult(pmid, btn, statusEl, 18); }}, 15000);
+      // Step 2: Poll for result via JSONP (every 10s, up to POLL_TOTAL attempts)
+      setTimeout(function() {{ pollForResult(pmid, btn, statusEl, POLL_TOTAL); }}, 15000);
     }};
     reader.readAsDataURL(file);
   }};

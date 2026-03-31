@@ -600,11 +600,12 @@ function handlePdfUpload(body) {
                      "Upload PDF: PMID " + pmid, githubToken);
 
     // 3. Extract text from PDF via Google Drive
-    var fulltext = extractPdfText(pdfBase64);
-    if (!fulltext) {
-      return ContentService.createTextOutput(JSON.stringify({ status: "error", message: "Failed to extract text from PDF" }))
+    var extractResult = extractPdfText(pdfBase64);
+    if (extractResult.error) {
+      return ContentService.createTextOutput(JSON.stringify({ status: "error", message: "PDF text extraction failed: " + extractResult.error }))
         .setMimeType(ContentService.MimeType.JSON);
     }
+    var fulltext = extractResult.text;
 
     // 4. Fetch article metadata from PubMed
     var article = fetchPubMedArticle(pmid);
@@ -649,21 +650,41 @@ function handlePdfUpload(body) {
 
 
 function extractPdfText(pdfBase64) {
+  var fileId = null;
   try {
     // Upload PDF to Google Drive, convert to Google Docs, extract text
     var pdfBlob = Utilities.newBlob(Utilities.base64Decode(pdfBase64), "application/pdf", "upload.pdf");
     var resource = { title: "temp_pdf_" + Date.now(), mimeType: "application/pdf" };
-    var file = Drive.Files.insert(resource, pdfBlob, { convert: true, ocr: true });
+
+    // Try insert with convert
+    try {
+      var file = Drive.Files.insert(resource, pdfBlob, { convert: true, ocr: true });
+      fileId = file.id;
+    } catch (insertErr) {
+      console.error("Drive.Files.insert failed:", insertErr);
+      // Fallback: upload without conversion, then copy as Google Doc
+      var uploaded = Drive.Files.insert(resource, pdfBlob);
+      fileId = uploaded.id;
+      try {
+        var copied = Drive.Files.copy({ title: "temp_converted_" + Date.now(), mimeType: "application/vnd.google-apps.document" }, fileId);
+        Drive.Files.remove(fileId);
+        fileId = copied.id;
+      } catch (copyErr) {
+        Drive.Files.remove(fileId);
+        return { error: "Drive conversion failed: " + insertErr.message + " / copy: " + copyErr.message };
+      }
+    }
 
     // Read text from converted Google Doc
-    var doc = DocumentApp.openById(file.id);
+    var doc = DocumentApp.openById(fileId);
     var text = doc.getBody().getText();
 
-    // Clean up: permanently delete the temp file (not just trash)
-    Drive.Files.remove(file.id);
+    // Clean up: permanently delete the temp file
+    Drive.Files.remove(fileId);
+    fileId = null;
 
-    if (!text || text.trim().length < 100) {
-      return null;
+    if (!text || text.trim().length < 50) {
+      return { error: "Extracted text too short (" + (text ? text.trim().length : 0) + " chars). PDF may be image-only." };
     }
 
     // Truncate to 8000 chars
@@ -671,10 +692,14 @@ function extractPdfText(pdfBase64) {
       text = text.substring(0, 8000) + "\n\n[... truncated]";
     }
 
-    return text;
+    return { text: text };
   } catch (err) {
     console.error("PDF text extraction error:", err);
-    return null;
+    // Clean up on error
+    if (fileId) {
+      try { Drive.Files.remove(fileId); } catch (e) {}
+    }
+    return { error: err.message };
   }
 }
 
