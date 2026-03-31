@@ -1,0 +1,69 @@
+{
+  "pmid": "41911150",
+  "title": "Pulmonary Hypertension Association with mortality in Newborns with Giant Omphalocele: A Systematic Review and Meta-Analysis.",
+  "authors": "Isaac Maximo LM, Assis de Carlos G, Messias Hirano Padrao E, et al.",
+  "source_journal": "Neonatology",
+  "deep_analysis": {
+    "thirty_second_tension": "這是首個針對巨大臍膨出合併肺動脈高壓的系統性回顧，納入258位患者，發現肺動脈高壓顯著增加死亡率(OR 6.78)並延長機械通氣時間(平均多21.25天)。研究填補了重要證據缺口，但受限於回溯性設計和缺乏標準化診斷標準。",
+    "hidden_findings": [
+      {
+        "finding": "研究中43%的巨大臍膨出患者合併肺動脈高壓，比例相當高",
+        "source": "Results section",
+        "implication": "提示巨大臍膨出患者應常規篩檢肺動脈高壓，可能需要預防性心臟超音波監測"
+      },
+      {
+        "finding": "異質性分析顯示I²=0%，表示各研究間結果高度一致",
+        "source": "Results section",
+        "implication": "儘管樣本數小，但結果的一致性增強了證據強度，支持肺動脈高壓確實是重要預後因子"
+      },
+      {
+        "finding": "研究僅納入回溯性世代研究，無前瞻性或隨機對照試驗",
+        "source": "Methods section",
+        "implication": "證據等級受限，因果關係推論需謹慎，未來需要前瞻性研究驗證"
+      }
+    ],
+    "methodology_audit": {
+      "strengths": [
+        "使用PROSPERO註冊研究方案，提高透明度",
+        "採用Newcastle-Ottawa Scale評估偏差風險",
+        "遵循PRISMA指引進行系統性回顧",
+        "納入多個資料庫進行全面搜尋"
+      ],
+      "notes": [
+        "僅納入5個回溯性世代研究，總樣本數258例相對較小",
+        "缺乏肺動脈高壓診斷的標準化定義",
+        "未報告長期追蹤結果"
+      ],
+      "weaknesses": [
+        "所有納入研究均為回溯性設計，證據等級較低",
+        "存在發表偏差的可能性",
+        "臨床變數報告不完整",
+        "缺乏亞群分析探討不同嚴重度的影響"
+      ]
+    },
+    "evidence_positioning": {
+      "related_studies": [
+        {
+          "citation": "既往單中心小樣本研究",
+          "comparison": "本研究首次提供多中心匯總分析，樣本數較大且結果更具代表性"
+        }
+      ],
+      "guideline_status": "目前缺乏針對巨大臍膨出合併肺動脈高壓的標準化管理指引",
+      "evidence_gap_filled": "填補了巨大臍膨出患者肺動脈高壓對預後影響的系統性證據缺口",
+      "ongoing_trials": "文中未提及正在進行的相關臨床試驗"
+    },
+    "protocol_impact": {
+      "current_practice": "目前對巨大臍膨出患者的肺動脈高壓篩檢和管理缺乏標準化流程",
+      "proposed_change": "建議對所有巨大臍膨出患者進行常規心臟超音波篩檢肺動脈高壓，並建立標準化診斷和治療流程",
+      "prerequisites": [
+        "建立標準化肺動脈高壓診斷標準",
+        "制定多專科團隊照護流程",
+        "加強產前諮詢和風險評估",
+        "準備進階心肺支持設備如ECMO"
+      ],
+      "missing_evidence": "缺乏前瞻性研究驗證因果關係、最佳治療策略比較、長期神經發育預後評估，以及成本效益分析"
+    }
+  },
+  "fulltext_source": "manual",
+  "analyzed_at": "2026-03-31T08:04:01.174Z"
+}
