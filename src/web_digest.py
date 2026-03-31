@@ -832,20 +832,19 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
     reader.onload = function(e) {{
       var base64 = e.target.result.split(',')[1];
 
-      // Step 1: Submit via fetch (no-cors mode, response ignored — polling handles result)
-      var formData = new FormData();
-      formData.append('action', 'upload_pdf');
-      formData.append('pmid', pmid);
-      formData.append('title', title);
-      formData.append('pdf_base64', base64);
-      formData.append('secret', SECRET);
-      formData.append('dept', DEPT);
-      formData.append('force', force ? 'true' : 'false');
-
+      // Step 1: Submit via fetch + URLSearchParams (no-cors, response ignored — polling handles result)
       fetch(WEBHOOK_URL, {{
         method: 'POST',
         mode: 'no-cors',
-        body: formData
+        body: new URLSearchParams({{
+          action: 'upload_pdf',
+          pmid: pmid,
+          title: title,
+          pdf_base64: base64,
+          secret: SECRET,
+          dept: DEPT,
+          force: force ? 'true' : 'false'
+        }})
       }}).catch(function() {{}});
 
       // Step 2: Poll for result via JSONP (every 10s, up to POLL_TOTAL attempts)
