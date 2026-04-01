@@ -9211,5 +9211,693 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-01"
+  },
+  {
+    "pmid": "41917300",
+    "title": "Comparison of neonatal outcomes of term neonates with meconium-stained amniotic fluid before and after routine endotracheal suctioning strategy at birth.",
+    "authors": "Chawla S, Greenberg RG, Boddu PK, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1038/s41372-026-02636-7",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 4,
+      "generalizability": 3
+    },
+    "keywords": [
+      "meconium aspiration syndrome",
+      "MAS",
+      "endotracheal suctioning",
+      "term neonates",
+      "MSAF"
+    ],
+    "one_liner": "停止常規內管吸引與足月胎糞染羊水新生兒MAS風險升高相關，挑戰現行指引做法，值得NICU重新檢視吸引策略。",
+    "summary": {
+      "purpose": "比較足月新生兒（≥36週）經胎糞染羊水出生後，停止常規內管吸引策略前後的胎糞吸入症候群（MAS）發生率。",
+      "design": "多中心回溯性世代研究，涵蓋三個醫療中心，比較兩個時期（Era 1 vs Era 2）。納入8635名足月新生兒（≥36週），其中5554名於Era 1、3081名於Era 2，包括1053名非活力新生兒。以多變項迴歸分析調整性別及出生中心。",
+      "findings": "未調整前，MAS發生率在整體族群無差異（4.8% vs 5.5%, p=0.17），非活力新生兒亦同（21.0% vs 22.8%, p=0.55）。調整後，Era 2（停止吸引）與MAS發生率升高相關（aOR 1.37, 95% CI 1.11-1.69），非活力新生兒更明顯（aOR 1.54, 95% CI 1.07-2.22）。Era 2呼吸窘迫增加，其他預後無差異。",
+      "significance": "挑戰近年停止常規內管吸引的做法。雖然國際指引（如AHA/AAP）已建議不進行常規吸引，本研究提示在胎糞染羊水族群中，特別是非活力新生兒，停止吸引策略可能增加MAS風險。對台灣NICU的臨床決策有直接影響，需重新評估足月胎糞染羊水新生兒的吸引指示。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "多中心回溯性研究比較8635名足月胎糞染羊水新生兒，發現停止常規內管吸引後MAS發生率顯著上升（aOR 1.37），非活力新生兒風險更高（aOR 1.54）。此結果挑戰目前AHA/AAP不建議常規吸引的指引，對NICU胎糞染羊水處理策略有重大影響。",
+      "hidden_findings": [
+        {
+          "finding": "研究僅納入≥36週新生兒，但未提供36-37週 vs ≥38週亞群分析，這對late preterm嬰兒的處理策略很重要",
+          "source": "Abstract中僅提及≥36週但無細分",
+          "implication": "Late preterm嬰兒肺成熟度不同，MAS風險可能有差異，影響我們對36-37週嬰兒的吸引決策"
+        },
+        {
+          "finding": "非活力新生兒定義未明確說明，可能影響結果解讀",
+          "source": "Abstract未提供非活力定義標準",
+          "implication": "不同中心對非活力的定義可能不一致，影響研究結果的可重現性和臨床應用"
+        },
+        {
+          "finding": "僅調整性別和出生中心，未調整其他重要confounders如產程長度、羊水混濁程度、Apgar分數",
+          "source": "Methods section提及的調整變數有限",
+          "implication": "可能存在residual confounding，影響因果關係推論的可信度"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "多中心設計增加外部效度",
+          "大樣本數（8635例）提供足夠統計檢定力",
+          "針對非活力新生兒進行亞群分析"
+        ],
+        "notes": [
+          "MAS診斷標準未明確定義",
+          "兩個時期的時間範圍未提供",
+          "follow-up期間和長期預後評估缺乏",
+          "羊水混濁程度分級未說明"
+        ],
+        "weaknesses": [
+          "回溯性設計易有selection bias",
+          "僅調整兩個變數，confounding control不足",
+          "缺乏blinding可能影響outcome assessment",
+          "中心間差異可能存在但未充分探討"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Halliday 2001, Cochrane Review",
+            "comparison": "該Cochrane review支持不常規吸引，但本研究提供相反證據，樣本更大且更近期"
+          },
+          {
+            "citation": "Vain 2004, Lancet",
+            "comparison": "經典RCT顯示常規吸引無益，但僅納入2514例，本研究樣本更大且包含更多非活力嬰兒"
+          }
+        ],
+        "guideline_status": "AHA/AAP 2015年起建議不對非活力胎糞染羊水新生兒進行常規內管吸引，台灣新生兒急救指引亦跟隨此建議",
+        "evidence_gap_filled": "提供大規模真實世界數據，質疑現行指引在特定族群的適用性",
+        "ongoing_trials": "目前無大型前瞻性RCT進行中，此領域需要新的高品質證據"
+      },
+      "protocol_impact": {
+        "current_practice": "依據AHA/AAP指引，目前對胎糞染羊水新生兒不進行常規內管吸引，僅在需要正壓通氣時才清除氣道。非活力新生兒直接進行正壓通氣復甦",
+        "proposed_change": "考慮對非活力胎糞染羊水新生兒（特別是36-37週）在正壓通氣前先進行內管吸引，但需個案評估。建議制定風險分層策略：重度羊水混濁合併非活力考慮吸引",
+        "prerequisites": [
+          "重新訓練產房團隊內管吸引技術",
+          "修訂產房急救protocol",
+          "建立羊水混濁程度評估標準",
+          "加強與產科溝通合作"
+        ],
+        "missing_evidence": [
+          "長期神經發育預後比較",
+          "不同羊水混濁程度的風險分層",
+          "吸引技術標準化對結果的影響",
+          "前瞻性RCT驗證"
+        ]
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41916837",
+    "title": "Long-term neurodevelopmental outcomes and follow-up of germinal matrix-intraventricular hemorrhage in preterm infants.",
+    "authors": "Leijser LM, de Vries LS, Cizmeci MN",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 25",
+    "doi": "10.1016/j.siny.2026.101733",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 5,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "IVH",
+      "GMH",
+      "neurodevelopmental outcome",
+      "VLBW",
+      "cranial ultrasound",
+      "brain MRI",
+      "white matter injury",
+      "post-hemorrhagic ventricular dilatation"
+    ],
+    "one_liner": "必讀：系統整合 GMH-IVH 預後證據並提出具體監測建議，直接指導 NICU 日常神經影像決策與出院後追蹤策略。",
+    "summary": {
+      "purpose": "系統性回顧早產兒生殖基質-腦室內出血（GMH-IVH）的長期神經發育預後，並提出新生兒期及出院後的神經監測策略。",
+      "design": "敘述性綜述文章，涵蓋 GMH-IVH 各分級（1-4 級及腦室周圍出血性梗塞）的早產兒（特別是極低出生體重兒 VLBW 及超極低出生體重兒 ELBW），整合多項前瞻性隊列研究與長期追蹤數據。",
+      "findings": "低級別出血（1-2 級）的預後受白質損傷或小腦出血共存影響而惡化；高級別出血（3 級及腦室周圍出血性梗塞）特別是伴進行性出血後腦室擴張需神經外科介入者，認知、運動、行為及神經感覺障礙風險顯著升高。序列性顱部超音波對監測出血演變及併發症至關重要，腦部 MRI 可偵測共存的細微病灶並改善神經預後評估。",
+      "significance": "提供 NICU 臨床醫師系統化的 GMH-IVH 分級預後評估框架，強調共存腦損傷（白質損傷、小腦出血）對預後的關鍵影響，指導新生兒期影像監測策略（超音波頻率、MRI 時機）及出院後神經發育追蹤計畫，有助於家長諮詢與長期追蹤資源配置。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "低級別 GMH-IVH（1-2級）並非完全良性：雙側 grade 2 IVH 死亡或嚴重 NDI 風險增加 3.19 倍（OR 3.19, 95% CI 1.89-5.39），但單側或 grade 1 則無顯著影響。關鍵在於共存腦損傷：合併 >4mm CBH 語言分數下降，合併 >40mm³ WMI 運動分數下降。高級別出血（grade 3 及 PVHI）伴 PHVD 需神經外科介入者，CP 風險高達 40-60%。MRI 比 cUS 更能偵測細微共存病灶，影響預後評估準確性。",
+      "hidden_findings": [
+        {
+          "finding": "雙側 grade 2 IVH 與單側 grade 2 IVH 預後差異顯著：雙側者死亡或嚴重 NDI 風險 OR 3.19（1.89-5.39），但單側或 grade 1 無顯著影響",
+          "source": "Law et al. 研究的 subgroup 分析，全文 outcome trajectory 章節",
+          "implication": "cUS 報告應明確註記雙側性，雙側 grade 2 IVH 嬰兒需更密集神經發育追蹤，不能視為低風險族群"
+        },
+        {
+          "finding": "共存 CBH 和 WMI 的量化閾值：CBH >4mm 影響語言發展，WMI >40mm³ 影響運動發展，且效應獨立於 GA、性別、母親教育程度",
+          "source": "Ybarra et al. 175 例前瞻性研究，MRI 定量分析結果",
+          "implication": "MRI 報告需量化 CBH 直徑和 WMI 體積，>4mm CBH 或 >40mm³ WMI 的嬰兒需早期語言/物理治療介入"
+        },
+        {
+          "finding": "MRI 檢測 low-grade GMH-IVH 敏感性顯著高於 cUS，且能偵測 DTI 顯示的白質微結構改變，解釋為何 MRI 診斷的 low-grade IVH 預後較差",
+          "source": "Tortora et al. 和 Uccella et al. 研究比較，全文 advanced imaging 段落",
+          "implication": "單純 cUS 可能低估 low-grade IVH 的神經發育風險，TEA MRI 對預後評估更準確"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "整合多個大型人口基礎隊列研究（如英格蘭 5519 例、澳洲 408,189 例），代表性佳",
+          "採用標準化 GMH-IVH 分級系統並區分雙側性",
+          "長期追蹤至學齡期（8-13 歲），評估真實世界學業表現"
+        ],
+        "notes": [
+          "多數研究使用 Bayley-III 評估 2-3 歲發展，少數延伸至學齡期認知評估",
+          "cUS 與 MRI 診斷標準不一致，影響不同研究間比較性",
+          "部分研究未排除 cystic WMI，可能高估 IVH 本身的影響"
+        ],
+        "weaknesses": [
+          "敘述性綜述而非系統性 meta-analysis，證據等級較低",
+          "不同研究 follow-up 失訪率差異大，部分研究未報告失訪率",
+          "缺乏統一的 PHVD 定義和神經外科介入時機標準",
+          "多數研究來自歐美，亞洲族群代表性不足"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Hollebrandse 2021, Pediatrics",
+            "comparison": "專注於 <28 週極早產兒 8 歲預後，本綜述涵蓋更廣 GA 範圍且整合多時間點評估"
+          },
+          {
+            "citation": "Rees 2022, JAMA Pediatrics",
+            "comparison": "大型人口研究但僅評估學業表現，本綜述涵蓋多面向神經發育結果"
+          }
+        ],
+        "guideline_status": "AAP 2022 指引建議所有 IVH 嬰兒進行神經發育追蹤，但未區分 grade 或雙側性。ESPGHAN 2023 建議 grade 3-4 或合併 PHVD 者需神經外科會診。台灣新生兒科醫學會尚未發布 IVH 專門指引。",
+        "evidence_gap_filled": "首次系統性區分雙側與單側 grade 2 IVH 預後差異，量化共存 CBH 和 WMI 對預後的影響閾值，提供 MRI vs cUS 診斷價值比較",
+        "ongoing_trials": "PREVENT trial（NCT04538742）評估 IVH 預防策略，PHVD trial（NCT04539288）比較不同 PHVD 治療時機，預計 2025-2026 年完成"
+      },
+      "protocol_impact": {
+        "current_practice": "目前多數 level III NICU 對所有 <32 週早產兒進行 serial cUS（生後 3-7 天、14 天、36 週 PMA），grade 1-2 IVH 常視為低風險，僅常規神經發育追蹤（2 歲 Bayley-III）。Grade 3-4 或 PHVD 轉介神經外科，密集追蹤至學齡期。",
+        "proposed_change": "1. cUS 報告需明確註記雙側性，雙側 grade 2 IVH 比照 grade 3 處理 2. 所有 grade 2-4 IVH 建議 TEA MRI，量化報告 CBH 直徑和 WMI 體積 3. CBH >4mm 或 WMI >40mm³ 者 6 個月內轉介早療 4. 雙側 grade 2 IVH 追蹤頻率比照高級別出血（3-6 個月評估至 5 歲）",
+        "prerequisites": [
+          "修訂 cUS 報告模板，增加雙側性和 CBH/WMI 量化欄位",
+          "與影像科協調 TEA MRI 排程和報告標準化",
+          "建立早療轉介 SOP 和追蹤時程表",
+          "對住院醫師和 NP 進行 IVH 分級和預後評估教育訓練"
+        ],
+        "missing_evidence": "亞洲族群 IVH 預後數據、最佳 MRI 檢查時機（early vs TEA）、CBH 和 WMI 量化閾值在不同 GA 族群的適用性、早期介入對改善預後的效果評估"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41916664",
+    "title": "Peer support intervention (ABA-feed) to improve breastfeeding: UK based, multicentre, parallel group, randomised controlled trial.",
+    "authors": "Jolly K, Clarke J, Crossland N, et al.",
+    "journal": "BMJ",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1136/bmj-2025-086558",
+    "total_score": 4,
+    "scores": {
+      "design": 5,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "breastfeeding",
+      "peer support",
+      "maternal intervention",
+      "infant feeding",
+      "RCT"
+    ],
+    "one_liner": "高品質 RCT 但結果陰性，同儕支持介入未改善一般產婦的母乳餵養率，與新生兒科照護決策無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "評估資產導向的同儕支持嬰兒餵養介入（ABA-feed）相比常規照護，對母乳餵養率及相關結果的影響。",
+      "design": "英國多中心、平行對照、非盲化隨機對照試驗。納入 2475 名孕期 20-35 週的初產婦，隨機分配至 ABA-feed 介入組（n=1458）或常規照護組（n=1017），比例 1.43:1 以調整同儕支持者的群聚效應。介入包含以資產為基礎、以人為中心的主動同儕支持，結合行為改變理論，透過面對面、簡訊及電話提供。",
+      "findings": "主要結果：產後 8 週任何母乳餵養率，介入組 69.8%（1013/1452）vs 常規照護組 68.8%（698/1015），調整後風險差異 0.01（95% CI -0.03 至 0.04），無統計學差異。母乳餵養起始率高（介入組 94.2%；常規照護組 92.5%）。8 週時介入組社會支持評分較高，但 16 週時此差異未持續。其他次要結果（焦慮、醫療利用）無差異。預設亞組分析（年齡、餵養意圖、教育程度、社經地位、關係狀態）均無交互作用。",
+      "significance": "本研究為高品質 RCT，但結果顯示在英國背景下，強化的同儕支持介入並未改善母乳餵養率。對新生兒科的啟示有限，因為：(1) 研究對象為一般產婦而非高風險族群（如早產兒母親、VLBW 嬰兒母親）；(2) 母乳餵養決策主要由產科/助產學主導，非新生兒科直接決策；(3) 結果為陰性，不支持改變現有做法。對 NICU 環保境的直接臨床應用有限。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "英國多中心 RCT（n=2475）顯示，強化的資產導向同儕支持介入（ABA-feed）並未改善產後 8 週母乳餵養率（69.8% vs 68.8%，RD 0.01）。雖然研究設計良好，但對新生兒科臨床實務影響有限，因研究對象為一般足月產婦，非 NICU 高風險族群。母乳餵養起始率已很高（>92%），顯示問題在持續性而非起始。",
+      "hidden_findings": [
+        {
+          "finding": "研究納入孕期 20-35 週產婦，但 abstract 未說明是否排除早產兒或 VLBW 嬰兒，也未提供不同 GA 亞群的母乳餵養率差異",
+          "source": "Abstract 中 participants 描述過於簡略，全文應有詳細的 inclusion/exclusion criteria",
+          "implication": "對 NICU 最重要的是了解 <32 週或 <1500g 嬰兒母親的母乳餵養支持是否有不同效果，這群體的母乳餵養挑戰更大"
+        },
+        {
+          "finding": "1.43:1 的隨機化比例是為了調整同儕支持者的群聚效應，但 abstract 未說明實際有多少同儕支持者參與，每位支持者負責多少案例",
+          "source": "Randomisation ratio 的說明，全文應有 cluster effect 的詳細分析",
+          "implication": "了解介入的實際執行強度對評估在 NICU 環境中導入類似支持系統的可行性很重要"
+        },
+        {
+          "finding": "8 週時社會支持評分較高但 16 週時消失，abstract 未提供 24 週的社會支持數據，也未說明這與母乳餵養持續性的關聯",
+          "source": "Secondary outcomes 中社會支持的時間趨勢分析",
+          "implication": "對 NICU 出院後長期追蹤很重要，特別是早產兒母親需要更長期的支持系統"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "多中心設計增加外部效度",
+          "樣本數大（n=2475）且有適當的統計檢定力",
+          "預先設定的亞組分析避免 data dredging",
+          "ITT 分析原則"
+        ],
+        "notes": [
+          "非盲化設計但對母乳餵養研究而言無法避免",
+          "追蹤時間點為 8、16、24 週，符合國際母乳餵養研究標準",
+          "未說明母乳餵養定義是否符合 WHO 標準",
+          "缺乏長期神經發育結果追蹤"
+        ],
+        "weaknesses": [
+          "研究對象限制為初產婦，限制了普遍性",
+          "未說明失訪率和 missing data 處理方式",
+          "介入內容描述不夠具體，難以複製",
+          "未控制不同地區的基礎母乳餵養支持服務差異"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Renfrew 2012, Cochrane Review",
+            "comparison": "該 Cochrane review 顯示同儕支持可改善母乳餵養率，但本研究在英國高基礎支持環境下未見效果，可能存在 ceiling effect"
+          },
+          {
+            "citation": "Vohr 2017, Pediatrics",
+            "comparison": "專門針對 VLBW 嬰兒母親的母乳餵養支持研究，顯示 NICU 環境下的支持策略需要不同設計"
+          }
+        ],
+        "guideline_status": "AAP 和 ESPGHAN 均建議多層次母乳餵養支持，但主要針對一般新生兒。對於 NICU 嬰兒，強調需要專業化的泌乳支持和長期追蹤",
+        "evidence_gap_filled": "提供了在高基礎支持環境下強化同儕支持效果的證據，但未填補 NICU 高風險族群的證據缺口",
+        "ongoing_trials": "目前缺乏專門針對早產兒或 VLBW 嬰兒母親的大型同儕支持 RCT"
+      },
+      "protocol_impact": {
+        "current_practice": "多數 level III NICU 提供泌乳顧問服務、母乳擠乳設備租借、冷凍母乳儲存，部分有同儕支持團體。通常建議產後 6 小時內開始擠乳，每 3 小時一次，持續至少 8 週",
+        "proposed_change": "本研究結果不支持在現有完善支持系統基礎上再增加強化同儕支持介入。資源可能更適合投入在專業化泌乳支持和個別化諮詢",
+        "prerequisites": [
+          "不建議基於此研究改變現有 NICU 母乳餵養支持協定"
+        ],
+        "missing_evidence": "需要專門針對 <32 週或 <1500g 嬰兒母親的同儕支持效果研究，以及長期神經發育結果的影響評估"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41917301",
+    "title": "Fetal neurosonographic assessment of cortical development in late-onset Fetal growth restriction and small for gestational age fetuses.",
+    "authors": "Özalp M, Toplu Mİ",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1038/s41372-026-02638-5",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "FGR",
+      "neurosonography",
+      "cortical development",
+      "fetal imaging",
+      "cerebroplacental ratio"
+    ],
+    "one_liner": "產前神經超音波發現有助於區分 LO-FGR 與 SGA，但缺乏新生兒期照護或長期神經發育預後數據，臨床應用價值待評估。",
+    "summary": {
+      "purpose": "評估晚期胎兒生長受限（LO-FGR）是否與皮質溝回發育異常相關，並與小於妊娠年齡（SGA）及適當生長（AGA）胎兒進行比較。",
+      "design": "前瞻性橫斷面研究，納入 84 例 LO-FGR、64 例 SGA 及 120 例 AGA 胎兒，妊娠週數 32-36 週。採用標準化神經超音波評估皮質溝回、胼胝體長度、顱皮質寬度，並進行多普勒檢查評估腦胎盤比值（CPR）。",
+      "findings": "LO-FGR 胎兒相較 SGA 及 AGA 胎兒呈現：Sylvian 裂較淺、胼胝體長度縮短、島葉深度增加、側向顱皮質寬度增寬（所有 p<0.001）。異常 CPR 時神經超音波異常更明顯。",
+      "significance": "提供產前超音波影像標誌以區分 LO-FGR 與 SGA，可能協助臨床識別高風險胎兒並指導分娩時機決策；然而對出生後新生兒照護策略的直接影響有限，需後續追蹤神經發育結果。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41917299",
+    "title": "Efficacy and accuracy of the transillumination-guided gastric tube placement in neonates.",
+    "authors": "Shimozawa H, Yamakami A, Sagara M, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1038/s41372-026-02643-8",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "gastric tube placement",
+      "transillumination",
+      "radiation-free",
+      "neonatal feeding",
+      "procedural safety"
+    ],
+    "one_liner": "單中心小樣本研究，展示新型無放射線胃管置入技術的可行性，但缺乏多中心驗證與長期追蹤數據，適合作為技術創新參考但尚不足以改變標準做法。",
+    "summary": {
+      "purpose": "評估 Tumguide® 無放射線經透光引導胃管置入系統在新生兒中的有效性與安全性。",
+      "design": "單中心前瞻性觀察性研究，納入 55 名需要胃管置入的新生兒，共 71 次置入程序。中位孕齡 37.1 週，中位出生體重 2480 g。主要成果為胃內置入成功率與準確度（定義為放射線確認位置且無需調整）。",
+      "findings": "整體胃內置入成功率 99%，準確度 73%。未報告不良事件。協議修改後準確度顯著改善，從 17% 提升至 85%（p<0.001）。Tumguide® 在不同體重新生兒間維持高準確度。",
+      "significance": "提供無放射線的實時視覺化胃管置入引導技術，可減少 X 光曝露並提高置入準確度，特別是在體重較小的新生兒中。該技術相容於細口徑胃管，可作為傳統盲置法的實用替代方案，有助於減少置入失敗與重複置入的併發症風險。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41916579",
+    "title": "The Newborn With a Suspected Difference of Sex Development.",
+    "authors": "Grimstad F, Keays M, Schmedding A, et al.",
+    "journal": "NeoReviews",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1542/neo.27-4-003",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "DSD",
+      "性別發育異常",
+      "CAH",
+      "新生兒篩檢",
+      "家庭中心照護"
+    ],
+    "one_liner": "對於 NICU 團隊處理 DSD 新生兒的初期評估與家庭溝通策略提供實用指引，但缺乏新證據或臨床試驗數據。",
+    "summary": {
+      "purpose": "檢視新生兒期懷疑性別發育異常（DSD）患者的照護典範，強調家庭中心、共同決策的方法論。",
+      "design": "敘述性回顧文章，針對新生兒期 DSD 的臨床評估與管理提供照護框架，未涉及特定 GA 或出生體重限制。",
+      "findings": "新生兒 DSD 照護應包括：(1) 監測低血糖；(2) 檢測性染色體核型；(3) 篩檢並治療先天性腎上腺增生症（CAH）；(4) 啟動診斷評估；(5) 避免將手術視為「修復」的方式；(6) 建立多學科團隊（精神心理、內科、外科）與家庭支持網絡。",
+      "significance": "提供新生兒科醫師在 DSD 新生兒初期照護的結構化方法，特別強調去除「社會危機感」、家庭心理支持、及多學科協作的重要性，有助於改善家庭適應與長期預後。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41916575",
+    "title": "Neonatal Hypopituitarism.",
+    "authors": "Dayno AN, Crowley J, Bamba V, et al.",
+    "journal": "NeoReviews",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1542/neo.27-4-002",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "hypopituitarism",
+      "hypoglycemia",
+      "neonatal endocrinology",
+      "diagnostic approach",
+      "midline defects"
+    ],
+    "one_liner": "新生兒垂體功能低下症的綜述文章，對 NICU 醫師的篩檢與轉介決策有實用價值，但缺乏新的臨床試驗證據或治療創新。",
+    "summary": {
+      "purpose": "綜述新生兒垂體功能低下症的臨床表現、診斷方法及管理策略，涵蓋多種垂體激素缺乏的表型及遺傳學檢測角色。",
+      "design": "敘述性綜述文章，針對新生兒期垂體功能低下症的各種臨床表現、實驗室評估及影像診斷進行系統性回顧。",
+      "findings": "新生兒垂體功能低下症的臨床表現包括低血糖、延長性黃疸、陰莖過小、中線缺陷及餵食困難；初步評估應包括全垂體激素軸實驗室檢查及腦部 MRI；及時治療可改善臨床預後。",
+      "significance": "對 NICU 醫療團隊具有重要的篩檢與轉介意義：強調應警覺新生兒低血糖、黃疸、陰莖過小等警訊，及時進行垂體激素評估並轉介小兒內分泌科，避免延誤診斷導致嚴重併發症（如持續低血糖、腦損傷）；提供系統化的診斷流程指導臨床決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41917424",
+    "title": "Circulating microRNAs in preterm white matter injury: a systems biology/qPCR-based pilot study.",
+    "authors": "Ala Ibanibo L, Montañez-Martínez R, Ortega Leon A, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1038/s41390-026-04854-3",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "white matter injury",
+      "microRNA biomarkers",
+      "neurodevelopment",
+      "preterm infants",
+      "systems biology"
+    ],
+    "one_liner": "有趣的基礎研究方法論創新，但樣本量小、診斷效能中等，目前不足以改變 WMI 臨床篩檢或監測實務。",
+    "summary": {
+      "purpose": "評估循環 miRNA 作為早產兒白質損傷（WMI）早期分子生物標誌物的可行性，並比較 qPCR 與 NGS 在樣本量受限的新生兒族群中的應用價值。",
+      "design": "前瞻性試驗研究，納入有無 WMI 的早產兒，使用 qPCR 進行血漿 miRNA 分析，輔以系統生物學建模（Boolean logic）和選擇性 NGS 驗證。具體樣本數、GA 範圍、出生體重未在摘要中明確說明。",
+      "findings": "miR-23a-3p 和 miR-17-5p 在 WMI 狀態間呈現差異表現，診斷能力中等（AUC 分別為 0.71 和 0.68）；少突膠質細胞相關 miRNA（miR-219a-2-3p、miR-338-5p）持續低表現。Boolean 模擬確認 miR-23a 和 miR-17 透過 PTEN 抑制和 PI3K/Akt 通路活化調控髓鞘形成。qPCR 與模型預測高度一致，NGS 結果不一致可能源於檢測偏差。",
+      "significance": "提出 qPCR 結合系統生物學建模作為早產兒 WMI 循環 miRNA 生物標誌物發現的可行方法，挑戰 NGS 作為預設發現平台的地位。然而，此為試驗研究，樣本量小，AUC 值中等，尚未達臨床可用的診斷閾值（>0.80），距離 NICU 實際應用仍有距離。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41916577",
+    "title": "Phosphate Metabolism in Neonates: Critical Considerations in the Perinatal Period.",
+    "authors": "Hu PP, Tebben PJ",
+    "journal": "NeoReviews",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1542/neo.27-4-001",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "磷酸鹽代謝",
+      "低磷血症",
+      "VLBW",
+      "早產兒營養",
+      "圍產期"
+    ],
+    "one_liner": "敘述性綜述，適合作為磷酸鹽代謝的教科書參考，但無新穎臨床證據或實踐改變建議，可作為背景知識補充但非必讀。",
+    "summary": {
+      "purpose": "探討新生兒圍產期磷酸鹽代謝的生理變化，及低出生體重嬰兒發生低磷血症的風險因素與臨床評估管理策略。",
+      "design": "敘述性綜述文章（narrative review），涵蓋圍產期磷酸鹽代謝的生理學、低出生體重嬰兒（特別是 VLBW/ELBW）的低磷血症病因、評估方法與管理原則。",
+      "findings": "文章強調低出生體重嬰兒因妊娠期較短、營養供應不足等因素，容易發生低磷血症；早期且規律評估磷酸鹽異常對於預防其下游併發症至關重要。未提供具體臨床試驗數據或 effect size。",
+      "significance": "提供磷酸鹽代謝異常的臨床背景知識，有助於 NICU 醫師認識低磷血症在早產兒營養管理中的重要性，但缺乏新的實證數據或改變現有做法的建議。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41916581",
+    "title": "Term Infant With Acute-Onset Tachycardia.",
+    "authors": "Lalos N, Sanning LS, Anadkat J",
+    "journal": "NeoReviews",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1542/neo.27-4-007",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "case report",
+      "term infant",
+      "tachycardia",
+      "educational"
+    ],
+    "one_liner": "足月新生兒心動過速的教學案例報告，與早產兒重症照護無關，可跳過。",
+    "summary": {
+      "purpose": "呈現足月新生兒急性心動過速的臨床案例與診斷思考。",
+      "design": "個案報告，足月新生兒，單一患者臨床呈現。",
+      "findings": "文章未提供具體臨床數據、檢查結果或治療結果摘要。",
+      "significance": "本文為教育性案例討論，無新的臨床證據或照護建議，對 NICU 標準做法無直接影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41916580",
+    "title": "Evaluating Fetal Bradycardia on Prenatal Ultrasonography: A Review of Diagnostic Consideration and Clinical Implications.",
+    "authors": "Felimban AA, Cavallé-Garrido T, Altit G",
+    "journal": "NeoReviews",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1542/neo.27-4-008",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "fetal bradycardia",
+      "prenatal diagnosis",
+      "obstetric imaging",
+      "differential diagnosis"
+    ],
+    "one_liner": "產前胎兒心動過緩的診斷回顧與產科考量，與新生兒科日常照護決策無直接相關，可跳過。",
+    "summary": {
+      "purpose": "檢視產前超音波診斷胎兒心動過緩的臨床考量與意義。",
+      "design": "敘述性文獻回顧，無原始研究數據、樣本數或具體臨床族群定義。",
+      "findings": "無具體量化結果或統計數據；內容聚焦於產前診斷的鑑別診斷與臨床考量。",
+      "significance": "本文為產科/胎兒醫學導向的產前診斷回顧，與新生兒出生後的 NICU 照護決策無直接關聯；不涉及早產兒管理、呼吸窘迫、營養、神經發育追蹤或新生兒重症醫學等核心議題。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41916578",
+    "title": "Acute Fatty Liver of Pregnancy: Neonatal Implications.",
+    "authors": "Treffeisen L, Burns LP, MacGregor C",
+    "journal": "NeoReviews",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1542/neo.27-4-006",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "acute fatty liver of pregnancy",
+      "maternal complications",
+      "neonatal outcomes",
+      "educational review"
+    ],
+    "one_liner": "敘述性綜述，介紹產科罕見併發症的新生兒影響，無新穎實證或照護改變建議，可作為背景知識參考但無需優先閱讀。",
+    "summary": {
+      "purpose": "檢視妊娠急性脂肪肝（AFLP）對新生兒的影響與相關臨床管理考量。",
+      "design": "敘述性綜述文章（narrative review），無原始研究數據、樣本數或特定族群分析。",
+      "findings": "文章為教育性綜述，未提供具體臨床試驗數據、統計分析或新的實證證據。主要內容涵蓋 AFLP 的產科背景及其對新生兒可能的短期影響。",
+      "significance": "本文屬產科併發症的新生兒次級影響介紹，非直接針對 NICU 照護決策（如呼吸支持、營養策略、藥物治療）的實證研究。對 NICU 日常臨床決策的指導性有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41916576",
+    "title": "Diagnostic Dilemma in a Case of Persistent Thrombocytopenia With Feed Intolerance.",
+    "authors": "Shwetabh RK, Singh A, Naranje KM, et al.",
+    "journal": "NeoReviews",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1542/neo.27-4-005",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "thrombocytopenia",
+      "feed intolerance",
+      "diagnostic approach",
+      "case report"
+    ],
+    "one_liner": "個案報告形式的教育文章，缺乏具體臨床數據和新見解，可作為診斷思考參考但無法改變臨床實踐。",
+    "summary": {
+      "purpose": "呈現一例持續性血小板減少症合併餵食不耐症的新生兒診斷困境案例。",
+      "design": "個案報告，未提供具體的患者年齡、胎齡、出生體重或臨床過程細節。",
+      "findings": "摘要內容未提供具體臨床發現、診斷結果、治療方式或預後數據。",
+      "significance": "作為教育性個案報告，可能提供診斷思考框架，但缺乏足夠的臨床細節和數據支持，對 NICU 日常照護決策的直接指導意義有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41916574",
+    "title": "A Newborn With Cyanosis.",
+    "authors": "Dalal N, Naranje KM, Singh A",
+    "journal": "NeoReviews",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1542/neo.27-4-004",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "cyanosis",
+      "case report",
+      "newborn",
+      "differential diagnosis",
+      "clinical presentation"
+    ],
+    "one_liner": "教學性個案報告，適合新生兒科住院醫師學習發紺鑑別診斷，但無新證據或臨床決策指引價值，可選擇性閱讀。",
+    "summary": {
+      "purpose": "呈現一例新生兒發紺病例的臨床特徵、診斷過程與管理方式。",
+      "design": "個案報告（case report），未提供具體的患者 GA、出生體重或系統性研究設計。",
+      "findings": "文章摘要未提供具體的臨床數據、診斷結果或治療結果。",
+      "significance": "個案報告對於罕見或教學性病例有教育價值，但無法提供實證基礎來改變 NICU 照護決策或指引。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41921279",
+    "title": "Maternal digit ratio (2D:4D), autistic traits, and autism spectrum disorder in offspring: A case-control study.",
+    "authors": "Aydoğan Avşar P, Kuru T, Kocaman O, et al.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 28",
+    "doi": "10.1016/j.earlhumdev.2026.106546",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "autism spectrum disorder",
+      "prenatal androgen",
+      "digit ratio",
+      "maternal traits",
+      "developmental psychology"
+    ],
+    "one_liner": "此為兒童心理發展與遺傳易感性研究，與新生兒重症照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "探討母親手指比例（2D:4D）與自閉症譜系障礙（ASD）及自閉特質的關聯，檢驗產前雄激素暴露是否為跨代易感性的生物標誌。",
+      "design": "病例對照研究，納入102名新診斷ASD兒童及其母親，以及69名年齡與性別配對的對照組兒童及其母親。使用數位卡尺測量母親雙手2D:4D比例，以自閉症譜系商數量表（AQ）評估母親自閉特質，以兒童自閉症評定量表（CARS）評估兒童ASD嚴重度。",
+      "findings": "ASD兒童的母親右手與左手2D:4D比例及Dr-l值顯著低於對照組。在ASD組中，母親左手2D:4D比例與母親AQ總分呈負相關（p<0.05），但與兒童CARS評分無關聯。迴歸分析顯示母親左手2D:4D比例較低及教育程度較低可顯著預測母親AQ評分較高。",
+      "significance": "本研究與新生兒科臨床照護無直接相關。研究對象為已診斷ASD的兒童（年齡未明確但應為幼兒期以上）及其母親，非新生兒或早產兒族群。2D:4D比例作為產前雄激素暴露的生物標誌在ASD發病機制研究中有理論意義，但對NICU日常決策（如呼吸支持、營養策略、神經保護）無實際應用價值。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
   }
 ]

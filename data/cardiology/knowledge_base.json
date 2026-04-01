@@ -3894,5 +3894,294 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-01"
+  },
+  {
+    "pmid": "41919412",
+    "title": "A novel homozygous ",
+    "authors": "Kurt H, Ulger Z, Levent E, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1017/S1047951126111883",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "dilated cardiomyopathy",
+      "genetic variant",
+      "pediatric cardiology",
+      "PPP1R13L",
+      "case report"
+    ],
+    "one_liner": "此為兒童心臟病個案報告，與新生兒照護無直接相關性，NICU醫師可跳過。",
+    "summary": {
+      "purpose": "報告一例4歲男童罹患PPP1R13L基因相關的早發性擴張型心肌病變，伴隨外胚層特徵的罕見遺傳性心臟疾病。",
+      "design": "單一病例報告，患者為4歲兒童（非新生兒或早產兒族群），透過基因檢測確認PPP1R13L基因新型同合子移碼變異。",
+      "findings": "患者呈現代償失全心衰竭、擴張型心肌病變、反覆心室心律不整，最終死於心臟猝死。基因檢測發現c.2368_2375dup; p. Pro793Glyfs*32變異，被分類為致病性。",
+      "significance": "本文為罕見遺傳性心臟疾病的個案報告，與新生兒加護病房（NICU）的日常照護決策無直接關聯。雖然早發性心肌病變可能在新生兒期出現，但本文重點在於4歲兒童的臨床表現與遺傳診斷，不涉及新生兒特定的管理策略（如呼吸支持、營養、發育追蹤等）。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41919409",
+    "title": "Right ventricular function after repair of tetralogy of Fallot: an echocardiographic and clinical evaluation.",
+    "authors": "Benli O, Topcuoglu MS, Kasap M",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1017/S1047951126112049",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "tetralogy of Fallot",
+      "right ventricular function",
+      "pulmonary regurgitation",
+      "echocardiography",
+      "congenital heart disease"
+    ],
+    "one_liner": "此為先天性心臟病長期追蹤研究，與新生兒/早產兒 NICU 照護無直接相關，可跳過。",
+    "summary": {
+      "purpose": "評估法洛氏四聯症修復術後右心室功能與肺動脈瓣膜逆流的關係，探討應變分析在早期偵測右心室功能障礙的敏感性。",
+      "design": "單中心回溯性研究，納入 63 名法洛氏四聯症修復術後患者，進行術後中期追蹤超音波評估。使用三尖瓣環收縮期位移、右心室收縮速度、分數面積變化及右心室自由壁縱向應變評估右心室功能；以彩色都卜勒評估肺動脈瓣膜逆流嚴重程度。",
+      "findings": "傳統右心室收縮參數大致保留，但右心室自由壁縱向應變隨肺動脈瓣膜逆流嚴重程度惡化（p=0.036）。肺動脈瓣膜逆流噴流寬度相對肺動脈瓣膜直徑為獨立相關決定因子（β=0.132, p=0.038）；QRS 寬度無獨立相關性。肺動脈瓣膜逆流噴流寬度對右心室應變障礙的判別能力中等（AUC=0.67）。",
+      "significance": "本研究為先天性心臟病患者的長期心臟功能追蹤研究，與新生兒重症照護無直接關聯。雖應變分析在成人先天性心臟病追蹤具臨床價值，但不影響新生兒期的急性照護決策或早產兒發育預後評估。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41919407",
+    "title": "Unexpected sudden cardiac arrest due to ventricular fibrillation in a 7-year-old boy with Duchenne muscular dystrophy.",
+    "authors": "Mhanna C, Nees S, Tsuda T",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1017/S1047951125111220",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Duchenne muscular dystrophy",
+      "ventricular fibrillation",
+      "pediatric cardiology",
+      "case report"
+    ],
+    "one_liner": "此為7歲兒童杜興肌肉萎縮症併發心室顫動的個案報告，與新生兒/早產兒照護無關，可跳過。",
+    "summary": {
+      "purpose": "報告一名7歲杜興肌肉萎縮症患童發生心室顫動導致心跳停止的臨床案例。",
+      "design": "個案報告，患者年齡7歲，與新生兒期無關。",
+      "findings": "患童無前驅症狀突發心室顫動，心臟MRI顯示明顯心肌纖維化但無急性發炎徵象，全外顯子定序未發現致命性心律不整相關病理變異。",
+      "significance": "本研究與新生兒科照護無直接關聯，屬於兒童心臟學領域的罕見併發症報告，不影響NICU日常決策或早產兒管理策略。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41919401",
+    "title": "Turner syndrome and acute type A aortic dissection: a national inpatient analysis of risk and outcomes.",
+    "authors": "Datar Y, Madhani A, Yin K",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1017/S1047951126111949",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Turner syndrome",
+      "aortic dissection",
+      "adult cardiology",
+      "不相關於新生兒科"
+    ],
+    "one_liner": "本文為成人心臟血管疾病流行病學研究，與新生兒/早產兒照護無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "本研究探討 Turner 症候群患者急性 A 型主動脈剝離（ATAAD）的患病率與住院預後。",
+      "design": "回溯性觀察性隊列研究，使用美國全國住院患者樣本資料庫（2002-2020），比較三組患者：Turner 症候群合併 ATAAD、Turner 症候群不合併 ATAAD、及無 Turner 症候群但有 ATAAD。樣本為 51,426 例 Turner 症候群住院患者，中位年齡 32-40 歲。",
+      "findings": "Turner 症候群患者中 0.27% 合併 ATAAD；ATAAD 組別的院內死亡率為 13.1% vs 2.1%（p<0.001），住院天數中位數為 8 vs 3 天（p<0.05）。二尖瓣畸形（34.3% vs 3.5%, p<0.001）、高血壓（46.0% vs 25.7%, p<0.05）、及完全心傳導阻滯（14.6% vs 0.8%, p<0.001）在 ATAAD 組別更常見。多變數分析顯示二尖瓣畸形（aOR 24.31, 95% CI 8.8-67.3）及年齡（aOR 1.02, 95% CI 1.01-1.04）為 ATAAD 獨立預測因子。",
+      "significance": "本研究為成人心臟血管疾病流行病學研究，與新生兒科照護無直接關聯。Turner 症候群的新生兒篩檢與長期追蹤屬兒科範疇，但本文重點為成人患者的急性心血管併發症，不涉及新生兒期診斷、治療或發育預後。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41919399",
+    "title": "Cantrell's pentalogy, complications associated with Glenn surgery, innovation in haemodynamic management.",
+    "authors": "Guzmán Serrano CA, Aristizabal AM, Gutiérrez-Gil JA, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1017/S1047951125100905",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Cantrell's pentalogy",
+      "CHD",
+      "case report"
+    ],
+    "one_liner": "單一 Cantrell 五聯症病例報告，與新生兒重症照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "報告一例罕見的 Cantrell 五聯症（type 1）合併複雜先天性心臟病的臨床管理經驗。",
+      "design": "單一病例報告，患者為新生兒期診斷之 Cantrell 五聯症合併複雜 CHD，接受分期手術及混合介入治療。",
+      "findings": "遺傳學檢查排除遺傳性病因；強調多學科團隊合作在管理此類罕見疾病的重要性；未提供具體的臨床結果數據或長期追蹤資訊。",
+      "significance": "此為極罕見先天性疾病的個案報告，對一般 NICU 日常照護決策無直接影響；主要價值在於罕見病例的臨床文獻記錄，而非建立新的照護標準或改變臨床實踐。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41919398",
+    "title": "Effect of preoperative oral iron supplementation on postoperative outcomes in children with acyanotic congenital heart disease undergoing cardiac surgery: a pragmatic randomised clinical trial.",
+    "authors": "Murugaiyan A, Jha AK, Parida S, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1017/S1047951126111858",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "congenital heart disease",
+      "iron supplementation",
+      "pediatric cardiac surgery",
+      "blood transfusion"
+    ],
+    "one_liner": "本研究針對兒童心臟手術患者的術前鐵質補充策略，與新生兒科日常照護無直接相關，可跳過。",
+    "summary": {
+      "purpose": "評估術前口服鐵質補充對先天性無紫紺心臟病兒童心臟手術後同種異體血液輸血需求的影響。",
+      "design": "前瞻性、開放標籤、結果評估者盲化的隨機臨床試驗，於印度大型三級醫療中心進行。納入血紅蛋白 <13 gm/dl 的無紫紺先天性心臟病兒童（n=86，各組 43 人）。介入組接受膠狀鐵劑（3 mg/kg）、葉酸及氰鈷胺素至少 7 天至 1 個月。主要結果為同種異體血液輸血量，次要結果為機械通氣時間及 ICU 住院時間。",
+      "findings": "介入組血紅蛋白術前改善 1.3 gm/dl。同種異體血液輸血量（ml/kg）中位數（IQR）明顯降低：5 (0–8) vs 10 (8–12)，p<0.01；累積輸血量：60 ml (0–100) vs 100 ml (70–140)，p<0.001。機械通氣時間、ICU 住院時間及總住院時間均明顯縮短。",
+      "significance": "本研究主要針對先天性心臟病兒童的術前貧血管理，與新生兒科照護無直接關聯。早產兒雖可能合併先天性心臟病，但本研究未特別針對早產兒族群，亦未涉及新生兒特有的呼吸窘迫症候群、支氣管肺發育不全、壞死性小腸結腸炎等新生兒重症議題。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41920138",
+    "title": "Culture-Negative IE in the Modern Diagnostic Era: Patient Characteristics and Heterogeneity in a Nationwide Cohort.",
+    "authors": "Petersen JK, Østergaard L, Graversen PL, et al.",
+    "journal": "Journal of the American College of Cardiology",
+    "pub_date": "2026 Mar 24",
+    "doi": "10.1016/j.jacc.2026.02.5114",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "infective endocarditis",
+      "culture-negative",
+      "adult cardiology",
+      "不相關於新生兒"
+    ],
+    "one_liner": "本文為成人心臟病學研究，與新生兒/早產兒照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本研究旨在描述現代診斷時代文化陰性感染性心內膜炎（CNIE）的臨床特徵與異質性。",
+      "design": "丹麥全國性 NIDUS 登錄資料庫回溯性分析，納入 2016-2021 年首次左側心內膜炎住院患者 2,875 人，其中 CNIE 212 人（7.4%），根據血液培養、瓣膜組織培養及聚合酶連鎖反應分類。",
+      "findings": "CNIE 患者相較 CPIE 患者：先天性心臟病比例較高（9.9% vs 2.9%），入院時敗血症（7.1% vs 24.6%）及發熱（44.3% vs 61.7%）較少見，但栓塞（25.9% vs 10.8%）及瓣膜閉鎖不全（11.3% vs 7.4%）較常見；贅生物中位數較小（8 mm vs 10 mm）；PET-CT 診斷率 13.1% vs 10.7%，人工瓣膜 CNIE 患者 PET-CT 診斷率近 50%。",
+      "significance": "本研究與新生兒照護無直接關聯。感染性心內膜炎為成人心臟病學領域疾病，患者族群為成人，與新生兒重症醫學、早產兒照護、發育追蹤等核心議題無關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41920130",
+    "title": "The Pediatric Heart Network's Single Ventricle Reconstruction Trial: A Turning Point in Pediatric Cardiac Research.",
+    "authors": "Burns KM, Pemberton VL, Schwartz BN, et al.",
+    "journal": "Journal of the American College of Cardiology",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1016/j.jacc.2026.02.4873",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "pediatric cardiology",
+      "single ventricle",
+      "cardiac surgery",
+      "non-NICU"
+    ],
+    "one_liner": "可跳過——本文為小兒心臟外科領域的綜述，與早產兒照護、新生兒重症醫學無關。",
+    "summary": {
+      "purpose": "本文討論小兒心臟網絡單心室重建試驗作為小兒心臟研究的轉折點。",
+      "design": "文章標題與摘要內容指向小兒心臟手術領域的綜述或評論性文章，非新生兒重症醫學研究。",
+      "findings": "未提供具體臨床數據、統計結果或實驗發現。",
+      "significance": "本文主題為小兒心臟外科手術研究，與新生兒加護病房（NICU）的日常照護決策（如呼吸器策略、營養支持、感染防控、發育追蹤）無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41920129",
+    "title": "From Surgical Innovation to Global Outcomes: Two Decades of the Single Ventricle Reconstruction Trial.",
+    "authors": "Goldberg CS, Newburger JW",
+    "journal": "Journal of the American College of Cardiology",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1016/j.jacc.2026.02.5088",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "先天性心臟病",
+      "單心室",
+      "小兒心臟外科",
+      "敘述性回顧"
+    ],
+    "one_liner": "小兒心臟外科回顧文章，與新生兒重症醫學及早產兒照護無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "本文回顧單心室重建手術在過去二十年的外科創新與全球臨床成果。",
+      "design": "敘述性回顧，聚焦於先天性心臟病的外科治療進展，非新生兒重症醫學研究。",
+      "findings": "文章討論單心室重建手術的演進與長期預後，但未提供具體的新生兒照護相關數據或臨床試驗結果。",
+      "significance": "本文主要針對小兒心臟外科領域，與新生兒加護病房的日常照護決策（如呼吸支持、營養、感染防治、神經發育保護）無直接關聯。雖然先天性心臟病新生兒可能需要 NICU 照護，但本文重點在外科技術而非新生兒重症管理。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-02"
   }
 ]
