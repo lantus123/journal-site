@@ -4183,5 +4183,295 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41925852",
+    "title": "Utility of Echocardiography in 173 VA ECMO Clamp Trials in Babies and Children.",
+    "authors": "Smith KL, Liddle DW, Schiff M, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1007/s00246-026-04245-9",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "VA ECMO",
+      "echocardiography",
+      "critical care",
+      "cardiac function",
+      "weaning"
+    ],
+    "one_liner": "VA ECMO 夾閉試驗的心臟超音波應用研究，對極少數需要 ECMO 支持的重症新生兒有參考價值，但不影響常規早產兒照護。",
+    "summary": {
+      "purpose": "評估心臟超音波在靜脈-動脈體外膜肺氧合（VA ECMO）夾閉試驗中的臨床應用價值。",
+      "design": "回溯性單中心研究，納入 173 名接受 VA ECMO 夾閉試驗的嬰幼兒患者，使用心臟超音波監測心功能參數。",
+      "findings": "心臟超音波能有效評估 VA ECMO 夾閉期間的心功能變化，協助臨床判斷患者耐受性，但具體數據未在摘要中呈現。",
+      "significance": "對於需要 VA ECMO 支持的重症新生兒/嬰幼兒，心臟超音波可作為夾閉試驗的輔助監測工具，但此研究主要聚焦心臟科技術應用，與一般 NICU 早產兒照護決策的直接相關性有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41924886",
+    "title": "Advanced Molecular, Metabolic, and Imaging Approaches to Characterizing Right Ventricular Failure: A Scientific Statement From the American Heart Association.",
+    "authors": "Pullamsetti SS, Vanderpool RR, de Man F, et al.",
+    "journal": "Circulation",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1161/CIR.0000000000001422",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "pulmonary hypertension",
+      "right ventricular dysfunction",
+      "adult cardiology",
+      "systemic disease"
+    ],
+    "one_liner": "成人肺高血壓右心室功能障礙的綜述，與新生兒照護無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "本文為美國心臟協會發布的科學聲明，綜述成人肺高血壓患者右心室功能障礙的分子機制、影像學進展及治療潛力。",
+      "design": "敘述性綜述（narrative review），針對成人肺高血壓及相關全身性疾病（心衰、先天性心臟病、COVID-19、左心室輔助裝置併發症）的右心室功能障礙進行文獻回顧。",
+      "findings": "右心室功能障礙是肺高血壓患者預後的關鍵預測因子。初期適應性肥厚重塑逐漸轉變為不適應性重塑（擴張、纖維化、僵硬度增加、右心室-肺動脈解耦），最終導致右心衰竭。新興治療如 activin 信號抑制劑 sotatercept 可能降低肺血管阻力並促進右心室恢復。",
+      "significance": "本文主要針對成人肺高血壓患者的右心室病理生理學，與新生兒重症醫學無直接關聯。新生兒肺高血壓（如持續性肺高血壓、BPD 相關肺高血壓）的病理機制、臨床評估及治療策略與成人肺高血壓存在本質差異，本文內容對 NICU 臨床決策無直接指導意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41925531",
+    "title": "Outcome of Severe Adenoviral Respiratory Infection Supported With Extracorporeal Membrane Oxygenation: A Multicenter PICU Study From Colombia (2018-2022).",
+    "authors": "Acevedo L, Fernández-Sarmiento J, Mulett H, et al.",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1097/PCC.0000000000003936",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "ECMO",
+      "adenoviral infection",
+      "PICU",
+      "hemorrhagic complications",
+      "pediatric critical care"
+    ],
+    "one_liner": "此為PICU層級的ECMO併發症研究，主要族群為嬰幼兒至青少年，與新生兒科特異性照護決策無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "比較接受ECMO支持的兒童患者中，腺病毒呼吸道感染與其他病毒呼吸道感染的存活率、臨床特徵及併發症。",
+      "design": "多中心回溯性觀察性研究，納入2018-2022年間來自哥倫比亞7家PICU的1個月至18歲兒童205名（腺病毒感染80名[39%]，其他病毒感染125名[61%]），接受ECMO支持。",
+      "findings": "腺病毒組與非腺病毒組的28天存活率無顯著差異（77.6% vs 73.6%; p=0.513）。獨立的死亡風險因子包括：VIS>15（aOR 3.18, 95% CI 1.08-7.45）、動脈pH<7.2（aOR 3.79, 95% CI 1.75-5.52）、ECMO標準達成至實際插管時間>13小時（aOR 4.04, 95% CI 1.72-7.21）。出血併發症發生率40%（81/205），年齡<36個月、ECMO持續>10天、使用連續腎臟替代療法與出血風險增加相關。",
+      "significance": "本研究主要針對PICU患者（包括嬰幼兒至青少年），與新生兒科日常照護決策無直接關聯。雖涉及極早期嬰幼兒（1個月以上），但重點為ECMO管理策略而非新生兒特異性照護（如surfactant、caffeine、feeding protocol、BPD預防）。對台灣NICU的臨床實踐影響有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41925853",
+    "title": "Clinical Utility of Stroke Volume Index in Children with Idiopathic and Heritable Pulmonary Arterial Hypertension.",
+    "authors": "Takatsuki S, Parikh K, Sato M, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1007/s00246-026-04241-z",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "pulmonary arterial hypertension",
+      "pediatric cardiology",
+      "hemodynamics",
+      "prognosis",
+      "risk stratification"
+    ],
+    "one_liner": "此為兒童心臟病學研究，聚焦肺動脈高壓的長期預後評估，與新生兒科照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "評估右心導管檢查測得的心搏量指數（SVi）在兒童特發性及遺傳性肺動脈高壓患者的預後價值。",
+      "design": "回溯性隊列研究，納入 103 名兒童 PAH 患者，透過右心導管檢查測量心搏量指數，追蹤不良事件（肺移植或心臟死亡）發生率。",
+      "findings": "23/103 患者（22%）發生不良事件。SVi ≤ 33 ml/m² 組有 16 例事件（38%），SVi > 33 ml/m² 組有 7 例事件（11%）（p < 0.05）。ROC 曲線下面積 0.75，HR = 0.92（95% CI 0.89-0.97）。",
+      "significance": "本研究針對兒童肺動脈高壓患者的風險分層提供血流動力學參數，但與新生兒重症照護無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41925657",
+    "title": "Pulmonary venous modeling versus cardiopulmonary reality in group 2 pulmonary hypertension.",
+    "authors": "Tao L, Chuan Z, Zhou H",
+    "journal": "Journal of Thoracic and Cardiovascular Surgery",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1016/j.jtcvs.2026.02.019",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人肺高血壓",
+      "心胸外科",
+      "非新生兒相關"
+    ],
+    "one_liner": "成人心胸外科肺高血壓研究，與新生兒科無關，可跳過。",
+    "summary": {
+      "purpose": "本研究探討第二類肺高血壓的肺靜脈建模與心肺實際情況的關係。",
+      "design": "成人心胸外科期刊發表之研究，主要針對肺靜脈血流動力學建模，與新生兒族群無關。",
+      "findings": "無法評估，因文章主題為成人肺高血壓的血流動力學模型研究。",
+      "significance": "本研究與新生兒/早產兒照護無直接關聯，不適用於 NICU 臨床決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41925664",
+    "title": "Photon-Counting Computed Tomography for Tissue Characterization in Patients With a Left Ventricular Hypertrophic Phenotype.",
+    "authors": "De Gori C, Aimo A, Occhipinti M, et al.",
+    "journal": "JACC: Cardiovascular Imaging",
+    "pub_date": "2026 Mar 31",
+    "doi": "10.1016/j.jcmg.2026.02.019",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟病學",
+      "心臟影像",
+      "左心室肥厚",
+      "非新生兒研究"
+    ],
+    "one_liner": "成人心臟影像學研究，與新生兒科臨床實踐無關，可跳過。",
+    "summary": {
+      "purpose": "本研究評估光子計數電腦斷層掃描（PCCT）在左心室肥厚患者的組織特徵化能力，與心臟磁共振（CMR）進行比較。",
+      "design": "連續性成人患者研究，n=182（肥厚性心肌病72例、轉甲狀腺素心肌澱粉樣變性47例、次發性左心室肥厚63例），其中83例（46%）同時接受CMR檢查。",
+      "findings": "PCCT能區分不同病因的左心室肥厚，與CMR在左心室質量指數（r=0.963）、左心室射血分數（r=0.947）及細胞外容積（r=0.868）的相關性優異（P<0.001）；晚期碘增強與晚期釓增強的一致性極高（r=0.998，segment-wise一致性99-100%）。",
+      "significance": "此研究完全針對成人心臟影像學，與新生兒及早產兒照護無任何關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41925236",
+    "title": "Around and Through: Successful Mitral Paravalvular Leakage Closure Using Both Anterograde and Retrograde Approaches.",
+    "authors": "Garaventa M, Fovino LN, Fabris T, et al.",
+    "journal": "Catheterization and Cardiovascular Interventions",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1002/ccd.70604",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟病",
+      "經導管介入",
+      "二尖瓣",
+      "非新生兒科相關"
+    ],
+    "one_liner": "成人心臟介入治療案例報告，與新生兒/早產兒照護無關，可跳過。",
+    "summary": {
+      "purpose": "報告一例高齡患者接受混合經導管技術進行二尖瓣旁瘺管閉合的臨床案例。",
+      "design": "單一病例報告，患者為 78 歲成人女性，無新生兒或早產兒相關族群。",
+      "findings": "使用順向經房間隔及逆向經主動脈兩種導管技術成功閉合二尖瓣旁瘺管，術後殘餘反流輕微，患者恢復良好。",
+      "significance": "本研究與新生兒加護病房照護完全無關，屬成人心臟介入治療領域，對早產兒或新生兒重症醫學無臨床應用價值。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41926536",
+    "title": "Prospective Clinical Testing of a 'Beat-To-Beat' Extraction Method for Fetal Electrocardiography.",
+    "authors": "Krishnan A, Roshanitabrizi P, Zhang A, et al.",
+    "journal": "Fetal Diagnosis and Therapy",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1159/000550821",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "fetal electrocardiography",
+      "prenatal diagnosis",
+      "signal processing",
+      "obstetrics"
+    ],
+    "one_liner": "此為產前胎兒心電圖技術開發研究，與新生兒科臨床照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "開發並評估一套新型胎兒心電圖（fECG）系統在產前診斷中的可行性，特別針對正常及高危妊娠族群。",
+      "design": "前瞻性可行性研究，納入 43 名孕婦（25 例正常胎兒、18 例異常胎兒），每次檢查 15 分鐘，使用 12-24 個電極。兩名盲化臨床評估者使用 5 點量表評分，測量 PR、QRS 及 QTc 間隔。",
+      "findings": "43 例中 30 例（70%）成功進行時間解析的 fECG 分離；26/43 例（60%）中位評分≥3；27/43 例（63%）可測量胎兒心臟時間間隔（fCTI）。BMI≥30 及妊娠 25-32 週（vernix 期）的訊號品質下降。",
+      "significance": "此研究為產前診斷技術開發，與新生兒 NICU 照護無直接關聯。fECG 主要應用於產前胎兒監測，不涉及新生兒出生後的重症照護決策、早產兒管理、或新生兒長期發育追蹤。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41921772",
+    "title": "Variability in the Management of Antibiotic Prophylaxis for Patients with Asplenia.",
+    "authors": "Weakley KE, Dryer MM, Foley DS, et al.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1016/j.jpeds.2026.115091",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "asplenia",
+      "antibiotic prophylaxis",
+      "pediatric survey",
+      "practice variation"
+    ],
+    "one_liner": "本研究為小兒無脾症患者的長期抗生素預防管理調查，與新生兒科日常照護無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "評估美國小兒次專科醫師在無脾症患者抗生素預防性治療的處方時間長度上的變異性。",
+      "design": "橫斷面問卷調查，寄送至美國學術醫學中心的小兒感染症、血液腫瘤科、心臟科及外科醫師；58位受訪者回應，涵蓋非手術性脾臟疾病、醫療原因脾臟切除術及外傷性脾臟切除術患者的抗生素預防性治療實踐。",
+      "findings": "對於鐮狀細胞病患者，多數醫師處方預防性抗生素至5歲；但先天性無脾症、內臟逆位、多脾症及遺傳性球形紅血球症的預防時間差異大。脾臟切除年齡越小，預防時間越長。醫療原因脾臟切除的預防處方率高於外傷性脾臟切除。同一機構內醫師間仍存在實踐差異。93%受訪者認為臨床實踐需要共識指引。",
+      "significance": "本研究針對無脾症患者的抗生素預防策略，與新生兒重症醫學無直接關聯。雖然先天性無脾症可能在新生兒期診斷，但本研究主要聚焦於小兒次專科醫師的長期管理決策，非新生兒期急性照護或早產兒相關議題。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
   }
 ]

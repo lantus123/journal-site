@@ -9899,5 +9899,698 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-02"
+  },
+  {
+    "pmid": "41926556",
+    "title": "Less invasive surfactant administration (LISA) in extreme preterm infants - A systematic review and meta-analysis.",
+    "authors": "Diggikar S, Trif P, Mudura D, et al.",
+    "journal": "Neonatology",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1159/000551691",
+    "total_score": 5,
+    "scores": {
+      "design": 5,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 4
+    },
+    "keywords": [
+      "LISA",
+      "MIST",
+      "INSURE",
+      "極早產兒",
+      "BPD",
+      "呼吸窘迫症候群",
+      "surfactant",
+      "機械通氣"
+    ],
+    "one_liner": "高品質統合分析確認 LISA/MIST 優於傳統插管但不優於 INSURE，對已採行溫和通氣策略的台灣 NICU 提供實證支持但無典範轉移。",
+    "summary": {
+      "purpose": "系統性回顧與統合分析 LISA/MIST 與 INSURE 及傳統插管策略在極早產兒（<28週）呼吸窘迫症候群治療中的療效與安全性。",
+      "design": "遵循 PRISMA 指引與 GRADE 建議的系統性回顧與統合分析，已於 PROSPERO 註冊（CRD42025630748）。納入 26 篇研究進行質性合成，12 篇進行量化分析，比較對象為 GA <28 週的極早產兒。",
+      "findings": "LISA/MIST 與 INSURE 相比：BPD 無差異、死亡率無差異，但減少 72 小時內機械通氣需求（RR 0.70; 95% CI 0.55-0.90）；此效果在僅分析 RCT 時消失。LISA/MIST 與傳統插管相比：降低 BPD（RR 0.76; 95% CI 0.59-0.97, n=6585）、機械通氣（RR 0.61; 95% CI 0.45-0.82, n=6197）、死亡率（RR 0.63; 95% CI 0.54-0.74, n=6597）、IVH（RR 0.62; 95% CI 0.54-0.73）、氣胸（RR 0.58; 95% CI 0.46-0.73）、ROP（RR 0.61; 95% CI 0.50-0.73）。",
+      "significance": "本研究提供高品質證據支持在極早產兒使用 LISA/MIST 策略相較傳統插管可顯著降低 BPD、死亡率及多項併發症（IVH、ROP、氣胸）；然而 LISA/MIST 與 INSURE 間無明顯優劣，提示在已採行 INSURE 的 NICU 中，轉換至 LISA/MIST 的臨床獲益有限。該研究強調極早產兒的競爭風險動態，建議臨床決策應考量個別 NICU 的現有能力與資源。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這項系統性回顧分析極早產兒（<28週）LISA/MIST 策略，發現相較傳統插管可顯著降低 BPD（RR 0.76）、死亡率（RR 0.63）及 IVH（RR 0.62）；但與 INSURE 相比僅減少 72 小時內機械通氣需求（RR 0.70），且此效果在純 RCT 分析中消失。關鍵發現：LISA/MIST 與 INSURE 間無明顯優劣，提示已採行 INSURE 的 NICU 轉換至 LISA/MIST 獲益有限。",
+      "hidden_findings": [
+        {
+          "finding": "LISA/MIST vs INSURE 的 72 小時機械通氣效果在僅分析 RCT 時消失，提示觀察性研究可能存在 selection bias",
+          "source": "Abstract 提及但未詳述的 RCT subgroup analysis",
+          "implication": "真實世界的 LISA/MIST 效果可能被高估，臨床決策應更謹慎評估個案選擇標準"
+        },
+        {
+          "finding": "無法進行 BPD/death composite outcome 分析，原因是 small numbers",
+          "source": "Abstract 最後段落提及",
+          "implication": "極早產兒的競爭風險（competing risk）問題嚴重，單一 outcome 分析可能誤導臨床判斷"
+        },
+        {
+          "finding": "沒有直接比較 LISA/MIST vs INSURE 的 RCT 存在於 <28 週族群",
+          "source": "Abstract methods 段落明確指出",
+          "implication": "目前證據主要來自間接比較，直接比較的高品質 RCT 仍是重要 evidence gap"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "遵循 PRISMA 指引且已於 PROSPERO 註冊",
+          "使用 GRADE 建議評估證據品質",
+          "納入大樣本數（n=6585-6597）提供充足統計效力"
+        ],
+        "notes": [
+          "未明確說明 BPD 定義版本（NICHD 2001 vs Jensen 2019）",
+          "缺乏長期 neurodevelopmental outcome 追蹤時間說明",
+          "competing risk dynamics 的處理方式未詳述"
+        ],
+        "weaknesses": [
+          "主要比較依賴間接證據而非直接 head-to-head RCT",
+          "RCT subgroup 分析效果消失提示 publication bias 或 selection bias",
+          "small numbers 導致無法分析重要的 composite outcome"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Aldana-Aguirre et al. 2017, Cochrane Review",
+            "comparison": "該 Cochrane review 涵蓋所有 GA，本研究專注 <28 週極早產兒，提供更精確的亞群分析"
+          },
+          {
+            "citation": "Kribs et al. 2015, AMV trial",
+            "comparison": "AMV trial 為 LISA 的重要 RCT 但 GA 範圍較廣，本研究聚焦極早產兒提供更具針對性的證據"
+          }
+        ],
+        "guideline_status": "AAP 2014 指引建議早期 CPAP 合併選擇性 surfactant，但對極早產兒的 LISA vs INSURE 選擇未有明確建議。歐洲指引傾向支持 LISA 策略。",
+        "evidence_gap_filled": "首次針對極早產兒（<28週）族群進行 LISA/MIST vs INSURE 的系統性比較，填補了最脆弱族群的證據空白",
+        "ongoing_trials": "需關注是否有進行中的大型 RCT 直接比較 LISA vs INSURE 在極早產兒的效果，以解決目前間接比較的限制"
+      },
+      "protocol_impact": {
+        "current_practice": "目前多數 level III NICU 採用早期 nCPAP（5-6 cmH2O）合併選擇性 surfactant 策略，INSURE 技術較為成熟（poractant alfa 200 mg/kg 或 beractant 100 mg/kg），LISA 技術仍在導入階段",
+        "proposed_change": "對於已熟練 INSURE 技術的 NICU，不需急於轉換至 LISA；對於新建立的 NICU 或正在評估 surfactant 策略的單位，可考慮直接採用 LISA 技術（使用 5Fr feeding tube 或專用 LISA catheter，surfactant 劑量同 INSURE）",
+        "prerequisites": [
+          "LISA 技術的 hands-on training",
+          "建立 LISA 失敗的 rescue protocol",
+          "準備適當的 catheter（5Fr feeding tube 或 LISAcath）",
+          "制定明確的適應症與禁忌症標準"
+        ],
+        "missing_evidence": [
+          "長期 neurodevelopmental outcome（18-24 個月 Bayley-III）",
+          "直接比較 LISA vs INSURE 的大型 RCT",
+          "不同 GA 亞群（24-26週 vs 26-28週）的個別效果分析",
+          "學習曲線與 center volume 對成功率的影響"
+        ]
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41922095",
+    "title": "Neonatal jaundice assessment across all skin tones: finding the gaps between guidelines and practice.",
+    "authors": "Cornwell J, Michaud Maturana M, Mena J, et al.",
+    "journal": "Archives of Disease in Childhood - Fetal and Neonatal Edition",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1136/archdischild-2025-330053",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 4,
+      "generalizability": 3
+    },
+    "keywords": [
+      "neonatal jaundice",
+      "skin tone",
+      "phototherapy",
+      "health equity",
+      "clinical guideline"
+    ],
+    "one_liner": "揭示黃疸評估在不同膚色族群中的臨床盲點，值得 NICU 團隊檢視自身篩檢與光療決策流程是否存在隱性偏差。",
+    "summary": {
+      "purpose": "評估新生兒黃疸評估工具在不同膚色族群中的應用差異，並檢視臨床指引與實務做法之間的落差。",
+      "design": "回溯性分析與實務調查研究，涵蓋多族群新生兒黃疸評估數據，比較不同膚色嬰兒的黃疸診斷與治療決策。",
+      "findings": "研究發現現行黃疸評估指引與臨床實務存在顯著差異，特別是在深色膚色嬰兒的黃疸辨識與治療閾值設定上存在系統性偏差，可能導致某些族群的黃疸診斷延遲或過度治療。",
+      "significance": "直接影響 NICU 黃疸篩檢與光療決策的公平性與準確性。強調需要改進跨膚色族群的黃疸評估工具與臨床教育，以減少醫療不平等並改善所有新生兒的照護品質。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "此研究揭露新生兒黃疸評估在不同膚色族群間存在系統性偏差，深色膚色嬰兒可能面臨診斷延遲或治療閾值不當的問題。這直接影響 NICU 光療決策的公平性，特別是在多元族群的醫療環境中，需要重新檢視現行黃疸評估工具與臨床教育訓練。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 未提供不同 GA 族群（如 <35 週 vs ≥35 週）在膚色相關黃疸評估差異的具體數據",
+          "source": "需要在全文的 subgroup analysis 或 supplementary tables 中尋找",
+          "implication": "早產兒本身黃疸風險就高，若再加上膚色評估偏差，可能導致 kernicterus 風險評估錯誤"
+        },
+        {
+          "finding": "缺乏具體的 TSB vs TcB 在不同膚色族群中的 correlation coefficient 數據",
+          "source": "應在全文的 methodology 或 results section 詳述",
+          "implication": "影響我們是否能信任 transcutaneous bilirubinometer 在特定族群的準確性"
+        },
+        {
+          "finding": "未明確說明是否納入 G6PD deficiency 或其他溶血性疾病的族群差異",
+          "source": "需要在 patient characteristics 或 exclusion criteria 中確認",
+          "implication": "某些族群 G6PD deficiency 盛行率較高，會影響黃疸嚴重度與治療反應"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "針對醫療公平性的重要議題進行系統性分析",
+          "多族群比較設計有助於識別系統性偏差",
+          "結合指引與實務做法的比較具有實用價值"
+        ],
+        "notes": [
+          "需確認是否使用 AAP 2022 updated guideline 或仍採用 2004 版本",
+          "應注意 TcB 測量部位標準化（額頭 vs 胸骨）",
+          "觀察者間一致性評估對於 visual assessment 特別重要"
+        ],
+        "weaknesses": [
+          "回溯性設計可能有 selection bias",
+          "不同醫院的 phototherapy protocol 差異可能影響結果",
+          "缺乏 long-term neurodevelopmental outcome 追蹤"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Olusanya 2020, Pediatrics",
+            "comparison": "該研究主要關注資源有限地區的黃疸管理，本研究則聚焦已開發國家的族群差異"
+          },
+          {
+            "citation": "Kemper 2022, Pediatrics",
+            "comparison": "AAP 最新指引更新，本研究可能提供實務應用上的 real-world evidence"
+          }
+        ],
+        "guideline_status": "AAP 2022 年更新黃疸管理指引，強調個人化風險評估，但對於不同膚色族群的具體建議仍有限。NICE 與 CPS 指引也缺乏族群特異性建議。",
+        "evidence_gap_filled": "填補了現行指引在多元族群應用上的實證缺口，特別是 TcB 在不同膚色的準確性評估",
+        "ongoing_trials": "目前無大型 RCT 專門針對此議題，但 WHO 正在制定全球新生兒黃疸管理標準"
+      },
+      "protocol_impact": {
+        "current_practice": "目前多數 NICU 採用 TcB 篩檢（JM-105 或 BiliChek），TSB >12-15 mg/dL 時開始光療，主要依據 AAP nomogram 與 GA 校正。Visual assessment 仍作為初步篩檢工具。",
+        "proposed_change": "建議針對深色膚色嬰兒降低 TcB 篩檢閾值 1-2 mg/dL，增加 TSB 確認頻率，加強護理人員跨族群黃疸辨識訓練，考慮建立族群特異性的 phototherapy threshold。",
+        "prerequisites": [
+          "護理與醫師團隊的文化敏感度訓練",
+          "更新黃疸評估 SOP 納入族群考量",
+          "建立 TcB vs TSB correlation 的院內 validation data",
+          "與家屬溝通的多語言衛教材料"
+        ],
+        "missing_evidence": "缺乏不同族群 kernicterus 發生率的長期追蹤資料，以及族群特異性 phototherapy threshold 的 RCT 證據，特別是對於 neurodevelopmental outcome 的影響評估"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41925066",
+    "title": "Standardised formal resuscitation training programmes for reducing mortality and morbidity in newborn infants.",
+    "authors": "Dempsey E, Joyce R, Neveln N, et al.",
+    "journal": "Cochrane Database of Systematic Reviews - Neonatal",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1002/14651858.CD009106.pub3",
+    "total_score": 4,
+    "scores": {
+      "design": 5,
+      "relevance": 4,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "neonatal resuscitation training",
+      "neonatal mortality",
+      "SFNRT",
+      "low-middle income countries",
+      "neurodevelopmental outcomes"
+    ],
+    "one_liner": "這篇 Cochrane review 確認標準化復甦訓練可降低早期死亡率，但證據侷限於低中收入國家且缺乏發病率與神經發育預後數據，對台灣高收入 NICU 環境的直接臨床指導有限。",
+    "summary": {
+      "purpose": "評估標準化正式新生兒復甦訓練課程對新生兒死亡率、發病率及團隊合作的影響。",
+      "design": "Cochrane systematic review 與 meta-analysis，納入 27 項研究共 528,366 名新生兒，包括 RCT、準 RCT 及 cluster-RCT，比較標準化正式新生兒復甦訓練（SFNRT）與無訓練、基礎復甦訓練或加強訓練。",
+      "findings": "SFNRT 相比無訓練可降低 24 小時死亡率（RR 0.73, 95% CI 0.66-0.82；中等確定性證據）及早期新生兒死亡率（RR 0.82, 95% CI 0.75-0.89；中等確定性證據）。相比基礎訓練，SFNRT 可能降低 28 天內死亡率（RR 0.55, 95% CI 0.33-0.91；低確定性證據）、24 小時死亡率（RR 0.59, 95% CI 0.51-0.67；中等確定性證據）及早期新生兒死亡率（RR 0.88, 95% CI 0.77-0.99；中等確定性證據）。然而，納入的研究均來自低中收入國家，且未報告新生兒發病率、HIE 或神經發育預後。",
+      "significance": "確認標準化復甦訓練在降低早期新生兒死亡率的效益，但證據主要來自低中收入國家設置，對高收入國家（如台灣）的適用性有限。重要缺口為缺乏 HIE、腦部損傷及長期神經發育預後的數據，無法評估訓練對重症發病率的影響。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這項 Cochrane review 納入 27 項研究（528,366 名新生兒）顯示，標準化正式新生兒復甦訓練（SFNRT）相比無訓練可降低 24 小時死亡率 27%（RR 0.73）及早期新生兒死亡率 18%（RR 0.82）。然而，所有研究均來自低中收入國家，且完全沒有報告 HIE、神經發育預後等發病率數據，對台灣等高收入國家的適用性存疑。",
+      "hidden_findings": [
+        {
+          "finding": "所有死亡率研究均來自低中收入國家，但 abstract 未說明這些國家的基礎醫療水準、復甦設備可得性、及醫護人員基礎訓練程度",
+          "source": "Abstract 提到 'conducted exclusively in low- and middle-income countries' 但未詳述背景差異",
+          "implication": "在台灣等已有完善 NRP 訓練體系的環境中，額外標準化訓練的效益可能遠小於這些數據顯示的程度"
+        },
+        {
+          "finding": "儘管納入 528,366 名新生兒，但每個 outcome 最多只有 4 項研究提供數據，顯示數據分散且異質性高",
+          "source": "Abstract 明確提到 'only a maximum of four studies provided data for each outcome'",
+          "implication": "看似龐大的樣本數實際上是分散在不同 outcome 的少數研究中，meta-analysis 的統計效力可能被高估"
+        },
+        {
+          "finding": "完全缺乏 HIE、腦部損傷、神經發育預後等重要發病率數據，僅關注死亡率",
+          "source": "Abstract 結論明確指出 'did not identify any reports on neonatal morbidity, particularly hypoxic ischaemic encephalopathy and neurodevelopmental outcomes'",
+          "implication": "對現代 NICU 而言，降低 HIE 嚴重度和改善長期神經發育預後比單純降低死亡率更重要，此研究無法回答這些關鍵問題"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "Cochrane systematic review 遵循嚴格的 PRISMA 指引",
+          "使用 GRADE 評估證據確定性",
+          "納入 cluster-RCT 並使用適當的統計方法處理"
+        ],
+        "notes": [
+          "所有 RCT 都有高 performance bias 風險，因為復甦訓練無法盲化",
+          "早期新生兒死亡率的 I² = 68% 顯示研究間異質性中等",
+          "未說明是否進行 publication bias 評估"
+        ],
+        "weaknesses": [
+          "研究地域限制在低中收入國家，外推性有限",
+          "缺乏長期 follow-up 數據",
+          "未報告不同 GA 或 BW 亞群的分析",
+          "沒有成本效益分析"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Perlman 2010, Pediatrics",
+            "comparison": "ILCOR 2010 復甦指引更新，本研究可能包含指引更新前後的訓練效果差異"
+          },
+          {
+            "citation": "Wyckoff 2015, Circulation",
+            "comparison": "AHA/AAP NRP 第 7 版強調 team-based approach，但本研究未充分評估團隊合作改善"
+          }
+        ],
+        "guideline_status": "AAP NRP 已是美國標準，台灣新生兒科醫學會也推廣類似訓練。ILCOR 2021 指引強調持續教育和 simulation-based training 的重要性",
+        "evidence_gap_filled": "確認了標準化訓練在資源有限環境下的死亡率效益，但未填補高收入國家環境下的證據缺口",
+        "ongoing_trials": "目前缺乏專門針對高收入國家或評估神經發育預後的大型 RCT 進行中"
+      },
+      "protocol_impact": {
+        "current_practice": "台灣多數 level III NICU 已實施 NRP 或類似標準化訓練，每 2 年重新認證，包含理論、實作、模擬情境訓練。住院醫師必須完成 NRP 認證才能獨立執行復甦",
+        "proposed_change": "基於此研究，建議加強：1) 每年而非每 2 年進行 refresher training 2) 增加 team-based simulation 頻率至每季 3) 針對夜班和假日值班人員額外加強訓練 4) 建立復甦品質監測指標",
+        "prerequisites": [
+          "建立復甦品質監測系統",
+          "增購模擬訓練設備",
+          "安排更頻繁的 in-service training 時間",
+          "制定 team performance 評估標準"
+        ],
+        "missing_evidence": [
+          "高收入國家環境下的訓練效益數據",
+          "不同訓練頻率對 HIE 發生率的影響",
+          "長期神經發育預後的改善證據",
+          "成本效益分析數據"
+        ]
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41925053",
+    "title": "Melatonin treatment for neonatal encephalopathy.",
+    "authors": "Hurley T, O'Dea M, Aslam S, et al.",
+    "journal": "Cochrane Database of Systematic Reviews - Neonatal",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1002/14651858.CD013754.pub2",
+    "total_score": 4,
+    "scores": {
+      "design": 5,
+      "relevance": 5,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "neonatal encephalopathy",
+      "melatonin",
+      "therapeutic hypothermia",
+      "neurodevelopmental outcome",
+      "systematic review"
+    ],
+    "one_liner": "褪黑激素治療 NE 的證據極為不足（僅 4 項小型試驗，155 人），無法改變臨床實踐，但突顯了在資源有限地區尋求 TH 替代方案的迫切需要。",
+    "summary": {
+      "purpose": "評估褪黑激素治療對新生兒腦病變（NE）患者的存活率、神經發育障礙及安全性的效果，與標準照護或合併治療性低溫（TH）進行比較。",
+      "design": "Cochrane 系統性回顧與統合分析，納入 4 項隨機對照試驗（RCT），共 155 名參與者。樣本數範圍 20-80 人/研究，出生週數 36.8-39.5 週（足月至晚期早產兒），男性比例 54-76%，重度 NE 比例 20-59%。追蹤期從出院至 18 個月。",
+      "findings": "僅 1 項試驗（25 人）報告主要複合結果（死亡或 18 個月神經發育障礙），證據確定性極低。褪黑激素+TH vs 標準照護（含 TH）：一個月內死亡率 OR 0.39（95% CI 0.06-2.37，2 項研究，55 人）；褪黑激素單獨治療 vs 標準照護（無 TH）：死亡率 OR 0.24（95% CI 0.08-0.69，2 項研究，100 人）。腦部 MRI 異常（基底核/丘腦）OR 0.90（95% CI 0.29-2.81，50 人）；白質異常 OR 0.32（95% CI 0.02-6.04，I²=64%，50 人）。所有證據均為極低確定性（very low-certainty）。",
+      "significance": "褪黑激素作為 NE 的潛在神經保護劑在動物模型中表現良好，但人類臨床證據極為不足。目前無法確定褪黑激素對 NE 新生兒死亡率或長期神經發育預後的真實效果，亦無法評估其在低收入國家作為 TH 替代方案的安全性。需要大型、高品質 RCT 以確立其臨床角色，特別是在 TH 不可及的地區。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這項 Cochrane 回顧納入 4 項 RCT（155 人），評估褪黑激素治療新生兒腦病變的效果。主要發現：褪黑激素單獨治療可能降低死亡率（OR 0.24, 95% CI 0.08-0.69），但與 TH 合併使用的效果不明確。僅 1 項小型研究（25 人）報告 18 個月神經發育預後，所有證據均為極低確定性。目前證據不足以改變臨床實務，需要大型 RCT 確立其角色。",
+      "hidden_findings": [
+        {
+          "finding": "褪黑激素單獨治療 vs 合併 TH 的效果差異顯著：單獨治療顯示死亡率降低（OR 0.24），但合併 TH 則無明確效果（OR 0.39），提示可能存在交互作用或不同機轉",
+          "source": "Abstract 中分層分析結果，但未詳述交互作用檢定",
+          "implication": "在 TH 不可及的地區，褪黑激素可能作為替代神經保護策略，但在已有 TH 的情況下加用褪黑激素的效益不明"
+        },
+        {
+          "finding": "白質 MRI 異常的異質性極高（I²=64%），但基底核/丘腦異常無異質性（I²=0%），提示褪黑激素對不同腦區損傷的保護效果可能不同",
+          "source": "Abstract 統合分析結果的異質性數據",
+          "implication": "褪黑激素的神經保護機轉可能具有區域選擇性，影響預後預測和治療決策"
+        },
+        {
+          "finding": "研究排除 <34 週早產兒，但納入晚期早產兒（36.8-39.5 週），這個 GA 範圍的 NE 病理生理與足月兒可能不同",
+          "source": "Abstract eligibility criteria 和 participant characteristics",
+          "implication": "晚期早產兒 NE 的治療反應可能與足月兒不同，需要 GA 分層分析來指導臨床應用"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "Cochrane 系統性回顧標準，使用 GRADE 評估證據確定性",
+          "明確區分褪黑激素單獨治療 vs 合併 TH 兩種比較",
+          "使用 RoB 1 工具評估偏差風險，整體偏差風險低"
+        ],
+        "notes": [
+          "未明確說明 NE 嚴重度分級標準（Sarnat staging vs Thompson score）",
+          "神經發育評估工具未詳述（可能是 Bayley-III）",
+          "追蹤期差異大（出院至 18 個月），可能影響結果比較",
+          "褪黑激素劑量、給藥途徑、治療持續時間未在 abstract 中說明"
+        ],
+        "weaknesses": [
+          "樣本數極小，最大研究僅 80 人",
+          "僅 1 項研究報告主要複合結果，統計檢定力嚴重不足",
+          "研究間 NE 嚴重度差異大（20-59% 重度 NE）",
+          "缺乏多器官功能障礙和抗癲癇藥物使用的數據"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Aly 2015, J Matern Fetal Neonatal Med",
+            "comparison": "早期褪黑激素 RCT，可能為本回顧納入研究之一，但具體劑量和給藥方式需確認"
+          },
+          {
+            "citation": "Robertson 2019, Pediatr Res",
+            "comparison": "褪黑激素在動物模型中的神經保護機轉研究，支持臨床試驗的理論基礎"
+          }
+        ],
+        "guideline_status": "AAP 和 ILCOR 目前僅推薦 TH 作為 NE 的標準治療，褪黑激素尚未納入任何國際指引。台灣新生兒科醫學會跟隨國際指引，未將褪黑激素列為常規治療選項",
+        "evidence_gap_filled": "首次系統性評估褪黑激素在人類 NE 治療中的效果，但因證據品質極低，實際上未能填補重要的證據缺口",
+        "ongoing_trials": "可能有進行中的大型多中心 RCT（如 MELATONIN trial），但 abstract 未提及具體試驗資訊"
+      },
+      "protocol_impact": {
+        "current_practice": "目前 level III NICU 對 ≥36 週 NE 新生兒標準治療為 TH（33-35°C，72 小時），合併支持性照護包括呼吸支持、血糖維持、抗癲癇治療（phenobarbital 20 mg/kg loading）、腦部 MRI 評估",
+        "proposed_change": "基於目前極低確定性證據，不建議改變現行 protocol。若未來有更強證據支持，可考慮在 TH 不可及的情況下使用褪黑激素作為替代神經保護策略，但需要明確的給藥指引",
+        "prerequisites": [
+          "等待大型高品質 RCT 結果",
+          "建立褪黑激素的標準給藥 protocol（劑量、途徑、持續時間）",
+          "制定安全性監測指標",
+          "進行多專科團隊教育訓練"
+        ],
+        "missing_evidence": [
+          "長期神經發育預後（≥2 歲）的大樣本數據",
+          "最適劑量和給藥時機的劑量反應研究",
+          "與 TH 的交互作用機轉",
+          "在不同 NE 嚴重度和 GA 亞群中的效果差異",
+          "成本效益分析，特別是在資源有限的環境中"
+        ]
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41921987",
+    "title": "Prediction of Developmental Outcomes in Preterm Infants: A Systematic Review.",
+    "authors": "Meijer JS, Breedveld MMFJ, Andriessen P, et al.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1542/peds.2025-073580",
+    "total_score": 4,
+    "scores": {
+      "design": 5,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "neurodevelopmental outcome",
+      "prediction model",
+      "very preterm",
+      "VLBW",
+      "systematic review"
+    ],
+    "one_liner": "這篇 systematic review 指出現有早產兒發育預後預測模型普遍缺乏外部驗證與高偏差風險，提醒臨床醫師在周產期決策時應謹慎使用單一模型，並呼籲建立更嚴謹的驗證研究。",
+    "summary": {
+      "purpose": "系統性回顧極早產兒（<32週或出生體重≤1500g）發育預後的預測模型，評估其在周產期決策中的應用價值。",
+      "design": "Systematic review，檢索 Medline、Embase、Web of Science 及 Cochrane 資料庫至 2024 年 6 月，納入所有已開發或外部驗證的預後預測模型。共 38 篇文獻，包含 99 個新開發模型（85%）及 11 個既有模型的 18 項外部驗證（15%）。採用 Prediction Model Risk of Bias Assessment Tool 進行獨立雙重偏差評估。",
+      "findings": "最常預測的結果為神經發育損傷的複合指標，預測時間點涵蓋出生後 18 個月至 10 年。所有模型均存在高度偏差風險，主要原因為結果測量和資料分析方法的疑慮。外部驗證極為罕見（僅 15%），大多數模型缺乏獨立驗證。",
+      "significance": "揭示目前早產兒發育預後預測模型的重大限制：儘管模型數量眾多，但外部驗證不足、偏差風險高，無法提供臨床推薦的最佳模型。強調未來需要進行嚴謹的模型驗證與更新，以支持周產期重症決策（如是否進行積極復甦、長期預後諮詢）。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這項系統性回顧分析了99個極早產兒（<32週或≤1500g）發育預後預測模型，發現所有模型都存在高度偏差風險，僅15%有外部驗證。最常預測神經發育損傷複合指標，預測時間從18個月到10年。由於證據品質不佳，無法推薦任何一個模型用於臨床決策，顯示目前我們用於counseling家屬的預後工具可能不夠可靠。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract提到預測時間範圍從18個月到10年，但未說明不同GA亞群（如22-24週 vs 28-31週）的預測準確度是否有差異，這對counseling極早產兒家屬很重要",
+          "source": "全文中應有各模型針對不同GA範圍的subgroup analysis或stratified results",
+          "implication": "22-24週的預後預測可能比28-31週更不準確，影響我們在delivery room的resuscitation decision和家屬counseling的信心程度"
+        },
+        {
+          "finding": "Abstract僅提到'composite measure of neurodevelopmental impairment'但未具體說明是用Bayley-III、Bayley-4還是其他工具，也未提及BPD、IVH等individual outcome的預測表現",
+          "source": "全文Table應詳列各模型使用的neurodevelopmental assessment工具和outcome定義",
+          "implication": "不同評估工具的cutoff值差異很大，影響模型在我們NICU的適用性，特別是long-term follow-up clinic的評估標準"
+        },
+        {
+          "finding": "高偏差風險主要來自'outcome and data analysis concerns'，但abstract未說明是否包括常見的問題如missing data handling、center effect、或post-hoc analysis",
+          "source": "全文的PROBAST assessment詳細結果和bias domain breakdown",
+          "implication": "了解具體的methodological flaws有助於我們判斷哪些模型相對較可信，或在使用時需要特別謹慎的地方"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "使用PROBAST工具進行標準化的prediction model bias評估",
+          "涵蓋多個主要醫學資料庫且搜尋至2024年6月",
+          "獨立雙重資料萃取和偏差評估"
+        ],
+        "notes": [
+          "未提及是否區分不同版本的Bayley scales或neurodevelopmental outcome定義",
+          "未說明follow-up失訪率的處理方式",
+          "未提及是否考慮不同國家/地區的healthcare system差異對模型表現的影響"
+        ],
+        "weaknesses": [
+          "所有納入模型都有高偏差風險，限制了結論的實用性",
+          "外部驗證研究太少（僅15%），無法評估模型的generalizability",
+          "未提供meta-analysis或quantitative synthesis，可能錯失整體趨勢"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Tyson 2008, NEJM",
+            "comparison": "NICHD Neonatal Research Network的經典預後模型，主要針對22-25週極早產兒，本review可能包含更廣泛GA範圍和更新的模型"
+          },
+          {
+            "citation": "EXPRESS Group 2010, Lancet",
+            "comparison": "歐洲大型cohort的長期追蹤結果，本review分析的預測模型可能包含基於EXPRESS data的衍生模型"
+          }
+        ],
+        "guideline_status": "AAP和ACOG目前建議在22-24週早產的counseling中使用NICHD calculator，但強調需要individualized approach。台灣新生兒科醫學會尚未有正式的預後預測工具推薦",
+        "evidence_gap_filled": "首次系統性評估極早產兒發育預後預測模型的整體品質和外部驗證狀況，揭示現有工具的重大限制",
+        "ongoing_trials": "目前沒有專門針對prediction model validation的大型多中心試驗，但EPICE-2和其他歐洲cohort可能提供未來驗證的機會"
+      },
+      "protocol_impact": {
+        "current_practice": "目前多數level III NICU使用NICHD Extremely Preterm Birth Outcome Calculator進行22-25週早產兒的預後counseling，結合臨床經驗和文獻數據。部分中心使用Vermont Oxford Network的benchmark data作為參考",
+        "proposed_change": "基於本研究結果，建議在使用任何預後預測工具時都要強調其限制性，避免過度依賴單一模型。在counseling時應該：1)明確告知家屬預測的不確定性 2)結合多個資訊來源 3)強調個體差異的重要性",
+        "prerequisites": [
+          "對現有使用的prediction tools進行internal validation",
+          "建立標準化的counseling protocol強調預測限制",
+          "訓練醫師如何適當地傳達預後不確定性"
+        ],
+        "missing_evidence": "需要大型多中心前瞻性研究來開發和驗證適合亞洲人口的預後模型，特別是針對台灣NICU的specific practice patterns和long-term follow-up system"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41922789",
+    "title": "Social and structural disparities in family presence and engagement in the NICU.",
+    "authors": "Anand NS, Kalluri NS, Cordova-Ramos EG, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1038/s41372-026-02641-w",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "health disparities",
+      "family engagement",
+      "breastfeeding",
+      "social vulnerability",
+      "NICU equity"
+    ],
+    "one_liner": "重要的健康不平等研究，但屬社會決定因素分析而非臨床介入試驗，對直接改變 NICU 照護決策的影響有限。",
+    "summary": {
+      "purpose": "檢視母親社經人口學因素與社會脆弱指數（SVI）與新生兒在 NICU 家庭陪伴及參與度（親餵、皮膚接觸、出院前 48 小時衛教）的關聯。",
+      "design": "回溯性多中心醫療紀錄分析，涵蓋麻州 6 家 NICU，2021-2022 年間 450 對母嬰配對。納入母親種族/族裔、語言、保險類型及 SVI（由郵遞區號決定）。採用混合效應邏輯迴歸模型，調整醫院聚集效應、多胞胎及其他共變數。",
+      "findings": "非西班牙裔黑人母親相比非西班牙裔白人母親，其嬰兒獲得家庭陪伴的勝算比（OR）較低；公共保險及較高 SVI 與出院時接收母乳的勝算比降低相關。",
+      "significance": "量化社經劣勢與 NICU 家庭參與度不平等的關聯，強調需要針對性介入以改善弱勢族群的親餵率、皮膚接觸及衛教可及性，但未提供具體改善策略或長期發育預後數據。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41921774",
+    "title": "Nutritional Management of Infants with Severe Bronchopulmonary Dysplasia (sBPD) During Acute Infection.",
+    "authors": "Thompsen K, Murthy K, Robinson DT, et al.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1016/j.jpeds.2026.115086",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "sBPD",
+      "感染",
+      "營養管理",
+      "血流感染",
+      "早產兒"
+    ],
+    "one_liner": "sBPD 合併血流感染患兒的營養管理存在明確的臨床實踐模式（脂肪增加、礦物質減少），但缺乏高階證據支持，值得進一步前瞻性研究驗證其安全性與效益。",
+    "summary": {
+      "purpose": "描述重症支氣管肺發育不良（sBPD）合併感染之早產兒在感染診斷前後的營養管理策略差異。",
+      "design": "單中心回溯性 cohort 研究，納入 32 名 sBPD 患兒的 50 次感染事件，追蹤期間為 4 年。分析感染診斷前後 7 天內的每日總熱量供應及巨量營養素（脂肪、碳水化合物、蛋白質）與微量元素（鈉、鉀、鎂、磷、鈣、乙酸鹽、氯化物）的比例變化，使用廣義線性混合模型分析。",
+      "findings": "50 次感染中，血流感染（BSI）12 例顯示明顯營養改變：脂肪供能比增加 28.4%（p=0.0029）、氯化物增加 24%（p=0.018）；碳水化合物供能比減少 8.6%（p=0.049）、蛋白質減少 4.8%（p=0.049）、鉀減少 15.5%（p<0.001）、鈣減少 26.7%（p=0.001）、磷減少 18.9%（p=0.0025）。非 BSI 感染則營養供應無顯著變化。",
+      "significance": "本研究首次量化 sBPD 合併 BSI 患兒的營養管理實踐模式，發現臨床醫師在感染期間會主動調整營養組成，特別是增加脂肪比例、減少礦物質供應。此發現提示 sBPD 合併感染時的營養策略可能需要更多實證支持，有助於未來制定更精準的營養指引。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41922790",
+    "title": "Bibliometric analysis of reviews of outcomes for adults with a complex perinatal history.",
+    "authors": "Hart LC, Khalsa AS, Antoniou AA, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1038/s41372-026-02609-w",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "long-term follow-up",
+      "prematurity",
+      "adult outcomes",
+      "bibliometric analysis",
+      "neurodevelopment"
+    ],
+    "one_liner": "文獻計量學分析，描述成人預後研究趨勢但無新臨床證據，可跳過。",
+    "summary": {
+      "purpose": "評估針對複雜新生兒病史患者成人期預後的文獻回顧現況，並識別研究缺口。",
+      "design": "文獻計量學分析（bibliometric analysis），檢索 2022 年 1 月前的多個資料庫及手工檢索，納入 87 篇回顧性文章，由兩位作者評估納入資格，統計新生兒暴露、成人預後及期刊類型。",
+      "findings": "大多數回顧聚焦於早產兒；最常評估的成人預後為心血管結局；過去十年發表期刊從成人期刊轉向小兒期刊；缺乏針對產前物質暴露史、成人自體免疫疾病及婦科預後的回顧。",
+      "significance": "本研究為文獻計量學分析而非臨床試驗，主要貢獻在於描述成人預後研究的發表趨勢與知識缺口，對 NICU 日常照護決策無直接影響，但可提醒新生兒科醫師應重視長期追蹤研究的重要性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41925531",
+    "title": "Outcome of Severe Adenoviral Respiratory Infection Supported With Extracorporeal Membrane Oxygenation: A Multicenter PICU Study From Colombia (2018-2022).",
+    "authors": "Acevedo L, Fernández-Sarmiento J, Mulett H, et al.",
+    "journal": "Pediatric Critical Care Medicine",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1097/PCC.0000000000003936",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "ECMO",
+      "adenovirus",
+      "PICU",
+      "pediatric respiratory infection",
+      "mortality risk factors"
+    ],
+    "one_liner": "此為兒童重症監護ECMO研究，主要族群為1個月以上兒童，與新生兒科日常照護無直接相關性，可跳過。",
+    "summary": {
+      "purpose": "比較接受ECMO支持的兒童患者中，腺病毒呼吸道感染與其他病毒呼吸道感染的存活率、臨床特徵及併發症。",
+      "design": "多中心回溯性觀察性研究，納入2018-2022年間來自哥倫比亞7家PICU的1個月至18歲兒童205名（腺病毒感染80名[39%]，其他病毒感染125名[61%]），接受ECMO支持。",
+      "findings": "腺病毒組與非腺病毒組的28天存活率無顯著差異（77.6% vs 73.6%; p=0.513）。獨立的死亡風險因子包括：VIS>15（aOR 3.18, 95% CI 1.08-7.45）、動脈血pH<7.2（aOR 3.79, 95% CI 1.75-5.52）、ECMO標準達成至實際插管時間>13小時（aOR 4.04, 95% CI 1.72-7.21）。出血併發症發生率40%（81/205），與年齡<36個月、既往SARS-CoV-2感染、ECMO時間>10天及ECMO期間使用連續腎臟替代療法相關。",
+      "significance": "本研究為PICU層級的ECMO管理研究，與新生兒科照護無直接關聯。雖涵蓋1個月以上兒童，但重點在ECMO適應症決策與併發症管理，非新生兒特異性議題。對NICU早產兒照護決策無直接影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41926549",
+    "title": "Research at the Paris Foundling Hospitals. Part 1: Until and During the Revolution.",
+    "authors": "Obladen M",
+    "journal": "Neonatology",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1159/000551724",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "醫學史",
+      "新生兒死亡率",
+      "人工餵養",
+      "硬腫症",
+      "歷史回顧"
+    ],
+    "one_liner": "可跳過——此為醫學史敘述性文章，無臨床實證內容，對 NICU 日常照護決策無影響。",
+    "summary": {
+      "purpose": "回顧巴黎棄嬰院在法國大革命前後的歷史研究活動，特別是人工餵養試驗與新生兒疾病的早期觀察。",
+      "design": "歷史敘述性回顧，無原始研究數據、無對照組、無現代研究方法論。涵蓋 18 世紀末至 19 世紀初的機構檔案與文獻記載。",
+      "findings": "1742 年棄嬰院收治 3,162 名新生兒，院內死亡率 40%，送往鄉村護理者死亡率 20%；1769 年 Joseph Raulin 分析死因包括鵝口瘡、腹瀉、消瘦、窒息與炎症；Jean-Abraham Auvity 於 1786 年發表關於鵝口瘡與硬腫症的論著，將硬腫症與產後低體溫相關聯並開發保溫技術。",
+      "significance": "純歷史文獻回顧，無現代臨床證據、無統計分析、無可應用於當代 NICU 的實證建議。雖記錄早期新生兒醫學發展，但對現代早產兒照護決策無直接指導價值。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41921772",
+    "title": "Variability in the Management of Antibiotic Prophylaxis for Patients with Asplenia.",
+    "authors": "Weakley KE, Dryer MM, Foley DS, et al.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1016/j.jpeds.2026.115091",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "asplenia",
+      "antibiotic prophylaxis",
+      "pediatric survey",
+      "practice variation"
+    ],
+    "one_liner": "本研究為小兒無脾症患者的抗生素預防性治療實務調查，與新生兒加護病房日常照護無直接相關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "評估美國小兒次專科醫師在無脾症患者抗生素預防性治療的處方時間長度上的變異情況。",
+      "design": "橫斷面問卷調查，寄送至美國學術醫學中心的小兒感染症、血液腫瘤科、心臟科及外科醫師；58位受訪者回應，涵蓋非手術脾臟疾病、醫療原因脾臟切除術及外傷性脾臟切除術患者的抗生素預防性治療實務。",
+      "findings": "無脾症/脾功能不全患者的抗生素預防性治療時間長度存在廣泛變異；鐮狀細胞病患者多數處方至 5 歲，但先天性解剖無脾症、內臟逆位、多脾症及遺傳性球形紅血球症的預防時間差異大；脾臟切除年齡越小，預防時間越長；醫療原因脾臟切除術的預防處方率高於外傷性脾臟切除術；同一機構內醫師間仍存在實務變異；93% 受訪者認為臨床實務需要共識指引。",
+      "significance": "本研究針對無脾症患者的抗生素預防性治療提出實務變異現象，但與新生兒重症照護無直接關聯。無脾症在新生兒期極為罕見，主要見於先天性脾臟發育異常（如脾臟發育不全、多脾症等），而大多數新生兒無脾症患者的抗生素預防性治療決策通常由小兒血液腫瘤科或遺傳科主導，非新生兒加護病房的日常照護議題。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-03"
   }
 ]
