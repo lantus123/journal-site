@@ -10592,5 +10592,137 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41930710",
+    "title": "Moderate compromise in postnatal brainstem auditory function in low-risk very preterm infants and differences from late preterm infants.",
+    "authors": "Jiang ZD, Yin Y, Wang C",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1016/j.earlhumdev.2026.106548",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "BAER",
+      "very preterm",
+      "auditory function",
+      "neurodevelopment",
+      "long-term follow-up"
+    ],
+    "one_liner": "極早產兒即使無明顯併發症仍存在中度腦幹聽覺功能異常，值得納入長期神經發育追蹤評估，但本研究樣本量小、缺乏長期預後數據，臨床應用價值有限。",
+    "summary": {
+      "purpose": "探討無重大圍產期或出生後併發症的低風險極早產兒的腦幹聽覺功能，並與晚期早產兒進行比較。",
+      "design": "橫斷面研究，於矯正年齡 3 個月時進行腦幹聽覺誘發反應（BAER）檢查。極早產兒組 44 例（GA 24-32 週），與足月對照組及晚期早產兒組（GA 33-36 週）比較。刺激頻率為 21、51、91/s 點擊音。",
+      "findings": "與足月對照組相比，極早產兒表現出中度升高的 BAER 閾值；BAER 波 III 和尤其波 V 的潛伏期在所有點擊頻率下均明顯延長；I-V 和 III-V 峰間期延長，特別是在高頻率下；I-III 峰間期在 91/s 高頻率時延長；波 I、III、V 的振幅在所有頻率下均降低。極早產兒的異常程度普遍比晚期早產兒更明顯（後者僅在高頻率下表現峰間期延長）。",
+      "significance": "提示即使無明顯圍產期或新生兒期併發症的極早產兒，仍存在中度的腦幹聽覺功能受損，程度超過晚期早產兒。此發現強調極早產兒需要進行聽覺功能的長期監測與追蹤，可作為神經發育評估的補充指標，但尚需更大樣本驗證其臨床預測價值。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-04"
+  },
+  {
+    "pmid": "41930709",
+    "title": "Relationship between insulin therapy for hyperglycemia and neurodevelopmental outcome in extremely preterm infants.",
+    "authors": "Nakajima K, Minamitani Y, Fujimoto T, et al.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Mar 27",
+    "doi": "10.1016/j.earlhumdev.2026.106545",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "hyperglycemia",
+      "insulin therapy",
+      "extremely preterm",
+      "neurodevelopmental outcome",
+      "ELBW"
+    ],
+    "one_liner": "極早產兒高血糖 insulin 治療與 18 個月神經發育預後無顯著相關，但研究設計與樣本量限制，尚無法改變臨床實踐，需更大型多中心研究驗證。",
+    "summary": {
+      "purpose": "探討極早產兒高血糖時使用 insulin 治療是否與死亡率或神經發育不良預後相關。",
+      "design": "回溯性 cohort 研究，納入 2019 年 1 月至 2022 年 5 月期間極早產兒（GA <28 週），最終分析 129 名嬰兒（68 名有高血糖，其中 35 名接受 insulin 治療，33 名未治療）。高血糖定義為出生後 28 天內血糖 >15 mmol/L (270 mg/dL)。主要結果為 18 個月矯正年齡時死亡或神經發育不良（Kyoto Scale 評分 <70 或腦性麻痺）。",
+      "findings": "Insulin 治療組相比未治療組，出生胎齡更低（23.9 vs. 25.0 週，p<0.05）、出生體重更低（570 vs. 658 g，p<0.05）、最高血糖更高（507 vs. 357 mg/dL，p<0.05）、高血糖持續時間更長（14 vs. 6 天，p<0.05）。Insulin 治療後低血糖發生率 17%（6/35）。邏輯迴歸分析顯示 insulin 治療與死亡或神經發育不良無顯著相關（OR 0.40，95% CI 0.09-1.74）。",
+      "significance": "本研究提供初步證據，在極早產兒高血糖管理中，insulin 治療不會增加神經發育不良風險。然而，研究存在重要的混淆因素（insulin 治療組病情更重），且樣本量小、單中心設計，無法確立因果關係。對於 NICU 臨床決策而言，仍需更大型、前瞻性、多中心研究來指導極早產兒高血糖的最佳管理策略（包括 insulin 給藥指標、劑量調整、低血糖預防）。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-04"
+  },
+  {
+    "pmid": "41927368",
+    "title": "Dichotomy in biventricular function, progress and recovery among extreme preterm infants with persistent ductus arteriosus.",
+    "authors": "Gopagondanahalli KR, Lyn JKM, Haium AAA, et al.",
+    "journal": "Pediatrics and Neonatology",
+    "pub_date": "2026 Mar 14",
+    "doi": "10.1016/j.pedneo.2025.11.012",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "PDA",
+      "極早產兒",
+      "心室功能",
+      "BPD-PH",
+      "組織都卜勒超音波"
+    ],
+    "one_liner": "單中心前瞻性研究證實持續性PDA在極早產兒引起右心室功能持久性障礙與BPD-PH高風險，支持早期積極PDA處置策略，但樣本量與多中心驗證仍需加強。",
+    "summary": {
+      "purpose": "評估極早產兒（<28週）持續性動脈導管開放（PDA）對雙心室功能的影響，並追蹤其進展與恢復軌跡。",
+      "design": "單中心前瞻性觀察性研究，收納80名<28週出生的極早產兒，進行每週心臟超音波組織都卜勒檢查至36週矯正週數，比較持續性PDA（>生後第一週）與PDA閉合兩組的心室功能參數。",
+      "findings": "持續性PDA組中度至重度BPD發生率顯著高於PDA閉合組（51 vs. 7, p=0.01, OR 4.2, 95% CI 1.2-14.4），BPD-PH亦然（28 vs. 3, p=0.01, OR 5.07, 95% CI 1.7-14.5）。組織都卜勒顯示持續性PDA組右心室等容舒張時間延長（IVRT 38.9±8.6 vs. 36.2±7.8, p=0.02）、右心室肌肉功能指數升高（MPI 0.37±0.06 vs. 0.35±0.05, p=0.04）、左心室E/E'比值升高（12.2±4.7 vs. 8.9±2, p=0.01）。序列掃描至36週仍顯示異常的左心室離心率指數、持續性右心室IVRT延長（p<0.001）與MPI升高（p<0.05），而左心室E/E'與E'/A'異常至33週後恢復正常。",
+      "significance": "揭示極早產兒PDA暴露導致的雙心室功能失衡現象：右心室功能障礙更持久且恢復較慢，左心室功能相對可逆。此發現有助於理解PDA與BPD-PH的病理機轉，可指導臨床上對持續性PDA的積極處置策略（如藥物或介入治療時機），並強調長期心臟超音波監測的必要性，特別是在高風險族群（極早產、持續性PDA）的隨追中。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-04"
+  },
+  {
+    "pmid": "41927058",
+    "title": "Public Housing Redevelopment and Childhood Obesity.",
+    "authors": "Shier V, Wong E, Scott JJ, et al.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Apr 03",
+    "doi": "10.1542/peds.2025-074254",
+    "total_score": 1,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "childhood obesity",
+      "public housing",
+      "community intervention",
+      "built environment",
+      "health equity"
+    ],
+    "one_liner": "此為社區公衛導向的兒童肥胖研究，與 NICU 新生兒照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "評估公共住宅重建對兒童肥胖症的影響，檢視社區環境改善是否能減少低收入族群兒童的肥胖風險。",
+      "design": "前瞻性隊列研究，比較 Jordan Downs 公共住宅重建社區（n=399）與未重建對照社區的兒童，採用 difference-in-differences 分析方法，追蹤期 2 年。",
+      "findings": "重建社區兒童肥胖盛行率增加幅度較低（14.7 pp 較低；95% CI: 4.4-25.1），BMI z score 減少 0.15（95% CI: 0.02-0.32），腰圍減少 5%（95% CI: 1%-9%），腰高比減少 3.9%（95% CI: 0.1-7.7）；含糖飲料消費減少 1.13 次/天，社區內身體活動增加 18.2 pp。",
+      "significance": "本研究與新生兒科照護無直接關聯，屬於社區公衛層級的兒童肥胖預防研究，不涉及新生兒期疾病管理、早產兒照護、或新生兒重症醫學。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-04"
   }
 ]

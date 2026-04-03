@@ -4473,5 +4473,102 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-03"
+  },
+  {
+    "pmid": "41930420",
+    "title": "The Terumo Azur Vascular Plug for Occlusion of the Patent Ductus Arteriosus in Premature Neonates-A First Clinical Application.",
+    "authors": "Fitzgerald N, Howell A, Morgan CT, et al.",
+    "journal": "Catheterization and Cardiovascular Interventions",
+    "pub_date": "2026 Apr 03",
+    "doi": "10.1002/ccd.70606",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "PDA",
+      "transcatheter occlusion",
+      "vascular plug",
+      "premature infants",
+      "device intervention"
+    ],
+    "one_liner": "Azur Vascular Plug 在早產兒 PDA 閉合術的初步臨床應用顯示安全有效，但樣本數小（n=13）且為單中心經驗，尚需多中心驗證才能改變臨床實踐。",
+    "summary": {
+      "purpose": "評估 Terumo Azur Vascular Plug 在早產兒及低出生體重嬰兒進行經導管 PDA 閉合術的程序成功率、安全性及短期預後。",
+      "design": "單中心觀察性研究，納入 2024 年 6 月至 2025 年 10 月期間接受 Azur Vascular Plug 進行 PDA 閉合術的早產兒及低出生體重嬰兒，共 13 例，中位程序年齡 44 天（範圍 17-93 天），中位體重 1344 g（範圍 855-3900 g）。",
+      "findings": "12/13 例成功植入裝置（成功率 92.3%）；11 例使用 8 mm Azur 裝置；未受限裝置與最小 PDA 直徑比例為 2:1 至 4:1，隨經驗增加而降低；最小導管長度 9.0 mm（側位血管造影）；中位追蹤期 5.8 個月（範圍 1.5-15.7 個月）；11/12 例在 6 個月前達完全導管閉合；追蹤期間未發現主動脈狹窄、左肺動脈狹窄或三尖瓣損傷。",
+      "significance": "Azur Vascular Plug 提供了一個新的低侵襲性 PDA 閉合選項，特別適用於藥物治療失敗或無法耐受的早產兒。本研究確立了裝置在早產兒族群的初步安全性及有效性，並定義了適用的導管尺寸限制（最小長度 9.0 mm、直徑最多 5.0 mm），有助於臨床醫師選擇合適的患者進行介入治療。然而，樣本數小且為單中心經驗，需要更大規模多中心研究驗證。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-04"
+  },
+  {
+    "pmid": "41930471",
+    "title": "Technical Success and Adverse Events Associated With Percutaneous Carotid Artery Access for Transcatheter Procedures in Infants.",
+    "authors": "O'Byrne ML, Glatz AC, Gupta M, et al.",
+    "journal": "Catheterization and Cardiovascular Interventions",
+    "pub_date": "2026 Apr 03",
+    "doi": "10.1002/ccd.70601",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "PCA",
+      "transcatheter intervention",
+      "congenital heart disease",
+      "vascular access",
+      "neonatal cardiology"
+    ],
+    "one_liner": "這是一篇針對先天性心臟病導管介入的單中心技術報告，與一般新生兒重症照護無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "評估新生兒經皮頸動脈穿刺（PCA）進行導管介入治療的技術成功率與不良事件發生率。",
+      "design": "單中心回溯性病例系列研究，納入 2020 年 1 月至 2025 年 9 月間接受 PCA 的新生兒，中位年齡 10 天（IQR: 5-63），中位體重 3.2 kg（IQR: 2.8-3.9），共 77 名患者進行 105 次程序，主要用於動脈導管支架置入術（84%）、手術分流介入（9%）及主動脈瓣球囊擴張術（5%）。",
+      "findings": "技術成功率 100%，無神經學併發症。偽動脈瘤發生於 2 例（1.9%），其中 1 例需手術修復。74% 患者接受追蹤影像檢查，中位追蹤期 218 天（IQR: 94-761），未發現病理改變。臨床追蹤中位期 785 天（IQR: 330-1336），無歸因於 PCA 的臨床事件。",
+      "significance": "本研究提供新生兒 PCA 用於導管介入治療的安全性初步證據，特別是在極小新生兒中可作為股動脈穿刺的替代途徑。然而，樣本量有限、單中心設計、缺乏對照組，且主要針對先天性心臟病介入治療，與一般 NICU 日常照護決策（如呼吸支持、營養、感染防治）無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-04"
+  },
+  {
+    "pmid": "41927276",
+    "title": "Iconic figures in hypertrophic cardiomyopathy.",
+    "authors": "Braunwald E",
+    "journal": "Heart Rhythm",
+    "pub_date": "2026 Apr",
+    "doi": "10.1016/j.hrthm.2026.01.020",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "hypertrophic cardiomyopathy",
+      "history of cardiology",
+      "adult cardiology"
+    ],
+    "one_liner": "成人心臟病學歷史回顧，與 NICU 日常照護決策無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本文為肥厚性心肌病變（hypertrophic cardiomyopathy）領域的歷史回顧與人物介紹。",
+      "design": "敘述性回顧（narrative review），無臨床試驗、無樣本量、無新生兒族群數據。",
+      "findings": "文章聚焦於肥厚性心肌病變研究史上的重要人物與里程碑，無量化臨床結果或統計數據。",
+      "significance": "本文與新生兒或早產兒照護無直接關聯。肥厚性心肌病變雖可在新生兒期發現，但本文為成人心臟病學的歷史評論，未涉及新生兒診斷、治療或預後管理。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-04"
   }
 ]
