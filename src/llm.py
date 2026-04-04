@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 # Model mapping
 MODELS = {
     "haiku": "claude-haiku-4-5-20251001",
-    "sonnet": "claude-sonnet-4-20250514",
+    "sonnet": "claude-sonnet-4-6-20250514",
 }
 
 

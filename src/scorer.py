@@ -183,7 +183,8 @@ class ArticleScorer:
             return article
 
         article["deep_analysis"] = result
-        logger.info(f"  Deep analysis complete for PMID {article['pmid']}")
+        article["analysis_confidence"] = "high" if fulltext else "limited"
+        logger.info(f"  Deep analysis complete for PMID {article['pmid']} (confidence: {article['analysis_confidence']})")
         return article
 
     # Synonym groups for improved keyword matching.

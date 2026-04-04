@@ -66,8 +66,9 @@ actions:
     try_fulltext: true
     instant_alert: true
 
-# Topic boost (auto-updated by feedback in Phase 4)
-# Format: keyword -> bonus points added to total score
+# Topic boost (每日自動從 feedback.json 計算覆寫)
+# 手動設定的值會在 pipeline 啟動時被 compute_topic_boost() 覆蓋
+# Format: keyword -> bonus points (0.1~0.5)
 topic_boost: {}
 
 # Impact Factor tier boost

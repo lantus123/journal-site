@@ -118,6 +118,12 @@ def run_pipeline(dept: str, dry_run: bool = False):
     journals_config, scoring_config = load_config(dept)
     logger.info(f"Tracking {len(journals_config.get('journals', []))} journals")
 
+    # 1b. Auto-calibrate topic_boost from feedback
+    from src.feedback import compute_topic_boost
+    auto_boost = compute_topic_boost(dept)
+    if auto_boost:
+        scoring_config["topic_boost"] = auto_boost
+
     # 2. Fetch new articles from PubMed
     logger.info("\n--- Phase 1: Fetching articles ---")
     fetcher = PubMedFetcher(journals_config, cache_path=f"data/{dept}/pmid_cache.json")
