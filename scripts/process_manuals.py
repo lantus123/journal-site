@@ -93,45 +93,78 @@ def _is_heading(para) -> tuple[bool, int]:
     return False, 0
 
 
+def _table_to_text(table) -> str:
+    """Convert a docx Table object to readable text format."""
+    rows = []
+    for row in table.rows:
+        cells = [cell.text.strip().replace("\n", " ") for cell in row.cells]
+        rows.append(" | ".join(cells))
+    if not rows:
+        return ""
+    # Format: header row + separator + data rows
+    header = rows[0]
+    separator = "-" * min(len(header), 80)
+    if len(rows) == 1:
+        return f"[表格]\n{header}"
+    return f"[表格]\n{header}\n{separator}\n" + "\n".join(rows[1:])
+
+
 def extract_chunks_from_docx(filepath: Path) -> list[dict]:
-    """Extract text chunks split by headings from a .docx file."""
+    """Extract text chunks split by headings from a .docx file.
+
+    Iterates over all body elements (paragraphs AND tables) in document order,
+    so that tables are captured into the correct chunk.
+    """
     doc = Document(filepath)
-    # Derive chapter name from filename, e.g. "2025_NB_manual_03_Respiratory.docx" -> "Respiratory"
+    from docx.table import Table as DocxTable
+    from docx.text.paragraph import Paragraph
+
+    # Derive chapter name from filename
     stem = filepath.stem
-    # Try to extract the topic part after the last underscore or number
     parts = stem.split("_")
-    # Find the meaningful part (skip "2025", "NB", "manual", numbers)
     chapter = parts[-1] if len(parts) > 1 else stem
 
     chunks = []
     current_text = []
     heading_stack = [chapter]
 
-    for para in doc.paragraphs:
-        text = para.text.strip()
+    # Iterate body elements in document order (paragraphs + tables interleaved)
+    for element in doc.element.body:
+        tag = element.tag.split("}")[-1] if "}" in element.tag else element.tag
 
-        if not text:
-            continue
+        if tag == "tbl":
+            # Table element — convert to text and append to current chunk
+            table = DocxTable(element, doc)
+            table_text = _table_to_text(table)
+            if table_text:
+                current_text.append(table_text)
 
-        is_head, level = _is_heading(para)
+        elif tag == "p":
+            # Paragraph element
+            para = Paragraph(element, doc)
+            text = para.text.strip()
+            if not text:
+                continue
 
-        if is_head:
-            # Save previous chunk
-            if current_text:
-                content = "\n".join(current_text)
-                if len(content) >= MIN_CHUNK_SIZE:
-                    chunks.append({
-                        "path": " / ".join(heading_stack),
-                        "content": content,
-                        "source_file": filepath.name,
-                    })
-                current_text = []
+            is_head, level = _is_heading(para)
 
-            # Update heading stack based on level
-            heading_stack = heading_stack[:level]
-            heading_stack.append(text)
-        else:
-            current_text.append(text)
+            if is_head:
+                # Save previous chunk
+                if current_text:
+                    content = "\n".join(current_text)
+                    if len(content) >= MIN_CHUNK_SIZE:
+                        chunks.append({
+                            "path": " / ".join(heading_stack),
+                            "content": content,
+                            "source_file": filepath.name,
+                        })
+                    current_text = []
+
+                # Update heading stack based on level
+                heading_stack = heading_stack[:level]
+                heading_stack.append(text)
+            else:
+                current_text.append(text)
 
     # Don't forget the last chunk
     if current_text:
