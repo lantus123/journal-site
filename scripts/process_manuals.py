@@ -45,8 +45,8 @@ KEYWORD_PROMPT = """你是新生兒科醫學專家。以下是一段科內工作
 
 # Minimum chunk size (characters) to process
 MIN_CHUNK_SIZE = 50
-# Maximum chunk size for LLM processing
-MAX_CHUNK_SIZE = 8000
+# Maximum chunk size for LLM processing and prompt injection
+MAX_CHUNK_SIZE = 3000
 
 
 def _is_heading(para) -> tuple[bool, int]:
@@ -144,6 +144,49 @@ def extract_chunks_from_docx(filepath: Path) -> list[dict]:
             })
 
     return chunks
+
+
+def _split_oversized_chunks(chunks: list[dict]) -> list[dict]:
+    """Split chunks that exceed MAX_CHUNK_SIZE into smaller pieces."""
+    result = []
+    for chunk in chunks:
+        content = chunk["content"]
+        if len(content) <= MAX_CHUNK_SIZE:
+            result.append(chunk)
+            continue
+
+        # Split by paragraphs, grouping into sub-chunks
+        lines = content.split("\n")
+        sub_chunks = []
+        current = []
+        current_len = 0
+        part = 0
+
+        for line in lines:
+            if current_len + len(line) > MAX_CHUNK_SIZE and current:
+                part += 1
+                sub_chunks.append({
+                    "path": f"{chunk['path']} (Part {part})",
+                    "content": "\n".join(current),
+                    "source_file": chunk["source_file"],
+                })
+                current = []
+                current_len = 0
+            current.append(line)
+            current_len += len(line) + 1
+
+        if current:
+            part += 1
+            suffix = f" (Part {part})" if part > 1 else ""
+            sub_chunks.append({
+                "path": f"{chunk['path']}{suffix}",
+                "content": "\n".join(current),
+                "source_file": chunk["source_file"],
+            })
+
+        result.extend(sub_chunks)
+
+    return result
 
 
 def extract_chunks_from_docx_by_size(filepath: Path) -> list[dict]:
@@ -270,6 +313,12 @@ def main():
 
         logger.info(f"  -> {len(chunks)} chunks")
         all_chunks.extend(chunks)
+
+    # Split oversized chunks
+    before = len(all_chunks)
+    all_chunks = _split_oversized_chunks(all_chunks)
+    if len(all_chunks) != before:
+        logger.info(f"  Split oversized chunks: {before} -> {len(all_chunks)}")
 
     logger.info(f"\nTotal chunks: {len(all_chunks)}")
 

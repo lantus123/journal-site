@@ -1,0 +1,38 @@
+name: Process Work Manuals
+
+on:
+  push:
+    paths:
+      - 'config/manuals/**'
+  workflow_dispatch:
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Process manuals with Haiku keywords
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/process_manuals.py --dept newborn
+
+      - name: Commit updated chunks
+        run: |
+          git config user.name "Journal Review Bot"
+          git config user.email "bot@noreply.github.com"
+          git add data/newborn/manual_chunks.json
+          git diff --staged --quiet || git commit -m "更新工作手冊 chunks（含 Haiku 關鍵字）"
+          git push
