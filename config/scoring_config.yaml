@@ -1,8 +1,7 @@
 # ============================================
 # Scoring Configuration
 # ============================================
-# Weights auto-calibrate via feedback (Phase 4).
-# You can also manually adjust anytime.
+# Weights 可手動調整，topic_boost 由 compute_topic_boost() 每日自動計算
 
 scoring:
   dimensions:
@@ -66,7 +65,7 @@ actions:
     try_fulltext: true
     instant_alert: true
 
-# Topic boost (auto-updated by feedback in Phase 4)
+# Topic boost (每日自動從 feedback.json 計算覆寫)
 # Format: keyword -> bonus points added to total score
 topic_boost: {}
 

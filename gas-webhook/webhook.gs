@@ -27,7 +27,7 @@
 function doPost(e) {
   try {
     // Handle form-encoded POST (from hidden iframe upload)
-    var params = e.parameter || {};
+    var params = (e && e.parameter) ? e.parameter : {};
     if (params.action === "upload_pdf") {
       return handlePdfUpload(params);
     }
@@ -559,6 +559,7 @@ function handlePdfUpload(body) {
   var pdfBase64 = body.pdf_base64 || "";
   var secret = body.secret || "";
   var dept = validateDept(body.dept);
+  var force = (body.force === "true" || body.force === true);
 
   // Validate
   var expectedSecret = getProperty("FEEDBACK_SECRET");
@@ -582,8 +583,9 @@ function handlePdfUpload(body) {
     var githubToken = getProperty("GITHUB_TOKEN");
 
     // 1. Check if analysis already exists
-    var existingAnalysis = getGitHubFile(repo, "data/" + dept + "/pdf_analyses/" + pmid + ".json", githubToken);
-    if (existingAnalysis && existingAnalysis.content) {
+    var analysisPath = "data/" + dept + "/pdf_analyses/" + pmid + ".json";
+    var existingAnalysis = getGitHubFile(repo, analysisPath, githubToken);
+    if (!force && existingAnalysis && existingAnalysis.content) {
       var existing = JSON.parse(
         Utilities.newBlob(
           Utilities.base64Decode(existingAnalysis.content.replace(/\n/g, ""))
@@ -635,7 +637,7 @@ function handlePdfUpload(body) {
     var resultBase64 = Utilities.base64Encode(
       Utilities.newBlob(resultJson, "text/plain").getBytes()
     );
-    updateGitHubFile(repo, "data/" + dept + "/pdf_analyses/" + pmid + ".json", resultBase64, null,
+    updateGitHubFile(repo, analysisPath, resultBase64, existingAnalysis ? existingAnalysis.sha : null,
                      "PDF analysis: PMID " + pmid, githubToken);
 
     return ContentService.createTextOutput(JSON.stringify({ status: "ok", analysis: result, cached: false }))
