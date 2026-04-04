@@ -30,6 +30,13 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Checkout manuals from private repo
+        uses: actions/checkout@v4
+        with:
+          repository: lantus123/nicu-manuals
+          token: ${{ secrets.MANUALS_PAT }}
+          path: config/manuals
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -38,6 +45,11 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Process manuals into chunks
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/process_manuals.py --dept newborn
 
       - name: Run journal review pipeline
         env:

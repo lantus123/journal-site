@@ -1,1 +1,3 @@
 __pycache__/
+config/manuals/
+data/*/manual_chunks.json

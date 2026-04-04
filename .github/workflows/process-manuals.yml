@@ -1,9 +1,6 @@
 name: Process Work Manuals
 
 on:
-  push:
-    paths:
-      - 'config/manuals/**'
   workflow_dispatch:
 
 jobs:
@@ -14,6 +11,13 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      - name: Checkout manuals from private repo
+        uses: actions/checkout@v4
+        with:
+          repository: lantus123/nicu-manuals
+          token: ${{ secrets.MANUALS_PAT }}
+          path: config/manuals
 
       - name: Setup Python
         uses: actions/setup-python@v5
