@@ -6260,5 +6260,295 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-09"
+  },
+  {
+    "pmid": "41954067",
+    "title": "Increased Risk of Disabilities in Children and Adolescents With Congenital Heart Disease of Any Severity.",
+    "authors": "Lain SJ, He WQ, Blue GM, et al.",
+    "journal": "Journal of the American Heart Association",
+    "pub_date": "2026 Apr 09",
+    "doi": "10.1161/JAHA.125.047246",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "CHD",
+      "congenital heart disease",
+      "disability",
+      "neurodevelopmental outcome",
+      "long-term follow-up"
+    ],
+    "one_liner": "即使是輕度先天性心臟病，兒童罹患身心障礙的風險仍顯著高於一般族群，強調長期追蹤的重要性。",
+    "summary": {
+      "purpose": "旨在比較先天性心臟病 (CHD) 兒童與配對對照組及手足，在整體及特定身心障礙服務使用上的盛行率。",
+      "design": "這是一項回溯性資料連結研究，納入2002至2014年間於澳洲新南威爾斯某醫院診斷為CHD的兒童 (排除染色體異常/症候群及心臟外先天性畸形)。CHD依診斷及心臟手術年齡分為不同嚴重度組別。研究共納入4420名CHD兒童、37,931名無CHD兒童及4606名手足。",
+      "findings": "CHD兒童接受身心障礙服務的比例顯著高於無CHD兒童 (2.5%) 及手足 (3.3%)。其中，嚴重CHD為7.0%，曾接受心臟手術的其他CHD為5.6%，非嚴重CHD為5.1%。經調整後，與無CHD兒童相比，任何身心障礙服務的aORs為：嚴重CHD (aOR 2.82 [95% CI, 2.19-3.63])、曾接受手術的其他CHD (aOR 2.20 [95% CI, 1.58-3.05])、非嚴重CHD (aOR 1.75 [95% CI, 1.42-2.15])。在手足分析中，嚴重CHD (aOR 2.47 [95% CI, 1.57-3.88]) 及曾接受手術的其他CHD (aOR 1.63 [95% CI, 1.02-2.61]) 的關聯性依然存在。",
+      "significance": "本研究證實，無論CHD嚴重程度如何，兒童罹患身心障礙的風險均顯著高於一般族群，且接受過心臟手術的患兒風險更高。這提醒新生兒科醫師，在照護CHD新生兒時，應重視其長期發展追蹤，並在與家屬討論預後時，將此發展風險納入考量。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-10"
+  },
+  {
+    "pmid": "41954543",
+    "title": "Applying the 2025 ESC/EACTS Recommendations for the Treatment of Severe Tricuspid Regurgitation to Real-World Practice.",
+    "authors": "Stolz L, Kresoja KP, von Stein J, et al.",
+    "journal": "JACC: Cardiovascular Interventions",
+    "pub_date": "2026 Mar 30",
+    "doi": "10.1016/j.jcin.2026.02.024",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 4,
+      "generalizability": 4
+    },
+    "keywords": [
+      "三尖瓣逆流",
+      "經導管瓣膜介入",
+      "心衰竭",
+      "成人心臟科"
+    ],
+    "one_liner": "此研究探討成人嚴重三尖瓣逆流的經導管介入治療，與新生兒科臨床照護無關，可直接跳過。",
+    "summary": {
+      "purpose": "本研究旨在評估根據 2025 ESC/EACTS 指引，被歸類為「OMT candidates」（即合併嚴重左心室功能不全 LVD、右心室功能不全 RVD 或毛細血管前肺高壓 pcPH）的嚴重三尖瓣逆流成人患者，接受經導管三尖瓣緣對緣修復術 (T-TEER) 後的臨床與症狀預後。",
+      "design": "此為一項回溯性分析，利用 EuroTR 登錄資料，納入 1,626 名接受 T-TEER 的成人患者。研究根據指引閾值，將患者分為「OMT candidates」（213 人，13.1%）與「TTVI appropriate」兩組，比較兩組間 NYHA 功能分級改善及兩年內無心衰竭住院 (HFH) 存活率。",
+      "findings": "「OMT candidates」組的 1 年無 HFH 存活率顯著較低 (58.7% vs 74.3%; P < 0.001)。個別分析顯示，LVD (54.6% vs 72.9%; P < 0.001)、RVD (59.0% vs 73.2%; P = 0.003) 和 pcPH (56.2% vs 73.4%; P = 0.021) 均與較低的 1 年無 HFH 存活率相關。儘管「OMT candidates」組基線和追蹤時的 NYHA 功能分級較高，但其症狀緩解（NYHA 功能分級改善 ≥1 級）與「TTVI appropriate」組相當 (56.2% vs 59.5%; P = 0.68)。",
+      "significance": "儘管 2025 ESC/EACTS 指引建議對合併嚴重 LVD、RVD 或 pcPH 的嚴重三尖瓣逆流患者優先採用最佳藥物治療 (OMT)，但本研究結果顯示 T-TEER 在這些高風險患者中仍能提供症狀上的益處。在缺乏隨機對照試驗證據的情況下，經驗豐富的心臟瓣膜中心進行多專科評估，對於平衡潛在效益與手術無效風險至關重要。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-10"
+  },
+  {
+    "pmid": "41954066",
+    "title": "Correlates and Prognostic Value of Serial N-Terminal Pro-B-Type Natriuretic Peptide Assay in Congenitally Corrected Transposition of the Great Arteries.",
+    "authors": "Bahnasy A, Bai M, Aboelmaaty S, et al.",
+    "journal": "Journal of the American Heart Association",
+    "pub_date": "2026 Apr 09",
+    "doi": "10.1161/JAHA.125.046544",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "congenitally corrected transposition of the great arteries",
+      "NT-proBNP",
+      "adults",
+      "cardiovascular events",
+      "risk stratification"
+    ],
+    "one_liner": "這是一篇關於先天性心臟病成人患者的 NT-proBNP 預後研究，與新生兒科臨床照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本研究旨在評估 N-terminal pro-B-type natriuretic peptide (NT-proBNP) 序列測量在先天性矯正型大動脈轉位 (congenitally corrected transposition of the great arteries) 成人患者中，用於心血管事件風險分層的角色。",
+      "design": "本研究為一回溯性世代研究，納入 152 名先天性矯正型大動脈轉位成人患者（平均年齡 47±13 歲），追蹤期間為 2003-2024 年，且至少有兩次 NT-proBNP 測量。",
+      "findings": "在 152 名患者中，45 名 (30%) 發生心血管事件（包括心臟衰竭住院、心室輔助裝置、心臟移植及死亡），10 年發生率為 26%。較高的基準 NT-proBNP 和其相對變化與心血管事件相關。NT-proBNP 升高與心房顫動、高血壓、右心室擴張和功能障礙、以及房室瓣膜逆流有關。腎素-血管張力素-醛固酮系統拮抗劑 (renin-angiotensin-aldosterone system antagonist) 與較低的 NT-proBNP 水平及較低的心血管事件風險相關。",
+      "significance": "本研究探討 NT-proBNP 在先天性矯正型大動脈轉位成人患者中的預後價值。由於研究對象為成人，且探討的是成人心血管事件，因此對新生兒加護病房 (NICU) 的日常照護決策或早產兒長期追蹤無直接臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-10"
+  },
+  {
+    "pmid": "41954062",
+    "title": "",
+    "authors": "Hirofuji A, Tanaka H, Tsujita Y, et al.",
+    "journal": "Journal of the American Heart Association",
+    "pub_date": "2026 Apr 09",
+    "doi": "10.1161/JAHA.125.046146",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "心肌梗塞",
+      "心肌細胞再生",
+      "Mycn",
+      "成年小鼠",
+      "基礎研究"
+    ],
+    "one_liner": "這是一篇關於成年小鼠心肌梗塞後心肌細胞再生機制的基礎研究，與新生兒科臨床照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本研究旨在評估 Myc 家族（Myc, Mycl, Mycn）中特定異構體對成年小鼠心肌細胞週期活化及心肌梗塞（MI）後心臟修復的影響。",
+      "design": "此為一項在成年小鼠模型中進行的基礎研究。研究者透過心肌細胞特異性過度表達 Myc、Mycl 或 Mycn，評估其對細胞週期活性、心臟重塑與功能，以及 MI 後心臟保護效果的影響。",
+      "findings": "研究發現 Mycn 在 Myc 家族中能最有效地誘導細胞週期基因表達，顯著促進心肌細胞再進入細胞週期並引起肥大性生長。轉錄組分析顯示 Mycn 特異性上調了細胞外基質和旁分泌信號基因，這些基因通常在新生兒心肌細胞中豐富並與心臟保護相關。在 MI 模型中，Mycn 有助於維持心臟收縮力，減少梗塞面積，並增加梗塞周圍區域的毛細血管密度。",
+      "significance": "本研究揭示 Mycn 能在成年心臟中重新激活心肌細胞週期，並在缺血性損傷後提供心臟保護，其機制可能涉及誘導類似新生兒的轉錄程序。這對成人心臟病學領域具有潛在的治療意義，但與新生兒科的臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-10"
+  },
+  {
+    "pmid": "41954058",
+    "title": "RoMa: A Cardiopulmonary Exercise Testing Based Risk Tool in Hypertrophic Cardiomyopathy.",
+    "authors": "Willixhofer R, Mapelli M, Baracchini N, et al.",
+    "journal": "Journal of the American Heart Association",
+    "pub_date": "2026 Apr 09",
+    "doi": "10.1161/JAHA.125.046438",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Hypertrophic Cardiomyopathy",
+      "RoMa classification",
+      "Cardiopulmonary Exercise Testing",
+      "Risk Stratification",
+      "Adult Cardiology"
+    ],
+    "one_liner": "這篇研究探討成人肥厚性心肌病的風險分層工具，與新生兒科的臨床照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "旨在獨立多中心隊列中外部驗證 RoMa 分類在肥厚性心肌病患者中的應用，並評估其與長期臨床預後的關聯。",
+      "design": "這是一項回溯性多中心世代研究，納入 292 名肥厚性心肌病患者（年齡中位數 51 歲，範圍 36-63 歲）。患者根據心肺運動測試中的預測心率和氧脈衝百分比分為 RoMa I 至 IV 組。",
+      "findings": "研究發現，RoMa 分類與功能能力呈階梯式下降趨勢 (peak oxygen uptake 29.2 to 17.9 mL/kg/min; P-trend <0.001)。在約 6 年的追蹤期間，RoMa II 至 IV 組與 RoMa I 組相比，獨立預測更高的複合終點事件風險 (HRs, 3.89-5.37; all P<0.05)。",
+      "significance": "此研究驗證了 RoMa 分類在成人肥厚性心肌病患者中獨立預測長期臨床預後的能力，為成人心臟科醫師提供了一種新的風險分層工具。然而，此研究與新生兒照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-10"
+  },
+  {
+    "pmid": "41955068",
+    "title": "Monoclonal gammopathy exclusion in transthyretin amyloid cardiomyopathy: iStopMM estimated glomerular filtration rate-adjusted serum-free light chain ratio cut-offs.",
+    "authors": "Rauf MU, Razvi Y, Bomsztyk J, et al.",
+    "journal": "European Heart Journal",
+    "pub_date": "2026 Apr 07",
+    "doi": "10.1093/eurheartj/ehag250",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Monoclonal gammopathy",
+      "Amyloid cardiomyopathy",
+      "Serum-free light chain",
+      "Adult cardiology",
+      "eGFR"
+    ],
+    "one_liner": "本研究主題與新生兒科無關，新生兒科醫師可直接跳過。",
+    "summary": {
+      "purpose": "本研究旨在探討在 transthyretin amyloid cardiomyopathy 患者中，如何利用 iStopMM 調整後的 eGFR 血清游離輕鏈比率來排除 monoclonal gammopathy。",
+      "design": "由於原始摘要內容缺失，無法評估具體研究設計、樣本數、患者族群（如 GA 範圍、出生體重）等細節。根據文章標題判斷，這是一項成人心臟醫學領域的診斷性研究，可能為回溯性世代研究或資料庫分析。",
+      "findings": "由於原始摘要內容缺失，無法提供具體研究發現及數據。",
+      "significance": "本研究主題（成人 monoclonal gammopathy 及 transthyretin amyloid cardiomyopathy 的診斷）與新生兒科照護無直接關聯，對新生兒重症醫學、早產兒照護或長期發育追蹤不具臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-10"
+  },
+  {
+    "pmid": "41954548",
+    "title": "Bridging therapy and residual pulmonary hypertension in chronic thromboembolic pulmonary hypertension: Insights into disease heterogeneity.",
+    "authors": "Mihai A",
+    "journal": "Journal of Heart and Lung Transplantation",
+    "pub_date": "2026 Apr 09",
+    "doi": "10.1016/j.healun.2026.03.026",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "chronic thromboembolic pulmonary hypertension",
+      "pulmonary hypertension",
+      "adult medicine"
+    ],
+    "one_liner": "這篇文章探討成人慢性血栓栓塞性肺高壓，與新生兒照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "根據文章標題，本研究旨在探討慢性血栓栓塞性肺高壓 (chronic thromboembolic pulmonary hypertension, CTEPH) 患者的過渡性治療及殘餘肺高壓現象，以深入了解疾病的異質性。",
+      "design": "由於摘要內容缺失，無法得知具體研究設計、樣本數、受試者特徵（如胎齡、出生體重）。根據標題判斷，此為成人醫學領域的研究。",
+      "findings": "由於摘要內容缺失，無法提供主要研究發現。",
+      "significance": "本研究主題為成人慢性血栓栓塞性肺高壓，與新生兒科的臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-10"
+  },
+  {
+    "pmid": "41954046",
+    "title": "Prevalence and Clinical Importance of Right Ventricular Involvement in Mild Dilated Cardiomyopathy.",
+    "authors": "Mukhopadhyay S, Cheng L, Jones RE, et al.",
+    "journal": "Journal of the American Heart Association",
+    "pub_date": "2026 Apr 09",
+    "doi": "10.1161/JAHA.125.045987",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "擴張性心肌病變",
+      "右心室功能",
+      "心臟醫學"
+    ],
+    "one_liner": "此研究主題與新生兒/早產兒照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "根據文章標題，本研究旨在探討輕度擴張性心肌病變中右心室受累的盛行率及臨床重要性。由於摘要內容缺失，無法提供更詳細的研究目的。",
+      "design": "由於摘要內容缺失，無法判斷具體研究設計、受試者年齡範圍、出生體重或樣本數。",
+      "findings": "由於摘要內容缺失，無法提供研究的主要發現、關鍵數據或效應大小。",
+      "significance": "根據文章標題判斷，本研究主題主要聚焦於一般心臟醫學領域，與新生兒加護病房（NICU）的日常照護決策或早產兒的特殊處置無直接關聯。因此，對新生兒科臨床照護無具體意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-10"
+  },
+  {
+    "pmid": "41954547",
+    "title": "Comment on: The landscape of referrals for lung transplantation in pulmonary arterial hypertension: A report from the Pulmonary Hypertension Association Registry.",
+    "authors": "Swan TT, Mutaawe S",
+    "journal": "Journal of Heart and Lung Transplantation",
+    "pub_date": "2026 Jan 19",
+    "doi": "10.1016/j.healun.2026.01.004",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "肺動脈高壓",
+      "肺臟移植",
+      "成人醫學"
+    ],
+    "one_liner": "此文為成人肺動脈高壓與肺臟移植的評論，新生兒科醫師可直接跳過。",
+    "summary": {
+      "purpose": "根據文章標題，此文旨在對一份關於肺動脈高壓患者肺臟移植轉診情況的報告進行評論。",
+      "design": "此為一篇評論性文章或社論，非原創研究。文章中未提及具體的研究設計、受試者（如 GA 範圍、出生體重）或樣本數。",
+      "findings": "作為一篇評論性文章，其主要內容是對既有報告的觀點闡述或分析，而非呈現新的研究發現或關鍵數據。",
+      "significance": "此文章主題為成人肺動脈高壓與肺臟移植，與新生兒科的日常照護、早產兒照護或長期發育追蹤無直接相關性，對 NICU 臨床決策無具體意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-10"
   }
 ]

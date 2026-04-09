@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NB Journal Digest - 2026-04-10</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.8;font-size:16px}
+.container{max-width:720px;margin:0 auto;padding:20px}
+header{padding:20px 0;border-bottom:2px solid #1B6B93;margin-bottom:24px}
+.back{font-size:15px;color:#1B6B93;text-decoration:none}
+.back:hover{text-decoration:underline}
+.date{font-size:15px;color:#888;margin-top:8px}
+h1{font-size:26px;font-weight:700;color:#1B6B93;margin-top:4px}
+.stats{font-size:15px;color:#666;margin-top:6px}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:18px}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600}
+.tag-journal{font-size:13px;color:#999}
+.card-title{font-size:18px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px}
+.card-authors{font-size:14px;color:#999;margin-bottom:14px}
+.section{padding:14px 0;border-top:1px solid #f0f0ec}
+.section p{font-size:15px;color:#555;margin-bottom:8px}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:10px}
+.hl{border-left:3px solid;padding:10px 14px;margin:8px 0;font-size:15px;line-height:1.7;border-radius:0}
+.hl-green{border-color:#639922;background:#EAF3DE;color:#27500A}
+.hl-amber{border-color:#BA7517;background:#FAEEDA;color:#633806}
+.hl-red{border-color:#E24B4A;background:#FCEBEB;color:#791F1F}
+.hl-blue{border-color:#378ADD;background:#E6F1FB;color:#0C447C}
+.related{font-size:15px;color:#555;padding:8px 0;border-bottom:1px solid #f5f5f0}
+.related:last-child{border-bottom:none}
+.card-links{padding-top:14px;display:flex;gap:16px}
+.card-links a{font-size:14px;color:#1B6B93;text-decoration:none}
+.card-links a:hover{text-decoration:underline}
+footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;color:#999;text-align:center}
+.vote-count{font-size:13px;color:#1B6B93;font-weight:600}
+@media(max-width:600px){.container{padding:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">NB Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">或從 LINE / Email 點擊連結直接閱讀</p>
+</div>
+</div>
+
+<!-- Digest content (hidden until auth) -->
+<div id="digest-content" style="display:none;">
+<div class="container">
+<header>
+  <a href="index.html" class="back">← Back to archive</a>
+  <div class="date">2026/04/10 (Friday)</div>
+  <h1>NB Journal Digest</h1>
+  <div class="stats">4 articles · 1 must-read</div>
+</header>
+
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 4-5: DEEP ANALYSIS</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#EEEDFE;color:#3C3489">Score 5</span><span class="tag-journal">Cochrane Database of Systematic Reviews - Neonatal</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Therapeutic hypothermia for newborns with hypoxic-ischaemic encephalopathy.</h2>
+  <div class="card-authors">Fink A, Berg MT, Soll RF, et al. · 2026 Apr 09</div>
+  <div class="section"><b>30 秒重點：</b>這是一份 Cochrane Review 的計畫書，旨在更新治療性低溫 (Therapeutic Hypothermia, TH) 對於新生兒 HIE 的效益與危害的系統性回顧。雖然 TH 已是標準療法，但這份更新的回顧將整合近十年的新證據，提供更精確的療效評估。我們應特別關注最終報告中，對於不同嚴重程度 HIE (中度 vs. 重度) 的亞群分析，以及對晚期早產兒的證據，這可能影響我們未來的治療決策。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 僅提及 HIE，但未區分嚴重程度。最終發表的 review 中，對中度 (Sarnat II) vs. 重度 (Sarnat III) HIE 的亞群分析至關重要。TH 對中度 HIE 的效益已確立，但在重度 HIE 的效益與神經預後改善程度上仍有爭議。</b> 閱讀全文時，需在「Subgroup analysis」或「Forest plots」章節中尋找依 HIE 嚴重程度分層的數據。。若證據顯示 TH 對重度 HIE 效益有限或無益，我們可能需要更早與家屬進行預後諮商，並更積極地考慮緩和醫療的選項，或將這些嬰兒納入輔助性神經保護藥物的臨床試驗。</p><p><b>Abstract 未指明將分析的 GA 範圍。雖然 TH 主要用於足月兒，但近年有越來越多關於晚期早產兒 (late preterm, 34-36週) 的研究。此 review 是否會納入並單獨分析這個族群的數據，將是臨床重點。</b> 需在全文的「Criteria for considering studies for this review」中的「Types of participants」段落確認納入的 GA 範圍，並在結果中尋找相關亞群分析。。如果新的統合分析證實 TH 對晚期早產兒安全有效，我們需要修改目前僅限於 ≥36 週的 protocol，將符合條件的晚期早產兒也納入治療對象。</p><p><b>Abstract 未定義主要的長期神經發展結局 (neurodevelopmental outcome) 的追蹤時間點。傳統上是 18-24 個月，但這個年齡的 Bayley score 不完全能預測學齡期的認知功能。此 review 是否會優先採用或分析更長期的追蹤數據 (如 5-7 歲) 將影響其結論的份量。</b> 需在全文方法學的「Types of outcome measures」中確認 primary outcome 的定義與追蹤時長。。更長期的追蹤數據能提供關於學習障礙、注意力不足等高階認知功能缺損的資訊，這對於我們向家長解釋 TH 的長期價值與潛在後遺症至關重要。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>身為 Cochrane Review，其計畫書 (protocol) 預先註冊且公開，可減少事後分析 (post-hoc) 和選擇性報導 (selective reporting) 的偏誤。</div><div class="hl hl-green"><b>Strong：</b>預期將採用 GRADE (Grading of Recommendations Assessment, Development and Evaluation) 方法學來評估證據的確定性，讓臨床醫師能清楚了解建議的強度。</div><div class="hl hl-green"><b>Strong：</b>系統性的文獻搜尋策略，能最大程度地納入已發表的相關 RCTs，減少發表偏誤 (publication bias) 的影響。</div><div class="hl hl-amber"><b>Note：</b>需注意最終 review 如何處理不同版本的 Bayley Scales of Infant Development (如 Bayley-II vs. Bayley-III vs. Bayley-4) 的數據統合問題，因不同版本的常模與分數解讀存在差異。</div><div class="hl hl-amber"><b>Note：</b>HIE 的診斷標準與嚴重度分級在不同試驗間可能存在異質性 (heterogeneity)，review 作者如何評估並處理這種異質性將影響結論的可靠性。</div><div class="hl hl-amber"><b>Note：</b>對照組的「標準照護 (standard care)」內容隨時間演進，早期試驗的對照組可能未接受如 aEEG 監測等現今的標準照護，這可能高估 TH 的相對效益。需注意 review 是否進行敏感性分析 (sensitivity analysis) 來處理此問題。</div><div class="hl hl-red"><b>Weak：</b>統合分析的潛在限制是，若納入的試驗本身品質參差不齊，即使方法再嚴謹，結果也可能受影響 (garbage in, garbage out)。需仔細閱讀其對各試驗的 Risk of Bias 評估。</div><div class="hl hl-red"><b>Weak：</b>不同冷卻方式 (全身性 vs. 選擇性頭部) 的效果差異可能難以釐清，因為很少有頭對頭比較的大型 RCT，若將兩者數據合併分析，可能掩蓋潛在差異。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Jacobs SE et al., 2013, Cochrane Database Syst Rev</b> — 這是本計畫書預計要更新的上一版 Cochrane Review。自 2013 年以來，已有數個新的 RCTs 發表，本次更新將納入這些新證據，提供更精確的 effect size 估計，並可能進行更穩健的亞群分析。</div><div class="related"><b>TOBY Study (Azzopardi 2009, NEJM) & NICHD NRN Trial (Shankaran 2005, NEJM)</b> — 這兩者是奠定 TH 成為標準療法的里程碑式 RCTs。本 Cochrane Review 將把這些 foundational trials 與後續的研究進行統合分析，以提供一個更全面的證據總結，而不是單一試驗的結果。</div><p><b>指引現況：</b>目前 ILCOR、美國兒科醫學會 (AAP) 及台灣新生兒科醫學會的指引，均建議對符合條件的中至重度 HIE 的足月或晚期早產新生兒 (通常定義為 ≥36 週 GA)，在出生後 6 小時內開始進行為期 72 小時的治療性低溫。</p><p><b>填補的 evidence gap：</b>本研究將填補自 2013 年以來近十年間的證據空缺。它將整合新的 RCTs，可能提供關於 TH 在特定亞群（如重度 HIE、晚期早產兒）中效益與風險的更明確答案，並更新整體證據的確定性等級。</p><p><b>進行中的相關試驗：</b>目前研究的重點已從「TH vs. No TH」轉向「TH + 輔助治療 vs. TH 單獨治療」。例如，合併使用 erythropoietin、melatonin 或幹細胞等神經保護劑的研究正在進行中。這份更新的 Cochrane Review 將為這些新興療法的臨床試驗提供最準確的安慰劑組 (placebo/control group) 預期發生率數據。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>根據我們的工作手冊，雖然有提及「Hypoxic Ischemic Encephalopathy(HIE)」及「振幅整合腦電圖Amplitude EEG (aEEG)」，但未提供治療性低溫的詳細 protocol。然而，本科的標準臨床實踐是遵循國際指引，對 GA ≥36 週、符合臨床、血液氣體及 aEEG 標準的中重度 HIE 新生兒，在出生 6 小時內啟動全身性低溫治療，維持目標核心體溫 33.5°C，持續 72 小時。<br><b>建議調整：</b>基於這份『計畫書』，目前無需改變 protocol。我們應維持現行做法，並將此 Cochrane Review 列為追蹤重點。待其最終結果發表後，再召開科會討論：
+1. 若證據強度足夠支持將治療對象擴展至 34-35 週的晚期早產兒，我們應修訂 GA 的納入標準。
+2. 若亞群分析顯示 TH 對 Sarnat III 的效益有其極限，我們應在 protocol 中加強預後評估與家庭會議的指引。
+3. 若有任何關於不良反應（如持續性肺高壓、心律不整、凝血功能異常）的更新數據，應檢視並強化我們的監測 protocol。<br><b>導入準備：</b>目前無。待最終 review 發表後，若需修改 protocol，則需要：(1) 召開 protocol 修訂會議；(2) 舉辦全科（含護理同仁）的在職教育訓練；(3) 更新工作手冊與電子醫囑系統中的相關設定。<br><b>等待的證據：</b>我們最期待這份 review 能提供更明確的證據來回答：(1) 對於 Sarnat III 或 aEEG 呈現 burst-suppression/flat tracing 的新生兒，TH 的效益究竟有多大？(2) 對於 34-36 週的晚期早產兒，TH 的療效與安全性是否與足月兒相當？(3) 除了 18-24 個月的發展評估外，是否有更長期的學齡期認知功能與行為追蹤數據的統合分析。</div></div>
+  <div id="analysis-result-41954139"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41954139/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1002/14651858.CD016345" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41954139" data-rating="must_read" onclick="vote('41954139','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41954139-must_read" style="display:none;">0</span></button> <button data-pmid="41954139" data-rating="useful" onclick="vote('41954139','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41954139-useful" style="display:none;">0</span></button> <button data-pmid="41954139" data-rating="so_so" onclick="vote('41954139','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41954139-so_so" style="display:none;">0</span></button> <button data-pmid="41954139" data-rating="skip" onclick="vote('41954139','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41954139-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41954139" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41954139" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41954139','Therapeutic hypothermia for newborns with hypoxic-ischaemic encephalopathy.',this,false)">
+  <button id="upload-btn-41954139" onclick="document.getElementById('pdf-41954139').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41954139" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">JAMA Network Open</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Culturally Informed Communication of Neonatal Death in Chinese Neonatal Intensive Care Units.</h2>
+  <div class="card-authors">Zhao H, Hu C, Geng J, et al. · 2026 Apr 01</div>
+  <div class="section"><b>30 秒重點：</b>這是一篇針對中國 NICU 的質性研究，發現醫護人員在告知新生兒死亡時，會基於華人文化，優先與父親溝通、避免使用「死亡」等直接詞彙，並以維護家族聲譽的方式處理後事。這項研究雖然不是 RCT，但對我們來說是個重要的提醒，讓我們反思自身在病情解釋與悲傷輔導時，是否不自覺地遵循了類似的文化腳本。我們需要思考，這種模式是否真正符合所有家庭的需求，特別是母親在決策過程中的角色。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 未區分不同臨床情境下的溝通差異。例如，與家屬溝通一位 GA 23 週、出生後數小時即死亡的早產兒，和溝通一位足月、因 HIE 住院數週後死亡的嬰兒，其溝通策略、家庭動態和文化考量可能截然不同。前者可能涉及更多關於「生命極限」的討論，後者則可能涉及更多關於「撤除維生醫療」的倫理困境。</b> Abstract 中僅籠統提及「新生兒死亡」，未提供臨床情境的分類。這是閱讀全文時需特別關注的重點。。我們的溝通策略不能一概而論。在發展科內指引時，應針對不同臨床情境（如：極度早產、重大先天異常、突發性惡化）提供不同的溝通腳本與注意事項。</p><p><b>研究對象的人口學特徵高度同質化（均為漢族、無宗教信仰）。Abstract 未提及醫護人員如何應對有不同宗教信仰（如基督教、佛教）或不同文化背景的家庭，而這在台灣的臨床實務中相當常見。</b> Abstract 的 RESULTS 段落描述了參與者的背景。。本研究的結論在應用於台灣多元社會時需持保留態度。我們在溝通時，除了傳統文化，還必須主動探詢並尊重家庭的宗教信仰（如臨終受洗、法師祝禱），這些是本研究未涵蓋的重要面向。</p><p><b>研究提到「母親的障礙」，但未詳細說明這些障礙是來自父親的要求、醫護人員的假設（例如擔心產後憂鬱），還是母親自身的狀態。釐清這一點至關重要。</b> Abstract 的 subthemes 提到 "encountering barriers to direct death disclosure to the mother"。。如果我們只是基於假設而將母親排除在核心溝通之外，可能會剝奪她知情和參與的權利，甚至引發後續的醫療糾紛或更複雜的哀傷反應。我們需要訓練同仁主動評估並邀請母親參與溝通，而非預設她無法承受。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>採用質性研究方法（描述現象學）非常適合探討複雜、敏感且受文化影響的溝通經驗，這是傳統量化研究無法企及的。</div><div class="hl hl-green"><b>Strong：</b>研究設計嚴謹，訪談持續到「資料飽和 (data saturation)」，這是確保質性研究信度的重要指標。</div><div class="hl hl-green"><b>Strong：</b>採用 Colaizzi 七步驟分析法，為質性資料的分析提供了一個系統性框架，增加了研究的嚴謹性。</div><div class="hl hl-amber"><b>Note：</b>這是一篇質性研究，其目的在於深度理解現象，而非建立因果關係或提供普遍性的證據等級，因此不適用 RCT 的評讀標準（如 blinding, allocation concealment）。</div><div class="hl hl-amber"><b>Note：</b>研究地點在中國江蘇省揚州市的兩家醫院，其發現是否能完全推廣到台灣的醫療環境，需要審慎評估。</div><div class="hl hl-amber"><b>Note：</b>參與者平均年資 16.3 年，代表的是資深醫護人員的觀點，可能無法完全反映年輕或新進同仁在面對這些情況時的困惑與挑戰。</div><div class="hl hl-red"><b>Weak：</b>最大的限制是研究只訪談了醫護人員，完全缺乏家長（特別是母親）的視角。醫護人員「認為」的文化適宜作法，不一定等於家長「實際」的需求與感受。</div><div class="hl hl-red"><b>Weak：</b>採用「目的性抽樣 (purposeful sampling)」可能引入選擇性偏誤，研究者可能傾向選擇較健談或對此議題有較多反思的醫護人員。</div><div class="hl hl-red"><b>Weak：</b>訪談內容可能存在「社會期許偏誤 (social desirability bias)」，參與者可能會描述他們認為「應該」要怎麼做，而不是他們「實際」上怎麼做。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Boss RD et al. Pediatrics, 2013</b> — 這篇研究探討美國 NICU 醫師在與家長進行生命維持治療會議時的溝通行為。與本研究的文化導向不同，該研究更側重於「共享決策 (shared decision-making)」模型的應用，強調醫護人員提供選項、家長表達價值觀的雙向過程。兩者對比，凸顯了東西方在醫病溝通權力結構與決策模式上的顯著差異。</div><p><b>指引現況：</b>目前不論是美國兒科學會 (AAP) 或歐洲新生兒科相關學會，其安寧緩和療護指引多強調以家庭為中心、雙親共同參與、直接且誠實的溝通原則。台灣新生兒科醫學會尚無針對新生兒死亡告知的本土文化溝通指引。本研究的發現，正好點出了制定本土化指引的必要性。</p><p><b>填補的 evidence gap：</b>本研究填補了關於「華人文化」如何具體影響 NICU 臨終溝通實踐的文獻空白。它將我們許多心照不宣的「潛規則」（如先找爸爸、報憂不報喜）系統性地整理出來，為後續研究與教育訓練提供了重要的基礎。</p><p><b>進行中的相關試驗：</b>此領域的研究重點不在於大型 RCT，而在於更多元的質性與混合方法研究。未來值得期待的是納入家長觀點的研究，以及在台灣本土脈絡下進行的類似研究，以驗證並深化本研究的發現。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>目前工作手冊中，從「Routine / NICU Orientation」到「GI / Gastroenterology」，乃至於 PPROM 和 ELBW 的照護，所有 protocol 皆著重於臨床治療與程序性規範。手冊中『完全沒有』關於病情解釋、壞消息告知、家庭會議、安寧療護或悲傷輔導的相關指引。臨床實務完全依賴主治醫師個人的經驗、風格與當下的判斷，缺乏一致性與標準流程。<br><b>建議調整：</b>本研究結果並非要我們全盤接受「父親優先」或「避免談論死亡」的作法，而是促使我們正視文化因素並建立更完善的流程。建議新增一個『家庭溝通與安寧療護指引』章節，內容應包括：
+1. **啟動家庭會議的標準**：在預期可能死亡、討論撤除維生醫療、或家屬對病情有重大疑問時，應由主治醫師或 fellow 主持正式家庭會議。
+2. **會前準備**：會議前，護理師與住院醫師應先了解家庭結構、主要決策者、宗教信仰及他們最擔憂的問題。應主動詢問：「我們希望媽媽也一起參加，您覺得她的狀況方便嗎？或者她希望我們用什麼方式讓她了解？」取代直接預設父親為唯一溝通對象。
+3. **會議原則**：訓練同仁使用「預警性告知 (warning shot)」技巧，逐步引導家屬。在解釋病情時，應使用家屬能理解的語言，並在會議結束前確認家屬的理解程度與主要擔憂。
+4. **悲傷輔導標準流程**：當新生兒死亡已不可避免或發生後，應主動啟動標準化的悲傷輔導流程，包括提供記憶物（如手腳印、頭髮）、給予家屬與寶寶獨處的時間、以及主動照會社工師或院牧部關懷師介入。<br><b>導入準備：</b>成立跨領域工作小組（包含資深醫師、護理師、社工師、院牧部）草擬新的溝通指引。, 舉辦全科的在職教育，主題為「壞消息告知的技巧與文化敏感度」，可邀請安寧療護專家進行分享。, 準備標準化的「新生兒安寧關懷包 (bereavement package)」，內含製作手腳印的材料、小相框、關懷手冊等。<br><b>等待的證據：</b>我們最缺乏的是來自「台灣 NICU 家長」的第一手資料。他們在經歷新生兒死亡的過程中，期待什麼樣的溝通方式？他們認為誰應該是主要決策者？目前的溝通模式是否曾對他們造成二度傷害？在我們全面修改 protocol 之前，進行一個小規模的本土質性研究來了解家長的觀點，將會非常有價值。</div></div>
+  <div id="analysis-result-41954937"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41954937/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1001/jamanetworkopen.2026.5919" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41954937" data-rating="must_read" onclick="vote('41954937','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41954937-must_read" style="display:none;">0</span></button> <button data-pmid="41954937" data-rating="useful" onclick="vote('41954937','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41954937-useful" style="display:none;">0</span></button> <button data-pmid="41954937" data-rating="so_so" onclick="vote('41954937','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41954937-so_so" style="display:none;">0</span></button> <button data-pmid="41954937" data-rating="skip" onclick="vote('41954937','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41954937-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41954937" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41954937" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41954937','Culturally Informed Communication of Neonatal Death in Chinese Neonatal Intensive Care Units.',this,false)">
+  <button id="upload-btn-41954937" onclick="document.getElementById('pdf-41954937').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41954937" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 2-3: QUICK SUMMARY</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Acta Paediatrica</span></div>
+  <h2 class="card-title">Bowel Habits and Functional Constipation in Healthy Children-A Longitudinal Birth-Cohort Study.</h2>
+  <div class="card-authors">Gatzinsky C, Sillén U, Bräutigam M, et al. · 2026 Apr 08</div>
+  <div class="section"><p><b>研究目的：</b>本研究旨在報告健康足月兒在出生至2.5歲期間的正常排便習慣、功能性便秘的盛行率、長期預後，並探討其風險因子。</p><p><b>研究設計：</b>此為一前瞻性世代追蹤研究，納入122名健康足月嬰兒，透過家長填寫問卷進行重複追蹤。</p><p><b>主要發現：</b>研究發現，排便頻率隨年齡增長而下降，並在6個月後趨於穩定；糞便稠度則隨年齡增長，硬便和極硬便的比例增加。功能性便秘的盛行率為22.1%，在最後一次追蹤時，仍有69.6%的兒童需要藥物治療，且有26.1%出現復發。研究未發現基線或2個月大時的風險因子會增加後續功能性便秘的機率，但2週大時的母乳哺育可降低2.5歲前發生功能性便秘的可能性。</p><p><b>臨床意義：</b>本研究聚焦於健康足月兒的功能性便秘，與新生兒加護病房（NICU）早產兒的照護決策無直接相關性。其結果提供了健康兒童排便習慣的參考數據，但對早產兒或新生兒重症的臨床實踐影響有限。</p></div>
+  <div id="analysis-result-41952358"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41952358/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1111/apa.70540" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41952358" data-rating="must_read" onclick="vote('41952358','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41952358-must_read" style="display:none;">0</span></button> <button data-pmid="41952358" data-rating="useful" onclick="vote('41952358','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41952358-useful" style="display:none;">0</span></button> <button data-pmid="41952358" data-rating="so_so" onclick="vote('41952358','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41952358-so_so" style="display:none;">0</span></button> <button data-pmid="41952358" data-rating="skip" onclick="vote('41952358','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41952358-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41952358" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41952358" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41952358','Bowel Habits and Functional Constipation in Healthy Children-A Longitudinal Birth-Cohort Study.',this,false)">
+  <button id="upload-btn-41952358" onclick="document.getElementById('pdf-41952358').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41952358" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Acta Paediatrica</span></div>
+  <h2 class="card-title">Metaphorical Language in Paediatric Vaccine Communication: Framing Risk and Building Trust Among Children and Adolescents.</h2>
+  <div class="card-authors">Nuccetelli F, Gabellone V, Lopalco PL · 2026 Apr 08</div>
+  <div class="section"><p><b>研究目的：</b>本研究旨在探討在兒科疫苗溝通中，隱喻語言如何有效建構風險並在父母、兒童及青少年之間建立信任。</p><p><b>研究設計：</b>研究採用敘事性綜合分析，並結合一項針對2681名義大利青少年的原創調查。調查比較了三種訊息框架：戰爭隱喻、保護/關懷隱喻及中性事實陳述。</p><p><b>主要發現：</b>保護/關懷隱喻在疫苗信心指數上得分最高（平均 9.1），顯著優於戰爭隱喻和中性訊息（p < 0.01）。戰爭隱喻雖能激發緊迫感，但可能導致焦慮、抗拒並降低個人自主感，尤其對年輕受眾而言。</p><p><b>臨床意義：</b>本研究結果對新生兒科照護無直接臨床意義。其建議將適合年齡的保護及關懷隱喻融入兒科疫苗溝通，以提升信任和疫苗接受度，這主要影響一般兒科及公共衛生領域的溝通策略。</p></div>
+  <div id="analysis-result-41952323"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41952323/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1111/apa.70534" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41952323" data-rating="must_read" onclick="vote('41952323','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41952323-must_read" style="display:none;">0</span></button> <button data-pmid="41952323" data-rating="useful" onclick="vote('41952323','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41952323-useful" style="display:none;">0</span></button> <button data-pmid="41952323" data-rating="so_so" onclick="vote('41952323','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41952323-so_so" style="display:none;">0</span></button> <button data-pmid="41952323" data-rating="skip" onclick="vote('41952323','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41952323-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41952323" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41952323" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41952323','Metaphorical Language in Paediatric Vaccine Communication: Framing Risk and Building Trust Among Children and Adolescents.',this,false)">
+  <button id="upload-btn-41952323" onclick="document.getElementById('pdf-41952323').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 全文分析
+  </button>
+  <span id="upload-status-41952323" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<footer>
+  Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  AI scoring by Claude (Haiku + Sonnet)
+</footer>
+</div>
+</div>
+
+<script>
+(function() {
+  var TOKEN_HASH = "f724d168825f0e6e3287b6e6d6976726bde60a8a529f8e77db4e944219067d87";
+  var PW_HASH = "b6cf8ade465cb0435fd6e1a86d7f8a5b3f67639655691545ced5912ce1cfc08f";
+  var content = document.getElementById('digest-content');
+  var gate = document.getElementById('auth-gate');
+
+  function sha256(str) {
+    var encoder = new TextEncoder();
+    return crypto.subtle.digest('SHA-256', encoder.encode(str)).then(function(buf) {
+      return Array.from(new Uint8Array(buf)).map(function(b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    });
+  }
+
+  function unlock() {
+    gate.style.display = 'none';
+    content.style.display = 'block';
+  }
+
+  function checkAccess() {
+    // 1. Check URL token
+    var params = new URLSearchParams(window.location.search);
+    var t = params.get('t');
+    if (t && TOKEN_HASH) {
+      sha256(t).then(function(h) {
+        if (h === TOKEN_HASH) {
+          localStorage.setItem('digest_token', t);
+          unlock();
+        } else {
+          checkPassword();
+        }
+      });
+      return;
+    }
+
+    // 2. Check stored password
+    checkPassword();
+  }
+
+  function checkPassword() {
+    if (!PW_HASH) { unlock(); return; }
+    var saved = localStorage.getItem('digest_pw');
+    if (saved) {
+      sha256(saved).then(function(h) {
+        if (h === PW_HASH) { unlock(); }
+        else { gate.style.display = 'flex'; }
+      });
+    } else {
+      gate.style.display = 'flex';
+    }
+  }
+
+  window.submitPassword = function() {
+    var input = document.getElementById('pw-input').value;
+    sha256(input).then(function(h) {
+      if (h === PW_HASH) {
+        localStorage.setItem('digest_pw', input);
+        unlock();
+      } else {
+        document.getElementById('pw-error').style.display = 'block';
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', checkAccess);
+})();
+</script>
+<script>
+(function() {
+  var FEEDBACK_URL = "https://script.google.com/macros/s/AKfycbwqSMhyfrFydA2i22AuD_RQLv6bxFPG8m-Jp0G__u1vigkmj-SOx6uwrUiwfux7RNTy/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "newborn";
+  var voted = JSON.parse(localStorage.getItem('digest_voted') || '{}'  );
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore previous votes
+    Object.keys(voted).forEach(function(pmid) {
+      var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+      btns.forEach(function(btn) {
+        btn.style.opacity = '0.4';
+        btn.style.pointerEvents = 'none';
+      });
+      var label = document.getElementById('voted-' + pmid);
+      if (label) {
+        var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+        label.textContent = "Voted: " + (labels[voted[pmid]] || voted[pmid]) + " ✓";
+        label.style.display = 'block';
+      }
+    });
+  });
+
+  window.vote = function(pmid, rating, el) {
+    if (voted[pmid]) return;
+
+    // Get uid from token or anonymous
+    var uid = 'web_anon';
+    var t = new URLSearchParams(window.location.search).get('t');
+    if (t) uid = 'web_' + t.substring(0, 8);
+
+    // JSONP call
+    var script = document.createElement('script');
+    var cb = 'fb_' + Date.now();
+    window[cb] = function(resp) {
+      if (resp && resp.status === 'ok') {
+        voted[pmid] = rating;
+        localStorage.setItem('digest_voted', JSON.stringify(voted));
+
+        var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+        btns.forEach(function(btn) {
+          btn.style.opacity = '0.4';
+          btn.style.pointerEvents = 'none';
+        });
+        el.style.opacity = '1';
+        el.style.background = '#1B6B93';
+        el.style.color = '#fff';
+
+        // Update vote count
+        var cntEl = document.getElementById('cnt-' + pmid + '-' + rating);
+        if (cntEl) {
+          var n = parseInt(cntEl.textContent || '0') + 1;
+          cntEl.textContent = n;
+          cntEl.style.display = '';
+          cntEl.style.color = '#fff';
+        }
+
+        var label = document.getElementById('voted-' + pmid);
+        if (label) {
+          var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+          label.textContent = "Voted: " + (labels[rating] || rating) + " ✓";
+          label.style.display = 'block';
+        }
+      }
+      delete window[cb];
+      script.remove();
+    };
+    script.src = FEEDBACK_URL + '?action=feedback&pmid=' + pmid + '&rating=' + rating +
+      '&uid=' + uid + '&source=web&secret=' + SECRET + '&dept=' + DEPT + '&callback=' + cb;
+    document.body.appendChild(script);
+  };
+})();
+</script>
+<script>
+(function() {
+  var WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwqSMhyfrFydA2i22AuD_RQLv6bxFPG8m-Jp0G__u1vigkmj-SOx6uwrUiwfux7RNTy/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "newborn";
+  var uploaded = JSON.parse(localStorage.getItem('digest_uploaded') || '{}');
+
+  // Load analysis results on page load
+  function loadAnalysis(pmid) {
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        renderAnalysis(pmid, resp.analysis);
+      }
+    });
+  }
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore uploaded state from localStorage
+    Object.keys(uploaded).forEach(function(pmid) {
+      var btn = document.getElementById('upload-btn-' + pmid);
+      if (btn) {
+        btn.textContent = '✓ 已上傳，已分析';
+        btn.disabled = true;
+        btn.style.opacity = '0.5';
+        btn.style.cursor = 'default';
+      }
+      loadAnalysis(pmid);
+    });
+    // Auto-load analysis for articles that already have fulltext analysis
+    document.querySelectorAll('[data-has-analysis]').forEach(function(el) {
+      var pmid = el.getAttribute('data-has-analysis');
+      if (!uploaded[pmid]) {
+        loadAnalysis(pmid);
+      }
+    });
+  });
+
+  // JSONP helper for polling
+  function jsonpGet(url, callback) {
+    var script = document.createElement('script');
+    var cb = 'pdfcb_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5);
+    window[cb] = function(resp) {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback(resp);
+    };
+    script.src = url + '&callback=' + cb;
+    script.onerror = function() {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback({ status: 'error', message: 'Network error' });
+    };
+    document.head.appendChild(script);
+  }
+
+  // Poll for analysis result via JSONP GET
+  var POLL_TOTAL = 30;
+  var POLL_STEPS = [
+    '📤 PDF 已上傳，伺服器接收中...',
+    '📄 正在提取 PDF 全文...',
+    '📄 正在提取 PDF 全文...',
+    '🔍 全文提取中，準備進行 AI 分析...',
+    '🔍 全文提取完成，啟動 AI 分析...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 正在整合分析結果...',
+    '🤖 AI 正在整合分析結果...',
+    '💾 正在儲存分析結果...',
+    '💾 正在儲存分析結果...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，請耐心等候...',
+    '⏳ 仍在處理中，請耐心等候...',
+    '⏳ 大型 PDF 需要較長處理時間...',
+    '⏳ 大型 PDF 需要較長處理時間...',
+    '⏳ 即將完成，感謝您的耐心...',
+    '⏳ 即將完成，感謝您的耐心...',
+    '⏳ 即將完成...',
+    '⏳ 即將完成...',
+    '⏳ 最後處理中...',
+    '⏳ 最後處理中...',
+    '⏳ 最後處理中...'
+  ];
+
+  function pollForResult(pmid, btn, statusEl, attempts) {
+    if (attempts <= 0) {
+      btn.textContent = '❌ 分析逾時';
+      btn.disabled = false;
+      statusEl.textContent = '伺服器處理時間過長，請稍後再試';
+      statusEl.style.color = '#E24B4A';
+      return;
+    }
+
+    // Update progress message
+    var stepIdx = POLL_TOTAL - attempts;
+    var elapsed = (stepIdx + 1) * 10 + 15;
+    var msg = POLL_STEPS[Math.min(stepIdx, POLL_STEPS.length - 1)];
+    statusEl.textContent = msg + '（' + elapsed + '秒）';
+
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        btn.textContent = '✓ 全文分析完成';
+        btn.style.color = '#085041';
+        btn.style.borderColor = '#085041';
+        statusEl.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
+        statusEl.style.color = '#085041';
+        uploaded[pmid] = true;
+        localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
+        renderAnalysis(pmid, resp.analysis);
+      } else if (resp.status === 'pending') {
+        setTimeout(function() { pollForResult(pmid, btn, statusEl, attempts - 1); }, 10000);
+      } else {
+        btn.textContent = '❌ 分析失敗';
+        btn.disabled = false;
+        statusEl.textContent = resp.message || '請稍後再試';
+        statusEl.style.color = '#E24B4A';
+      }
+    });
+  }
+
+  window.handlePdfSelect = function(pmid, title, input, force) {
+    var file = input.files[0];
+    if (!file) return;
+    if (file.size > 10 * 1024 * 1024) {
+      alert('PDF 檔案不能超過 10MB');
+      return;
+    }
+
+    if (force && !confirm('確定要重新上傳並分析此 PDF？將會覆蓋現有的分析結果。')) {
+      input.value = '';
+      return;
+    }
+
+    var btn = document.getElementById('upload-btn-' + pmid);
+    var statusEl = document.getElementById('upload-status-' + pmid);
+    btn.textContent = '⏳ 上傳中...';
+    btn.disabled = true;
+    statusEl.textContent = '📤 正在上傳 PDF 至伺服器...';
+    statusEl.style.display = 'inline';
+    statusEl.style.color = '#1B6B93';
+
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var base64 = e.target.result.split(',')[1];
+
+      // Step 1: Submit via fetch + URLSearchParams (no-cors, response ignored — polling handles result)
+      fetch(WEBHOOK_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: new URLSearchParams({
+          action: 'upload_pdf',
+          pmid: pmid,
+          title: title,
+          pdf_base64: base64,
+          secret: SECRET,
+          dept: DEPT,
+          force: force ? 'true' : 'false'
+        })
+      }).catch(function() {});
+
+      // Step 2: Poll for result via JSONP (every 10s, up to POLL_TOTAL attempts)
+      setTimeout(function() { pollForResult(pmid, btn, statusEl, POLL_TOTAL); }, 15000);
+    };
+    reader.readAsDataURL(file);
+  };
+
+  window.renderAnalysis = function(pmid, data) {
+    var container = document.getElementById('analysis-result-' + pmid);
+    if (!container) return;
+
+    var a = data.deep_analysis || data;
+    var html = '';
+
+    if (a.thirty_second_summary) {
+      html += '<div class="section"><b>30 秒重點：</b>' + a.thirty_second_summary + '</div>';
+    }
+
+    var hidden = a.hidden_findings || [];
+    if (hidden.length > 0) {
+      html += '<div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div>';
+      for (var i = 0; i < hidden.length; i++) {
+        html += '<p><b>' + (hidden[i].finding || '') + '</b> ' + (hidden[i].source || '') + '。' + (hidden[i].implication || '') + '</p>';
+      }
+      html += '</div>';
+    }
+
+    var meth = a.methodology_audit || {};
+    var methHtml = '';
+    (meth.strengths || []).forEach(function(s) { methHtml += '<div class="hl hl-green"><b>Strong：</b>' + s + '</div>'; });
+    (meth.notes || []).forEach(function(n) { methHtml += '<div class="hl hl-amber"><b>Note：</b>' + n + '</div>'; });
+    (meth.weaknesses || []).forEach(function(w) { methHtml += '<div class="hl hl-red"><b>Weak：</b>' + w + '</div>'; });
+    if (methHtml) {
+      html += '<div class="section"><div class="section-label" style="color:#633806">方法學評估</div>' + methHtml + '</div>';
+    }
+
+    var impact = a.protocol_impact || {};
+    if (impact.proposed_change) {
+      var impactHtml = '<div class="hl hl-blue">';
+      if (impact.current_practice) impactHtml += '<b>目前做法：</b>' + impact.current_practice + '<br>';
+      if (impact.proposed_change) impactHtml += '<b>建議調整：</b>' + impact.proposed_change + '<br>';
+      if (impact.missing_evidence) impactHtml += '<b>等待的證據：</b>' + impact.missing_evidence;
+      impactHtml += '</div>';
+      html += '<div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div>' + impactHtml + '</div>';
+    }
+
+    container.innerHTML = html;
+  };
+})();
+</script>
+</body>
+</html>
