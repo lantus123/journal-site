@@ -32,7 +32,7 @@ class LLMClient:
     """Unified LLM client with retry logic and cost tracking."""
 
     def __init__(self):
-        self.provider = os.environ.get("LLM_PROVIDER", "anthropic").lower()
+        self.provider = os.environ.get("LLM_PROVIDER", "gemini").lower()
         if self.provider not in MODELS:
             raise ValueError(f"Unknown LLM_PROVIDER: {self.provider}. Available: {list(MODELS.keys())}")
 
