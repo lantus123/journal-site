@@ -323,13 +323,22 @@ def main():
     output_path = project_root / "data" / args.dept / "manual_chunks.json"
 
     if not manuals_dir.exists():
-        logger.error(f"Manuals directory not found: {manuals_dir}")
-        sys.exit(1)
+        logger.warning(f"Manuals directory not found: {manuals_dir} — skipping (pipeline will run without protocol matching)")
+        # Save empty chunks so downstream code doesn't break
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump([], f)
+        logger.info(f"Saved empty chunks to {output_path}")
+        return
 
     docx_files = sorted(manuals_dir.glob("*.docx"))
     if not docx_files:
-        logger.error(f"No .docx files found in {manuals_dir}")
-        sys.exit(1)
+        logger.warning(f"No .docx files found in {manuals_dir} — skipping")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump([], f)
+        logger.info(f"Saved empty chunks to {output_path}")
+        return
 
     logger.info(f"Found {len(docx_files)} .docx files in {manuals_dir}")
 
