@@ -688,7 +688,7 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
   <button id="upload-btn-{pmid}" onclick="document.getElementById('pdf-{pmid}').click()"
     style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
     color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
-    📄 上傳 PDF 全文分析
+    📄 上傳 PDF 解鎖完整分析
   </button>
   <span id="upload-status-{pmid}" style="display:none;font-size:13px;margin-left:8px;"></span>
 </div>"""
@@ -794,6 +794,8 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
       btn.disabled = false;
       statusEl.textContent = '伺服器處理時間過長，請稍後再試';
       statusEl.style.color = '#E24B4A';
+      var orig = document.getElementById('original-analysis-' + pmid);
+      if (orig) orig.style.display = '';
       return;
     }}
 
@@ -806,13 +808,15 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
     var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
     jsonpGet(url, function(resp) {{
       if (resp.status === 'ok' && resp.analysis) {{
-        btn.textContent = '✓ 全文分析完成';
+        btn.textContent = '✓ 已有全文分析';
         btn.style.color = '#085041';
         btn.style.borderColor = '#085041';
         statusEl.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
         statusEl.style.color = '#085041';
         uploaded[pmid] = true;
         localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
+        var orig = document.getElementById('original-analysis-' + pmid);
+        if (orig) orig.style.display = 'none';
         renderAnalysis(pmid, resp.analysis);
       }} else if (resp.status === 'pending') {{
         setTimeout(function() {{ pollForResult(pmid, btn, statusEl, attempts - 1); }}, 10000);
@@ -821,6 +825,8 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
         btn.disabled = false;
         statusEl.textContent = resp.message || '請稍後再試';
         statusEl.style.color = '#E24B4A';
+        var orig = document.getElementById('original-analysis-' + pmid);
+        if (orig) orig.style.display = '';
       }}
     }});
   }}
@@ -1043,7 +1049,7 @@ details[open] summary span:first-child{{transform:rotate(90deg)}}
   <div class="card-tags">{tags}</div>
   <h2 class="card-title">{article.get('title', '')}</h2>
   <div class="card-authors">{article.get('authors', '')} · {article.get('pub_date', '')}</div>
-  {content}
+  <div id="original-analysis-{pmid}">{content}</div>
   <div id="analysis-result-{pmid}"></div>
   <div class="card-links">{links}</div>
   {feedback}
