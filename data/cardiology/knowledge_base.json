@@ -6550,5 +6550,329 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-10"
+  },
+  {
+    "pmid": "41961498",
+    "title": "Nirsevimab in High-Risk Infants in a Respiratory Syncytial Virus Prevention Strategy.",
+    "authors": "Sauré D, Torres JP, Goic M, et al.",
+    "journal": "JAMA Network Open",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1001/jamanetworkopen.2026.6042",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 4
+    },
+    "keywords": [
+      "RSV",
+      "nirsevimab",
+      "早產兒",
+      "先天性心臟病",
+      "住院率"
+    ],
+    "one_liner": "這篇全國性研究證實nirsevimab全民免疫策略能顯著降低高風險嬰兒RSV住院率，支持其取代palivizumab成為主流預防措施。",
+    "summary": {
+      "purpose": "本研究旨在評估智利實施nirsevimab全民免疫策略後，其與高風險嬰兒（早產兒或先天性心臟病）RSV相關下呼吸道感染住院率降低的關聯性。",
+      "design": "這是一項全國性的病例對照研究，分析智利2024年RSV流行季的醫院登記資料。病例組為因RSV相關LRTI住院的風險嬰兒（GA <36週或CHD），對照組為未住院的嬰兒，按年齡、早產或CHD狀態及地理區域以1:4比例匹配。研究對象包括所有風險嬰兒，並特別分析高風險嬰兒（GA <32週或CHD）的亞組。",
+      "findings": "在179例RSV相關LRTI住院的風險嬰兒中，177例成功匹配708例對照嬰兒。病例組有88.1%接受nirsevimab，對照組有97.3%接受。Nirsevimab與所有風險嬰兒RSV相關LRTI住院風險降低84.3% (95% CI, 67.0%-92.5%) 相關。在高風險嬰兒（極度早產兒與CHD合併）中，住院風險降低85.1% (95% CI, 60.2%-94.4%)；單純CHD嬰兒降低96.3% (95% CI, 65.5%-99.6%)。然而，單純極度早產兒組的住院風險降低65.9% (95% CI, -10.8% to 89.5%)，未達統計學顯著意義。",
+      "significance": "這項全國性真實世界研究提供了強有力的證據，證明nirsevimab全民免疫計畫能顯著降低高風險嬰兒RSV相關LRTI住院率。這些發現支持以更廣泛的nirsevimab策略取代目前針對性的palivizumab預防措施，作為RSV預防政策的一部分，儘管單純極度早產兒組的效益需進一步研究釐清。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這份來自智利全國性計畫的真實世界證據顯示，單劑 nirsevimab 能有效降低高風險嬰兒（早產兒或 CHD）因 RSV 住院的機率達 84.3%。對合併 CHD 的嬰兒保護力極佳 (96.3%)，但值得注意的是，在單純 GA <32 週的極度早產兒亞群中，其保護效果的信賴區間橫跨無效值 (95% CI, -10.8% to 89.5%)，未達統計顯著。這項研究強力支持我們從每月注射 palivizumab 轉換為單劑 nirsevimab 的策略，但對於最脆弱的極度早產兒族群，其效益仍需更謹慎的評估。",
+      "hidden_findings": [
+        {
+          "finding": "在單純極度早產兒 (GA <32 週) 的亞群中，nirsevimab 預防 RSV 住院的效果未達統計學意義 (65.9%; 95% CI, -10.8% to 89.5%)。",
+          "source": "Abstract, Results section.",
+          "implication": "這是我們 NICU 最核心、風險最高的族群。Palivizumab 在此族群的效益是確立的。這個不顯著的結果可能是因為此亞群的個案數不足導致統計檢定力 (power) 不夠，或是 nirsevimab 在此族群的真實保護力確實不如在其他族群中那麼強。閱讀全文時，必須仔細檢視此亞群的人數、基線特徵（如 BPD 比例、住院天數）以及事件發生率，來判斷這是否為一個警訊。"
+        },
+        {
+          "finding": "Abstract 將「高風險」定義為 GA <32 週或 CHD，但並未提供更細的 GA 分層（如 <28 週 vs 28-32 週）或 CHD 的類型（如發紺型 vs 非發紺型、血行動力學是否顯著）。",
+          "source": "Abstract, Methods and Results sections.",
+          "implication": "臨床上，一個 25 週合併 BPD 的早產兒和一個 31 週健康出院的早產兒，其 RSV 風險截然不同。同樣地，一個需要手術的複雜型心臟病童和一個小型 VSD 的心臟病童風險也不同。我們需要從全文中尋找更精細的 subgroup data，來評估 nirsevimab 對我們最常見的極低出生體重 (ELBW) 或 BPD 病患的保護力到底如何。"
+        },
+        {
+          "finding": "研究並未將 BPD 作為一個獨立的風險因子或亞群進行分析。",
+          "source": "Omission from Abstract.",
+          "implication": "BPD 是我們給予 palivizumab 最重要的適應症之一。Nirsevimab 對於有中重度 BPD、需要呼吸支持的嬰兒保護力如何，是決定我們是否能全面轉換策略的關鍵。全文或 supplementary data 是否有 BPD 相關的分析，是我們閱讀時必須尋找的重點。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "全國性的真實世界證據 (Real-World Evidence, RWE)，涵蓋公私立醫院，generalizability 非常高。",
+          "以全國性登錄資料為基礎，減少了單一中心研究的選擇性偏誤 (selection bias)。",
+          "採用病例對照研究設計，並進行了年齡、風險狀態和地理區域的配對，有助於控制已知的混淆變項。"
+        ],
+        "notes": [
+          "研究設計是病例對照研究 (case-control)，而非 RCT。因此，結果是「關聯性 (association)」而非「因果關係 (causation)」。",
+          "RSV-related LRTI 的診斷標準為何？是否全數經過 PCR 確認？這會影響結果的準確性。",
+          "研究終點是「住院」，但未提及住院嚴重程度的指標，如 ICU 入住率、呼吸器使用天數、或死亡率。"
+        ],
+        "weaknesses": [
+          "潛在的殘餘混淆 (residual confounding)：接種 nirsevimab 的家庭可能在其他方面（如洗手、避免出入公共場所）也更注意預防感染，這種「健康使用者效應」可能高估了藥物的真實效果。",
+          "極度早產兒亞群的統計檢定力不足 (underpowered)：寬廣的信賴區間顯示此 subgroup 的樣本數可能太小，無法做出確定性的結論。",
+          "缺乏 BPD 嚴重程度的資料：這是評估對 NICU 最相關病患群體效益的一大限制。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Hammitt LL et al. (MELODY Trial), NEJM 2022",
+            "comparison": "MELODY 是 nirsevimab 在健康足月及晚期早產兒 (GA ≥35週) 的關鍵性 RCT。本研究則將對象擴展至更高風險的早產兒 (GA <36週) 和 CHD 族群，並提供真實世界的「效益 (effectiveness)」數據，而非臨床試驗的「功效 (efficacy)」。"
+          },
+          {
+            "citation": "Griffin MP et al. (MEDLEY Trial), NEJM 2020",
+            "comparison": "MEDLEY 是一項在 palivizumab 適用族群（高風險早產兒、BPD、CHD）中比較 nirsevimab 與 palivizumab 安全性的 Phase II/III 試驗。它證明了 nirsevimab 的安全性，但並非設計來證明其優越性或非劣效性。本研究則提供了大規模的效益數據，是 MEDLEY 試驗後的重要補充。"
+          }
+        ],
+        "guideline_status": "目前國際指引（如美國 AAP）已從過去嚴格限制 palivizumab 的使用，轉為建議所有出生未滿 8 個月的嬰兒在進入第一個 RSV 季節時，都應接受 nirsevimab。本研究的結果，特別是在高風險族群中的高效益，強烈支持此一轉變。",
+        "evidence_gap_filled": "本研究填補了 nirsevimab 從臨床試驗走向大規模、全國性公衛政策後，在真實世界中對「傳統 palivizumab 高風險族群」的實際保護效益數據。它證實了在一個國家全面推行此策略是可行且有效的。",
+        "ongoing_trials": "目前 nirsevimab 已廣泛上市使用，未來不太可能再有大規模的安慰劑對照 RCT。後續研究將會集中在上市後監測 (post-marketing surveillance)、對特殊族群（如免疫不全、極端早產兒）的效益分析，以及成本效益分析。"
+      },
+      "protocol_impact": {
+        "current_practice": "目前針對高風險新生兒，我們採用 palivizumab 預防策略。適應症主要包括：1) 出生 GA ≤28+6 週的早產兒；2) 患有慢性肺病 (BPD) 且在 RSV 季節開始時仍需氧氣治療的早產兒；3) 患有血行動力學上顯著之先天性心臟病的嬰兒。給藥方式為 15 mg/kg，肌肉注射，在 RSV 流行季節（約每年10月至隔年3月）每月一次，最多五劑。",
+        "proposed_change": "根據本研究及國際趨勢，建議將科內 protocol 全面轉換為 nirsevimab。所有符合原 palivizumab 適應症的嬰兒，以及更廣泛的族群（如所有 GA <35 週出院的嬰兒），在進入 RSV 季節前給予單一劑量 nirsevimab。劑量為：體重 <5 kg 給予 50 mg IM；體重 ≥5 kg 給予 100 mg IM。這將大幅簡化流程，從五次門診注射變為出院前或首次回診時單次注射即可。",
+        "prerequisites": [
+          "修訂科內 RSV 預防的臨床指引，並經院方藥事委員會審核通過。",
+          "與藥劑部協調 nirsevimab 的採購、庫存及成本效益評估。",
+          "對全體 NICU 醫護人員、以及門診護理師進行 in-service training，內容包括適應症、劑量、施打方式及副作用監測。",
+          "製作新的家長衛教單張，解釋 nirsevimab 與 palivizumab 的不同。"
+        ],
+        "missing_evidence": "我們最需要的是更明確的證據，來證實 nirsevimab 在我們最脆弱的族群——特別是出生體重 <1000g 且合併中重度 BPD 的 ELBW 嬰兒——其保護力至少不劣於 (non-inferior to) palivizumab。在本研究中該族群數據的不確定性，是我們轉換策略時唯一需要審慎監測的環節。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-11"
+  },
+  {
+    "pmid": "41958292",
+    "title": "Obesity prevalence and risk factors in surgically repaired CHD.",
+    "authors": "Ammerman E, Huang A, Holmes KW, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 10",
+    "doi": "10.1017/S1047951126111718",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "CHD",
+      "obesity",
+      "long-term outcome",
+      "coarctation of the aorta",
+      "pediatrics"
+    ],
+    "one_liner": "本研究指出經手術矯正的先天性心臟病童有較高的肥胖風險，新生兒科醫師在長期追蹤時應留意此潛在問題。",
+    "summary": {
+      "purpose": "本研究旨在探討經手術矯正之先天性心臟病童的肥胖盛行率及其相關風險因子，以了解此族群的體重管理現況。",
+      "design": "本研究為單中心、回溯性世代研究，納入2004至2020年間接受手術矯正的先天性心臟病童（限d-transposition of the great arteries, coarctation of the aorta, 或 tetralogy of Fallot，且於6個月大前完成手術），共240名病患。",
+      "findings": "在240名病患中，36.2%過重，20.8%肥胖，顯著高於奧勒岡州同期預期盛行率（13.7%，p <0.01）。其中，coarctation of the aorta 病患的肥胖盛行率顯著高於其他診斷（p <0.01）。2004-2008年世代的肥胖率最高（p <0.01），而2014-2017年世代的肥胖風險增加率最高。",
+      "significance": "經手術矯正的先天性心臟病童，其肥胖盛行率顯著高於一般兒童，且診斷類型（特別是coarctation of the aorta）會影響肥胖風險。這提示我們在長期追蹤這些病童時，需特別關注其體重管理，並考慮運動限制及早期強調體重增加等潛在影響因素。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-11"
+  },
+  {
+    "pmid": "41957907",
+    "title": "Anatomy of the Pulmonary Circulation and Outcomes in Tetralogy of Fallot With Major Systemic-to-Pulmonary Collaterals and Unilateral Pulmonary Artery of Ductal Origin.",
+    "authors": "Ortega J, Adamson GT, Jaggi A, et al.",
+    "journal": "Catheterization and Cardiovascular Interventions",
+    "pub_date": "2026 Apr 09",
+    "doi": "10.1002/ccd.70585",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "TOF",
+      "MAPCAs",
+      "PDA",
+      "congenital heart disease",
+      "surgical outcomes"
+    ],
+    "one_liner": "這篇研究描述了TOF/MAPCAs的一個罕見亞型，並確認新生兒期DA支架置放結合早期手術可帶來良好長期預後，對於照護此類複雜先天性心臟病新生兒的NICU醫師具有參考價值。",
+    "summary": {
+      "purpose": "本研究旨在描述法洛氏四合症 (TOF) 合併主要體肺側枝循環 (MAPCAs) 且單側肺動脈由動脈導管 (DA) 供應的特殊亞型患者之肺循環解剖構造，並報告其長期手術預後。",
+      "design": "這是一項單中心回溯性世代研究，納入2001年11月至2025年4月間接受手術的TOF/MAPCAs患者中，符合單側肺動脈由DA供應的特定亞型。研究從880名TOF/MAPCAs患者中篩選出61名符合此亞型，最終42名符合納入標準。",
+      "findings": "在此亞型患者中，DA幾乎總是供應左肺動脈（39/42, 91%）。對側肺的MAPCAs在21名患者中連接到完全或部分樹狀分枝的中央肺動脈。來自冠狀動脈的MAPCAs比例較高（14% vs. 5%, p=0.019）。18名患者在術前接受DA支架置放。首次手術中位年齡為5.1個月，74%完成完全修復，最終僅1例未完成。中位追蹤6.2年，10年無移植存活率為86% ± 6%，5年和10年無肺動脈再介入率分別為63% ± 9%和59% ± 9%。",
+      "significance": "本研究明確定義了TOF/MAPCAs的一個特殊解剖亞型，並指出在新生兒期對DA進行支架置放，隨後在嬰兒早期進行肺動脈重建和修復，是此類患者的合適治療策略，且預後良好。這有助於NICU醫師在面對此類複雜先天性心臟病新生兒時，能更精準地評估和轉介，並了解其長期預後。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-11"
+  },
+  {
+    "pmid": "41961271",
+    "title": "Social Media Perspectives on Congenital Heart Disease: Integrating Thematic and Sentiment Analysis to Characterize the Digital Health Footprint.",
+    "authors": "Dominy CL, Takoushian E, Donovan DJ, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 10",
+    "doi": "10.1007/s00246-026-04255-7",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Congenital Heart Disease",
+      "Social Media",
+      "Sentiment Analysis",
+      "Digital Health",
+      "Patient Education"
+    ],
+    "one_liner": "本研究分析社群媒體上關於先天性心臟病的討論，提供公眾認知層面的見解，而非直接的臨床照護指引。",
+    "summary": {
+      "purpose": "本研究旨在透過主題與情感分析，探討社群媒體上關於先天性心臟病 (Congenital Heart Disease) 的討論與觀點，以描繪其數位健康足跡。",
+      "design": "本研究採用主題分析與情感分析方法，對社群媒體數據進行探討。由於缺乏摘要，無法提供具體的胎齡 (GA)、出生體重或樣本數資訊。",
+      "findings": "由於缺乏摘要，無法提供主要研究發現。",
+      "significance": "本研究結果可能提供關於先天性心臟病在社群媒體上的公眾認知、資訊傳播模式或支持網絡的見解。這些資訊對於制定公眾健康教育策略或提升病患溝通可能有所助益，但對新生兒加護病房 (NICU) 的臨床照護決策並無直接影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-11"
+  },
+  {
+    "pmid": "41958305",
+    "title": "Could N-terminal pro-brain natriuretic peptide predict cardiac involvement in children with Duchenne muscular dystrophy as detected by real-time three-dimensional (four-dimensional) and speckle-tracking echocardiography?",
+    "authors": "Kaynak E, Eroğlu AG, Sayılı U, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 10",
+    "doi": "10.1017/S1047951126112062",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Duchenne muscular dystrophy",
+      "NT-proBNP",
+      "echocardiography",
+      "cardiac involvement",
+      "children"
+    ],
+    "one_liner": "這篇文章探討 NT-proBNP 在 Duchenne 肌肉失養症兒童心臟評估中的應用，與新生兒照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本研究旨在評估 N-terminal pro-brain natriuretic peptide (NT-proBNP) 在 Duchenne 肌肉失養症 (DMD) 病童中，結合即時三維及三維斑點追蹤心臟超音波，偵測心臟受損的潛在角色。",
+      "design": "一項橫斷面研究，納入 38 名平均年齡 9.40 ± 4.13 歲的 DMD 病童（21 歲以下），同時進行臨床評估、即時三維心臟超音波、三維斑點追蹤心臟超音波及血清 NT-proBNP 測量。",
+      "findings": "NT-proBNP 與多項心臟超音波參數（包括基底前外側及下外側縱向應變、心尖中隔縱向應變、基底前外側及下外側徑向應變）呈現中度顯著相關 (p < 0.05)。NT-proBNP 較高組 (≥125 pg/ml) 的病童顯示基底前外側縱向應變受損。",
+      "significance": "本研究探討 NT-proBNP 結合先進心臟超音波技術在 DMD 病童心臟評估中的應用，但因研究對象為兒童而非新生兒，對新生兒加護病房 (NICU) 的臨床照護無直接意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-11"
+  },
+  {
+    "pmid": "41956964",
+    "title": "Prenatal Diagnosis of Congenital Heart Disease in a Developing Country-A Cross-Sectional Study.",
+    "authors": "Hammoud L, Zareef R, Khalek JA, et al.",
+    "journal": "Prenatal Diagnosis",
+    "pub_date": "2026 Apr 09",
+    "doi": "10.1002/pd.70144",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "CHD",
+      "prenatal diagnosis",
+      "fetal echocardiography",
+      "counseling",
+      "resource-limited settings"
+    ],
+    "one_liner": "這篇研究揭示了資源有限地區先天性心臟病產前診斷率低及諮詢不足的現況，對新生兒科醫師而言，可作為與家屬討論未來懷孕風險的背景資訊。",
+    "summary": {
+      "purpose": "本研究旨在量化資源有限地區先天性心臟病 (CHD) 的產前診斷率、胎兒心臟超音波的使用情況，以及預測未來懷孕諮詢的因素。",
+      "design": "本研究為橫斷面調查，針對362個CHD患兒家庭進行問卷調查，收集社會人口學、產科史、產前篩檢、胎兒心臟超音波使用及未來懷孕諮詢等資料。",
+      "findings": "在362個家庭中，僅48名兒童 (13.3%) 在產前被診斷出CHD，儘管99.7%有產科追蹤，59.4%有產前超音波篩檢。產前超音波篩檢在產前診斷組更頻繁 (97.9% vs. 53.5%; p<0.001)。胎兒心臟超音波在懷疑有心外畸形或中度至複雜性CHD時更常用 (p<0.001)。僅113/362 (31.2%) 的家庭表示曾獲得未來懷孕諮詢，且多變量分析顯示CHD複雜度與諮詢獨立相關 (OR 3.21; p<0.001)，而CHD家族史則無關 (p=0.91)。",
+      "significance": "本研究揭示在資源有限地區，CHD的產前診斷率偏低，且胎兒心臟超音波諮詢不一致，主要集中於複雜性CHD。這凸顯了轉介和諮詢流程的不足，支持加強產科與小兒心臟科服務整合的必要性。對於新生兒科醫師而言，這提醒我們在面對未經產前診斷的CHD新生兒時，需更主動地與家屬討論未來懷孕的風險及轉介諮詢的重要性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-11"
+  },
+  {
+    "pmid": "41956264",
+    "title": "Distinct Mechanistic Features of Atrial Fibrillation in Hypertrophic Cardiomyopathy.",
+    "authors": "Liu M, Huang S, Kawana M, et al.",
+    "journal": "Heart Rhythm",
+    "pub_date": "2026 Apr 07",
+    "doi": "10.1016/j.hrthm.2026.03.1958",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Atrial Fibrillation",
+      "Hypertrophic Cardiomyopathy",
+      "AF-HCM",
+      "Cardiology",
+      "Arrhythmia"
+    ],
+    "one_liner": "新生兒科醫師可以跳過這篇，因為它與新生兒照護無直接關聯，主要探討成人肥厚性心肌病變合併心房顫動的機制與治療。",
+    "summary": {
+      "purpose": "此回顧旨在綜合探討肥厚性心肌病變合併心房顫動（AF-HCM）的遺傳、分子及血流動力學機制，並討論其治療挑戰。",
+      "design": "此為一篇敘述性回顧（narrative review），並未提及特定的受試者群體（如GA範圍、出生體重）或樣本數，主要綜合現有證據。",
+      "findings": "AF-HCM被認為是一個獨特的臨床實體，特徵為早期發病、高盛行率及預後不良。患者中風和心衰竭的風險顯著增加，需要全面抗凝血及積極心律控制。目前治療（如心導管燒灼術和抗心律不整藥物）在該族群中療效有限。",
+      "significance": "此研究主題與新生兒科的日常照護無直接臨床意義。其內容主要聚焦於成人心臟科領域的肥厚性心肌病變合併心房顫動，探討其病理機制及治療困境，與新生兒或早產兒的照護範疇不符。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-11"
+  },
+  {
+    "pmid": "41956263",
+    "title": "Atrial Fibrillation in Hypertrophic Cardiomyopathy: A Unique Clinical Entity Requiring Dedicated Study.",
+    "authors": "Rowin EJ, Siontis KC, Owens A, et al.",
+    "journal": "Heart Rhythm",
+    "pub_date": "2026 Apr 07",
+    "doi": "10.1016/j.hrthm.2026.03.1961",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Atrial Fibrillation",
+      "Hypertrophic Cardiomyopathy",
+      "Arrhythmia"
+    ],
+    "one_liner": "這篇文章討論成人肥厚性心肌病變合併心房顫動的獨特性，與新生兒科的臨床實務無關。",
+    "summary": {
+      "purpose": "本篇旨在探討肥厚性心肌病變合併心房顫動（HCM-AF）的獨特性，並指出其在知識與照護上的不足，強調其為一個需要專門研究的臨床實體。",
+      "design": "本篇為一篇敘述性評論，旨在強調HCM-AF的獨特性並指出知識與照護上的不足。文章未包含具體研究設計、樣本數或新生兒相關的患者群體資訊。",
+      "findings": "研究指出，HCM-AF在20-25%的肥厚性心肌病變患者中發生，與中風風險及心臟衰竭惡化等顯著發病率相關。其病理機制（包含心房結構改變、生物物理異常及心房功能障礙）與非HCM AF不同，導致導管燒灼術及抗心律不整藥物治療的節律控制成功率較低。",
+      "significance": "本篇強調HCM-AF是一個獨特的臨床實體，現有針對非HCM AF的治療方法可能效果不佳，因此需要專門研究以開發更有效的治療策略。然而，此研究主題與新生兒科臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-11"
   }
 ]
