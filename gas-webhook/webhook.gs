@@ -10,7 +10,7 @@
  * 2. Paste this entire script
  * 3. Add Script Properties (Settings → Script Properties):
  *    - LINE_CHANNEL_ACCESS_TOKEN: Your LINE Bot channel access token
- *    - ANTHROPIC_API_KEY: Your Claude API key
+ *    - GEMINI_API_KEY: Your Gemini API key
  *    - GITHUB_TOKEN: Personal access token (for updating feedback.json)
  *    - GITHUB_REPO: lantus123/journal-review-bot
  *    - FEEDBACK_SECRET: Shared secret for web/email feedback verification
@@ -186,19 +186,25 @@ function validateDept(dept) {
 
 
 /**
- * Robustly parse JSON from Claude API response.
+ * Robustly parse JSON from Gemini API response.
  * Handles markdown fences, trailing commas, and extracts JSON object if surrounded by text.
  */
 function parseJsonFromLLM(resp) {
   var data = JSON.parse(resp.getContentText("UTF-8"));
 
   // Check for API error
-  if (data.type === "error" || !data.content || !data.content[0]) {
-    console.error("API error:", JSON.stringify(data));
+  if (data.error) {
+    console.error("API error:", JSON.stringify(data.error));
     return null;
   }
 
-  var text = data.content[0].text;
+  // Gemini response format
+  if (!data.candidates || !data.candidates[0] || !data.candidates[0].content) {
+    console.error("Unexpected API response:", JSON.stringify(data).substring(0, 500));
+    return null;
+  }
+
+  var text = data.candidates[0].content.parts[0].text;
 
   // Strip markdown fences (```json ... ``` or ``` ... ```)
   text = text.replace(/^```(?:json)?\s*\n?/, "").replace(/\n?```\s*$/, "").trim();
@@ -325,7 +331,7 @@ function handleDeepAnalysisRequest(pmid, userId, replyToken, dept) {
   console.log("On-demand request: PMID " + pmid + " by " + userId.substring(0, 8) + " dept=" + dept);
 
   // 1. Reply immediately: "Analyzing..."
-  replyMessage(replyToken, "正在使用 Sonnet 進行深度分析，大約需要 60 秒...\nPMID: " + pmid);
+  replyMessage(replyToken, "正在使用 Gemini 進行深度分析，大約需要 60 秒...\nPMID: " + pmid);
 
   // 2. Fetch article info from PubMed
   var article = fetchPubMedArticle(pmid);
@@ -409,7 +415,7 @@ function fetchPubMedArticle(pmid) {
 
 function callSonnetAnalysis(article) {
   try {
-    var apiKey = getProperty("ANTHROPIC_API_KEY");
+    var apiKey = getProperty("GEMINI_API_KEY");
 
     var prompt = "你是一位台灣馬偕紀念醫院的新生兒/兒童重症專科資深主治醫師。\n" +
       "請針對以下文章做深度分析，用繁體中文回覆。\n" +
@@ -427,20 +433,19 @@ function callSonnetAnalysis(article) {
       "PMID: " + article.pmid + "\n\n" +
       "Abstract:\n" + article.abstract;
 
+    var url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=" + apiKey;
+
     var payload = {
-      model: "claude-sonnet-4-20250514",
-      max_tokens: 4096,
-      temperature: 0.2,
-      messages: [{ role: "user", content: prompt }]
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: {
+        temperature: 0.2,
+        maxOutputTokens: 4096
+      }
     };
 
-    var resp = UrlFetchApp.fetch("https://api.anthropic.com/v1/messages", {
+    var resp = UrlFetchApp.fetch(url, {
       method: "post",
       contentType: "application/json",
-      headers: {
-        "x-api-key": apiKey,
-        "anthropic-version": "2023-06-01"
-      },
       payload: JSON.stringify(payload),
       muteHttpExceptions: true
     });
@@ -448,7 +453,7 @@ function callSonnetAnalysis(article) {
     return parseJsonFromLLM(resp);
 
   } catch (err) {
-    console.error("Sonnet analysis error:", err);
+    console.error("Gemini analysis error:", err);
     return null;
   }
 }
@@ -693,7 +698,7 @@ function extractPdfText(pdfBase64) {
 
 function callSonnetWithFulltext(article, fulltext) {
   try {
-    var apiKey = getProperty("ANTHROPIC_API_KEY");
+    var apiKey = getProperty("GEMINI_API_KEY");
 
     var prompt = "你是一位台灣馬偕紀念醫院的新生兒/兒童重症專科資深主治醫師。\n" +
       "請針對以下文章做深度分析，用繁體中文回覆。\n" +
@@ -712,20 +717,19 @@ function callSonnetWithFulltext(article, fulltext) {
       "PMID: " + article.pmid + "\n\n" +
       "Full text:\n" + fulltext;
 
+    var url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=" + apiKey;
+
     var payload = {
-      model: "claude-sonnet-4-20250514",
-      max_tokens: 6000,
-      temperature: 0.2,
-      messages: [{ role: "user", content: prompt }]
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: {
+        temperature: 0.2,
+        maxOutputTokens: 6000
+      }
     };
 
-    var resp = UrlFetchApp.fetch("https://api.anthropic.com/v1/messages", {
+    var resp = UrlFetchApp.fetch(url, {
       method: "post",
       contentType: "application/json",
-      headers: {
-        "x-api-key": apiKey,
-        "anthropic-version": "2023-06-01"
-      },
       payload: JSON.stringify(payload),
       muteHttpExceptions: true
     });
@@ -733,7 +737,7 @@ function callSonnetWithFulltext(article, fulltext) {
     return parseJsonFromLLM(resp);
 
   } catch (err) {
-    console.error("Sonnet fulltext analysis error:", err);
+    console.error("Gemini fulltext analysis error:", err);
     return null;
   }
 }
