@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cardiology Journal Digest - 2026-04-11</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.8;font-size:16px}
+.container{max-width:720px;margin:0 auto;padding:20px}
+header{padding:20px 0;border-bottom:2px solid #1B6B93;margin-bottom:24px}
+.back{font-size:15px;color:#1B6B93;text-decoration:none}
+.back:hover{text-decoration:underline}
+.date{font-size:15px;color:#888;margin-top:8px}
+h1{font-size:26px;font-weight:700;color:#1B6B93;margin-top:4px}
+.stats{font-size:15px;color:#666;margin-top:6px}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:18px}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600}
+.tag-journal{font-size:13px;color:#999}
+.card-title{font-size:18px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px}
+.card-authors{font-size:14px;color:#999;margin-bottom:14px}
+.section{padding:14px 0;border-top:1px solid #f0f0ec}
+.section p{font-size:15px;color:#555;margin-bottom:8px}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:10px}
+.hl{border-left:3px solid;padding:10px 14px;margin:8px 0;font-size:15px;line-height:1.7;border-radius:0}
+.hl-green{border-color:#639922;background:#EAF3DE;color:#27500A}
+.hl-amber{border-color:#BA7517;background:#FAEEDA;color:#633806}
+.hl-red{border-color:#E24B4A;background:#FCEBEB;color:#791F1F}
+.hl-blue{border-color:#378ADD;background:#E6F1FB;color:#0C447C}
+.related{font-size:15px;color:#555;padding:8px 0;border-bottom:1px solid #f5f5f0}
+.related:last-child{border-bottom:none}
+.card-links{padding-top:14px;display:flex;gap:16px}
+.card-links a{font-size:14px;color:#1B6B93;text-decoration:none}
+.card-links a:hover{text-decoration:underline}
+footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;color:#999;text-align:center}
+.vote-count{font-size:13px;color:#1B6B93;font-weight:600}
+@media(max-width:600px){.container{padding:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">Cardiology Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院小兒心臟科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">或從 LINE / Email 點擊連結直接閱讀</p>
+</div>
+</div>
+
+<!-- Digest content (hidden until auth) -->
+<div id="digest-content" style="display:none;">
+<div class="container">
+<header>
+  <a href="index.html" class="back">← Back to archive</a>
+  <div class="date">2026/04/11 (Saturday)</div>
+  <h1>Cardiology Journal Digest</h1>
+  <div class="stats">6 articles</div>
+</header>
+
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 4-5: DEEP ANALYSIS</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">JAMA Network Open</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Nirsevimab in High-Risk Infants in a Respiratory Syncytial Virus Prevention Strategy.</h2>
+  <div class="card-authors">Sauré D, Torres JP, Goic M, et al. · 2026 Apr 01</div>
+  <div id="original-analysis-41961498"><div class="section"><b>30 秒重點：</b>這份來自智利全國性計畫的真實世界證據顯示，單劑 nirsevimab 能有效降低高風險嬰兒（早產兒或 CHD）因 RSV 住院的機率達 84.3%。對合併 CHD 的嬰兒保護力極佳 (96.3%)，但值得注意的是，在單純 GA <32 週的極度早產兒亞群中，其保護效果的信賴區間橫跨無效值 (95% CI, -10.8% to 89.5%)，未達統計顯著。這項研究強力支持我們從每月注射 palivizumab 轉換為單劑 nirsevimab 的策略，但對於最脆弱的極度早產兒族群，其效益仍需更謹慎的評估。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>在單純極度早產兒 (GA <32 週) 的亞群中，nirsevimab 預防 RSV 住院的效果未達統計學意義 (65.9%; 95% CI, -10.8% to 89.5%)。</b> Abstract, Results section.。這是我們 NICU 最核心、風險最高的族群。Palivizumab 在此族群的效益是確立的。這個不顯著的結果可能是因為此亞群的個案數不足導致統計檢定力 (power) 不夠，或是 nirsevimab 在此族群的真實保護力確實不如在其他族群中那麼強。閱讀全文時，必須仔細檢視此亞群的人數、基線特徵（如 BPD 比例、住院天數）以及事件發生率，來判斷這是否為一個警訊。</p><p><b>Abstract 將「高風險」定義為 GA <32 週或 CHD，但並未提供更細的 GA 分層（如 <28 週 vs 28-32 週）或 CHD 的類型（如發紺型 vs 非發紺型、血行動力學是否顯著）。</b> Abstract, Methods and Results sections.。臨床上，一個 25 週合併 BPD 的早產兒和一個 31 週健康出院的早產兒，其 RSV 風險截然不同。同樣地，一個需要手術的複雜型心臟病童和一個小型 VSD 的心臟病童風險也不同。我們需要從全文中尋找更精細的 subgroup data，來評估 nirsevimab 對我們最常見的極低出生體重 (ELBW) 或 BPD 病患的保護力到底如何。</p><p><b>研究並未將 BPD 作為一個獨立的風險因子或亞群進行分析。</b> Omission from Abstract.。BPD 是我們給予 palivizumab 最重要的適應症之一。Nirsevimab 對於有中重度 BPD、需要呼吸支持的嬰兒保護力如何，是決定我們是否能全面轉換策略的關鍵。全文或 supplementary data 是否有 BPD 相關的分析，是我們閱讀時必須尋找的重點。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>全國性的真實世界證據 (Real-World Evidence, RWE)，涵蓋公私立醫院，generalizability 非常高。</div><div class="hl hl-green"><b>Strong：</b>以全國性登錄資料為基礎，減少了單一中心研究的選擇性偏誤 (selection bias)。</div><div class="hl hl-green"><b>Strong：</b>採用病例對照研究設計，並進行了年齡、風險狀態和地理區域的配對，有助於控制已知的混淆變項。</div><div class="hl hl-amber"><b>Note：</b>研究設計是病例對照研究 (case-control)，而非 RCT。因此，結果是「關聯性 (association)」而非「因果關係 (causation)」。</div><div class="hl hl-amber"><b>Note：</b>RSV-related LRTI 的診斷標準為何？是否全數經過 PCR 確認？這會影響結果的準確性。</div><div class="hl hl-amber"><b>Note：</b>研究終點是「住院」，但未提及住院嚴重程度的指標，如 ICU 入住率、呼吸器使用天數、或死亡率。</div><div class="hl hl-red"><b>Weak：</b>潛在的殘餘混淆 (residual confounding)：接種 nirsevimab 的家庭可能在其他方面（如洗手、避免出入公共場所）也更注意預防感染，這種「健康使用者效應」可能高估了藥物的真實效果。</div><div class="hl hl-red"><b>Weak：</b>極度早產兒亞群的統計檢定力不足 (underpowered)：寬廣的信賴區間顯示此 subgroup 的樣本數可能太小，無法做出確定性的結論。</div><div class="hl hl-red"><b>Weak：</b>缺乏 BPD 嚴重程度的資料：這是評估對 NICU 最相關病患群體效益的一大限制。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Hammitt LL et al. (MELODY Trial), NEJM 2022</b> — MELODY 是 nirsevimab 在健康足月及晚期早產兒 (GA ≥35週) 的關鍵性 RCT。本研究則將對象擴展至更高風險的早產兒 (GA <36週) 和 CHD 族群，並提供真實世界的「效益 (effectiveness)」數據，而非臨床試驗的「功效 (efficacy)」。</div><div class="related"><b>Griffin MP et al. (MEDLEY Trial), NEJM 2020</b> — MEDLEY 是一項在 palivizumab 適用族群（高風險早產兒、BPD、CHD）中比較 nirsevimab 與 palivizumab 安全性的 Phase II/III 試驗。它證明了 nirsevimab 的安全性，但並非設計來證明其優越性或非劣效性。本研究則提供了大規模的效益數據，是 MEDLEY 試驗後的重要補充。</div><p><b>指引現況：</b>目前國際指引（如美國 AAP）已從過去嚴格限制 palivizumab 的使用，轉為建議所有出生未滿 8 個月的嬰兒在進入第一個 RSV 季節時，都應接受 nirsevimab。本研究的結果，特別是在高風險族群中的高效益，強烈支持此一轉變。</p><p><b>填補的 evidence gap：</b>本研究填補了 nirsevimab 從臨床試驗走向大規模、全國性公衛政策後，在真實世界中對「傳統 palivizumab 高風險族群」的實際保護效益數據。它證實了在一個國家全面推行此策略是可行且有效的。</p><p><b>進行中的相關試驗：</b>目前 nirsevimab 已廣泛上市使用，未來不太可能再有大規模的安慰劑對照 RCT。後續研究將會集中在上市後監測 (post-marketing surveillance)、對特殊族群（如免疫不全、極端早產兒）的效益分析，以及成本效益分析。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>目前針對高風險新生兒，我們採用 palivizumab 預防策略。適應症主要包括：1) 出生 GA ≤28+6 週的早產兒；2) 患有慢性肺病 (BPD) 且在 RSV 季節開始時仍需氧氣治療的早產兒；3) 患有血行動力學上顯著之先天性心臟病的嬰兒。給藥方式為 15 mg/kg，肌肉注射，在 RSV 流行季節（約每年10月至隔年3月）每月一次，最多五劑。<br><b>建議調整：</b>根據本研究及國際趨勢，建議將科內 protocol 全面轉換為 nirsevimab。所有符合原 palivizumab 適應症的嬰兒，以及更廣泛的族群（如所有 GA <35 週出院的嬰兒），在進入 RSV 季節前給予單一劑量 nirsevimab。劑量為：體重 <5 kg 給予 50 mg IM；體重 ≥5 kg 給予 100 mg IM。這將大幅簡化流程，從五次門診注射變為出院前或首次回診時單次注射即可。<br><b>導入準備：</b>修訂科內 RSV 預防的臨床指引，並經院方藥事委員會審核通過。, 與藥劑部協調 nirsevimab 的採購、庫存及成本效益評估。, 對全體 NICU 醫護人員、以及門診護理師進行 in-service training，內容包括適應症、劑量、施打方式及副作用監測。, 製作新的家長衛教單張，解釋 nirsevimab 與 palivizumab 的不同。<br><b>等待的證據：</b>我們最需要的是更明確的證據，來證實 nirsevimab 在我們最脆弱的族群——特別是出生體重 <1000g 且合併中重度 BPD 的 ELBW 嬰兒——其保護力至少不劣於 (non-inferior to) palivizumab。在本研究中該族群數據的不確定性，是我們轉換策略時唯一需要審慎監測的環節。</div></div></div>
+  <div id="analysis-result-41961498"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41961498/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1001/jamanetworkopen.2026.6042" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41961498" data-rating="must_read" onclick="vote('41961498','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41961498-must_read" style="display:none;">0</span></button> <button data-pmid="41961498" data-rating="useful" onclick="vote('41961498','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41961498-useful" style="display:none;">0</span></button> <button data-pmid="41961498" data-rating="so_so" onclick="vote('41961498','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41961498-so_so" style="display:none;">0</span></button> <button data-pmid="41961498" data-rating="skip" onclick="vote('41961498','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41961498-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41961498" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41961498" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41961498','Nirsevimab in High-Risk Infants in a Respiratory Syncytial Virus Prevention Strategy.',this,false)">
+  <button id="upload-btn-41961498" onclick="document.getElementById('pdf-41961498').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41961498" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 2-3: QUICK SUMMARY</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Cardiology in the Young</span></div>
+  <h2 class="card-title">Obesity prevalence and risk factors in surgically repaired CHD.</h2>
+  <div class="card-authors">Ammerman E, Huang A, Holmes KW, et al. · 2026 Apr 10</div>
+  <div id="original-analysis-41958292"><div class="section"><p><b>研究目的：</b>本研究旨在探討經手術矯正之先天性心臟病童的肥胖盛行率及其相關風險因子，以了解此族群的體重管理現況。</p><p><b>研究設計：</b>本研究為單中心、回溯性世代研究，納入2004至2020年間接受手術矯正的先天性心臟病童（限d-transposition of the great arteries, coarctation of the aorta, 或 tetralogy of Fallot，且於6個月大前完成手術），共240名病患。</p><p><b>主要發現：</b>在240名病患中，36.2%過重，20.8%肥胖，顯著高於奧勒岡州同期預期盛行率（13.7%，p <0.01）。其中，coarctation of the aorta 病患的肥胖盛行率顯著高於其他診斷（p <0.01）。2004-2008年世代的肥胖率最高（p <0.01），而2014-2017年世代的肥胖風險增加率最高。</p><p><b>臨床意義：</b>經手術矯正的先天性心臟病童，其肥胖盛行率顯著高於一般兒童，且診斷類型（特別是coarctation of the aorta）會影響肥胖風險。這提示我們在長期追蹤這些病童時，需特別關注其體重管理，並考慮運動限制及早期強調體重增加等潛在影響因素。</p></div></div>
+  <div id="analysis-result-41958292"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41958292/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1017/S1047951126111718" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41958292" data-rating="must_read" onclick="vote('41958292','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41958292-must_read" style="display:none;">0</span></button> <button data-pmid="41958292" data-rating="useful" onclick="vote('41958292','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41958292-useful" style="display:none;">0</span></button> <button data-pmid="41958292" data-rating="so_so" onclick="vote('41958292','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41958292-so_so" style="display:none;">0</span></button> <button data-pmid="41958292" data-rating="skip" onclick="vote('41958292','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41958292-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41958292" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41958292" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41958292','Obesity prevalence and risk factors in surgically repaired CHD.',this,false)">
+  <button id="upload-btn-41958292" onclick="document.getElementById('pdf-41958292').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41958292" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Catheterization and Cardiovascular Interventions</span></div>
+  <h2 class="card-title">Anatomy of the Pulmonary Circulation and Outcomes in Tetralogy of Fallot With Major Systemic-to-Pulmonary Collaterals and Unilateral Pulmonary Artery of Ductal Origin.</h2>
+  <div class="card-authors">Ortega J, Adamson GT, Jaggi A, et al. · 2026 Apr 09</div>
+  <div id="original-analysis-41957907"><div class="section"><p><b>研究目的：</b>本研究旨在描述法洛氏四合症 (TOF) 合併主要體肺側枝循環 (MAPCAs) 且單側肺動脈由動脈導管 (DA) 供應的特殊亞型患者之肺循環解剖構造，並報告其長期手術預後。</p><p><b>研究設計：</b>這是一項單中心回溯性世代研究，納入2001年11月至2025年4月間接受手術的TOF/MAPCAs患者中，符合單側肺動脈由DA供應的特定亞型。研究從880名TOF/MAPCAs患者中篩選出61名符合此亞型，最終42名符合納入標準。</p><p><b>主要發現：</b>在此亞型患者中，DA幾乎總是供應左肺動脈（39/42, 91%）。對側肺的MAPCAs在21名患者中連接到完全或部分樹狀分枝的中央肺動脈。來自冠狀動脈的MAPCAs比例較高（14% vs. 5%, p=0.019）。18名患者在術前接受DA支架置放。首次手術中位年齡為5.1個月，74%完成完全修復，最終僅1例未完成。中位追蹤6.2年，10年無移植存活率為86% ± 6%，5年和10年無肺動脈再介入率分別為63% ± 9%和59% ± 9%。</p><p><b>臨床意義：</b>本研究明確定義了TOF/MAPCAs的一個特殊解剖亞型，並指出在新生兒期對DA進行支架置放，隨後在嬰兒早期進行肺動脈重建和修復，是此類患者的合適治療策略，且預後良好。這有助於NICU醫師在面對此類複雜先天性心臟病新生兒時，能更精準地評估和轉介，並了解其長期預後。</p></div></div>
+  <div id="analysis-result-41957907"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41957907/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1002/ccd.70585" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41957907" data-rating="must_read" onclick="vote('41957907','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41957907-must_read" style="display:none;">0</span></button> <button data-pmid="41957907" data-rating="useful" onclick="vote('41957907','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41957907-useful" style="display:none;">0</span></button> <button data-pmid="41957907" data-rating="so_so" onclick="vote('41957907','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41957907-so_so" style="display:none;">0</span></button> <button data-pmid="41957907" data-rating="skip" onclick="vote('41957907','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41957907-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41957907" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41957907" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41957907','Anatomy of the Pulmonary Circulation and Outcomes in Tetralogy of Fallot With Major Systemic-to-Pulmonary Collaterals and Unilateral Pulmonary Artery of Ductal Origin.',this,false)">
+  <button id="upload-btn-41957907" onclick="document.getElementById('pdf-41957907').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41957907" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Pediatric Cardiology</span></div>
+  <h2 class="card-title">Social Media Perspectives on Congenital Heart Disease: Integrating Thematic and Sentiment Analysis to Characterize the Digital Health Footprint.</h2>
+  <div class="card-authors">Dominy CL, Takoushian E, Donovan DJ, et al. · 2026 Apr 10</div>
+  <div id="original-analysis-41961271"><div class="section"><p><b>研究目的：</b>本研究旨在透過主題與情感分析，探討社群媒體上關於先天性心臟病 (Congenital Heart Disease) 的討論與觀點，以描繪其數位健康足跡。</p><p><b>研究設計：</b>本研究採用主題分析與情感分析方法，對社群媒體數據進行探討。由於缺乏摘要，無法提供具體的胎齡 (GA)、出生體重或樣本數資訊。</p><p><b>主要發現：</b>由於缺乏摘要，無法提供主要研究發現。</p><p><b>臨床意義：</b>本研究結果可能提供關於先天性心臟病在社群媒體上的公眾認知、資訊傳播模式或支持網絡的見解。這些資訊對於制定公眾健康教育策略或提升病患溝通可能有所助益，但對新生兒加護病房 (NICU) 的臨床照護決策並無直接影響。</p></div></div>
+  <div id="analysis-result-41961271"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41961271/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1007/s00246-026-04255-7" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41961271" data-rating="must_read" onclick="vote('41961271','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41961271-must_read" style="display:none;">0</span></button> <button data-pmid="41961271" data-rating="useful" onclick="vote('41961271','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41961271-useful" style="display:none;">0</span></button> <button data-pmid="41961271" data-rating="so_so" onclick="vote('41961271','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41961271-so_so" style="display:none;">0</span></button> <button data-pmid="41961271" data-rating="skip" onclick="vote('41961271','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41961271-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41961271" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41961271" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41961271','Social Media Perspectives on Congenital Heart Disease: Integrating Thematic and Sentiment Analysis to Characterize the Digital Health Footprint.',this,false)">
+  <button id="upload-btn-41961271" onclick="document.getElementById('pdf-41961271').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41961271" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Cardiology in the Young</span></div>
+  <h2 class="card-title">Could N-terminal pro-brain natriuretic peptide predict cardiac involvement in children with Duchenne muscular dystrophy as detected by real-time three-dimensional (four-dimensional) and speckle-tracking echocardiography?</h2>
+  <div class="card-authors">Kaynak E, Eroğlu AG, Sayılı U, et al. · 2026 Apr 10</div>
+  <div id="original-analysis-41958305"><div class="section"><p><b>研究目的：</b>本研究旨在評估 N-terminal pro-brain natriuretic peptide (NT-proBNP) 在 Duchenne 肌肉失養症 (DMD) 病童中，結合即時三維及三維斑點追蹤心臟超音波，偵測心臟受損的潛在角色。</p><p><b>研究設計：</b>一項橫斷面研究，納入 38 名平均年齡 9.40 ± 4.13 歲的 DMD 病童（21 歲以下），同時進行臨床評估、即時三維心臟超音波、三維斑點追蹤心臟超音波及血清 NT-proBNP 測量。</p><p><b>主要發現：</b>NT-proBNP 與多項心臟超音波參數（包括基底前外側及下外側縱向應變、心尖中隔縱向應變、基底前外側及下外側徑向應變）呈現中度顯著相關 (p < 0.05)。NT-proBNP 較高組 (≥125 pg/ml) 的病童顯示基底前外側縱向應變受損。</p><p><b>臨床意義：</b>本研究探討 NT-proBNP 結合先進心臟超音波技術在 DMD 病童心臟評估中的應用，但因研究對象為兒童而非新生兒，對新生兒加護病房 (NICU) 的臨床照護無直接意義。</p></div></div>
+  <div id="analysis-result-41958305"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41958305/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1017/S1047951126112062" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41958305" data-rating="must_read" onclick="vote('41958305','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41958305-must_read" style="display:none;">0</span></button> <button data-pmid="41958305" data-rating="useful" onclick="vote('41958305','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41958305-useful" style="display:none;">0</span></button> <button data-pmid="41958305" data-rating="so_so" onclick="vote('41958305','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41958305-so_so" style="display:none;">0</span></button> <button data-pmid="41958305" data-rating="skip" onclick="vote('41958305','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41958305-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41958305" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41958305" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41958305','Could N-terminal pro-brain natriuretic peptide predict cardiac involvement in children with Duchenne muscular dystrophy as detected by real-time three-dimensional (four-dimensional) and speckle-tracking echocardiography?',this,false)">
+  <button id="upload-btn-41958305" onclick="document.getElementById('pdf-41958305').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41958305" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Prenatal Diagnosis</span></div>
+  <h2 class="card-title">Prenatal Diagnosis of Congenital Heart Disease in a Developing Country-A Cross-Sectional Study.</h2>
+  <div class="card-authors">Hammoud L, Zareef R, Khalek JA, et al. · 2026 Apr 09</div>
+  <div id="original-analysis-41956964"><div class="section"><p><b>研究目的：</b>本研究旨在量化資源有限地區先天性心臟病 (CHD) 的產前診斷率、胎兒心臟超音波的使用情況，以及預測未來懷孕諮詢的因素。</p><p><b>研究設計：</b>本研究為橫斷面調查，針對362個CHD患兒家庭進行問卷調查，收集社會人口學、產科史、產前篩檢、胎兒心臟超音波使用及未來懷孕諮詢等資料。</p><p><b>主要發現：</b>在362個家庭中，僅48名兒童 (13.3%) 在產前被診斷出CHD，儘管99.7%有產科追蹤，59.4%有產前超音波篩檢。產前超音波篩檢在產前診斷組更頻繁 (97.9% vs. 53.5%; p<0.001)。胎兒心臟超音波在懷疑有心外畸形或中度至複雜性CHD時更常用 (p<0.001)。僅113/362 (31.2%) 的家庭表示曾獲得未來懷孕諮詢，且多變量分析顯示CHD複雜度與諮詢獨立相關 (OR 3.21; p<0.001)，而CHD家族史則無關 (p=0.91)。</p><p><b>臨床意義：</b>本研究揭示在資源有限地區，CHD的產前診斷率偏低，且胎兒心臟超音波諮詢不一致，主要集中於複雜性CHD。這凸顯了轉介和諮詢流程的不足，支持加強產科與小兒心臟科服務整合的必要性。對於新生兒科醫師而言，這提醒我們在面對未經產前診斷的CHD新生兒時，需更主動地與家屬討論未來懷孕的風險及轉介諮詢的重要性。</p></div></div>
+  <div id="analysis-result-41956964"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41956964/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1002/pd.70144" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41956964" data-rating="must_read" onclick="vote('41956964','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41956964-must_read" style="display:none;">0</span></button> <button data-pmid="41956964" data-rating="useful" onclick="vote('41956964','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41956964-useful" style="display:none;">0</span></button> <button data-pmid="41956964" data-rating="so_so" onclick="vote('41956964','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41956964-so_so" style="display:none;">0</span></button> <button data-pmid="41956964" data-rating="skip" onclick="vote('41956964','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41956964-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41956964" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41956964" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41956964','Prenatal Diagnosis of Congenital Heart Disease in a Developing Country-A Cross-Sectional Study.',this,false)">
+  <button id="upload-btn-41956964" onclick="document.getElementById('pdf-41956964').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41956964" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<footer>
+  Journal Auto-Review System · 馬偕紀念醫院小兒心臟科<br>
+  AI scoring by Claude (Haiku + Sonnet)
+</footer>
+</div>
+</div>
+
+<script>
+(function() {
+  var TOKEN_HASH = "996186684f2cdd3c916b001810ba9ac0e4814eaf00e411689984802c154d0224";
+  var PW_HASH = "6d9aac081d1c176077fdf2da7a30211680c13c55aa69e32e72c31dcfd78faee4";
+  var content = document.getElementById('digest-content');
+  var gate = document.getElementById('auth-gate');
+
+  function sha256(str) {
+    var encoder = new TextEncoder();
+    return crypto.subtle.digest('SHA-256', encoder.encode(str)).then(function(buf) {
+      return Array.from(new Uint8Array(buf)).map(function(b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    });
+  }
+
+  function unlock() {
+    gate.style.display = 'none';
+    content.style.display = 'block';
+  }
+
+  function checkAccess() {
+    // 1. Check URL token
+    var params = new URLSearchParams(window.location.search);
+    var t = params.get('t');
+    if (t && TOKEN_HASH) {
+      sha256(t).then(function(h) {
+        if (h === TOKEN_HASH) {
+          localStorage.setItem('digest_token', t);
+          unlock();
+        } else {
+          checkPassword();
+        }
+      });
+      return;
+    }
+
+    // 2. Check stored password
+    checkPassword();
+  }
+
+  function checkPassword() {
+    if (!PW_HASH) { unlock(); return; }
+    var saved = localStorage.getItem('digest_pw');
+    if (saved) {
+      sha256(saved).then(function(h) {
+        if (h === PW_HASH) { unlock(); }
+        else { gate.style.display = 'flex'; }
+      });
+    } else {
+      gate.style.display = 'flex';
+    }
+  }
+
+  window.submitPassword = function() {
+    var input = document.getElementById('pw-input').value;
+    sha256(input).then(function(h) {
+      if (h === PW_HASH) {
+        localStorage.setItem('digest_pw', input);
+        unlock();
+      } else {
+        document.getElementById('pw-error').style.display = 'block';
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', checkAccess);
+})();
+</script>
+<script>
+(function() {
+  var FEEDBACK_URL = "https://script.google.com/macros/s/AKfycbwqSMhyfrFydA2i22AuD_RQLv6bxFPG8m-Jp0G__u1vigkmj-SOx6uwrUiwfux7RNTy/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "cardiology";
+  var voted = JSON.parse(localStorage.getItem('digest_voted') || '{}'  );
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore previous votes
+    Object.keys(voted).forEach(function(pmid) {
+      var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+      btns.forEach(function(btn) {
+        btn.style.opacity = '0.4';
+        btn.style.pointerEvents = 'none';
+      });
+      var label = document.getElementById('voted-' + pmid);
+      if (label) {
+        var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+        label.textContent = "Voted: " + (labels[voted[pmid]] || voted[pmid]) + " ✓";
+        label.style.display = 'block';
+      }
+    });
+  });
+
+  window.vote = function(pmid, rating, el) {
+    if (voted[pmid]) return;
+
+    // Get uid from token or anonymous
+    var uid = 'web_anon';
+    var t = new URLSearchParams(window.location.search).get('t');
+    if (t) uid = 'web_' + t.substring(0, 8);
+
+    // JSONP call
+    var script = document.createElement('script');
+    var cb = 'fb_' + Date.now();
+    window[cb] = function(resp) {
+      if (resp && resp.status === 'ok') {
+        voted[pmid] = rating;
+        localStorage.setItem('digest_voted', JSON.stringify(voted));
+
+        var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+        btns.forEach(function(btn) {
+          btn.style.opacity = '0.4';
+          btn.style.pointerEvents = 'none';
+        });
+        el.style.opacity = '1';
+        el.style.background = '#1B6B93';
+        el.style.color = '#fff';
+
+        // Update vote count
+        var cntEl = document.getElementById('cnt-' + pmid + '-' + rating);
+        if (cntEl) {
+          var n = parseInt(cntEl.textContent || '0') + 1;
+          cntEl.textContent = n;
+          cntEl.style.display = '';
+          cntEl.style.color = '#fff';
+        }
+
+        var label = document.getElementById('voted-' + pmid);
+        if (label) {
+          var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+          label.textContent = "Voted: " + (labels[rating] || rating) + " ✓";
+          label.style.display = 'block';
+        }
+      }
+      delete window[cb];
+      script.remove();
+    };
+    script.src = FEEDBACK_URL + '?action=feedback&pmid=' + pmid + '&rating=' + rating +
+      '&uid=' + uid + '&source=web&secret=' + SECRET + '&dept=' + DEPT + '&callback=' + cb;
+    document.body.appendChild(script);
+  };
+})();
+</script>
+<script>
+(function() {
+  var WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwqSMhyfrFydA2i22AuD_RQLv6bxFPG8m-Jp0G__u1vigkmj-SOx6uwrUiwfux7RNTy/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "cardiology";
+  var uploaded = JSON.parse(localStorage.getItem('digest_uploaded') || '{}');
+
+  // Load analysis results on page load
+  function loadAnalysis(pmid) {
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        renderAnalysis(pmid, resp.analysis);
+      }
+    });
+  }
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore uploaded state from localStorage
+    Object.keys(uploaded).forEach(function(pmid) {
+      var btn = document.getElementById('upload-btn-' + pmid);
+      if (btn) {
+        btn.textContent = '✓ 已上傳，已分析';
+        btn.disabled = true;
+        btn.style.opacity = '0.5';
+        btn.style.cursor = 'default';
+      }
+      loadAnalysis(pmid);
+    });
+    // Auto-load analysis for articles that already have fulltext analysis
+    document.querySelectorAll('[data-has-analysis]').forEach(function(el) {
+      var pmid = el.getAttribute('data-has-analysis');
+      if (!uploaded[pmid]) {
+        loadAnalysis(pmid);
+      }
+    });
+  });
+
+  // JSONP helper for polling
+  function jsonpGet(url, callback) {
+    var script = document.createElement('script');
+    var cb = 'pdfcb_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5);
+    window[cb] = function(resp) {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback(resp);
+    };
+    script.src = url + '&callback=' + cb;
+    script.onerror = function() {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback({ status: 'error', message: 'Network error' });
+    };
+    document.head.appendChild(script);
+  }
+
+  // Poll for analysis result via JSONP GET
+  var POLL_TOTAL = 30;
+  var POLL_STEPS = [
+    '📤 PDF 已上傳，伺服器接收中...',
+    '📄 正在提取 PDF 全文...',
+    '📄 正在提取 PDF 全文...',
+    '🔍 全文提取中，準備進行 AI 分析...',
+    '🔍 全文提取完成，啟動 AI 分析...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 正在整合分析結果...',
+    '🤖 AI 正在整合分析結果...',
+    '💾 正在儲存分析結果...',
+    '💾 正在儲存分析結果...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，請耐心等候...',
+    '⏳ 仍在處理中，請耐心等候...',
+    '⏳ 大型 PDF 需要較長處理時間...',
+    '⏳ 大型 PDF 需要較長處理時間...',
+    '⏳ 即將完成，感謝您的耐心...',
+    '⏳ 即將完成，感謝您的耐心...',
+    '⏳ 即將完成...',
+    '⏳ 即將完成...',
+    '⏳ 最後處理中...',
+    '⏳ 最後處理中...',
+    '⏳ 最後處理中...'
+  ];
+
+  function pollForResult(pmid, btn, statusEl, attempts) {
+    if (attempts <= 0) {
+      btn.textContent = '❌ 分析逾時';
+      btn.disabled = false;
+      statusEl.textContent = '伺服器處理時間過長，請稍後再試';
+      statusEl.style.color = '#E24B4A';
+      var orig = document.getElementById('original-analysis-' + pmid);
+      if (orig) orig.style.display = '';
+      return;
+    }
+
+    // Update progress message
+    var stepIdx = POLL_TOTAL - attempts;
+    var elapsed = (stepIdx + 1) * 10 + 15;
+    var msg = POLL_STEPS[Math.min(stepIdx, POLL_STEPS.length - 1)];
+    statusEl.textContent = msg + '（' + elapsed + '秒）';
+
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        btn.textContent = '✓ 已有全文分析';
+        btn.style.color = '#085041';
+        btn.style.borderColor = '#085041';
+        statusEl.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
+        statusEl.style.color = '#085041';
+        uploaded[pmid] = true;
+        localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
+        var orig = document.getElementById('original-analysis-' + pmid);
+        if (orig) orig.style.display = 'none';
+        renderAnalysis(pmid, resp.analysis);
+      } else if (resp.status === 'pending') {
+        setTimeout(function() { pollForResult(pmid, btn, statusEl, attempts - 1); }, 10000);
+      } else {
+        btn.textContent = '❌ 分析失敗';
+        btn.disabled = false;
+        statusEl.textContent = resp.message || '請稍後再試';
+        statusEl.style.color = '#E24B4A';
+        var orig = document.getElementById('original-analysis-' + pmid);
+        if (orig) orig.style.display = '';
+      }
+    });
+  }
+
+  window.handlePdfSelect = function(pmid, title, input, force) {
+    var file = input.files[0];
+    if (!file) return;
+    if (file.size > 10 * 1024 * 1024) {
+      alert('PDF 檔案不能超過 10MB');
+      return;
+    }
+
+    if (force && !confirm('確定要重新上傳並分析此 PDF？將會覆蓋現有的分析結果。')) {
+      input.value = '';
+      return;
+    }
+
+    var btn = document.getElementById('upload-btn-' + pmid);
+    var statusEl = document.getElementById('upload-status-' + pmid);
+    btn.textContent = '⏳ 上傳中...';
+    btn.disabled = true;
+    statusEl.textContent = '📤 正在上傳 PDF 至伺服器...';
+    statusEl.style.display = 'inline';
+    statusEl.style.color = '#1B6B93';
+
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var base64 = e.target.result.split(',')[1];
+
+      // Step 1: Submit via fetch + URLSearchParams (no-cors, response ignored — polling handles result)
+      fetch(WEBHOOK_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: new URLSearchParams({
+          action: 'upload_pdf',
+          pmid: pmid,
+          title: title,
+          pdf_base64: base64,
+          secret: SECRET,
+          dept: DEPT,
+          force: force ? 'true' : 'false'
+        })
+      }).catch(function() {});
+
+      // Step 2: Poll for result via JSONP (every 10s, up to POLL_TOTAL attempts)
+      setTimeout(function() { pollForResult(pmid, btn, statusEl, POLL_TOTAL); }, 15000);
+    };
+    reader.readAsDataURL(file);
+  };
+
+  window.renderAnalysis = function(pmid, data) {
+    var container = document.getElementById('analysis-result-' + pmid);
+    if (!container) return;
+
+    var a = data.deep_analysis || data;
+    var html = '';
+
+    if (a.thirty_second_summary) {
+      html += '<div class="section"><b>30 秒重點：</b>' + a.thirty_second_summary + '</div>';
+    }
+
+    var hidden = a.hidden_findings || [];
+    if (hidden.length > 0) {
+      html += '<div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div>';
+      for (var i = 0; i < hidden.length; i++) {
+        html += '<p><b>' + (hidden[i].finding || '') + '</b> ' + (hidden[i].source || '') + '。' + (hidden[i].implication || '') + '</p>';
+      }
+      html += '</div>';
+    }
+
+    var meth = a.methodology_audit || {};
+    var methHtml = '';
+    (meth.strengths || []).forEach(function(s) { methHtml += '<div class="hl hl-green"><b>Strong：</b>' + s + '</div>'; });
+    (meth.notes || []).forEach(function(n) { methHtml += '<div class="hl hl-amber"><b>Note：</b>' + n + '</div>'; });
+    (meth.weaknesses || []).forEach(function(w) { methHtml += '<div class="hl hl-red"><b>Weak：</b>' + w + '</div>'; });
+    if (methHtml) {
+      html += '<div class="section"><div class="section-label" style="color:#633806">方法學評估</div>' + methHtml + '</div>';
+    }
+
+    var impact = a.protocol_impact || {};
+    if (impact.proposed_change) {
+      var impactHtml = '<div class="hl hl-blue">';
+      if (impact.current_practice) impactHtml += '<b>目前做法：</b>' + impact.current_practice + '<br>';
+      if (impact.proposed_change) impactHtml += '<b>建議調整：</b>' + impact.proposed_change + '<br>';
+      if (impact.missing_evidence) impactHtml += '<b>等待的證據：</b>' + impact.missing_evidence;
+      impactHtml += '</div>';
+      html += '<div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div>' + impactHtml + '</div>';
+    }
+
+    container.innerHTML = html;
+  };
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NB Journal Digest - 2026-04-11</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.8;font-size:16px}
+.container{max-width:720px;margin:0 auto;padding:20px}
+header{padding:20px 0;border-bottom:2px solid #1B6B93;margin-bottom:24px}
+.back{font-size:15px;color:#1B6B93;text-decoration:none}
+.back:hover{text-decoration:underline}
+.date{font-size:15px;color:#888;margin-top:8px}
+h1{font-size:26px;font-weight:700;color:#1B6B93;margin-top:4px}
+.stats{font-size:15px;color:#666;margin-top:6px}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:18px}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600}
+.tag-journal{font-size:13px;color:#999}
+.card-title{font-size:18px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px}
+.card-authors{font-size:14px;color:#999;margin-bottom:14px}
+.section{padding:14px 0;border-top:1px solid #f0f0ec}
+.section p{font-size:15px;color:#555;margin-bottom:8px}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:10px}
+.hl{border-left:3px solid;padding:10px 14px;margin:8px 0;font-size:15px;line-height:1.7;border-radius:0}
+.hl-green{border-color:#639922;background:#EAF3DE;color:#27500A}
+.hl-amber{border-color:#BA7517;background:#FAEEDA;color:#633806}
+.hl-red{border-color:#E24B4A;background:#FCEBEB;color:#791F1F}
+.hl-blue{border-color:#378ADD;background:#E6F1FB;color:#0C447C}
+.related{font-size:15px;color:#555;padding:8px 0;border-bottom:1px solid #f5f5f0}
+.related:last-child{border-bottom:none}
+.card-links{padding-top:14px;display:flex;gap:16px}
+.card-links a{font-size:14px;color:#1B6B93;text-decoration:none}
+.card-links a:hover{text-decoration:underline}
+footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;color:#999;text-align:center}
+.vote-count{font-size:13px;color:#1B6B93;font-weight:600}
+@media(max-width:600px){.container{padding:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">NB Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">或從 LINE / Email 點擊連結直接閱讀</p>
+</div>
+</div>
+
+<!-- Digest content (hidden until auth) -->
+<div id="digest-content" style="display:none;">
+<div class="container">
+<header>
+  <a href="index.html" class="back">← Back to archive</a>
+  <div class="date">2026/04/11 (Saturday)</div>
+  <h1>NB Journal Digest</h1>
+  <div class="stats">6 articles</div>
+</header>
+
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 4-5: DEEP ANALYSIS</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">Journal of Perinatology</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Availability, utilization, and barriers to bowel ultrasound for necrotizing enterocolitis: a national multidisciplinary survey.</h2>
+  <div class="card-authors">Cuna A, Thai JD, McNelis K, et al. · 2026 Apr 09</div>
+  <div id="original-analysis-41957166"><div class="section"><b>30 秒重點：</b>這是一份美國大型醫學中心的問卷調查，顯示腸道超音波 (BUS) 在 Level IV NICU 的可用性雖高 (83%)，但在 Level III NICU 卻不普及 (42%)。即使在有 BUS 的地方，臨床應用也充滿不確定性，缺乏標準化流程、人員訓練不足、且臨床效益證據不明，導致它多半只在 X 光無法確定診斷時才被當作輔助工具，很少能獨立指導是否需要手術的重大決策。這份調查告訴我們，BUS 要成為 NEC 的常規武器，還有很長的路要走。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 提到新生兒科醫師和外科醫師的訓練有限，但沒有區分這兩個群體的看法。在全文中，需要特別注意他們之間是否有不同的觀點或障礙。例如，外科醫師是否更關心 BUS 對於偵測腸道壞死或穿孔的準確性，而新生兒科醫師更關心它能否早期發現腸道缺血、指導餵食決策？</b> Abstract 中提及 "neonatologists and surgeons reported limited training and few institutional guidelines"，但未提供分科細節。。了解不同專科的痛點，才能建立一個大家都有信心依循的 multidisciplinary protocol。如果外科醫師不信任 BUS 的陰性預測值，那麼即使新生兒科醫師積極使用，也無法改變手術時機。</p><p><b>研究對象是 CHNC（兒童醫院新生兒聯盟）的成員，這些都是資源豐富的頂級 Level IV NICU。Abstract 提到附屬的 Level III NICU 可用性僅 42%，但沒有深入探討原因。是因為設備、放射科醫師 24/7 on-site 的人力、還是轉診模式的差異？</b> Abstract 比較了 Level IV (83%) 和 Level III (42%) 的可用性，但未解釋其背後原因。。這對我們思考院際合作或建立區域網絡很重要。如果主要障礙是放射科醫師的判讀能力，那解決方案可能是遠距醫療或建立專門的訓練課程，而非單純採購儀器。</p><p><b>Abstract 籠統地說 BUS 被用來「輔助 X 光」，但沒有說明具體是用於哪個 Bell's Stage 的病人，或是用於哪些特定的臨床情境（例如：持續腹脹但 X 光正常的 ELBW 早產兒）。全文中應尋找受訪者回報最常使用 BUS 的臨床情境或病人特徵 (GA/BW)。</b> Abstract 提及 "primarily used alongside radiographs in cases of diagnostic uncertainty"，但缺乏具體的臨床情境描述。。如果我們科要開始試行 BUS，知道其他醫學中心是從哪些「最有用」或「最困難」的案例開始，可以幫助我們制定初步的適應症，避免資源浪費，並集中力量解決最棘手的臨床問題。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>涵蓋範圍廣：調查了 46 個 CHNC 機構中的 42 個，機構層級的代表性很高 (91%)，能反映美國頂級新生兒中心的現況。</div><div class="hl hl-green"><b>Strong：</b>多專科視角：同時調查新生兒科、小兒外科、放射科醫師，提供了對 BUS 實施障礙的全面看法，而不僅是單一科別的意見。</div><div class="hl hl-amber"><b>Note：</b>問卷調查研究：這份研究的證據等級較低，反映的是「現況」與「意見」，而非 BUS 的臨床「療效」。其結論是關於實踐模式的描述，不能用來證明 BUS 是否優於傳統 X 光。</div><div class="hl hl-amber"><b>Note：</b>個人回覆率未知：Abstract 提供了 104 位回覆者，但沒有說明總共發出了多少份問卷。如果個人回覆率低，可能存在顯著的「回覆者偏差」(responder bias)，即對 BUS 有強烈意見（無論支持或反對）的人才回覆問卷。</div><div class="hl hl-red"><b>Weak：</b>潛在的機構偏差：研究對象是學術地位崇高的 Level IV NICU，其資源、人力配置和研究文化可能與一般的 Level III NICU 或區域醫院有很大差異，因此結果對後者的適用性 (generalizability) 有限。</div><div class="hl hl-red"><b>Weak：</b>自我報告數據的限制：問卷調查依賴受訪者的自我報告，這可能與他們在壓力下的實際臨床行為存在差距。例如，醫師可能在問卷上表示會參考 BUS 結果，但實際做決策時仍以臨床經驗或 X 光為主。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Epelman M et al., 2010, Pediatric Radiology</b> — Epelman 等人的研究是單一中心（多為 SickKids in Toronto）的描述性或世代研究，主要在建立 BUS 的診斷標準與影像特徵（如腸壁厚度、回音性、腹水、腸道蠕動、都卜勒血流訊號等）。本研究則是一個多中心的全國性調查，重點不在「如何判讀影像」，而在於「大家實際上是如何使用、以及為何不使用」這項技術，屬於 implementation science 的範疇。</div><p><b>指引現況：</b>目前無論是美國兒科學會 (AAP) 或歐洲兒童胃腸肝臟營養學會 (ESPGHAN) 都未將 BUS 列為 NEC 的標準診斷或監測工具。它通常被視為一種有潛力的輔助檢查，但缺乏大型 RCT 證據支持其常規使用。台灣新生兒科醫學會目前亦無相關指引。</p><p><b>填補的 evidence gap：</b>本研究並未填補關於 BUS「臨床效益」的證據空缺，而是首次大規模地量化了這項技術在「臨床實踐」中的推廣障礙。它清楚地告訴我們，從技術可行到臨床常規化之間，存在著標準化、教育訓練和實證支持的巨大鴻溝。</p><p><b>進行中的相關試驗：</b>目前有一些小型的單中心或先驅性 RCT 正在進行，但缺乏類似 CAP trial 或 SUPPORT trial 規模的大型、多中心、隨機對照試驗來比較「BUS 導向的處置策略」與「標準 X 光導向策略」對病患重要預後（如死亡率、腸道切除長度、住院天數、神經發育結果）的影響。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>根據我們的工作手冊【NEC (Necrotizing enterocolitis) (Part 1)】，本科對疑似 NEC 的標準處置是「Plain abdomen X-ray st and Q6H for pneumatosis intestinalis... portal venous gas, perforation sign, checking fixed bowel loops」。診斷與分期完全依賴臨床表徵與腹部 X 光，並依據 Modified Bell's Staging Criteria 決定治療計畫。目前工作手冊中無任何關於腸道超音波 (BUS) 的 protocol。<br><b>建議調整：</b>本研究結果不支持我們立即將 BUS 納入常規 protocol，反而提醒我們貿然引進可能因標準不一造成更多混亂。建議的改變是「啟動一個跨團隊的評估計畫」，而非修改 protocol。
+1.  **成立工作小組**：由新生兒科、小兒外科、影像醫學科資深主治醫師組成，共同評估在本院發展 BUS for NEC 的可行性。
+2.  **啟動先驅計畫 (Pilot Program)**：針對特定高風險族群（如 GA < 28 週或 BW < 1000g 的早產兒）出現疑似 NEC Stage I/II 且臨床與 X 光表現不一致的困難案例，由固定幾位資深放射科醫師執行並判讀 BUS，作為輔助資訊，並詳細記錄其發現與後續臨床決策的關聯。
+3.  **維持現狀**：在上述計畫有初步結果前，所有 NEC 的診斷、分期與手術決策，仍應嚴格遵循現有的 X 光與臨床標準。<br><b>導入準備：</b>In-service training：需安排影像醫學科醫師接受新生兒腸道超音波的專門訓練，並對新生兒科同仁（主治醫師、研究醫師）進行 BUS 影像判讀與臨床意義的教育訓練。, Protocol 草案：需與影像醫學科共同制定一份標準化的掃描與報告流程，明確定義腸壁厚度、血流訊號、腸蠕動、腹水等指標的測量與描述方式。, 跨科共識會議：在正式啟動前，需召開跨團隊會議，確保各科對於 BUS 的角色、侷限性以及結果的解讀有共同的理解與共識。<br><b>等待的證據：</b>我們最需要的是前瞻性的臨床試驗數據，證明在我們的病人族群中，加入 BUS 監測是否能比單純使用系列 X 光更早發現腸道壞死、減少不必要的手術、或改善病患的長期預後（特別是 short bowel syndrome 和 neurodevelopmental outcome）。在缺乏這些在地或大型 RCT 數據前，任何改變都應謹慎。</div></div></div>
+  <div id="analysis-result-41957166"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41957166/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41372-026-02677-y" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41957166" data-rating="must_read" onclick="vote('41957166','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41957166-must_read" style="display:none;">0</span></button> <button data-pmid="41957166" data-rating="useful" onclick="vote('41957166','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41957166-useful" style="display:none;">0</span></button> <button data-pmid="41957166" data-rating="so_so" onclick="vote('41957166','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41957166-so_so" style="display:none;">0</span></button> <button data-pmid="41957166" data-rating="skip" onclick="vote('41957166','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41957166-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41957166" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41957166" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41957166','Availability, utilization, and barriers to bowel ultrasound for necrotizing enterocolitis: a national multidisciplinary survey.',this,false)">
+  <button id="upload-btn-41957166" onclick="document.getElementById('pdf-41957166').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41957166" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">Journal of Perinatology</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Not all CPAP is created equal: device architecture and interface mechanics.</h2>
+  <div class="card-authors">Aly H, Mohamed MA · 2026 Apr 09</div>
+  <div id="original-analysis-41957164"><div class="section"><b>30 秒重點：</b>這篇文章的標題直接點出一個我們常忽略的重點：CPAP 的效果不只看 PEEP 設定，更取決於『硬體』。研究可能比較了不同裝置架構（如 bubble CPAP vs. 呼吸器提供的 CPAP）與介面（如 prongs vs. mask）的差異。這提醒我們，我們選擇的機器和鼻管，可能直接影響壓力穩定性、呼吸功，甚至 BPD 和拔管成功率等臨床結果，挑戰我們重新審視 NICU 的標準配備。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 未提及研究比較的具體 CPAP 裝置類型。是比較 bubble CPAP 與 ventilator-derived CPAP 嗎？或是比較不同品牌的呼吸器（如 Dräger vs. Servo）所提供的 non-invasive mode？這兩種比較的臨床意義完全不同。</b> 基於文章標題「device architecture」提出的關鍵問題，需在全文 Methods 章節中尋找。。Bubble CPAP 被認為能產生有益的壓力震盪，但 ventilator CPAP 的壓力控制可能更精準。如果研究證實其一在特定族群（如 ELBWs）有顯著優勢，將直接影響我們未來的設備採購和使用策略。</p><p><b>Abstract 未說明比較的介面（interface）有哪些。是 short binasal prongs vs. nasal masks？還是不同廠牌 prongs 之間的比較？介面的固定方式（如帽子、繫帶）是否標準化？</b> 基於文章標題「interface mechanics」提出的關鍵問題，需在全文 Methods 章節中確認。。介面是造成壓力損失（leak）、鼻中膈損傷的主要原因。不同介面的有效阻力（resistance）和死腔（dead space）也不同，直接影響嬰兒的呼吸功。這是我們日常照護最直接、最需要實證指引的一環。</p><p><b>研究是否針對不同 gestational age (GA) 或 birth weight (BW) 的亞群進行分析？特別是 <28 週或 <1000g 的 ELBW 早產兒，他們對呼吸支持的微小差異最為敏感。</b> 這是閱讀任何新生兒研究時必須在 Results 或 Supplementary Data 中尋找的 subgroup analysis。。對 32 週早產兒有效的裝置，不一定對 24 週的 micro-preemie 最理想。若無此類分析，研究的結論對我們最脆弱的病人群體之適用性將大打折扣。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>如果是一篇系統性回顧，其優勢在於是否有在 PROSPERO 等平台預先註冊 protocol，並採用嚴謹的文獻篩選與數據統合方法（如 GRADE assessment）。</div><div class="hl hl-green"><b>Strong：</b>如果是一篇 RCT，需檢視其是否做到適當的隨機分派、分配隱藏（allocation concealment），以及對 outcome assessor 的盲化（blinding）。</div><div class="hl hl-amber"><b>Note：</b>BPD 定義：研究是採用傳統的 NICHD 2001 定義（36週 PMA 時的氧氣需求），還是較新的 Jensen 2019 生理定義（需進行氧氣減量測試）？後者更能反映真實的肺功能，但兩者定義下的 BPD 發生率可能不同，影響研究間的比較。</div><div class="hl hl-amber"><b>Note：</b>主要終點（Primary Outcome）：研究是看短期的生理指標（如 delivered pressure 的穩定性、呼吸功 WOB），還是重要的臨床結果（如拔管失敗率、BPD/死亡率）？</div><div class="hl hl-amber"><b>Note：</b>神經發育追蹤：若有長期追蹤，評估工具是 Bayley-III 還是最新的 Bayley-4？追蹤年齡是否達到標準的 18-24 個月矯正年齡？失訪率（loss to follow-up rate）是否低於 20%？</div><div class="hl hl-red"><b>Weak：</b>若是觀察性研究，需注意『因果倒置』的風險（confounding by indication），例如臨床醫師可能傾向將狀況較差的嬰兒分配到某一種特定的裝置，導致結果偏差。</div><div class="hl hl-red"><b>Weak：</b>單中心研究（Single-center study）的結果可能受到該單位獨特的照護習慣與流程影響，其外部效度（generalizability）較低。</div><div class="hl hl-red"><b>Weak：</b>需注意是否有廠商經費支持，特別是當研究結果對某特定品牌裝置有利時，可能存在潛在的利益衝突。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>De Paoli AG et al., J Pediatr, 2002</b> — 這是一篇早期的重要 RCT，比較 bubble CPAP 與 ventilator-derived CPAP 用於 RDS 的效果。結果顯示 bubble CPAP 組的拔管失敗率較低。本研究可能是在更新的設備與更小的早產兒群體中，重新驗證或擴展這個議題。</div><div class="related"><b>Kieran EA et al., Cochrane Database Syst Rev, 2023</b> — Cochrane Neonatal 有多篇關於 non-invasive support 的回顧，例如比較 NIPPV vs. NCPAP。這些回顧常因各研究使用的裝置與介面異質性太高，而難以做出強烈建議。本研究的價值在於可能直接針對這些『異質性』的來源進行探討。</div><p><b>指引現況：</b>目前國際（如 AAP）與台灣新生兒科醫學會的指引，大多建議早期使用 CPAP 作為早產兒呼吸窘迫的主要支持模式，但對於應使用何種『品牌』或『類型』的 CPAP 裝置與介面，並無明確的建議，通常由各醫院自行決定。</p><p><b>填補的 evidence gap：</b>本研究直接挑戰了『CPAP 就是 CPAP』的簡化觀念，試圖填補『不同 CPAP 輸送系統是否會導致不同臨床結果』這個重要的實證缺口。若結論明確，將能為各 NICU 在設備選擇與採購上提供高級別的證據。</p><p><b>進行中的相關試驗：</b>比較不同 non-invasive support 模式與介面的試驗一直在進行中。在改變 protocol 前，可至 ClinicalTrials.gov 查詢是否有更大規模、多中心的 RCT 正在進行，以避免根據單一研究做出重大改變。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>我們目前的工作手冊在【Respiratory / Respiratory System / 二、NIPPV/NIMV】中，詳細規範了 NIPPV 的設定值，如「PIP：15~20 cmH2O」、「PEEP：4 ~ 8 cmH2O」、「Rate：20 ~ 40/min」。然而，手冊並未對產生這些壓力的『裝置』（例如，我們使用的 Fabian HFO 呼吸器 vs. bubble CPAP system）或連接病人的『介面』（例如，Fisher & Paykel vs. RAM cannula vs. various masks）做出具體區分或建議。臨床上多依賴當班人員的個人經驗與習慣選擇。<br><b>建議調整：</b>如果本研究證實，對於 GA < 28 週的早產兒，使用 bubble CPAP 搭配 short binasal prongs，相較於 ventilator-derived CPAP/NIPPV，能顯著降低 BPD 發生率且不增加併發症，我們應考慮修訂 protocol。
+具體修改建議：
+1. 在【Respiratory / Respiratory System / 新生兒呼吸治療】章節中，新增一段關於 CPAP 裝置與介面選擇的原則。
+2. 在【二、NIPPV/NIMV】段落前，新增一個『CPAP 初始模式選擇』的段落，建議：『對於 GA < 28 週患有 RDS 之早產兒，若無特殊禁忌症，建議優先使用 bubble CPAP 作為 primary respiratory support 或 post-extubation support。』
+3. 明確定義何謂『bubble CPAP』的標準設置，包括水柱高度、氣體流速（Flow）範圍，以及建議搭配的介面類型。<br><b>導入準備：</b>In-service training：需對全體護理師、呼吸治療師及醫師進行 bubble CPAP 系統標準化設置與問題排除的再教育訓練。, Protocol 草案研擬：由呼吸照護小組根據文獻證據，草擬新的 protocol 條文，並提交科會討論。, 設備盤點與採購：確認院內 bubble CPAP 設備及相關耗材（prongs, masks, 固定帽）的庫存與規格是否足夠且標準化。, 建立監測指標：在導入初期，應建立 QI 指標，監測拔管失敗率、鼻部損傷率及 BPD 發生率等，以評估改變 protocol 後的成效。<br><b>等待的證據：</b>即便本研究結果正面，我們仍需要更長期的神經發育追蹤數據（neurodevelopmental outcome at 2 years）。不同的壓力波形與噪音水平是否會對脆弱的早產兒大腦產生長期影響，是單純看呼吸結果無法回答的關鍵問題。此外，也需要成本效益分析，評估新設備或流程的改變是否符合醫療經濟效益。</div></div></div>
+  <div id="analysis-result-41957164"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41957164/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41372-026-02680-3" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41957164" data-rating="must_read" onclick="vote('41957164','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41957164-must_read" style="display:none;">0</span></button> <button data-pmid="41957164" data-rating="useful" onclick="vote('41957164','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41957164-useful" style="display:none;">0</span></button> <button data-pmid="41957164" data-rating="so_so" onclick="vote('41957164','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41957164-so_so" style="display:none;">0</span></button> <button data-pmid="41957164" data-rating="skip" onclick="vote('41957164','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41957164-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41957164" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41957164" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41957164','Not all CPAP is created equal: device architecture and interface mechanics.',this,false)">
+  <button id="upload-btn-41957164" onclick="document.getElementById('pdf-41957164').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41957164" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">JAMA Network Open</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Nirsevimab in High-Risk Infants in a Respiratory Syncytial Virus Prevention Strategy.</h2>
+  <div class="card-authors">Sauré D, Torres JP, Goic M, et al. · 2026 Apr 01</div>
+  <div id="original-analysis-41961498"><div class="section"><b>30 秒重點：</b>這篇來自智利的全國性真實世界研究顯示，全面施打 nirsevimab 能有效降低高風險嬰兒（早產兒及 CHD）因 RSV 住院的風險達 84.3%。值得注意的是，雖然對合併 CHD 的早產兒或單純 CHD 的嬰兒保護力顯著，但在單純極度早產（GA <32 週）的族群中，其保護效果未達統計學意義 (65.9%; 95% CI, -10.8% to 89.5%)。這份證據強烈支持我們應考慮將 nirsevimab 納入常規，以取代傳統的 palivizumab，但對於最脆弱的極度早產兒，其效果可能不如預期，仍需搭配嚴格的感染控制。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>在單純極度早產兒 (GA <32 週) 族群中，nirsevimab 預防住院的效果未達統計學顯著性。其信賴區間非常寬 (-10.8% to 89.5%)，橫跨了無效甚至可能有害的範圍。</b> Abstract, Results section。這是整篇 abstract 最關鍵但最容易被忽略的發現。這可能代表在此族群中，nirsevimab 的保護力不如預期，或更可能是因為個案數不足 (case 組 n=55) 導致統計檢定力 (statistical power) 不足。閱讀全文時，必須仔細檢視此亞群的基線特徵（如 BPD 嚴重度、住院天數、社會經濟狀態）是否有未校正的干擾因子，這直接影響我們對最脆弱病人的照護建議。</p><p><b>Abstract 未定義「先天性心臟病 (CHD)」，僅將其視為一個同質性群體。</b> Abstract, Methods and Results sections。臨床上，hemodynamically significant CHD (特別是伴隨肺高壓或發紺者) 與非顯著的 CHD (如 small VSD) 在 RSV 感染風險上天差地遠。若全文沒有提供 CHD 類型的次分析（如 cyanotic vs. acyanotic, single ventricle vs. biventricular physiology），將很難將此研究結果精準應用於我們科內複雜多樣的 CHD 病人。</p><p><b>研究並未提及 BPD (Bronchopulmonary Dysplasia) 這個 RSV 感染最重要的共病症。</b> Abstract, entire text。對於 GA <32 週的早產兒，BPD 的有無與嚴重度是決定 RSV 預後的最強預測因子。此研究是否將 BPD 列為校正變項，或是有 BPD 亞群的分析，將是評估其研究品質與適用性的關鍵。如果全文忽略了 BPD，那麼對於極度早產兒族群的結論可信度將大打折扣。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>全國性數據庫提供高外部效度 (external validity) 與真實世界證據 (RWE)，反映政策實施後的實際效果。</div><div class="hl hl-green"><b>Strong：</b>病例對照研究設計，並針對年齡、風險狀態和地理區域進行配對，可有效控制部分已知的干擾因子。</div><div class="hl hl-green"><b>Strong：</b>涵蓋公立與私立醫院，減少了選擇性偏差 (selection bias)。</div><div class="hl hl-amber"><b>Note：</b>研究設計為病例對照研究 (case-control study)，只能顯示「關聯性」而非「因果關係」。</div><div class="hl hl-amber"><b>Note：</b>RSV-related LRTI 的診斷標準為何？是否所有個案都經過 PCR 確認？這會影響 outcome 的準確性。</div><div class="hl hl-amber"><b>Note：</b>Nirsevimab 的全國涵蓋率 (coverage rate) 是多少？這會影響對整體計畫成效的解讀。</div><div class="hl hl-red"><b>Weak：</b>潛在的未測量干擾因子 (unmeasured confounders)：例如，願意帶孩子接種 nirsevimab 的家庭，可能在其他感染控制措施（如洗手、避免出入公共場所）上也做得更好，這可能高估了藥物的真實效果。</div><div class="hl hl-red"><b>Weak：</b>統計檢定力不足：在 GA <32 週的亞群中，個案數可能太少，導致無法檢測出真實存在的保護效果 (Type II error)，寬廣的信賴區間支持此可能性。</div><div class="hl hl-red"><b>Weak：</b>缺乏長期追蹤數據：此研究僅涵蓋一個 RSV 流行季，無法評估其對反覆喘鳴 (recurrent wheezing) 或氣喘 (asthma) 的長期影響。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Hammitt LL et al. (MELODY Trial), NEJM 2022</b> — MELODY 是 nirsevimab 在健康足月及晚期早產兒的關鍵性大型 RCT。本研究則是將其結論延伸至更高風險族群（早產兒、CHD）的真實世界數據，兩者互補。RCT 提供高內部效度，本研究提供高外部效度。</div><div class="related"><b>Griffin MP et al. (MEDLEY Trial), NEJM 2020</b> — MEDLEY 是一個 Phase 2b RCT，直接比較 nirsevimab 與 palivizumab 在高風險嬰兒中的安全性與藥物動力學。本研究則是在真實世界中評估 nirsevimab 的「效果 (effectiveness)」，而非在對照試驗中的「效力 (efficacy)」。</div><p><b>指引現況：</b>美國兒科醫學會 (AAP) 與多國指引已建議使用 nirsevimab 取代 palivizumab，作為所有新生兒及高風險嬰兒預防 RSV 的首選。台灣新生兒科醫學會目前尚無針對 nirsevimab 的正式建議，臨床實務仍依循健保對 palivizumab 的嚴格給付規定。</p><p><b>填補的 evidence gap：</b>本研究提供了第一個關於「全國性、普遍性」nirsevimab 預防策略在「高風險族群」的真實世界效果數據，這對於各國衛生主管機關在評估採購與公衛政策時，提供了重要的參考依據。</p><p><b>進行中的相關試驗：</b>目前 nirsevimab 的主要 efficacy trials 大多已完成。未來的研究重點將轉向上市後監測 (post-marketing surveillance)、對不同 RSV 亞型的效果、成本效益分析，以及對長期呼吸道健康的影響。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>目前工作手冊中無相關 protocol for RSV 預防。臨床上，我們依賴健保署對 palivizumab 的給付規定，僅為極少數符合條件的超高風險嬰兒（如 GA ≤28 週、合併 BPD 需用氧治療或特定 CHD）提供被動免疫預防。<br><b>建議調整：</b>若 nirsevimab 在台灣取得藥證且可負擔，應建立新的 protocol，建議將其作為預防 RSV 的標準照護：
+1.  **新增章節：【Infection Control / RSV Prophylaxis】**
+2.  **適用對象：** 根據此研究及國際指引，建議至少涵蓋所有 GA <36 週出院的早產兒及所有具血液動力學意義之 CHD 嬰兒。理想目標是所有在 RSV 季節前或季節中出生的嬰兒。
+3.  **建議措施：** 「所有符合條件之嬰兒，於出院前或進入第一個 RSV 季節前，應給予單一劑量 nirsevimab 肌肉注射。」
+4.  **建議劑量：** 「體重 <5 kg 者，給予 50 mg；體重 ≥5 kg 者，給予 100 mg。」
+5.  **特別註記：** 「根據 Sauré D et al. (2026) 研究，nirsevimab 在單純 GA <32 週早產兒的保護力數據尚不確定，但考量其潛在益處與安全性，仍建議施打，並應加強對家屬的感染控制衛教。」<br><b>導入準備：</b>確認 nirsevimab 在台灣的藥證與健保給付狀態。, 與藥劑部協調藥物採購與庫存管理。, 制定詳細的給藥流程、資格篩選標準及文件紀錄SOP。, 對全科醫師、專科護理師及護理人員進行 in-service training。, 製作家長衛教單張，解釋 nirsevimab 的效益與 palivizumab 的不同。<br><b>等待的證據：</b>我們仍需要台灣本土的成本效益分析數據，以利向健保爭取更廣泛的給付。此外，對於我們 NICU 最常見的 BPD 合併肺高壓等極重症早產兒，nirsevimab 的保護力是否足夠，仍需更多臨床證據支持。</div></div></div>
+  <div id="analysis-result-41961498"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41961498/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1001/jamanetworkopen.2026.6042" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41961498" data-rating="must_read" onclick="vote('41961498','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41961498-must_read" style="display:none;">0</span></button> <button data-pmid="41961498" data-rating="useful" onclick="vote('41961498','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41961498-useful" style="display:none;">0</span></button> <button data-pmid="41961498" data-rating="so_so" onclick="vote('41961498','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41961498-so_so" style="display:none;">0</span></button> <button data-pmid="41961498" data-rating="skip" onclick="vote('41961498','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41961498-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41961498" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41961498" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41961498','Nirsevimab in High-Risk Infants in a Respiratory Syncytial Virus Prevention Strategy.',this,false)">
+  <button id="upload-btn-41961498" onclick="document.getElementById('pdf-41961498').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41961498" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 2-3: QUICK SUMMARY</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Seminars in Fetal and Neonatal Medicine</span></div>
+  <h2 class="card-title">Antenatal and perinatal preventative strategies for intraventricular hemorrhage.</h2>
+  <div class="card-authors">Bowers H, Eltaly H, Russell L, et al. · 2026 Apr 03</div>
+  <div id="original-analysis-41956863"><div class="section"><p><b>研究目的：</b>本回顧旨在探討新生兒腦室內出血 (IVH) 的病理機轉，並檢視其預防的實證策略。</p><p><b>研究設計：</b>本研究為一篇敘述性回顧 (narrative review)，探討早產兒，特別是低出生體重嬰兒的 IVH 預防策略，涵蓋產前及周產期介入措施。由於是回顧性文章，未提及具體樣本數或 GA 範圍。</p><p><b>主要發現：</b>回顧指出多種產前介入措施，包括預防早產、轉診至高階周產期中心、治療羊膜腔感染、產前類固醇及神經保護性 magnesium sulfate，均有助於降低 IVH 的發生率及嚴重度。此外，分娩方式、依據胎齡謹慎選擇器械輔助陰道分娩的時機，以及延遲臍帶結紮，亦能影響新生兒腦部預後。</p><p><b>臨床意義：</b>本回顧強調 IVH 是一個多重因素且潛在可預防的傷害，凸顯了產科與新生兒科協同照護對於改善早產兒神經發育預後的重要性，有助於 NICU 醫師及產科醫師共同制定預防策略。</p></div></div>
+  <div id="analysis-result-41956863"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41956863/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1016/j.siny.2026.101727" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41956863" data-rating="must_read" onclick="vote('41956863','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41956863-must_read" style="display:none;">0</span></button> <button data-pmid="41956863" data-rating="useful" onclick="vote('41956863','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41956863-useful" style="display:none;">0</span></button> <button data-pmid="41956863" data-rating="so_so" onclick="vote('41956863','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41956863-so_so" style="display:none;">0</span></button> <button data-pmid="41956863" data-rating="skip" onclick="vote('41956863','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41956863-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41956863" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;" data-has-analysis="41956863">
+  <span style="font-size:13px;color:#085041;">✓ 已有全文分析</span>
+  <input type="file" id="pdf-41956863" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41956863','Antenatal and perinatal preventative strategies for intraventricular hemorrhage.',this,true)">
+  <button id="upload-btn-41956863" onclick="document.getElementById('pdf-41956863').click()"
+    style="padding:4px 10px;border:1px solid #999;border-radius:6px;background:#fff;
+    color:#666;cursor:pointer;font-size:12px;margin-left:8px;">
+    🔄 重新分析
+  </button>
+  <span id="upload-status-41956863" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Acta Paediatrica</span></div>
+  <h2 class="card-title">Growth Deceleration in Infants With Gastrointestinal Manifestations of Cow's Milk Allergy: Case Series From Specialised Centre.</h2>
+  <div class="card-authors">Assis PP, Antunes MMC, Diniz ADS, et al. · 2026 Apr 10</div>
+  <div id="original-analysis-41960656"><div class="section"><p><b>研究目的：</b>本研究旨在探討患有胃腸道牛奶蛋白過敏 (CMA) 的嬰兒其生長遲緩現象，以及生長遲緩與臨床表現和飲食排除之間的關聯。</p><p><b>研究設計：</b>此為一項單中心病例系列研究，分析了60名1-7個月大、在專科診所就診的嬰兒之臨床及人體測量數據。生長遲緩 (WD/LD) 定義為體重或身長z-score下降超過0.67，並將其歸類為生長不良 (FTT)。</p><p><b>主要發現：</b>在60名嬰兒中，53.3%有體重遲緩，51.1%有身長遲緩。分別有26.6%和14.9%的嬰兒達到生長不良 (FTT) 標準。血便 (60.0%) 是最常見的臨床表現。體重遲緩與足月出生 (p=0.021; ES=0.3) 及較高的出生體重z-score (p=0.001; ES=0.5) 相關。身長遲緩與較高的出生身長z-score (p=0.039; ES=0.3) 及輕微與腹瀉 (p=0.059; ES=0.3) 相關。</p><p><b>臨床意義：</b>本研究指出，患有CMA的嬰兒即使在確診前，生長遲緩現象已非常普遍，且可能發生在沒有明顯營養不良的情況下。因此，在臨床高度懷疑CMA時，應及早進行營養評估，以預防進一步的營養不良及生長發育受損。</p></div></div>
+  <div id="analysis-result-41960656"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41960656/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1111/apa.70537" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41960656" data-rating="must_read" onclick="vote('41960656','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41960656-must_read" style="display:none;">0</span></button> <button data-pmid="41960656" data-rating="useful" onclick="vote('41960656','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41960656-useful" style="display:none;">0</span></button> <button data-pmid="41960656" data-rating="so_so" onclick="vote('41960656','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41960656-so_so" style="display:none;">0</span></button> <button data-pmid="41960656" data-rating="skip" onclick="vote('41960656','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41960656-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41960656" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41960656" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41960656','Growth Deceleration in Infants With Gastrointestinal Manifestations of Cow\'s Milk Allergy: Case Series From Specialised Centre.',this,false)">
+  <button id="upload-btn-41960656" onclick="document.getElementById('pdf-41960656').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41960656" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Early Human Development</span></div>
+  <h2 class="card-title">Association between the prenatal hormonal signature (2D:4D ratio) and mandibular radiomorphometric parameters in prepubertal children.</h2>
+  <div class="card-authors">Kızılay FN, Ünal T · 2026 Apr 03</div>
+  <div id="original-analysis-41955768"><div class="section"><p><b>研究目的：</b>本研究旨在評估學齡前兒童的2D:4D比值（作為產前雄性素暴露的非侵入性指標）與下頜骨放射形態學參數之間的關聯。</p><p><b>研究設計：</b>本研究為一項橫斷面研究，納入300名6-12歲學齡前兒童。研究測量了左右手2D:4D比值，並透過標準化數位全景X光片評估下頜骨放射形態學參數。</p><p><b>主要發現：</b>研究結果顯示，2D:4D比值與下頜骨放射形態學參數之間未發現顯著關聯。相對地，年齡與BMI則與多個下頜骨參數呈現顯著關聯。</p><p><b>臨床意義：</b>本研究指出學齡前兒童的下頜骨生長主要受出生後軀體生長影響，而非產前荷爾蒙標誌。此研究主題與新生兒或早產兒照護無直接相關性，對NICU臨床決策不具參考價值。</p></div></div>
+  <div id="analysis-result-41955768"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41955768/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1016/j.earlhumdev.2026.106544" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41955768" data-rating="must_read" onclick="vote('41955768','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41955768-must_read" style="display:none;">0</span></button> <button data-pmid="41955768" data-rating="useful" onclick="vote('41955768','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41955768-useful" style="display:none;">0</span></button> <button data-pmid="41955768" data-rating="so_so" onclick="vote('41955768','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41955768-so_so" style="display:none;">0</span></button> <button data-pmid="41955768" data-rating="skip" onclick="vote('41955768','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41955768-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41955768" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41955768" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41955768','Association between the prenatal hormonal signature (2D:4D ratio) and mandibular radiomorphometric parameters in prepubertal children.',this,false)">
+  <button id="upload-btn-41955768" onclick="document.getElementById('pdf-41955768').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41955768" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<footer>
+  Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  AI scoring by Claude (Haiku + Sonnet)
+</footer>
+</div>
+</div>
+
+<script>
+(function() {
+  var TOKEN_HASH = "542b4440819eea0634d18ff07a31060f8bc203a7d030ab6c6b27330b8e071b81";
+  var PW_HASH = "b6cf8ade465cb0435fd6e1a86d7f8a5b3f67639655691545ced5912ce1cfc08f";
+  var content = document.getElementById('digest-content');
+  var gate = document.getElementById('auth-gate');
+
+  function sha256(str) {
+    var encoder = new TextEncoder();
+    return crypto.subtle.digest('SHA-256', encoder.encode(str)).then(function(buf) {
+      return Array.from(new Uint8Array(buf)).map(function(b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    });
+  }
+
+  function unlock() {
+    gate.style.display = 'none';
+    content.style.display = 'block';
+  }
+
+  function checkAccess() {
+    // 1. Check URL token
+    var params = new URLSearchParams(window.location.search);
+    var t = params.get('t');
+    if (t && TOKEN_HASH) {
+      sha256(t).then(function(h) {
+        if (h === TOKEN_HASH) {
+          localStorage.setItem('digest_token', t);
+          unlock();
+        } else {
+          checkPassword();
+        }
+      });
+      return;
+    }
+
+    // 2. Check stored password
+    checkPassword();
+  }
+
+  function checkPassword() {
+    if (!PW_HASH) { unlock(); return; }
+    var saved = localStorage.getItem('digest_pw');
+    if (saved) {
+      sha256(saved).then(function(h) {
+        if (h === PW_HASH) { unlock(); }
+        else { gate.style.display = 'flex'; }
+      });
+    } else {
+      gate.style.display = 'flex';
+    }
+  }
+
+  window.submitPassword = function() {
+    var input = document.getElementById('pw-input').value;
+    sha256(input).then(function(h) {
+      if (h === PW_HASH) {
+        localStorage.setItem('digest_pw', input);
+        unlock();
+      } else {
+        document.getElementById('pw-error').style.display = 'block';
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', checkAccess);
+})();
+</script>
+<script>
+(function() {
+  var FEEDBACK_URL = "https://script.google.com/macros/s/AKfycbwqSMhyfrFydA2i22AuD_RQLv6bxFPG8m-Jp0G__u1vigkmj-SOx6uwrUiwfux7RNTy/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "newborn";
+  var voted = JSON.parse(localStorage.getItem('digest_voted') || '{}'  );
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore previous votes
+    Object.keys(voted).forEach(function(pmid) {
+      var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+      btns.forEach(function(btn) {
+        btn.style.opacity = '0.4';
+        btn.style.pointerEvents = 'none';
+      });
+      var label = document.getElementById('voted-' + pmid);
+      if (label) {
+        var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+        label.textContent = "Voted: " + (labels[voted[pmid]] || voted[pmid]) + " ✓";
+        label.style.display = 'block';
+      }
+    });
+  });
+
+  window.vote = function(pmid, rating, el) {
+    if (voted[pmid]) return;
+
+    // Get uid from token or anonymous
+    var uid = 'web_anon';
+    var t = new URLSearchParams(window.location.search).get('t');
+    if (t) uid = 'web_' + t.substring(0, 8);
+
+    // JSONP call
+    var script = document.createElement('script');
+    var cb = 'fb_' + Date.now();
+    window[cb] = function(resp) {
+      if (resp && resp.status === 'ok') {
+        voted[pmid] = rating;
+        localStorage.setItem('digest_voted', JSON.stringify(voted));
+
+        var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+        btns.forEach(function(btn) {
+          btn.style.opacity = '0.4';
+          btn.style.pointerEvents = 'none';
+        });
+        el.style.opacity = '1';
+        el.style.background = '#1B6B93';
+        el.style.color = '#fff';
+
+        // Update vote count
+        var cntEl = document.getElementById('cnt-' + pmid + '-' + rating);
+        if (cntEl) {
+          var n = parseInt(cntEl.textContent || '0') + 1;
+          cntEl.textContent = n;
+          cntEl.style.display = '';
+          cntEl.style.color = '#fff';
+        }
+
+        var label = document.getElementById('voted-' + pmid);
+        if (label) {
+          var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+          label.textContent = "Voted: " + (labels[rating] || rating) + " ✓";
+          label.style.display = 'block';
+        }
+      }
+      delete window[cb];
+      script.remove();
+    };
+    script.src = FEEDBACK_URL + '?action=feedback&pmid=' + pmid + '&rating=' + rating +
+      '&uid=' + uid + '&source=web&secret=' + SECRET + '&dept=' + DEPT + '&callback=' + cb;
+    document.body.appendChild(script);
+  };
+})();
+</script>
+<script>
+(function() {
+  var WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwqSMhyfrFydA2i22AuD_RQLv6bxFPG8m-Jp0G__u1vigkmj-SOx6uwrUiwfux7RNTy/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "newborn";
+  var uploaded = JSON.parse(localStorage.getItem('digest_uploaded') || '{}');
+
+  // Load analysis results on page load
+  function loadAnalysis(pmid) {
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        renderAnalysis(pmid, resp.analysis);
+      }
+    });
+  }
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore uploaded state from localStorage
+    Object.keys(uploaded).forEach(function(pmid) {
+      var btn = document.getElementById('upload-btn-' + pmid);
+      if (btn) {
+        btn.textContent = '✓ 已上傳，已分析';
+        btn.disabled = true;
+        btn.style.opacity = '0.5';
+        btn.style.cursor = 'default';
+      }
+      loadAnalysis(pmid);
+    });
+    // Auto-load analysis for articles that already have fulltext analysis
+    document.querySelectorAll('[data-has-analysis]').forEach(function(el) {
+      var pmid = el.getAttribute('data-has-analysis');
+      if (!uploaded[pmid]) {
+        loadAnalysis(pmid);
+      }
+    });
+  });
+
+  // JSONP helper for polling
+  function jsonpGet(url, callback) {
+    var script = document.createElement('script');
+    var cb = 'pdfcb_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5);
+    window[cb] = function(resp) {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback(resp);
+    };
+    script.src = url + '&callback=' + cb;
+    script.onerror = function() {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback({ status: 'error', message: 'Network error' });
+    };
+    document.head.appendChild(script);
+  }
+
+  // Poll for analysis result via JSONP GET
+  var POLL_TOTAL = 30;
+  var POLL_STEPS = [
+    '📤 PDF 已上傳，伺服器接收中...',
+    '📄 正在提取 PDF 全文...',
+    '📄 正在提取 PDF 全文...',
+    '🔍 全文提取中，準備進行 AI 分析...',
+    '🔍 全文提取完成，啟動 AI 分析...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 正在整合分析結果...',
+    '🤖 AI 正在整合分析結果...',
+    '💾 正在儲存分析結果...',
+    '💾 正在儲存分析結果...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，請耐心等候...',
+    '⏳ 仍在處理中，請耐心等候...',
+    '⏳ 大型 PDF 需要較長處理時間...',
+    '⏳ 大型 PDF 需要較長處理時間...',
+    '⏳ 即將完成，感謝您的耐心...',
+    '⏳ 即將完成，感謝您的耐心...',
+    '⏳ 即將完成...',
+    '⏳ 即將完成...',
+    '⏳ 最後處理中...',
+    '⏳ 最後處理中...',
+    '⏳ 最後處理中...'
+  ];
+
+  function pollForResult(pmid, btn, statusEl, attempts) {
+    if (attempts <= 0) {
+      btn.textContent = '❌ 分析逾時';
+      btn.disabled = false;
+      statusEl.textContent = '伺服器處理時間過長，請稍後再試';
+      statusEl.style.color = '#E24B4A';
+      var orig = document.getElementById('original-analysis-' + pmid);
+      if (orig) orig.style.display = '';
+      return;
+    }
+
+    // Update progress message
+    var stepIdx = POLL_TOTAL - attempts;
+    var elapsed = (stepIdx + 1) * 10 + 15;
+    var msg = POLL_STEPS[Math.min(stepIdx, POLL_STEPS.length - 1)];
+    statusEl.textContent = msg + '（' + elapsed + '秒）';
+
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        btn.textContent = '✓ 已有全文分析';
+        btn.style.color = '#085041';
+        btn.style.borderColor = '#085041';
+        statusEl.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
+        statusEl.style.color = '#085041';
+        uploaded[pmid] = true;
+        localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
+        var orig = document.getElementById('original-analysis-' + pmid);
+        if (orig) orig.style.display = 'none';
+        renderAnalysis(pmid, resp.analysis);
+      } else if (resp.status === 'pending') {
+        setTimeout(function() { pollForResult(pmid, btn, statusEl, attempts - 1); }, 10000);
+      } else {
+        btn.textContent = '❌ 分析失敗';
+        btn.disabled = false;
+        statusEl.textContent = resp.message || '請稍後再試';
+        statusEl.style.color = '#E24B4A';
+        var orig = document.getElementById('original-analysis-' + pmid);
+        if (orig) orig.style.display = '';
+      }
+    });
+  }
+
+  window.handlePdfSelect = function(pmid, title, input, force) {
+    var file = input.files[0];
+    if (!file) return;
+    if (file.size > 10 * 1024 * 1024) {
+      alert('PDF 檔案不能超過 10MB');
+      return;
+    }
+
+    if (force && !confirm('確定要重新上傳並分析此 PDF？將會覆蓋現有的分析結果。')) {
+      input.value = '';
+      return;
+    }
+
+    var btn = document.getElementById('upload-btn-' + pmid);
+    var statusEl = document.getElementById('upload-status-' + pmid);
+    btn.textContent = '⏳ 上傳中...';
+    btn.disabled = true;
+    statusEl.textContent = '📤 正在上傳 PDF 至伺服器...';
+    statusEl.style.display = 'inline';
+    statusEl.style.color = '#1B6B93';
+
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var base64 = e.target.result.split(',')[1];
+
+      // Step 1: Submit via fetch + URLSearchParams (no-cors, response ignored — polling handles result)
+      fetch(WEBHOOK_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: new URLSearchParams({
+          action: 'upload_pdf',
+          pmid: pmid,
+          title: title,
+          pdf_base64: base64,
+          secret: SECRET,
+          dept: DEPT,
+          force: force ? 'true' : 'false'
+        })
+      }).catch(function() {});
+
+      // Step 2: Poll for result via JSONP (every 10s, up to POLL_TOTAL attempts)
+      setTimeout(function() { pollForResult(pmid, btn, statusEl, POLL_TOTAL); }, 15000);
+    };
+    reader.readAsDataURL(file);
+  };
+
+  window.renderAnalysis = function(pmid, data) {
+    var container = document.getElementById('analysis-result-' + pmid);
+    if (!container) return;
+
+    var a = data.deep_analysis || data;
+    var html = '';
+
+    if (a.thirty_second_summary) {
+      html += '<div class="section"><b>30 秒重點：</b>' + a.thirty_second_summary + '</div>';
+    }
+
+    var hidden = a.hidden_findings || [];
+    if (hidden.length > 0) {
+      html += '<div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div>';
+      for (var i = 0; i < hidden.length; i++) {
+        html += '<p><b>' + (hidden[i].finding || '') + '</b> ' + (hidden[i].source || '') + '。' + (hidden[i].implication || '') + '</p>';
+      }
+      html += '</div>';
+    }
+
+    var meth = a.methodology_audit || {};
+    var methHtml = '';
+    (meth.strengths || []).forEach(function(s) { methHtml += '<div class="hl hl-green"><b>Strong：</b>' + s + '</div>'; });
+    (meth.notes || []).forEach(function(n) { methHtml += '<div class="hl hl-amber"><b>Note：</b>' + n + '</div>'; });
+    (meth.weaknesses || []).forEach(function(w) { methHtml += '<div class="hl hl-red"><b>Weak：</b>' + w + '</div>'; });
+    if (methHtml) {
+      html += '<div class="section"><div class="section-label" style="color:#633806">方法學評估</div>' + methHtml + '</div>';
+    }
+
+    var impact = a.protocol_impact || {};
+    if (impact.proposed_change) {
+      var impactHtml = '<div class="hl hl-blue">';
+      if (impact.current_practice) impactHtml += '<b>目前做法：</b>' + impact.current_practice + '<br>';
+      if (impact.proposed_change) impactHtml += '<b>建議調整：</b>' + impact.proposed_change + '<br>';
+      if (impact.missing_evidence) impactHtml += '<b>等待的證據：</b>' + impact.missing_evidence;
+      impactHtml += '</div>';
+      html += '<div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div>' + impactHtml + '</div>';
+    }
+
+    container.innerHTML = html;
+  };
+})();
+</script>
+</body>
+</html>
