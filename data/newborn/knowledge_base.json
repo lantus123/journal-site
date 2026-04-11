@@ -12482,5 +12482,130 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-11"
+  },
+  {
+    "pmid": "41963715",
+    "title": "Noninvasive oxygenation monitoring in PPHN: validation of the oxygen saturation index and the oxygen saturation to fraction of inspired oxygen ratio against conventional invasive indices.",
+    "authors": "Li D, Yao M, Shi H, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 10",
+    "doi": "10.1038/s41372-026-02663-4",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 3
+    },
+    "keywords": [
+      "PPHN",
+      "oxygenation index",
+      "noninvasive monitoring",
+      "SpO2/FiO2 ratio",
+      "OSI"
+    ],
+    "one_liner": "這篇研究證實，在PPHN新生兒SpO2 ≥ 80%時，OSI和S/F可作為可靠的非侵入性氧合指標，有助於減少動脈採樣。",
+    "summary": {
+      "purpose": "本研究旨在評估PPHN新生兒中，非侵入性氧合飽和指數 (OSI) 與氧合指數 (OI) 的相關性及一致性，以及SpO2/FiO2比值 (S/F) 與PaO2/FiO2比值 (P/F) 的相關性及一致性，並找出臨床應用的非侵入性閾值。",
+      "design": "此為一回溯性研究，分析了2012-2021年間在單一三級NICU收治的377名PPHN嬰兒的2717對動脈血氣與SpO2配對測量數據。研究採用Spearman相關性、線性混合效應模型、Bland-Altman一致性分析及ROC曲線分析。",
+      "findings": "OSI與OI之間存在強烈相關性 (r=0.93)，S/F與P/F之間亦有良好相關性 (r=0.84)，且在SpO2 ≥ 80%時表現最佳。在嚴重低血氧情況下，一致性會下降。ROC分析顯示OSI具有出色的判別能力 (AUC > 0.96)，S/F則表現良好 (AUC高達0.96)。",
+      "significance": "當SpO2 ≥ 80%時，OSI和S/F可作為PPHN新生兒侵入性氧合指標的可靠非侵入性替代，有助於減少動脈採樣，降低新生兒不適及併發症風險。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇大型回溯性研究證實，在 PPHN 新生兒中，只要 SpO2 ≥ 80%，非侵入性的氧合飽和指數 (OSI) 與傳統的氧合指數 (OI) 有極佳的相關性 (r=0.93)。OSI 對於判斷 OI 是否超過 ECMO 的可能閾值（如 25 或 40）具有很高的準確度 (AUC > 0.96)。這表示我們可以利用 OSI 來趨勢監測 PPHN 的嚴重度，從而減少頻繁的動脈採血，降低疼痛與併發症風險。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 未提供不同 GA 或 BW 亞群的分析，特別是早產兒 vs. 足月兒的數據。",
+          "source": "閱讀全文時需尋找 Table 或 Supplementary data 中的亞群分析 (subgroup analysis)。",
+          "implication": "早產兒的皮膚穿透性、循環狀態、血紅素種類 (HbF) 都與足月兒不同，可能影響 SpO2 的準確性，進而影響 OSI/S-F ratio 的可靠度。我們需要知道這個工具對 VLBW/ELBW 早產兒合併 PPHN 的適用性，因為他們的 PPHN 病理生理學與治療反應可能不同。"
+        },
+        {
+          "finding": "Abstract 未區分 PPHN 的不同病因（如 MAS, RDS, CDH, idiopathic）。",
+          "source": "需在全文的 Baseline Characteristics (Table 1) 和可能的亞群分析中尋找此資訊。",
+          "implication": "在肺部有嚴重實質病變（如 MAS 或嚴重 RDS）的案例中，V/Q mismatch 可能更嚴重，這會直接影響 SpO2 與 PaO2 的關聯性。如果此工具在不同病因的 PPHN 中表現不同，其臨床應用將受到限制，我們需要知道在哪種病人身上最可靠。"
+        },
+        {
+          "finding": "Abstract 未提供對應 OI 關鍵閾值（如 20, 25, 40）的具體 OSI 切點值及其敏感性/特異性。",
+          "source": "需在全文的 ROC curve 分析圖表 (Figure) 或結果 (Table) 中尋找這些具體的 cutoff values。",
+          "implication": "臨床上我們需要明確的 action threshold。例如，「當 OSI > X，應立即抽 ABG 確認 OI 是否 > 25，並準備升級治療」。沒有這些切點值，這個工具就只能用於趨勢監測，而無法指導重大決策（如啟動 iNO 或聯繫 ECMO team）。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "樣本數大：包含 377 名嬰兒的 2717 對配對數據，在單一中心研究中算是相當大的樣本量，增加了統計檢定力。",
+          "統計方法得當：使用線性混合效應模型 (linear mixed-effects models) 來處理來自同一個案的重複測量數據，這能正確地控制個體內差異，是本研究方法學上的一大優點。"
+        ],
+        "notes": [
+          "研究時間跨度長 (2012-2021)：這十年間，PPHN 的呼吸照護策略（如 HFOV 的使用時機、iNO 的起始劑量）可能有所改變，這可能為研究結果帶來潛在的 confounding。",
+          "單一中心研究：研究結果的 generalizability 可能受限於該中心的特定病人族群與照護模式。",
+          "SpO2 ≥ 80% 的限制：研究明確指出在嚴重低血氧時一致性會下降，這代表在最危急、最需要準確數據的時刻，這個非侵入性工具的可靠性反而最低。"
+        ],
+        "weaknesses": [
+          "回溯性設計 (Retrospective design)：這是本研究最大的限制。數據的準確性依賴病歷紀錄，可能存在記錄偏差。動脈血採樣時間與 SpO2 記錄時間的精確配對可能不完美，進而影響結果。",
+          "缺乏臨床 outcome 數據：這是一項驗證性研究，並未連結 OSI/S-F ratio 的使用與臨床預後（如死亡率、ECMO 使用率、BPD、住院天數）的關係。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Thomas NJ et al, 2012, Pediatr Crit Care Med",
+            "comparison": "該研究在兒科 ARDS 患者中驗證了 OSI，但新生兒（特別是 PPHN）有其獨特的生理特性，如心房及動脈導管層級的右向左分流 (shunting)，這會影響 SpO2 與 PaO2 的關係。本研究專注於 PPHN 新生兒，更具專一性。"
+          },
+          {
+            "citation": "Rawat M et al, 2016, J Perinatol",
+            "comparison": "該研究評估了 S/F ratio 在接受 non-invasive ventilation 的早產兒中的應用，其族群主要是 RDS。本研究則專門針對 PPHN，這是一種以血管病變為主的疾病，其氧合問題與 RDS 的肺泡塌陷不盡相同。"
+          }
+        ],
+        "guideline_status": "目前國際（如 AAP）或台灣新生兒科醫學會的 PPHN 治療指引，在評估疾病嚴重度及決定是否使用 iNO 或 ECMO 時，仍以侵入性的 OI 為黃金標準。非侵入性指標如 OSI 通常被視為輔助的趨勢監測工具，尚未被納入正式的決策流程中。",
+        "evidence_gap_filled": "本研究為 PPHN 這個特定且高風險的新生兒族群，提供了 OSI/S-F ratio 可靠性的強力證據。過去的證據多來自 general aRDS 或 pediatric ARDS，本研究填補了 PPHN 領域的直接證據缺口，並量化了其相關性與診斷準確度。",
+        "ongoing_trials": "目前沒有已知的正在進行的大型 RCT 旨在比較以 OSI 為導向 vs. 以 OI 為導向的 PPHN 照護策略對臨床預後的影響。下一步需要的是前瞻性的多中心驗證研究。"
+      },
+      "protocol_impact": {
+        "current_practice": "根據我們的工作手冊，在【Respiratory / NO / 二、ECMO in Newborn】章節中，PPHN 被列為可能需要 ECMO 的主要診斷之一。然而，手冊中並未明確定義監測 PPHN 嚴重度的標準化指標，如 OI 或 OSI。臨床實務上，我們依賴 pre/post-ductal SpO2 差異、臨床表現及頻繁的 ABG 來計算 OI，以決定何時啟動 iNO 或 sildenafil，以及何時考慮 ECMO。",
+        "proposed_change": "目前工作手冊中無相關 protocol。建議在 PPHN 照護 protocol 中新增一段關於非侵入性氧合監測的指引：\n1.  **常規監測**：對於所有使用呼吸器且診斷為 PPHN 的新生兒，應在護理紀錄單上常規計算並記錄 OSI (OSI = MAP x FiO2 x 100 / SpO2)，至少每小時一次。\n2.  **適用範圍**：此指引適用於所有 GA 的 PPHN 新生兒，但需注意在 SpO2 < 80% 時其準確性會下降。\n3.  **行動閾值**：\n    -   當 SpO2 ≥ 80%，可使用 OSI 趨勢來評估治療反應（如對 iNO 的反應），以減少非必要的 ABG 採樣。\n    -   若 OSI 持續惡化（例如，在 2-4 小時內上升 > 5）或超過一個警戒值（待全文提供具體切點，初步可暫訂為 15-20），應立即抽 ABG 確認 OI，並評估是否需要升級治療。\n    -   所有重大治療決策（如啟動 ECMO）仍需以 ABG 計算的 OI 為最終依據。",
+        "prerequisites": [
+          "對全科醫師、住院醫師、專科護理師及呼吸治療師進行 in-service training，教育 OSI 的計算方式、臨床意義及使用限制。",
+          "與資訊室合作，在電子病歷系統或 NICU 的儀器監測系統中加入 OSI 的自動計算與趨勢圖功能。",
+          "草擬一份 PPHN 照護 protocol 的修訂版，將 OSI 監測納入標準流程，並送交科會討論通過。"
+        ],
+        "missing_evidence": "我們仍需要前瞻性研究來證實，導入以 OSI 為輔助的監測策略，是否能在不影響病患安全的前提下，確實減少動脈採血次數、降低感染風險，並改善長期預後（如 neurodevelopmental outcome）。此外，針對 ELBW 早產兒合併 PPHN 的數據仍然缺乏。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-12"
+  },
+  {
+    "pmid": "41962340",
+    "title": "Dynamic adaptive changes in heart function first 10 days after birth in healthy term neonates.",
+    "authors": "Nørgaard NN, Holstad I, Jess MS, et al.",
+    "journal": "Early Human Development",
+    "pub_date": "2026 Apr 07",
+    "doi": "10.1016/j.earlhumdev.2026.106553",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "新生兒心臟功能",
+      "足月兒",
+      "心臟超音波",
+      "生理適應",
+      "出生後變化"
+    ],
+    "one_liner": "這篇研究詳細描繪了健康足月兒出生後10天內心臟功能的動態適應過程，提醒我們評估新生兒心臟功能時需考慮時間因素，但對早產兒重症照護的直接影響有限。",
+    "summary": {
+      "purpose": "該研究旨在探討健康足月新生兒出生後前十天內的心臟功能適應性變化。",
+      "design": "這是一項前瞻性、觀察性研究，共納入50名健康足月兒，平均胎齡40.0 (1.1) 週，出生體重3.6 (0.4) 公斤。研究團隊在出生後第1、3、及6-10天，利用斑點追蹤心臟超音波 (STE)、脈衝波組織都卜勒影像 (pwTDI) 及常規心臟超音波進行系列評估。",
+      "findings": "左心室整體縱向應變 (GLS) 從出生後第1天至6-10天顯著下降 (從-18.6%降至-17.3%)，而應變率則無變化。左心室pwTDI衍生的收縮期峰值速度 (s´)、偏移量及搏出量呈現U型模式，在第3天顯著下降。相對地，右心室縱向應變、應變率及s´從第1天至6-10天均增加。左右心室的縱向應變、應變率及s´隨時間的變化模式顯著不同。此外，左右心室的收縮期應變率均隨心率增加而上升。",
+      "significance": "本研究揭示了健康足月新生兒出生後前十天內，左右心室功能存在顯著且動態的適應性變化，尤其在出生後第3天左右心室功能變化趨勢不同。這提醒臨床醫師在評估新生兒心臟功能時，應充分考慮時間因素，並為新生兒心臟生理適應提供重要的參考數據。然而，這項研究主要針對健康足月兒，對早產兒或重症新生兒的臨床照護決策影響較為間接。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-12"
   }
 ]
