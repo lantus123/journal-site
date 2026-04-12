@@ -6874,5 +6874,202 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-11"
+  },
+  {
+    "pmid": "41966476",
+    "title": "Outcomes of Staged Repair Following Systemic-to-Pulmonary Artery Shunt in Pulmonary Atresia with Ventricular Septal Defect.",
+    "authors": "Song Y, Choi ES, Kim DH, et al.",
+    "journal": "Journal of Thoracic and Cardiovascular Surgery",
+    "pub_date": "2026 Apr 09",
+    "doi": "10.1016/j.jtcvs.2026.03.612",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "PA/VSD",
+      "SPS",
+      "congenital heart disease",
+      "pulmonary artery coarctation",
+      "long-term outcome"
+    ],
+    "one_liner": "這篇回溯性研究證實了 PA/VSD 嬰兒分階段修復的優異長期預後，並指出右主動脈弓是肺動脈狹窄相關不良事件的風險因子，值得新生兒科醫師在術前評估時留意。",
+    "summary": {
+      "purpose": "評估肺動脈閉鎖合併心室中膈缺損 (PA/VSD) 且肺循環依賴動脈導管的病患，在接受全身-肺動脈分流術 (SPS) 作為初步姑息治療後，進行分階段修復的結果，並特別關注肺動脈狹窄 (PAC) 的型態學及臨床影響。",
+      "design": "本研究為回溯性分析，納入 2014 年 1 月至 2024 年 7 月間 87 名 PA/VSD 病患，他們皆先接受 SPS 作為初步姑息治療，隨後進行雙心室修復 (BVR)。病患中位數在 SPS 時年齡為 24 天，體重為 3.4 公斤。研究透過系列電腦斷層血管攝影評估肺動脈解剖構造。",
+      "findings": "SPS 後，早期死亡率為 1.1%，階段間死亡率為 1.1%。SPS 後 18 個月內進行 BVR 的機率為 97.7%。10 年總體存活率達 94.9%。SPS 後，兩側肺動脈均顯著生長 (P < .001)，肺動脈狹窄比率從 0.77 降至 0.63，狹窄段直徑從 2.85 毫米增至 4.20 毫米 (P < .001)。11.8% 的病患發生 PAC 相關不良事件，多變項分析顯示右主動脈弓是 PAC 相關不良事件的獨立預測因子 (OR 5.95; P = .02)。",
+      "significance": "對於 PA/VSD 且肺循環依賴動脈導管的嬰兒，分階段修復（先 SPS 後 BVR）可達到優異的長期存活率和良好的肺動脈生長。儘管肺動脈狹窄可能存在，但其直徑會增加。新生兒科醫師在照護這類病患時，應了解此治療策略的良好預後，並特別留意右主動脈弓的病患，因其發生 PAC 相關不良事件的風險較高，需密切監測並可能需要再介入。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-13"
+  },
+  {
+    "pmid": "41964871",
+    "title": "From Other Journals: A Review of Recent Articles by Our Editorial Team - 2026 First Edition.",
+    "authors": "Alhayek N, Shibbani K, Alsaied T, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 11",
+    "doi": "10.1007/s00246-026-04254-8",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Fetal congenital heart disease",
+      "Pediatric cardiology",
+      "Review",
+      "Fontan",
+      "AI"
+    ],
+    "one_liner": "這是一篇小兒心臟科的文獻回顧，其中部分胎兒心臟病診斷的內容可供新生兒科醫師參考，但對 NICU 臨床實務無直接影響。",
+    "summary": {
+      "purpose": "本篇回顧旨在為小兒心臟科醫師提供近期發表文章的簡要總結，涵蓋該領域的最新研究。",
+      "design": "這是一篇由編輯團隊撰寫的敘述性回顧文章，總結了五個與小兒心臟學相關的近期研究主題。文章本身無特定 GA 範圍、出生體重或樣本數。",
+      "findings": "主要回顧了五個主題：Extracardiac Conduit Fontan (ECC) 與 Lateral Tunnel Fontan (LT) 的長期預後比較、增加的 Body Mass Index (BMI) 對成人 Fontan 循環心室大小和容量的影響、利用母體唾液代謝體和人工智慧 (AI) 進行胎兒發紺型先天性心臟病檢測、系列胎兒心臟超音波在單一心室病變中檢測宮內變化的效用，以及小兒患者冠狀動脈缺血測試的多模式方法。",
+      "significance": "對於新生兒科醫師而言，此回顧提供了胎兒先天性心臟病診斷新進展（如唾液代謝體AI檢測、系列胎兒心臟超音波應用）的背景資訊，有助於了解產前診斷技術的發展趨勢，但對 NICU 日常照護決策無直接影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-13"
+  },
+  {
+    "pmid": "41964870",
+    "title": "Neonatal Case of Fetal Pleural Effusion Caused by Cor Triatriatum Dexter with Postnatal Worsening of Superior Vena Cava Syndrome.",
+    "authors": "Kimura H, Shinohara T, Yasuda M, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 11",
+    "doi": "10.1007/s00246-026-04257-5",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Cor Triatriatum Dexter",
+      "Fetal Pleural Effusion",
+      "Superior Vena Cava Syndrome",
+      "Neonatal",
+      "Congenital Heart Disease"
+    ],
+    "one_liner": "這是一篇罕見新生兒Cor Triatriatum Dexter合併胎兒肋膜積水及出生後Superior Vena Cava Syndrome惡化的病例報告，對於處理複雜先天性心臟病變的醫師有參考價值。",
+    "summary": {
+      "purpose": "本文旨在報告一例罕見新生兒病例，其胎兒期即有肋膜積水，出生後診斷為右心房三房心（Cor Triatriatum Dexter），並在出生後出現上腔靜脈症候群（Superior Vena Cava Syndrome）惡化。",
+      "design": "本研究為單一病例報告，詳細描述一名新生兒的臨床病程、診斷過程及治療策略。",
+      "findings": "該病例呈現胎兒期肋膜積水，出生後經影像學檢查確診為Cor Triatriatum Dexter，並觀察到出生後Superior Vena Cava Syndrome的進行性惡化。報告可能詳述了診斷依據、治療介入及臨床轉歸。",
+      "significance": "此病例報告突顯了罕見先天性心臟畸形（如Cor Triatriatum Dexter）可能導致複雜的胎兒期及新生兒期併發症，特別是Superior Vena Cava Syndrome的惡化，對於臨床醫師在診斷和管理類似複雜心臟病變時提供參考。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-13"
+  },
+  {
+    "pmid": "41966344",
+    "title": "Robotic-assisted Biventricular Durable Assist Device Implantation: The First in Human Experience.",
+    "authors": "Haq MI, Netuka I, Alsulbud AK, et al.",
+    "journal": "Journal of Heart and Lung Transplantation",
+    "pub_date": "2026 Apr 09",
+    "doi": "10.1016/j.healun.2026.04.002",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 4,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Robotic-assisted surgery",
+      "BiVAD",
+      "HeartMate 3",
+      "Dilated cardiomyopathy",
+      "Case report"
+    ],
+    "one_liner": "這是一篇關於成人心臟手術新技術的個案報告，與新生兒科臨床實務無關，可跳過。",
+    "summary": {
+      "purpose": "本研究旨在報告全球首例使用機器人輔助、微創方式植入雙心室輔助裝置 (BiVAD) 的臨床經驗。",
+      "design": "本篇為個案報告，描述一名61歲男性，因擴張性心肌病變導致嚴重雙心室功能不全，接受機器人輔助 HeartMate 3 BiVAD 植入術。",
+      "findings": "患者術後恢復順利，臨床狀況穩定並已出院，未發生裝置相關併發症。此微創方法透過胸廓切開術而非胸骨切開術，實現精準解剖與植入，並保留胸骨及前縱膈腔，有助於降低術後併發症並利於未來心臟移植。",
+      "significance": "此研究證實機器人輔助 BiVAD 植入術在特定成人患者中的可行性與潛在益處，為成人心臟外科領域帶來新技術，但與新生兒科的臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-13"
+  },
+  {
+    "pmid": "41964869",
+    "title": "Successful Ablation of Multifocal Atrial Flutter in Pediatric Emery-Dreifuss Muscular Dystrophy Patient Using Pulsed Field Ablation.",
+    "authors": "Abraham A, Bingham C, Cortez D",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 11",
+    "doi": "10.1007/s00246-026-04258-4",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Emery-Dreifuss muscular dystrophy",
+      "atrial flutter",
+      "pulsed field ablation",
+      "pediatric cardiology"
+    ],
+    "one_liner": "這篇文章描述了在一名患有Emery-Dreifuss肌肉失養症的兒童患者身上，成功使用脈衝電場消融術治療多灶性心房撲動的案例報告，與新生兒照護無直接關聯。",
+    "summary": {
+      "purpose": "本研究（根據標題判斷為案例報告）旨在報告在一名患有Emery-Dreifuss肌肉失養症的兒童患者身上，成功使用脈衝電場消融術治療多灶性心房撲動的經驗。",
+      "design": "此為一篇案例報告，研究對象為一名患有Emery-Dreifuss肌肉失養症的兒童患者。由於缺乏摘要，無法提供具體的胎齡、出生體重或樣本數（預計為單一案例）。",
+      "findings": "根據標題，主要發現是在此特定兒童患者中，脈衝電場消融術成功治療了多灶性心房撲動。由於缺乏摘要，無法提供具體數據或效應大小。",
+      "significance": "對於新生兒科醫師而言，本文章的臨床意義極低，因其主題涉及罕見的遺傳性肌肉失養症、特定心律不整及進階介入性治療，且對象為兒童而非新生兒。此類資訊主要與小兒心臟科或電生理學相關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-13"
+  },
+  {
+    "pmid": "41966477",
+    "title": "Pathology of Explanted Novel ePTFE Pulmonary Valved Conduits Reveals Paucity of Leaflet Tissue Response but Frequent Non-Adherent Thrombus Formation.",
+    "authors": "Carreon CK, Chávez M, Nathan M, et al.",
+    "journal": "Journal of Thoracic and Cardiovascular Surgery",
+    "pub_date": "2026 Apr 09",
+    "doi": "10.1016/j.jtcvs.2026.03.608",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 2
+    },
+    "keywords": [
+      "pulmonary valved conduit",
+      "ePTFE",
+      "thrombus",
+      "congenital heart surgery",
+      "pathology"
+    ],
+    "one_liner": "本研究探討兒童心臟手術中新型人工肺動脈瓣膜導管的病理發現，與新生兒科照護無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "本研究旨在描述從兒童患者體內取出的新型 GORE® PV1 ePTFE 肺動脈瓣膜導管的肉眼及組織病理學發現。",
+      "design": "此為一項病理學研究，評估了6個從兒童患者（中位年齡 13.5 歲）體內取出的 GORE® PV1 導管。所有患者均曾接受多次心臟手術，並在導管植入後接受抗凝血治療。",
+      "findings": "所有導管均保持良好的結構完整性，無鈣化或退化。然而，所有導管均存在非黏附性血栓，常充滿竇腔，並導致4/6患者（66.7%）發生肺栓塞，其中2例即使接受治療性抗凝血劑仍進展。組織學檢查顯示瓣膜無炎症、纖維化、鈣化或內皮化。",
+      "significance": "本研究揭示 GORE® PV1 導管雖結構良好，但血栓形成頻繁且導致栓塞事件，即使在抗凝血治療下仍發生。此發現對新生兒科的臨床照護無直接意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-13"
   }
 ]

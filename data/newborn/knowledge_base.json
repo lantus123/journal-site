@@ -12607,5 +12607,199 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-12"
+  },
+  {
+    "pmid": "41966870",
+    "title": "Immediate delivery room interventions for prevention of preterm brain injury: An evidence-based review.",
+    "authors": "Abou Mehrem A, Dunn M",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Mar 24",
+    "doi": "10.1016/j.siny.2026.101728",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 5,
+      "novelty": 3,
+      "generalizability": 5
+    },
+    "keywords": [
+      "Preterm brain injury",
+      "delivery room management",
+      "neurodevelopmental outcome",
+      "preterm infant",
+      "resuscitation"
+    ],
+    "one_liner": "這篇證據導向的文獻回顧，強調了產房中對極早產兒進行溫和且精準的照護，對於預防腦損傷和改善長期神經發育預後至關重要。",
+    "summary": {
+      "purpose": "本篇證據導向的文獻回顧旨在探討針對胎齡 < 32 週的極早產兒，在產房中可立即執行的介入措施，以預防腦損傷並改善長期神經發育預後。",
+      "design": "這是一篇證據導向的文獻回顧，聚焦於產後最初幾分鐘的處置，以促進極早產兒從子宮內到子宮外的平穩生理轉變，特別強調其對腦部健康的影響。",
+      "findings": "產房介入措施的目標是實現平穩的體溫、呼吸和循環生理過渡，確保重要器官（尤其是腦部）獲得足夠的灌注和氧合。研究強調應避免劇烈刺激、過度的呼吸壓力與潮氣量，以及氧氣供應的劇烈變化，這些因素可能導致生發基質出血和白質損傷。",
+      "significance": "這篇回顧性文章強化了產房中對極早產兒進行精準且溫和照護的重要性，特別是在生命最初幾分鐘內，以最大程度地降低腦損傷的風險，進而改善其長期神經發育預後。它提醒臨床醫師需避免可能導致腦部血流和氧氣供應中斷的處置。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇文獻回顧的重點是，對早產兒延遲臍帶鉗夾 (DCC) 至少60秒，主要的好處是降低死亡率，但最新的大型隨機試驗 (RCT) 和統合分析顯示，DCC 並沒有顯著降低嚴重腦室內出血 (IVH) 的風險。更重要的是，臍帶擠壓 (umbilical cord milking, UCM) 在胎齡小於28週的族群中，會顯著增加嚴重 IVH 的風險，應予避免。在DCC期間給予呼吸支持，雖未改變主要預後，但可能減少26-28週早產兒在產房插管的機率。",
+      "hidden_findings": [
+        {
+          "finding": "臍帶擠壓 (iUCM) 對不同胎齡早產兒的影響有顯著差異。在一個大型多中心 RCT 中，相較於 DCC，iUCM 顯著增加了23-27週極度早產兒發生嚴重 IVH 的風險，但在28-32週的族群中則無此差異。",
+          "source": "Full text, section 'Umbilical cord management', citing the Katheria et al. trial [19].",
+          "implication": "這是一個強烈的 GA-specific contraindication。我們必須確保在本科，特別是針對最脆弱的 ELBW 嬰兒，絕對不能執行 UCM 作為 DCC 的替代方案，即使在需要立即急救的情況下也不行。"
+        },
+        {
+          "finding": "生理性臍帶鉗夾 (PBCC) 雖然在整體分析中未能改善「無重大腦傷存活」的主要複合終點，但在一個預設的次分組分析 (subgroup analysis) 中發現，男性嬰兒從 PBCC 中獲益的機會較高。",
+          "source": "Full text, section 'Umbilical cord management', citing the PBCC vs. TBCC trial [27].",
+          "implication": "這是一個 hypothesis-generating 的發現，目前尚不足以改變臨床常規。但它提醒我們，新生兒對周產期介入措施的反應可能存在性別差異，這是在解讀未來研究或我們自身臨床數據時值得注意的面向。"
+        },
+        {
+          "finding": "在 DCC 期間提供呼吸輔助（CPAP 或 PPV），雖然未能降低死亡率或 IVH，但在一個大型 RCT 的次級分析 (secondary analysis) 中顯示，可降低26-28週、出生30秒後仍無有效自主呼吸的早產兒在產房被插管的機率。",
+          "source": "Full text, section 'Umbilical cord management', citing a secondary analysis [26].",
+          "implication": "對於這個特定的 GA 族群，在母親身旁、臍帶未斷開的情況下給予早期呼吸支持，可能是一個改善呼吸道轉換、避免侵入性處置的有效策略。這對我們思考如何優化產房急救流程提供了新的方向。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "這是一篇證據導向的回顧，整合了近年來數個大型、高品質的 RCTs (如 Australian Placental Transfusion Study) 和 individual participant data meta-analysis 的結果，提供了比單一研究更宏觀且穩健的結論。",
+          "文章清楚區分了不同臍帶處理策略 (DCC, UCM, PBCC)，並討論了它們各自的證據基礎和潛在風險，有助於臨床醫師做出細緻的決策。"
+        ],
+        "notes": [
+          "本文為敘事性回顧 (narrative review)，而非遵循 PRISMA 流程的系統性回顧，因此可能存在作者對文獻選擇的偏好。",
+          "文章主要關注產房立即性的介入與短期腦部影像結果 (IVH) 或住院期間死亡率，對於這些介入措施如何影響長期的神經發育預後 (neurodevelopmental outcome)，如2歲或3歲時的 Bayley scores，著墨較少。"
+        ],
+        "weaknesses": [
+          "許多被引用的研究使用複合性主要終點 (composite primary outcome)，例如「死亡或重大併發症」。這可能遮蓋了介入措施對單一結果（如 severe IVH）的真實影響，有時會讓結論顯得不夠明確。",
+          "文章未能深入探討不同研究中心在執行這些產房介入措施時，因團隊熟練度與資源不同可能造成的 center effect，這對我們思考如何將這些措施標準化到本科流程中是一大挑戰。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Tarnow-Mordi W et al. (APTS), 2017, NEJM",
+            "comparison": "這是最大型的 DCC 試驗 (>1500 位 <30週早產兒)，其結論是 DCC 與 ICC 在「死亡或重大殘疾」的主要終點上無差異，也未降低 IVH。本篇回顧正確地將此研究結果納入，修正了早期小型研究認為 DCC 能預防 IVH 的樂觀看法，並將重點轉移至 DCC 在降低死亡率上的效益。"
+          },
+          {
+            "citation": "Katheria A et al., 2019, JAMA",
+            "comparison": "這是確立 UCM 在極度早產兒 (<28週) 中有害的關鍵 RCT。本篇回顧強調了其 GA-specific 的發現，這與過去一些對較大週數早產兒進行的小型 UCM 研究結果不同，為臨床實踐提供了明確的界線。"
+          },
+          {
+            "citation": "Rabe H et al., Cochrane Database of Systematic Reviews",
+            "comparison": "本篇回顧的結論與最新的 Cochrane Neonatal review 一致，即 DCC 可降低死亡率、減少輸血需求，但對 severe IVH 或長期神經發育的影響證據尚不一致或不足。"
+          }
+        ],
+        "guideline_status": "本篇回顧的建議與 ILCOR (International Liaison Committee on Resuscitation) 和 AAP (American Academy of Pediatrics) 的最新 NRP 指引完全一致：對狀況尚可的早產兒建議 DCC 至少60秒，並警告 UCM 在極度早產兒中的潛在風險。",
+        "evidence_gap_filled": "本篇回顧整合了最新的高品質證據，有效地填補了一個知識上的落差：它澄清了 DCC 的主要好處是「降低死亡率」，而非如過去所想的「預防 IVH」。同時，它也鞏固了 UCM 在特定早產兒亞群中「有害」的證據，將其從一個有爭議的選項轉變為一個應避免的措施。",
+        "ongoing_trials": "關於在臍帶未斷時提供完整急救 (resuscitation with intact cord) 或生理性臍帶鉗夾 (PBCC) 的研究仍在進行中。這些試驗旨在確定最佳的生理目標 (如 SpO2, HR) 和操作流程，其結果將對未來的產房急救常規產生重要影響，值得我們持續關注。"
+      },
+      "protocol_impact": {
+        "current_practice": "我們目前的【Neurology / Intraventricular hemorrhage (IVH) (Part 1)】工作手冊中，『Prevention of IVH』段落僅提及「early indomethacin (缺藥, 不常規使用)」，完全沒有關於產房臍帶處理的任何指引。這是一個重大的 protocol gap，表示我們對於目前被公認為新生兒神經保護第一線的產房介入措施，缺乏標準化的作業流程。",
+        "proposed_change": "建議立即修訂 IVH 預防章節，或新增獨立的「產房穩定與急救 (Delivery Room Stabilization)」章節，內容應包括：\n1. **新增常規建議：** 「對於所有胎齡 < 34 週的早產兒，若出生後無需立即進行插管等高級救命術，應常規執行延遲臍帶鉗夾 (Delayed Cord Clamping, DCC) 至少 60 秒。」\n2. **新增明確禁忌：** 「嚴格禁止對胎齡 < 28 週的早產兒執行臍帶擠壓 (Umbilical Cord Milking, UCM)，因證據顯示此舉會增加嚴重腦室內出血的風險。」\n3. **新增考量選項：** 「對於胎齡 26-28 週、出生後呼吸驅動力不足的早產兒，在執行 DCC 期間，若情況許可，可考慮在急救台上給予非侵入性呼吸支持 (CPAP)，以促進肺部擴張並可能減少產房插管率。」",
+        "prerequisites": [
+          "與產科召開跨團隊會議，建立 DCC 的共識與合作模式，確保產房端能配合執行。",
+          "更新 NICU 的新生兒急救流程圖 (NRP algorithm)，將 DCC 納入標準步驟，並明確標示 UCM 的禁忌。",
+          "評估並確保產房備有可移動的急救設備 (mobile resuscitation unit)，以便在母親身旁執行初步的呼吸支持與監測。",
+          "對所有 NICU 醫師、NSP、RT 及產房護理人員進行在職教育 (in-service training)，說明新 protocol 的證據基礎、執行細節及重要性。"
+        ],
+        "missing_evidence": "雖然 DCC 降低死亡率的證據明確，但其對2歲以上長期神經發育預後 (long-term neurodevelopmental outcome) 的影響，尤其是在當代照護環境下的大型 RCT 數據仍相對有限。此外，PBCC 的最佳執行方式與其長期益處仍待更多研究證實，才能決定是否將其列為標準常規。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-13"
+  },
+  {
+    "pmid": "41965906",
+    "title": "Caffeine prevents airway hyperreactivity in a neonatal mouse model of continuous positive airway pressure.",
+    "authors": "Rungsiyaphornratana P, Mayer CA, McAllister S, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 11",
+    "doi": "10.1038/s41390-026-04890-z",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "CPAP",
+      "caffeine",
+      "AHR",
+      "lung remodeling",
+      "preterm"
+    ],
+    "one_liner": "這篇小鼠研究顯示，新生兒期使用 caffeine 可能預防 CPAP 引起的長期氣道高反應性及肺部重塑，為早產兒長期呼吸道健康提供新的機制性見解。",
+    "summary": {
+      "purpose": "旨在探討新生兒期併用 caffeine 是否能預防 CPAP 導致的長期氣道高反應性 (AHR)，使用新生兒小鼠模型。",
+      "design": "新生兒小鼠每日接受 CPAP (6 cmH2O, 3小時/天，共7天)，同時皮下注射 caffeine (10 mg/kg/day) 或生理食鹽水。治療結束兩週後評估 AHR 及肺部重塑參數。",
+      "findings": "CPAP 導致長期 AHR，並伴隨氣道 αSM-actin 表現增加、上皮與肺泡中隔壁增厚、以及放射狀肺泡計數減少。併用 caffeine 可預防這些 CPAP 效應。",
+      "significance": "早期 caffeine 治療可能透過直接影響肺部及氣道發育，保護肺部免受 CPAP 引起的長期 AHR 及肺部重塑。這有助於理解 caffeine 對肺部發育的複雜作用，並提示 CPAP 可能是早產兒長期喘鳴的原因之一，但可藉由 caffeine 治療來減輕。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-13"
+  },
+  {
+    "pmid": "41966940",
+    "title": "Impacts of the coronavirus disease 2019 pandemic on the care of premature infants.",
+    "authors": "Chu SM",
+    "journal": "Pediatrics and Neonatology",
+    "pub_date": "2026 Apr 06",
+    "doi": "10.1016/j.pedneo.2026.04.001",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 5,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "COVID-19",
+      "premature infants",
+      "neonatal care",
+      "pandemic"
+    ],
+    "one_liner": "Abstract內容缺失，無法進行分析與評估。",
+    "summary": {
+      "purpose": "Abstract內容缺失，無法判斷研究目的。",
+      "design": "Abstract內容缺失，無法判斷研究設計與方法，包括GA範圍、出生體重及樣本數。",
+      "findings": "Abstract內容缺失，無法判斷主要發現及關鍵數據。",
+      "significance": "Abstract內容缺失，無法判斷對NICU照護的具體臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-13"
+  },
+  {
+    "pmid": "41964486",
+    "title": "Infant Botulism and Honey Exposure: Global Epidemiology, Prevention Policies, and Communication Strategies.",
+    "authors": "Aricò MO, Caselli D, Stefanizzi P, et al.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Apr 11",
+    "doi": "10.1111/apa.70538",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 4
+    },
+    "keywords": [
+      "infant botulism",
+      "honey",
+      "prevention",
+      "public health",
+      "parent education"
+    ],
+    "one_liner": "這篇回顧重申了嬰兒肉毒桿菌中毒的預防重點，提醒新生兒科醫師在出院衛教時，務必強調12個月以下嬰兒應避免食用蜂蜜。",
+    "summary": {
+      "purpose": "本研究旨在總結全球嬰兒肉毒桿菌中毒與蜂蜜暴露相關的流行病學、預防政策及公共衛生溝通策略。",
+      "design": "本研究為一篇敘述性回顧 (narrative review)，分析1976年至2024年間的流行病學數據，資料來源包括監測報告、國家衛生機構文件及同儕審查文獻。",
+      "findings": "嬰兒肉毒桿菌中毒病例罕見，但蜂蜜是唯一持續確認的飲食來源。發病中位年齡為3-4個月，若能獲得重症照護支持及人類肉毒桿菌免疫球蛋白治療，死亡率低於1%。全球回顧 (2007-2021) 顯示美國每年約有130例，而歐洲、加拿大、日本和澳洲的發生率顯著較低。衛生主管機關普遍建議12個月以下嬰兒避免食用蜂蜜，但許多地區的警示標籤仍為自願性，且照護者認知程度不一。",
+      "significance": "本研究強調了加強兒科衛教、統一標籤政策及文化適應的溝通策略，對於預防12個月以下嬰兒因食用蜂蜜而導致肉毒桿菌中毒的重要性。新生兒科醫師在嬰兒出院前，應持續向家長強調此項重要的預防措施。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-13"
   }
 ]
