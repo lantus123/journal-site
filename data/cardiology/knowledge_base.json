@@ -7071,5 +7071,234 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-13"
+  },
+  {
+    "pmid": "41969213",
+    "title": "\"Hope is so fragile\": parent perspectives on the care of children with single-ventricle heart disease.",
+    "authors": "Kelly SL, Kelling EM, Zaki K, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 13",
+    "doi": "10.1017/S1047951126111810",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Single-ventricle heart disease",
+      "parent perspective",
+      "family-centered care",
+      "long-term follow-up",
+      "quality of life"
+    ],
+    "one_liner": "這篇質性研究透過家長視角，揭示單心室心臟病童家庭從診斷到成長的長期挑戰與需求，提醒新生兒科醫師在急性期後仍需關注家庭的全面支持。",
+    "summary": {
+      "purpose": "本研究旨在了解單心室心臟病童家長從診斷到成長過程的照護觀點，以利提供最佳介入策略，促進病童與家庭適應疾病。",
+      "design": "本研究採用質性研究設計，招募24位已接受Fontan手術的單心室心臟病童家長，透過電子問卷收集其照護經驗，並使用紮根理論（grounded theory）進行資料分析。",
+      "findings": "研究識別出七個核心主題，包括生存與希望、家長壓力與支持、早期壓力與發展、生活品質、獨立性提升、與團隊連結及溝通。家長初期擔憂病童生存，後期則需在過度警惕與促進正常生活間取得平衡。生活品質與行為健康問題顯著，家長強調病童與家長皆需支持。",
+      "significance": "本研究強調以家庭為中心、整合醫療次專科與社會心理服務的多專科照護模式對單心室心臟病童的重要性。這有助於新生兒科醫師理解此類病童家庭的長期需求，並在早期介入時即考量整體性支持，為家庭提供更全面的照護。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-14"
+  },
+  {
+    "pmid": "41973413",
+    "title": "Risk of Cardiovascular Disease in Parents of Children Diagnosed With Neurodevelopmental Disorders.",
+    "authors": "Wang H, Janszky I, Möller J, et al.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Apr 13",
+    "doi": "10.1001/jamapediatrics.2026.0857",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "NDDs",
+      "CVD",
+      "parents",
+      "cohort study",
+      "long-term stress"
+    ],
+    "one_liner": "這篇大型世代研究指出養育神經發展障礙兒童會增加父母心血管疾病風險，但與新生兒科的日常臨床決策無直接相關性。",
+    "summary": {
+      "purpose": "本研究旨在探討養育患有常見神經發展障礙 (NDDs) 兒童的父母，其心血管疾病 (CVD) 風險是否增加。",
+      "design": "此為一項世代研究，利用瑞典全國登記資料，追蹤1987年至2014年間至少有一名活產單胎的父母。研究樣本包含1,180,457名母親和882,619名父親，平均追蹤時間約16.7年。",
+      "findings": "與未養育NDDs兒童的父母相比，養育NDDs兒童的父母罹患任何CVD的風險均增加（母親：HR 1.27, 95% CI 1.25-1.29；父親：HR 1.20, 95% CI 1.18-1.22）。父母的CVD風險隨受影響兒童數量增加而升高，且在手足比較分析中結果仍一致。",
+      "significance": "本研究揭示養育神經發展障礙兒童與父母心血管疾病風險增加的關聯。儘管非新生兒科直接照護範疇，此發現間接提醒我們，對於長期追蹤的發展遲緩兒童家庭，應關注父母的整體健康與支持需求。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-14"
+  },
+  {
+    "pmid": "41969224",
+    "title": "Prospective observational study comparing the outcomes of fenestrated and non-fenestrated extracardiac Fontan procedure.",
+    "authors": "Das D, Sarkar T, Das S, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 13",
+    "doi": "10.1017/S1047951126112153",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Fontan procedure",
+      "fenestration",
+      "congenital heart disease",
+      "cardiac surgery",
+      "postoperative outcomes"
+    ],
+    "one_liner": "本研究探討Fontan手術中開窗的影響，與新生兒照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本研究旨在評估Fontan手術中增加開窗（fenestration）是否會影響早期術後結果。",
+      "design": "這是一項單中心前瞻性觀察性研究，於2024年3月至2025年11月間，共納入40名接受Fontan手術的患者。患者被分為非開窗組 (n=20) 和開窗組 (n=20)。研究分析了人口統計學、圍手術期參數，包括機械通氣時間、升壓劑使用時間、胸腔引流時間及引流量、ICU住院天數和總住院天數。",
+      "findings": "兩組間的機械通氣時間、ICU住院天數、總胸腔引流量和體外循環時間相似。開窗組的胸腔引流時間較短 (8.1 ± 4.2 vs. 10.2 ± 5.3 天)，但此差異無統計學意義 (p = 0.173)。然而，開窗組的出院血氧飽和度顯著較低 (88.9 ± 5.6% vs. 93.3 ± 3.5%; p = 0.0072)。",
+      "significance": "本研究結果顯示，Fontan手術中增加開窗並未顯著改善大多數早期圍手術期結果，且可能導致較低的出院血氧飽和度。由於Fontan手術通常在嬰兒或兒童時期進行，與新生兒照護無直接相關，因此對NICU的日常決策無直接影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-14"
+  },
+  {
+    "pmid": "41967883",
+    "title": "Expanding access and rising complexity: Contemporary early outcomes in heart-liver transplantation for adult congenital heart disease.",
+    "authors": "Berg AR, Krishnan A, Heng EE, et al.",
+    "journal": "Journal of Thoracic and Cardiovascular Surgery",
+    "pub_date": "2026 May",
+    "doi": "10.1016/j.jtcvs.2025.12.035",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 4
+    },
+    "keywords": [
+      "ACHD",
+      "CHLT",
+      "heart transplantation",
+      "liver transplantation",
+      "UNOS"
+    ],
+    "one_liner": "這篇文章探討成人心肝聯合移植的趨勢與結果，與新生兒科照護無關，可跳過。",
+    "summary": {
+      "purpose": "根據2018年美國心臟分配政策改變後，評估成人心肝聯合移植 (CHLT) 的早期結果，特別是針對成人先天性心臟病 (ACHD) 患者的影響。",
+      "design": "本研究為回溯性分析，使用美國器官共享網絡 (UNOS) 資料庫中2000年1月1日至2025年7月1日期間的成人CHLT案例 (n=602)。研究將時間分為前現代 (2000-2018) 和現代 (2019-2025) 兩個時期。",
+      "findings": "現代時期CHLT年移植量增加三倍，ACHD患者佔比從20.6%升至50.7%。現代受贈者較年輕且病情更危急，器官獲取距離和冷缺血時間均增加。未校正的30天和1年死亡率在2019年後較高。校正分析顯示，現代時期ACHD患者的1年死亡率顯著較高 (HR 3.21, 95% CI 1.08-9.50)，且心臟冷缺血時間每增加一小時，風險增加 (HR 1.32, 95% CI 1.14-1.54)。ACHD患者在現代時期單純心臟移植 (OHT) 存活率改善，但CHLT存活率下降，導致1年存活率差距約20%。",
+      "significance": "本研究揭示2018年後心臟分配政策擴大了ACHD患者接受CHLT的機會，但早期術後結果惡化，可能與患者複雜度增加、器官運送距離及缺血時間延長有關。這對成人心臟移植領域有重要意義，但與新生兒科的臨床照護無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-14"
+  },
+  {
+    "pmid": "41967857",
+    "title": "Extent and progression of cardiac damage in patients with primary mitral regurgitation undergoing surgical repair.",
+    "authors": "Myagmardorj R, Fortuni F, Mantegazza V, et al.",
+    "journal": "European Journal of Cardio-Thoracic Surgery",
+    "pub_date": "2026 Apr 10",
+    "doi": "10.1093/ejcts/ezag149",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟病",
+      "二尖瓣逆流",
+      "心臟手術",
+      "預後",
+      "超音波心臟圖"
+    ],
+    "one_liner": "本研究探討成人原發性二尖瓣逆流術後心臟損傷的預後，與新生兒照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本研究旨在探討原發性二尖瓣逆流患者在接受手術修復後，二尖瓣外心臟損傷的進展情況及其預後意義。",
+      "design": "這是一項多中心回溯性世代研究，納入764名平均年齡62±13歲、患有嚴重原發性二尖瓣逆流並接受手術修復的成人患者。研究根據基線及術後中位數7個月的超音波心臟圖參數，將患者的心臟損傷分為0-3期，並追蹤中位數91個月的全因死亡率。",
+      "findings": "術後追蹤顯示，43%患者的心臟損傷至少改善1期，49%保持不變，8%惡化。多變量Cox迴歸分析顯示，術後追蹤時的二尖瓣外心臟損傷分期（每增加1期HR 1.571, p=0.009）及心臟損傷的演變（改善組HR 0.467, p=0.034；惡化組HR 2.481, p=0.037）均與全因死亡率獨立相關。",
+      "significance": "本研究結果顯示，二尖瓣外心臟損傷在二尖瓣修復術後可顯著改善，且其演變與全因死亡率獨立相關。這強調了術後比較性超音波心臟圖評估對於改善風險分層的重要性。然而，此研究主題與新生兒科臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-14"
+  },
+  {
+    "pmid": "41969230",
+    "title": "Deglutition syncope to gastronomic satiety: a paediatric case report and update on therapeutic options.",
+    "authors": "Hebson C, Wolff D, Kane A, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 13",
+    "doi": "10.1017/S1047951126112001",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "deglutition syncope",
+      "complete heart block",
+      "cardioneural ablation",
+      "pediatric"
+    ],
+    "one_liner": "這篇病例報告描述一名15歲青少年的罕見吞嚥性暈厥，與新生兒照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本文旨在描述一個罕見且嚴重的吞嚥性暈厥病例，其表現為完全性心臟傳導阻滯，並探討包括心臟神經燒灼術和無導線心臟節律器在內的新型治療選項。",
+      "design": "這是一篇兒科病例報告，描述一名15歲患者的臨床表現與治療過程。",
+      "findings": "一名15歲患者因頻繁吞嚥性暈厥合併完全性心臟傳導阻滯、姿勢性低血壓不耐症狀及焦慮就醫。在標準非藥物和藥物治療無效後，心臟神經燒灼術改善了暈厥症狀。後續針對姿勢性低血壓不耐症狀的標準治療顯著提升了其生活品質，使其能恢復正常飲食。由於臨床改善，預防心搏過緩的無導線心臟節律器選項尚未實施。",
+      "significance": "本病例報告描述的是一名15歲青少年患者的罕見病症，與新生兒或早產兒的照護無直接相關性，對NICU的日常照護決策沒有影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-14"
+  },
+  {
+    "pmid": "41967783",
+    "title": "Considerations on residual pulmonary hypertension after pulmonary endarterectomy - a multimodal approach.",
+    "authors": "Appenzeller P, Ghani H, Pepke-Zaba J",
+    "journal": "Journal of Heart and Lung Transplantation",
+    "pub_date": "2026 Apr 10",
+    "doi": "10.1016/j.healun.2026.04.004",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人肺高壓",
+      "肺動脈內膜切除術",
+      "心肺移植",
+      "殘餘肺高壓"
+    ],
+    "one_liner": "此研究主題與成人肺高壓及心肺移植相關，與新生兒照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "由於缺乏摘要內容，無法明確判斷研究目的。根據標題，此研究可能探討肺動脈內膜切除術後殘餘肺高壓的相關考量。",
+      "design": "由於缺乏摘要內容，無法判斷研究設計、GA範圍、出生體重及樣本數。",
+      "findings": "由於缺乏摘要內容，無法判斷主要研究發現。",
+      "significance": "由於缺乏摘要內容，無法判斷對新生兒加護病房照護的具體臨床意義。根據標題判斷，此研究主題與成人肺高壓及心肺移植相關，與新生兒照護無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-14"
   }
 ]
