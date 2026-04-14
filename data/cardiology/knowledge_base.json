@@ -7300,5 +7300,102 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-14"
+  },
+  {
+    "pmid": "41978963",
+    "title": "A prospective randomised evaluation of voltage propagation vs anatomical atrioventricular nodal re-entry tachycardia mapping in paediatric patients.",
+    "authors": "Von Bergen NH, Zhang X, Kilinc OU, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 14",
+    "doi": "10.1017/S1047951126112207",
+    "total_score": 3,
+    "scores": {
+      "design": 5,
+      "relevance": 1,
+      "novelty": 4,
+      "generalizability": 3
+    },
+    "keywords": [
+      "AVNRT",
+      "心律不整",
+      "兒科心臟",
+      "電燒灼術",
+      "導航定位"
+    ],
+    "one_liner": "本篇探討兒科 AVNRT 燒灼術的導航定位技術，對新生兒科醫師而言，臨床相關性極低，可略過。",
+    "summary": {
+      "purpose": "本研究旨在比較兩種心房心室結再進入性心搏過速 (AVNRT) 燒灼術的導航定位技術：解剖學導向法與電壓傳播波導向法，評估其手術特性與燒灼成效。",
+      "design": "這是一項前瞻性、隨機分派、多中心臨床試驗，於5個兒科心臟中心進行。共納入70名兒科患者，隨機分派至電壓傳播波導向組 (37名) 或解剖學導向組 (33名)。所有患者均使用3D導航定位，並追蹤至術後2年。",
+      "findings": "兩組患者的人口統計學資料及追蹤時間無顯著差異。兩種技術在手術時間、成功率、併發症或復發率方面均無顯著差異。電壓傳播波導向技術在首次成功所需的燒灼次數上呈現較少趨勢 (中位數 2 vs 5)，但總燒灼病灶數顯著較多。對於典型 AVNRT，其成功所需的燒灼次數及復發率均較非典型 AVNRT 或跳躍/迴聲型 AVNRT 為低。",
+      "significance": "本研究比較了兒科 AVNRT 燒灼術的兩種導航定位技術。儘管兩者均展現優異的急性成功率和低復發率，且電壓傳播波導向法可能減少首次成功所需的燒灼次數，但此研究主題與新生兒加護病房 (NICU) 的日常照護、早產兒重症醫學或長期發育追蹤無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-15"
+  },
+  {
+    "pmid": "41978965",
+    "title": "Four-year cardiac geometry, blood pressure, and immune profiles after multisystem inflammatory syndrome in children.",
+    "authors": "Ekemen Keleş Y, Özdemir Şimşek Ö, Sevinç Y, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 14",
+    "doi": "10.1017/S1047951126112141",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 2
+    },
+    "keywords": [
+      "MIS-C",
+      "兒童心臟",
+      "長期追蹤",
+      "炎症反應"
+    ],
+    "one_liner": "這篇研究探討MIS-C兒童的長期心臟變化，與新生兒科照護無直接關聯，可跳過。",
+    "summary": {
+      "purpose": "本研究旨在評估兒童多系統炎症綜合症（MIS-C）患者在診斷後四年，其左心室幾何形狀、血流動力學負荷及炎症標記的變化。",
+      "design": "此為一回溯性研究，納入30名曾診斷為MIS-C的兒科患者（平均年齡12.9 ± 5.0歲），其中8名（26.7%）在急性期曾入住ICU。中位數追蹤時間為48個月，評估項目包括追蹤性心臟超音波、動態血壓監測及實驗室數據。",
+      "findings": "追蹤四年後，身體質量指數（BMI）與左心室舒張末期直徑（r = 0.577, p = 0.001）、左心室收縮末期直徑（r = 0.522, p = 0.002）、室間隔厚度（r = 0.565, p = 0.001）、後壁厚度（r = 0.610, p < 0.001）及左心室質量（r = 0.594, p = 0.001）呈正相關。BMI z-score與interleukin-6呈正相關（r = 0.415, p = 0.023）。淋巴球計數與左心室舒張末期直徑（r = -0.559, p = 0.001）及左心室質量（r = -0.631, p < 0.001）呈負相關。多變量分析顯示淋巴球計數是左心室舒張末期直徑的唯一獨立預測因子（β = -0.492, 95% CI = -0.589 to -0.078, p = 0.013）。",
+      "significance": "本研究顯示MIS-C後四年，心室擴大可能反映生理性比例調整而非持續性肥厚，支持此族群需長期追蹤。然而，此研究對新生兒照護無直接臨床意義，因其研究對象為學齡兒童及青少年。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-15"
+  },
+  {
+    "pmid": "41979197",
+    "title": "A case of endocardial mapping for the epicardial pure origin of premature ventricular complex using the time difference between bipolar and unipolar potential.",
+    "authors": "Izumi G, Sasaki D, Yamazawa H",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 14",
+    "doi": "10.1017/S1047951126112190",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "premature ventricular complex",
+      "endocardial mapping",
+      "epicardial origin",
+      "case report"
+    ],
+    "one_liner": "新生兒科醫師可以跳過這篇，因為它是一篇關於心臟電生理學的單一案例報告，與新生兒照護無直接相關。",
+    "summary": {
+      "purpose": "描述一個利用雙極與單極電位時間差進行心內膜標測，以定位心外膜側純源性心室早期收縮的案例。",
+      "design": "本研究為單一案例報告，描述了針對心外膜側純源性心室早期收縮進行心內膜標測的過程。未提及病患的胎齡、出生體重或具體年齡。",
+      "findings": "案例報告詳細說明了如何利用雙極與單極電位之間的時間差，來精確定位心外膜側純源性心室早期收縮的起源點。",
+      "significance": "本案例報告屬於心臟電生理學領域的特殊技術應用，對於新生兒科醫師的日常照護決策無直接臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-15"
   }
 ]
