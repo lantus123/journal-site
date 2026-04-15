@@ -7397,5 +7397,202 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-15"
+  },
+  {
+    "pmid": "41984084",
+    "title": "Neighborhood Opportunity and Long-Term Outcomes Following Pediatric Extracorporeal Membrane Oxygenation.",
+    "authors": "Cain-Trivette CJ, Nemeh C, Wu YS, et al.",
+    "journal": "World Journal for Pediatric and Congenital Heart Surgery",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1177/21501351261432651",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "ECMO",
+      "長期預後",
+      "社會決定因素",
+      "兒童重症",
+      "功能性併發症"
+    ],
+    "one_liner": "對於新生兒科醫師而言，這篇研究提醒我們在評估 ECMO 新生兒的長期預後時，應將其家庭所處的社會經濟環境納入考量。",
+    "summary": {
+      "purpose": "評估鄰里機會指數 (Child Opportunity Index, COI) 是否與兒童接受體外膜氧合 (ECMO) 後的短期及長期預後相關。",
+      "design": "這是一項回溯性觀察性世代研究，於單一四級學術兒童醫院進行。研究納入 2009 至 2023 年間接受 ECMO 治療的兒童共 472 名。研究未提供具體的胎齡或出生體重範圍。",
+      "findings": "研究發現，居住於最低 COI 五分位數的兒童，其出院存活率 (aOR: 0.60, 95% CI: 0.38-0.95) 及一年存活率 (aOR: 0.57, 95% CI 0.35-0.93) 顯著較低。死亡風險的調整 HR 為 1.36 (95% CI 0.99-1.87)。在心臟 ECMO 患者中，低 COI 與一年後胃造口管置放及機構安置的機率顯著升高相關。",
+      "significance": "這項研究強調了社會經濟背景（鄰里機會）在兒童 ECMO 患者預後評估、ECMO 後照護規劃及存活者照護中的重要性。由於新生兒是 ECMO 的重要族群，這些發現對新生兒重症照護具有參考價值，提醒我們在評估新生兒 ECMO 患者預後時，應將社會環境因素納入考量，並在出院後提供更全面的支持。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41981733",
+    "title": "Anatomic versus physiologic repair in congenitally corrected transposition: a propensity-matched european multicentre study.",
+    "authors": "Pabst Von Ohain J, Arnold L, Jacob KA, et al.",
+    "journal": "European Journal of Cardio-Thoracic Surgery",
+    "pub_date": "2026 Apr 13",
+    "doi": "10.1093/ejcts/ezag148",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "ccTGA",
+      "先天性心臟病",
+      "心臟外科",
+      "長期預後",
+      "三尖瓣逆流"
+    ],
+    "one_liner": "這是一篇關於先天性矯正型大動脈轉位兒科心臟手術長期預後的比較研究，與新生兒科日常照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本研究旨在比較先天性矯正型大動脈轉位 (ccTGA) 患者接受生理性修復 (physiologic repair) 與解剖性修復 (anatomic repair) 兩種策略的長期預後。",
+      "design": "這是一項歐洲多中心、傾向分數配對研究，納入1990至2010年間接受修復手術的266名18歲以下患者，最終配對成162名患者的隊列，比較其長期存活率、再手術率及心臟瓣膜功能。",
+      "findings": "兩種修復策略在10年和15年的移植免存活率及心臟再手術免除率相似 (p=0.568, p=0.279)。然而，生理性修復組在最終追蹤時三尖瓣逆流發生率顯著較高 (57% vs 17%, p<0.001)。",
+      "significance": "對於ccTGA患者，兩種修復策略在長期存活率和再手術率上相似。但生理性修復可能導致三尖瓣功能惡化，而解剖性修復可能改善伴有三尖瓣逆流患者的預後。這項研究結果主要影響兒科心臟外科醫師的手術策略選擇，與新生兒科的日常照護無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41984074",
+    "title": "Balanced Hepatic Venous Flow with Hepatic to Azygos Vein Shunt Following the Kawashima Procedure.",
+    "authors": "Cao Y, Asou T, Tachibana T, et al.",
+    "journal": "World Journal for Pediatric and Congenital Heart Surgery",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1177/21501351261432634",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Fontan procedure",
+      "Kawashima procedure",
+      "congenital heart disease",
+      "hepatic venous flow",
+      "polysplenia"
+    ],
+    "one_liner": "這是一篇關於小兒心臟外科Fontan術式選擇的研究，對新生兒科醫師的日常照護決策無直接相關性。",
+    "summary": {
+      "purpose": "確保Kawashima術後多脾症合併下腔靜脈中斷的病患，肝靜脈血流能平衡分佈至雙肺，以預防肺動靜脈畸形。本研究旨在調查兩種Fontan完成術式（HV-to-azygos vein shunt, HVAZ 與 HV-to-pulmonary artery shunt, HVPA）對肝靜脈血流分佈的長期影響。",
+      "design": "本研究為回溯性世代研究，回顧2004至2021年間20名於Kawashima術後接受Fontan完成術的病患（HVAZ組n=10；HVPA組n=10）。研究評估肝靜脈血流分佈（平衡/部分不平衡/完全單側），並進行中位9.2年的長期追蹤分析。",
+      "findings": "HVAZ組病患中有7/9呈現平衡的肝靜脈血流，而HVPA組僅1/10（P=.006）。在雙側上腔靜脈（SVC）的子群中，HVAZ組有6/7呈現平衡血流，HVPA組則無（P=.005）。兩組最終血氧飽和度（91% vs 95%, P=.39）及再介入率相似，但再介入的時機與原因不同。",
+      "significance": "本研究顯示HVAZ術式相較於HVPA，能提供更平衡的肝靜脈血流分佈，尤其適用於雙側SVC的病患。儘管長期血氧飽和度與再介入率相似，HVAZ可能在生理上更具優勢，為複雜靜脈解剖的Fontan完成術提供一個潛在的選擇。此研究結果主要影響小兒心臟外科醫師的術式選擇，對新生兒科日常照護決策無直接影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41984069",
+    "title": "The Benefits of an Intracardiac Conduit in the Fontan Operation for Complex Systemic Venous Anomalies in Patients with Single Ventricle Physiology.",
+    "authors": "Tocharonechok T, Vijarnsorn C, Chanthong P, et al.",
+    "journal": "World Journal for Pediatric and Congenital Heart Surgery",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1177/21501351261432652",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Fontan",
+      "單心室",
+      "先天性心臟病",
+      "全身靜脈畸形",
+      "心臟外科"
+    ],
+    "one_liner": "這篇病例系列報告描述了針對複雜全身靜脈畸形單心室病患的 ICC Fontan 手術，對新生兒科醫師而言，其直接臨床相關性較低。",
+    "summary": {
+      "purpose": "該研究旨在探討在單心室生理且合併複雜全身靜脈畸形（如 apicocaval juxtaposition）的病患中，使用心內導管 (ICC) Fontan 手術的效益。",
+      "design": "這是一項病例系列研究，共納入四名不同階段的左心位病患，他們接受了 ICC Fontan 手術。病患的全身靜脈畸形包括下腔靜脈中斷、apicocaval juxtaposition、雙側上腔靜脈及同側肝靜脈引流。",
+      "findings": "所有四名病患術後導管通暢，且在抗凝治療下無血栓栓塞或出血事件。其中一名10歲病患接受了雙向 Glenn、右肝靜脈導管分流及下腔靜脈至主肺動脈的 ICC 連接，並帶有兩個開窗，術後出院血氧飽和度為 80%。",
+      "significance": "ICC Fontan 手術為選定的、合併複雜全身靜脈畸形的單心室病患提供了一種安全且有效的腔肺連接方式，解決了傳統體外導管 (ECC) 可能面臨的挑戰。然而，這項技術主要應用於較晚期的心臟手術，與新生兒重症照護的直接相關性較低。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41983620",
+    "title": "Electrophysiology in Adults With Congenital Heart Disease as an Area of Focused Competency.",
+    "authors": "Khairy P, Walsh EP",
+    "journal": "Journal of the American College of Cardiology",
+    "pub_date": "2026 Apr 14",
+    "doi": "10.1016/j.jacc.2026.02.5110",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Adults",
+      "Congenital Heart Disease",
+      "Electrophysiology",
+      "Competency"
+    ],
+    "one_liner": "這篇文章探討成人先天性心臟病患者的電生理學專業能力，與新生兒科照護無直接關聯，可略過。",
+    "summary": {
+      "purpose": "根據文章標題判斷，本研究旨在探討成人先天性心臟病患者的電生理學作為一項重點專業能力。由於摘要內容空白，無法得知具體研究目的。",
+      "design": "由於摘要內容空白，無法判斷研究設計、方法、收案對象的胎齡（GA）範圍、出生體重或樣本數。根據標題推測，可能為一篇評論、社論或專家意見。",
+      "findings": "由於摘要內容空白，無法提供主要研究發現、關鍵數據或效應量。",
+      "significance": "本文章主題明確針對「成人」先天性心臟病患者的電生理學專業能力，與新生兒加護病房（NICU）的日常照護決策或新生兒重症醫學無直接臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41980717",
+    "title": "Unexpected Death in a Young Child With Cogan Syndrome.",
+    "authors": "Pastore S, Burlo F, Taddio A, et al.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1542/peds.2025-073105",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Cogan syndrome",
+      "vasculitis",
+      "pediatric",
+      "case report",
+      "unexpected death"
+    ],
+    "one_liner": "此為一罕見兒童Cogan syndrome病例報告，與新生兒照護無直接相關，新生兒科醫師可略過。",
+    "summary": {
+      "purpose": "本研究旨在報告一例罕見的兒童Cogan syndrome病例，該病童最終意外死亡，並強調兒童Cogan syndrome診斷、治療及長期追蹤指南的迫切需求。",
+      "design": "本研究為單一病例報告，描述一名4歲兒童Cogan syndrome的臨床病程、診斷、治療及解剖發現。",
+      "findings": "一名4歲兒童出現食慾不振、體重減輕、肌痛、疲勞及新發聽力喪失等症狀，伴有持續性小球性貧血、白血球增多、血小板增多、高丙種球蛋白血症及紅血球沉降率升高。經多方檢查排除其他疾病後，診斷為Cogan syndrome。儘管接受多種免疫抑制劑治療（corticosteroids, anakinra, infliximab, tocilizumab），病童在疾病控制一年後仍意外死亡。屍體解剖顯示冠狀動脈及主動脈廣泛發炎浸潤。Cogan syndrome在兒童中極為罕見，僅約50例報告，此前僅有2例死亡。",
+      "significance": "本病例報告強調Cogan syndrome在兒童中的罕見性及其潛在的致命性血管併發症。對於新生兒科醫師而言，此研究與新生兒照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
   }
 ]

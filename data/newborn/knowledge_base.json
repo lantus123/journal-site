@@ -13840,5 +13840,449 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-15"
+  },
+  {
+    "pmid": "41981122",
+    "title": "Echocardiographic predictors of adverse outcomes in infants with congenital diaphragmatic hernia.",
+    "authors": "Ting JY, Sehgal A, Kuan MTY, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 14",
+    "doi": "10.1038/s41372-026-02670-5",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 5,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "CDH",
+      "echocardiography",
+      "prognosis",
+      "neonatal critical care",
+      "ventricular function"
+    ],
+    "one_liner": "對於管理CDH的醫師而言，本研究指出特定的心臟超音波參數可預測不良呼吸道預後，有助於早期風險分層。",
+    "summary": {
+      "purpose": "本研究旨在探討先天性橫膈膜疝氣 (CDH) 嬰兒的心臟功能超音波指標與短期不良預後之間的關聯。",
+      "design": "這是一項回溯性世代研究，納入2018年至2021年間來自四個新生兒外科中心的44名CDH嬰兒。主要複合式預後為死亡或出生後第14天後仍需侵入性機械通氣。",
+      "findings": "研究中18名 (40.9%) 嬰兒達到主要複合式預後。這些嬰兒術前左心室輸出量 (110 vs. 157 mL/kg/min, p = 0.002)、右心室輸出量 (114 vs. 187 mL/kg/min, p = 0.008)，以及在二尖瓣環 (4.6 vs. 5.4 cm/s, p = 0.006) 和心室中膈 (4.2 vs. 4.8 cm/s, p = 0.001) 測得的收縮期心肌峰值速度均較低。術後，他們也表現出較低的右心室輸出量 (155 vs. 237 mL/kg/min, p = 0.021) 和較低的心肌速度。",
+      "significance": "心臟超音波評估，特別是心室輸出量和心肌速度，可為CDH嬰兒的術後呼吸道預後提供關鍵的預測資訊，有助於早期識別高風險嬰兒並指導臨床決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41981121",
+    "title": "Prematurity and autism: a dose-response relationship across gestational age.",
+    "authors": "Israel A, Mimouni FB, Vinker S, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 14",
+    "doi": "10.1038/s41372-026-02632-x",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "prematurity",
+      "autism spectrum disorder",
+      "neurodevelopmental outcome",
+      "gestational age",
+      "long-term follow-up"
+    ],
+    "one_liner": "這篇大型回溯性研究明確指出，早產程度越深，兒童罹患自閉症的風險越高，且呈現劑量反應關係，為早產兒長期發育追蹤諮詢提供重要依據。",
+    "summary": {
+      "purpose": "研究目的為探討自閉症類群障礙 (ASD) 風險與出生胎齡之間的關聯性。",
+      "design": "此為一回溯性世代研究，納入2011至2023年間出生的兒童。研究識別了1861例ASD病例，並根據性別、出生年份、母親年齡、族裔、社會經濟地位及地區，以精確及傾向分數配對方式，為每例ASD病例配對10名對照組兒童。研究將胎齡分為臨床相關類別，並使用Fisher's exact test和條件式邏輯迴歸評估其與ASD的關聯。",
+      "findings": "研究發現ASD風險隨早產程度增加而逐步升高，呈現劑量反應關係。與足月兒 (37-42週) 相比，調整後的勝算比 (95% CI) 分別為：36週胎齡為 1.37 (1.10-1.71)，34-35週為 1.67 (1.30-2.15)，32-33週為 2.14 (1.43-3.18)，28-31週為 2.95 (1.89-4.59)，而胎齡小於28週者則高達 4.37 (2.26-8.44)。",
+      "significance": "這項研究量化了不同胎齡早產兒發生ASD的風險，為新生兒科醫師在向早產兒家屬進行長期發育追蹤諮詢時，提供了更具體的風險評估數據。特別是對於極度早產兒 (<28週)，其ASD風險顯著升高，提示需加強早期篩檢與介入。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇大型回溯性研究明確指出，早產與自閉症 (ASD) 風險之間存在顯著的「劑量反應關係」。與足月兒相比，GA < 28 週的新生兒 ASD 風險高達 4.37 倍 (aOR 4.37, 95% CI 2.26-8.44)。這個量化數據為我們向早產兒家屬進行長期預後諮詢提供了更具體的實證依據，並強調了對極度早產兒進行密切發展追蹤與早期篩檢的絕對必要性。",
+      "hidden_findings": [
+        {
+          "finding": "ASD 的診斷效度不明。Abstract 僅提及「使用 ICD-10 codes」，但未說明是由誰（如兒童精神科醫師、發展行為兒科醫師）診斷、基於何種評估工具（如 ADOS-2, ADI-R），或是否需要多次就診紀錄。單純依賴計費碼可能導致病例誤分類 (misclassification bias)。",
+          "source": "Abstract, STUDY DESIGN section",
+          "implication": "這直接影響我們對研究結果的信心。如果 ASD 的定義不夠嚴謹，算出來的 odds ratio 可能會被高估或低估。在引用這些數據對家長進行衛教時，我們需要抱持審慎態度。"
+        },
+        {
+          "finding": "缺乏對關鍵新生兒併發症的調整。研究雖然對母親及社會人口學變項做了配對，但完全沒有提及是否校正了如 severe IVH、PVL、NEC、culture-proven sepsis 或 BPD 等已知會影響神經發展的重大新生兒疾病。",
+          "source": "Abstract, STUDY DESIGN section (omission)",
+          "implication": "早產本身與這些併發症高度相關。我們無法確定觀察到的高風險是純粹來自「早產」，還是由這些併發症所驅動。對於一個 GA 27 週但住院過程相對平順的寶寶，其風險是否與合併 Grade III IVH 和 BPD 的寶寶相同？這個研究無法回答。"
+        },
+        {
+          "finding": "追蹤時間與診斷年齡不詳。研究對象出生於 2011-2023 年，代表世代年齡橫跨嬰兒期到 12 歲。Abstract 未說明納入分析的最小追蹤時間，也未提供 ASD 的中位診斷年齡。這可能導致對年輕世代的 ASD 發生率低估，因為許多孩子可能還沒到典型的診斷年齡。",
+          "source": "Abstract, STUDY DESIGN section (omission)",
+          "implication": "如果大部分診斷來自較年長的世代，而較年輕的世代追蹤時間不足，那麼整體的風險估計可能偏低。閱讀全文時，必須檢視依出生世代分的層別分析 (stratified analysis)，以確認結果的穩定性。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "樣本數龐大 (1861 cases, 18,610 controls)，提供了高度的統計檢定力。",
+          "採用了精確配對與傾向分數配對 (propensity-score matching)，有效控制了多項已知的人口學及社會經濟地位干擾因子。"
+        ],
+        "notes": [
+          "研究設計為回溯性世代研究，雖然效率高，但天生易受資訊偏差 (information bias) 與未測量干擾因子 (unmeasured confounders) 的影響。",
+          "GA 分組方式 (<28, 28-31, 32-33, 34-35, 36) 符合臨床實務，有助於我們應用在特定早產兒群體。"
+        ],
+        "weaknesses": [
+          "潛在的偵測偏差 (detection bias)。早產兒本身就是發展追蹤門診的高密度使用者，相較於一般足月兒，他們有更多機會被篩檢和診斷出 ASD，這可能人為地拉高了早產兒組的 OR。",
+          "缺乏對新生兒住院期間臨床變項的資料，這是本研究最大的方法學缺陷，嚴重影響了因果關係的推斷。",
+          "結果的外推性 (generalizability) 可能受限。研究數據可能來自單一國家或醫療體系，其結果是否能完全適用於台灣的健保資料庫與臨床實務，尚需驗證。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Agrawal S et al., Pediatrics, 2018",
+            "comparison": "這是一篇系統性回顧與 meta-analysis，同樣發現早產與 ASD 的關聯。其結果顯示 very preterm (<32 wks) 的 OR 為 3.1，moderate-to-late preterm (32-36 wks) 的 OR 為 1.4。本研究提供了更細緻的 GA 分層，且在極度早產兒族群 (<28 wks) 觀察到更高的風險 (OR 4.37)，可視為對該 meta-analysis 的補充與精鍊。"
+          },
+          {
+            "citation": "Crump C et al., JAMA, 2021",
+            "comparison": "這篇瑞典全國性世代研究同樣探討了早產與多種神經發展障礙的關係。其設計與本研究類似（大型、回溯性），但涵蓋的 outcome 更廣。本研究的價值在於專注於 ASD，並提供了更詳細的風險分層數據。"
+          }
+        ],
+        "guideline_status": "美國兒科醫學會 (AAP) 建議對所有兒童在 18 與 24 個月大時進行 ASD 例行篩檢，並對早產兒等高風險族群進行更密切的發展監測。台灣新生兒科醫學會亦強調對 VLBW 嬰兒進行長期追蹤。然而，目前國內外指引皆未提供如本研究般精確的、依 GA 分層的 ASD 量化風險數據供臨床諮詢使用。",
+        "evidence_gap_filled": "本研究填補了「早產程度」與「ASD 風險」之間量化關係的知識缺口。它將過去已知的關聯性，轉化為一組臨床醫師可直接用於風險溝通的具體數據，超越了過去僅將早產兒籠統歸為「高風險群」的說法。",
+        "ongoing_trials": "目前大型 RCT 的重點多在於尋找「改善」早產兒神經發展預後的介入措施（如不同營養策略、早期療育模式），而非進一步「描述」風險。因此，在觀察性研究方面，本研究已是相當新的證據，短期內可能沒有更大型的研究會發表。"
+      },
+      "protocol_impact": {
+        "current_practice": "目前工作手冊中無針對早產兒自閉症風險評估與家長衛教的具體 protocol。臨床上，我們會在 VLBW/ELBW 嬰兒出院前，向家長說明其為發展遲緩之高風險群，並安排長期追蹤門診，但缺乏量化的 ASD 風險數據來支持我們的衛教內容。",
+        "proposed_change": "建議將本研究的發現整合至我們的出院衛教流程中：\n1.  **修改衛教內容**：在對 GA < 32 週的早產兒家長進行出院前家庭會議時，應明確告知 ASD 風險隨早產週數增加而上升的「劑量反應關係」。可引用數據（如：<28週寶寶的風險約為足月兒的4倍），同時強調這僅是相對風險，多數早產兒並不會發展成 ASD。\n2.  **強化追蹤計畫**：應與本科的發展追蹤門診及兒童發展聯合評估中心合作，確保我們的 NICU 畢業生，特別是 GA < 32 週者，能確實完成 18 個月及 24 個月大的 ASD 篩檢（如 M-CHAT-R/F）。",
+        "prerequisites": [
+          "製作標準化的家長衛教單張，以圖表化、易懂的方式呈現不同 GA 的 ASD 相對風險。",
+          "對科內主治醫師、研究醫師及專科護理師進行一次 in-service training，確保全體同仁在衛教時傳遞的訊息一致、口徑統一。",
+          "與兒童心智科或發展行為兒科建立更緊密的轉介與溝通管道，以利高風險個案的早期診斷與介入。"
+        ],
+        "missing_evidence": "我們仍需要更多證據來回答：新生兒時期的重大併發症（如 severe BPD, Grade III/IV IVH, NEC）如何在本研究的 GA-risk 模型上進一步影響 ASD 風險？一個住院過程平順的 27 週早產兒，其風險是否真的和一個經歷多次手術、感染的 27 週早產兒一樣？這是未來研究需要釐清的重點。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41984740",
+    "title": "Improving Metabolic Stability in Preterm Infants Using Continuous Glucose Monitoring: A Randomized Study.",
+    "authors": "Battaglini M, Calandrino A, Caruggi S, et al.",
+    "journal": "Neonatology",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1159/000550797",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 3
+    },
+    "keywords": [
+      "CGM",
+      "早產兒",
+      "血糖控制",
+      "低血糖",
+      "高血糖"
+    ],
+    "one_liner": "這篇單中心隨機試驗顯示，即時CGM能顯著改善早產兒早期血糖穩定性，但對兩歲神經發育預後無顯著影響，值得NICU醫師關注其在血糖管理上的潛力。",
+    "summary": {
+      "purpose": "旨在評估即時連續血糖監測 (CGM) 相較於標準照護，是否能改善早產兒的血糖控制及神經發育預後。",
+      "design": "這是一項單中心、前瞻性、隨機分組試驗。共納入53名早產兒（CGM組: n=26；對照組: n=27），在出生後六小時內隨機分組。CGM組的血糖管理依據即時CGM數據，對照組則依據間歇性血糖測量。",
+      "findings": "即時CGM組在出生後第一週及32週校正胎齡時，低血糖（<47 mg/dL）和高血糖（>180 mg/dL）的發生頻率均顯著較低（第一週低血糖: 339 vs 934, p=0.0001；高血糖: 145 vs 830, p=0.0001；32週校正胎齡低血糖: 260 vs 785, p=0.0001；高血糖: 1 vs 38, p=0.0001）。然而，兩組在兩歲校正年齡的神經發育預後（Griffiths Scales of Child Development）未見顯著差異。",
+      "significance": "本研究顯示，在早產兒早期新生兒階段使用即時CGM，能有效減少血糖波動（包括低血糖和高血糖），有助於更精準地調整代謝策略。儘管本研究未顯示對長期神經發育有顯著改善，但優化血糖穩定性是NICU照護的重要目標，CGM可作為一項有潛力的工具來提升血糖管理品質。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這是一項小規模單中心 RCT (N=53)，證實對早產兒使用即時連續血糖監測 (real-time CGM)，能顯著減少出生後第一週的低血糖 (<47 mg/dL) 與高血糖 (>180 mg/dL) 事件。然而，這種短期血糖穩定性的改善，並未轉化為兩歲時神經發育預後 (Griffiths Scales) 的顯著差異。結論是，CGM 是個有效達成血糖穩定的工具，但其對長期臨床 outcome 的影響，仍需更大規模的試驗來證實。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 未提供研究對象的 gestational age (GA) 或 birth weight (BW) 分佈。這項資訊至關重要，因為 CGM 的效益與挑戰在 24 週的 ELBW 跟 32 週的晚期早產兒身上可能截然不同。",
+          "source": "Abstract 的 Methods 和 Results 段落均未提及。",
+          "implication": "我們科收治大量 ELBW/VLBW 病患，如果該研究對象偏向較大週數的早產兒，其結果對我們核心病患群的適用性 (generalizability) 會大打折扣。閱讀全文時，必須優先檢視 Table 1 的人口學特徵。"
+        },
+        {
+          "finding": "研究結果只報告了血糖異常事件的「頻率」(frequency)，但其 primary outcome 明確包含「持續時間」(duration)。",
+          "source": "Abstract 的 Methods 段落提到 primary outcomes 包括 frequency and duration，但 Results 段落只呈現了 frequency 的數據。",
+          "implication": "對神經發展而言，低血糖的「持續時間」與「嚴重程度」可能比「發生次數」更具傷害性。一次持續數小時的嚴重低血糖，其危害遠大於數次短暫輕微的血糖下降。全文中關於 duration 的數據，是解讀為何神經發育 outcome 沒有差異的關鍵。"
+        },
+        {
+          "finding": "Abstract 未說明 CGM 組的具體處置流程 (intervention algorithm)。例如，警報的閾值設在多少？是根據血糖絕對值還是趨勢箭頭 (trend arrows) 來調整 SIR？調整的幅度為何？",
+          "source": "Abstract 的 Methods 段落僅籠統地說 \"glycemic management was guided by CGM data\"。",
+          "implication": "若要將此研究結果應用於臨床，我們必須知道他們確切的「玩法」。一個定義明確、可執行的 protocol 是複製其成功經驗的前提。這也是評估導入 CGM 後對護理端工作流程衝擊的必要資訊。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "隨機對照試驗 (RCT) 設計，是評估介入措施效果的黃金標準。",
+          "對照組使用「蒙蔽的 CGM」(blinded CGM)，這是一個非常好的設計。它排除了單純因為裝置存在而產生的行為改變 (Hawthorne effect)，並能客觀比較兩組真實的血糖波動曲線，而不僅是臨床上測到的點狀血糖值。",
+          "研究計畫有預先註冊 (EudraCT number)，可減少 publication bias 和 post-hoc outcome switching 的風險。"
+        ],
+        "notes": [
+          "神經發育評估工具為 Griffiths Scales of Child Development，這是標準的評估工具之一，但需注意其版本。",
+          "低血糖定義為 <47 mg/dL (2.6 mmol/L)，高血糖定義為 >180 mg/dL (10 mmol/L)，這些都是新生兒研究中常用的閾值。",
+          "長期追蹤至兩歲校正年齡，是評估核心神經發育結果的合適時間點。"
+        ],
+        "weaknesses": [
+          "樣本數過小 (N=53)。這使得研究很可能 underpowered，特別是對於變異性大的神經發育 outcome。因此，兩組神經發育無差異的結論應謹慎解讀，可能只是沒有足夠的統計檢定力去偵測出真實存在的差異 (Type II error)。",
+          "單中心研究。研究結果可能受到該中心特定照護習慣 (如 TPN 配方、餵食策略) 的影響，限制了其對外院的通用性。",
+          "Abstract 未報告追蹤失訪率 (loss to follow-up rate)。如果兩歲時的失訪率過高或兩組不平衡，神經發育的結果將存在嚴重偏誤 (bias)。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Beardsall K et al. 2008, Pediatrics (NIRTURE trial)",
+            "comparison": "這是早期關鍵的 CGM RCT 之一，對象是 VLBW (<1500g) 早產兒。同樣發現 CGM 能減少低血糖的「時間」，但未追蹤長期神經發uc育。本研究算是 NIRTURE 的延伸，但納入的族群未知，且增加了 2 歲的 outcome。"
+          },
+          {
+            "citation": "van der Schoor et al. 2021, The Lancet Child & Adolescent Health (REACT trial)",
+            "comparison": "這是一個規模較大 (N=101) 的多中心 RCT，對象是 <32 週的早產兒。其介入組結合了 CGM 與電腦化決策支持系統 (computerized decision support system)，顯示能顯著增加血糖在目標範圍內的時間 (time in range)。相較之下，本研究規模較小、單中心，且未提及是否有決策支持系統的輔助。"
+          }
+        ],
+        "guideline_status": "目前不論是美國兒科醫學會 (AAP) 或歐洲小兒胃腸肝膽營養學會 (ESPGHAN)，都未將 CGM 列為早產兒的常規建議。它被視為在處理頑固型血糖不穩定個案時的輔助工具。台灣新生兒科醫學會目前尚無針對此主題的正式指引。",
+        "evidence_gap_filled": "本研究再次確認了 CGM 在「改善短期血糖控制」方面的效益。它試圖填補「短期血糖穩定是否能改善長期神經發育」這個關鍵的 evidence gap，但受限於樣本數，其陰性結果並未提供決定性的答案，反而凸顯了需要更大規模試驗的必要性。",
+        "ongoing_trials": "有幾個更大規模的跨國多中心 RCT 正在進行或結果待發表，例如 Glucose in Preterm Infants (GLI) trial，這些試驗的結果將對 CGM 是否應成為常規照護提供更強的證據。"
+      },
+      "protocol_impact": {
+        "current_practice": "根據我們的工作手冊，目前血糖監測完全依賴間歇性的腳跟血 Dextrostix 檢測。低血糖的處置閾值 (critical sample for Dex ≤50 mg/dL) 與高血糖的處置考量 (clinically important >180 to 200 mg/dL) 與本研究的定義大致相符。我們的處置方式是根據 Dextrostix 結果被動調整 SIR (如「Routine / Nutrition and Fluid Requirements」手冊所示) 或在血糖 >180-200 且處置無效後才考慮使用 insulin 0.03 IU/kg/hr。目前工作手冊中無任何關於 CGM 的 protocol。",
+        "proposed_change": "本研究結果支持我們「考慮」在高風險族群 (如 ELBW、SGA、IDM 或血糖極度不穩定的個案) 中「試行」CGM。這不會是全面性的改變，而是一個新增的選項。\n1.  **新增 protocol**: 建立「高風險早產兒連續血糖監測指引」。\n2.  **適用對象**: 待全文發表後，參考其收案條件，初步可訂為 GA <28 週或 BW <1000g 的嬰兒。\n3.  **處置改變**: 應建立一個基於 CGM 數據（包含絕對值與趨勢箭頭）的「主動式」SIR 調整流程，目標是將血糖維持在目標區間 (e.g., 50-150 mg/dL)，而非僅處理超出範圍的警報。例如：當血糖 80 mg/dL 但趨勢向下時，即可預防性地微升 SIR。",
+        "prerequisites": [
+          "採購適合新生兒使用的 CGM 設備 (如 Dexcom G6/G7, Medtronic Guardian) 及相關耗材。",
+          "與護理部、感染控制小組共同制定 CGM 探頭的置放、固定、校正與照護標準作業流程 (SOP)。",
+          "舉辦全科（醫師及護理師）的教育訓練，內容包括設備操作、數據判讀（特別是趨勢箭頭的意義）及新的血糖管理決策流程。",
+          "在電子病歷系統中規劃 CGM 數據的記錄與呈現方式。"
+        ],
+        "missing_evidence": "在我們全面改變 protocol 之前，最缺乏的是「證實 CGM 能改善重要臨床預後」的強烈證據。這包括：\n1.  **更大型 RCT 證實能改善神經發育預後**：本研究的陰性結果讓我們無法理直氣壯地說 CGM 能保護大腦。\n2.  **對其他早產兒併發症的影響**：如 BPD、ROP、NEC、sepsis 的發生率。\n3.  **成本效益分析**：導入 CGM 的設備與人力成本，是否能被其潛在效益（如減少抽血次數、減少護理工作量、縮短住院天數）所抵銷。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41983451",
+    "title": "Insulin-like growth factor-1 for the prevention or treatment of retinopathy of prematurity.",
+    "authors": "Trzaski JM, Cracknell J, Herbst KW, et al.",
+    "journal": "Cochrane Database of Systematic Reviews - Neonatal",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1002/14651858.CD013216.pub2",
+    "total_score": 4,
+    "scores": {
+      "design": 5,
+      "relevance": 5,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "ROP",
+      "IGF-1",
+      "早產兒",
+      "系統性回顧",
+      "視網膜病變"
+    ],
+    "one_liner": "目前證據顯示 IGF-1 對於預防或治療早產兒 ROP 的效果及安全性均極不確定，不建議常規使用。",
+    "summary": {
+      "purpose": "本研究旨在比較 IGF-1 治療與標準照護或安慰劑，對於預防或治療早產兒視網膜病變 (ROP) 的效果。",
+      "design": "本研究為 Cochrane 系統性回顧，納入兩項隨機對照試驗 (RCTs)，共計 140 名極度早產兒 (GA 23週至27週又6天)。研究比較 IGF-1 (mecasermin rinfabate) 與標準照護或安慰劑對 ROP 預防或早期治療的效果。",
+      "findings": "目前證據非常不確定，IGF-1 對於預防 Type 1 ROP/需治療 ROP (RR 0.94, 95% CI 0.38 to 2.35; P = 0.90)、ROP ≥ stage 3 (RR 1.27, 95% CI 0.61 to 2.65; P = 0.52) 或任何嚴重度 ROP (RR 1.30, 95% CI 0.94 to 1.80; P = 0.12) 均無明確效果。安全性方面，IGF-1 對於嚴重不良事件 (SAEs)、死亡率或低血糖的影響也極不確定。其中一項較大型 RCT 的事後敏感性分析顯示，IGF-1 組發生 SAEs 的風險增加 (RR 1.28, 95% CI 1.01 to 1.62, P = 0.05; RD 0.17, 95% CI 0.01 to 0.33, P = 0.04; NNTH 5.9)。所有結果的證據確定性均為極低，主要因樣本數小且存在顯著偏差風險。",
+      "significance": "由於現有證據確定性極低，目前無法就 IGF-1 在早產兒 ROP 預防或治療中的效果、或其對嚴重不良事件、死亡率及低血糖風險的影響得出任何結論。在有更多高品質研究證據之前，不建議將 IGF-1 用於臨床常規 ROP 照護。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇 Cochrane review 統合了兩篇小型 RCT，評估 IGF-1 對 23-27 週早產兒 ROP 的預防效果。結論是，基於『極低確定性』的證據，IGF-1 無法顯著降低 Type 1 ROP 或任何嚴重度 ROP 的發生率。更重要的是，一篇較大的試驗在事後分析中發現，IGF-1 組的嚴重不良事件 (SAEs) 風險可能增加 (NNTH 5.9)。基於目前證據，我們完全不應考慮在臨床常規中使用 IGF-1 預防 ROP。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 中最重要的發現其實是那個『事後敏感性分析』(post-hoc sensitivity analysis) 的安全性警訊。雖然整體 meta-analysis 的 SAEs 風險未達統計顯著 (RR 1.18, 95% CI 0.94 to 1.47)，但單獨看那篇較大的 121 人的 RCT，SAEs 風險顯著增加 (RR 1.28, 95% CI 1.01 to 1.62)，而且 NNTH 只有 5.9，這代表每治療約 6 個嬰兒，就有 1 個會發生額外的嚴重不良事件。",
+          "source": "Abstract - SYNTHESIS OF RESULTS - SAEs during the birth hospitalization",
+          "implication": "這個 safety signal 比療效的不確定性更重要。在沒有明確好處的情況下，任何潛在傷害的證據都應該讓我們卻步。臨床上，我們必須知道這些 SAEs 是什麼？是 BPD、IVH、NEC 還是 sepsis？這決定了我們對這個藥物潛在系統性風險的理解。"
+        },
+        {
+          "finding": "Abstract 未提供任何 GA 或 BW 的 subgroup 分析。研究收案範圍是 GA 23+0 到 27+6 週，這在生理成熟度上有巨大差異。IGF-1 對 23 週和 27 週寶寶的影響（無論是療效或副作用）可能完全不同。",
+          "source": "Abstract - INCLUDED STUDIES (資訊闕如)",
+          "implication": "這是新生兒科研究的關鍵。很多治療對『比較大』的早產兒有效，但對 ELBW/micropremie 卻可能有害。閱讀全文時，必須仔細尋找是否有任何跡象顯示，傷害集中在最不成熟的 GA 亞群。"
+        },
+        {
+          "finding": "Abstract 只提到『住院期間』的 outcome。對於 ROP 這種可能影響終身視力的疾病，以及 IGF-1 這種可能影響全身生長發育的荷爾蒙，沒有長期神經發育追蹤的數據是一大缺陷。",
+          "source": "Abstract - OUTCOMES (資訊闕如)",
+          "implication": "即使 IGF-1 能改善 ROP (雖然本研究顯示不能)，如果它以增加 2 歲時 CP 或認知遲緩的風險為代價，那也是不可接受的。閱讀全文時，需確認是否有計劃進行長期追蹤，以及追蹤的失訪率 (attrition rate) 有多高。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "Cochrane review 本身代表了嚴謹、系統性的文獻搜尋與統合方法，且 protocol 預先註冊，減少了 reporting bias。",
+          "納入的研究是 RCTs，這是評估療效的最高證據等級設計。"
+        ],
+        "notes": [
+          "BPD 定義不明：Abstract 未提及 BPD 的診斷標準 (例如 NICHD 2001 physiological definition 或更新的 Jensen 2019 criteria)，而 BPD 是這個 GA 族群最常見的嚴重併發症之一，很可能是 SAEs 的主要組成部分。",
+          "Neurodevelopmental 評估工具不明：完全沒有提到長期追蹤計畫，自然也沒有說明會使用哪種評估工具 (e.g., Bayley-III, Bayley-4)。",
+          "Follow-up rate：僅追蹤至出院 (PMA 40 週)，沒有長期追蹤，因此失訪率問題暫時不適用，但這也正是研究最大的限制。"
+        ],
+        "weaknesses": [
+          "樣本數過小 (Total n=140)：這是所有結論皆為『極低確定性』的主因。研究完全 underpowered，無法對療效或安全性做出任何可靠的結論。",
+          "高風險偏差 (High risk of bias)：兩篇納入的 RCTs 都在兩個領域被評為高風險偏差，這嚴重削弱了其結果的可信度。需要看全文才能知道是 allocation concealment、blinding 還是 selective reporting 的問題。",
+          "產業資助 (Industry funding)：兩篇原始研究都由業界資助，雖然 Cochrane review 本身沒有，但原始數據的來源可能存在潛在偏見。",
+          "Post-hoc 分析的警訊：最重要的安全性發現來自事後分析，其證據強度不如預先設定的 primary safety outcome。但即便如此，這仍然是不可忽視的危險信號。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "SUPPORT Study Group, NEJM 2010",
+            "comparison": "SUPPORT trial 處理的是 ROP 預防的另一個核心問題：氧氣飽和度目標。它比較了低氧飽和度目標 (85-89%) 與高氧飽和度目標 (91-95%)。與本研究的藥物介入 (IGF-1) 不同，SUPPORT 探討的是照護策略的調整。結論是低氧組 ROP 減少但死亡率增加，確立了目前我們 90-95% 的目標範圍。"
+          },
+          {
+            "citation": "Mintz-Hittner et al (BEAT-ROP), NEJM 2011",
+            "comparison": "BEAT-ROP 研究的是 ROP 的『治療』而非『預防』，比較了 intravitreal bevacizumab (Avastin) 與傳統雷射治療對 Zone I or posterior Zone II stage 3+ ROP 的效果。本篇 IGF-1 研究則著重在出生第一天就開始的『預防』策略，兩者在介入時機與對象上完全不同。"
+          }
+        ],
+        "guideline_status": "目前不論是美國兒科學會 (AAP)、歐洲新生兒科學會、或台灣新生兒科醫學會的 ROP 相關指引，均未建議使用 IGF-1 進行 ROP 的預防或治療。它仍被視為一種實驗性療法。",
+        "evidence_gap_filled": "本研究試圖填補『是否能透過補充產後下降的 IGF-1 來模擬子宮內環境，進而預防 ROP』這個理論上的證據缺口。然而，由於納入的研究品質不佳且樣本數太小，它並未成功填補此缺口，反而因為安全性的疑慮，可能讓這個研究方向暫時停滯。結論是：我們仍然不知道 IGF-1 是否有效，但初步證據顯示它可能有害。",
+        "ongoing_trials": "需要更大規模、設計更嚴謹的 Phase 3 RCT 才能回答這個問題。在看到這樣的安全性信號後，任何新的試驗都必須將 SAEs 和長期神經發育結果作為共同主要終點 (co-primary endpoint)，並設立極為嚴格的 Data and Safety Monitoring Board (DSMB)。"
+      },
+      "protocol_impact": {
+        "current_practice": "目前工作手冊中無相關 protocol。我們科內對於 ROP 的處理，是遵循標準的篩檢時程與治療指引（雷射或 anti-VEGF），並未包含任何使用 IGF-1 或其他生長因子的預防性措施。我們的照護重點在於氧氣管理、營養支持與感染控制等間接預防策略。",
+        "proposed_change": "不需任何改變。根據此篇 Cochrane review 的結論，應『明確不使用』IGF-1 於 ROP 的預防。此結論應在科內會議或 Journal Club 中向所有同仁（包括主治醫師、研究醫師、住院醫師及專科護理師）布達，以避免任何可能的 off-label use 或回應家長詢問時提供錯誤資訊。",
+        "prerequisites": [
+          "在科內教學活動 (如 Journal Club) 中報告此篇文獻，確保所有臨床人員都了解其療效不彰與潛在風險。",
+          "不需要藥物備貨或修改 protocol。"
+        ],
+        "missing_evidence": "要考慮在臨床試驗外使用 IGF-1，我們至少需要一篇大型 (n > 1000)、低偏差風險、獨立資助的 RCT 證明其：1. 能顯著降低『需治療 ROP 或死亡』的複合終點。2. 不會增加 SAEs (特別是 BPD, IVH, NEC)。3. 在 2 歲校正年齡時，不會對神經發育結果 (如 Bayley-4 評分) 造成負面影響。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41980807",
+    "title": "Diagnostic yield and imaging: aetiology correlations in prenatal intracranial haemorrhage-a retrospective cohort study.",
+    "authors": "Shinar S, Carmant LS, Tripathy P, et al.",
+    "journal": "Archives of Disease in Childhood - Fetal and Neonatal Edition",
+    "pub_date": "2026 Apr 14",
+    "doi": "10.1136/archdischild-2025-330148",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 4,
+      "generalizability": 3
+    },
+    "keywords": [
+      "prenatal ICH",
+      "genetic disorders",
+      "CSVD",
+      "neuroimaging",
+      "IVH"
+    ],
+    "one_liner": "這篇回溯性研究指出基因異常（尤其是 CSVD）是產前 ICH 的重要病因，提示新生兒科醫師在面對產前 ICH 病例時，應考慮常規基因組檢測。",
+    "summary": {
+      "purpose": "本研究旨在探討胎兒顱內出血 (ICH) 的病因學及產前神經影像學表現，並評估影像學診斷潛在病因的能力。",
+      "design": "本研究為一項回溯性世代研究，回顧了2015年至2025年間在單一胎兒醫學中心診斷為產前 ICH 的67例胎兒。研究排除已知病因的病例，並整合臨床、實驗室、基因、屍檢及胎盤檢查結果以確定病因。",
+      "findings": "67例胎兒中，38.8% (26/67) 確定了病因。在接受進階基因檢測的病例中，27.7% (13/47) 發現基因病因，最常見為腦部小血管疾病 (CSVD)。其他病因包括感染 (5/67, 7.5%)、胎兒貧血 (6/67, 9%) 及凝血功能障礙 (3/67, 4.5%)。91% (61/67) 的病例有 IVH，55.2% (37/67) 有 PVHI。CSVD 與多灶性 PVHI、腦穿通畸形、白質損傷及頻繁的腦幹受累相關。胎兒貧血常伴有小腦出血。儘管觀察到一些表型聚集，但各病因組之間存在顯著重疊。",
+      "significance": "基因異常，特別是 CSVD，是產前 ICH 的重要原因，支持常規基因組檢測。影像學檢查可提示可能病因，但因重疊現象而限制其診斷特異性。對於出生後診斷為 ICH 的新生兒，若產前已有 ICH 證據，應考慮進行基因檢測，以利於病因診斷及家屬諮詢。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41981097",
+    "title": "The ZMIZ1-GTF2I interaction as a potential contributor to the neurodevelopmental phenotype in neurodevelopmental disorder with dysmorphic facies and distal skeletal anomalies (NEDDFSA).",
+    "authors": "De Rosa A, Kalantari S",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 14",
+    "doi": "10.1038/s41390-026-04926-4",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "NEDDFSA",
+      "neurodevelopmental disorder",
+      "genetic interaction",
+      "ZMIZ1",
+      "GTF2I"
+    ],
+    "one_liner": "這是一篇關於特定遺傳性神經發育障礙 (NEDDFSA) 分子機制的基礎研究，對於罕見疾病的診斷與病理理解有助益，但與一般早產兒照護無直接相關。",
+    "summary": {
+      "purpose": "本研究旨在探討 ZMIZ1-GTF2I 基因交互作用如何影響神經發育障礙伴隨畸形面容及遠端骨骼異常 (NEDDFSA) 的神經發育表型。",
+      "design": "由於缺乏摘要，具體研究設計（如樣本數、GA 範圍、出生體重）無法得知。根據標題推測，這是一項針對 NEDDFSA 患者進行的基因型與表型關聯性研究，可能涉及回溯性資料分析或特定患者群體的基因組學研究。",
+      "findings": "由於缺乏摘要，無法提供具體研究發現及數據。",
+      "significance": "本研究有助於深入理解 NEDDFSA 的分子病理機制，為此類罕見神經發育障礙的診斷與未來治療策略提供潛在靶點。對於新生兒科醫師而言，這提供了關於特定遺傳性神經發育疾病的背景知識，但對一般 NICU 日常照護決策影響有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41980718",
+    "title": "Pedestrian and Bicyclist Crashes With Motor Vehicles by the Childhood Opportunity Index.",
+    "authors": "Hellinger RL, Belday K, Witte M, et al.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1542/peds.2025-075221",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 4
+    },
+    "keywords": [
+      "兒童傷害",
+      "社會經濟",
+      "交通安全",
+      "行人",
+      "自行車"
+    ],
+    "one_liner": "這篇研究探討社會經濟因素對兒童交通意外的影響，與新生兒科的日常臨床工作無直接相關性，可略過。",
+    "summary": {
+      "purpose": "探討鄰里社會經濟背景（以 Childhood Opportunity Index 衡量）與兒童（0-17歲）行人及自行車交通事故發生率、嚴重程度及危險特徵之間的關聯。",
+      "design": "這是一項回溯性研究，分析佛羅里達州（2015-2023）18,272起及全國（2012-2023）3,612起兒童行人及自行車交通事故數據。研究對象為0至17歲兒童，主要暴露因子為事故發生郵遞區號的 Childhood Opportunity Index 五分位數。",
+      "findings": "超過60%的事故發生在低或極低機會的鄰里。隨著機會指數下降，事故發生率逐步升高（佛羅里達州：極低 vs 極高 IRR 1.35 [95% CI 1.21-1.51]；全國死亡事故：極低 vs 極高 IRR 2.82 [95% CI 2.65-3.00]）。極低機會鄰里發生失能性傷害的機率較高（aOR 1.71, 95% CI 1.34-2.16），且不當行為的機率也較高（aOR 1.48, 95% CI 1.31-1.67）。",
+      "significance": "本研究證實較低的鄰里機會與較高的兒童行人及自行車事故發生率、更嚴重的傷害及更危險的事故情境相關。這支持在弱勢社區推動有針對性的預防措施，但與新生兒科的臨床照護決策無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41985141",
+    "title": "Hepatic Pseudoprogression after Treatment with Nectin-4-Targeted Antibody-Drug Conjugate.",
+    "authors": "Wang S, Liu J, Xie F",
+    "journal": "New England Journal of Medicine",
+    "pub_date": "2026 Apr 16",
+    "doi": "10.1056/NEJMc2518316",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "腫瘤學",
+      "抗體藥物複合體",
+      "肝臟假性惡化",
+      "成人醫學"
+    ],
+    "one_liner": "這篇文章探討成人腫瘤治療相關的肝臟影像學現象，與新生兒科照護完全無關，新生兒科醫師可以跳過。",
+    "summary": {
+      "purpose": "此研究旨在報告或描述成人患者在接受Nectin-4靶向抗體藥物複合體治療後，出現肝臟假性惡化（hepatic pseudoprogression）的臨床現象。",
+      "design": "根據標題判斷，此研究最可能為單一病例報告或小型病例系列研究，探討特定藥物治療後的罕見副作用或現象。研究對象為成人腫瘤患者，與新生兒的胎齡（GA）或出生體重（BW）無關，亦無相關樣本數資訊。",
+      "findings": "由於缺乏摘要內容，無法提供具體發現。預期主要發現將圍繞Nectin-4靶向抗體藥物複合體治療後，肝臟影像學上呈現類似腫瘤惡化，但實為治療相關發炎或壞死的假性惡化現象。",
+      "significance": "此研究主題與新生兒科的臨床照護、早產兒管理或長期發育追蹤完全無關，對NICU的日常決策或治療策略不具任何臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-16"
   }
 ]
