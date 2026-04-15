@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NB Journal Digest - 2026-04-16</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.8;font-size:16px}
+.container{max-width:720px;margin:0 auto;padding:20px}
+header{padding:20px 0;border-bottom:2px solid #1B6B93;margin-bottom:24px}
+.back{font-size:15px;color:#1B6B93;text-decoration:none}
+.back:hover{text-decoration:underline}
+.date{font-size:15px;color:#888;margin-top:8px}
+h1{font-size:26px;font-weight:700;color:#1B6B93;margin-top:4px}
+.stats{font-size:15px;color:#666;margin-top:6px}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:18px}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600}
+.tag-journal{font-size:13px;color:#999}
+.card-title{font-size:18px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px}
+.card-authors{font-size:14px;color:#999;margin-bottom:14px}
+.section{padding:14px 0;border-top:1px solid #f0f0ec}
+.section p{font-size:15px;color:#555;margin-bottom:8px}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:10px}
+.hl{border-left:3px solid;padding:10px 14px;margin:8px 0;font-size:15px;line-height:1.7;border-radius:0}
+.hl-green{border-color:#639922;background:#EAF3DE;color:#27500A}
+.hl-amber{border-color:#BA7517;background:#FAEEDA;color:#633806}
+.hl-red{border-color:#E24B4A;background:#FCEBEB;color:#791F1F}
+.hl-blue{border-color:#378ADD;background:#E6F1FB;color:#0C447C}
+.related{font-size:15px;color:#555;padding:8px 0;border-bottom:1px solid #f5f5f0}
+.related:last-child{border-bottom:none}
+.card-links{padding-top:14px;display:flex;gap:16px}
+.card-links a{font-size:14px;color:#1B6B93;text-decoration:none}
+.card-links a:hover{text-decoration:underline}
+footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;color:#999;text-align:center}
+.vote-count{font-size:13px;color:#1B6B93;font-weight:600}
+@media(max-width:600px){.container{padding:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">NB Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">或從 LINE / Email 點擊連結直接閱讀</p>
+</div>
+</div>
+
+<!-- Digest content (hidden until auth) -->
+<div id="digest-content" style="display:none;">
+<div class="container">
+<header>
+  <a href="index.html" class="back">← Back to archive</a>
+  <div class="date">2026/04/16 (Thursday)</div>
+  <h1>NB Journal Digest</h1>
+  <div class="stats">7 articles</div>
+</header>
+
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 4-5: DEEP ANALYSIS</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">Journal of Perinatology</span></div>
+  <h2 class="card-title">Echocardiographic predictors of adverse outcomes in infants with congenital diaphragmatic hernia.</h2>
+  <div class="card-authors">Ting JY, Sehgal A, Kuan MTY, et al. · 2026 Apr 14</div>
+  <div id="original-analysis-41981122"><div class="section"><p><b>研究目的：</b>本研究旨在探討先天性橫膈膜疝氣 (CDH) 嬰兒的心臟功能超音波指標與短期不良預後之間的關聯。</p><p><b>研究設計：</b>這是一項回溯性世代研究，納入2018年至2021年間來自四個新生兒外科中心的44名CDH嬰兒。主要複合式預後為死亡或出生後第14天後仍需侵入性機械通氣。</p><p><b>主要發現：</b>研究中18名 (40.9%) 嬰兒達到主要複合式預後。這些嬰兒術前左心室輸出量 (110 vs. 157 mL/kg/min, p = 0.002)、右心室輸出量 (114 vs. 187 mL/kg/min, p = 0.008)，以及在二尖瓣環 (4.6 vs. 5.4 cm/s, p = 0.006) 和心室中膈 (4.2 vs. 4.8 cm/s, p = 0.001) 測得的收縮期心肌峰值速度均較低。術後，他們也表現出較低的右心室輸出量 (155 vs. 237 mL/kg/min, p = 0.021) 和較低的心肌速度。</p><p><b>臨床意義：</b>心臟超音波評估，特別是心室輸出量和心肌速度，可為CDH嬰兒的術後呼吸道預後提供關鍵的預測資訊，有助於早期識別高風險嬰兒並指導臨床決策。</p></div></div>
+  <div id="analysis-result-41981122"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41981122/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41372-026-02670-5" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41981122" data-rating="must_read" onclick="vote('41981122','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41981122-must_read" style="display:none;">0</span></button> <button data-pmid="41981122" data-rating="useful" onclick="vote('41981122','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41981122-useful" style="display:none;">0</span></button> <button data-pmid="41981122" data-rating="so_so" onclick="vote('41981122','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41981122-so_so" style="display:none;">0</span></button> <button data-pmid="41981122" data-rating="skip" onclick="vote('41981122','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41981122-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41981122" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41981122" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41981122','Echocardiographic predictors of adverse outcomes in infants with congenital diaphragmatic hernia.',this,false)">
+  <button id="upload-btn-41981122" onclick="document.getElementById('pdf-41981122').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41981122" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">Journal of Perinatology</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Prematurity and autism: a dose-response relationship across gestational age.</h2>
+  <div class="card-authors">Israel A, Mimouni FB, Vinker S, et al. · 2026 Apr 14</div>
+  <div id="original-analysis-41981121"><div class="section"><b>30 秒重點：</b>這篇大型回溯性研究明確指出，早產與自閉症 (ASD) 風險之間存在顯著的「劑量反應關係」。與足月兒相比，GA < 28 週的新生兒 ASD 風險高達 4.37 倍 (aOR 4.37, 95% CI 2.26-8.44)。這個量化數據為我們向早產兒家屬進行長期預後諮詢提供了更具體的實證依據，並強調了對極度早產兒進行密切發展追蹤與早期篩檢的絕對必要性。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>ASD 的診斷效度不明。Abstract 僅提及「使用 ICD-10 codes」，但未說明是由誰（如兒童精神科醫師、發展行為兒科醫師）診斷、基於何種評估工具（如 ADOS-2, ADI-R），或是否需要多次就診紀錄。單純依賴計費碼可能導致病例誤分類 (misclassification bias)。</b> Abstract, STUDY DESIGN section。這直接影響我們對研究結果的信心。如果 ASD 的定義不夠嚴謹，算出來的 odds ratio 可能會被高估或低估。在引用這些數據對家長進行衛教時，我們需要抱持審慎態度。</p><p><b>缺乏對關鍵新生兒併發症的調整。研究雖然對母親及社會人口學變項做了配對，但完全沒有提及是否校正了如 severe IVH、PVL、NEC、culture-proven sepsis 或 BPD 等已知會影響神經發展的重大新生兒疾病。</b> Abstract, STUDY DESIGN section (omission)。早產本身與這些併發症高度相關。我們無法確定觀察到的高風險是純粹來自「早產」，還是由這些併發症所驅動。對於一個 GA 27 週但住院過程相對平順的寶寶，其風險是否與合併 Grade III IVH 和 BPD 的寶寶相同？這個研究無法回答。</p><p><b>追蹤時間與診斷年齡不詳。研究對象出生於 2011-2023 年，代表世代年齡橫跨嬰兒期到 12 歲。Abstract 未說明納入分析的最小追蹤時間，也未提供 ASD 的中位診斷年齡。這可能導致對年輕世代的 ASD 發生率低估，因為許多孩子可能還沒到典型的診斷年齡。</b> Abstract, STUDY DESIGN section (omission)。如果大部分診斷來自較年長的世代，而較年輕的世代追蹤時間不足，那麼整體的風險估計可能偏低。閱讀全文時，必須檢視依出生世代分的層別分析 (stratified analysis)，以確認結果的穩定性。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>樣本數龐大 (1861 cases, 18,610 controls)，提供了高度的統計檢定力。</div><div class="hl hl-green"><b>Strong：</b>採用了精確配對與傾向分數配對 (propensity-score matching)，有效控制了多項已知的人口學及社會經濟地位干擾因子。</div><div class="hl hl-amber"><b>Note：</b>研究設計為回溯性世代研究，雖然效率高，但天生易受資訊偏差 (information bias) 與未測量干擾因子 (unmeasured confounders) 的影響。</div><div class="hl hl-amber"><b>Note：</b>GA 分組方式 (<28, 28-31, 32-33, 34-35, 36) 符合臨床實務，有助於我們應用在特定早產兒群體。</div><div class="hl hl-red"><b>Weak：</b>潛在的偵測偏差 (detection bias)。早產兒本身就是發展追蹤門診的高密度使用者，相較於一般足月兒，他們有更多機會被篩檢和診斷出 ASD，這可能人為地拉高了早產兒組的 OR。</div><div class="hl hl-red"><b>Weak：</b>缺乏對新生兒住院期間臨床變項的資料，這是本研究最大的方法學缺陷，嚴重影響了因果關係的推斷。</div><div class="hl hl-red"><b>Weak：</b>結果的外推性 (generalizability) 可能受限。研究數據可能來自單一國家或醫療體系，其結果是否能完全適用於台灣的健保資料庫與臨床實務，尚需驗證。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Agrawal S et al., Pediatrics, 2018</b> — 這是一篇系統性回顧與 meta-analysis，同樣發現早產與 ASD 的關聯。其結果顯示 very preterm (<32 wks) 的 OR 為 3.1，moderate-to-late preterm (32-36 wks) 的 OR 為 1.4。本研究提供了更細緻的 GA 分層，且在極度早產兒族群 (<28 wks) 觀察到更高的風險 (OR 4.37)，可視為對該 meta-analysis 的補充與精鍊。</div><div class="related"><b>Crump C et al., JAMA, 2021</b> — 這篇瑞典全國性世代研究同樣探討了早產與多種神經發展障礙的關係。其設計與本研究類似（大型、回溯性），但涵蓋的 outcome 更廣。本研究的價值在於專注於 ASD，並提供了更詳細的風險分層數據。</div><p><b>指引現況：</b>美國兒科醫學會 (AAP) 建議對所有兒童在 18 與 24 個月大時進行 ASD 例行篩檢，並對早產兒等高風險族群進行更密切的發展監測。台灣新生兒科醫學會亦強調對 VLBW 嬰兒進行長期追蹤。然而，目前國內外指引皆未提供如本研究般精確的、依 GA 分層的 ASD 量化風險數據供臨床諮詢使用。</p><p><b>填補的 evidence gap：</b>本研究填補了「早產程度」與「ASD 風險」之間量化關係的知識缺口。它將過去已知的關聯性，轉化為一組臨床醫師可直接用於風險溝通的具體數據，超越了過去僅將早產兒籠統歸為「高風險群」的說法。</p><p><b>進行中的相關試驗：</b>目前大型 RCT 的重點多在於尋找「改善」早產兒神經發展預後的介入措施（如不同營養策略、早期療育模式），而非進一步「描述」風險。因此，在觀察性研究方面，本研究已是相當新的證據，短期內可能沒有更大型的研究會發表。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>目前工作手冊中無針對早產兒自閉症風險評估與家長衛教的具體 protocol。臨床上，我們會在 VLBW/ELBW 嬰兒出院前，向家長說明其為發展遲緩之高風險群，並安排長期追蹤門診，但缺乏量化的 ASD 風險數據來支持我們的衛教內容。<br><b>建議調整：</b>建議將本研究的發現整合至我們的出院衛教流程中：
+1.  **修改衛教內容**：在對 GA < 32 週的早產兒家長進行出院前家庭會議時，應明確告知 ASD 風險隨早產週數增加而上升的「劑量反應關係」。可引用數據（如：<28週寶寶的風險約為足月兒的4倍），同時強調這僅是相對風險，多數早產兒並不會發展成 ASD。
+2.  **強化追蹤計畫**：應與本科的發展追蹤門診及兒童發展聯合評估中心合作，確保我們的 NICU 畢業生，特別是 GA < 32 週者，能確實完成 18 個月及 24 個月大的 ASD 篩檢（如 M-CHAT-R/F）。<br><b>導入準備：</b>製作標準化的家長衛教單張，以圖表化、易懂的方式呈現不同 GA 的 ASD 相對風險。, 對科內主治醫師、研究醫師及專科護理師進行一次 in-service training，確保全體同仁在衛教時傳遞的訊息一致、口徑統一。, 與兒童心智科或發展行為兒科建立更緊密的轉介與溝通管道，以利高風險個案的早期診斷與介入。<br><b>等待的證據：</b>我們仍需要更多證據來回答：新生兒時期的重大併發症（如 severe BPD, Grade III/IV IVH, NEC）如何在本研究的 GA-risk 模型上進一步影響 ASD 風險？一個住院過程平順的 27 週早產兒，其風險是否真的和一個經歷多次手術、感染的 27 週早產兒一樣？這是未來研究需要釐清的重點。</div></div></div>
+  <div id="analysis-result-41981121"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41981121/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41372-026-02632-x" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41981121" data-rating="must_read" onclick="vote('41981121','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41981121-must_read" style="display:none;">0</span></button> <button data-pmid="41981121" data-rating="useful" onclick="vote('41981121','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41981121-useful" style="display:none;">0</span></button> <button data-pmid="41981121" data-rating="so_so" onclick="vote('41981121','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41981121-so_so" style="display:none;">0</span></button> <button data-pmid="41981121" data-rating="skip" onclick="vote('41981121','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41981121-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41981121" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41981121" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41981121','Prematurity and autism: a dose-response relationship across gestational age.',this,false)">
+  <button id="upload-btn-41981121" onclick="document.getElementById('pdf-41981121').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41981121" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">Neonatology</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Improving Metabolic Stability in Preterm Infants Using Continuous Glucose Monitoring: A Randomized Study.</h2>
+  <div class="card-authors">Battaglini M, Calandrino A, Caruggi S, et al. · 2026 Apr 15</div>
+  <div id="original-analysis-41984740"><div class="section"><b>30 秒重點：</b>這是一項小規模單中心 RCT (N=53)，證實對早產兒使用即時連續血糖監測 (real-time CGM)，能顯著減少出生後第一週的低血糖 (<47 mg/dL) 與高血糖 (>180 mg/dL) 事件。然而，這種短期血糖穩定性的改善，並未轉化為兩歲時神經發育預後 (Griffiths Scales) 的顯著差異。結論是，CGM 是個有效達成血糖穩定的工具，但其對長期臨床 outcome 的影響，仍需更大規模的試驗來證實。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 未提供研究對象的 gestational age (GA) 或 birth weight (BW) 分佈。這項資訊至關重要，因為 CGM 的效益與挑戰在 24 週的 ELBW 跟 32 週的晚期早產兒身上可能截然不同。</b> Abstract 的 Methods 和 Results 段落均未提及。。我們科收治大量 ELBW/VLBW 病患，如果該研究對象偏向較大週數的早產兒，其結果對我們核心病患群的適用性 (generalizability) 會大打折扣。閱讀全文時，必須優先檢視 Table 1 的人口學特徵。</p><p><b>研究結果只報告了血糖異常事件的「頻率」(frequency)，但其 primary outcome 明確包含「持續時間」(duration)。</b> Abstract 的 Methods 段落提到 primary outcomes 包括 frequency and duration，但 Results 段落只呈現了 frequency 的數據。。對神經發展而言，低血糖的「持續時間」與「嚴重程度」可能比「發生次數」更具傷害性。一次持續數小時的嚴重低血糖，其危害遠大於數次短暫輕微的血糖下降。全文中關於 duration 的數據，是解讀為何神經發育 outcome 沒有差異的關鍵。</p><p><b>Abstract 未說明 CGM 組的具體處置流程 (intervention algorithm)。例如，警報的閾值設在多少？是根據血糖絕對值還是趨勢箭頭 (trend arrows) 來調整 SIR？調整的幅度為何？</b> Abstract 的 Methods 段落僅籠統地說 "glycemic management was guided by CGM data"。。若要將此研究結果應用於臨床，我們必須知道他們確切的「玩法」。一個定義明確、可執行的 protocol 是複製其成功經驗的前提。這也是評估導入 CGM 後對護理端工作流程衝擊的必要資訊。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>隨機對照試驗 (RCT) 設計，是評估介入措施效果的黃金標準。</div><div class="hl hl-green"><b>Strong：</b>對照組使用「蒙蔽的 CGM」(blinded CGM)，這是一個非常好的設計。它排除了單純因為裝置存在而產生的行為改變 (Hawthorne effect)，並能客觀比較兩組真實的血糖波動曲線，而不僅是臨床上測到的點狀血糖值。</div><div class="hl hl-green"><b>Strong：</b>研究計畫有預先註冊 (EudraCT number)，可減少 publication bias 和 post-hoc outcome switching 的風險。</div><div class="hl hl-amber"><b>Note：</b>神經發育評估工具為 Griffiths Scales of Child Development，這是標準的評估工具之一，但需注意其版本。</div><div class="hl hl-amber"><b>Note：</b>低血糖定義為 <47 mg/dL (2.6 mmol/L)，高血糖定義為 >180 mg/dL (10 mmol/L)，這些都是新生兒研究中常用的閾值。</div><div class="hl hl-amber"><b>Note：</b>長期追蹤至兩歲校正年齡，是評估核心神經發育結果的合適時間點。</div><div class="hl hl-red"><b>Weak：</b>樣本數過小 (N=53)。這使得研究很可能 underpowered，特別是對於變異性大的神經發育 outcome。因此，兩組神經發育無差異的結論應謹慎解讀，可能只是沒有足夠的統計檢定力去偵測出真實存在的差異 (Type II error)。</div><div class="hl hl-red"><b>Weak：</b>單中心研究。研究結果可能受到該中心特定照護習慣 (如 TPN 配方、餵食策略) 的影響，限制了其對外院的通用性。</div><div class="hl hl-red"><b>Weak：</b>Abstract 未報告追蹤失訪率 (loss to follow-up rate)。如果兩歲時的失訪率過高或兩組不平衡，神經發育的結果將存在嚴重偏誤 (bias)。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Beardsall K et al. 2008, Pediatrics (NIRTURE trial)</b> — 這是早期關鍵的 CGM RCT 之一，對象是 VLBW (<1500g) 早產兒。同樣發現 CGM 能減少低血糖的「時間」，但未追蹤長期神經發uc育。本研究算是 NIRTURE 的延伸，但納入的族群未知，且增加了 2 歲的 outcome。</div><div class="related"><b>van der Schoor et al. 2021, The Lancet Child & Adolescent Health (REACT trial)</b> — 這是一個規模較大 (N=101) 的多中心 RCT，對象是 <32 週的早產兒。其介入組結合了 CGM 與電腦化決策支持系統 (computerized decision support system)，顯示能顯著增加血糖在目標範圍內的時間 (time in range)。相較之下，本研究規模較小、單中心，且未提及是否有決策支持系統的輔助。</div><p><b>指引現況：</b>目前不論是美國兒科醫學會 (AAP) 或歐洲小兒胃腸肝膽營養學會 (ESPGHAN)，都未將 CGM 列為早產兒的常規建議。它被視為在處理頑固型血糖不穩定個案時的輔助工具。台灣新生兒科醫學會目前尚無針對此主題的正式指引。</p><p><b>填補的 evidence gap：</b>本研究再次確認了 CGM 在「改善短期血糖控制」方面的效益。它試圖填補「短期血糖穩定是否能改善長期神經發育」這個關鍵的 evidence gap，但受限於樣本數，其陰性結果並未提供決定性的答案，反而凸顯了需要更大規模試驗的必要性。</p><p><b>進行中的相關試驗：</b>有幾個更大規模的跨國多中心 RCT 正在進行或結果待發表，例如 Glucose in Preterm Infants (GLI) trial，這些試驗的結果將對 CGM 是否應成為常規照護提供更強的證據。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>根據我們的工作手冊，目前血糖監測完全依賴間歇性的腳跟血 Dextrostix 檢測。低血糖的處置閾值 (critical sample for Dex ≤50 mg/dL) 與高血糖的處置考量 (clinically important >180 to 200 mg/dL) 與本研究的定義大致相符。我們的處置方式是根據 Dextrostix 結果被動調整 SIR (如「Routine / Nutrition and Fluid Requirements」手冊所示) 或在血糖 >180-200 且處置無效後才考慮使用 insulin 0.03 IU/kg/hr。目前工作手冊中無任何關於 CGM 的 protocol。<br><b>建議調整：</b>本研究結果支持我們「考慮」在高風險族群 (如 ELBW、SGA、IDM 或血糖極度不穩定的個案) 中「試行」CGM。這不會是全面性的改變，而是一個新增的選項。
+1.  **新增 protocol**: 建立「高風險早產兒連續血糖監測指引」。
+2.  **適用對象**: 待全文發表後，參考其收案條件，初步可訂為 GA <28 週或 BW <1000g 的嬰兒。
+3.  **處置改變**: 應建立一個基於 CGM 數據（包含絕對值與趨勢箭頭）的「主動式」SIR 調整流程，目標是將血糖維持在目標區間 (e.g., 50-150 mg/dL)，而非僅處理超出範圍的警報。例如：當血糖 80 mg/dL 但趨勢向下時，即可預防性地微升 SIR。<br><b>導入準備：</b>採購適合新生兒使用的 CGM 設備 (如 Dexcom G6/G7, Medtronic Guardian) 及相關耗材。, 與護理部、感染控制小組共同制定 CGM 探頭的置放、固定、校正與照護標準作業流程 (SOP)。, 舉辦全科（醫師及護理師）的教育訓練，內容包括設備操作、數據判讀（特別是趨勢箭頭的意義）及新的血糖管理決策流程。, 在電子病歷系統中規劃 CGM 數據的記錄與呈現方式。<br><b>等待的證據：</b>在我們全面改變 protocol 之前，最缺乏的是「證實 CGM 能改善重要臨床預後」的強烈證據。這包括：
+1.  **更大型 RCT 證實能改善神經發育預後**：本研究的陰性結果讓我們無法理直氣壯地說 CGM 能保護大腦。
+2.  **對其他早產兒併發症的影響**：如 BPD、ROP、NEC、sepsis 的發生率。
+3.  **成本效益分析**：導入 CGM 的設備與人力成本，是否能被其潛在效益（如減少抽血次數、減少護理工作量、縮短住院天數）所抵銷。</div></div></div>
+  <div id="analysis-result-41984740"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41984740/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1159/000550797" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41984740" data-rating="must_read" onclick="vote('41984740','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41984740-must_read" style="display:none;">0</span></button> <button data-pmid="41984740" data-rating="useful" onclick="vote('41984740','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41984740-useful" style="display:none;">0</span></button> <button data-pmid="41984740" data-rating="so_so" onclick="vote('41984740','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41984740-so_so" style="display:none;">0</span></button> <button data-pmid="41984740" data-rating="skip" onclick="vote('41984740','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41984740-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41984740" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41984740" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41984740','Improving Metabolic Stability in Preterm Infants Using Continuous Glucose Monitoring: A Randomized Study.',this,false)">
+  <button id="upload-btn-41984740" onclick="document.getElementById('pdf-41984740').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41984740" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">Cochrane Database of Systematic Reviews - Neonatal</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Insulin-like growth factor-1 for the prevention or treatment of retinopathy of prematurity.</h2>
+  <div class="card-authors">Trzaski JM, Cracknell J, Herbst KW, et al. · 2026 Apr 15</div>
+  <div id="original-analysis-41983451"><div class="section"><b>30 秒重點：</b>這篇 Cochrane review 統合了兩篇小型 RCT，評估 IGF-1 對 23-27 週早產兒 ROP 的預防效果。結論是，基於『極低確定性』的證據，IGF-1 無法顯著降低 Type 1 ROP 或任何嚴重度 ROP 的發生率。更重要的是，一篇較大的試驗在事後分析中發現，IGF-1 組的嚴重不良事件 (SAEs) 風險可能增加 (NNTH 5.9)。基於目前證據，我們完全不應考慮在臨床常規中使用 IGF-1 預防 ROP。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 中最重要的發現其實是那個『事後敏感性分析』(post-hoc sensitivity analysis) 的安全性警訊。雖然整體 meta-analysis 的 SAEs 風險未達統計顯著 (RR 1.18, 95% CI 0.94 to 1.47)，但單獨看那篇較大的 121 人的 RCT，SAEs 風險顯著增加 (RR 1.28, 95% CI 1.01 to 1.62)，而且 NNTH 只有 5.9，這代表每治療約 6 個嬰兒，就有 1 個會發生額外的嚴重不良事件。</b> Abstract - SYNTHESIS OF RESULTS - SAEs during the birth hospitalization。這個 safety signal 比療效的不確定性更重要。在沒有明確好處的情況下，任何潛在傷害的證據都應該讓我們卻步。臨床上，我們必須知道這些 SAEs 是什麼？是 BPD、IVH、NEC 還是 sepsis？這決定了我們對這個藥物潛在系統性風險的理解。</p><p><b>Abstract 未提供任何 GA 或 BW 的 subgroup 分析。研究收案範圍是 GA 23+0 到 27+6 週，這在生理成熟度上有巨大差異。IGF-1 對 23 週和 27 週寶寶的影響（無論是療效或副作用）可能完全不同。</b> Abstract - INCLUDED STUDIES (資訊闕如)。這是新生兒科研究的關鍵。很多治療對『比較大』的早產兒有效，但對 ELBW/micropremie 卻可能有害。閱讀全文時，必須仔細尋找是否有任何跡象顯示，傷害集中在最不成熟的 GA 亞群。</p><p><b>Abstract 只提到『住院期間』的 outcome。對於 ROP 這種可能影響終身視力的疾病，以及 IGF-1 這種可能影響全身生長發育的荷爾蒙，沒有長期神經發育追蹤的數據是一大缺陷。</b> Abstract - OUTCOMES (資訊闕如)。即使 IGF-1 能改善 ROP (雖然本研究顯示不能)，如果它以增加 2 歲時 CP 或認知遲緩的風險為代價，那也是不可接受的。閱讀全文時，需確認是否有計劃進行長期追蹤，以及追蹤的失訪率 (attrition rate) 有多高。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>Cochrane review 本身代表了嚴謹、系統性的文獻搜尋與統合方法，且 protocol 預先註冊，減少了 reporting bias。</div><div class="hl hl-green"><b>Strong：</b>納入的研究是 RCTs，這是評估療效的最高證據等級設計。</div><div class="hl hl-amber"><b>Note：</b>BPD 定義不明：Abstract 未提及 BPD 的診斷標準 (例如 NICHD 2001 physiological definition 或更新的 Jensen 2019 criteria)，而 BPD 是這個 GA 族群最常見的嚴重併發症之一，很可能是 SAEs 的主要組成部分。</div><div class="hl hl-amber"><b>Note：</b>Neurodevelopmental 評估工具不明：完全沒有提到長期追蹤計畫，自然也沒有說明會使用哪種評估工具 (e.g., Bayley-III, Bayley-4)。</div><div class="hl hl-amber"><b>Note：</b>Follow-up rate：僅追蹤至出院 (PMA 40 週)，沒有長期追蹤，因此失訪率問題暫時不適用，但這也正是研究最大的限制。</div><div class="hl hl-red"><b>Weak：</b>樣本數過小 (Total n=140)：這是所有結論皆為『極低確定性』的主因。研究完全 underpowered，無法對療效或安全性做出任何可靠的結論。</div><div class="hl hl-red"><b>Weak：</b>高風險偏差 (High risk of bias)：兩篇納入的 RCTs 都在兩個領域被評為高風險偏差，這嚴重削弱了其結果的可信度。需要看全文才能知道是 allocation concealment、blinding 還是 selective reporting 的問題。</div><div class="hl hl-red"><b>Weak：</b>產業資助 (Industry funding)：兩篇原始研究都由業界資助，雖然 Cochrane review 本身沒有，但原始數據的來源可能存在潛在偏見。</div><div class="hl hl-red"><b>Weak：</b>Post-hoc 分析的警訊：最重要的安全性發現來自事後分析，其證據強度不如預先設定的 primary safety outcome。但即便如此，這仍然是不可忽視的危險信號。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>SUPPORT Study Group, NEJM 2010</b> — SUPPORT trial 處理的是 ROP 預防的另一個核心問題：氧氣飽和度目標。它比較了低氧飽和度目標 (85-89%) 與高氧飽和度目標 (91-95%)。與本研究的藥物介入 (IGF-1) 不同，SUPPORT 探討的是照護策略的調整。結論是低氧組 ROP 減少但死亡率增加，確立了目前我們 90-95% 的目標範圍。</div><div class="related"><b>Mintz-Hittner et al (BEAT-ROP), NEJM 2011</b> — BEAT-ROP 研究的是 ROP 的『治療』而非『預防』，比較了 intravitreal bevacizumab (Avastin) 與傳統雷射治療對 Zone I or posterior Zone II stage 3+ ROP 的效果。本篇 IGF-1 研究則著重在出生第一天就開始的『預防』策略，兩者在介入時機與對象上完全不同。</div><p><b>指引現況：</b>目前不論是美國兒科學會 (AAP)、歐洲新生兒科學會、或台灣新生兒科醫學會的 ROP 相關指引，均未建議使用 IGF-1 進行 ROP 的預防或治療。它仍被視為一種實驗性療法。</p><p><b>填補的 evidence gap：</b>本研究試圖填補『是否能透過補充產後下降的 IGF-1 來模擬子宮內環境，進而預防 ROP』這個理論上的證據缺口。然而，由於納入的研究品質不佳且樣本數太小，它並未成功填補此缺口，反而因為安全性的疑慮，可能讓這個研究方向暫時停滯。結論是：我們仍然不知道 IGF-1 是否有效，但初步證據顯示它可能有害。</p><p><b>進行中的相關試驗：</b>需要更大規模、設計更嚴謹的 Phase 3 RCT 才能回答這個問題。在看到這樣的安全性信號後，任何新的試驗都必須將 SAEs 和長期神經發育結果作為共同主要終點 (co-primary endpoint)，並設立極為嚴格的 Data and Safety Monitoring Board (DSMB)。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>目前工作手冊中無相關 protocol。我們科內對於 ROP 的處理，是遵循標準的篩檢時程與治療指引（雷射或 anti-VEGF），並未包含任何使用 IGF-1 或其他生長因子的預防性措施。我們的照護重點在於氧氣管理、營養支持與感染控制等間接預防策略。<br><b>建議調整：</b>不需任何改變。根據此篇 Cochrane review 的結論，應『明確不使用』IGF-1 於 ROP 的預防。此結論應在科內會議或 Journal Club 中向所有同仁（包括主治醫師、研究醫師、住院醫師及專科護理師）布達，以避免任何可能的 off-label use 或回應家長詢問時提供錯誤資訊。<br><b>導入準備：</b>在科內教學活動 (如 Journal Club) 中報告此篇文獻，確保所有臨床人員都了解其療效不彰與潛在風險。, 不需要藥物備貨或修改 protocol。<br><b>等待的證據：</b>要考慮在臨床試驗外使用 IGF-1，我們至少需要一篇大型 (n > 1000)、低偏差風險、獨立資助的 RCT 證明其：1. 能顯著降低『需治療 ROP 或死亡』的複合終點。2. 不會增加 SAEs (特別是 BPD, IVH, NEC)。3. 在 2 歲校正年齡時，不會對神經發育結果 (如 Bayley-4 評分) 造成負面影響。</div></div></div>
+  <div id="analysis-result-41983451"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41983451/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1002/14651858.CD013216.pub2" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41983451" data-rating="must_read" onclick="vote('41983451','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41983451-must_read" style="display:none;">0</span></button> <button data-pmid="41983451" data-rating="useful" onclick="vote('41983451','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41983451-useful" style="display:none;">0</span></button> <button data-pmid="41983451" data-rating="so_so" onclick="vote('41983451','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41983451-so_so" style="display:none;">0</span></button> <button data-pmid="41983451" data-rating="skip" onclick="vote('41983451','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41983451-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41983451" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41983451" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41983451','Insulin-like growth factor-1 for the prevention or treatment of retinopathy of prematurity.',this,false)">
+  <button id="upload-btn-41983451" onclick="document.getElementById('pdf-41983451').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41983451" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 2-3: QUICK SUMMARY</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Archives of Disease in Childhood - Fetal and Neonatal Edition</span></div>
+  <h2 class="card-title">Diagnostic yield and imaging: aetiology correlations in prenatal intracranial haemorrhage-a retrospective cohort study.</h2>
+  <div class="card-authors">Shinar S, Carmant LS, Tripathy P, et al. · 2026 Apr 14</div>
+  <div id="original-analysis-41980807"><div class="section"><p><b>研究目的：</b>本研究旨在探討胎兒顱內出血 (ICH) 的病因學及產前神經影像學表現，並評估影像學診斷潛在病因的能力。</p><p><b>研究設計：</b>本研究為一項回溯性世代研究，回顧了2015年至2025年間在單一胎兒醫學中心診斷為產前 ICH 的67例胎兒。研究排除已知病因的病例，並整合臨床、實驗室、基因、屍檢及胎盤檢查結果以確定病因。</p><p><b>主要發現：</b>67例胎兒中，38.8% (26/67) 確定了病因。在接受進階基因檢測的病例中，27.7% (13/47) 發現基因病因，最常見為腦部小血管疾病 (CSVD)。其他病因包括感染 (5/67, 7.5%)、胎兒貧血 (6/67, 9%) 及凝血功能障礙 (3/67, 4.5%)。91% (61/67) 的病例有 IVH，55.2% (37/67) 有 PVHI。CSVD 與多灶性 PVHI、腦穿通畸形、白質損傷及頻繁的腦幹受累相關。胎兒貧血常伴有小腦出血。儘管觀察到一些表型聚集，但各病因組之間存在顯著重疊。</p><p><b>臨床意義：</b>基因異常，特別是 CSVD，是產前 ICH 的重要原因，支持常規基因組檢測。影像學檢查可提示可能病因，但因重疊現象而限制其診斷特異性。對於出生後診斷為 ICH 的新生兒，若產前已有 ICH 證據，應考慮進行基因檢測，以利於病因診斷及家屬諮詢。</p></div></div>
+  <div id="analysis-result-41980807"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41980807/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1136/archdischild-2025-330148" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41980807" data-rating="must_read" onclick="vote('41980807','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41980807-must_read" style="display:none;">0</span></button> <button data-pmid="41980807" data-rating="useful" onclick="vote('41980807','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41980807-useful" style="display:none;">0</span></button> <button data-pmid="41980807" data-rating="so_so" onclick="vote('41980807','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41980807-so_so" style="display:none;">0</span></button> <button data-pmid="41980807" data-rating="skip" onclick="vote('41980807','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41980807-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41980807" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41980807" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41980807','Diagnostic yield and imaging: aetiology correlations in prenatal intracranial haemorrhage-a retrospective cohort study.',this,false)">
+  <button id="upload-btn-41980807" onclick="document.getElementById('pdf-41980807').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41980807" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Pediatric Research</span></div>
+  <h2 class="card-title">The ZMIZ1-GTF2I interaction as a potential contributor to the neurodevelopmental phenotype in neurodevelopmental disorder with dysmorphic facies and distal skeletal anomalies (NEDDFSA).</h2>
+  <div class="card-authors">De Rosa A, Kalantari S · 2026 Apr 14</div>
+  <div id="original-analysis-41981097"><div class="section"><p><b>研究目的：</b>本研究旨在探討 ZMIZ1-GTF2I 基因交互作用如何影響神經發育障礙伴隨畸形面容及遠端骨骼異常 (NEDDFSA) 的神經發育表型。</p><p><b>研究設計：</b>由於缺乏摘要，具體研究設計（如樣本數、GA 範圍、出生體重）無法得知。根據標題推測，這是一項針對 NEDDFSA 患者進行的基因型與表型關聯性研究，可能涉及回溯性資料分析或特定患者群體的基因組學研究。</p><p><b>主要發現：</b>由於缺乏摘要，無法提供具體研究發現及數據。</p><p><b>臨床意義：</b>本研究有助於深入理解 NEDDFSA 的分子病理機制，為此類罕見神經發育障礙的診斷與未來治療策略提供潛在靶點。對於新生兒科醫師而言，這提供了關於特定遺傳性神經發育疾病的背景知識，但對一般 NICU 日常照護決策影響有限。</p></div></div>
+  <div id="analysis-result-41981097"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41981097/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41390-026-04926-4" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41981097" data-rating="must_read" onclick="vote('41981097','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41981097-must_read" style="display:none;">0</span></button> <button data-pmid="41981097" data-rating="useful" onclick="vote('41981097','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41981097-useful" style="display:none;">0</span></button> <button data-pmid="41981097" data-rating="so_so" onclick="vote('41981097','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41981097-so_so" style="display:none;">0</span></button> <button data-pmid="41981097" data-rating="skip" onclick="vote('41981097','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41981097-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41981097" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41981097" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41981097','The ZMIZ1-GTF2I interaction as a potential contributor to the neurodevelopmental phenotype in neurodevelopmental disorder with dysmorphic facies and distal skeletal anomalies (NEDDFSA).',this,false)">
+  <button id="upload-btn-41981097" onclick="document.getElementById('pdf-41981097').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41981097" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Pediatrics</span></div>
+  <h2 class="card-title">Pedestrian and Bicyclist Crashes With Motor Vehicles by the Childhood Opportunity Index.</h2>
+  <div class="card-authors">Hellinger RL, Belday K, Witte M, et al. · 2026 Apr 15</div>
+  <div id="original-analysis-41980718"><div class="section"><p><b>研究目的：</b>探討鄰里社會經濟背景（以 Childhood Opportunity Index 衡量）與兒童（0-17歲）行人及自行車交通事故發生率、嚴重程度及危險特徵之間的關聯。</p><p><b>研究設計：</b>這是一項回溯性研究，分析佛羅里達州（2015-2023）18,272起及全國（2012-2023）3,612起兒童行人及自行車交通事故數據。研究對象為0至17歲兒童，主要暴露因子為事故發生郵遞區號的 Childhood Opportunity Index 五分位數。</p><p><b>主要發現：</b>超過60%的事故發生在低或極低機會的鄰里。隨著機會指數下降，事故發生率逐步升高（佛羅里達州：極低 vs 極高 IRR 1.35 [95% CI 1.21-1.51]；全國死亡事故：極低 vs 極高 IRR 2.82 [95% CI 2.65-3.00]）。極低機會鄰里發生失能性傷害的機率較高（aOR 1.71, 95% CI 1.34-2.16），且不當行為的機率也較高（aOR 1.48, 95% CI 1.31-1.67）。</p><p><b>臨床意義：</b>本研究證實較低的鄰里機會與較高的兒童行人及自行車事故發生率、更嚴重的傷害及更危險的事故情境相關。這支持在弱勢社區推動有針對性的預防措施，但與新生兒科的臨床照護決策無直接關聯。</p></div></div>
+  <div id="analysis-result-41980718"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/41980718/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1542/peds.2025-075221" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="41980718" data-rating="must_read" onclick="vote('41980718','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-41980718-must_read" style="display:none;">0</span></button> <button data-pmid="41980718" data-rating="useful" onclick="vote('41980718','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-41980718-useful" style="display:none;">0</span></button> <button data-pmid="41980718" data-rating="so_so" onclick="vote('41980718','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-41980718-so_so" style="display:none;">0</span></button> <button data-pmid="41980718" data-rating="skip" onclick="vote('41980718','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-41980718-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-41980718" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-41980718" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('41980718','Pedestrian and Bicyclist Crashes With Motor Vehicles by the Childhood Opportunity Index.',this,false)">
+  <button id="upload-btn-41980718" onclick="document.getElementById('pdf-41980718').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-41980718" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<footer>
+  Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  AI scoring by Claude (Haiku + Sonnet)
+</footer>
+</div>
+</div>
+
+<script>
+(function() {
+  var TOKEN_HASH = "093e4045d3f0d1f16f02c690500b80fd51922f8dcad526589408d18073feb46d";
+  var PW_HASH = "b6cf8ade465cb0435fd6e1a86d7f8a5b3f67639655691545ced5912ce1cfc08f";
+  var content = document.getElementById('digest-content');
+  var gate = document.getElementById('auth-gate');
+
+  function sha256(str) {
+    var encoder = new TextEncoder();
+    return crypto.subtle.digest('SHA-256', encoder.encode(str)).then(function(buf) {
+      return Array.from(new Uint8Array(buf)).map(function(b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    });
+  }
+
+  function unlock() {
+    gate.style.display = 'none';
+    content.style.display = 'block';
+  }
+
+  function checkAccess() {
+    // 1. Check URL token
+    var params = new URLSearchParams(window.location.search);
+    var t = params.get('t');
+    if (t && TOKEN_HASH) {
+      sha256(t).then(function(h) {
+        if (h === TOKEN_HASH) {
+          localStorage.setItem('digest_token', t);
+          unlock();
+        } else {
+          checkPassword();
+        }
+      });
+      return;
+    }
+
+    // 2. Check stored password
+    checkPassword();
+  }
+
+  function checkPassword() {
+    if (!PW_HASH) { unlock(); return; }
+    var saved = localStorage.getItem('digest_pw');
+    if (saved) {
+      sha256(saved).then(function(h) {
+        if (h === PW_HASH) { unlock(); }
+        else { gate.style.display = 'flex'; }
+      });
+    } else {
+      gate.style.display = 'flex';
+    }
+  }
+
+  window.submitPassword = function() {
+    var input = document.getElementById('pw-input').value;
+    sha256(input).then(function(h) {
+      if (h === PW_HASH) {
+        localStorage.setItem('digest_pw', input);
+        unlock();
+      } else {
+        document.getElementById('pw-error').style.display = 'block';
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', checkAccess);
+})();
+</script>
+<script>
+(function() {
+  var FEEDBACK_URL = "https://script.google.com/macros/s/AKfycbwqSMhyfrFydA2i22AuD_RQLv6bxFPG8m-Jp0G__u1vigkmj-SOx6uwrUiwfux7RNTy/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "newborn";
+  var voted = JSON.parse(localStorage.getItem('digest_voted') || '{}'  );
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore previous votes
+    Object.keys(voted).forEach(function(pmid) {
+      var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+      btns.forEach(function(btn) {
+        btn.style.opacity = '0.4';
+        btn.style.pointerEvents = 'none';
+      });
+      var label = document.getElementById('voted-' + pmid);
+      if (label) {
+        var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+        label.textContent = "Voted: " + (labels[voted[pmid]] || voted[pmid]) + " ✓";
+        label.style.display = 'block';
+      }
+    });
+  });
+
+  window.vote = function(pmid, rating, el) {
+    if (voted[pmid]) return;
+
+    // Get uid from token or anonymous
+    var uid = 'web_anon';
+    var t = new URLSearchParams(window.location.search).get('t');
+    if (t) uid = 'web_' + t.substring(0, 8);
+
+    // JSONP call
+    var script = document.createElement('script');
+    var cb = 'fb_' + Date.now();
+    window[cb] = function(resp) {
+      if (resp && resp.status === 'ok') {
+        voted[pmid] = rating;
+        localStorage.setItem('digest_voted', JSON.stringify(voted));
+
+        var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+        btns.forEach(function(btn) {
+          btn.style.opacity = '0.4';
+          btn.style.pointerEvents = 'none';
+        });
+        el.style.opacity = '1';
+        el.style.background = '#1B6B93';
+        el.style.color = '#fff';
+
+        // Update vote count
+        var cntEl = document.getElementById('cnt-' + pmid + '-' + rating);
+        if (cntEl) {
+          var n = parseInt(cntEl.textContent || '0') + 1;
+          cntEl.textContent = n;
+          cntEl.style.display = '';
+          cntEl.style.color = '#fff';
+        }
+
+        var label = document.getElementById('voted-' + pmid);
+        if (label) {
+          var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+          label.textContent = "Voted: " + (labels[rating] || rating) + " ✓";
+          label.style.display = 'block';
+        }
+      }
+      delete window[cb];
+      script.remove();
+    };
+    script.src = FEEDBACK_URL + '?action=feedback&pmid=' + pmid + '&rating=' + rating +
+      '&uid=' + uid + '&source=web&secret=' + SECRET + '&dept=' + DEPT + '&callback=' + cb;
+    document.body.appendChild(script);
+  };
+})();
+</script>
+<script>
+(function() {
+  var WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwqSMhyfrFydA2i22AuD_RQLv6bxFPG8m-Jp0G__u1vigkmj-SOx6uwrUiwfux7RNTy/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "newborn";
+  var uploaded = JSON.parse(localStorage.getItem('digest_uploaded') || '{}');
+
+  // Load analysis results on page load
+  function loadAnalysis(pmid) {
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        renderAnalysis(pmid, resp.analysis);
+      }
+    });
+  }
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore uploaded state from localStorage
+    Object.keys(uploaded).forEach(function(pmid) {
+      var btn = document.getElementById('upload-btn-' + pmid);
+      if (btn) {
+        btn.textContent = '✓ 已上傳，已分析';
+        btn.disabled = true;
+        btn.style.opacity = '0.5';
+        btn.style.cursor = 'default';
+      }
+      loadAnalysis(pmid);
+    });
+    // Auto-load analysis for articles that already have fulltext analysis
+    document.querySelectorAll('[data-has-analysis]').forEach(function(el) {
+      var pmid = el.getAttribute('data-has-analysis');
+      if (!uploaded[pmid]) {
+        loadAnalysis(pmid);
+      }
+    });
+  });
+
+  // JSONP helper for polling
+  function jsonpGet(url, callback) {
+    var script = document.createElement('script');
+    var cb = 'pdfcb_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5);
+    window[cb] = function(resp) {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback(resp);
+    };
+    script.src = url + '&callback=' + cb;
+    script.onerror = function() {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback({ status: 'error', message: 'Network error' });
+    };
+    document.head.appendChild(script);
+  }
+
+  // Poll for analysis result via JSONP GET
+  var POLL_TOTAL = 30;
+  var POLL_STEPS = [
+    '📤 PDF 已上傳，伺服器接收中...',
+    '📄 正在提取 PDF 全文...',
+    '📄 正在提取 PDF 全文...',
+    '🔍 全文提取中，準備進行 AI 分析...',
+    '🔍 全文提取完成，啟動 AI 分析...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 正在整合分析結果...',
+    '🤖 AI 正在整合分析結果...',
+    '💾 正在儲存分析結果...',
+    '💾 正在儲存分析結果...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，請耐心等候...',
+    '⏳ 仍在處理中，請耐心等候...',
+    '⏳ 大型 PDF 需要較長處理時間...',
+    '⏳ 大型 PDF 需要較長處理時間...',
+    '⏳ 即將完成，感謝您的耐心...',
+    '⏳ 即將完成，感謝您的耐心...',
+    '⏳ 即將完成...',
+    '⏳ 即將完成...',
+    '⏳ 最後處理中...',
+    '⏳ 最後處理中...',
+    '⏳ 最後處理中...'
+  ];
+
+  function pollForResult(pmid, btn, statusEl, attempts) {
+    if (attempts <= 0) {
+      btn.textContent = '❌ 分析逾時';
+      btn.disabled = false;
+      statusEl.textContent = '伺服器處理時間過長，請稍後再試';
+      statusEl.style.color = '#E24B4A';
+      var orig = document.getElementById('original-analysis-' + pmid);
+      if (orig) orig.style.display = '';
+      return;
+    }
+
+    // Update progress message
+    var stepIdx = POLL_TOTAL - attempts;
+    var elapsed = (stepIdx + 1) * 10 + 15;
+    var msg = POLL_STEPS[Math.min(stepIdx, POLL_STEPS.length - 1)];
+    statusEl.textContent = msg + '（' + elapsed + '秒）';
+
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        btn.textContent = '✓ 已有全文分析';
+        btn.style.color = '#085041';
+        btn.style.borderColor = '#085041';
+        statusEl.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
+        statusEl.style.color = '#085041';
+        uploaded[pmid] = true;
+        localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
+        var orig = document.getElementById('original-analysis-' + pmid);
+        if (orig) orig.style.display = 'none';
+        renderAnalysis(pmid, resp.analysis);
+      } else if (resp.status === 'pending') {
+        setTimeout(function() { pollForResult(pmid, btn, statusEl, attempts - 1); }, 10000);
+      } else {
+        btn.textContent = '❌ 分析失敗';
+        btn.disabled = false;
+        statusEl.textContent = resp.message || '請稍後再試';
+        statusEl.style.color = '#E24B4A';
+        var orig = document.getElementById('original-analysis-' + pmid);
+        if (orig) orig.style.display = '';
+      }
+    });
+  }
+
+  window.handlePdfSelect = function(pmid, title, input, force) {
+    var file = input.files[0];
+    if (!file) return;
+    if (file.size > 10 * 1024 * 1024) {
+      alert('PDF 檔案不能超過 10MB');
+      return;
+    }
+
+    if (force && !confirm('確定要重新上傳並分析此 PDF？將會覆蓋現有的分析結果。')) {
+      input.value = '';
+      return;
+    }
+
+    var btn = document.getElementById('upload-btn-' + pmid);
+    var statusEl = document.getElementById('upload-status-' + pmid);
+    btn.textContent = '⏳ 上傳中...';
+    btn.disabled = true;
+    statusEl.textContent = '📤 正在上傳 PDF 至伺服器...';
+    statusEl.style.display = 'inline';
+    statusEl.style.color = '#1B6B93';
+
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var base64 = e.target.result.split(',')[1];
+
+      // Step 1: Submit via fetch + URLSearchParams (no-cors, response ignored — polling handles result)
+      fetch(WEBHOOK_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: new URLSearchParams({
+          action: 'upload_pdf',
+          pmid: pmid,
+          title: title,
+          pdf_base64: base64,
+          secret: SECRET,
+          dept: DEPT,
+          force: force ? 'true' : 'false'
+        })
+      }).catch(function() {});
+
+      // Step 2: Poll for result via JSONP (every 10s, up to POLL_TOTAL attempts)
+      setTimeout(function() { pollForResult(pmid, btn, statusEl, POLL_TOTAL); }, 15000);
+    };
+    reader.readAsDataURL(file);
+  };
+
+  window.renderAnalysis = function(pmid, data) {
+    var container = document.getElementById('analysis-result-' + pmid);
+    if (!container) return;
+
+    var a = data.deep_analysis || data;
+    var html = '';
+
+    if (a.thirty_second_summary) {
+      html += '<div class="section"><b>30 秒重點：</b>' + a.thirty_second_summary + '</div>';
+    }
+
+    var hidden = a.hidden_findings || [];
+    if (hidden.length > 0) {
+      html += '<div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div>';
+      for (var i = 0; i < hidden.length; i++) {
+        html += '<p><b>' + (hidden[i].finding || '') + '</b> ' + (hidden[i].source || '') + '。' + (hidden[i].implication || '') + '</p>';
+      }
+      html += '</div>';
+    }
+
+    var meth = a.methodology_audit || {};
+    var methHtml = '';
+    (meth.strengths || []).forEach(function(s) { methHtml += '<div class="hl hl-green"><b>Strong：</b>' + s + '</div>'; });
+    (meth.notes || []).forEach(function(n) { methHtml += '<div class="hl hl-amber"><b>Note：</b>' + n + '</div>'; });
+    (meth.weaknesses || []).forEach(function(w) { methHtml += '<div class="hl hl-red"><b>Weak：</b>' + w + '</div>'; });
+    if (methHtml) {
+      html += '<div class="section"><div class="section-label" style="color:#633806">方法學評估</div>' + methHtml + '</div>';
+    }
+
+    var impact = a.protocol_impact || {};
+    if (impact.proposed_change) {
+      var impactHtml = '<div class="hl hl-blue">';
+      if (impact.current_practice) impactHtml += '<b>目前做法：</b>' + impact.current_practice + '<br>';
+      if (impact.proposed_change) impactHtml += '<b>建議調整：</b>' + impact.proposed_change + '<br>';
+      if (impact.missing_evidence) impactHtml += '<b>等待的證據：</b>' + impact.missing_evidence;
+      impactHtml += '</div>';
+      html += '<div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div>' + impactHtml + '</div>';
+    }
+
+    container.innerHTML = html;
+  };
+})();
+</script>
+</body>
+</html>
