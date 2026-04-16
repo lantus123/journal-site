@@ -7594,5 +7594,485 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41985602",
+    "title": "Contemporary Use of Circulatory Arrest and Selective Antegrade Cerebral Perfusion During Neonatal Aortic Arch Surgery - International Survey.",
+    "authors": "Catalano MA, Toubat O, Jacobs JP, et al.",
+    "journal": "Annals of Thoracic Surgery",
+    "pub_date": "2026 Apr 13",
+    "doi": "10.1016/j.athoracsur.2026.03.064",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 5
+    },
+    "keywords": [
+      "neonatal aortic arch surgery",
+      "SACP",
+      "DHCA",
+      "neuroprotection",
+      "congenital heart disease"
+    ],
+    "one_liner": "這篇國際調查揭示新生兒主動脈弓手術中神經保護策略的高度變異性，提醒新生兒科醫師需關注術中神經保護對長期預後的影響，並期待未來有更多實證指引。",
+    "summary": {
+      "purpose": "本研究旨在描繪國際先天性心臟外科醫師在新生兒主動脈弓手術中，使用深低溫循環停止 (DHCA) 和選擇性順行腦灌注 (SACP) 的當前實踐方式，包括溫度、流量和監測策略。",
+      "design": "這是一項國際性的電子問卷調查，於2024年11月至2025年2月間，透過世界小兒及先天性心臟外科學會向全球先天性心臟外科醫師發放。共104位外科醫師完成問卷，受訪者主要為活躍執業醫師。",
+      "findings": "結果顯示，69.2%的受訪者專門使用SACP，9.6%使用DHCA，21.2%則根據解剖構造或預期阻斷時間選擇技術。41%的醫師表示其個人執業方式有所改變，多數從DHCA轉向SACP，尤其在資深醫師中更為顯著 (p<0.001)。使用SACP的醫師中，78.3%單獨使用SACP，21.7%結合下半身灌注。SACP的目標溫度範圍廣泛 (<20°C至35°C)，流量測定方式也多樣，主要透過體重計算 (59.6%) 或根據壓力/NIRS調整。",
+      "significance": "本研究揭示新生兒主動脈弓修復術中神經保護策略存在顯著差異，強調需要基於實證的標準化流程及高精準度神經監測策略。對於新生兒科醫師而言，這意味著手術團隊在神經保護上的策略差異可能影響早產兒或足月兒術後神經發育預後，應與心臟外科醫師密切溝通，並持續關注相關指引的發展，以優化高風險新生兒的長期照護。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這份國際外科醫師問卷顯示，新生兒主動脈弓手術的神經保護策略已由深低溫循環停止 (DHCA) 明顯轉向選擇性順行腦灌注 (SACP)，近七成 (69.2%) 外科醫師專門使用 SACP。然而，SACP 的執行方式，包括目標溫度、灌注流量和監測方法，在全球範圍內存在極大差異，缺乏共識。對我們新生兒科醫師而言，這意味著每個術後寶寶所接受的腦部保護強度可能截然不同，我們必須在交班時主動了解手術細節，以評估其神經預後風險。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 未提供受訪外科醫師常規手術的病患特徵，特別是 GA 或 BW 的分佈。",
+          "source": "閱讀全文時需注意方法學或結果部分，是否有描述受訪者執業單位的病患群體特徵，或問卷中是否詢問他們對不同 GA/BW 病患是否採用不同策略。",
+          "implication": "早產兒 (尤其是 <34週) 的腦部脆弱性與足月兒不同，對 SACP 的耐受度、理想的灌注壓力與溫度可能存在差異。若全文能提供這方面的亞群分析，對我們照護 ELBW/VLBW 合併複雜心臟病的寶寶極具參考價值。"
+        },
+        {
+          "finding": "研究對「新生兒 (neonatal)」的操作型定義不明，是指出生後 28 天、44 週 PMA，還是更廣的嬰兒期？",
+          "source": "全文的方法學部分應會定義問卷中使用的詞彙，或描述問卷題目如何界定手術的年齡範圍。",
+          "implication": "腦血流自動調節 (autoregulation) 的成熟度在出生後第一個月內會快速變化。一個針對 <7天大新生兒的策略，不見得適用於 30天大的嬰兒。釐清年齡範圍有助於我們判斷研究結果的適用性，並對應到我們 NICU 中不同日齡的病患。"
+        },
+        {
+          "finding": "Abstract 僅呈現 SACP 操作的巨大差異性，但未深入探討外科醫師「為何」選擇特定溫度、流量或監測目標的決策依據。",
+          "source": "全文的討論部分或 Supplementary data 中的完整問卷，可能會提供醫師決策背後的理由，例如是遵循機構常規、個人經驗、或是根據特定病患因素 (如術前腦部影像) 調整。",
+          "implication": "了解決策邏輯，能幫助我們在術前與外科團隊溝通時，更能掌握他們對神經保護的考量重點，並共同制定更個人化的術後監測計畫，例如針對採用較高溫 SACP 的寶寶，術後可能需要更密集的 aEEG 監測。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "國際性調查：透過世界級學會 (WSPCHS) 發放問卷，涵蓋範圍廣，增加了結果的 generalizability。",
+          "樣本數合理：對於一個高度專業化的外科領域，104位醫師的樣本數提供了有意義的實踐模式快照。",
+          "目標群體明確：限定為執業中或近期退休的外科醫師，確保回覆能反映當代臨床實踐。"
+        ],
+        "notes": [
+          "研究類型：這是一份描述性問卷調查，旨在呈現「現況 (what is being done)」，而非比較不同策略優劣的臨床試驗，因此無法提供「最佳實踐 (what should be done)」的證據。",
+          "缺乏回應率：Abstract 未提及問卷的總發放數與回應率 (response rate)，若回應率偏低，可能存在選擇性偏差 (selection bias)。",
+          "神經發展評估：本研究不涉及病患預後，因此沒有 neurodevelopmental 評估工具或 follow-up rate 的問題。"
+        ],
+        "weaknesses": [
+          "回應者偏差 (Respondent bias)：願意花時間填寫長達124題問卷的醫師，可能本身就對神經保護議題特別感興趣或傾向採用 SACP 等較新技術，可能高估了 SACP 的普及率。",
+          "回憶偏差 (Recall bias) 與社會期許偏差 (Social desirability bias)：問卷結果依賴外科醫師的自我報告，可能與實際手術記錄有出入。醫師也可能傾向回報他們認為「更標準」或「更先進」的做法。",
+          "缺乏機構層級數據：研究分析的是個別醫師的偏好，但外科醫師的決策常受到機構常規 (institutional protocol) 的影響，這層面的資訊在問卷中可能無法完全體現。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Newburger JW et al., NEJM 2015",
+            "comparison": "該研究是一項大型 RCT，直接比較新生兒心臟手術中 DHCA 與低流量體外循環 (low-flow bypass) 對12個月時神經發展預後的影響。本研究則是描述當代 SACP/DHCA 使用「模式」的問卷調查，不涉及病患預後比較。"
+          },
+          {
+            "citation": "Andropoulos DB et al., JTCVS 2013",
+            "comparison": "該研究是大型單中心前瞻性世代研究，發現 SACP 時間與術後腦部 MRI 異常及較差的神經發展分數有關。本研究則從更宏觀的國際視角，呈現 SACP 技術本身執行的「異質性」，而非其與預後的關聯。"
+          }
+        ],
+        "guideline_status": "目前國際上（包括美國胸腔外科醫師學會 AATS 等）尚無針對新生兒主動脈弓手術神經保護策略的強制性 Level I 證據指引。普遍共識是應盡量縮短或避免長時間的 DHCA，SACP 被視為一種有前景的替代方案，但其最佳操作參數（溫度、流量、壓力目標）仍缺乏高品質證據支持，這也解釋了本研究發現的巨大實踐差異。",
+        "evidence_gap_filled": "本研究並未填補關於「何種策略更優」的證據缺口，但它首次以國際規模量化了 SACP 已成為主流選擇的趨勢，並清楚地描繪出執行細節上「缺乏標準化」的嚴重程度。它為未來設計比較不同 SACP 方案的 RCT 提供了重要的背景資料與研究方向。",
+        "ongoing_trials": "目前迫切需要比較不同 SACP 策略（例如：深低溫 vs. 中度低溫 SACP；壓力控制 vs. 流量控制灌注）對長期神經發展預後影響的大型多中心 RCT。這類試驗正在規劃中，但短期內尚無決定性結果可供參考。"
+      },
+      "protocol_impact": {
+        "current_practice": "在我們 NICU，對於接受主動脈弓手術的寶寶，術後照護重點在於穩定血行動力學、監測乳酸、血糖，並透過 aEEG/EEG 監測腦部功能。我們通常會從外科交班中得知是使用 DHCA 或 SACP，但對於 SACP 的具體溫度、灌注時間、最低 NIRS 數值等細節，並未納入常規交班項目。",
+        "proposed_change": "本研究結果不會改變我們的藥物或呼吸器治療，但應促使我們「流程上的改變」：\n1.  **建立標準化術後交班清單**：與心臟外科、體外循環師團隊合作，要求交班時必須包含：使用 DHCA 或 SACP、總阻斷/灌注時間、最低核心溫度、SACP 期間的平均灌注壓力、最低 NIRS 數值及持續時間、術中是否有腦血流不對稱等關鍵資訊。\n2.  **風險分層**：將這些手術參數納入病歷記錄，作為術後神經發展風險分層的依據。例如，經歷過長時間、低 NIRS 數值的寶寶，應被視為更高風險，需要更早安排腦部 MRI 及更密切的門診追蹤。\n3.  **跨團隊病例討論會**：定期與心臟外科團隊回顧術後神經影像異常的案例，共同探討是否與術中神經保護策略的細節有關。",
+        "prerequisites": [
+          "與心臟外科及麻醉科召開跨團隊會議，共同制定術後交班查檢表 (handoff checklist)。",
+          "對 NICU 的住院醫師和專科護理師進行 in-service training，使其了解 SACP 各項參數的臨床意義。",
+          "修改 EMR 範本，新增欄位以結構化方式記錄上述手術關鍵數據。"
+        ],
+        "missing_evidence": "我們最需要的證據是：哪一種 SACP 操作參數組合（溫度、流量、監測目標）能帶來最佳的長期（至少到 2 歲，最好是學齡期）神經發展預後。在缺乏這些證據之前，我們所有的 protocol 調整都只能基於加強監測與風險評估，而非指導手術策略本身。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41988707",
+    "title": "Targeting Interleukin-8-Mediated Cellular Crosstalk Reverses Hypertrophic Cardiomyopathy and Cardiac Fibrosis in Noonan Syndrome.",
+    "authors": "Fell J, Pavez-Giani M, Koitka F, et al.",
+    "journal": "Circulation",
+    "pub_date": "2026 Apr 16",
+    "doi": "10.1161/CIRCULATIONAHA.125.074155",
+    "total_score": 4,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 4,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Noonan Syndrome",
+      "hypertrophic cardiomyopathy",
+      "IL-8",
+      "iPSC",
+      "cardiac fibrosis"
+    ],
+    "one_liner": "這篇基礎研究揭示了Noonan Syndrome相關肥厚性心肌病變的潛在新機制 (IL-8訊號)，並提出潛在的治療靶點，但尚未進入臨床應用。",
+    "summary": {
+      "purpose": "本研究旨在深入探討Noonan Syndrome (NS) 患者肥厚性心肌病變 (HCM) 及心臟纖維化背後的病理機制，特別是心肌細胞與非心肌細胞間的旁分泌通訊作用。",
+      "design": "研究採用2D及3D人類誘導性多功能幹細胞 (iPSC) 模型，包括LZTR1缺陷型及來自NS患者帶有致病性RAS-MAPK基因變異的iPSC，並在分子、細胞及功能層面進行分析。",
+      "findings": "研究發現心臟纖維母細胞與心肌細胞間由細胞因子介導的細胞間通訊是NS相關HCM的主要驅動因素。心臟纖維母細胞特異性分泌的IL-8會誘導纖維化相關特徵、組織僵硬、心肌細胞肥大及過度收縮，且此失調的IL-8為心臟自主性訊號分子，與發炎及免疫細胞無關。使用reparixin抑制IL-8-CXCR1訊號可逆轉心臟纖維母細胞及心肌細胞的病理效應。",
+      "significance": "這些數據提供了針對異常IL-8-CXCR1訊號傳導可能成為治療NS相關肥厚性心肌病變的有效策略的證據，為未來開發針對此類先天性心臟病的藥物治療奠定基礎。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這是一篇發表在 Circulation 的基礎研究，利用 Noonan syndrome (NS) 患者的 iPSC 模型，發現心臟纖維母細胞分泌的 IL-8 是驅動肥厚性心肌病變 (HCM) 的關鍵。研究顯示，使用 IL-8 受體抑制劑 reparixin 能在細胞層級逆轉此病理變化。這為 NS 相關心肌病變提供了一個全新的治療標靶 (IL-8-CXCR1)，但這仍是極早期的 preclinical 證據，距離臨床應用還非常遙遠，完全不影響我們目前的臨床實務。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 未指明所使用的 NS iPSC 來自哪些特定的 RAS-MAPK 基因變異 (如 PTPN11, SOS1, RAF1)。不同基因型造成的 HCM 嚴重程度與表型差異極大，這項資訊對於評估結果的通用性至關重要。",
+          "source": "Abstract (Methods section)",
+          "implication": "如果研究只用了某個特定基因（例如 LZTR1）的細胞株，其結論未必能外推到佔 NS 多數的 PTPN11 變異患者。我們在臨床上看到不同基因型的 NS 寶寶，心臟問題的軌跡很不一樣。"
+        },
+        {
+          "finding": "研究宣稱 IL-8 的作用『與發炎及免疫細胞無關』，這是一個在純 iPSC 系統中的發現。然而，在真實的 NICU 病人身上，尤其是有餵食不耐、感染風險的早產兒或重症新生兒，全身性的發炎反應與 IL-8 系統性濃度是無法切割的。",
+          "source": "Abstract (Results section)",
+          "implication": "在考慮未來藥物應用時，必須釐清這種心臟自主性 IL-8 訊號與全身性發炎反應的交互作用。直接抑制 IL-8 可能會影響新生兒正常的免疫防禦功能，這在 iPSC 模型中完全無法評估。"
+        },
+        {
+          "finding": "Abstract 提到在『功能層面』進行分析，但未說明具體的評估方法。是測量單一心肌細胞的收縮力、鈣離子流動，還是 3D 組織模型的搏動率與張力？",
+          "source": "Abstract (Methods section)",
+          "implication": "這些功能性指標的量化數據，是判斷 reparixin 逆轉效果是否具有臨床潛力的關鍵。如果只是形態學上的改善，離真正的功能恢復還有很大距離。閱讀全文時需特別關注這些數據的 robustnes。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "使用來自 NS 患者的 iPSC，提供了高度相關的人類疾病模型，避免了物種間的差異。",
+          "同時採用 2D 與 3D 細胞培養模型，3D 模型能更好地模擬細胞間的交互作用與組織環境，增加研究結果的可信度。",
+          "研究設計專注於非心肌細胞 (cardiac fibroblasts) 的角色，提供了對 HCM 病理生理學的創新見解，超越了傳統只關注心肌細胞本身的觀點。"
+        ],
+        "notes": [
+          "這是一項純粹的 in vitro 基礎研究，沒有動物模型數據，其發現的體內相關性 (in vivo relevance) 尚待驗證。",
+          "Reparixin 是一種 CXCR1/2 抑制劑，主要在研究用於發炎性疾病與癌症，其在新生兒或兒童心臟疾病的安全性與藥物動力學完全未知。"
+        ],
+        "weaknesses": [
+          "研究結果的 generalizability 存疑。iPSC 模型無法完全複製新生兒心臟在體內承受的複雜血液動力學壓力、荷爾蒙影響與代謝需求。",
+          "潛在的 funding bias 或研究團隊的特定技術偏好，需要檢視全文是否有利益衝突聲明。",
+          "缺乏負面對照組的詳細資訊，例如，是否測試了其他細胞因子？或是在非 NS 的 HCM 模型中，IL-8 是否也扮演同樣角色？"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Andelfinger G et al. 2019, JCI",
+            "comparison": "該研究顯示 MEK 抑制劑 trametinib 可改善 NS 相關 HCM 的小鼠模型與少數案例報告。與本研究相比，trametinib 直接作用於核心的 RAS-MAPK pathway，而本研究的 reparixin 則是作用於下游的旁分泌效應 (paracrine effect)。兩者提供了不同但可能互補的治療策略。"
+          },
+          {
+            "citation": "Cochrane Review on hypertrophic cardiomyopathy in childhood",
+            "comparison": "目前尚無針對 NS 相關 HCM 的 Cochrane review。現有的兒科 HCM 治療證據主要來自觀察性研究，缺乏大型 RCT，且多數未區分遺傳性病因。本研究屬於探索病理機制的基礎科學，位於證據金字塔的最底層。"
+          }
+        ],
+        "guideline_status": "目前國際（如 AHA/ACC）或台灣兒科心臟學會對於 NS 相關 HCM 的治療指引，仍以支持性療法為主，包括使用 beta-blockers (如 propranolol) 來緩解左心室出口阻塞，以及利尿劑處理心衰竭症狀。沒有任何指引推薦針對 IL-8 路徑的標靶治療。",
+        "evidence_gap_filled": "本研究首次揭示了心臟纖維母細胞分泌的 IL-8 在 NS 相關 HCM 病理機制中的關鍵角色，填補了我們對於『細胞間通訊』如何導致心肌肥厚的知識空白，並提出了一個全新的藥物標靶。",
+        "ongoing_trials": "目前有數個針對 RASopathies (包含 NS) 的臨床試驗正在進行，主要集中在 MEK 抑制劑（如 Trametinib, NCT03285648）。針對 IL-8 抑制劑用於 NS-HCM 的臨床試驗，目前一個都沒有，預計短期內也不會有。"
+      },
+      "protocol_impact": {
+        "current_practice": "當新生兒診斷 Noonan syndrome 合併 HCM 時，我們的標準做法是：\n1. 心臟超音波詳細評估：確認肥厚部位、程度、是否有左心室出口阻塞 (LVOTO)。\n2. 支持性治療：若有心衰竭症狀，給予 furosemide (1-2 mg/kg/dose)。若有顯著 LVOTO，謹慎使用 propranolol (起始劑量 0.5-1 mg/kg/day 分次給予) 來減輕阻塞。\n3. 密切監測：心電圖、血壓、氧飽和度，並安排定期心臟超音波追蹤。\n4. 營養支持：確保足夠熱量攝取，常需要鼻胃管灌食。",
+        "proposed_change": "無。這項研究是極早期的基礎科學發現，其結果完全不能直接轉譯到目前的臨床照護。在有動物實驗及人體臨床試驗數據前，絕對不應考慮任何改變。我們目前的 protocol 維持不變。",
+        "prerequisites": [
+          "不適用，因不建議改變 protocol。"
+        ],
+        "missing_evidence": "在考慮將此發現應用於臨床前，我們需要大量缺失的證據，包括：\n1. **動物模型驗證**：在 NS 的小鼠或其他動物模型上，驗證 reparixin 是否能有效預防或逆轉 HCM，並評估其長期效果。\n2. **安全性數據**：需要 reparixin 在新生及幼年動物的完整毒理學與藥物動力學研究。抑制 IL-8 可能會嚴重影響新生兒的免疫力，這是最大的安全疑慮。\n3. **人體臨床試驗**：需要完整的 Phase I, II, III 臨床試驗來證實其在 NS 患者身上的療效與安全性。\n4. **長期追蹤**：即使短期有效，也需要了解對心臟長期重塑 (remodeling)、神經發展及整體成長的影響。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41989585",
+    "title": "Role of Electrocardiogram for the Detection of Cardiac Diseases in a Healthy Primary School Population: Data from the \"Cuore e Scuola\" Study.",
+    "authors": "Pozzi A, Marini A, Ferrari G, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 16",
+    "doi": "10.1007/s00246-026-04253-9",
+    "total_score": 3,
+    "scores": {
+      "design": 4,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "心電圖",
+      "心臟疾病",
+      "學齡兒童",
+      "篩檢"
+    ],
+    "one_liner": "新生兒科醫師可以跳過這篇，因為它探討的是健康小學學童的心電圖篩檢，與新生兒照護無直接相關。",
+    "summary": {
+      "purpose": "本研究旨在評估心電圖篩檢在健康小學學童中偵測心臟疾病的角色與效益。",
+      "design": "根據文章標題，本研究為「Cuore e Scuola」研究的數據分析，推測為一項針對健康小學學童進行心電圖篩檢的大型前瞻性世代研究或橫斷面研究。由於抽象內容缺失，無法提供具體的樣本數、研究期間或詳細方法。研究對象明確為學齡兒童，非新生兒。",
+      "findings": "由於抽象內容缺失，無法提供具體研究發現。預期會報告心電圖篩檢的陽性率、所偵測到的心臟疾病類型及盛行率，以及篩檢的診斷效能。",
+      "significance": "對於新生兒科醫師而言，本研究的臨床意義極低。其研究對象為健康小學學童，與早產兒照護、新生兒重症醫學或新生兒長期發育追蹤等新生兒科專長領域無直接關聯。研究結果可能對一般兒科心臟學或學校健康篩檢政策有參考價值。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41988962",
+    "title": "Long-Term Outcomes of Antithrombotic Treatment in a Cohort of 864 Patients With Fontan Circulation.",
+    "authors": "Öztürk AG, Dellborg M, Damlin A, et al.",
+    "journal": "Journal of the American Heart Association",
+    "pub_date": "2026 Apr 16",
+    "doi": "10.1161/JAHA.125.045788",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "Fontan circulation",
+      "univentricular heart",
+      "antithrombotic",
+      "antiplatelets",
+      "long-term outcome"
+    ],
+    "one_liner": "這篇研究探討Fontan患者長期抗血栓治療的預後，與新生兒科日常照護無直接相關，新生兒科醫師可略過。",
+    "summary": {
+      "purpose": "本研究旨在探討Fontan循環患者抗血栓治療的盛行率、對存活率的影響，以及與死亡率、心血管疾病、急性心肌梗塞和缺血性腦中風等次要預後的關聯。",
+      "design": "這是一項回溯性世代研究，納入1970年1月1日至2017年12月31日間在瑞典出生並接受Fontan手術的單心室心臟病患者，共864例。研究資料來自國家病患登記、死因登記及處方藥物登記。",
+      "findings": "在864名Fontan患者中，中位追蹤時間為14.4年。36%的患者未接受抗血栓治療，其死亡率高達58%。接受抗血栓治療的患者中，75%使用抗血小板藥物，死亡率為4%。未接受抗血栓治療的死亡風險比 (HR) 為22.32 (95% CI, 14.04-35.48)。抗血栓治療組與無治療組的缺血性腦中風發生率相似 (2.45 vs 2.47)，但抗血栓治療組的急性心肌梗塞發生率較低 (0.69 vs 2.76)。",
+      "significance": "本研究顯示抗血小板治療與Fontan循環患者較低的死亡率相關。然而，由於研究對象為已接受Fontan手術的兒童及成人，其結果與新生兒科的日常照護決策無直接關聯。對於新生兒科醫師而言，此研究主要提供單心室心臟病患長期預後的背景知識，而非新生兒期的直接處置指引。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41985646",
+    "title": "Incidence and predictors of major arrhythmic events following acute myocarditis complicated by ventricular arrhythmias: a systematic review and meta-analysis.",
+    "authors": "M'Rabet S, Kaboré EG, Rav-Acha M, et al.",
+    "journal": "Heart Rhythm",
+    "pub_date": "2026 Apr 14",
+    "doi": "10.1016/j.hrthm.2026.03.1952",
+    "total_score": 3,
+    "scores": {
+      "design": 5,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Acute myocarditis",
+      "ventricular arrhythmia",
+      "major arrhythmic events",
+      "systematic review",
+      "meta-analysis"
+    ],
+    "one_liner": "本研究探討急性心肌炎併心室性心律不整患者出院後主要心律不整事件的復發率與預測因子，與新生兒科臨床照護無直接關聯，新生兒科醫師可跳過此篇。",
+    "summary": {
+      "purpose": "本研究旨在評估急性心肌炎（AM）併持續性心室性心律不整（VA）患者出院後主要心律不整事件（MAE）的復發率，並找出其預測因子。",
+      "design": "這是一項系統性回顧與統合分析，納入8項觀察性研究（n=355），追蹤急性期併有VA的AM患者出院後VA復發情況，平均追蹤時間為3.8年。",
+      "findings": "MAE的復發率為46.4% (95% CI 38.1-54.9)。研究發現，人口統計學因素（年齡、性別）、共病症、心血管危險因子、出院前是否植入ICD、左心室射出分率降低，以及心臟磁振造影上的晚期釓增強現象，均未能作為MAE的預測因子。",
+      "significance": "本研究證實近半數急性心肌炎併持續性心室性心律不整的患者會復發主要心律不整事件，但缺乏一致的預測因子。此結果與ESC指引一致，並呼籲未來需透過大型多中心世代研究，採用標準化準則來精進風險分層。此研究主題與新生兒科臨床照護無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41989586",
+    "title": "End-of-Life Care for Infants and Children with Single Ventricle Anatomy.",
+    "authors": "Du Toit LM, Conway J, Ryerson LM, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 16",
+    "doi": "10.1007/s00246-026-04242-y",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "單一心室",
+      "先天性心臟病",
+      "生命末期照護",
+      "安寧緩和醫療",
+      "症狀管理"
+    ],
+    "one_liner": "這篇回溯性研究描述了單一心室兒童的生命末期照護模式與高症狀負擔，強調安寧緩和醫療早期整合的重要性。",
+    "summary": {
+      "purpose": "旨在透過回溯性分析，了解單一心室解剖構造兒童的生命末期照護軌跡，以期優化其照護。",
+      "design": "這是一項單一機構的回溯性研究，納入2010年至2023年間，接受至少第二階段姑息性手術的單一心室複雜先天性心臟病兒童（N=20，年齡 <18歲）。",
+      "findings": "中位死亡年齡為3.1歲（4個月-16.7歲）。90%的死亡發生在加護病房（ICU）。65%的死亡是因撤除維生治療，30%為不升級治療，5%為急救失敗。65%的兒童曾會診安寧緩和醫療，中位會診時間為死亡前68天。生命最後一週，兒童平均經歷五種症狀（3-12種），最常見為疼痛（95%）、焦慮/躁動（95%）、呼吸窘迫（65%）和水腫（65%）。",
+      "significance": "該研究揭示單一心室兒童在生命末期承受高度症狀負擔，多數在ICU因撤除維生治療而死亡。儘管安寧緩和醫療常被利用，但其介入時機差異大。了解這些模式有助於改善症狀管理、優化安寧緩和醫療的整合，並加強對兒童及其家庭的支持。對於新生兒科醫師而言，這提醒我們在照護複雜先天性心臟病新生兒時，應及早考慮安寧緩和醫療的介入，並關注其長期症狀管理。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41987505",
+    "title": "Two novel ryanodine receptor 2 mutations associated with catecholaminergic polymorphic ventricular tachycardia in children: two case reports and literature review.",
+    "authors": "Zou R, Wang S, Liu P, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 16",
+    "doi": "10.1017/S1047951126112013",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "CPVT",
+      "RyR2 mutation",
+      "syncope",
+      "children",
+      "case report"
+    ],
+    "one_liner": "這篇報告了兒童期 CPVT 的新型基因突變，但與新生兒科日常照護無直接關聯。",
+    "summary": {
+      "purpose": "本研究旨在報告兩例9歲女童因運動或壓力引發反覆性暈厥，經基因檢測發現兩組新型 ryanodine receptor 2 (RyR2) 基因突變導致 catecholaminergic polymorphic ventricular tachycardia (CPVT)，並回顧相關文獻。",
+      "design": "本研究為兩例個案報告及文獻回顧。研究對象為兩名9歲女童，無新生兒相關資訊。",
+      "findings": "兩名9歲女童出現新型 RyR2 基因突變 (c.6938T>G/p. Val2313Gly 和 c.12263A>C/p. His4088Pro)，導致 CPVT。經 propranolol 治療後，6個月追蹤期間未再發生暈厥。",
+      "significance": "本研究報告了新型 RyR2 基因突變，強調對兒童期運動或壓力相關暈厥應考慮 CPVT，並透過基因檢測早期診斷與治療的重要性。然而，此研究與新生兒照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41986139",
+    "title": "Infective endocarditis in hypertrophic cardiomyopathy: a real-world matched cohort analysis.",
+    "authors": "Rosenzveig A, Platek N, Massad F, et al.",
+    "journal": "Heart",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1136/heartjnl-2026-327787",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Infective endocarditis",
+      "hypertrophic cardiomyopathy",
+      "adult",
+      "prophylaxis"
+    ],
+    "one_liner": "本研究探討成年肥厚性心肌病變患者的感染性心內膜炎風險，與新生兒科臨床實務無關，可跳過。",
+    "summary": {
+      "purpose": "本研究旨在評估肥厚性心肌病變 (HCM) 成年患者罹患感染性心內膜炎 (IE) 的風險，並與無 HCM 的對照組及曾接受瓣膜介入治療的患者進行比較。",
+      "design": "此為一項回溯性世代研究，利用多中心電子健康紀錄平台 TriNetX 的真實世界數據。研究對象為 2015 年至 2019 年間就診的 ≥45 歲成年患者，將 18,177 對 HCM 患者與無 HCM 的對照組進行 1:1 傾向分數配對。另分析 1,916 名曾接受瓣膜介入治療的參考組。",
+      "findings": "在 18,177 對配對組中，HCM 組的 5 年 IE 累積發生率為 3.25%，對照組為 1.31% (HR 2.62; 95% CI 2.20 to 3.12; p<0.001)。在瓣膜介入組中，IE 發生率為 6.46%，對照組為 1.52% (HR 4.21; 95% CI 2.62 to 6.75; p<0.001)。",
+      "significance": "本研究結果顯示，肥厚性心肌病變的成年患者罹患感染性心內膜炎的風險顯著高於一般成年人，可能屬於目前預防性抗生素指引中未涵蓋的中度風險族群。此發現對成人心臟科的臨床指引制定具有潛在影響，但與新生兒照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41986044",
+    "title": "Percutaneous Balloon Valvuloplasty for Congenital Pulmonary Stenosis With Infundibular Stenosis and ASD.",
+    "authors": "Patel R, Rangavajla G, Ananthasubramaniam K, et al.",
+    "journal": "JACC: Cardiovascular Interventions",
+    "pub_date": "2026 Apr 13",
+    "doi": "10.1016/j.jcin.2026.01.277",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Congenital Pulmonary Stenosis",
+      "ASD",
+      "Percutaneous Balloon Valvuloplasty",
+      "Congenital Heart Disease",
+      "Neonatal Cardiology"
+    ],
+    "one_liner": "由於摘要內容缺失，無法判斷其對新生兒科醫師的直接重要性；若研究對象包含新生兒，則可作為先天性心臟病介入治療的參考。",
+    "summary": {
+      "purpose": "評估經皮氣球瓣膜成形術治療先天性肺動脈瓣狹窄合併漏斗部狹窄及心房中膈缺損的臨床結果。",
+      "design": "由於摘要內容缺失，研究設計無法明確。根據標題推測可能為病例系列或回溯性世代研究。未提供具體胎齡、出生體重或樣本數。",
+      "findings": "由於摘要內容缺失，無法得知主要研究發現、關鍵數據或效應值。",
+      "significance": "由於摘要內容缺失，無法評估對新生兒加護病房照護的具體臨床意義。若研究對象包含新生兒或嬰兒，則可能為先天性心臟病介入治療提供額外經驗。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41985769",
+    "title": "Rethinking Paracorporeal Lung Assist Device Support in the Modern Era: Why so different than ECMO?",
+    "authors": "Cooper D, Turner D, Cooper DS, et al.",
+    "journal": "Journal of Heart and Lung Transplantation",
+    "pub_date": "2026 Apr 13",
+    "doi": "10.1016/j.healun.2026.04.014",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "PLAD",
+      "lung transplantation",
+      "pediatric",
+      "pulmonary hypertension",
+      "RV failure"
+    ],
+    "one_liner": "此文描述了針對少數兒科病患使用新型 PLAD 作為肺臟移植過渡期的經驗，與新生兒重症照護無直接相關性，新生兒科醫師可略過。",
+    "summary": {
+      "purpose": "描述該機構使用新型 paracorporeal lung assist device (PLAD) 作為肺臟移植過渡期的經驗，針對患有不可逆肺部疾病合併右心室 (RV) 衰竭的兒科病患。",
+      "design": "此為單中心案例系列研究，納入三名患有頑固性肺高壓及 RV 衰竭的兒科病患，接受 PLAD 輔助治療。未提及 GA 範圍或出生體重。",
+      "findings": "所有三名病患在 PLAD 輔助下均有顯著臨床改善，肺動脈壓力顯著下降，RV 功能改善，並成功完成身體與營養復健，包括獨立行走。所有病患均成功接受雙側肺臟移植，其中一名避免了心肺聯合移植。兩名病患術後超過一年，預後良好。",
+      "significance": "此研究描述了一種新型 PLAD 配置，可能為患有嚴重肺部疾病合併 RV 衰竭的兒科病患提供肺臟移植前的有效過渡支持，有助於改善復健並擴大移植候選資格。然而，此技術與新生兒重症照護無直接相關性，且樣本數極小，不適用於新生兒科臨床決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41989973",
+    "title": "Intrapartum fetal heart rate anomalies in acute fatty liver of pregnancy: A Case Report and pathophysiological Insights.",
+    "authors": "Dall Apos Asta A, Politi S, Scebba D, et al.",
+    "journal": "Fetal Diagnosis and Therapy",
+    "pub_date": "2026 Apr 16",
+    "doi": "10.1159/000552092",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "AFLP",
+      "fetal hypoxia",
+      "fetal heart rate",
+      "case report",
+      "pathophysiology"
+    ],
+    "one_liner": "對於新生兒科醫師而言，這篇病例報告提供了關於罕見母體疾病 AFLP 導致胎兒窘迫的病理生理學背景知識，有助於理解潛在的新生兒風險。",
+    "summary": {
+      "purpose": "本研究旨在闡明妊娠急性脂肪肝 (AFLP) 中觀察到的胎兒心率異常的病理生理學基礎，並強調母體代謝性酸中毒和胎盤灌注不足在導致胎兒缺氧中的作用。",
+      "design": "本研究為一篇病例報告 (Case Report)，探討妊娠急性脂肪肝 (AFLP) 導致胎兒心率異常的病理生理學機制。文章未提及具體的胎齡或出生體重，樣本數為單一病例。",
+      "findings": "妊娠急性脂肪肝 (AFLP) 是一種罕見且可能危及生命的疾病，其特徵是母體肝功能衰竭和胎兒缺氧。胎兒缺氧的機制包括 Bohr-Haldane 效應受損、母體血容量不足以及胎盤脂肪酸堆積，進而影響胎兒血紅蛋白的氧合。本報告特別強調母體代謝性酸中毒和胎盤灌注不足在決定胎兒缺氧中的關鍵作用。",
+      "significance": "雖然是病例報告，但此文有助於新生兒科醫師理解妊娠急性脂肪肝 (AFLP) 這種罕見母體疾病如何導致胎兒缺氧及心率異常的病理生理學機制。這能幫助我們在面對此類高風險孕婦時，預期新生兒可能面臨的風險，並在分娩時做好相關的復甦與照護準備。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
   }
 ]

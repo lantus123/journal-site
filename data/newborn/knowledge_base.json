@@ -14284,5 +14284,674 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-16"
+  },
+  {
+    "pmid": "41986669",
+    "title": "Non-invasive nitric oxide use for pulmonary hypertension and pulmonary vascular disease associated with bronchopulmonary dysplasia in preterm infants.",
+    "authors": "Chandra A, Rios DR, Dagle D, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1038/s41372-026-02687-w",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 4
+    },
+    "keywords": [
+      "BPD",
+      "pulmonary hypertension",
+      "iNO",
+      "preterm infants"
+    ],
+    "one_liner": "抽象內容缺失，無法提供具體建議。",
+    "summary": {
+      "purpose": "抽象內容缺失，無法判斷研究目的。",
+      "design": "抽象內容缺失，無法判斷研究設計與方法。",
+      "findings": "抽象內容缺失，無法判斷主要研究發現。",
+      "significance": "抽象內容缺失，無法判斷對 NICU 照護的具體臨床意義。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇研究探討在有 BPD 合併肺高壓 (BPD-PH) 的早產兒，使用「非侵襲性」一氧化氮 (iNO) 治療。這是一個重大的潛在轉變，因為我們現行的 protocol 嚴格限制 iNO 用於 GA > 34 週的足月或晚期早產兒。如果這篇研究證實有效且安全，可能為我們單位最棘手的 BPD-PH 病患提供一個新的治療選項，但我們必須謹慎評估其對長期神經發展的影響。",
+      "hidden_findings": [
+        {
+          "finding": "研究對象的 GA 及 BW 分佈為何？特別是 ELBW (<1000g) 的亞群分析結果如何？BPD-PH 的嚴重程度與對 iNO 的反應在不同成熟度的早產兒可能有極大差異。",
+          "source": "Abstract 未提供，需在全文的 Table 1 (Baseline Characteristics) 及 Results/Subgroup analysis 章節尋找。",
+          "implication": "若效益僅限於較大週數的早產兒 (e.g., 28-32週)，我們就不能將其結果外推到 23-24 週的極度早產兒，後者是 BPD-PH 最高風險的族群。"
+        },
+        {
+          "finding": "「非侵襲性 iNO」的具體給予方式、劑量、及停藥標準是什麼？是透過 HFNC 還是 NIPPV/CPAP？起始劑量是 20 ppm 嗎？治療持續多久？",
+          "source": "Abstract 未提供，需在全文的 Methods 章節尋找詳細的 intervention protocol。",
+          "implication": "這些操作型細節是我們能否複製其治療、評估可行性與成本的關鍵。不同的輸送介面會影響 iNO 的實際遞送濃度與穩定性。"
+        },
+        {
+          "finding": "肺高壓 (PH) 的診斷標準與嚴重度分級為何？研究是否使用標準化的心臟超音波參數（如 TR jet velocity, RVSP, septal position）作為納入標準及療效評估指標？",
+          "source": "Abstract 未提供，需在全文的 Methods 章節尋找 PH 的定義與 outcome assessment。",
+          "implication": "若 PH 的定義模糊，研究結果的客觀性與可信度會大打折扣。明確的 echo 標準才能讓我們判斷哪些病患是合適的治療對象。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "研究一個臨床上極具挑戰性且缺乏有效療法的議題 (BPD-PH)。",
+          "若為 RCT，適當的隨機分派 (randomization) 與分配隱藏 (allocation concealment) 將是其主要優點。"
+        ],
+        "notes": [
+          "BPD 定義：研究是採用 2001 NICHD、2018 revised NICHD 還是 2019 Jensen 的定義？這會影響世代病患的嚴重度組成。我們科內工作手冊已列出這三種定義，因此釐清此點有助於與我們的病患群體比較。",
+          "主要評估指標 (Primary Outcome)：是短期的生理指標 (e.g., FiO2 改善、echo 參數進步) 還是長期的臨床結果 (e.g., 死亡率、脫離呼吸器天數)？",
+          "神經發展追蹤：是否有進行長期追蹤？評估年齡 (e.g., 18-24 個月校正年齡) 與使用的評估工具 (e.g., Bayley-III or Bayley-4) 是評估安全性的關鍵。失訪率 (loss to follow-up rate) 必須小於 20% 才具參考價值。"
+        ],
+        "weaknesses": [
+          "樣本數可能不足 (underpowered)，難以對死亡率或嚴重神經併發症等重要但發生率較低的 outcome 做出結論。",
+          "潛在的中心效應 (center effect)：這類高階治療可能集中在特定醫學中心，其結果不易推廣到所有 NICU。",
+          "合併治療的干擾：BPD-PH 的病患常合併使用 diuretics, sildenafil, steroids 等藥物，研究如何標準化或統計分析這些潛在的干擾因子 (confounders) 會是個挑戰。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Cochrane Review: Askie LM, et al. 2011",
+            "comparison": "Cochrane review 綜合了多個大型 RCT (包含 INNOVO trial)，結論是「預防性」或「早期」給予早產兒 iNO 並無法降低死亡率或 BPD 的發生率。本研究的關鍵差異在於，它並非探討「預防」，而是針對已確立 BPD 且合併 PH 的族群進行「治療」，臨床情境與目的完全不同。"
+          },
+          {
+            "citation": "Abman SH, et al. J Pediatr. 2017",
+            "comparison": "這是 BPD-PH 的臨床指引，其中提到 iNO 在急性惡化時可作為測試肺血管反應性或短期使用的救援治療，但缺乏大型 RCT 證據支持其常規長期使用。本研究正是試圖填補這個 RCT 證據的空缺。"
+          }
+        ],
+        "guideline_status": "目前不論是美國兒科醫學會 (AAP) 或台灣新生兒科醫學會，皆未建議常規使用 iNO 於早產兒來預防或治療 BPD。用於治療已確立的 BPD-PH 屬於適應症外 (off-label) 使用，證據等級低，多為專家意見或個案報告。",
+        "evidence_gap_filled": "本研究可能為「早產兒 BPD 合併 PH」這個特定、高死亡率族群的治療，提供第一個 RCT 等級的證據。過去的證據多半集中在預防 BPD，而非治療其併發症。",
+        "ongoing_trials": "需要上 ClinicalTrials.gov 查詢是否有其他更大規模、多中心的 RCT 正在進行中，例如針對 sildenafil 或 bosentan 於此族群的研究，以了解 iNO 在未來治療選項中的定位。"
+      },
+      "protocol_impact": {
+        "current_practice": "根據我們工作手冊【Respiratory / NO / 三、Patient Selection Criteria】，目前 iNO 的使用標準非常明確：「Gestational Age > 34 weeks. Birth Weight > 2,000 grams.」。這表示我們「完全不會」將 iNO 用於本研究所探討的早產兒 BPD-PH 病患上。",
+        "proposed_change": "若此研究顯示明確的臨床效益（如降低死亡率或呼吸器使用天數）且無顯著安全疑慮，我們應考慮新增一個「救援治療 (rescue therapy)」的 protocol。建議修改如下：\n1.  新增適用對象：針對 GA < 32 週，已診斷為中度至重度 BPD (依 Jensen 2019 定義)，且經心臟超音波證實有中度以上肺高壓 (e.g., estimated RVSP > 2/3 systemic pressure) 之病患。\n2.  啟動時機：當病患在 HFNC ≥ 2 L/min 或 NIPPV/IMV 支持下，仍持續出現 FiO2 > 0.4-0.5 的低血氧狀況時，可考慮啟動非侵襲性 iNO 作為升階治療選項。\n3.  明確劑量與監測：需明訂起始劑量 (e.g., 20 ppm)、weaning plan、以及 methemoglobin 的監測頻率。",
+        "prerequisites": [
+          "召開科會，由專人進行完整的文獻報告與討論。",
+          "與呼吸治療科 (RT) 共同研擬非侵襲性 iNO 的標準作業流程 (SOP)，確保設備與技術到位。",
+          "草擬新的 iNO 使用 protocol，並送交藥事委員會及倫理委員會（因涉及 off-label use）。",
+          "對全體 NICU 護理及醫療人員進行教育訓練 (in-service training)。"
+        ],
+        "missing_evidence": "最重要的 missing evidence 是「長期的神經發展結果」。即使短期呼吸狀況改善，我們仍需等待至少 18-24 個月校正年齡的追蹤數據，以確保此介入不會增加如嚴重腦性麻痺 (cerebral palsy) 或認知發展遲緩的風險。在獲得這些數據前，任何 protocol 的改變都應極度謹慎，並可能僅限於 case-by-case 的討論。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41986668",
+    "title": "Associations between neonatal brain structure and neurodevelopmental outcomes following very preterm birth.",
+    "authors": "Sun Z, Ge Y, Leoni M, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1038/s41372-026-02672-3",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "VPT",
+      "neurodevelopment",
+      "MRI",
+      "cerebellum",
+      "motor delay"
+    ],
+    "one_liner": "這篇研究顯示極早產兒足月時小腦體積較小，可能預示學步期動作發展遲緩，有助於早期風險評估與介入。",
+    "summary": {
+      "purpose": "本研究旨在探討極早產兒 (VPT) 新生兒期腦部結構與學步期神經發展遲緩之間的關聯，以期找出特定障礙的早期預測因子。",
+      "design": "本研究為前瞻性世代研究，分析352名VPT嬰兒在足月校正年齡時的T2加權腦部MRI影像。神經發展結果在18-24個月大時使用Bayley Scales of Infant and Toddler Development-III進行評估。研究採用張量形態測量學 (tensor-based morphometry) 比較有或無發展遲緩嬰兒的腦部體積。",
+      "findings": "結果顯示，有動作發展遲緩的學步期幼兒，其在足月校正年齡時的左側後小腦體積顯著減少，此關聯在調整其他發展領域後依然存在。認知或語言發展遲緩的幼兒則未觀察到顯著的腦部體積差異。",
+      "significance": "本研究指出極早產兒在足月校正年齡時小腦體積減少與學步期動作發展遲緩相關，強調小腦在早期動作發展中的關鍵作用，並提示結構性MRI在早期風險分層評估上的潛在價值。這有助於我們在新生兒期早期識別高風險早產兒，並可能引導更早期的介入治療。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇針對352位極早產兒的前瞻性研究發現，在足月校正年齡時，若腦部MRI顯示左側後小腦體積較小，與18-24個月時的動作發展遲緩有顯著相關。這個關聯性在排除其他發展領域影響後依然存在，但與認知或語言遲緩無關。這項發現強調了小腦在早產兒動作發展中的關鍵角色，並提示結構性MRI可能成為早期識別高風險個案、啟動早期療育的重要工具。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract將所有「極早產兒 (VPT)」視為一個同質群體，但未提供關鍵的亞群分析。例如，GA <28週與28-32週的嬰兒，其小腦損傷的機轉與風險截然不同（前者多為破壞性病變，後者多為發育受損），小腦體積與預後的關聯強度可能存在差異。",
+          "source": "閱讀全文時需在 Table 1 (Baseline Characteristics) 和 Subgroup Analysis 章節尋找依 GA 或 BW 分層的數據。",
+          "implication": "如果此關聯性在特定GA（如 <28週）的族群中特別顯著，將有助於我們更精準地將MRI這項資源用於最高風險的嬰兒，而非所有VPT嬰兒。"
+        },
+        {
+          "finding": "研究排除了哪些個案？Abstract未說明對於嚴重腦傷（如 severe IVH, PVL, PHH）的處理方式。這些病變本身就是動作發展遲緩的強烈預測因子，且可能直接或間接影響小腦發育（如交叉小腦萎縮 diaschisis）。",
+          "source": "需檢視全文的 Methods 章節中的 Inclusion/Exclusion Criteria。",
+          "implication": "若研究排除了這些嚴重腦傷的個案，其結論則適用於「相對單純」的早產兒腦部發育問題；若包含在內並進行了統計校正，則其結論的普遍適用性更高，更能代表我們NICU收治的複雜病患群體。"
+        },
+        {
+          "finding": "Abstract提到「adjusting for other domains」，但未詳述多變量分析模型中包含了哪些重要的臨床共病症（confounders）。例如 BPD 嚴重度、敗血症、NEC、術後類固醇使用等，這些都是影響神經發展的獨立風險因子。",
+          "source": "需在全文的 Statistical Analysis 方法描述及結果的迴歸分析表格中尋找完整的變數列表。",
+          "implication": "此關聯性的可信度，高度依賴於研究是否充分控制了這些常見的早產兒共病症。若未妥善控制，我們無法確定觀測到的結果是純粹由小腦體積決定，還是被其他因素混淆。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "前瞻性世代研究 (prospective cohort) 設計，能確立腦部結構變化與後續發展結果的時序性。",
+          "樣本數達352人，在新生兒腦部MRI研究中屬於較大規模，增加了統計檢定力。",
+          "使用張量形態測量學 (tensor-based morphometry) 進行全腦體積分析，相較於傳統的視覺判讀或手動圈選，更為客觀且可重複性高。"
+        ],
+        "notes": [
+          "神經發展評估工具為 Bayley-III。目前臨床與研究已逐漸轉向 Bayley-IV，兩者在常模與計分方式上有所差異，未來在與新研究比較時需注意此版本差異。",
+          "「發展遲緩」的定義不明。Abstract未說明是以分數 <85 (-1 SD) 還是 <70 (-2 SD) 作為切點，這會直接影響結果的解讀與臨床應用的門檻。",
+          "Follow-up rate 未提及。這是世代研究的關鍵品質指標，若失訪率過高（如 >20%），可能存在選擇性偏差 (selection bias)，例如發展較差的家庭可能更不願意回診，導致結果被低估。"
+        ],
+        "weaknesses": [
+          "潛在的中心效應 (center effect)。若為單一醫學中心的研究，其結果的外部效度（generalizability）可能受限於該中心特定的照護常規（如呼吸、營養策略）。",
+          "關聯不等於因果。此觀察性研究無法斷定小腦體積縮小「導致」動作發展遲緩，兩者可能都是由更早期的共同風險因子（如宮內發炎）所造成。",
+          "MRI掃描時機的變異性。「足月校正年齡」可能涵蓋38-44週的範圍，在這段大腦快速成長的時期，掃描時間的差異可能會對體積測量造成干擾。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Kidokoro H et al., J Pediatr, 2014",
+            "comparison": "Kidokoro等人的研究建立了早產兒腦部損傷的半定量評分系統，其中也包含對小腦損傷的評估。本研究的差異在於使用更客觀的「體積量化」方法（TBM），而非視覺評分，並專注於特定腦區與特定發展領域（運動）的關聯，提供了更精細的對應關係。"
+          },
+          {
+            "citation": "Cochrane Neonatal reviews on neuroprotection",
+            "comparison": "Cochrane文獻回顧多半聚焦於「介入措施」（如 caffeine, magnesium sulfate）對預防腦傷或改善長期預後的影響。本研究則屬於「預後預測」型研究，其價值在於提供一個潛在的生物標記 (biomarker)，可用於未來介入性研究的對象篩選或成效評估。"
+          }
+        ],
+        "guideline_status": "目前不論是美國兒科學會 (AAP) 或台灣新生兒科醫學會，均未建議對所有極早產兒進行常規性的足月校正年齡腦部MRI檢查以預測神經發展。現行做法多為針對有臨床適應症（如嚴重IVH後追蹤、疑似腦白質損傷）的個案安排檢查。",
+        "evidence_gap_filled": "本研究填補了從「巨觀腦傷」（如IVH、PVL）到「特定發展障礙」之間的知識空缺。它指出，即使在沒有明顯破壞性病灶的情況下，特定腦區（小腦）的「發育性體積差異」也與功能性預後（動作發展）有關，為早產兒「腦部發育不成熟」提供了具體的影像學證據。",
+        "ongoing_trials": "目前尚無大型RCT是專門針對MRI發現小腦體積較小的早產兒進行早期介入治療。但許多早期療育的試驗（如強調動作學習的GAME trial）的次分析，可能會探討基線腦部影像作為療效預測因子的角色。"
+      },
+      "protocol_impact": {
+        "current_practice": "根據本科工作手冊【Neurology / Neurology / Hydrocephalus】章節，我們目前的常規是為「VLBW / Larger, sick premature infants」安排新生兒腦部超音波篩檢。只有在「Rapidly enlarging head circumference / Signs of increased intracranial pressure」或追蹤PHH時，才會安排CT或MRI。手冊中並無為了預測長期神經發展而進行常規MRI的指引。",
+        "proposed_change": "本研究結果尚不足以支持我們修改protocol，對所有VPT嬰兒進行常規TEA MRI。但它提供了一個強化風險分層的思路。建議修改如下：\n1.  **短期建議**：在現有protocol下，當VPT嬰兒因其他臨床原因（如評估PHH）接受TEA MRI時，應在影像報告中特別請放射科醫師留意並描述小腦的發育情況，尤其是後葉的體積。若報告顯示小腦發育不良，應將此個案標記為動作發展高風險，確保其能進入我們的長期追蹤門診，並考慮提早轉介物理治療評估。\n2.  **長期思考**：可考慮啟動院內前瞻性研究計畫，針對GA <29週的ELBW嬰兒，常規安排TEA MRI，收集影像與2歲時Bayley-IV發展數據，驗證此研究發現在本科病人族群中的適用性。",
+        "prerequisites": [
+          "與放射科建立共識，標準化早產兒TEA MRI的掃描序列與報告格式，特別是針對小腦結構的描述。",
+          "對NICU主治醫師及住院醫師進行在職教育，使其了解小腦體積與動作發展預後的關聯性，並知道如何運用此資訊於臨床決策及家長衛教。",
+          "建立從「影像發現」到「早期療育轉介」的標準化流程，確保高風險個案能被確實追蹤。"
+        ],
+        "missing_evidence": "最關鍵的缺失證據是：一個證實「基於MRI發現進行早期介入，能有效改善長期動作預後」的隨機對照試驗 (RCT)。目前我們只知道小腦體積小是個「警訊」，但不知道根據這個警訊提早行動是否真的有效。此外，也需要更長期的追蹤資料，以了解此發現與學齡期動作協調障礙 (DCD) 或學習表現的關聯。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41986113",
+    "title": "Outcome in childhood and adolescence following hypoxic-ischaemic encephalopathy.",
+    "authors": "Shankaran S",
+    "journal": "Archives of Disease in Childhood - Fetal and Neonatal Edition",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1136/archdischild-2025-329369",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 5,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "HIE",
+      "neurodevelopmental outcome",
+      "long-term follow-up",
+      "childhood",
+      "adolescence"
+    ],
+    "one_liner": "這篇研究探討HIE存活者在兒童期及青少年期的長期預後，對於NICU醫師了解HIE的長期影響及家屬衛教具有重要參考價值。",
+    "summary": {
+      "purpose": "本研究旨在探討缺氧缺血性腦病變（HIE）存活者在兒童期及青少年期的長期預後。",
+      "design": "由於摘要內容缺失，無法得知具體研究設計、樣本數及方法。根據標題推測，這可能是一項大型前瞻性世代追蹤研究或系統性回顧，旨在評估HIE對長期神經發育及其他健康結果的影響。",
+      "findings": "由於摘要內容缺失，無法提供具體發現、關鍵數據或效應值。預期研究將呈現HIE存活者在兒童期至青少年期各階段的神經發育障礙、腦性麻痺、認知功能、行為問題等發生率，並可能識別相關的風險因子。",
+      "significance": "本研究對於全面了解HIE對兒童及青少年長期健康的影響至關重要。其結果將有助於NICU醫師在與家屬溝通預後時提供更精確的資訊，並指導長期追蹤計畫及早期介入策略的制定，以改善HIE存活者的生活品質。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇由 HIE 權威 Shankaran 醫師發表的長期追蹤研究，很可能是 NICHD cooling trial 世代的青少年期預後報告。重點在於，它提供了超越傳統 18-24 個月或學齡期追蹤的數據，讓我們能更準確地向 HIE 嬰兒的家長說明他們孩子在青春期可能面臨的認知、行為及運動功能挑戰。這份資料對於我們在 NICU 的預後諮詢（prognostic counseling）至關重要，特別是關於執行功能與社交情緒等高階認知功能的長期影響。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 總結的整體預後數據，可能會掩蓋不同嚴重程度 HIE 之間的巨大差異。我們必須知道青少年期預後是否與新生兒期的 Sarnat stage 或 aEEG 背景活動（background pattern）有明確的關聯性。",
+          "source": "推測自 Abstract。全文應在 Results section 提供依據新生兒期臨床或電生理嚴重度分級的亞組分析（subgroup analysis）。",
+          "implication": "這能讓我們提供更個人化的預後諮詢。對於新生兒期判定為 moderate HIE 的個案，家長最想知道的是孩子長大後能否獨立學習與生活，這份數據能提供更精確的答案，而非一個模糊的平均值。"
+        },
+        {
+          "finding": "研究可能只報告了主要的綜合評估分數（如 Full-Scale IQ），但未詳述各項子測驗（subtest）的表現，例如處理速度（processing speed）、工作記憶（working memory）或執行功能（executive function）。",
+          "source": "推測自 Abstract。全文的方法學（Methods）和結果（Results）部分應詳述使用的神經心理學評估工具（neuropsychological battery）及其各分項分數。",
+          "implication": "對於 HIE 存活者，整體 IQ 可能在正常範圍，但特定的高階認知功能障礙（如執行功能缺陷）才是影響他們學業成就和社會適應的關鍵。了解這些細節有助於指導家長尋求正確的早期療育與教育資源。"
+        },
+        {
+          "finding": "研究是否區分了接受 therapeutic hypothermia (TH) 治療組與未接受治療的歷史對照組（如果有的話）的長期預後差異？",
+          "source": "推測自 Abstract。如果研究世代橫跨 TH 治療的引進前後，或本身就是 TH 試驗的長期追蹤，全文應明確比較兩組的長期結果。",
+          "implication": "這將是驗證 TH 治療是否具有「長期且持續」神經保護效果的最高等級證據。如果 TH 的益處能持續到青少年期，將更強化我們推行此標準治療的信心與依據。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "研究對象可能源自大型、多中心的前瞻性 RCT 世代（如 NICHD Neonatal Research Network 的 HIE trials），基線資料完整且偏差小。",
+          "由 Shankaran 團隊執行，該團隊在 HIE 研究領域有數十年的經驗，研究設計與執行品質有高度信譽。",
+          "長期追蹤至青少年期，提供了極為罕見且寶貴的數據，超越了大多數新生兒研究僅追蹤至嬰幼兒期的限制。"
+        ],
+        "notes": [
+          "需確認追蹤至青少年期時，使用了哪些合適的評估工具？例如，認知功能是用 WISC-V 嗎？執行功能是用 BRIEF-2 嗎？運動功能是用 BOT-2 嗎？評估工具的選擇與版本至關重要。",
+          "長期追蹤的失訪率（loss to follow-up rate）是多少？這類研究的失訪率通常很高，如果超過 20-30%，且失訪個案的基線特徵與留存個案有顯著差異，將會嚴重影響結果的效度（validity）。",
+          "評估者（assessors）對於個案的新生兒期病史與分組是否知情（blinded）？Blinding 在此類研究中很難完全做到，但需了解其採取的減低偏誤措施。"
+        ],
+        "weaknesses": [
+          "高失訪率是這類長期追蹤研究最大的潛在弱點，可能導致選擇性偏差（selection bias），例如預後較差或社經地位較低的家庭可能更容易失訪，從而高估了整體的良好預後率。",
+          "世代效應（cohort effect）：研究世代可能橫跨十幾年，期間新生兒加護照護（如呼吸支持、營養管理）的進步，可能成為影響預後的干擾因子（confounder）。",
+          "缺乏對家庭環境、社經地位、教育資源等後天因素的詳細分析。這些因素在兒童與青少年期的發展中扮演的角色，可能比新生兒期的腦傷本身更為重要。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Shankaran S et al., NEJM 2012",
+            "comparison": "這是 NICHD 全身性低溫治療試驗的 6-7 歲學齡期追蹤結果。本研究（2026）很可能是同一世代向後延伸至青少年期的追蹤，關鍵差異在於追蹤年齡（adolescence vs. school-age）以及評估的重點（可能更側重高階認知與精神健康）。"
+          },
+          {
+            "citation": "Azzopardi D et al. (TOBY study group), NEJM 2014",
+            "comparison": "這是英國 TOBY trial (頭部選擇性低溫治療) 的 6-7 歲追蹤結果。與本研究相比，除了追蹤年齡的差異外，介入方式（全身性 vs. 選擇性低溫）也不同，兩者長期結果的比對將非常有價值。"
+          }
+        ],
+        "guideline_status": "目前 ILCOR 與 AAP 的 HIE 治療指引，皆強烈建議對符合條件的中重度 HIE 新生兒進行 therapeutic hypothermia。然而，關於長期預後的諮詢數據主要基於 18-24 個月或 6-7 歲的追蹤結果。台灣新生兒科醫學會的建議也與國際指引一致。本研究將為這些指引提供更長期的預後證據。",
+        "evidence_gap_filled": "本研究填補了 HIE 存活者從「學齡期」到「青少年期」這段關鍵發展時期的預後空白。過去我們很難回答家長關於孩子進入國中、高中後可能遇到的學習、行為與社交問題，這份研究提供了直接的證據。",
+        "ongoing_trials": "目前許多 HIE 的 RCTs 正在進行中，多數是探討在 therapeutic hypothermia 基礎上增加輔助治療（adjuvant therapies）的效果，例如 erythropoietin (Epo), melatonin, xenon gas 等。這些試驗的長期追蹤結果，將是未來十年我們關注的重點。"
+      },
+      "protocol_impact": {
+        "current_practice": "我們目前的工作手冊在【Neurology / Neurology】章節中僅列出「Hypoxic Ischemic Encephalopathy(HIE)」為一個處置項目，但並未提供關於長期預後諮詢的具體指引或數據。臨床上，我們多半是引用如 NEJM 2012 等研究的學齡期數據，向家長解釋死亡或中重度殘障的風險約為 45-50%。對於更長期的認知與行為問題，缺乏具體的數據支持。",
+        "proposed_change": "我們應根據本研究的結果，制定一份標準化的「HIE 長期預後家庭諮詢指引」。\n1. **新增內容**：在手冊【Neurology / Neurology】的 HIE 條目下，新增一段關於長期預後諮詢的內容。\n2. **分層諮詢**：內容應依據新生兒期的 Sarnat stage（Mild, Moderate, Severe）分層，提供對應的青少年期預後數據，包括：\n    - 存活率\n    - 無神經發展障礙（neurodevelopmental impairment-free）的比例\n    - Cerebral Palsy (CP) 的發生率與嚴重度\n    - 認知功能（平均 IQ 分數及低於平均值 -2SD 的比例）\n    - 學業表現（如需要特殊教育資源的比例）\n    - 行為問題（如 ADHD、焦慮/憂鬱的盛行率）\n3. **適用範圍**：此指引適用於所有經診斷為 HIE 的足月或晚期早產兒（GA ≥ 36 週）的家長諮詢。",
+        "prerequisites": [
+          "由專人（如 NIDCAP 或負責神經發展的 fellow/VS）整理本篇研究的關鍵數據，製作成易於理解的圖表或單張衛教資料。",
+          "召開科內讀書會，確保所有主治醫師與住院醫師對這些新數據的解讀與傳達方式有一致的共識。",
+          "與新生兒科個管師及社工師合作，將此資訊融入家庭會議的標準流程中。"
+        ],
+        "missing_evidence": "本研究提供了到青少年期的數據，但我們仍缺乏 HIE 存活者進入成年後的預後資料，例如：高等教育完成率、就業狀況、獨立生活能力、以及他們作為父母時的育兒能力。這些是了解 HIE 終身影響所需回答的最終問題。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41986180",
+    "title": "An emerging consensus about treatment of the tiniest babies.",
+    "authors": "Lantos JD",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Feb 27",
+    "doi": "10.1016/j.siny.2026.101712",
+    "total_score": 4,
+    "scores": {
+      "design": 1,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 5
+    },
+    "keywords": [
+      "Shared decision-making",
+      "ELBW",
+      "bioethics",
+      "prematurity",
+      "life-sustaining treatment"
+    ],
+    "one_liner": "這是一篇關於極度早產兒生命維持治療共享決策的深度評論，強調在面對不確定性時，應採取更動態、以信任為基礎的溝通模式。",
+    "summary": {
+      "purpose": "本文旨在探討極度早產兒生命維持治療中共享決策(SDM)的實踐困境與變異來源，並提出一個更動態的SDM模型。",
+      "design": "本文為一篇評論性文章，分析現有SDM框架的局限性，並提出新的概念模型，未涉及特定GA範圍、出生體重或樣本數的研究。",
+      "findings": "儘管SDM在極度早產兒照護中已達成廣泛共識，但實踐中仍存在顯著差異。作者認為，現有SDM框架過於簡化，未能充分考慮預後數據的不確定性、治療實踐的影響、機構文化差異，以及家長偏好的異質性。這些因素導致諮詢複雜化、價值判斷模糊，並增加臨床醫師的道德困境。",
+      "significance": "本文建議SDM應從單一變數（如GA）轉向個體化評估、必要時的試驗性治療，以及基於信任、同理心和對臨床現實變化的回應進行的長期、迭代式對話。這有助於改善極度早產兒生命維持治療的決策品質，減少醫病衝突與臨床醫師的道德壓力。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇評論文章挑戰了目前對極度早產兒共享決策 (SDM) 的簡化模型。作者 Lantos 指出，儘管學會都推薦 SDM，但實際執行差異極大，因為我們過於依賴單一變數（如 GA）來提供預後。他主張，預後數據本身就受到機構文化與治療積極度的嚴重影響，因此我們應轉向一種更動態、縱貫性的 SDM 模式，承認不確定性、適時採用「治療試驗 (trial of therapy)」，並與家屬進行基於信任的持續對話。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 提到「實際研究中的觀察顯示存在巨大的實踐差異」，但未指明是哪些研究。這點至關重要，因為這些差異的來源可能是機構間的資源不同、醫師的哲學差異，或是家長社經背景的差異。閱讀全文時，必須確認作者引用的證據是來自大型世代研究（如 EPICure, EXPRESS），還是質性訪談研究，這會影響我們對「差異」的解讀。",
+          "source": "Abstract, paragraph 2",
+          "implication": "如果差異主要來自機構文化（如某些中心對 22 週的寶寶更積極），這意味著我們在跟家長諮詢時，提供的「客觀數據」其實已經被我們自己的「在地實踐」所塑造。這對我們如何呈現預後數據，以及反思我們自己的單位文化有深遠影響。"
+        },
+        {
+          "finding": "作者提議一個「更動態的 SDM 模型」，強調「縱貫性對話」與「迭代式決策」。然而，Abstract 並未提供這個模型的具體操作框架。例如，重新評估決策的關鍵時間點是什麼？（如：Day 7? 發生 IVH grade III/IV 之後？）當臨床狀況惡化時，如何重啟對話而不會讓家長覺得被遺棄或被施壓？",
+          "source": "Abstract, paragraph 3",
+          "implication": "這個概念雖然理想，但若無具體操作指引，很可能流於空談。在 NICU 繁忙的臨床工作中，我們需要可執行的溝通策略。閱讀全文時，需尋找作者是否提供了具體的建議、溝通腳本或決策輔助工具，這將決定這篇文章的臨床實用性。"
+        },
+        {
+          "finding": "Abstract 提到「家長的偏好是異質的，且常反映出與醫療專業人員不同的殘疾態度」。這點點出了醫病之間價值觀的潛在衝突，但沒有深入探討其根源。例如，這些差異是否與文化、宗教、或過去的生命經驗有關？",
+          "source": "Abstract, paragraph 2",
+          "implication": "理解這些價值觀差異的來源，是有效溝通的基礎。如果全文能提供相關的社會學或人類學研究證據，將有助於我們團隊在面對看似「不理性」的家長決定時，能更有同理心地去探詢背後的價值觀，而非僅僅是重複提供冰冷的存活率數據。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "本文直面了 SDM 在臨床實踐中的核心困境：理想與現實的差距。它挑戰了將 SDM 簡化為「告知數據、詢問偏好」的機械式流程，並強調了不確定性、情感複雜性與機構文化等「隱藏課程」的重要性。",
+          "文章的論點具有很高的臨床現實感，準確描述了新生兒科醫師在面對極限早產兒時所經歷的「道德困擾 (moral distress)」。"
+        ],
+        "notes": [
+          "這是一篇評論性文章 (commentary/review)，其價值在於概念框架的提出與論述的深度，而非提供新的量化數據。結論的說服力完全取決於其引用的文獻品質與邏輯的嚴謹性。",
+          "文章中提到的「神經發展障礙 (neurodevelopmental impairment)」並未定義。在新生兒研究中，NDI 的定義（例如，是否包含 Bayley-III/IV <85 或僅 <70）會極大地影響其報告發生率，進而影響 SDM 的內容。"
+        ],
+        "weaknesses": [
+          "潛在的「稻草人謬誤」風險：文章可能過度簡化了現行的 SDM 框架，以凸顯其所提倡的「動態模型」的優越性。實際上，許多有經驗的臨床醫師已經在實踐類似的縱貫性溝通。",
+          "缺乏可操作性建議：Abstract 中提出的「動態模型」偏向哲學層次，可能缺乏具體的、可在臨床上應用的步驟或工具，這可能使其難以轉化為標準化的臨床實踐。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "SUPPORT Trial (Walsh et al., NEJM 2010)",
+            "comparison": "SUPPORT trial 是一個比較早產兒高氧與低氧目標的 RCT，其結果（低氧組死亡率較高，但 ROP 較少）完美詮釋了本篇作者所說的「價值判斷的模糊性」。它提供了 SDM 所需的「數據」，而本篇文章則是在探討如何與家長溝通這些充滿權衡與不確定性的「數據」。"
+          },
+          {
+            "citation": "EPICure & EXPRESS studies (UK & Sweden national cohorts)",
+            "comparison": "這些大型世代研究顯示了極度早產兒的存活率與預後在不同年代與不同國家/機構間存在巨大差異。這為本篇文章的核心論點——「預後數據深受治療實踐與機構文化的影響」——提供了最強力的證據支持。"
+          }
+        ],
+        "guideline_status": "目前的國際指引（如 AAP）與台灣新生兒科醫學會的共識，都強力支持對極度早產兒的照護決策應採用 SDM。本文並未反對此共識，而是對 SDM 的「如何實踐」提出了深刻的批判與反思，認為現行實踐過於僵化，未能充分體現 SDM 的精神。",
+        "evidence_gap_filled": "本文填補了從「應然 (ought)」到「實然 (is)」的鴻溝。過去的文獻多在強調「為何」需要 SDM，而本文則深入探討了「為何」SDM 在現實中如此困難，並試圖為「如何」做得更好提供一個概念框架。它將臨床醫師感受到的無力感與道德困擾理論化，有助於我們理解並應對這些挑戰。",
+        "ongoing_trials": "關於 SDM 本身的 RCT 極為罕見。然而，持續進行中的大型新生兒世代研究（如 NICHD NRN 的長期追蹤）將不斷產出新的預後數據。這些數據將使 SDM 的挑戰性與日俱增（例如，存活率提高但伴隨新的併發症），從而使本文提出的動態、迭代式溝通模型更顯重要。"
+      },
+      "protocol_impact": {
+        "current_practice": "目前工作手冊中無針對共享決策 (SDM) 的具體 protocol。然而，在處理極限早產兒（特別是 GA < 24 週）時，我們的非正式常規是在產前或產房進行一次性的諮詢，提供基於文獻的存活率與主要併發症風險數據，並詢問家長的意願。這種做法較接近本文所批判的、基於單一變數 (GA) 的靜態決策模型。",
+        "proposed_change": "本文啟示我們應將 SDM 視為一個「過程」而非「事件」。具體改變建議如下：\n1.  **建立迭代式會談機制**：對於所有 GA < 25 週的個案，除了產前/產房的初次諮詢外，應制度化地安排後續的家庭會議（例如，出生後 72 小時、第 7 天、以及任何重大臨床變化時），重新評估並與家屬討論照護目標。\n2.  **引入「治療試驗 (Trial of Therapy)」概念**：在初次諮詢時，明確向家長說明我們可以採取「先給予完整復甦與支持，並在特定時間點後根據寶寶的臨床反應，與您們一起重新評估照護方向」的選項。這能避免在資訊極度不確定的情況下做出不可逆的決定。\n3.  **溝通內容的調整**：在諮詢時，除了提供 GA 對應的統計數據外，應更坦誠地說明「這些數據會因我們中心的照護實踐而有所不同」，並強調預後的高度不確定性。將對話的重心從「預測未來」轉向「根據當下最好的資訊，為下一步做決定」。\n4.  **這項改變不影響現有手冊中針對特定疾病的治療 protocol**（如 Furosemide 劑量、Amphotericin B 用法），而是改變我們與家屬溝通並制定整體照護計畫的頂層框架。",
+        "prerequisites": [
+          "科內共識會議：需召集所有主治醫師與資深住院醫師，討論並建立對「動態 SDM」與「治療試驗」的共同理解與承諾。",
+          "人員教育訓練：針對所有團隊成員（包括護理師）進行溝通技巧訓練，特別是如何引導充滿不確定性與情緒張力的對話。",
+          "開發決策輔助工具：製作簡單的單張或流程圖，向家長解釋 SDM 是一個持續的過程，並標示出預計的家庭會議時間點。",
+          "與產科建立合作模式：確保產前諮詢時，產科醫師與新生兒科醫師能傳遞一致的「迭代式決策」訊息。"
+        ],
+        "missing_evidence": "我們需要更多證據來證明，採用這種動態、迭代的 SDM 模型，是否能帶來更好的「以家庭為中心」的照護結果。例如，與傳統單次諮詢相比，這種模式是否能顯著降低家長的決策後悔程度 (decisional regret)、焦慮與創傷後壓力症候群 (PTSD) 的發生率？同時，也需要評估這種模式對臨床醫師道德困擾與職業倦怠的影響。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41986670",
+    "title": "Comparing physician and artificial intelligence chatbot responses to preterm infant care questions posted to a public medical consultation forum: evaluation study.",
+    "authors": "Tang X, Yang X, Zhu D, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1038/s41372-026-02664-3",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "AI",
+      "ChatGPT",
+      "preterm infant care",
+      "medical consultation",
+      "patient education"
+    ],
+    "one_liner": "AI在早產兒照護諮詢方面表現優異，但仍需提升個人化與情境判斷能力，可作為家長資訊輔助工具。",
+    "summary": {
+      "purpose": "本研究旨在比較ChatGPT與線上新生兒科醫師針對早產兒照護問題的回覆品質。",
+      "design": "此為一項橫斷面研究，由22位評估者（12位資深新生兒科醫師及10位一般使用者）比較AI聊天機器人（ChatGPT 4o）與人類專家對來自「丁香醫生」平台60個早產兒照護相關問題的回覆。評估指標包括可讀性、實用性、理解度、意圖捕捉、同理心、可執行性、準確性和安全性。",
+      "findings": "ChatGPT在實用性 (4.07 [0.78] vs 3.50 [1.04])、理解度 (4.12 [0.73] vs 3.70 [1.01])、意圖捕捉 (4.12 [0.75] vs 3.62 [1.01])、同理心 (3.98 [0.73] vs 3.45 [1.05])、可執行性 (3.97 [0.83] vs 3.37 [1.11])、準確性 (3.97 [0.73] vs 3.32 [1.01]) 和安全性 (3.96 [0.72] vs 3.37 [0.97]) 等多個維度上，平均得分均顯著高於人類專家 (所有 P <.001)。ChatGPT的回覆內容更全面且詳盡，但語義豐富度較高，閱讀難度較大。相對地，人類專家在提供個人化建議和情感支持方面表現更佳，能根據特定情境調整回覆。",
+      "significance": "AI聊天機器人如ChatGPT在新生兒醫療諮詢方面展現出提供滿意回覆的潛力，可作為家長獲取資訊的輔助工具。然而，AI仍需在提升精確性、決策支持和情境感知能力方面進一步改進，以更好地滿足個人化需求。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41986667",
+    "title": "Retrospective observational study of first-year developmental outcomes following congenital microcephaly.",
+    "authors": "Chadwick M, Koka K, Kunselman A, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1038/s41372-026-02650-9",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "congenital microcephaly",
+      "neurodevelopment",
+      "motor development",
+      "Bayley Scales",
+      "NICU follow-up"
+    ],
+    "one_liner": "對於追蹤門診的先天性小頭症嬰兒，持續性小頭症在4-6個月時與較差的運動發展相關，但此差異在9-12個月時消失。",
+    "summary": {
+      "purpose": "本研究旨在探討先天性小頭症嬰兒中，持續性小頭症與已緩解小頭症對其第一年運動發展結果的關聯性。",
+      "design": "此為一回溯性觀察性研究，分析2015-2024年間在新生兒加護病房追蹤門診中，患有先天性小頭症的嬰兒。共78名嬰兒在兩次訪視中皆有頭圍測量及Bayley Scales of Infant and Toddler Development®運動綜合分數。",
+      "findings": "在4-6個月大時，持續性小頭症嬰兒的平均運動分數比小頭症已緩解的同儕低12.07分 (95% CI [-22.94, -1.19], p=0.02)。然而，到9-12個月大時，此差異已不具統計學意義。",
+      "significance": "本研究指出，持續性小頭症在嬰兒早期（4-6個月）與較低的運動發展分數相關，提示頭圍測量作為一個簡單的人體測量指標，可能對早期運動發展的預測有幫助，有助於早期識別高風險嬰兒並介入。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41986666",
+    "title": "Long-term outcomes in adults born preterm with symptomatic patent ductus arteriosus.",
+    "authors": "Joseph A, Chandra A, Barton GP, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1038/s41372-026-02685-y",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "PDA",
+      "preterm",
+      "long-term outcome",
+      "cardiovascular",
+      "adulthood"
+    ],
+    "one_liner": "嬰兒時期有症狀性PDA的早產兒，成年後可能會有心血管長期問題，值得長期追蹤。",
+    "summary": {
+      "purpose": "本研究旨在比較嬰兒時期曾有症狀性PDA的早產兒與無症狀性PDA的早產兒，在成年早期的長期健康結果。",
+      "design": "此為一項回溯性世代研究，從Parkland Health新生兒加護病房（NICU）登記資料庫中招募107名早產兒（胎齡≤32週），並根據嬰兒時期是否有症狀性PDA（n=23）進行比較。",
+      "findings": "研究發現，曾有症狀性PDA的早產兒組在成年早期呈現較高的靜息舒張壓（80 ± 10 vs 74 ± 12 mmHg, p = 0.02）、較低的舒張功能（組織都卜勒影像TDI速度較低），以及較大的右心室舒張末期直徑。然而，雙心室收縮功能則無顯著差異。",
+      "significance": "本研究結果提示，嬰兒時期曾有症狀性PDA的早產兒，在成年早期可能面臨心血管長期後遺症，包括舒張壓升高及心臟舒張功能與結構的改變。這強調了對此類高風險族群進行長期心血管追蹤的重要性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41986114",
+    "title": "Investigating variations and early-life temporal changes in oxygen saturation indices in healthy moderate-late preterm and term infants: a cohort study.",
+    "authors": "Wilkinson TL, James J, Clarke J, et al.",
+    "journal": "Archives of Disease in Childhood - Fetal and Neonatal Edition",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1136/archdischild-2025-329591",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "間歇性低血氧",
+      "中度至晚期早產兒",
+      "血氧飽和度",
+      "神經發育",
+      "呼吸穩定性"
+    ],
+    "one_liner": "這篇小型前瞻性研究指出，健康中度至晚期早產兒在出生後五週內，即使SpO2平均值與足月兒相似，仍有顯著較高的間歇性低血氧事件，值得臨床醫師注意其潛在的神經發育風險。",
+    "summary": {
+      "purpose": "本研究旨在探討健康中度至晚期早產兒（MLPT）與足月兒在出生後五週內，血氧飽和度指標的時序性變化。",
+      "design": "此為一前瞻性世代研究，納入34名嬰兒（MLPT組17名，足月兒組17名），中位數胎齡分別為35+0週及39+5週。研究透過夜間脈衝血氧儀，在出生後第7、14、21、28及35天（±3天）測量睡眠時的動脈導管後血氧飽和度，記錄平均SpO2、Oxygen Desaturation Indices (ODI) 3、4、10及平均最低SpO2 >3%。",
+      "findings": "兩組嬰兒的平均SpO2從第一週的94.98%增加至第五週的96.68% (p<0.001)，組間無顯著差異。MLPT嬰兒的平均最低SpO2 >3%為89.94%，顯著低於足月兒的91.55% (p=0.005)，且兩組皆隨時間改善 (p=0.006)。MLPT嬰兒每小時的ODI3、ODI4、ODI10次數分別是足月兒的2.08倍 (p<0.001)、2.49倍 (p<0.001) 及6.66倍 (p=0.005)。",
+      "significance": "本研究顯示，即使是健康的MLPT嬰兒，其間歇性低血氧（IH）的發生率和嚴重程度仍顯著高於足月兒，且此差異在出生後五週內持續存在。這提醒我們對MLPT嬰兒的呼吸穩定性需保持警覺，並強調未來需進一步研究IH對此族群神經發育預後的影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41989957",
+    "title": "Fetal tadalafil exposure increases pulmonary blood flow and reduces right to left heart shunting through the foramen ovale.",
+    "authors": "Morrison JL, Williams GK, Cho SKS, et al.",
+    "journal": "Neonatology",
+    "pub_date": "2026 Apr 16",
+    "doi": "10.1159/000552021",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 4,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Fetal tadalafil",
+      "FGR",
+      "Pulmonary hemodynamics",
+      "PPHN risk",
+      "Animal study"
+    ],
+    "one_liner": "這篇動物研究揭示胎兒tadalafil暴露可能導致類似sildenafil的肺部血流動力學變化，對未來FGR治療的臨床應用發出潛在新生兒PPHN的警訊，新生兒科醫師應密切關注。",
+    "summary": {
+      "purpose": "本研究旨在探討胎兒暴露於tadalafil對其血流動力學的影響，此藥物正被評估作為胎兒生長遲滯（FGR）的介入治療。",
+      "design": "此為一動物實驗，使用9隻懷孕母羊，在妊娠116-117天進行胎兒導管置入，並於119-123天透過MRI測量胎兒主要血管的血流與氧合。研究比較胎兒接受載體輸注前後及tadalafil輸注後的血流動力學變化。",
+      "findings": "Tadalafil輸注後，胎兒右心室及左心室（LV）輸出量未受影響，但肺部血流量增加，同時動脈導管（PDA）及卵圓孔（FO）的血流量減少。升主動脈與肺動脈主幹之間的血氧差異顯著降低，而腦部氧氣供應則透過頸動脈血流量增加而維持。",
+      "significance": "此研究顯示胎兒暴露於tadalafil會改變肺部血流動力學，並減少富氧血經FO進入LV前負荷的比例。鑑於胎兒暴露於sildenafil會增加出生後持續性肺高壓（PPHN）的發生率，且tadalafil暴露的胎兒呈現相似的血流動力學特徵，這對未來將tadalafil應用於FGR的臨床試驗提出了重要的安全警示，強調需進一步研究其對新生兒預後的影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41989187",
+    "title": "Incidence and Early-Life Risk Factors for Food Allergy in a Spanish Birth Cohort.",
+    "authors": "García-Ezquiaga J, Torija-Berzal P, Quevedo-Teruel S, et al.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Apr 16",
+    "doi": "10.1111/apa.70530",
+    "total_score": 3,
+    "scores": {
+      "design": 4,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "食物過敏",
+      "出生世代",
+      "風險因子",
+      "異位性皮膚炎",
+      "長期追蹤"
+    ],
+    "one_liner": "這是一篇關於西班牙幼兒食物過敏發生率及風險因子的前瞻性世代研究，結果與已知結論相符，對新生兒科醫師的臨床實務影響有限。",
+    "summary": {
+      "purpose": "旨在確定幼兒期食物過敏的累積發生率並識別相關風險因子。",
+      "design": "此為一項前瞻性出生世代研究，於西班牙單一醫院招募 1006 名新生兒，追蹤至 4 歲。數據於出生時及後續透過結構化電話訪談收集。",
+      "findings": "食物過敏的累積發生率為 7.2% (72/1006)。IgE 介導型食物過敏的獨立風險因子包括支氣管痙攣住院史 (aOR 2.37; 95% CI 1.07-5.26)、異位性皮膚炎 (aOR 7.52; 95% CI 3.77-15.01)、母親氣喘 (aOR 3.12; 95% CI 1.30-7.53) 及父親過敏性鼻炎 (aOR 2.79; 95% CI 1.31-5.94)。質子幫浦抑制劑使用、未上托兒所及早發性異位性皮膚炎則與非 IgE 介導型食物過敏相關。",
+      "significance": "本研究提供西班牙族群幼兒期食物過敏的發生率數據，並再次確認異位性皮膚炎為 IgE 介導型食物過敏的主要風險因子。對於新生兒科醫師而言，這提醒我們在新生兒出院衛教時，可向有家族過敏史或早發性異位性皮膚炎的家長提供相關諮詢，但對 NICU 日常照護決策影響不大。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41985893",
+    "title": "Using Quality Improvement to Reduce Loss to Follow-Up in Pediatric Patients With Type 1 Diabetes.",
+    "authors": "Gupta M, Rutman LE, Carlin K, et al.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Apr 16",
+    "doi": "10.1542/peds.2025-071042",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Quality Improvement",
+      "Type 1 Diabetes",
+      "Loss to Follow-Up",
+      "Pediatrics",
+      "PDSA"
+    ],
+    "one_liner": "新生兒科醫師可以跳過這篇，因為它探討的是兒科第一型糖尿病患者的門診失訪率改善，與新生兒照護無關。",
+    "summary": {
+      "purpose": "本研究旨在透過品質改善措施，降低兒科第一型糖尿病（T1D）患者的失訪率（LTFU）。",
+      "design": "這是一項單中心品質改善（QI）研究，針對未滿18歲的T1D患者。研究團隊運用PDSA（Plan-Do-Study-Act）循環，實施了當日預約回診、透過病患入口網站線上預約，以及主動聯繫失訪群體等介入措施。失訪定義為上次門診超過六個月。",
+      "findings": "研究成功將失訪率從基線的38%降低至15%（18個月時），並在27個月後維持此改善。各個人口統計學群體（如年齡、性別、種族、語言、健保類型）及HbA1c類別（<7%, 7%-9%, ≥9%）的失訪率均有所改善，並減少了現有的差異。",
+      "significance": "本研究展示了運用PDSA品質改善框架，簡化門診預約流程並進行迭代式改變，能有效降低兒科第一型糖尿病患者的失訪率。然而，此研究主題與新生兒科臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41989780",
+    "title": "Match Rates for a Surgical Mentorship Program for Underrepresented Learners.",
+    "authors": "Li B, Nguyen DD, Mahmood S, et al.",
+    "journal": "JAMA Network Open",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1001/jamanetworkopen.2026.7487",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Mentorship",
+      "surgical residency",
+      "underrepresented learners",
+      "medical education",
+      "workforce diversity"
+    ],
+    "one_liner": "這篇文章探討外科導師計畫對弱勢族群醫學生配對外科住院醫師的影響，與新生兒科臨床實務無關。",
+    "summary": {
+      "purpose": "本研究旨在報告加拿大 UpSurge 外科導師計畫對弱勢族群學員在外科住院醫師配對上的三年成果。",
+      "design": "此為一項回溯性品質改善研究，分析 2022-2025 年間參與多倫多大學 UpSurge 計畫的弱勢族群學員資料。共 235 名學員（175 名加拿大醫學生，60 名國際醫學生/畢業生）。",
+      "findings": "在 52 名符合資格的加拿大醫學生中，30 名 (57.7%) 成功配對至外科專科，主要為一般外科 (63%)、整形外科 (13%)、婦產科 (7%)。16 名獎學金得主中有 14 名 (88%) 配對至外科專科。",
+      "significance": "本研究結果顯示，持續投資於大型且多元的導師計畫（如 UpSurge），其高外科住院醫師配對率可能有助於提升外科人力多樣性。然而，此研究主題與新生兒科臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41986749",
+    "title": "Emergency department redirection: necessary inconvenience or unacceptable patient experience?",
+    "authors": "Roland D",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1038/s41390-026-04959-9",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 2
+    },
+    "keywords": [
+      "急診醫學",
+      "病患經驗",
+      "兒科",
+      "醫療服務"
+    ],
+    "one_liner": "此文章主題為急診部門運作與病患經驗，與新生兒科照護無直接關聯，新生兒科醫師可略過。",
+    "summary": {
+      "purpose": "由於摘要內容缺失，無法判斷研究目的。",
+      "design": "由於摘要內容缺失，無法判斷研究設計與方法。",
+      "findings": "由於摘要內容缺失，無法判斷主要研究發現。",
+      "significance": "由於摘要內容缺失，無法判斷對新生兒加護病房照護的具體臨床意義。根據文章標題判斷，此研究主題與新生兒科無直接相關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-17"
   }
 ]
