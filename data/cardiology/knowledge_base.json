@@ -8074,5 +8074,293 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-17"
+  },
+  {
+    "pmid": "41993018",
+    "title": "The Natural History of Massive Left Ventricular Hypertrophy in Pediatric Hypertrophic Cardiomyopathy: A Multiregistry Analysis.",
+    "authors": "Przybylski R, Norrish G, Claggett B, et al.",
+    "journal": "Circulation",
+    "pub_date": "2026 Apr 17",
+    "doi": "10.1161/CIRCULATIONAHA.126.078843",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "pediatric HCM",
+      "massive LVH",
+      "sudden cardiac death",
+      "heart failure",
+      "prognosis"
+    ],
+    "one_liner": "這篇研究揭示了兒童肥厚性心肌病變中大規模左心室肥厚患者的自然病程與高風險特徵，對新生兒科醫師而言，可作為新生兒期 HCM 評估與諮詢的間接參考。",
+    "summary": {
+      "purpose": "研究大規模左心室肥厚 (massive LVH) 在兒童肥厚性心肌病變 (pediatric HCM) 中的自然病程，並評估其與不良心臟事件的關聯。",
+      "design": "本研究為多中心回溯性世代分析，納入來自 SHaRe 和 IPHCC 兩個登錄資料庫的 587 名兒童 HCM 患者（其中 186 名有 massive LVH），年齡小於 18 歲。研究比較了有或無 massive LVH 的患者，並追蹤其臨床、人口學及 MLVWT 數據，使用 Cox 比例風險模型進行時間-事件分析。",
+      "findings": "診斷為 massive LVH 的兒童 HCM 患者年齡較輕 (中位數 9.2 歲 vs. 13.6 歲; P<0.001)，且 sarcomeric 基因變異更為常見 (72% vs. 61%; P=0.034)。這些患者發生 HCM 相關死亡 (unadjusted HR 3.3; 95% CI 1.2-9.7; P=0.026)、主要不良心臟事件 (HR 2.6; 95% CI 1.7-3.9; P<0.001)、主要心室心律不整 (HR 3.1; 95% CI 1.8-5.2; P<0.001) 及心臟衰竭 (HR 1.9; 95% CI 1.1-3.1; P=0.013) 的風險顯著增加。在 115 名有連續 MLVWT 數據的 massive LVH 患者中，約 22% 觀察到 MLVWT 顯著消退 (>5 mm)。",
+      "significance": "本研究闡明了兒童 HCM 中 massive LVH 的預後特徵，指出其與早期診斷、特定基因型及更高的不良心臟事件風險相關。雖然主要針對兒童族群，但對於新生兒期可能診斷出 HCM 的個案，其預後資訊仍具參考價值，有助於臨床醫師評估風險並提供家屬諮詢，尤其在基因檢測和長期追蹤方面。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇大型跨國登錄資料庫研究指出，兒童期診斷為 massive LVH 的肥厚性心肌病變 (HCM) 患者，預後顯著較差，其 HCM 相關死亡風險增加 3.3 倍 (HR 3.3)，主要不良心臟事件風險增加 2.6 倍 (HR 2.6)。這群病人診斷年齡更輕 (中位數 9.2 歲，25% < 2.1 歲)，且更常帶有 sarcomeric 基因變異。儘管如此，約有 22% 的患者在追蹤過程中，左心室壁厚度出現有意義的消退，這為家屬諮詢提供了重要的預後資訊。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 將所有 <18 歲的患者混為一談，但新生兒/嬰兒族群的數據被平均值掩蓋。Massive LVH 組的中位診斷年齡為 9.2 歲，但其四分位距 (IQR) 為 2.1-13.1 歲，這表示有四分之一的患者是在 2.1 歲前診斷的。這個早發族群的自然病程與風險，可能與青少年期發病的患者截然不同。",
+          "source": "Abstract Results section, analysis of age at diagnosis.",
+          "implication": "對於我們 NICU 診斷出的 HCM 新生兒，直接套用整體世代的 HR 3.3 可能不準確。我們需要知道嬰兒期發病者的特定風險，這對家屬諮詢的精準度至關重要。閱讀全文時，必須尋找針對年齡亞群 (例如 <1 歲或 <2 歲) 的分析。"
+        },
+        {
+          "finding": "Massive LVH 的定義包含兩種標準：絕對厚度 (MLVWT ≥30 mm) 或 Z-score (≥+20)。新生兒或嬰兒幾乎不可能達到 30 mm 的絕對厚度，因此他們必然是透過 Z-score >+20 來納入。這代表研究中的低齡與高齡族群，其納入標準的基礎本質上就不同。",
+          "source": "Abstract Methods section, definition of massive LVH.",
+          "implication": "這可能是一個重要的混淆變項。單純因體型小而符合 Z-score 標準的嬰兒，其病理生理和預後是否等同於一個因極度肥厚而達到 30mm 的青少年？全文應提供依據不同定義標準分層的結果，否則研究結論對嬰兒的適用性存疑。"
+        },
+        {
+          "finding": "Abstract 未區分 HCM 的具體病因。雖然提到了 sarcomeric 基因變異較為普遍，但並未提及其他在新生兒科常見的成因，例如 Noonan syndrome 等 RASopathies，或是母親為糖尿病患者 (IDM) 造成的暫時性心肌肥厚。",
+          "source": "Abstract Results section, mention of sarcomeric variants.",
+          "implication": "如果研究中包含了 IDM 的個案，其預後良好的自然病程（通常會自行消退）可能會稀釋 massive LVH 的真實風險。在評估我們 NICU 的病人時，必須釐清其 HCM 的根本原因，因為 syndromic HCM 或 IDM 相關心肌肥厚的預後，可能與本研究中以 sarcomeric 為主體的世代有很大差異。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "樣本數大：對於兒童罕見心臟病，能從兩個大型國際登錄資料庫整合 587 名患者，是非常大的樣本數。",
+          "長期追蹤：資料庫時間跨度長 (最早從 1960 年代開始)，提供了觀察長期自然病程的機會。",
+          "明確的 outcome 定義：主要心血管事件 (MACE)、心室心律不整、心衰竭等都有清楚的操作型定義。"
+        ],
+        "notes": [
+          "研究設計：這是一項回溯性世代研究，而非 RCT，因此僅能顯示關聯性，無法證明因果關係。",
+          "資料完整性：在 massive LVH 組中，只有 62% (115/186) 的患者有連續的 MLVWT 數據可供分析，這可能產生選擇性偏誤 (selection bias)。",
+          "世代效應 (Cohort effect)：橫跨數十年的資料收集，診斷工具 (如心臟超音波技術) 和治療標準 (如 beta-blockers 的使用、ICD 置放時機) 已有巨大變革，可能影響結果。"
+        ],
+        "weaknesses": [
+          "潛在的混淆變項：雖然校正了年齡和性別，但對於治療方式（藥物、手術）、特定基因型、或是否為症候群相關 HCM 等重要預後因子並未提及校正，可能存在殘餘混淆 (residual confounding)。",
+          "回溯性資料的限制：登錄資料庫的品質和完整性不一，可能存在測量偏差或資料缺漏。",
+          "失訪率未知：Abstract 未提及 long-term follow-up 的失訪率，高失訪率會嚴重影響 time-to-event analysis 的可信度。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "AHA/ACC Guideline for the Diagnosis and Treatment of Patients With Hypertrophic Cardiomyopathy (e.g., Ommen SR et al. 2020, Circulation)",
+            "comparison": "現行指引已將 massive LVH (通常定義為 ≥30 mm) 列為成人猝死風險評估的重要因子。本研究的價值在於將此概念延伸至兒童，並使用 Z-score 來標準化，更重要的是提供了量化的風險數據 (HRs) 來支持此論點。"
+          },
+          {
+            "citation": "Studies on transient myocardial hypertrophy in infants of diabetic mothers (IDM)",
+            "comparison": "與本研究探討的持續性、多為基因性的 HCM 不同，IDM 的心肌肥厚通常是暫時性的，預後良好。本研究的結果不應直接外推至 IDM 嬰兒，兩者是完全不同的臨床情境。"
+          }
+        ],
+        "guideline_status": "美國心臟協會 (AHA) 和美國心臟病學會 (ACC) 的 HCM 指引，已將 massive LVH 視為成人猝死的主要風險因子之一，並以此決定是否需置放 ICD。本研究提供了強力的證據，支持在兒童族群中也應將 massive LVH (特別是 Z-score 極高者) 視為高風險指標。",
+        "evidence_gap_filled": "本研究首次大規模地描繪了兒童 massive LVH 的自然病程，量化了其與不良心血管事件的關聯強度，並發現了近四分之一患者心室壁厚度可能顯著消退的現象，填補了兒科 HCM 風險分層的重要知識缺口。",
+        "ongoing_trials": "針對 HCM 的新型藥物如 mavacamten (cardiac myosin inhibitor) 已在成人取得成功，針對兒童的臨床試驗正在進行或規劃中。本研究定義出的高風險族群，未來可能成為這些新藥物試驗的優先對象。"
+      },
+      "protocol_impact": {
+        "current_practice": "當 NICU 新生兒因心雜、呼吸窘迫或家族史等原因經心臟超音波診斷為 HCM 時，標準做法是：1. 立即會診小兒心臟科。2. 評估是否有血流動力學不穩或左心室出口阻塞 (LVOTO)。3. 若有 LVOTO，謹慎使用 beta-blockers (如 propranolol 0.5-1 mg/kg/day 分次給予)。4. 安排基因檢測及症候群評估 (如 Noonan syndrome)。5. 對家屬的預後諮詢通常較為保守，強調需長期追蹤。",
+        "proposed_change": "本研究結果不會改變急性期的處置，但會顯著影響我們的「風險分層」和「家屬諮詢」策略：\n1.  **強化諮詢內容**：對於超音波顯示 MLVWT Z-score ≥+20 的新生兒，我們應更明確地告知家屬，根據現有證據，這屬於高風險族群，未來發生心律不整或心衰竭的機率較高。同時，也要傳達約有 22% 患者可能改善的正面訊息，避免造成絕望。\n2.  **強調基因檢測的重要性**：本研究顯示 massive LVH 與 sarcomeric 基因變異高度相關，這強化了我們說服家屬進行基因檢測的力道，有助於確定診斷及家族諮詢。\n3.  **制定更積極的追蹤計畫**：與小兒心臟科協同，為這群 Z-score 極高的嬰兒制定更密集的心臟功能、心律監測計畫。",
+        "prerequisites": [
+          "與本科及小兒心臟科同仁召開聯合討論會，建立對 massive LVH Z-score ≥+20 為高風險指標的共識。",
+          "更新或製作給家屬的 HCM 衛教單張，納入本研究提供的量化風險與預後資訊。",
+          "確保基因檢測流程順暢，並建立遺傳諮詢的轉介管道。"
+        ],
+        "missing_evidence": "我們仍迫切需要針對「新生兒及嬰兒期發病」的 massive LVH 亞群進行獨立分析的數據，以確認本研究的總體風險評估是否適用於我們最年幼的病人。此外，本研究未提及神經發展預後 (neurodevelopmental outcome)，這對於所有 NICU 的重症寶寶都是我們最關心的長期指標之一。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-18"
+  },
+  {
+    "pmid": "41995823",
+    "title": "Surgical and Catheter-Based Intervention in Pediatric Pulmonary Vein Stenosis.",
+    "authors": "Takajo D, Critser PJ, Ashfaq A, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 17",
+    "doi": "10.1007/s00246-026-04266-4",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "PVS",
+      "pulmonary vein stenosis",
+      "congenital heart disease",
+      "cardiac intervention",
+      "pediatric cardiology"
+    ],
+    "one_liner": "這篇研究探討兒童肺靜脈狹窄的手術與導管介入治療策略，發現兩者再介入率均高，但其患者群體主要為較大嬰兒及兒童，對新生兒科醫師的直接參考價值較低。",
+    "summary": {
+      "purpose": "本研究旨在評估兒童肺靜脈狹窄 (PVS) 的初始治療策略（手術或導管介入）的療效與預後，因其最佳治療方案仍不明確。",
+      "design": "這是一項回溯性、單中心研究，分析了2015年至2023年間56名雙心室生理學兒童 PVS 患者的資料。研究比較了僅接受導管介入治療的患者與至少接受一次手術修復的患者的結果。手術組患者的中位年齡為9個月 (IQR 4-20)。",
+      "findings": "56名患者中，16名 (29%) 接受手術修復，40名 (71%) 僅接受導管介入。手術修復在雙側或複雜性 PVS 患者中更常見，尤其是在無早產史或合併其他需開心手術的先天性心臟病 (CHD) 患者。92% 的手術患者需要再介入，多數在術後一年內。兩組間死亡率無顯著差異 (p=0.294)。手術組中，右心室 (RV)/體循環收縮壓比值升高 (HR: 1.25, p=0.048) 和鐮刀綜合症 (scimitar syndrome) (HR: 8.25, p=0.011) 與死亡率增加相關。",
+      "significance": "肺靜脈手術修復仍是重要選項，特別是當導管介入因解剖學挑戰或多條肺靜脈嚴重受累而不可行時。然而，無論初始治療方式為何，肺靜脈再介入的發生率都很高。這篇研究的患者群體主要為較大嬰兒及兒童，且手術組排除早產兒，因此對新生兒科日常照護決策的直接影響有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-18"
+  },
+  {
+    "pmid": "41995824",
+    "title": "Transjugular Liver Biopsy in Children Undergoing Fontan Surgery: Safety and Comparison of Fibrosis Grade with Non-invasive Tests.",
+    "authors": "Del Álamo Peña R, Tolín Hernani MDM, Miranda Cid C, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 17",
+    "doi": "10.1007/s00246-026-04260-w",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Fontan surgery",
+      "liver biopsy",
+      "liver fibrosis",
+      "congenital heart disease",
+      "pediatric cardiology"
+    ],
+    "one_liner": "這篇研究主題與新生兒照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本研究旨在評估對接受 Fontan 手術的兒童進行經頸靜脈肝臟切片檢查的安全性，並比較其纖維化分級與非侵入性檢查的結果。",
+      "design": "由於缺乏摘要內容，研究設計無法明確判斷，但從標題推測可能為回溯性或前瞻性世代研究，探討經頸靜脈肝臟切片在 Fontan 術後兒童的應用。研究對象為已接受 Fontan 手術的兒童，因此未提及新生兒的 GA 範圍或出生體重，亦無樣本數資訊。",
+      "findings": "由於缺乏摘要內容，無法提供具體發現和統計數據。",
+      "significance": "本研究主題主要關注接受 Fontan 手術的兒童的長期心臟和肝臟併發症，與新生兒加護病房（NICU）的日常照護決策無直接相關性。對於新生兒科醫師而言，其臨床意義有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-18"
+  },
+  {
+    "pmid": "41995822",
+    "title": "Kawasaki Disease-Related Mortality in Arab Countries: A Multinational Physician Survey from the Kawasaki Disease Arab Initiative (Kawarabi).",
+    "authors": "Al Haddad H, Choueiter N, Harahsheh AS, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 17",
+    "doi": "10.1007/s00246-026-04265-5",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 4
+    },
+    "keywords": [
+      "Kawasaki Disease",
+      "mortality",
+      "physician survey",
+      "pediatrics"
+    ],
+    "one_liner": "本研究探討川崎病相關死亡率，與新生兒科照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "根據標題判斷，本研究旨在調查阿拉伯國家川崎病相關死亡率。",
+      "design": "根據標題判斷，研究設計為多國醫師問卷調查，具體樣本數與受訪醫師專業領域不明。",
+      "findings": "抽象內容缺失，無法提供具體發現。",
+      "significance": "本研究主題為川崎病，主要影響嬰幼兒而非新生兒，對新生兒加護病房 (NICU) 的日常照護決策無直接臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-18"
+  },
+  {
+    "pmid": "41995821",
+    "title": "Leaflet Length is a Reliable Measure of Aortic Valve Growth.",
+    "authors": "Nissen TE, Chung S, Brown AW, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 17",
+    "doi": "10.1007/s00246-026-04262-8",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "aortic valve",
+      "cardiac growth",
+      "pediatric cardiology",
+      "measurement"
+    ],
+    "one_liner": "本研究主題為心臟瓣膜生長測量，與新生兒重症照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本研究標題為「Leaflet Length is a Reliable Measure of Aortic Valve Growth」，推測其目的為評估瓣膜長度作為主動脈瓣膜生長可靠測量方式的有效性。由於摘要缺失，無法提供更具體的研究目的。",
+      "design": "摘要缺失，無法判斷具體研究設計、GA範圍、出生體重及樣本數。根據標題推測，可能為回溯性世代研究或資料庫分析，以評估測量方法的可靠性或瓣膜生長模式。",
+      "findings": "摘要缺失，無法提供主要發現及關鍵數據。",
+      "significance": "由於摘要缺失，且根據標題判斷，本研究主題為心臟瓣膜生長測量，與新生兒重症照護無直接相關性。若研究對象非新生兒或早產兒，則對NICU臨床決策無具體影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-18"
+  },
+  {
+    "pmid": "41995644",
+    "title": "Interchangeability of the KCCQ-12 and KCCQ-23 Across >18,000 Participants Enrolled in 4 Large-Scale Trials of Heart Failure.",
+    "authors": "Hamatani Y, Claggett BL, Desai AS, et al.",
+    "journal": "Journal of the American College of Cardiology",
+    "pub_date": "2026 Mar 16",
+    "doi": "10.1016/j.jacc.2026.03.026",
+    "total_score": 2,
+    "scores": {
+      "design": 5,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟衰竭",
+      "患者自評結果",
+      "問卷評估",
+      "HFmrEF/HFpEF"
+    ],
+    "one_liner": "這篇研究與新生兒照護完全無關，新生兒科醫師可直接跳過。",
+    "summary": {
+      "purpose": "本研究旨在探討KCCQ-12與KCCQ-23兩種心臟衰竭患者自評問卷在射血分數輕度降低或保留型心臟衰竭 (HFmrEF/HFpEF) 成人患者中的可互換性。",
+      "design": "這是一項針對四個隨機臨床試驗 (TOPCAT, PARAGON-HF, DELIVER, FINEARTS-HF) 進行的參與者層級統合分析，共納入18,216名平均年齡72 ± 9歲的成人HFmrEF/HFpEF患者。",
+      "findings": "研究發現，KCCQ-12整體摘要分數 (OSS) 與KCCQ-23 OSS高度相關 (Spearman ρ = 0.987)，且在預後判斷心血管死亡和心臟衰竭住院方面表現相當 (C index: KCCQ-23 0.583 vs KCCQ-12 0.586)。此外，兩種問卷對心臟衰竭藥物的治療效果反應也相似 (差異皆小於1點)。",
+      "significance": "本研究主題為成人心臟衰竭患者的問卷評估，與新生兒科的臨床照護、早產兒照護、新生兒重症醫學或長期發育追蹤完全無關，因此對新生兒科醫師沒有直接的臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-18"
+  },
+  {
+    "pmid": "41996392",
+    "title": "Latent outflow tract obstruction in hypertrophic cardiomyopathy: the diagnostic role of postprandial echocardiography.",
+    "authors": "Menzà G, Leuzzi C, Navazio A",
+    "journal": "European Heart Journal",
+    "pub_date": "2026 Apr 17",
+    "doi": "10.1093/eurheartj/ehag282",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "無法判斷",
+      "Hypertrophic cardiomyopathy",
+      "Outflow tract obstruction",
+      "Echocardiography"
+    ],
+    "one_liner": "此處抽象內容（abstract）缺失，無法進行完整評估。根據標題判斷，此研究主題與新生兒科的直接相關性極低，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "此處抽象內容（abstract）缺失，無法判斷研究目的。根據文章標題，研究可能探討肥厚性心肌病變（hypertrophic cardiomyopathy）中潛在流出道阻塞（latent outflow tract obstruction）的診斷，特別是餐後心臟超音波（postprandial echocardiography）的角色。",
+      "design": "此處抽象內容（abstract）缺失，無法判斷研究設計與方法。",
+      "findings": "此處抽象內容（abstract）缺失，無法判斷主要發現。",
+      "significance": "此處抽象內容（abstract）缺失，無法判斷對NICU照護的具體臨床意義。根據文章標題，此研究主題與新生兒科的直接相關性極低，因其描述的診斷挑戰（潛在流出道阻塞、餐後超音波）更常與成人或年長兒童心臟病學相關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-18"
   }
 ]
