@@ -8362,5 +8362,71 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-18"
+  },
+  {
+    "pmid": "41997521",
+    "title": "Analysis of the first 1,000 operations performed by a local surgical cardiac team in Ethiopia: challenges faced and lessons learned.",
+    "authors": "Agwar FD, Tamerat LY, Ali JM, et al.",
+    "journal": "Annals of Thoracic Surgery",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1016/j.athoracsur.2026.03.072",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "全球健康",
+      "心臟外科",
+      "資源有限",
+      "服務發展",
+      "衣索比亞"
+    ],
+    "one_liner": "這是一篇關於在資源有限地區建立心臟外科服務的經驗報告，對新生兒科醫師而言，臨床相關性極低，可略過。",
+    "summary": {
+      "purpose": "本研究旨在報告衣索比亞首個由當地團隊執行的一千例心臟手術經驗，重點關注實施經驗、服務發展及結果。",
+      "design": "本研究為回溯性描述性世代研究，分析衣索比亞阿迪斯阿貝巴一間醫院於2017年6月至2025年1月間，由同一當地團隊執行的1,000例連續心臟手術。研究對象包括風濕性瓣膜疾病及先天性心臟病患者，未特別提及新生兒。",
+      "findings": "主要發現包括風濕性瓣膜疾病佔42.4%，先天性心臟病佔40.7%。30天總死亡率為2.9%，永久性心臟節律器植入率為0.2%。研究指出主要挑戰為耗材取得受限、術中經食道心臟超音波不足、加護病房容量受限、就診時疾病已晚期，以及公眾與專業人員的猶豫。緩解策略包括分階段風險分層病例選擇、標準化流程、公眾參與及建立當地慈善平台。",
+      "significance": "本研究顯示在資源有限的環境中，可成功建立並擴展由當地主導的心臟外科服務，並取得可接受的結果。這對於全球健康領域中，提升低收入國家醫療服務能力具有重要意義，但與新生兒科的日常臨床照護決策無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-19"
+  },
+  {
+    "pmid": "41997312",
+    "title": "Bridging Therapy and Residual Pulmonary Hypertension After Pulmonary Endarterectomy: Unmet Needs in Evidence and Clinical Decision-Making.",
+    "authors": "Pagnoni G, Vicenzi A, Coppi F",
+    "journal": "Journal of Heart and Lung Transplantation",
+    "pub_date": "2026 Apr 15",
+    "doi": "10.1016/j.healun.2026.04.015",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "成人心臟學",
+      "成人肺臟學",
+      "肺動脈高壓",
+      "肺動脈內膜切除術",
+      "非新生兒"
+    ],
+    "one_liner": "新生兒科醫師可以跳過這篇，因為其主題與新生兒照護無關。",
+    "summary": {
+      "purpose": "本文探討肺動脈內膜切除術後之過渡性治療及殘餘肺動脈高壓，並指出其證據與臨床決策的未滿足需求。",
+      "design": "由於缺乏摘要內容，無法評估研究設計與方法。",
+      "findings": "由於缺乏摘要內容，無法得知主要研究發現。",
+      "significance": "本文主題為成人肺動脈高壓及相關手術，與新生兒科照護無直接臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-19"
   }
 ]
