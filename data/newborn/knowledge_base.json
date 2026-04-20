@@ -16342,5 +16342,233 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-20"
+  },
+  {
+    "pmid": "42008246",
+    "title": "Cerebral Oximetry in Extremely Preterm Infants: 2-Year Follow-Up of the SafeBoosC-III Randomized Clinical Trial.",
+    "authors": "Rasmussen MIS, Hansen ML, Pellicer A, et al.",
+    "journal": "JAMA Pediatrics",
+    "pub_date": "2026 Apr 20",
+    "doi": "10.1001/jamapediatrics.2026.1066",
+    "total_score": 5,
+    "scores": {
+      "design": 5,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 5
+    },
+    "keywords": [
+      "cerebral oximetry",
+      "extremely preterm",
+      "neurodevelopmental outcome",
+      "RCT",
+      "SafeBoosC-III"
+    ],
+    "one_liner": "這篇大型RCT顯示，極度早產兒出生後72小時內常規使用腦部血氧飽和度監測，並不能改善2歲時的死亡或神經發育預後，新生兒科醫師可將此納入臨床決策考量。",
+    "summary": {
+      "purpose": "旨在評估極度早產兒出生後72小時內使用腦部血氧飽和度監測引導治療，是否能降低2歲校正年齡時的死亡或長期神經發育不良風險。",
+      "design": "這是一項多中心（17個國家70個中心）、隨機對照第三期臨床試驗 (SafeBoosC-III)，比較出生後72小時內腦部血氧飽和度監測引導治療與常規照護。共隨機分配1601名嬰兒，其中1438名嬰兒（平均胎齡26.0週）參與2年追蹤評估。",
+      "findings": "腦部血氧飽和度監測組與常規照護組在2歲校正年齡時，死亡或中度/重度神經發育不良的發生率無顯著差異（47.1% vs 48.0%；相對風險 0.96, 97.5% CI 0.85-1.07, P=0.45）。兩組的Bayley認知複合分數亦無顯著差異（92.8 vs 93.2；平均差異 -0.14, 97.5% CI -3.24 to 2.96, P=0.92）。",
+      "significance": "此研究結果不支持在極度早產兒出生後72小時內常規使用腦部血氧飽和度監測，以期降低2歲校正年齡時的死亡或神經發育不良。這對NICU的常規照護決策具有重要參考價值，避免不必要的介入。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "SafeBoosC-III 的兩年追蹤結果顯示，在小於28週的極度早產兒出生後72小時內，使用腦血氧監測 (NIRS) 引導治療，並未降低2歲時死亡或中/重度神經發育不良的複合風險 (47.1% vs 48.0%)。兩組的 Bayley 認知分數也無顯著差異。這個大型、高品質的 RCT 結果，不支持我們為了改善長期神經預後而常規使用 NIRS。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 僅報告整體平均 GA (26.0 週) 的結果，但 NIRS 的潛在效益可能因胎齡而異。在全文中需特別檢視是否有 GA 亞群分析 (e.g., <24週 vs. 24-25週 vs. 26-27週) 的結果。最脆弱的嬰兒族群（<24週）的腦血流自動調節能力最差，理論上可能從 NIRS 監測中獲益最大，但這類 post-hoc 分析的結果需謹慎解讀。",
+          "source": "閱讀全文時應在 Results section 的 subgroup analysis 或 Supplementary Appendix 中尋找此類數據。",
+          "implication": "如果結果顯示對特定 GA 亞群有效，我們可能會考慮選擇性使用，而非完全放棄此技術。反之，若所有亞群皆無效，則更強化了不需常規使用的結論。"
+        },
+        {
+          "finding": "Abstract 未詳述 NIRS 數值超出目標範圍 (55-85%) 時的具體治療流程 (treatment algorithm)。例如，當 rScO2 <55% 時，團隊是優先調整 FiO2、增加 PEEP、給予 fluid bolus、還是使用 inotrope？",
+          "source": "這必須在全文的 Methods section 或研究計畫書 (protocol) 中尋找。",
+          "implication": "介入措施的標準化程度與積極性，會直接影響研究結果。若介入措施不夠力或各中心執行差異過大，可能導致陰性結果，這反映的是「此特定介入流程無效」，而非「NIRS 監測本身無用」。"
+        },
+        {
+          "finding": "主要複合終點「中度或重度神經發育不良」的具體定義未在 abstract 中說明。這通常包括 Bayley 分數 <85、腦性麻痺 (GMFCS ≥ II)、重度聽損或視損。不同定義會影響事件率和結論的普遍性。",
+          "source": "需在全文的 Methods section 中確認主要終點的詳細定義標準。",
+          "implication": "了解確切定義有助於我們將研究結果與其他大型早產兒追蹤研究（如 SUPPORT, COT）進行比較，並評估其對我們追蹤門診評估標準的適用性。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "大型多中心國際性 RCT，樣本數足夠 (N=1601)，具備高度的外部效度 (generalizability)。",
+          "主要預後評估由受過訓練且對分組不知情的評估者 (blinded assessors) 進行，可最大限度地減少評估偏誤 (detection bias)。",
+          "研究計畫書預先註冊 (NCT05134116)，降低了 outcome reporting bias 和 p-hacking 的風險。"
+        ],
+        "notes": [
+          "追蹤率良好：1438/1601 (89.8%) 的個案完成2年追蹤，在早產兒長期追蹤研究中屬於高品質，增加了結果的可信度。",
+          "神經發育評估工具：使用 Bayley cognitive composite score，這是此領域的黃金標準之一，但 abstract 未指明是 Bayley-III 或最新的 Bayley-4。",
+          "BPD 定義：此研究的主要終點是2歲預後，因此 BPD 的定義與分級並非其核心，但在分析次要終點或合併症時，了解其使用的 BPD 定義（如 NICHD 2001 或 Jensen 2019 physiological definition）仍有其價值，需在全文中確認。"
+        ],
+        "weaknesses": [
+          "介入措施無法對臨床團隊致盲 (unblinded intervention)，這是此類研究不可避免的限制。實驗組的照護團隊知道他們正在使用 NIRS，可能產生霍桑效應 (Hawthorne effect)，給予額外的關注，儘管最終結果顯示這並未帶來好處。",
+          "「常規照護 (usual care)」在17個國家70個中心之間必然存在巨大差異，這會增加對照組結果的變異性 (heterogeneity)，可能掩蓋了介入措施的微小效果。",
+          "Center effect：不同中心的照護品質和對 protocol 的遵循度可能不同，這可能影響結果，需要在全文中尋找相關的敏感性分析。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Plomgaard AM et al. (SafeBoosC-III), NEJM, 2023",
+            "comparison": "這是同一個 SafeBoosC-III trial 的短期預後報告。該研究顯示 NIRS 組在36週 PMA 時的「死亡或嚴重腦部損傷」複合終點上沒有顯著差異。本篇2年追蹤報告是其長期神經發育結果，結論一致，更具臨床意義。"
+          },
+          {
+            "citation": "SUPPORT Study Group, NEJM, 2010",
+            "comparison": "SUPPORT trial 探討了極度早產兒的目標血氧飽和度 (85-89% vs. 91-95%) 對預後的影響。雖然介入方式不同（周邊血氧 vs. 腦血氧），但目標都是透過優化氧氣輸送來達到神經保護。SUPPORT 顯示較高血氧目標雖降低死亡率，但增加了 ROP 風險。SafeBoosC-III 試圖用更精準的腦部指標來指導治療，但最終未能證明其優越性。"
+          },
+          {
+            "citation": "Pellicer A et al. (SafeBoosC-II), Lancet Neurol, 2016",
+            "comparison": "SafeBoosC-II 是一個較小型的 phase II RCT，顯示 NIRS 監測能減少腦部缺氧負荷 (burden of hypoxia)。當時的結果燃起了希望，促成了這次更大規模的 phase III 試驗。然而，phase III 的結果未能將生理指標的改善轉化為臨床預後的改善。"
+          }
+        ],
+        "guideline_status": "目前不論是美國兒科學會 (AAP) 或歐洲新生兒學會，都沒有常規建議在極度早產兒中使用 NIRS 進行神經保護。臨床使用多基於個別單位經驗或特定臨床情境（如 HIE、心臟手術後）。本研究的高品質陰性結果，將更強化「不建議常規使用」的立場。",
+        "evidence_gap_filled": "本研究填補了「早期 NIRS 監測引導治療是否能改善極度早產兒長期神經發育」這個關鍵的 evidence gap。過去多為觀察性研究或小型試驗，此大型 RCT 提供了目前最高等級的證據，明確指出此策略無效。",
+        "ongoing_trials": "SafeBoosC-III 是此領域的決定性試驗 (definitive trial)。未來的研究方向可能轉向不同族群（如 HIE、先天性心臟病）、更長的監測時間、或結合其他監測技術（如 aEEG）的複合式介入策略。"
+      },
+      "protocol_impact": {
+        "current_practice": "目前工作手冊中無相關 protocol。在【Neurology / Neurology / Neonatal stroke】章節中，雖提及『Supportive care』需『Adequate oxygenation and ventilation』，但並未指明需使用 NIRS 作為監測工具。在臨床實務上，NIRS 在本科屬於非必要、非全面性的監測，僅在特定個案（如血行動力學不穩定、評估 PDA 分流影響）由主治醫師裁量使用。",
+        "proposed_change": "不需改變。本研究結果強烈支持我們目前的做法。應維持現狀，不建議將 NIRS 納入極度早產兒的神經保護常規 protocol。我們應向科內同仁，特別是年輕醫師和專科護理師，清楚傳達此一重要陰性結果，避免因個人經驗或廠商推廣而過度使用此項監測技術。應強調 NIRS 仍可作為特定情境下的『診斷輔助』工具，而非『常規篩檢或治療指引』工具。",
+        "prerequisites": [
+          "在科內晨會或 Journal reading 中報告此研究，確保所有同仁都了解最新的 Level 1 evidence。",
+          "可考慮在工作手冊的 Neurology 章節中新增一段註解，說明『根據 SafeBoosC-III 大型臨床試驗結果，不建議常規使用腦血氧監測於極度早產兒以改善長期神經預後』，以作為未來制定 protocol 的參考依據。"
+        ],
+        "missing_evidence": "此研究的結論相當穩固。未來若有證據顯示，針對特定高風險亞群（例如，有嚴重 IVH 或休克的嬰兒）或採用了截然不同的介入流程（例如，更積極的血壓或 CO2 管理）的 NIRS 導引治療有效，才需重新評估。但在那之前，改變現行做法的證據尚不存在。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-21"
+  },
+  {
+    "pmid": "42002447",
+    "title": "Enhancing research and development to innovate neonatology and improve newborn health.",
+    "authors": "De Luca D, Onesimo R, Benachi A, et al.",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Apr 16",
+    "doi": "10.1016/j.siny.2026.101735",
+    "total_score": 3,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 5
+    },
+    "keywords": [
+      "Neonatology",
+      "Innovation",
+      "Residency program",
+      "Specialty definition",
+      "Research and development"
+    ],
+    "one_liner": "這是一篇關於新生兒醫學領域發展策略的評論，提醒我們思考專業定位、創新挑戰與人才培育，但與日常臨床照護無直接關聯。",
+    "summary": {
+      "purpose": "本研究旨在擴展對新生兒醫學缺乏創新的分析，強調跨領域合作、明確新生兒醫學作為獨立專科的重要性，並倡議建立獨立的住院醫師訓練計畫，以期改善新生兒健康。",
+      "design": "這是一篇評論性文章，非實證研究。文章分析了新生兒醫學研究與發展的現況，討論了醫療器材的特殊性、罕見疾病的定義，並從文化角度定義新生兒醫學，倡議在已開發國家及中低收入國家建立獨立的新生兒科住院醫師訓練計畫。無特定胎齡、出生體重或樣本數。",
+      "findings": "新生兒醫學長期缺乏創新，許多新生兒疾病仍缺乏適當的診斷或治療工具。文章強調需加強跨領域合作，明確定義新生兒醫學為獨立專科，並應考量醫療器材的特殊性及罕見疾病的機會。作者倡議建立獨立的新生兒科住院醫師訓練計畫，認為這對全球新生兒照護皆有益。",
+      "significance": "對於新生兒科醫師而言，這篇文章提醒我們新生兒醫學領域在創新方面的挑戰，並強調了跨領域合作、明確專業定位以及建立獨立住院醫師訓練制度的重要性。這有助於我們思考台灣新生兒醫學未來的發展方向、人才培育策略，以及如何在全球背景下推動研究與創新，而非直接影響臨床照護決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-21"
+  },
+  {
+    "pmid": "42002215",
+    "title": "Association of Parenting Stress in Early Childhood with Emotional Health and Resilience of Young Adults with Congenital Heart Disease.",
+    "authors": "Herrup EA, Shillingford AJ, Gaynor JW, et al.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Apr 17",
+    "doi": "10.1016/j.jpeds.2026.115110",
+    "total_score": 3,
+    "scores": {
+      "design": 4,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "CHD",
+      "parenting stress",
+      "resilience",
+      "neurodevelopmental outcome",
+      "long-term follow-up"
+    ],
+    "one_liner": "這篇研究指出，先天性心臟病患兒早期父母教養壓力與其成年後韌性相關，提示早期家庭介入的重要性。",
+    "summary": {
+      "purpose": "本研究旨在探討早期兒童時期父母教養壓力與先天性心臟病 (CHD) 患者成年後情緒健康及韌性之間的關聯。",
+      "design": "此為一前瞻性世代研究，納入202對患有CHD的年輕成人及其照護者。這些年輕成人曾於出生後6個月內接受體外循環 (CPB) 手術，並參與一項CHD神經發展預後之長期追蹤研究。研究評估了年輕成人的韌性與整體健康狀況，並透過照護者填寫的問卷評估學齡前期的父母教養壓力。",
+      "findings": "研究發現，59%的年輕成人自述有潛在精神健康問題。父母教養壓力指數 (PSI) 中位數為58，顯示一般教養壓力水平。年輕成人整體健康狀況略低於一般人群平均，韌性分數則與一般人群平均相似。較高的父母教養壓力與年輕成人較低的韌性相關，PSI總分每增加1個單位，RS-14總分減少0.14 (95% CI 0.02 - 0.26)。",
+      "significance": "本研究提示，對於患有CHD的兒童，早期識別高風險家庭的父母教養壓力是可行的，並可能提供機會進行針對性的家庭介入，以改善其社會心理發展並提升韌性。這對於新生兒科醫師在照護CHD嬰兒時，應更重視家庭支持與早期心理社會介入的必要性，以期改善長期預後。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-21"
+  },
+  {
+    "pmid": "42002446",
+    "title": "Human milk fortification in preterm infants: Navigating evidence, practice, and controversy.",
+    "authors": "Hair AB, Poindexter BB",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Apr 02",
+    "doi": "10.1016/j.siny.2026.101711",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 5,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Human milk",
+      "fortification",
+      "preterm infants",
+      "nutrition",
+      "narrative review"
+    ],
+    "one_liner": "這篇敘述性回顧強調了早產兒人乳添加的重要性，並指出目前關於不同添加劑類型的RCT證據仍有限，特別是在DBM使用者中，提示未來研究方向。",
+    "summary": {
+      "purpose": "本篇敘述性回顧旨在綜合現有證據與文獻，評估早產兒人乳添加劑的原理、成分及不同添加策略的結果，並探討相關爭議。",
+      "design": "本文為一篇敘述性回顧 (narrative review)，其內容反映了2025年新生兒洞察會議的發表、觀眾提問及圓桌討論。未涉及特定GA或出生體重範圍的原始研究樣本。",
+      "findings": "人乳被公認為早產兒的最佳營養來源，但需透過添加劑來滿足其高代謝與營養需求。目前關於不同添加劑類型的隨機對照試驗 (RCT) 仍有限，且多為小規模研究，主要針對使用MBM的嬰兒。",
+      "significance": "本回顧強調了早產兒人乳添加的重要性，並指出目前在添加劑類型研究上的證據不足，尤其是在主要接受DBM的嬰兒群體中。臨床上需更注重個別化的營養計畫及母乳哺育支持，以優化早產兒的生長與發育軌跡。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-21"
+  },
+  {
+    "pmid": "42002284",
+    "title": "The Neurodevelopmental Importance of the Timing of Bilateral Cochlear Implantation.",
+    "authors": "Camparo S, Liu A, Imbery T, et al.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Apr 20",
+    "doi": "10.1542/peds.2025-075419",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "cochlear implant",
+      "neurodevelopment",
+      "hearing loss",
+      "children"
+    ],
+    "one_liner": "摘要內容缺失，無法進行完整分析。根據標題判斷，此研究與新生兒科臨床實務相關性極低，可跳過。",
+    "summary": {
+      "purpose": "摘要內容缺失，無法判斷研究目的。",
+      "design": "摘要內容缺失，無法判斷研究設計與方法。",
+      "findings": "摘要內容缺失，無法判斷主要發現。",
+      "significance": "根據文章標題，此研究主題為雙側人工耳蝸植入時機對神經發育的影響，屬於一般兒科或耳鼻喉科範疇，與新生兒科日常照護無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-21"
   }
 ]

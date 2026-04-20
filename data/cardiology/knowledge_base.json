@@ -8428,5 +8428,169 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-19"
+  },
+  {
+    "pmid": "42001916",
+    "title": "Determining the Individualized Probability of Myocardial Recovery: The Multicenter RecoverHeart Calculator.",
+    "authors": "Taleb I, Kyriakopoulos CP, Wever-Pinzon O, et al.",
+    "journal": "Journal of Heart and Lung Transplantation",
+    "pub_date": "2026 Apr 17",
+    "doi": "10.1016/j.healun.2026.04.008",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "LVAD",
+      "心臟衰竭",
+      "心肌恢復",
+      "預測模型",
+      "成人心臟學"
+    ],
+    "one_liner": "本研究為成人心臟衰竭患者心肌恢復預測工具的開發與驗證，與新生兒科業務無關，可直接跳過。",
+    "summary": {
+      "purpose": "本研究旨在開發並外部驗證一個實用的計算工具，以評估個別患者在使用左心室輔助裝置 (LVAD) 期間心臟恢復的可能性。",
+      "design": "研究設計為多中心回溯性世代研究，包含來自5個機構的509名慢性心臟衰竭患者作為模型建立世代，以及來自另外4個機構的375名患者作為外部驗證世代。研究對象為慢性心臟衰竭患者，無新生兒出生週數或體重資訊。",
+      "findings": "模型建立世代中有14.9% (76/509) 的患者觀察到顯著逆向重塑，驗證世代則為11.2% (42/375)。關鍵的植入前預測因子包括女性、心臟衰竭病程較短、非缺血性心肌病變，以及較小的左心室舒張末期直徑。RecoverHeart計算器展現良好的區辨能力，模型建立世代的C統計量為0.72 (95% CI: 0.66-0.79)，驗證世代為0.75 (95% CI: 0.67-0.76)，且優於先前發表的模型和個別預測因子。",
+      "significance": "本研究開發並驗證了RecoverHeart計算器，能估計LVAD患者心肌顯著逆向重塑的個體化機率。此工具可輔助患者選擇與諮詢，促進醫病共同決策，並有助於提升LVAD作為心臟恢復橋接策略的利用率。然而，本研究主題為成人心臟衰竭與LVAD治療，與新生兒科的臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-21"
+  },
+  {
+    "pmid": "42002215",
+    "title": "Association of Parenting Stress in Early Childhood with Emotional Health and Resilience of Young Adults with Congenital Heart Disease.",
+    "authors": "Herrup EA, Shillingford AJ, Gaynor JW, et al.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Apr 17",
+    "doi": "10.1016/j.jpeds.2026.115110",
+    "total_score": 3,
+    "scores": {
+      "design": 4,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "CHD",
+      "parenting stress",
+      "resilience",
+      "long-term follow-up",
+      "emotional health"
+    ],
+    "one_liner": "這篇前瞻性世代研究顯示，先天性心臟病患者在早期兒童時期的育兒壓力，與其成年後的韌性呈負相關，提示早期家庭介入的重要性。",
+    "summary": {
+      "purpose": "本研究旨在描述早期兒童時期育兒壓力水平與先天性心臟病 (CHD) 患者成年後情緒健康及韌性之間的關聯。",
+      "design": "這是一項前瞻性世代研究，共納入202對先天性心臟病 (CHD) 年輕成人及其照護者。這些年輕成人曾於出生後6個月內接受體外循環 (CPB) 手術，並參與一項CHD神經發展追蹤研究。",
+      "findings": "59% (120位) 的年輕成人自述有潛在精神健康問題。育兒壓力指數 (PSI) 中位數為58 (IQR 46.25-71)，顯示育兒壓力處於正常水平。SF-36平均分數為46 (SD 11)，略低於一般人口平均 (50)；RS-14平均分數為77 (SD 14)，與一般人口平均 (76) 相似。較高的育兒壓力與年輕成人較低的韌性相關，PSI總分每增加1個單位，RS-14總分減少0.14 (95% CI 0.02 - 0.26)。",
+      "significance": "本研究提示，早期識別高風險家庭並提供針對性的家庭介入措施，有助於改善先天性心臟病患者的心理社會發展並提升其韌性。對於新生兒科醫師而言，這強調了對高風險新生兒家庭（如複雜性CHD）進行早期心理社會支持評估與介入的重要性，以期改善長期發育追蹤中的情緒健康與韌性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-21"
+  },
+  {
+    "pmid": "42002634",
+    "title": "Post-pandemic Trends in Giant Coronary Aneurysms in Kawasaki Disease.",
+    "authors": "Dedeoglu R, Senturk NGK, Yucel İ, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 20",
+    "doi": "10.1007/s00246-026-04261-9",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Kawasaki Disease",
+      "Coronary Aneurysm",
+      "Post-pandemic",
+      "Pediatrics",
+      "Cardiology"
+    ],
+    "one_liner": "對於新生兒科醫師而言，這篇關於川崎病巨大冠狀動脈瘤後疫情趨勢的文章，與新生兒照護無直接相關，可略過。",
+    "summary": {
+      "purpose": "本研究旨在探討後疫情時代川崎病患者巨大冠狀動脈瘤的發生趨勢與相關臨床特徵。",
+      "design": "根據文章標題推斷，研究設計應為回溯性世代研究或資料庫分析，比較疫情前後川崎病巨大冠狀動脈瘤的發生率與臨床表現。由於缺乏摘要內容，無法提供確切的胎齡、出生體重或樣本數。",
+      "findings": "由於缺乏摘要內容，無法提供具體研究發現。",
+      "significance": "對於新生兒科醫師而言，此研究的臨床意義極低，因川崎病主要影響嬰幼兒及學齡前兒童，而非新生兒族群。對於一般兒科或小兒心臟科醫師，此研究有助於了解疫情對川崎病嚴重併發症流行病學的潛在影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-21"
+  },
+  {
+    "pmid": "42002015",
+    "title": "Outcomes of Cardiac Resynchronization Therapy in Adults with Congenital Heart Disease and Heart Failure with Reduced Ejection Fraction.",
+    "authors": "Egbe AC, Kholeif Z, Madhavan M, et al.",
+    "journal": "Heart Rhythm",
+    "pub_date": "2026 Apr 17",
+    "doi": "10.1016/j.hrthm.2026.03.1967",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "CHD",
+      "HFrEF",
+      "CRT",
+      "成人",
+      "心臟衰竭"
+    ],
+    "one_liner": "這是一篇關於成人先天性心臟病患者心臟再同步化治療效益的回溯性研究，與新生兒科臨床實務無直接關聯。",
+    "summary": {
+      "purpose": "評估心臟再同步化治療 (CRT) 在患有先天性心臟病 (CHD) 且射出分率降低之心臟衰竭 (HFrEF) 成人患者中的臨床效益，並追蹤其疾病嚴重度指標的時序變化。",
+      "design": "本研究為回溯性研究，分析 2003-2023 年間在 Mayo Clinic 接受 CRT 的 CHD 合併 HFrEF 成人患者。研究對象為雙心室循環且全身性左心室功能不全的成人，共 327 名 CHD 合併 HFrEF 患者中，有 105 名 (32%) 接受 CRT (平均年齡 51±15 歲)。",
+      "findings": "CRT 與全因死亡率降低 24% (adjusted HR 0.76, 95% CI 0.51, 0.97) 及心血管事件降低 21% (adjusted HR 0.79, 95%CI 0.63, 0.94) 相關。105 名患者中有 71 名 (68%) 為 CRT 反應者。較高的 guideline-directed medical therapy (GDMT) 評分與 CRT 反應的可能性增加相關 (adjusted OR 1.28, 95% CI 1.04, 1.47)。",
+      "significance": "本研究證實 CRT 和 GDMT 對於 CHD 合併 HFrEF 成人患者的臨床效益，支持在該族群中使用這些療法。然而，此研究的對象為成人，與新生兒科的臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-21"
+  },
+  {
+    "pmid": "42002218",
+    "title": "BCG Scar Reactivation in Kawasaki Disease.",
+    "authors": "Innis K",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Apr 17",
+    "doi": "10.1016/j.jpeds.2026.115106",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Kawasaki Disease",
+      "BCG scar reactivation",
+      "pediatrics",
+      "clinical manifestation"
+    ],
+    "one_liner": "此研究探討川崎病與卡介苗疤痕再活化，與新生兒科臨床實務關聯性極低，新生兒科醫師可跳過此篇。",
+    "summary": {
+      "purpose": "本研究旨在探討川崎病患者中卡介苗疤痕再活化的現象。",
+      "design": "由於缺乏摘要內容，無法判斷研究設計、收案的胎齡、出生體重或樣本數。推測可能為回溯性世代研究或病例系列報告。",
+      "findings": "由於缺乏摘要內容，無法提供主要研究發現、關鍵數據或效應值。",
+      "significance": "此研究主題主要關注一般兒科疾病，與新生兒科日常照護決策無直接相關性。卡介苗疤痕再活化是川崎病的已知臨床表現之一，但其對新生兒的診斷或治療策略影響甚微。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-21"
   }
 ]
