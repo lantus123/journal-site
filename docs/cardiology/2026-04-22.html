@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cardiology Journal Digest - 2026-04-22</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.8;font-size:16px}
+.container{max-width:720px;margin:0 auto;padding:20px}
+header{padding:20px 0;border-bottom:2px solid #1B6B93;margin-bottom:24px}
+.back{font-size:15px;color:#1B6B93;text-decoration:none}
+.back:hover{text-decoration:underline}
+.date{font-size:15px;color:#888;margin-top:8px}
+h1{font-size:26px;font-weight:700;color:#1B6B93;margin-top:4px}
+.stats{font-size:15px;color:#666;margin-top:6px}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:18px}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600}
+.tag-journal{font-size:13px;color:#999}
+.card-title{font-size:18px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px}
+.card-authors{font-size:14px;color:#999;margin-bottom:14px}
+.section{padding:14px 0;border-top:1px solid #f0f0ec}
+.section p{font-size:15px;color:#555;margin-bottom:8px}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:10px}
+.hl{border-left:3px solid;padding:10px 14px;margin:8px 0;font-size:15px;line-height:1.7;border-radius:0}
+.hl-green{border-color:#639922;background:#EAF3DE;color:#27500A}
+.hl-amber{border-color:#BA7517;background:#FAEEDA;color:#633806}
+.hl-red{border-color:#E24B4A;background:#FCEBEB;color:#791F1F}
+.hl-blue{border-color:#378ADD;background:#E6F1FB;color:#0C447C}
+.related{font-size:15px;color:#555;padding:8px 0;border-bottom:1px solid #f5f5f0}
+.related:last-child{border-bottom:none}
+.card-links{padding-top:14px;display:flex;gap:16px}
+.card-links a{font-size:14px;color:#1B6B93;text-decoration:none}
+.card-links a:hover{text-decoration:underline}
+footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;color:#999;text-align:center}
+.vote-count{font-size:13px;color:#1B6B93;font-weight:600}
+@media(max-width:600px){.container{padding:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">Cardiology Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院小兒心臟科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">或從 LINE / Email 點擊連結直接閱讀</p>
+</div>
+</div>
+
+<!-- Digest content (hidden until auth) -->
+<div id="digest-content" style="display:none;">
+<div class="container">
+<header>
+  <a href="index.html" class="back">← Back to archive</a>
+  <div class="date">2026/04/22 (Wednesday)</div>
+  <h1>Cardiology Journal Digest</h1>
+  <div class="stats">13 articles</div>
+</header>
+
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 4-5: DEEP ANALYSIS</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">Circulation</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Pressure Overload-Induced Ventricular Crosstalk Activates Regenerative Mechanisms in the Contralateral Ventricle in Neonatal Mice.</h2>
+  <div class="card-authors">Ebach F, Nicke J, Hu T, et al. · 2026 Apr 21</div>
+  <div id="original-analysis-42008592"><div class="section"><b>30 秒重點：</b>這是一篇發表在 Circulation 的新生小鼠基礎研究，顯示對單一心室施加壓力負荷（pressure overload），會透過心室間的交互作用（ventricular crosstalk），意外地啟動對側心室的再生機制。這項發現雖然離臨床應用還非常遙遠，但它揭示了新生兒心臟潛在的自我修復能力。這為未來治療 PPHN 或先天性心臟病造成的單心室衰竭，提供了新的思考方向：我們或許能利用內在機制來促進心肌修復，而不僅僅是給予支持性治療。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 未說明壓力負荷的具體模型：是對左心室（如主動脈縮窄，mimicking Aortic Stenosis）還是右心室（如肺動脈環紮，mimicking PPHN/BPD）施加壓力？這兩種模型在臨床上的意義完全不同，對應的病人族群也不同。</b> Abstract and Title。如果是 RV overload 模型，其結果可能對我們處理 PPHN 或 BPD 合併肺高壓導致的 cor pulmonale 更具啟發性。如果是 LV overload，則與 critical AS 或 coarctation of the aorta 的病生理較相關。閱讀全文時必須先釐清這一點。</p><p><b>「新生小鼠」的日齡對應到人類的哪個發育階段？小鼠心肌細胞的再生能力在出生後第一週內會急遽下降。實驗是在出生後第1天（P1）還是第7天（P7）進行，其結果的可轉譯性（translatability）差異極大。</b> Abstract。如果實驗是在 P1 進行，約略對應人類足月新生兒，其再生潛力較高。若在 P7 進行，則更接近人類嬰兒期，再生能力已減弱。這決定了此機制是否對我們主要照護的早產兒（心臟更不成熟）具有潛在意義。</p><p><b>Abstract 中「再生機制」（regenerative mechanisms）的定義模糊。這指的是真正的心肌細胞增生（cardiomyocyte proliferation），還是僅為血管新生（angiogenesis）、減少纖維化（fibrosis）或適應性肥大（adaptive hypertrophy）？</b> Abstract。真正的心肌細胞增生是心臟修復的聖杯。如果研究證實了這一點，其重要性遠高於其他代償機制。閱讀全文需確認他們是用什麼 marker（如 Ki67, pHH3, Aurora B）來證實細胞增生的。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>發表於頂級期刊 Circulation，代表其分子生物學及動物實驗的設計與執行品質可能非常嚴謹。</div><div class="hl hl-green"><b>Strong：</b>研究主題具有高度原創性，探討了心室間交互作用在心臟再生中的角色，這是一個相對新穎的領域。</div><div class="hl hl-amber"><b>Note：</b>關鍵點是動物模型與人類新生兒，特別是早產兒生理的巨大差異。小鼠的心率、代謝率、以及對缺氧的耐受性都與人類不同。</div><div class="hl hl-amber"><b>Note：</b>需要注意實驗動物是否僅限於雄性，這在心血管基礎研究中很常見，但可能忽略了性別差異。</div><div class="hl hl-red"><b>Weak：</b>研究的直接臨床可轉譯性（direct clinical translatability）極低。這是一個機制探索的基礎研究，距離人體試驗還有非常漫長的路。</div><div class="hl hl-red"><b>Weak：</b>壓力負荷模型可能過於簡化。臨床上，新生兒心臟衰竭往往是多重因素造成的（如 hypoxia, sepsis, inflammation, nutritional deficits），而非單純的物理性壓力。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Porrello ER et al. 2011, Science</b> — Porrello 的研究是證實新生小鼠心臟具有再生能力的開創性論文，但主要聚焦於心尖切除（apical resection）後的再生。本研究與之不同，探討的是壓力負荷模型，且著重於「對側心室」的反應，提出了 ventricular crosstalk 這個新機制。</div><div class="related"><b>Alkassar et al. 2017, J Am Heart Assoc</b> — 這類研究使用都卜勒超音波評估 PPHN 新生兒的 RV/LV 功能與交互作用（如 Tei index, septal flattening）。這些是人體臨床觀察研究，描述了現象。而 Ebach 這篇動物實驗則是在嘗試解釋現象背後的分子機制。</div><p><b>指引現況：</b>目前所有新生兒心臟照護指引（如 AAP 對 PPHN 的管理）皆著重於病因治療（如 iNO 降低肺動脈壓）、維持系統性血壓、以及使用 inotropes/lusitropes 支持心臟功能。沒有任何指引提及或建議誘導內源性心肌再生的策略，因為這仍處於基礎研究階段。</p><p><b>填補的 evidence gap：</b>本研究填補了我們對於「為何一個心室出問題，另一個心室也會受影響」的分子機制理解。過去我們多從物理性因素（如心室中膈位移）來解釋，本研究提示可能還存在主動的、跨心室的生物信號傳遞與再生反應。</p><p><b>進行中的相關試驗：</b>沒有直接相關的臨床試驗。最接近的領域可能是針對小兒心臟衰竭的幹細胞療法或基因療法研究，但這些試驗的目標與本研究探討的內源性再生機制不同，且距離新生兒臨床應用仍遠。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>目前對於新生兒心室衰竭（如 PPHN 引起的 RV failure），我們的標準做法是：
+1. 處理根本原因：給予 iNO 或其他 pulmonary vasodilators (sildenafil, bosentan) 降低肺動脈阻力。
+2. 優化通氣策略：避免 hypoxia 和 hypercarbia。
+3. 強心藥物支持：使用 inotropes 如 dopamine, dobutamine, epinephrine 增強心肌收縮力。
+4. 後負荷降低/改善舒張功能：使用 milrinone。
+5. 維持足夠的冠狀動脈灌流：維持適當的全身血壓。
+6. 必要時使用 ECMO 作為救援治療。<br><b>建議調整：</b>無。這項基礎研究的結果完全不應改變我們目前的臨床 protocol。它的價值在於啟發未來的研究方向，而非指導當前的臨床決策。我們應繼續遵循現有的 evidence-based guidelines。<br><b>導入準備：</b>在考慮任何臨床改變之前，需要大量的轉譯研究（translational research），包括在大型動物模型（如豬或羊）上驗證此發現。, 需要鑑定出介導這種 crosstalk 的具體分子信號，並開發出能夠安全調控這些信號的藥物。, 需要在人類新生兒中證實此再生現象的存在。<br><b>等待的證據：</b>幾乎所有臨床相關的證據都付之闕如。我們不知道：
+1. 此現象是否存在於人類新生兒，特別是早產兒？
+2. 誘導此再生機制的潛在風險是什麼？（例如：是否可能導致心律不整或腫瘤形成？）
+3. 長期的 neurodevelopmental outcome 和心臟功能追蹤結果如何？
+4. 在合併敗血症、缺氧或多重器官衰竭的複雜臨床情境下，此機制是否仍然有效？</div></div></div>
+  <div id="analysis-result-42008592"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42008592/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1161/CIRCULATIONAHA.125.077779" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42008592" data-rating="must_read" onclick="vote('42008592','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42008592-must_read" style="display:none;">0</span></button> <button data-pmid="42008592" data-rating="useful" onclick="vote('42008592','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42008592-useful" style="display:none;">0</span></button> <button data-pmid="42008592" data-rating="so_so" onclick="vote('42008592','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42008592-so_so" style="display:none;">0</span></button> <button data-pmid="42008592" data-rating="skip" onclick="vote('42008592','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42008592-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42008592" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42008592" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42008592','Pressure Overload-Induced Ventricular Crosstalk Activates Regenerative Mechanisms in the Contralateral Ventricle in Neonatal Mice.',this,false)">
+  <button id="upload-btn-42008592" onclick="document.getElementById('pdf-42008592').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42008592" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 2-3: QUICK SUMMARY</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Pediatric Cardiology</span></div>
+  <h2 class="card-title">Finding a Path to the Heart: Right Heart Catheterization in Patients with Right Congenital Diaphragmatic Hernia and Anomalous Venous Anatomy.</h2>
+  <div class="card-authors">Evans TA, Keller RL, Moon-Grady AJ, et al. · 2026 Apr 20</div>
+  <div id="original-analysis-42009838"><div class="section"><p><b>研究目的：</b>本研究旨在評估先天性橫膈膜疝氣（CDH）病童在進行心導管檢查時，異常全身靜脈回流對右心通路造成的複雜程度，此現象此前描述不詳。</p><p><b>研究設計：</b>本研究為單中心回溯性分析，檢視2006年至2025年間在加州大學舊金山分校接受心導管檢查的CDH病童（年齡≤2歲，首次導管檢查時年齡介於4週至2歲，體重1.9-13 kg）。共納入30名病童，其中9名為右側CDH（3名合併肝肺融合），21名為左側CDH。</p><p><b>主要發現：</b>所有左側CDH病童均可經由股靜脈直接從下腔靜脈（IVC）進入右心。然而，數名右側CDH病童因異常靜脈解剖構造（可能繼發於橫膈膜處IVC受壓），導致無法直接從IVC進入右心房。對於右側CDH病童，經由內頸靜脈進行上腔靜脈（SVC）通路，其螢光透視時間較經由股靜脈進行IVC通路為短。</p><p><b>臨床意義：</b>對於右側CDH病童，特別是合併肝肺融合者，在進行右心導管檢查時應考慮可能存在異常全身靜脈解剖構造，進而影響靜脈通路。若非侵入性影像學檢查尚未明確顯示，可考慮從股靜脈進行初步血管攝影以引導心導管檢查路徑，且頸內靜脈路徑可能更為有效率。</p></div></div>
+  <div id="analysis-result-42009838"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42009838/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1007/s00246-026-04229-9" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42009838" data-rating="must_read" onclick="vote('42009838','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42009838-must_read" style="display:none;">0</span></button> <button data-pmid="42009838" data-rating="useful" onclick="vote('42009838','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42009838-useful" style="display:none;">0</span></button> <button data-pmid="42009838" data-rating="so_so" onclick="vote('42009838','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42009838-so_so" style="display:none;">0</span></button> <button data-pmid="42009838" data-rating="skip" onclick="vote('42009838','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42009838-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42009838" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42009838" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42009838','Finding a Path to the Heart: Right Heart Catheterization in Patients with Right Congenital Diaphragmatic Hernia and Anomalous Venous Anatomy.',this,false)">
+  <button id="upload-btn-42009838" onclick="document.getElementById('pdf-42009838').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42009838" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Journal of Thoracic and Cardiovascular Surgery</span></div>
+  <h2 class="card-title">Robotically Assisted Pediatric Cardiac Surgery: A New Paradigm in Minimally Invasive Surgery for Congenital Heart Defects.</h2>
+  <div class="card-authors">Chauhan I, Cordoves E, Nguyen TC, et al. · 2026 Apr 18</div>
+  <div id="original-analysis-42009290"><div class="section"><p><b>研究目的：</b>旨在介紹並評估機器人輔助心臟手術作為治療小兒先天性心臟缺陷的新型微創方法。</p><p><b>研究設計：</b>由於缺乏摘要內容，無法得知確切研究設計、病患胎齡、出生體重及樣本數。根據標題推測，可能為初步經驗分享或病例系列報告。</p><p><b>主要發現：</b>由於缺乏摘要內容，無法提供具體研究發現及關鍵數據。</p><p><b>臨床意義：</b>此研究探討的機器人輔助心臟手術，若應用於新生兒先天性心臟病患，可能影響其術後恢復與照護模式。然而，由於缺乏具體數據，其對新生兒加護病房照護的直接臨床意義尚不明確。</p></div></div>
+  <div id="analysis-result-42009290"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42009290/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1016/j.jtcvs.2026.04.008" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42009290" data-rating="must_read" onclick="vote('42009290','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42009290-must_read" style="display:none;">0</span></button> <button data-pmid="42009290" data-rating="useful" onclick="vote('42009290','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42009290-useful" style="display:none;">0</span></button> <button data-pmid="42009290" data-rating="so_so" onclick="vote('42009290','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42009290-so_so" style="display:none;">0</span></button> <button data-pmid="42009290" data-rating="skip" onclick="vote('42009290','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42009290-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42009290" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42009290" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42009290','Robotically Assisted Pediatric Cardiac Surgery: A New Paradigm in Minimally Invasive Surgery for Congenital Heart Defects.',this,false)">
+  <button id="upload-btn-42009290" onclick="document.getElementById('pdf-42009290').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42009290" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Annals of Thoracic Surgery</span></div>
+  <h2 class="card-title">Detection Without Direction: Rethinking Preoperative Brain MRI in Neonatal Cardiac Surgery.</h2>
+  <div class="card-authors">Lynch JM · 2026 Apr 18</div>
+  <div id="original-analysis-42009117"><div class="section"><p><b>研究目的：</b>本篇旨在批判性地評估新生兒心臟手術前腦部 MRI 的現行應用與臨床實用性，質疑其檢測結果對實際治療決策的指導意義。</p><p><b>研究設計：</b>根據標題判斷，這是一篇評論性文章或觀點報告，而非原創研究，因此不涉及特定的研究設計、樣本數或 GA 範圍。</p><p><b>主要發現：</b>文章核心觀點為，儘管術前腦部 MRI 能檢測出異常，但這些發現往往缺乏明確的臨床方向，其對手術策略或即時照護的影響尚不明確，導致「檢測有餘，指導不足」。</p><p><b>臨床意義：</b>這篇文章提醒新生兒科醫師和心臟外科團隊，應重新思考術前腦部 MRI 的常規應用，並強調需要更多證據來釐清其臨床效益，以避免不必要的檢查或對不明確的發現過度解讀，進而影響照護決策。</p></div></div>
+  <div id="analysis-result-42009117"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42009117/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1016/j.athoracsur.2026.04.003" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42009117" data-rating="must_read" onclick="vote('42009117','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42009117-must_read" style="display:none;">0</span></button> <button data-pmid="42009117" data-rating="useful" onclick="vote('42009117','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42009117-useful" style="display:none;">0</span></button> <button data-pmid="42009117" data-rating="so_so" onclick="vote('42009117','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42009117-so_so" style="display:none;">0</span></button> <button data-pmid="42009117" data-rating="skip" onclick="vote('42009117','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42009117-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42009117" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42009117" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42009117','Detection Without Direction: Rethinking Preoperative Brain MRI in Neonatal Cardiac Surgery.',this,false)">
+  <button id="upload-btn-42009117" onclick="document.getElementById('pdf-42009117').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42009117" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">European Heart Journal</span></div>
+  <h2 class="card-title">Stereotactic arrhythmia radioablation for refractory ventricular tachycardia: the STOPSTORM.eu study.</h2>
+  <div class="card-authors">van der Pol LHG, Tomasik B, Hoeksema WF, et al. · 2026 Apr 20</div>
+  <div id="original-analysis-42008523"><div class="section"><p><b>研究目的：</b>本研究旨在報告歐洲STOPSTORM前瞻性多中心登錄研究的中期分析結果，評估立體定位心律失常放射消融術（STAR）治療頑固性心室頻脈（VT）的療效與安全性。</p><p><b>研究設計：</b>STOPSTORM是一項歐洲前瞻性、國際性、多中心患者登錄研究，共納入來自28個中心的193名患者（平均年齡68±9歲）。主要療效終點為STAR術前與術後6個月持續性VT發作負擔的變化，主要安全性終點為可能或很可能與治療相關的嚴重不良事件（SAEs）發生率。</p><p><b>主要發現：</b>在可評估的107名患者中，STAR術後VT發作負擔中位數減少了80%。在存活超過6個月的患者中，72%未發生植入式心臟去顫器（ICD）電擊。在所有患者中，有12例SAEs被判定為可能或很可能與治療相關。12個月的總體存活率為77%。</p><p><b>臨床意義：</b>本研究為迄今最大規模的前瞻性多中心隊列研究，證實STAR能顯著減少成人頑固性VT的發作負擔和ICD電擊，且治療相關SAEs發生率較低。此結果對成人心臟電生理學領域具有重要臨床意義，但與新生兒照護無直接關聯。</p></div></div>
+  <div id="analysis-result-42008523"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42008523/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1093/eurheartj/ehag338" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42008523" data-rating="must_read" onclick="vote('42008523','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42008523-must_read" style="display:none;">0</span></button> <button data-pmid="42008523" data-rating="useful" onclick="vote('42008523','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42008523-useful" style="display:none;">0</span></button> <button data-pmid="42008523" data-rating="so_so" onclick="vote('42008523','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42008523-so_so" style="display:none;">0</span></button> <button data-pmid="42008523" data-rating="skip" onclick="vote('42008523','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42008523-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42008523" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42008523" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42008523','Stereotactic arrhythmia radioablation for refractory ventricular tachycardia: the STOPSTORM.eu study.',this,false)">
+  <button id="upload-btn-42008523" onclick="document.getElementById('pdf-42008523').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42008523" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Heart</span></div>
+  <h2 class="card-title">Comprehensive guideline-directed medical therapy strategies on health status outcomes in patients with heart failure: the LAQUA-HF randomised clinical trial.</h2>
+  <div class="card-authors">Shiraishi Y, Ikemura N, Ueda I, et al. · 2026 Apr 20</div>
+  <div id="original-analysis-42009572"><div class="section"><p><b>研究目的：</b>此研究旨在比較 sacubitril/valsartan 與 dapagliflozin，以及 torsemide 與 furosemide 在患有心臟衰竭且射出分率降低的門診成人病患中，對健康狀況結果的影響。</p><p><b>研究設計：</b>這是一項多中心、開放標籤、隨機、2x2 因子設計試驗，納入231名有症狀心臟衰竭、利鈉肽水平升高且左心室射出分率 (LVEF) <50% 的門診成人病患 (中位年齡73歲)。</p><p><b>主要發現：</b>研究發現，sacubitril/valsartan 與 dapagliflozin 之間 (調整後平均差異 2.53 點; 95% CI -1.81 to 6.88; p=0.25)，以及 torsemide 與 furosemide 之間 (調整後平均差異 0.25 點; 95% CI -4.10 to 4.59; p=0.91)，在6個月內 Kansas City Cardiomyopathy Questionnaire Overall Summary Score (KCCQ-OSS) 的變化沒有顯著差異。分層複合結果分析也顯示無顯著差異。</p><p><b>臨床意義：</b>此研究探討的是成人心臟衰竭的藥物治療策略，與新生兒科的日常照護決策及早產兒長期發育追蹤無直接相關性，因此對新生兒加護病房 (NICU) 照護無具體臨床意義。</p></div></div>
+  <div id="analysis-result-42009572"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42009572/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1136/heartjnl-2025-327642" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42009572" data-rating="must_read" onclick="vote('42009572','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42009572-must_read" style="display:none;">0</span></button> <button data-pmid="42009572" data-rating="useful" onclick="vote('42009572','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42009572-useful" style="display:none;">0</span></button> <button data-pmid="42009572" data-rating="so_so" onclick="vote('42009572','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42009572-so_so" style="display:none;">0</span></button> <button data-pmid="42009572" data-rating="skip" onclick="vote('42009572','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42009572-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42009572" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42009572" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42009572','Comprehensive guideline-directed medical therapy strategies on health status outcomes in patients with heart failure: the LAQUA-HF randomised clinical trial.',this,false)">
+  <button id="upload-btn-42009572" onclick="document.getElementById('pdf-42009572').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42009572" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Prenatal Diagnosis</span></div>
+  <h2 class="card-title">Diagnostic Yield of Serial PR Interval Screening for Fetal Heart Block in Anti-SSA/SSB Pregnancies.</h2>
+  <div class="card-authors">Yeung A, Barbash Hazan S, Shafik J, et al. · 2026 Apr 21</div>
+  <div id="original-analysis-42012602"><div class="section"><p><b>研究目的：</b>評估在抗SSA和/或抗SSB抗體陽性孕婦中，常規胎兒PR區間篩檢診斷胎兒心臟傳導阻滯的效益。</p><p><b>研究設計：</b>此為一回溯性世代研究，納入124例抗SSA和/或抗SSB抗體陽性的單胎妊娠。篩檢時間為妊娠18至28週每週一次，之後每月一次，使用脈衝都卜勒測量機械性PR區間。</p><p><b>主要發現：</b>124例妊娠中，3例胎兒（2.4%）診斷出心臟傳導阻滯：2例為一度阻滯，1例為完全性CHB。平均每359次篩檢超音波檢測到1例受影響胎兒。一度阻滯經dexamethasone治療後穩定或恢復正常，但完全性CHB未能逆轉。</p><p><b>臨床意義：</b>儘管在高風險族群中，常規胎兒PR區間篩檢能檢測出預期比例的傳導異常，但僅有2/3的病例能及早發現以進行潛在干預，且每個病例的篩檢負擔巨大。這提示我們應重新考慮普遍性篩檢策略，並建議採用風險導向的監測方式，以平衡檢測率與篩檢負擔。</p></div></div>
+  <div id="analysis-result-42012602"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42012602/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1002/pd.70153" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42012602" data-rating="must_read" onclick="vote('42012602','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42012602-must_read" style="display:none;">0</span></button> <button data-pmid="42012602" data-rating="useful" onclick="vote('42012602','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42012602-useful" style="display:none;">0</span></button> <button data-pmid="42012602" data-rating="so_so" onclick="vote('42012602','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42012602-so_so" style="display:none;">0</span></button> <button data-pmid="42012602" data-rating="skip" onclick="vote('42012602','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42012602-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42012602" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42012602" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42012602','Diagnostic Yield of Serial PR Interval Screening for Fetal Heart Block in Anti-SSA/SSB Pregnancies.',this,false)">
+  <button id="upload-btn-42012602" onclick="document.getElementById('pdf-42012602').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42012602" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Pediatric Cardiology</span></div>
+  <h2 class="card-title">A Call to Reform Congenital Interventional Cardiology Training: A PICES Community Survey.</h2>
+  <div class="card-authors">Nageotte S, McGovern E, Lahiri S, et al. · 2026 Apr 21</div>
+  <div id="original-analysis-42012641"><div class="section"><p><b>研究目的：</b>本研究旨在探討並呼籲改革先天性心臟介入治療的訓練模式，以期提升該領域的專業水準。</p><p><b>研究設計：</b>根據文章標題判斷，這是一項針對PICES（Pediatric Interventional Cardiac Society）社群進行的問卷調查研究。由於抽象內容未提供，無法得知具體的受訪者數量、地理範圍或詳細方法學。</p><p><b>主要發現：</b>抽象內容未提供，無法判斷具體研究發現。</p><p><b>臨床意義：</b>本研究主要關注先天性心臟介入治療醫師的訓練改革，對新生兒科醫師的日常照護決策或臨床實踐無直接影響。其意義可能在於間接影響未來接受訓練的介入性心臟科醫師的技能與知識，進而可能影響他們對新生兒先天性心臟病的治療。</p></div></div>
+  <div id="analysis-result-42012641"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42012641/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1007/s00246-026-04268-2" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42012641" data-rating="must_read" onclick="vote('42012641','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42012641-must_read" style="display:none;">0</span></button> <button data-pmid="42012641" data-rating="useful" onclick="vote('42012641','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42012641-useful" style="display:none;">0</span></button> <button data-pmid="42012641" data-rating="so_so" onclick="vote('42012641','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42012641-so_so" style="display:none;">0</span></button> <button data-pmid="42012641" data-rating="skip" onclick="vote('42012641','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42012641-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42012641" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42012641" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42012641','A Call to Reform Congenital Interventional Cardiology Training: A PICES Community Survey.',this,false)">
+  <button id="upload-btn-42012641" onclick="document.getElementById('pdf-42012641').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42012641" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Cardiology in the Young</span></div>
+  <h2 class="card-title">Arrhythmic mitral valve prolapse: prevalence, characteristics, and high-risk features in children and adolescents.</h2>
+  <div class="card-authors">Lenarczyk A, Tyc F, Lenarczyk R, et al. · 2026 Apr 21</div>
+  <div id="original-analysis-42011124"><div class="section"><p><b>研究目的：</b>本研究旨在探討兒童及青少年族群中，心律不整性僧帽瓣脫垂 (AMVP) 的盛行率、臨床特徵及高風險因子。</p><p><b>研究設計：</b>這是一項回溯性資料庫研究，分析2018年至2025年間單一高流量三級先天性心臟病部門的住院病人。共篩選出52位診斷為僧帽瓣脫垂 (MVP) 的患者，中位年齡為14歲 (IQR 6)。</p><p><b>主要發現：</b>在該院住院病人中，MVP的盛行率為0.4%。在MVP患者中，有13位 (25%) 診斷為AMVP。表型風險因子盛行率高達88.5%，但在交叉分析中，僅擴大的左心房與高風險心律不整事件相關 (p=0.0432)。此外，有心律不整事件的患者年齡顯著較大 (中位數16歲) 於無事件者 (中位數13歲; p=0.019)。所有52位患者在平均3年的追蹤期間均存活，但與原發性電生理疾病重疊可能預後較差。</p><p><b>臨床意義：</b>本研究主要針對兒童及青少年族群，而非新生兒。其發現有助於了解兒童及青少年AMVP的盛行率、臨床特徵及預後，但對新生兒科醫師的日常臨床決策無直接影響。</p></div></div>
+  <div id="analysis-result-42011124"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42011124/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1017/S1047951126112220" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42011124" data-rating="must_read" onclick="vote('42011124','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42011124-must_read" style="display:none;">0</span></button> <button data-pmid="42011124" data-rating="useful" onclick="vote('42011124','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42011124-useful" style="display:none;">0</span></button> <button data-pmid="42011124" data-rating="so_so" onclick="vote('42011124','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42011124-so_so" style="display:none;">0</span></button> <button data-pmid="42011124" data-rating="skip" onclick="vote('42011124','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42011124-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42011124" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42011124" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42011124','Arrhythmic mitral valve prolapse: prevalence, characteristics, and high-risk features in children and adolescents.',this,false)">
+  <button id="upload-btn-42011124" onclick="document.getElementById('pdf-42011124').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42011124" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Circulation</span></div>
+  <h2 class="card-title">Response by Gasperetti et al to Letter Regarding Article, "Prognostic Role of Myocarditis-Like Episodes and Their Treatment in Patients With Pathogenic Desmoplakin Variants".</h2>
+  <div class="card-authors">Gasperetti A, Peretto G, James CA, et al. · 2026 Apr 21</div>
+  <div id="original-analysis-42008591"><div class="section"><p><b>研究目的：</b>本文為針對一篇探討具致病性Desmoplakin變異患者之心肌炎樣發作及其治療預後角色之文章所提出的信件回覆。</p><p><b>研究設計：</b>本篇為「信件回覆 (Response to Letter)」形式，非原創性研究設計，因此無特定研究對象範圍或樣本數。</p><p><b>主要發現：</b>作為信件回覆，本文並未提出新的原創性研究發現，而是針對先前文章的內容進行澄清或討論。</p><p><b>臨床意義：</b>本文主題主要聚焦於成人或青少年遺傳性心臟疾病，與新生兒加護病房（NICU）的日常照護決策無直接臨床意義。</p></div></div>
+  <div id="analysis-result-42008591"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42008591/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1161/CIRCULATIONAHA.126.079059" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42008591" data-rating="must_read" onclick="vote('42008591','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42008591-must_read" style="display:none;">0</span></button> <button data-pmid="42008591" data-rating="useful" onclick="vote('42008591','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42008591-useful" style="display:none;">0</span></button> <button data-pmid="42008591" data-rating="so_so" onclick="vote('42008591','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42008591-so_so" style="display:none;">0</span></button> <button data-pmid="42008591" data-rating="skip" onclick="vote('42008591','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42008591-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42008591" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42008591" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42008591','Response by Gasperetti et al to Letter Regarding Article, &quot;Prognostic Role of Myocarditis-Like Episodes and Their Treatment in Patients With Pathogenic Desmoplakin Variants&quot;.',this,false)">
+  <button id="upload-btn-42008591" onclick="document.getElementById('pdf-42008591').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42008591" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Circulation</span></div>
+  <h2 class="card-title">Letter by Chen et al Regarding Article, "Prognostic Role of Myocarditis-Like Episodes and Their Treatment in Patients With Pathogenic Desmoplakin Variants".</h2>
+  <div class="card-authors">Chen XX, Chen YQ, Song ZQ · 2026 Apr 21</div>
+  <div id="original-analysis-42008588"><div class="section"><p><b>研究目的：</b>本文為一篇致編輯信函，旨在對一篇探討具致病性 desmoplakin 變異患者之心肌炎樣發作及其治療預後角色的文章提出評論或補充。</p><p><b>研究設計：</b>此為一篇致編輯信函，非原創性研究。因此，無特定研究設計、樣本數、收案族群（如 GA 範圍、出生體重）或研究方法。</p><p><b>主要發現：</b>作為致編輯信函，本文不包含原創性研究發現或統計數據。其內容應為對原文章的觀點、討論或補充資訊。</p><p><b>臨床意義：</b>此信函討論的議題主要屬於成人或一般兒科心臟病學範疇，與新生兒科的日常照護決策或特定族群（如早產兒）的處置無直接臨床意義。</p></div></div>
+  <div id="analysis-result-42008588"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42008588/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1161/CIRCULATIONAHA.125.077100" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42008588" data-rating="must_read" onclick="vote('42008588','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42008588-must_read" style="display:none;">0</span></button> <button data-pmid="42008588" data-rating="useful" onclick="vote('42008588','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42008588-useful" style="display:none;">0</span></button> <button data-pmid="42008588" data-rating="so_so" onclick="vote('42008588','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42008588-so_so" style="display:none;">0</span></button> <button data-pmid="42008588" data-rating="skip" onclick="vote('42008588','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42008588-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42008588" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42008588" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42008588','Letter by Chen et al Regarding Article, &quot;Prognostic Role of Myocarditis-Like Episodes and Their Treatment in Patients With Pathogenic Desmoplakin Variants&quot;.',this,false)">
+  <button id="upload-btn-42008588" onclick="document.getElementById('pdf-42008588').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42008588" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Heart</span></div>
+  <h2 class="card-title">Home-based, online-monitored high-intensity interval training improves fitness in patients with tetralogy of Fallot: a randomised controlled trial.</h2>
+  <div class="card-authors">van Genuchten WJ, Fejzic Z, Kauling RM, et al. · 2026 Apr 20</div>
+  <div id="original-analysis-42009570"><div class="section"><p><b>研究目的：</b>本研究旨在探討居家、線上監測的高強度間歇訓練 (HIIT) 對於已修復法洛氏四合症 (rToF) 青少年及年輕成人患者的可行性、安全性及效果。</p><p><b>研究設計：</b>此為一單中心隨機對照試驗 (RCT)，共納入34名12-30歲的rToF患者 (中位年齡16歲)。患者隨機分組接受為期12週的居家HIIT訓練或標準照護 (SOC)。主要終點為尖峰攝氧量 (peak VO2) 及最大運動負荷 (maximal workload) 的平均差異。</p><p><b>主要發現：</b>HIIT組未發生嚴重不良事件。HIIT後，peak VO2從38.3 mL/kg/min增加至40.9 mL/kg/min (∆ 4.0 mL/kg/min, 95% CI 1.52 to 6.53)，運動負荷從204 W增加至218 W (∆ 17 W, 95% CI 5 to 30)。心臟容積和射出分率未見變化。值得注意的是，較低的右心室射出分率 (RV EF) 與更大的改善相關。</p><p><b>臨床意義：</b>對於新生兒科醫師而言，本研究與新生兒照護無直接相關性。其結果顯示居家HIIT能提升青少年及年輕成人rToF患者的運動能力，且未對心臟結構或功能產生不良影響，為此類患者提供了一個可行的運動訓練替代方案。</p></div></div>
+  <div id="analysis-result-42009570"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42009570/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1136/heartjnl-2025-327201" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42009570" data-rating="must_read" onclick="vote('42009570','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42009570-must_read" style="display:none;">0</span></button> <button data-pmid="42009570" data-rating="useful" onclick="vote('42009570','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42009570-useful" style="display:none;">0</span></button> <button data-pmid="42009570" data-rating="so_so" onclick="vote('42009570','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42009570-so_so" style="display:none;">0</span></button> <button data-pmid="42009570" data-rating="skip" onclick="vote('42009570','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42009570-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42009570" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42009570" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42009570','Home-based, online-monitored high-intensity interval training improves fitness in patients with tetralogy of Fallot: a randomised controlled trial.',this,false)">
+  <button id="upload-btn-42009570" onclick="document.getElementById('pdf-42009570').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42009570" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Catheterization and Cardiovascular Interventions</span></div>
+  <h2 class="card-title">Transcatheter Repair of Sinus Venosus Defect Using a 12-zig Covered Cheatham-Platinum Stent in Large Superior Vena Cava-Right Atrium Junctions: Early Multicenter Experience.</h2>
+  <div class="card-authors">Fuensalida A, Rosenthal E, Kabir S, et al. · 2026 Apr 21</div>
+  <div id="original-analysis-42013244"><div class="section"><p><b>研究目的：</b>本研究旨在評估使用12-zig covered Cheatham-platinum stent 經導管修復Sinus Venosus Defect (SVD) 的有效性與安全性，特別是針對具有大型superior vena caval-right atrial (SVC-RA) junctions 的患者。</p><p><b>研究設計：</b>本研究為一項回溯性分析，納入兩家機構共五名有症狀的SVD患者（80%男性，中位年齡59歲），這些患者均接受了12-zig CP stent 植入。</p><p><b>主要發現：</b>所有五名患者均成功植入支架。其中三名患者因殘餘滲漏或支架穩定性需要植入第二個支架。研究未報告任何手術併發症，所有患者在追蹤期間症狀均有改善，影像學檢查證實支架位置穩定。</p><p><b>臨床意義：</b>本研究顯示12-zig CP stent 在經皮治療高度選擇的SVD患者中具有可行性，尤其適用於複雜解剖結構（包括大型SVC-RA junctions）的成人患者。然而，由於研究對象為中位年齡59歲的成人，此結果與新生兒科的臨床照護無直接相關性。</p></div></div>
+  <div id="analysis-result-42013244"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42013244/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1002/ccd.70623" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42013244" data-rating="must_read" onclick="vote('42013244','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42013244-must_read" style="display:none;">0</span></button> <button data-pmid="42013244" data-rating="useful" onclick="vote('42013244','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42013244-useful" style="display:none;">0</span></button> <button data-pmid="42013244" data-rating="so_so" onclick="vote('42013244','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42013244-so_so" style="display:none;">0</span></button> <button data-pmid="42013244" data-rating="skip" onclick="vote('42013244','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42013244-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42013244" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42013244" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42013244','Transcatheter Repair of Sinus Venosus Defect Using a 12-zig Covered Cheatham-Platinum Stent in Large Superior Vena Cava-Right Atrium Junctions: Early Multicenter Experience.',this,false)">
+  <button id="upload-btn-42013244" onclick="document.getElementById('pdf-42013244').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42013244" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<footer>
+  Journal Auto-Review System · 馬偕紀念醫院小兒心臟科<br>
+  AI scoring by Claude (Haiku + Sonnet)
+</footer>
+</div>
+</div>
+
+<script>
+(function() {
+  var TOKEN_HASH = "4e6625a398df42b32e5f3a95782c510e98d6c5ea8cd6ed8bbd8aab4e81155843";
+  var PW_HASH = "6d9aac081d1c176077fdf2da7a30211680c13c55aa69e32e72c31dcfd78faee4";
+  var content = document.getElementById('digest-content');
+  var gate = document.getElementById('auth-gate');
+
+  function sha256(str) {
+    var encoder = new TextEncoder();
+    return crypto.subtle.digest('SHA-256', encoder.encode(str)).then(function(buf) {
+      return Array.from(new Uint8Array(buf)).map(function(b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    });
+  }
+
+  function unlock() {
+    gate.style.display = 'none';
+    content.style.display = 'block';
+  }
+
+  function checkAccess() {
+    // 1. Check URL token
+    var params = new URLSearchParams(window.location.search);
+    var t = params.get('t');
+    if (t && TOKEN_HASH) {
+      sha256(t).then(function(h) {
+        if (h === TOKEN_HASH) {
+          localStorage.setItem('digest_token', t);
+          unlock();
+        } else {
+          checkPassword();
+        }
+      });
+      return;
+    }
+
+    // 2. Check stored password
+    checkPassword();
+  }
+
+  function checkPassword() {
+    if (!PW_HASH) { unlock(); return; }
+    var saved = localStorage.getItem('digest_pw');
+    if (saved) {
+      sha256(saved).then(function(h) {
+        if (h === PW_HASH) { unlock(); }
+        else { gate.style.display = 'flex'; }
+      });
+    } else {
+      gate.style.display = 'flex';
+    }
+  }
+
+  window.submitPassword = function() {
+    var input = document.getElementById('pw-input').value;
+    sha256(input).then(function(h) {
+      if (h === PW_HASH) {
+        localStorage.setItem('digest_pw', input);
+        unlock();
+      } else {
+        document.getElementById('pw-error').style.display = 'block';
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', checkAccess);
+})();
+</script>
+<script>
+(function() {
+  var FEEDBACK_URL = "https://script.google.com/macros/s/AKfycbwqSMhyfrFydA2i22AuD_RQLv6bxFPG8m-Jp0G__u1vigkmj-SOx6uwrUiwfux7RNTy/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "cardiology";
+  var voted = JSON.parse(localStorage.getItem('digest_voted') || '{}'  );
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore previous votes
+    Object.keys(voted).forEach(function(pmid) {
+      var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+      btns.forEach(function(btn) {
+        btn.style.opacity = '0.4';
+        btn.style.pointerEvents = 'none';
+      });
+      var label = document.getElementById('voted-' + pmid);
+      if (label) {
+        var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+        label.textContent = "Voted: " + (labels[voted[pmid]] || voted[pmid]) + " ✓";
+        label.style.display = 'block';
+      }
+    });
+  });
+
+  window.vote = function(pmid, rating, el) {
+    if (voted[pmid]) return;
+
+    // Get uid from token or anonymous
+    var uid = 'web_anon';
+    var t = new URLSearchParams(window.location.search).get('t');
+    if (t) uid = 'web_' + t.substring(0, 8);
+
+    // JSONP call
+    var script = document.createElement('script');
+    var cb = 'fb_' + Date.now();
+    window[cb] = function(resp) {
+      if (resp && resp.status === 'ok') {
+        voted[pmid] = rating;
+        localStorage.setItem('digest_voted', JSON.stringify(voted));
+
+        var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+        btns.forEach(function(btn) {
+          btn.style.opacity = '0.4';
+          btn.style.pointerEvents = 'none';
+        });
+        el.style.opacity = '1';
+        el.style.background = '#1B6B93';
+        el.style.color = '#fff';
+
+        // Update vote count
+        var cntEl = document.getElementById('cnt-' + pmid + '-' + rating);
+        if (cntEl) {
+          var n = parseInt(cntEl.textContent || '0') + 1;
+          cntEl.textContent = n;
+          cntEl.style.display = '';
+          cntEl.style.color = '#fff';
+        }
+
+        var label = document.getElementById('voted-' + pmid);
+        if (label) {
+          var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+          label.textContent = "Voted: " + (labels[rating] || rating) + " ✓";
+          label.style.display = 'block';
+        }
+      }
+      delete window[cb];
+      script.remove();
+    };
+    script.src = FEEDBACK_URL + '?action=feedback&pmid=' + pmid + '&rating=' + rating +
+      '&uid=' + uid + '&source=web&secret=' + SECRET + '&dept=' + DEPT + '&callback=' + cb;
+    document.body.appendChild(script);
+  };
+})();
+</script>
+<script>
+(function() {
+  var WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwqSMhyfrFydA2i22AuD_RQLv6bxFPG8m-Jp0G__u1vigkmj-SOx6uwrUiwfux7RNTy/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "cardiology";
+  var uploaded = JSON.parse(localStorage.getItem('digest_uploaded') || '{}');
+
+  // Load analysis results on page load
+  function loadAnalysis(pmid) {
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        renderAnalysis(pmid, resp.analysis);
+      }
+    });
+  }
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore uploaded state from localStorage
+    Object.keys(uploaded).forEach(function(pmid) {
+      var btn = document.getElementById('upload-btn-' + pmid);
+      if (btn) {
+        btn.textContent = '✓ 已上傳，已分析';
+        btn.disabled = true;
+        btn.style.opacity = '0.5';
+        btn.style.cursor = 'default';
+      }
+      loadAnalysis(pmid);
+    });
+    // Auto-load analysis for articles that already have fulltext analysis
+    document.querySelectorAll('[data-has-analysis]').forEach(function(el) {
+      var pmid = el.getAttribute('data-has-analysis');
+      if (!uploaded[pmid]) {
+        loadAnalysis(pmid);
+      }
+    });
+  });
+
+  // JSONP helper for polling
+  function jsonpGet(url, callback) {
+    var script = document.createElement('script');
+    var cb = 'pdfcb_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5);
+    window[cb] = function(resp) {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback(resp);
+    };
+    script.src = url + '&callback=' + cb;
+    script.onerror = function() {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback({ status: 'error', message: 'Network error' });
+    };
+    document.head.appendChild(script);
+  }
+
+  // Poll for analysis result via JSONP GET
+  var POLL_TOTAL = 30;
+  var POLL_STEPS = [
+    '📤 PDF 已上傳，伺服器接收中...',
+    '📄 正在提取 PDF 全文...',
+    '📄 正在提取 PDF 全文...',
+    '🔍 全文提取中，準備進行 AI 分析...',
+    '🔍 全文提取完成，啟動 AI 分析...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 正在整合分析結果...',
+    '🤖 AI 正在整合分析結果...',
+    '💾 正在儲存分析結果...',
+    '💾 正在儲存分析結果...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，請耐心等候...',
+    '⏳ 仍在處理中，請耐心等候...',
+    '⏳ 大型 PDF 需要較長處理時間...',
+    '⏳ 大型 PDF 需要較長處理時間...',
+    '⏳ 即將完成，感謝您的耐心...',
+    '⏳ 即將完成，感謝您的耐心...',
+    '⏳ 即將完成...',
+    '⏳ 即將完成...',
+    '⏳ 最後處理中...',
+    '⏳ 最後處理中...',
+    '⏳ 最後處理中...'
+  ];
+
+  function pollForResult(pmid, btn, statusEl, attempts) {
+    if (attempts <= 0) {
+      btn.textContent = '❌ 分析逾時';
+      btn.disabled = false;
+      statusEl.textContent = '伺服器處理時間過長，請稍後再試';
+      statusEl.style.color = '#E24B4A';
+      var orig = document.getElementById('original-analysis-' + pmid);
+      if (orig) orig.style.display = '';
+      return;
+    }
+
+    // Update progress message
+    var stepIdx = POLL_TOTAL - attempts;
+    var elapsed = (stepIdx + 1) * 10 + 15;
+    var msg = POLL_STEPS[Math.min(stepIdx, POLL_STEPS.length - 1)];
+    statusEl.textContent = msg + '（' + elapsed + '秒）';
+
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        btn.textContent = '✓ 已有全文分析';
+        btn.style.color = '#085041';
+        btn.style.borderColor = '#085041';
+        statusEl.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
+        statusEl.style.color = '#085041';
+        uploaded[pmid] = true;
+        localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
+        var orig = document.getElementById('original-analysis-' + pmid);
+        if (orig) orig.style.display = 'none';
+        renderAnalysis(pmid, resp.analysis);
+      } else if (resp.status === 'pending') {
+        setTimeout(function() { pollForResult(pmid, btn, statusEl, attempts - 1); }, 10000);
+      } else {
+        btn.textContent = '❌ 分析失敗';
+        btn.disabled = false;
+        statusEl.textContent = resp.message || '請稍後再試';
+        statusEl.style.color = '#E24B4A';
+        var orig = document.getElementById('original-analysis-' + pmid);
+        if (orig) orig.style.display = '';
+      }
+    });
+  }
+
+  window.handlePdfSelect = function(pmid, title, input, force) {
+    var file = input.files[0];
+    if (!file) return;
+    if (file.size > 10 * 1024 * 1024) {
+      alert('PDF 檔案不能超過 10MB');
+      return;
+    }
+
+    if (force && !confirm('確定要重新上傳並分析此 PDF？將會覆蓋現有的分析結果。')) {
+      input.value = '';
+      return;
+    }
+
+    var btn = document.getElementById('upload-btn-' + pmid);
+    var statusEl = document.getElementById('upload-status-' + pmid);
+    btn.textContent = '⏳ 上傳中...';
+    btn.disabled = true;
+    statusEl.textContent = '📤 正在上傳 PDF 至伺服器...';
+    statusEl.style.display = 'inline';
+    statusEl.style.color = '#1B6B93';
+
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var base64 = e.target.result.split(',')[1];
+
+      // Step 1: Submit via fetch + URLSearchParams (no-cors, response ignored — polling handles result)
+      fetch(WEBHOOK_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: new URLSearchParams({
+          action: 'upload_pdf',
+          pmid: pmid,
+          title: title,
+          pdf_base64: base64,
+          secret: SECRET,
+          dept: DEPT,
+          force: force ? 'true' : 'false'
+        })
+      }).catch(function() {});
+
+      // Step 2: Poll for result via JSONP (every 10s, up to POLL_TOTAL attempts)
+      setTimeout(function() { pollForResult(pmid, btn, statusEl, POLL_TOTAL); }, 15000);
+    };
+    reader.readAsDataURL(file);
+  };
+
+  window.renderAnalysis = function(pmid, data) {
+    var container = document.getElementById('analysis-result-' + pmid);
+    if (!container) return;
+
+    var a = data.deep_analysis || data;
+    var html = '';
+
+    if (a.thirty_second_summary) {
+      html += '<div class="section"><b>30 秒重點：</b>' + a.thirty_second_summary + '</div>';
+    }
+
+    var hidden = a.hidden_findings || [];
+    if (hidden.length > 0) {
+      html += '<div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div>';
+      for (var i = 0; i < hidden.length; i++) {
+        html += '<p><b>' + (hidden[i].finding || '') + '</b> ' + (hidden[i].source || '') + '。' + (hidden[i].implication || '') + '</p>';
+      }
+      html += '</div>';
+    }
+
+    var meth = a.methodology_audit || {};
+    var methHtml = '';
+    (meth.strengths || []).forEach(function(s) { methHtml += '<div class="hl hl-green"><b>Strong：</b>' + s + '</div>'; });
+    (meth.notes || []).forEach(function(n) { methHtml += '<div class="hl hl-amber"><b>Note：</b>' + n + '</div>'; });
+    (meth.weaknesses || []).forEach(function(w) { methHtml += '<div class="hl hl-red"><b>Weak：</b>' + w + '</div>'; });
+    if (methHtml) {
+      html += '<div class="section"><div class="section-label" style="color:#633806">方法學評估</div>' + methHtml + '</div>';
+    }
+
+    var impact = a.protocol_impact || {};
+    if (impact.proposed_change) {
+      var impactHtml = '<div class="hl hl-blue">';
+      if (impact.current_practice) impactHtml += '<b>目前做法：</b>' + impact.current_practice + '<br>';
+      if (impact.proposed_change) impactHtml += '<b>建議調整：</b>' + impact.proposed_change + '<br>';
+      if (impact.missing_evidence) impactHtml += '<b>等待的證據：</b>' + impact.missing_evidence;
+      impactHtml += '</div>';
+      html += '<div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div>' + impactHtml + '</div>';
+    }
+
+    container.innerHTML = html;
+  };
+})();
+</script>
+</body>
+</html>

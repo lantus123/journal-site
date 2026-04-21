@@ -8592,5 +8592,550 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-21"
+  },
+  {
+    "pmid": "42008592",
+    "title": "Pressure Overload-Induced Ventricular Crosstalk Activates Regenerative Mechanisms in the Contralateral Ventricle in Neonatal Mice.",
+    "authors": "Ebach F, Nicke J, Hu T, et al.",
+    "journal": "Circulation",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1161/CIRCULATIONAHA.125.077779",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Neonatal heart",
+      "cardiac regeneration",
+      "pressure overload",
+      "ventricular crosstalk",
+      "animal model"
+    ],
+    "one_liner": "這是一篇關於新生小鼠心臟再生機制的基礎研究，對於理解新生兒心臟疾病的潛在治療方向有長期意義，但短期內對 NICU 臨床照護無直接影響。",
+    "summary": {
+      "purpose": "本研究旨在探討新生小鼠心臟在壓力負荷下，心室間的交互作用如何啟動對側心室的再生機制。",
+      "design": "僅從標題判斷，此為一項使用新生小鼠的基礎動物實驗研究，著重於心臟生理與分子機制。具體研究設計、樣本數及實驗細節無法從標題得知。",
+      "findings": "標題指出壓力負荷會誘導心室間的交互作用，進而激活對側心室的再生機制。詳細的實驗結果與量化數據無法從標題中獲取。",
+      "significance": "這項基礎研究有助於增進對新生兒心臟在壓力損傷後潛在再生能力的理解，可能為未來開發新生兒心臟疾病（如先天性心臟病、肺高壓引起的心臟衰竭）的治療策略提供理論基礎，但目前尚無直接臨床應用。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這是一篇發表在 Circulation 的新生小鼠基礎研究，顯示對單一心室施加壓力負荷（pressure overload），會透過心室間的交互作用（ventricular crosstalk），意外地啟動對側心室的再生機制。這項發現雖然離臨床應用還非常遙遠，但它揭示了新生兒心臟潛在的自我修復能力。這為未來治療 PPHN 或先天性心臟病造成的單心室衰竭，提供了新的思考方向：我們或許能利用內在機制來促進心肌修復，而不僅僅是給予支持性治療。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 未說明壓力負荷的具體模型：是對左心室（如主動脈縮窄，mimicking Aortic Stenosis）還是右心室（如肺動脈環紮，mimicking PPHN/BPD）施加壓力？這兩種模型在臨床上的意義完全不同，對應的病人族群也不同。",
+          "source": "Abstract and Title",
+          "implication": "如果是 RV overload 模型，其結果可能對我們處理 PPHN 或 BPD 合併肺高壓導致的 cor pulmonale 更具啟發性。如果是 LV overload，則與 critical AS 或 coarctation of the aorta 的病生理較相關。閱讀全文時必須先釐清這一點。"
+        },
+        {
+          "finding": "「新生小鼠」的日齡對應到人類的哪個發育階段？小鼠心肌細胞的再生能力在出生後第一週內會急遽下降。實驗是在出生後第1天（P1）還是第7天（P7）進行，其結果的可轉譯性（translatability）差異極大。",
+          "source": "Abstract",
+          "implication": "如果實驗是在 P1 進行，約略對應人類足月新生兒，其再生潛力較高。若在 P7 進行，則更接近人類嬰兒期，再生能力已減弱。這決定了此機制是否對我們主要照護的早產兒（心臟更不成熟）具有潛在意義。"
+        },
+        {
+          "finding": "Abstract 中「再生機制」（regenerative mechanisms）的定義模糊。這指的是真正的心肌細胞增生（cardiomyocyte proliferation），還是僅為血管新生（angiogenesis）、減少纖維化（fibrosis）或適應性肥大（adaptive hypertrophy）？",
+          "source": "Abstract",
+          "implication": "真正的心肌細胞增生是心臟修復的聖杯。如果研究證實了這一點，其重要性遠高於其他代償機制。閱讀全文需確認他們是用什麼 marker（如 Ki67, pHH3, Aurora B）來證實細胞增生的。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "發表於頂級期刊 Circulation，代表其分子生物學及動物實驗的設計與執行品質可能非常嚴謹。",
+          "研究主題具有高度原創性，探討了心室間交互作用在心臟再生中的角色，這是一個相對新穎的領域。"
+        ],
+        "notes": [
+          "關鍵點是動物模型與人類新生兒，特別是早產兒生理的巨大差異。小鼠的心率、代謝率、以及對缺氧的耐受性都與人類不同。",
+          "需要注意實驗動物是否僅限於雄性，這在心血管基礎研究中很常見，但可能忽略了性別差異。"
+        ],
+        "weaknesses": [
+          "研究的直接臨床可轉譯性（direct clinical translatability）極低。這是一個機制探索的基礎研究，距離人體試驗還有非常漫長的路。",
+          "壓力負荷模型可能過於簡化。臨床上，新生兒心臟衰竭往往是多重因素造成的（如 hypoxia, sepsis, inflammation, nutritional deficits），而非單純的物理性壓力。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Porrello ER et al. 2011, Science",
+            "comparison": "Porrello 的研究是證實新生小鼠心臟具有再生能力的開創性論文，但主要聚焦於心尖切除（apical resection）後的再生。本研究與之不同，探討的是壓力負荷模型，且著重於「對側心室」的反應，提出了 ventricular crosstalk 這個新機制。"
+          },
+          {
+            "citation": "Alkassar et al. 2017, J Am Heart Assoc",
+            "comparison": "這類研究使用都卜勒超音波評估 PPHN 新生兒的 RV/LV 功能與交互作用（如 Tei index, septal flattening）。這些是人體臨床觀察研究，描述了現象。而 Ebach 這篇動物實驗則是在嘗試解釋現象背後的分子機制。"
+          }
+        ],
+        "guideline_status": "目前所有新生兒心臟照護指引（如 AAP 對 PPHN 的管理）皆著重於病因治療（如 iNO 降低肺動脈壓）、維持系統性血壓、以及使用 inotropes/lusitropes 支持心臟功能。沒有任何指引提及或建議誘導內源性心肌再生的策略，因為這仍處於基礎研究階段。",
+        "evidence_gap_filled": "本研究填補了我們對於「為何一個心室出問題，另一個心室也會受影響」的分子機制理解。過去我們多從物理性因素（如心室中膈位移）來解釋，本研究提示可能還存在主動的、跨心室的生物信號傳遞與再生反應。",
+        "ongoing_trials": "沒有直接相關的臨床試驗。最接近的領域可能是針對小兒心臟衰竭的幹細胞療法或基因療法研究，但這些試驗的目標與本研究探討的內源性再生機制不同，且距離新生兒臨床應用仍遠。"
+      },
+      "protocol_impact": {
+        "current_practice": "目前對於新生兒心室衰竭（如 PPHN 引起的 RV failure），我們的標準做法是：\n1. 處理根本原因：給予 iNO 或其他 pulmonary vasodilators (sildenafil, bosentan) 降低肺動脈阻力。\n2. 優化通氣策略：避免 hypoxia 和 hypercarbia。\n3. 強心藥物支持：使用 inotropes 如 dopamine, dobutamine, epinephrine 增強心肌收縮力。\n4. 後負荷降低/改善舒張功能：使用 milrinone。\n5. 維持足夠的冠狀動脈灌流：維持適當的全身血壓。\n6. 必要時使用 ECMO 作為救援治療。",
+        "proposed_change": "無。這項基礎研究的結果完全不應改變我們目前的臨床 protocol。它的價值在於啟發未來的研究方向，而非指導當前的臨床決策。我們應繼續遵循現有的 evidence-based guidelines。",
+        "prerequisites": [
+          "在考慮任何臨床改變之前，需要大量的轉譯研究（translational research），包括在大型動物模型（如豬或羊）上驗證此發現。",
+          "需要鑑定出介導這種 crosstalk 的具體分子信號，並開發出能夠安全調控這些信號的藥物。",
+          "需要在人類新生兒中證實此再生現象的存在。"
+        ],
+        "missing_evidence": "幾乎所有臨床相關的證據都付之闕如。我們不知道：\n1. 此現象是否存在於人類新生兒，特別是早產兒？\n2. 誘導此再生機制的潛在風險是什麼？（例如：是否可能導致心律不整或腫瘤形成？）\n3. 長期的 neurodevelopmental outcome 和心臟功能追蹤結果如何？\n4. 在合併敗血症、缺氧或多重器官衰竭的複雜臨床情境下，此機制是否仍然有效？"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42009838",
+    "title": "Finding a Path to the Heart: Right Heart Catheterization in Patients with Right Congenital Diaphragmatic Hernia and Anomalous Venous Anatomy.",
+    "authors": "Evans TA, Keller RL, Moon-Grady AJ, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 20",
+    "doi": "10.1007/s00246-026-04229-9",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "CDH",
+      "cardiac catheterization",
+      "pulmonary hypertension",
+      "venous anatomy",
+      "right CDH"
+    ],
+    "one_liner": "對於右側先天性橫膈膜疝氣（right CDH）的嬰幼兒，進行右心導管檢查時需留意異常靜脈解剖構造，頸內靜脈路徑可能優於股靜脈路徑。",
+    "summary": {
+      "purpose": "本研究旨在評估先天性橫膈膜疝氣（CDH）病童在進行心導管檢查時，異常全身靜脈回流對右心通路造成的複雜程度，此現象此前描述不詳。",
+      "design": "本研究為單中心回溯性分析，檢視2006年至2025年間在加州大學舊金山分校接受心導管檢查的CDH病童（年齡≤2歲，首次導管檢查時年齡介於4週至2歲，體重1.9-13 kg）。共納入30名病童，其中9名為右側CDH（3名合併肝肺融合），21名為左側CDH。",
+      "findings": "所有左側CDH病童均可經由股靜脈直接從下腔靜脈（IVC）進入右心。然而，數名右側CDH病童因異常靜脈解剖構造（可能繼發於橫膈膜處IVC受壓），導致無法直接從IVC進入右心房。對於右側CDH病童，經由內頸靜脈進行上腔靜脈（SVC）通路，其螢光透視時間較經由股靜脈進行IVC通路為短。",
+      "significance": "對於右側CDH病童，特別是合併肝肺融合者，在進行右心導管檢查時應考慮可能存在異常全身靜脈解剖構造，進而影響靜脈通路。若非侵入性影像學檢查尚未明確顯示，可考慮從股靜脈進行初步血管攝影以引導心導管檢查路徑，且頸內靜脈路徑可能更為有效率。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42009290",
+    "title": "Robotically Assisted Pediatric Cardiac Surgery: A New Paradigm in Minimally Invasive Surgery for Congenital Heart Defects.",
+    "authors": "Chauhan I, Cordoves E, Nguyen TC, et al.",
+    "journal": "Journal of Thoracic and Cardiovascular Surgery",
+    "pub_date": "2026 Apr 18",
+    "doi": "10.1016/j.jtcvs.2026.04.008",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 4,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Pediatric Cardiac Surgery",
+      "Congenital Heart Defects",
+      "Robotic Surgery",
+      "Minimally Invasive Surgery"
+    ],
+    "one_liner": "這篇關於機器人輔助小兒心臟手術的文章，對於新生兒科醫師而言，屬於間接相關，因其著重於手術技術而非新生兒重症照護本身，但若涉及新生兒病患，其術後照護仍需新生兒科醫師關注。",
+    "summary": {
+      "purpose": "旨在介紹並評估機器人輔助心臟手術作為治療小兒先天性心臟缺陷的新型微創方法。",
+      "design": "由於缺乏摘要內容，無法得知確切研究設計、病患胎齡、出生體重及樣本數。根據標題推測，可能為初步經驗分享或病例系列報告。",
+      "findings": "由於缺乏摘要內容，無法提供具體研究發現及關鍵數據。",
+      "significance": "此研究探討的機器人輔助心臟手術，若應用於新生兒先天性心臟病患，可能影響其術後恢復與照護模式。然而，由於缺乏具體數據，其對新生兒加護病房照護的直接臨床意義尚不明確。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42009117",
+    "title": "Detection Without Direction: Rethinking Preoperative Brain MRI in Neonatal Cardiac Surgery.",
+    "authors": "Lynch JM",
+    "journal": "Annals of Thoracic Surgery",
+    "pub_date": "2026 Apr 18",
+    "doi": "10.1016/j.athoracsur.2026.04.003",
+    "total_score": 3,
+    "scores": {
+      "design": 1,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 1
+    },
+    "keywords": [
+      "neonatal cardiac surgery",
+      "brain MRI",
+      "preoperative assessment",
+      "neurodevelopmental outcome",
+      "clinical utility"
+    ],
+    "one_liner": "這是一篇針對新生兒心臟手術術前腦部 MRI 臨床實用性提出質疑的評論，提醒我們在檢測到異常時，應思考其對治療決策的實際影響。",
+    "summary": {
+      "purpose": "本篇旨在批判性地評估新生兒心臟手術前腦部 MRI 的現行應用與臨床實用性，質疑其檢測結果對實際治療決策的指導意義。",
+      "design": "根據標題判斷，這是一篇評論性文章或觀點報告，而非原創研究，因此不涉及特定的研究設計、樣本數或 GA 範圍。",
+      "findings": "文章核心觀點為，儘管術前腦部 MRI 能檢測出異常，但這些發現往往缺乏明確的臨床方向，其對手術策略或即時照護的影響尚不明確，導致「檢測有餘，指導不足」。",
+      "significance": "這篇文章提醒新生兒科醫師和心臟外科團隊，應重新思考術前腦部 MRI 的常規應用，並強調需要更多證據來釐清其臨床效益，以避免不必要的檢查或對不明確的發現過度解讀，進而影響照護決策。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42008523",
+    "title": "Stereotactic arrhythmia radioablation for refractory ventricular tachycardia: the STOPSTORM.eu study.",
+    "authors": "van der Pol LHG, Tomasik B, Hoeksema WF, et al.",
+    "journal": "European Heart Journal",
+    "pub_date": "2026 Apr 20",
+    "doi": "10.1093/eurheartj/ehag338",
+    "total_score": 3,
+    "scores": {
+      "design": 4,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "Ventricular Tachycardia",
+      "Stereotactic Radioablation",
+      "Adult Cardiology",
+      "Arrhythmia"
+    ],
+    "one_liner": "這是一篇關於成人頑固性心室頻脈放射消融術的研究，與新生兒科業務完全無關，可直接跳過。",
+    "summary": {
+      "purpose": "本研究旨在報告歐洲STOPSTORM前瞻性多中心登錄研究的中期分析結果，評估立體定位心律失常放射消融術（STAR）治療頑固性心室頻脈（VT）的療效與安全性。",
+      "design": "STOPSTORM是一項歐洲前瞻性、國際性、多中心患者登錄研究，共納入來自28個中心的193名患者（平均年齡68±9歲）。主要療效終點為STAR術前與術後6個月持續性VT發作負擔的變化，主要安全性終點為可能或很可能與治療相關的嚴重不良事件（SAEs）發生率。",
+      "findings": "在可評估的107名患者中，STAR術後VT發作負擔中位數減少了80%。在存活超過6個月的患者中，72%未發生植入式心臟去顫器（ICD）電擊。在所有患者中，有12例SAEs被判定為可能或很可能與治療相關。12個月的總體存活率為77%。",
+      "significance": "本研究為迄今最大規模的前瞻性多中心隊列研究，證實STAR能顯著減少成人頑固性VT的發作負擔和ICD電擊，且治療相關SAEs發生率較低。此結果對成人心臟電生理學領域具有重要臨床意義，但與新生兒照護無直接關聯。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42009572",
+    "title": "Comprehensive guideline-directed medical therapy strategies on health status outcomes in patients with heart failure: the LAQUA-HF randomised clinical trial.",
+    "authors": "Shiraishi Y, Ikemura N, Ueda I, et al.",
+    "journal": "Heart",
+    "pub_date": "2026 Apr 20",
+    "doi": "10.1136/heartjnl-2025-327642",
+    "total_score": 3,
+    "scores": {
+      "design": 5,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "Heart failure",
+      "adult",
+      "sacubitril/valsartan",
+      "dapagliflozin",
+      "diuretics"
+    ],
+    "one_liner": "新生兒科醫師可以跳過這篇，因為它探討的是成人心臟衰竭的藥物治療策略，與新生兒照護無關。",
+    "summary": {
+      "purpose": "此研究旨在比較 sacubitril/valsartan 與 dapagliflozin，以及 torsemide 與 furosemide 在患有心臟衰竭且射出分率降低的門診成人病患中，對健康狀況結果的影響。",
+      "design": "這是一項多中心、開放標籤、隨機、2x2 因子設計試驗，納入231名有症狀心臟衰竭、利鈉肽水平升高且左心室射出分率 (LVEF) <50% 的門診成人病患 (中位年齡73歲)。",
+      "findings": "研究發現，sacubitril/valsartan 與 dapagliflozin 之間 (調整後平均差異 2.53 點; 95% CI -1.81 to 6.88; p=0.25)，以及 torsemide 與 furosemide 之間 (調整後平均差異 0.25 點; 95% CI -4.10 to 4.59; p=0.91)，在6個月內 Kansas City Cardiomyopathy Questionnaire Overall Summary Score (KCCQ-OSS) 的變化沒有顯著差異。分層複合結果分析也顯示無顯著差異。",
+      "significance": "此研究探討的是成人心臟衰竭的藥物治療策略，與新生兒科的日常照護決策及早產兒長期發育追蹤無直接相關性，因此對新生兒加護病房 (NICU) 照護無具體臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42012602",
+    "title": "Diagnostic Yield of Serial PR Interval Screening for Fetal Heart Block in Anti-SSA/SSB Pregnancies.",
+    "authors": "Yeung A, Barbash Hazan S, Shafik J, et al.",
+    "journal": "Prenatal Diagnosis",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1002/pd.70153",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 4,
+      "generalizability": 3
+    },
+    "keywords": [
+      "胎兒心臟傳導阻滯",
+      "抗SSA/SSB抗體",
+      "PR區間",
+      "胎兒超音波",
+      "產前篩檢"
+    ],
+    "one_liner": "這篇研究挑戰了對抗SSA/SSB抗體陽性孕婦進行普遍性胎兒PR區間篩檢的效益，建議改採風險導向的監測策略。",
+    "summary": {
+      "purpose": "評估在抗SSA和/或抗SSB抗體陽性孕婦中，常規胎兒PR區間篩檢診斷胎兒心臟傳導阻滯的效益。",
+      "design": "此為一回溯性世代研究，納入124例抗SSA和/或抗SSB抗體陽性的單胎妊娠。篩檢時間為妊娠18至28週每週一次，之後每月一次，使用脈衝都卜勒測量機械性PR區間。",
+      "findings": "124例妊娠中，3例胎兒（2.4%）診斷出心臟傳導阻滯：2例為一度阻滯，1例為完全性CHB。平均每359次篩檢超音波檢測到1例受影響胎兒。一度阻滯經dexamethasone治療後穩定或恢復正常，但完全性CHB未能逆轉。",
+      "significance": "儘管在高風險族群中，常規胎兒PR區間篩檢能檢測出預期比例的傳導異常，但僅有2/3的病例能及早發現以進行潛在干預，且每個病例的篩檢負擔巨大。這提示我們應重新考慮普遍性篩檢策略，並建議採用風險導向的監測方式，以平衡檢測率與篩檢負擔。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42012641",
+    "title": "A Call to Reform Congenital Interventional Cardiology Training: A PICES Community Survey.",
+    "authors": "Nageotte S, McGovern E, Lahiri S, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1007/s00246-026-04268-2",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Congenital Heart Disease",
+      "Interventional Cardiology",
+      "Training",
+      "Survey",
+      "PICES"
+    ],
+    "one_liner": "本研究探討先天性心臟介入治療醫師的訓練改革，與新生兒科臨床照護無直接關聯，可略過。",
+    "summary": {
+      "purpose": "本研究旨在探討並呼籲改革先天性心臟介入治療的訓練模式，以期提升該領域的專業水準。",
+      "design": "根據文章標題判斷，這是一項針對PICES（Pediatric Interventional Cardiac Society）社群進行的問卷調查研究。由於抽象內容未提供，無法得知具體的受訪者數量、地理範圍或詳細方法學。",
+      "findings": "抽象內容未提供，無法判斷具體研究發現。",
+      "significance": "本研究主要關注先天性心臟介入治療醫師的訓練改革，對新生兒科醫師的日常照護決策或臨床實踐無直接影響。其意義可能在於間接影響未來接受訓練的介入性心臟科醫師的技能與知識，進而可能影響他們對新生兒先天性心臟病的治療。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42011124",
+    "title": "Arrhythmic mitral valve prolapse: prevalence, characteristics, and high-risk features in children and adolescents.",
+    "authors": "Lenarczyk A, Tyc F, Lenarczyk R, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1017/S1047951126112220",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "mitral valve prolapse",
+      "arrhythmia",
+      "pediatric cardiology",
+      "adolescents",
+      "cardiac risk factors"
+    ],
+    "one_liner": "本研究探討兒童及青少年心律不整性僧帽瓣脫垂的盛行率與特徵，與新生兒照護無直接關聯。",
+    "summary": {
+      "purpose": "本研究旨在探討兒童及青少年族群中，心律不整性僧帽瓣脫垂 (AMVP) 的盛行率、臨床特徵及高風險因子。",
+      "design": "這是一項回溯性資料庫研究，分析2018年至2025年間單一高流量三級先天性心臟病部門的住院病人。共篩選出52位診斷為僧帽瓣脫垂 (MVP) 的患者，中位年齡為14歲 (IQR 6)。",
+      "findings": "在該院住院病人中，MVP的盛行率為0.4%。在MVP患者中，有13位 (25%) 診斷為AMVP。表型風險因子盛行率高達88.5%，但在交叉分析中，僅擴大的左心房與高風險心律不整事件相關 (p=0.0432)。此外，有心律不整事件的患者年齡顯著較大 (中位數16歲) 於無事件者 (中位數13歲; p=0.019)。所有52位患者在平均3年的追蹤期間均存活，但與原發性電生理疾病重疊可能預後較差。",
+      "significance": "本研究主要針對兒童及青少年族群，而非新生兒。其發現有助於了解兒童及青少年AMVP的盛行率、臨床特徵及預後，但對新生兒科醫師的日常臨床決策無直接影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42008591",
+    "title": "Response by Gasperetti et al to Letter Regarding Article, \"Prognostic Role of Myocarditis-Like Episodes and Their Treatment in Patients With Pathogenic Desmoplakin Variants\".",
+    "authors": "Gasperetti A, Peretto G, James CA, et al.",
+    "journal": "Circulation",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1161/CIRCULATIONAHA.126.079059",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Desmoplakin",
+      "cardiomyopathy",
+      "myocarditis",
+      "genetic heart disease"
+    ],
+    "one_liner": "新生兒科醫師可以跳過這篇，因為這是一篇針對成人或青少年心臟遺傳疾病研究的信件回覆，與新生兒照護無直接關聯。",
+    "summary": {
+      "purpose": "本文為針對一篇探討具致病性Desmoplakin變異患者之心肌炎樣發作及其治療預後角色之文章所提出的信件回覆。",
+      "design": "本篇為「信件回覆 (Response to Letter)」形式，非原創性研究設計，因此無特定研究對象範圍或樣本數。",
+      "findings": "作為信件回覆，本文並未提出新的原創性研究發現，而是針對先前文章的內容進行澄清或討論。",
+      "significance": "本文主題主要聚焦於成人或青少年遺傳性心臟疾病，與新生兒加護病房（NICU）的日常照護決策無直接臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42008588",
+    "title": "Letter by Chen et al Regarding Article, \"Prognostic Role of Myocarditis-Like Episodes and Their Treatment in Patients With Pathogenic Desmoplakin Variants\".",
+    "authors": "Chen XX, Chen YQ, Song ZQ",
+    "journal": "Circulation",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1161/CIRCULATIONAHA.125.077100",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "cardiology",
+      "myocarditis",
+      "desmoplakin",
+      "genetic variants",
+      "letter"
+    ],
+    "one_liner": "這是一篇關於心臟病學領域的致編輯信函，與新生兒科的日常照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本文為一篇致編輯信函，旨在對一篇探討具致病性 desmoplakin 變異患者之心肌炎樣發作及其治療預後角色的文章提出評論或補充。",
+      "design": "此為一篇致編輯信函，非原創性研究。因此，無特定研究設計、樣本數、收案族群（如 GA 範圍、出生體重）或研究方法。",
+      "findings": "作為致編輯信函，本文不包含原創性研究發現或統計數據。其內容應為對原文章的觀點、討論或補充資訊。",
+      "significance": "此信函討論的議題主要屬於成人或一般兒科心臟病學範疇，與新生兒科的日常照護決策或特定族群（如早產兒）的處置無直接臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42009570",
+    "title": "Home-based, online-monitored high-intensity interval training improves fitness in patients with tetralogy of Fallot: a randomised controlled trial.",
+    "authors": "van Genuchten WJ, Fejzic Z, Kauling RM, et al.",
+    "journal": "Heart",
+    "pub_date": "2026 Apr 20",
+    "doi": "10.1136/heartjnl-2025-327201",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "tetralogy of Fallot",
+      "HIIT",
+      "adolescents",
+      "exercise capacity",
+      "home-based monitoring"
+    ],
+    "one_liner": "新生兒科醫師可跳過此篇，因其研究對象為青少年及年輕成人rToF患者，與新生兒照護無直接相關。",
+    "summary": {
+      "purpose": "本研究旨在探討居家、線上監測的高強度間歇訓練 (HIIT) 對於已修復法洛氏四合症 (rToF) 青少年及年輕成人患者的可行性、安全性及效果。",
+      "design": "此為一單中心隨機對照試驗 (RCT)，共納入34名12-30歲的rToF患者 (中位年齡16歲)。患者隨機分組接受為期12週的居家HIIT訓練或標準照護 (SOC)。主要終點為尖峰攝氧量 (peak VO2) 及最大運動負荷 (maximal workload) 的平均差異。",
+      "findings": "HIIT組未發生嚴重不良事件。HIIT後，peak VO2從38.3 mL/kg/min增加至40.9 mL/kg/min (∆ 4.0 mL/kg/min, 95% CI 1.52 to 6.53)，運動負荷從204 W增加至218 W (∆ 17 W, 95% CI 5 to 30)。心臟容積和射出分率未見變化。值得注意的是，較低的右心室射出分率 (RV EF) 與更大的改善相關。",
+      "significance": "對於新生兒科醫師而言，本研究與新生兒照護無直接相關性。其結果顯示居家HIIT能提升青少年及年輕成人rToF患者的運動能力，且未對心臟結構或功能產生不良影響，為此類患者提供了一個可行的運動訓練替代方案。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42013244",
+    "title": "Transcatheter Repair of Sinus Venosus Defect Using a 12-zig Covered Cheatham-Platinum Stent in Large Superior Vena Cava-Right Atrium Junctions: Early Multicenter Experience.",
+    "authors": "Fuensalida A, Rosenthal E, Kabir S, et al.",
+    "journal": "Catheterization and Cardiovascular Interventions",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1002/ccd.70623",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Sinus Venosus Defect",
+      "transcatheter repair",
+      "congenital heart disease",
+      "adult cardiology"
+    ],
+    "one_liner": "這是一篇關於成人先天性心臟病SVD經導管治療的初步經驗報告，與新生兒科臨床實務無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本研究旨在評估使用12-zig covered Cheatham-platinum stent 經導管修復Sinus Venosus Defect (SVD) 的有效性與安全性，特別是針對具有大型superior vena caval-right atrial (SVC-RA) junctions 的患者。",
+      "design": "本研究為一項回溯性分析，納入兩家機構共五名有症狀的SVD患者（80%男性，中位年齡59歲），這些患者均接受了12-zig CP stent 植入。",
+      "findings": "所有五名患者均成功植入支架。其中三名患者因殘餘滲漏或支架穩定性需要植入第二個支架。研究未報告任何手術併發症，所有患者在追蹤期間症狀均有改善，影像學檢查證實支架位置穩定。",
+      "significance": "本研究顯示12-zig CP stent 在經皮治療高度選擇的SVD患者中具有可行性，尤其適用於複雜解剖結構（包括大型SVC-RA junctions）的成人患者。然而，由於研究對象為中位年齡59歲的成人，此結果與新生兒科的臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42009114",
+    "title": "Effects of Pacing Sites on Substrate Mapping Using Decrement-Evoked Potential Mapping for Scar-Related Ventricular Tachycardia.",
+    "authors": "Uhm JS, Park J, Song H, et al.",
+    "journal": "Heart Rhythm",
+    "pub_date": "2026 Apr 18",
+    "doi": "10.1016/j.hrthm.2026.04.031",
+    "total_score": 1,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Ventricular Tachycardia",
+      "Cardiomyopathy",
+      "Electrophysiology",
+      "Substrate Mapping",
+      "Pacing"
+    ],
+    "one_liner": "這篇研究探討成人心肌病變患者心室頻脈基質圖譜繪製時不同起搏部位的影響，與新生兒科臨床照護無關。",
+    "summary": {
+      "purpose": "本研究旨在闡明不同起搏部位對心肌病變患者疤痕相關心室頻脈（VT）的遞減誘發電位（DEEP）圖譜繪製的影響。",
+      "design": "此為一項針對20名成人患者（平均年齡 61.1 ± 17.7歲，17名男性，11名缺血性心肌病變，9名非缺血性心肌病變）的回溯性研究，這些患者因疤痕相關VT接受了基質圖譜繪製和消融術。DEEP圖譜繪製在右心室心尖（RVA）和左心室流出道（LVOT）起搏期間進行。",
+      "findings": "研究發現，從RVA S1、RVA S2、LVOT S1和LVOT S2圖譜中識別出的與起搏圖匹配的減速區（DZs）數量分別為 0.74 ± 0.87、1.28 ± 1.13、1.00 ± 0.91 和 1.44 ± 1.20。S2起搏和LVOT起搏分別在41.2%的患者中有效發現更多DZs。使用雙部位起搏DEEP圖譜可識別出大量與起搏圖匹配的DZs。",
+      "significance": "本研究探討成人心臟電生理學中VT基質圖譜繪製的技術細節，與新生兒加護病房（NICU）的臨床照護、早產兒管理或長期發育追蹤無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42010158",
+    "title": "Echocardiographic assessment of left ventricular diastolic dysfunction in congenital diaphragmatic hernia.",
+    "authors": "Madabhushi SR, Toldi G",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 20",
+    "doi": "10.1038/s41390-026-05029-w",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "無法分析"
+    ],
+    "one_liner": "無法分析，因為提供的 abstract 內容為空。",
+    "summary": {
+      "purpose": "無法分析，因為提供的 abstract 內容為空。",
+      "design": "無法分析，因為提供的 abstract 內容為空。",
+      "findings": "無法分析，因為提供的 abstract 內容為空。",
+      "significance": "無法分析，因為提供的 abstract 內容為空。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-22"
   }
 ]
