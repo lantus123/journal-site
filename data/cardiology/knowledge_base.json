@@ -9137,5 +9137,131 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42017548",
+    "title": "Right Atrial Function as a Novel Predictor for New-Onset Atrial Fibrillation in Transthyretin Amyloid Cardiomyopathy.",
+    "authors": "Kuyama N, Izumiya Y, Takashio S, et al.",
+    "journal": "Journal of the American Heart Association",
+    "pub_date": "2026 Apr 22",
+    "doi": "10.1161/JAHA.125.042486",
+    "total_score": 3,
+    "scores": {
+      "design": 4,
+      "relevance": 1,
+      "novelty": 4,
+      "generalizability": 3
+    },
+    "keywords": [
+      "ATTR-CM",
+      "Atrial Fibrillation",
+      "Right Atrial Strain",
+      "Cardiac Amyloidosis",
+      "Risk Prediction"
+    ],
+    "one_liner": "這篇研究探討成人 Transthyretin Amyloid Cardiomyopathy 患者右心房功能與心房顫動的關係，與新生兒照護無關，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "旨在探討右心房功能（特別是右心房縱向峰值應變 RA peak LS）與 Transthyretin Amyloid Cardiomyopathy (ATTR-CM) 患者新發心房顫動 (AF) 之間的關係。",
+      "design": "本研究為一項前瞻性世代研究，包含一個由143名無心律不整病史的 ATTR-CM 患者組成的衍生世代，以及一個由81名患者組成的外部驗證世代。研究追蹤時間中位數為30個月。",
+      "findings": "追蹤期間，29% (42/143) 的患者發生新發 AF。較低的 RA peak LS 是新發 AF 的獨立預測因子，具有中等區辨能力 (time-dependent AUC 0.72)，最佳截止值為 17.2%。RA peak LS <17.2% 的患者 AF 無事件存活率顯著較低。外部驗證世代也證實了這些發現。",
+      "significance": "本研究發現 RA peak LS 是 ATTR-CM 患者新發 AF 的一個新穎且可靠的預測因子，可與現有臨床及左心房參數結合，改善風險分層並指導高風險患者的早期介入。此研究結果與新生兒照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42017369",
+    "title": "Repaired tetralogy of Fallot: characterization of myocardial fibrosis by magnetic resonance imaging.",
+    "authors": "Gordon B, Valente F, Soriano-Colomé T, et al.",
+    "journal": "European Heart Journal",
+    "pub_date": "2026 Apr 22",
+    "doi": "10.1093/eurheartj/ehag271",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Tetralogy of Fallot",
+      "congenital heart disease",
+      "myocardial fibrosis",
+      "MRI",
+      "long-term outcome"
+    ],
+    "one_liner": "新生兒科醫師可以跳過這篇，因為它主要關注已修補法洛氏四重症患者的長期心臟追蹤，與新生兒重症照護無直接相關。",
+    "summary": {
+      "purpose": "由於未提供摘要內容，此分析主要根據文章標題推斷。本研究目的應為評估已修補法洛氏四重症 (TOF) 患者的心肌纖維化程度，並利用磁振造影 (MRI) 進行特徵分析。",
+      "design": "由於未提供摘要內容，此分析主要根據文章標題推斷。研究設計應為一項針對已接受法洛氏四重症 (TOF) 修補手術患者的回溯性或前瞻性世代研究，評估其心肌纖維化情況。研究對象不涉及新生兒的胎齡或出生體重，樣本數未知。",
+      "findings": "由於未提供摘要內容，預期研究結果將描述已修補 TOF 患者心肌纖維化的盛行率、位置及嚴重程度，並可能探討其與心臟功能或臨床事件（如心律不整）的關聯。",
+      "significance": "本研究有助於深入了解修補後 TOF 患者的長期心臟併發症風險，並可能提供心臟風險分層的參考依據。然而，這對新生兒科醫師的直接臨床照護決策影響有限，主要關聯於兒童或成人心臟科的長期追蹤。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42014552",
+    "title": "Cerebral hemodynamics in early adolescents with congenital heart disease after infant open-heart surgery.",
+    "authors": "Mojon F, Latal B, Kottke R, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 22",
+    "doi": "10.1038/s41390-026-04935-3",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "CHD",
+      "cerebral hemodynamics",
+      "long-term follow-up",
+      "adolescence",
+      "neurodevelopment"
+    ],
+    "one_liner": "這篇研究顯示，曾接受嬰兒期開心手術的CHD青少年，其腦部前循環血流動力學大致正常，但後循環可能存在異常，且這些血流變化與認知功能無關，為長期追蹤提供參考。",
+    "summary": {
+      "purpose": "評估曾接受嬰兒期開心手術的先天性心臟病 (CHD) 青少年，其腦部血流動力學是否仍存在異常，並探討這些變化與執行功能 (executive functions) 的關聯。",
+      "design": "此為一項橫斷面研究，共納入83名10-15歲青少年（34名為曾接受嬰兒期開心手術的CHD患者，49名為健康對照組）。研究使用相位對比磁振造影 (phase-contrast MRI) 評估腦部前後循環的血流動力學參數，並計算校正總腦容量後的腦血流量指數 (iCBF)。",
+      "findings": "CHD患者與對照組之間，前循環血流動力學（ICA, IJV）無顯著差異 (all FDR-corrected p > 0.1)。然而，CHD患者的左側椎動脈 (left VA) 血流量顯著較低 (FDR-corrected p = 0.033, β = 0.31)。所有血流動力學參數均未與執行功能顯著相關 (all FDR-corrected p > 0.8)。",
+      "significance": "本研究顯示，曾接受嬰兒期開心手術的CHD青少年，其前循環腦部血流動力學大致維持正常，但後循環可能存在輕度至中度異常。這些當前的血流動力學變化似乎無法解釋CHD青少年可能存在的認知功能障礙。這為早產兒長期追蹤提供了關於CHD患者腦部血管健康狀況的進一步理解，但對NICU日常照護決策無直接影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42017859",
+    "title": "Effectiveness of Rhythm Control of Atrial Fibrillation in Moderate-to-Severe or Severe Secondary Tricuspid Regurgitation.",
+    "authors": "Naser JA, Ibrahim H, Kit Wong MC, et al.",
+    "journal": "JACC: Cardiovascular Imaging",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1016/j.jcmg.2026.03.006",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 3
+    },
+    "keywords": [],
+    "one_liner": "本研究探討成人心房顫動與三尖瓣閉鎖不全的關聯，與新生兒科業務無關，可直接跳過。",
+    "summary": {
+      "purpose": "本研究旨在探討成功控制心房顫動（AF）的節律，與中度至重度或重度次級三尖瓣閉鎖不全（STR）嚴重度降低之間的關聯，並分析其在不同臨床亞組及STR病因中的表現。",
+      "design": "這是一項回溯性世代研究，納入患有中度至重度或重度STR、AF，並有追蹤心臟超音波檢查的成人患者。研究共納入1,896名患者，中位年齡為79歲，其中60%為女性。",
+      "findings": "在1,896名患者中，367名（19%）嘗試進行節律控制。在平均1.7年的追蹤期間，550名患者的三尖瓣閉鎖不全（TR）嚴重度降至≤輕度。多變量分析顯示，成功控制節律且無AF復發，與TR嚴重度降至≤輕度顯著相關（HR: 3.65 [95% CI: 2.24-5.95]; P < 0.01）。此關聯性在不同亞組（依TR病因、年齡、性別、肥胖、AF負擔與慢性程度、左心室收縮或舒張功能受損、合併顯著二尖瓣閉鎖不全、肺高壓及右心室重塑）中均保持一致。",
+      "significance": "本研究探討成人心房顫動節律控制對次級三尖瓣閉鎖不全嚴重度的影響，與新生兒照護無直接臨床意義，因此對新生兒科的日常照護決策不具參考價值。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
   }
 ]

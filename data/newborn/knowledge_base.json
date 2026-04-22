@@ -17970,5 +17970,674 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-22"
+  },
+  {
+    "pmid": "42014842",
+    "title": "Macronutrient and bioactive profiles of donor milk differ in commercial vs non-profit milk banks.",
+    "authors": "Tarkleson T, Ackley D, Cole L, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1038/s41372-026-02679-w",
+    "total_score": 4,
+    "scores": {
+      "design": 2,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 4
+    },
+    "keywords": [
+      "Donor human milk",
+      "human milk fortifier",
+      "macronutrients",
+      "IgA",
+      "cortisol",
+      "milk bank"
+    ],
+    "one_liner": "這篇研究揭示了商業與非營利乳庫的捐贈母乳在營養成分、生物活性物質及批次間變異性上的差異，對NICU選擇乳源及精準營養照護具有重要參考價值。",
+    "summary": {
+      "purpose": "本研究旨在分析不同熱量密度的母乳源人類母乳添加劑（HM-HMF）以及來自商業與非營利乳庫的捐贈母乳（DHM）在巨量營養素和生物活性成分（IgA、皮質醇）上的差異。",
+      "design": "此為一實驗室分析研究，測量了10批次不同熱量密度（20, 24, 26, 28, 30 kcal/oz，其中30 kcal/oz為n=5）的HM-HMF產品，以及來自商業和非營利乳庫的DHM的巨量營養素、IgA和皮質醇含量。",
+      "findings": "HM-HMF的熱量、蛋白質、脂肪、碳水化合物和總IgA濃度隨標示熱量密度增加，而皮質醇濃度則無變化。商業乳庫的DHM相較於非營利乳庫，其碳水化合物、脂肪、熱量和皮質醇含量較高，但IgA較低；蛋白質含量無顯著差異。此外，商業DHM的批次間變異性（除皮質醇外）較低。",
+      "significance": "本研究揭示了不同來源的DHM在營養成分和生物活性物質上的差異，以及商業DHM批次間變異性較低。這對NICU醫師在選擇DHM來源及評估其對早產兒營養和免疫支持的潛在影響時，提供了重要的參考依據，有助於更精確地制定餵食策略，特別是在考量特定營養需求或免疫支持時。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇研究顯示，商業乳庫的捐贈母乳 (DHM) 雖然熱量和脂肪含量較高且批次間差異小，但其免疫球蛋白 IgA 含量卻顯著低於非營利乳庫。這對我們在為極低體重早產兒選擇 DHM 來源時，提出了營養與免疫保護之間的權衡。當我們優先考慮熱量穩定性時，商業乳庫可能是個選項；但若考量感染預防，非營利乳庫的 DHM 可能更具優勢。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 提到「a commercial milk bank」，這暗示研究可能只比較了「一家」商業乳庫與（可能多家）非營利乳庫。這會嚴重影響結果的外部效度 (generalizability)。",
+          "source": "Abstract, Study Design and Results sections.",
+          "implication": "如果這個發現只來自單一商業品牌，我們不能將其推論至所有商業來源的 DHM。在閱讀全文時，必須確認比較的對象數量與代表性，否則我們可能會根據一個品牌的特性，對整個類別的產品做出錯誤的判斷。"
+        },
+        {
+          "finding": "研究並未提及不同來源 DHM 的處理過程，特別是巴斯德殺菌法 (pasteurization) 的方式（例如 Holder pasteurization vs. high-pressure processing）。",
+          "source": "Abstract, Methods section (missing information).",
+          "implication": "不同的殺菌方法對生物活性成分（如 IgA、lactoferrin）的破壞程度不同。商業乳庫較低的 IgA 含量，可能是源於其採用了更嚴格或不同的殺菌流程，而非捐贈者母乳本身的差異。這點對於我們理解差異的根本原因至關重要。"
+        },
+        {
+          "finding": "研究僅測量了 IgA 和 cortisol，但忽略了其他關鍵的生物活性成分，如 lactoferrin, lysozyme, 和 human milk oligosaccharides (HMOs)。",
+          "source": "Abstract, Methods section (limited scope).",
+          "implication": "IgA 只是母乳免疫保護力的其中一環。一個完整的免疫評估需要更全面的分析。在沒有其他成分數據的情況下，單憑 IgA 較低就斷定商業 DHM 的免疫價值較差，可能過於簡化。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "分析了多個批次 (10 lots for most)，這對於評估產品的批次間變異性 (lot-to-lot variability) 很有價值，這在臨床上是個重要考量。",
+          "同時檢驗了 HM-HMF 和 DHM，提供了對早產兒全人類奶飲食 (exclusive human milk diet) 中兩個主要成分的全面分析。"
+        ],
+        "notes": [
+          "這是一項實驗室的成分分析研究 (compositional analysis)，而非臨床試驗。它只能告訴我們「奶裡面有什麼」，無法證明這些成分差異會導致不同的臨床結果 (e.g., NEC, sepsis, growth velocity)。",
+          "Abstract 未說明巨量營養素的分析方法（例如，是使用 mid-infrared spectroscopy 還是傳統的化學分析），這會影響數據的精確度。"
+        ],
+        "weaknesses": [
+          "潛在的抽樣偏差 (sampling bias)：我們不知道這些 DHM 批次是如何被選取的，是否能代表該乳庫的一般產品。",
+          "如 hidden findings 所述，若僅比較單一商業乳庫，其結論的普遍性將非常有限，可能更像是一個特定產品的分析報告，而非一個類別的比較。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Grathwohl D et al., JPGN, 2010",
+            "comparison": "該研究比較了 Holder pasteurization 對母乳中生物活性成分的影響，發現 IgA 會顯著下降。本研究的發現（商業 DHM 的 IgA 較低）可能與此相關，但本研究的創新點在於直接比較了不同供應來源（商業 vs. 非營利）的最終產品。"
+          },
+          {
+            "citation": "Cochrane Review: 'Donor human milk for preventing necrotising enterocolitis in preterm infants' (Quigley M, 2018)",
+            "comparison": "Cochrane review 證實 DHM 相較於配方奶可降低 NEC 風險。然而，這些 review 並未細分 DHM 的來源（商業 vs. 非營利）。本研究則是在此基礎上，提出 DHM 並非均質的，其來源可能影響其保護效果，填補了現有證據的一個細微但重要的空白。"
+          }
+        ],
+        "guideline_status": "目前的國際指引 (如 ESPGHAN) 和台灣早產兒臨床營養建議手冊，都建議在母親奶水不足時，應優先使用 DHM 而非早產兒配方奶。然而，現行所有指引皆未對 DHM 的來源（商業 vs. 非營利）做出建議或區分。本研究的發現可能會在未來的指引修訂中引發討論。",
+        "evidence_gap_filled": "本研究首次量化了商業與非營利乳庫 DHM 在巨量營養素和部分生物活性成分上的差異，並指出了商業產品在成分穩定性上的潛在優勢。它填補了我們將所有 DHM 視為單一產品的認知空白。",
+        "ongoing_trials": "目前缺乏大型 RCT 直接比較使用商業 vs. 非營利 DHM 的早產兒在臨床重要結果（如 NEC、sepsis、growth、neurodevelopmental outcomes）上的差異。本研究的結果為設計這類臨床試驗提供了強力的理論基礎。"
+      },
+      "protocol_impact": {
+        "current_practice": "根據我們的工作手冊，目前的 protocol 詳細規範了母乳、配方奶及母乳添加劑 (HMF) 的使用，例如『PF, preterm formula = 24kcal/30cc』、『全量加法為1pk fortifier in 25ml HM (= 24kcal/30 cc)』。然而，**目前工作手冊中無相關 protocol** 提及捐贈母乳 (DHM) 的使用或來源選擇。",
+        "proposed_change": "若未來本院導入 DHM 制度，本研究提醒我們不能只制定單一的 DHM protocol，而應根據來源（商業 vs. 非營利）建立分層使用建議。\n1.  **新增條文草案**：『在選擇 DHM 來源時，應進行臨床風險評估。』\n2.  **具體建議**：\n    *   **適用對象 (高營養需求)**：對於有嚴重生長遲滯 (FGR)、體重增加不良、或需要嚴格控制營養攝取的嬰兒 (e.g., on fluid restriction)，可優先考慮使用成分較穩定、熱量/脂肪較高的商業來源 DHM。\n    *   **適用對象 (高感染風險)**：對於有 NEC 或敗血症高風險因子 (e.g., a history of perinatal asphyxia, abnormal doppler flow) 的嬰兒，可優先考慮使用 IgA 含量較高的非營利乳庫 DHM。\n3.  **監測**：無論使用何種來源，都應定期監測生長速率及進行感染指標的評估。",
+        "prerequisites": [
+          "首先，我國需要有商業 DHM 的引進與核准，目前選擇有限。",
+          "建立院內 DHM 使用的整體 protocol，包括取得、儲存、解凍、及開立的標準流程。",
+          "對全體 NICU 醫護人員進行 in-service training，教育不同 DHM 來源的潛在差異與臨床選擇考量。",
+          "與營養科合作，將不同來源 DHM 的平均營養成分建檔，以便進行更精確的熱量計算。"
+        ],
+        "missing_evidence": "最關鍵的缺失是臨床結果數據。我們需要前瞻性研究或 RCT 來證實這些體外 (in vitro) 的成分差異，是否真的會轉化為臨床上可觀察到的生長、感染率或長期神經發育結果的差異。在有更強的臨床證據前，任何基於本研究的 protocol 修改都應視為專家意見下的初步建議。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42014237",
+    "title": "Optimizing human milk provision: Review of QI best practices.",
+    "authors": "Piazza AJ, Bixby C, Black A, et al.",
+    "journal": "Seminars in Perinatology",
+    "pub_date": "2026 Apr 20",
+    "doi": "10.1016/j.semperi.2026.152229",
+    "total_score": 4,
+    "scores": {
+      "design": 1,
+      "relevance": 5,
+      "novelty": 3,
+      "generalizability": 5
+    },
+    "keywords": [
+      "人類乳汁",
+      "品質改善",
+      "NICU",
+      "早產兒營養",
+      "餵食策略"
+    ],
+    "one_liner": "這是一篇關於如何透過品質改善 (QI) 策略，有效提升新生兒加護病房人類乳汁供應的文獻回顧，對於想改善餵食實踐的單位極具參考價值。",
+    "summary": {
+      "purpose": "本回顧旨在探討如何運用品質改善 (QI) 方法學，將實證研究轉化為臨床實踐，以優化新生兒加護病房 (NICU) 病患的人類乳汁供應。",
+      "design": "本研究為一篇文獻回顧，檢視品質改善 (QI) 最佳實踐，並未包含特定 GA 範圍、出生體重或樣本數的原始研究設計。",
+      "findings": "人類乳汁能顯著改善 NICU 病患的臨床預後、支持神經發育並減少共病。成功的 QI 措施包含多學科利害關係人參與、PDSA 循環、協作、指引制定及教育。關鍵介入措施包括早期擠乳、口腔免疫療法、肌膚接觸、泌乳支持及標準化餵食流程。針對不同族群的 QI 努力已在臨床和醫院資源利用方面展現成效。",
+      "significance": "本回顧強調，系統性的 QI 努力對於減少機構間差異、克服文化障礙並重新定義醫護人員角色至關重要，以確保最脆弱的嬰兒獲得最佳營養。對於台灣 NICU 而言，這提供了具體的框架和策略，以提升人類乳汁餵食率，進而改善早產兒的長期預後。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這是一篇關於如何運用品質改善 (QI) 方法學，來提升 NICU 人類乳汁餵食率的文獻回顧。文章重點不在於提出新的臨床證據，而是提供一個系統性框架，將現有實證轉化為臨床實踐。關鍵策略包括：建立跨領域團隊、早期啟動擠乳、口腔免疫療法 (OIT)、標準化餵食流程及家長教育。對我們來說，這意味著我們需要從個人努力，轉向建立一個標準化、可追蹤的系統，來支持母乳哺育，特別是針對泌乳支持和 OIT 這兩塊，我們現有的 protocol 較為薄弱。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 提到「標準化餵食流程 (standardized feeding protocols)」是關鍵介入措施之一，但未說明其具體內容。",
+          "source": "Abstract",
+          "implication": "這對我們至關重要。所謂「標準化」是指餵食的啟動時機、進展速度、還是強化的標準？或是針對高風險族群（如 IUGR、perinatal asphyxia）的特殊流程？閱讀全文時，我們必須找出這些 QI 專案成功的 feeding protocol 細節，並與我們現行「ELBW 每日可增加 10cc/kg/day, VLBW 每日可增加 10-20cc/kg/day」的指引進行比較。"
+        },
+        {
+          "finding": "Abstract 強調「口腔免疫療法 (oral immune therapy, OIT)」的效益，但未提供具體執行細節。",
+          "source": "Abstract",
+          "implication": "OIT 是近年來的重要進展，但其最佳劑量、頻率、持續時間仍有爭議。我們目前的 protocol 僅提及「trophic feeding」，並未有正式的 OIT 指引。閱讀全文時，需特別關注被納入回顧的 QI 專案中，OIT 是如何執行的（例如：0.2 mL q3h via oral swab），以及他們適用的 GA/BW 範圍，這將是我們建立本科 OIT protocol 的重要參考。"
+        },
+        {
+          "finding": "Abstract 提及「針對不同族群 (diverse populations) 的 QI 努力」，但未指明是哪些族群。",
+          "source": "Abstract",
+          "implication": "NICU 的病人異質性極高。QI 策略對 GA 24 週的 ELBW、GA 33 週的 late preterm、或是有嚴重血行動力不穩的嬰兒，其適用性與成效可能完全不同。我們必須在全文中尋找是否有針對特定亞群（如 <28 週、SGA、UAC/UVC留置、使用 inotropes）的數據，這將幫助我們制定更精準的 QI 目標，而非一體適用。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "作為一篇文獻回顧，其價值在於整合多個單位的成功 QI 經驗，提供一個實踐藍圖 (roadmap)，而非僅有理論。",
+          "強調跨領域團隊合作 (multidisciplinary stakeholders' engagement)，這是 QI 成功的公認關鍵因素，能有效打破科室壁壘。"
+        ],
+        "notes": [
+          "這是一篇回顧文章，其證據等級取決於它納入的 QI 專案的品質。需要檢視其文獻搜尋策略、納入及排除標準，以評估其系統性與完整性。",
+          "文章提到的 outcome 指標較為籠統（如 \"improved clinical outcomes\", \"hospital resource utilization\"）。需要注意全文是否提供具體的過程指標（如 HM 餵食率、母乳庫使用率）和臨床結果指標（如 NEC、sepsis、BPD 發生率）的數據。"
+        ],
+        "weaknesses": [
+          "QI 研究普遍存在發表偏誤 (publication bias)，成功的案例遠比失敗的案例容易發表，可能高估了某些介入措施的成效。",
+          "QI 專案的結果高度依賴執行單位的文化、資源與人力配置，在一個中心成功的模式，不一定能直接複製到另一個中心並取得相同效果 (limited generalizability)。",
+          "多數 QI 研究缺乏長期追蹤，可能只呈現了短期餵食率的改善，但對 neurodevelopmental outcome 等長期影響未知。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Schanler RJ et al., Pediatrics, 2005",
+            "comparison": "Schanler 的 RCT 證實了使用強化母乳相較於早產兒配方奶，能顯著降低 VLBW infants 的 NEC 風險。這類研究建立了 HM 的「療效 (efficacy)」，而本篇 Piazza 的回顧則是探討如何透過 QI 提升 HM 在真實世界中的「成效 (effectiveness)」，兩者是承先啟後的關係。"
+          },
+          {
+            "citation": "Parker MG et al., Pediatrics, 2019 (A QI Initiative to Improve Human Milk Feeding in VLBW Infants)",
+            "comparison": "Parker 的研究是一個具體的單中心 QI 報告，展示了如何透過標準化流程將 VLBW 嬰兒的母乳餵食率從 58% 提升到 81%。本篇 Piazza 的回顧則是將許多像 Parker 這樣的 QI 報告進行整合，提供一個更高層次的策略性指引。"
+          }
+        ],
+        "guideline_status": "不論是 ESPGHAN、AAP 還是台灣早產兒臨床營養建議手冊，都一致強烈建議應以母乳（特別是母親的初乳和母乳）作為早產兒的首選營養來源。本篇回顧的內容與所有現行指引的「目標」完全一致，其價值在於提供達成此目標的「方法」。",
+        "evidence_gap_filled": "本研究填補了「知易行難」的實踐差距 (implementation gap)。新生兒科醫師都知道母乳的重要性，但如何在繁忙、高壓的 NICU 環境中，系統性地克服障礙（如母親壓力、母嬰分離、嬰兒病情不穩），有效提升母乳使用率，一直是臨床上的挑戰。本回顧提供了結構化的解決方案。",
+        "ongoing_trials": "目前的大型 RCT 較少關注 QI 方法學本身，更多是針對母乳的特定成分（如客製化強化劑、probiotics、oligosaccharides）或不同來源的母乳（如 donor milk vs. MOM）進行研究。QI 領域的進展主要來自各個醫療中心發表的實踐報告。"
+      },
+      "protocol_impact": {
+        "current_practice": "根據我們的工作手冊，我們有非常詳細的腸道營養啟動與進展指引，例如：「Start breast milk feeding from 0.5-1cc q4h or q6h」、「ELBW每日可增加10cc/kg/day」。我們也有明確的 HMF 添加時機與方法（「feeding amount reach 100 ml/kg/day...1pk fortifier in 25ml HM」）。然而，手冊中對於如何「支持母親泌乳」以及「NPO 期間的口腔照護」著墨較少，缺乏標準化的泌乳支持流程或 OIT 指引。",
+        "proposed_change": "基於本篇回顧的建議，我們應考慮以下改變：\n1.  **新增 OIT Protocol**：目前工作手冊中無相關 protocol。建議新增條文：「針對所有 GA < 32 週或 BW < 1500g 的嬰兒，若處於 NPO 狀態，應常規給予 OIT。執行方式：以無菌棉棒沾取 0.2 mL 母親初乳/母乳，塗抹於嬰兒口腔頰黏膜，每 3-4 小時一次，直到開始腸道餵食。」\n2.  **建立標準化泌乳支持流程**：目前手冊未提及。建議新增：「所有 GA < 34 週的早產兒母親，應在嬰兒入住 NICU 後 24 小時內，自動啟動泌乳顧問會診。並設定 QI 監測指標：『產後首次擠乳時間』，目標訂於產後 6 小時內完成。」\n3.  **優化家長衛教**：目前衛教內容較不標準化。建議發展一套針對早產兒母親的標準化母乳哺育衛教單張與影片，內容涵蓋早期擠乳的重要性、手擠乳技巧、刺激噴乳反射的方法等，並在產前諮詢時即開始介入。",
+        "prerequisites": [
+          "針對 OIT 的執行方法，對全體護理同仁進行 in-service training 及技術考核。",
+          "與本院泌乳顧問團隊開會，建立 NICU 自動會診流程與溝通模式。",
+          "設計並印製標準化的家長衛教材料。",
+          "建立 QI 資料收集表單，追蹤新指標，如：首次擠乳時間、OIT 執行率、出院時純母乳哺育率。"
+        ],
+        "missing_evidence": "雖然文獻支持 OIT 和泌乳支持能改善過程指標（如母乳餵食率），我們仍需收集本院的數據，證明這些措施的導入確實能降低我們單位內 VLBW/ELBW 嬰兒的 NEC 和 late-onset sepsis 發生率。此外，這些介入措施對護理工作量及泌乳顧問人力的影響，也需要進行評估。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42014550",
+    "title": "Global perspectives on probiotic use to reduce NEC.",
+    "authors": "Jawale NV, Shenberger JS, Porcelli PJ, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1038/s41390-026-04993-7",
+    "total_score": 4,
+    "scores": {
+      "design": 1,
+      "relevance": 5,
+      "novelty": 3,
+      "generalizability": 5
+    },
+    "keywords": [
+      "NEC",
+      "probiotics",
+      "VLBW",
+      "prevention",
+      "global perspectives"
+    ],
+    "one_liner": "這篇探討全球益生菌預防NEC的觀點，對於了解國際現況與未來研究方向有參考價值。",
+    "summary": {
+      "purpose": "本研究旨在探討全球對於使用益生菌預防壞死性腸炎 (NEC) 的觀點與實踐。",
+      "design": "由於未提供摘要，無法判斷具體研究設計、收案族群（如 GA 範圍、出生體重）及樣本數。根據標題「Global perspectives」，推測可能為一篇綜述、專家意見彙整或全球實踐調查。",
+      "findings": "由於未提供摘要，無法列出具體研究發現或關鍵數據。",
+      "significance": "了解全球NICU在益生菌預防NEC上的不同觀點與實踐，有助於台灣新生兒科醫師評估現有證據、檢視本地照護常規，並識別未來研究方向或潛在的國際合作機會。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇全球觀點的回顧或調查，旨在整理全球 NICU 對於使用益生菌預防 NEC 的現況。對我們來說，最重要的 takeaway 是了解國際上是否有共識、哪些菌株（strain）被廣泛使用、以及各國在執行上遇到的實際障礙（如品管、成本）。這將幫助我們評估是否要建立本科的標準化益生菌使用 protocol，而不僅是依賴主治醫師的個人決定。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 未提供，但全文必須釐清：具體是哪些益生菌菌株或組合（e.g., Lactobacillus rhamnosus GG, Bifidobacterium breve BB-02, a multi-strain product）被廣泛使用？益生菌的效益具有高度菌株特異性，籠統地說「probiotics」在臨床上沒有指導意義。",
+          "source": "預期在全文的 Methods 或 Results 段落，可能會以表格形式呈現不同國家或地區最常使用的產品。",
+          "implication": "若要引進益生菌預防 NEC，我們必須選擇有最多高品質證據支持的特定菌株產品。這份全球調查的結果，可以作為我們選擇產品的起點。"
+        },
+        {
+          "finding": "Abstract 未提供，但全文必須釐清：不同資源水平（高、中、低收入國家）的 NICU 在益生菌使用上是否存在差異？以及實施的主要障礙是什麼？",
+          "source": "預期在 Results 或 Discussion 段落，可能會對不同經濟水平的國家進行次分組分析。",
+          "implication": "了解高收入國家的品管要求與低收入國家的成本效益考量，能幫助我們定位台灣的狀況，並預見引進時可能遇到的挑戰，例如藥劑部對非藥品級產品的採購流程、冷鏈運送（cold chain）的維持等。"
+        },
+        {
+          "finding": "Abstract 未提供，但全文必須釐清：全球通用的給予 protocol 細節，包括起始時間、劑量、頻率、持續時間，以及停用的時機（e.g., feeding intolerance, suspected sepsis, use of antibiotics）。",
+          "source": "預期在 Methods（如果為調查）或 Results 段落。",
+          "implication": "這些實務細節是制定我們科內 protocol 的關鍵。例如，應該在出生後幾天內開始？每天一次還是兩次？要用到矯正胎齡幾週？這些細節直接影響護理工作流程與臨床效益。"
+        },
+        {
+          "finding": "Abstract 未提供，但全文必須釐清：各中心對於益生菌相關敗血症（probiotic-associated sepsis）的監測策略與實際發生率為何？",
+          "source": "預期在 Results 或 Discussion 段落，可能會討論安全性數據或調查各中心的監測實踐。",
+          "implication": "安全性是許多 NICU 尚未常規使用益生菌的主因。了解全球的監測方式與風險數據，是說服院內感控、藥劑部，並建立安全監測機制的重要依據。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "如果是一篇系統性綜述，其優勢在於是否有在 PROSPERO 等平台預先註冊 protocol，並採用嚴謹的文獻搜尋與篩選流程。",
+          "如果是一篇全球性調查，其優勢在於問卷設計是否經過驗證、取樣是否涵蓋不同地理區域與醫院層級，以及是否有高的回覆率以減少選擇性偏誤（selection bias）。"
+        ],
+        "notes": [
+          "這類研究報告的是「實踐現況」（what people are doing），而非「臨床療效」（what people should be doing）。其結論不能直接等同於臨床建議。",
+          "需注意其定義的 NEC 是 Bell stage ≥ II 還是包含更嚴重的 surgical NEC 或死亡。",
+          "調查研究可能會有回憶偏誤（recall bias）或社會期許偏誤（social desirability bias），回覆者可能傾向報告他們認為「正確」而非「實際」的做法。"
+        ],
+        "weaknesses": [
+          "調查研究的主要限制是回覆偏誤（response bias），通常對此議題有強烈意見（無論支持或反對）的單位較可能回覆，可能無法完全代表全球的普遍情況。",
+          "綜述性文章的潛在弱點是研究間的異質性（heterogeneity），例如混合了使用不同菌株、不同劑量、收案族群（GA/BW）也不同的研究，可能導致結論的解釋困難。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "AlFaleh K, Anabrees J. Probiotics for prevention of necrotizing enterocolitis in preterm infants. Cochrane Database of Systematic Reviews 2020.",
+            "comparison": "Cochrane review 是最高層級的證據，專注於統合 RCTs 來評估「療效」。本研究則是關於「全球實踐與觀點」，兩者互補。Cochrane 告訴我們益生菌「有沒有效」，本研究則告訴我們「大家是怎麼用的、為何用或不用」。"
+          },
+          {
+            "citation": "Costelloe C, et al. (ProPrems trial). Effect of Bifidobacterium breve BBG-001 on mortality and morbidity in very preterm infants: a multicentre, randomised, controlled trial. Lancet 2016.",
+            "comparison": "ProPrems 是一個大型、高品質的 RCT，測試「特定」菌株（B. breve）在特定族群（<30 weeks GA）的療效，結論是陰性的。本研究的全球調查可能會反映出，儘管有這樣的大型陰性試驗，為何許多單位仍繼續使用其他菌株，凸顯了菌株特異性的重要性。"
+          }
+        ],
+        "guideline_status": "目前國際指引立場不一。ESPGHAN (歐洲兒科胃腸肝膽營養學會) 有條件地建議在 VLBW 早產兒中使用特定經研究證實有效的菌株。AAP (美國兒科學會) 則因美國 FDA 未對益生菌進行嚴格監管，對其品質和安全性存疑，故持保留態度。台灣新生兒科醫學會尚無統一的官方指引，多由各醫學中心自行決定。",
+        "evidence_gap_filled": "本研究填補了「療效證據」與「臨床實踐」之間的鴻溝。它讓我們知道，儘管存在大量 RCTs 和 meta-analyses，但在真實世界中，這些證據是如何被解讀、採納或拒絕的，以及背後的原因。",
+        "ongoing_trials": "目前持續有針對更小週數早產兒（如 ELBW infants）或比較不同菌株組合的 RCT 正在進行。等待這些結果有助於我們更精準地選擇最佳的預防策略。"
+      },
+      "protocol_impact": {
+        "current_practice": "目前工作手冊中無相關 protocol。在【GI / Gastroenterology】、【Nephrology】及【Endocrine】等章節均未提及預防性使用益生菌來降低 NEC 風險。臨床實務上，是否使用益生菌完全由當科主治醫師決定，沒有標準化的菌株選擇、劑量、或給予時程。",
+        "proposed_change": "若本研究顯示全球對特定菌株（例如 Lactobacillus rhamnosus GG 混合 Bifidobacterium infantis）有高度共識且安全性紀錄良好，我們應成立一個工作小組，草擬一份本科的「早產兒預防性使用益生菌 protocol」。建議內容應包括：\n1.  適用對象：出生體重 <1500g 或懷孕週數 <32 週的早產兒。\n2.  排除條件：重大腸道先天畸形、活動性 NEC、休克需升壓劑支持者。\n3.  選用產品：根據證據等級與院內可取得性，選擇特定菌株產品。\n4.  標準劑量與用法：明確訂定起始時間（如 on feeding 後）、每日劑量、給予方式及持續時間（如至矯正年齡 34-36 週）。\n5.  監測計畫：建立不良事件通報機制，特別是監測血液培養中的益生菌菌株。",
+        "prerequisites": [
+          "與藥劑部合作，尋找並評估市面上可取得、有 GMP 認證且菌株與劑量標示清楚的益生菌產品。",
+          "取得院方藥事委員會的採購許可。",
+          "制定詳細的書面 protocol，並對全體醫師及護理師進行 in-service training。",
+          "與檢驗科溝通，建立疑似益生菌敗血症時的菌株鑑定流程。"
+        ],
+        "missing_evidence": "即使全球實踐趨於一致，我們仍然缺乏針對台灣早產兒族群的大型本土數據。此外，對於不同益生菌產品的頭對頭比較（head-to-head comparison）研究仍然不足。長期的神經發展追蹤（long-term neurodevelopmental outcome）數據雖然在部分研究中呈現中性或正面，但仍需更多證據來確認其長期安全性。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42014547",
+    "title": "Neighborhood socioeconomic disadvantage and early overweight of very preterm-born children: a cohort study in France.",
+    "authors": "Bastos Reinaldo J, Boucekine M, Fayol L, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1038/s41390-026-04956-y",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "早產兒",
+      "過重",
+      "肥胖",
+      "社會經濟劣勢",
+      "長期追蹤"
+    ],
+    "one_liner": "這篇世代研究指出，極早產兒若居住於社會經濟劣勢地區，兩歲時過重或肥胖的風險顯著增加，提示出院後追蹤應加強對此族群的生長監測。",
+    "summary": {
+      "purpose": "本研究旨在探討鄰里社會經濟劣勢對極早產兒兩歲時過重或肥胖 (OWO) 的影響。",
+      "design": "這是一項在法國區域醫療網絡進行的世代研究，納入 GA < 33 週且接受追蹤照護的兒童，共 1856 名。平均 GA 為 29 (2.2) 週，出生體重為 1316 (416) g。研究使用多變項邏輯迴歸分析評估鄰里劣勢（生態社會經濟劣勢指數）與 OWO（依 WHO 生長圖表定義）之間的關聯。",
+      "findings": "研究結果顯示，2 歲時有 14% 的兒童出現 OWO。與非 OWO 兒童相比，OWO 兒童的出生體重 z-score 較高 (中位數 0.23 (-0.22; 0.78) vs -0.16 (-0.77; 0.34); p<0.001)，且更有可能居住在劣勢地區 (42.8% vs 35.3%, p=0.004)。經迴歸分析調整後，來自劣勢鄰里的兒童出現 OWO 的風險顯著較高 (aOR 1.57, 95% CI 1.10-2.23; p=0.01)。",
+      "significance": "本研究證實極早產兒居住於社會經濟劣勢鄰里會增加兩歲時過重或肥胖的風險。這提示臨床上，新生兒出院後應特別留意來自社會經濟背景較低家庭的嬰兒，加強監測其生長參數，以便早期發現過重並實施預防策略，以減少健康不平等。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇法國的世代研究指出，極早產兒 (GA < 33週) 出院後若居住在社經地位較弱勢的社區，其兩歲時過重或肥胖 (Overweight or Obesity, OWO) 的風險顯著增加 57% (aOR 1.57)。研究也發現，較高的出生體重 z-score 是另一個風險因子。這提醒我們，在早產兒追蹤門診中，除了評估神經發展，更需密切監測生長速率與 BMI，特別是來自弱勢家庭的個案，應及早介入個人化的營養衛教，以預防過快的追趕生長及未來的代謝症候群風險。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 僅提供整體 GA < 33 週的分析，但未區分不同 GA 或 BW 亞群 (例如 ELBW vs. VLBW, <28 週 vs. 28-32 週) 的風險差異。",
+          "source": "閱讀全文時，需特別檢視 Table 2 或 3 的亞群分析 (subgroup analysis) 或 Supplementary materials。",
+          "implication": "極度早產兒 (ELBW, <28週) 的早期營養策略與生長模式與較成熟的早產兒不同，他們可能經歷更嚴重的院內生長遲滯 (EUGR)，出院後可能有更劇烈的 catch-up growth。了解 SES 對不同亞群的影響，能幫助我們更精準地識別高風險族群，並給予更個人化的衛教。"
+        },
+        {
+          "finding": "研究使用的「生態社會經濟劣勢指數」(ecological socioeconomic disadvantage index) 具體包含哪些指標 (如收入、教育水平、失業率、居住環境) 並未在 abstract 中詳述。",
+          "source": "這項資訊通常位於 Methods 章節，對於理解研究結果的內涵與外部效度 (external validity) 至關重要。",
+          "implication": "了解指數的組成，才能判斷其是否適用於台灣的社會脈絡。例如，如果指數高度依賴於特定族裔或居住型態，其在台灣的應用性就會降低。這也影響我們在門診中該詢問哪些社會經濟相關問題來評估風險。"
+        },
+        {
+          "finding": "Abstract 提到 aOR (adjusted odds ratio)，但未列出迴歸模型中納入了哪些重要的潛在共變項 (confounders)。",
+          "source": "完整的迴歸模型變項列表通常在全文的 Table 2 或 3 的註腳中。",
+          "implication": "我們最關心的臨床變項，如住院期間的生長速率、BPD 嚴重度、類固醇使用、餵食方式 (母乳 vs. 配方奶) 是否被校正，會直接影響我們對「鄰里劣勢」這個獨立風險因子的解讀。如果沒有校正這些重要的院內因子，其關聯性可能被高估。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "大型世代研究 (N=1856)，樣本數充足，增加了統計檢定力 (statistical power)。",
+          "研究對象來自區域醫療網絡 (regional medical network)，而非單一醫學中心，可能減少 selection bias，增加結果的區域代表性與一般性 (generalizability)。"
+        ],
+        "notes": [
+          "2 歲時的追蹤失訪率 (loss to follow-up rate) 是評估本研究效度的關鍵。高失訪率可能引入 attrition bias，例如社經地位較低的家庭可能更容易失訪，導致風險被低估。",
+          "研究使用 WHO BMI growth charts 定義 OWO。雖然這是標準做法，但需注意這些圖表主要基於足月兒數據，其對早產兒在 2 歲時的適用性與體組成 (fat mass vs. fat-free mass) 的代表性仍有討論空間。",
+          "評估 2 歲 OWO 時，是否使用校正年齡 (corrected age) 計算 BMI。對於 GA < 33 週的族群，這點至關重要，全文應會說明。"
+        ],
+        "weaknesses": [
+          "觀察性研究設計，只能顯示關聯性 (association)，無法建立因果關係 (causation)。可能存在未測量的混淆因子 (unmeasured confounders)，例如家庭飲食習慣、家長健康識能 (health literacy) 等。",
+          "使用「鄰里」層級的社經數據來推論「個人」風險，可能產生生態謬誤 (ecological fallacy)。同一個弱勢社區內，仍可能存在高社經地位的家庭，反之亦然。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Belfort MB et al., 2013, Pediatrics",
+            "comparison": "許多經典研究 (如 Belfort et al.) 專注於早期營養輸入對住院期間生長及神經發展的影響。本研究則將焦點轉移至出院後的社會環境因素對代謝健康結果 (OWO) 的影響，是一個較新的切入點，強調了 social determinants of health 在早產兒長期照護中的重要性。"
+          },
+          {
+            "citation": "Kerkhof GF et al., 2012, J Pediatr",
+            "comparison": "Kerkhof 等人的研究顯示早產兒的快速 post-discharge weight gain 與較高的血壓和胰島素阻抗有關。本研究進一步指出，社會經濟因素是驅動這種不良生長模式的上游風險因子之一。"
+          }
+        ],
+        "guideline_status": "ESPGHAN (2010) 和 AAP (2013) 的指引主要關注早產兒出院後的 catch-up growth 與骨骼健康，建議使用早產兒出院後配方 (post-discharge formula)。近年來對過快 catch-up growth 可能導致的長期代謝風險 (如 OWO、胰島素阻抗) 的擔憂日益增加，但尚無針對不同社經背景制定差異化追蹤策略的明確指引。",
+        "evidence_gap_filled": "本研究明確量化了「社會經濟環境」這個非醫療因素對早產兒長期代謝健康的影響，填補了過去多數研究集中在生物醫學風險因子 (如 BPD、住院期間營養) 的知識缺口。它將新生兒照護的視野從 NICU 延伸到社區。",
+        "ongoing_trials": "隨機分配社經地位是不可能的。但可能有針對高風險早產兒 (可依社經地位篩選) 進行出院後營養/生活方式介入的 RCT 正在進行，旨在預防 OWO。這類研究的結果將是下一步臨床指引的重要依據。"
+      },
+      "protocol_impact": {
+        "current_practice": "根據我們的工作手冊，目前的 protocol 詳盡規範了住院期間的靜脈與腸道營養，特別是鈣磷管理 (『鈣與磷的補充 (2023修)』) 與 BPD 預防中的『Aggressive nutritional support』。然而，手冊中『目前工作手冊中無相關 protocol』針對出院後生長追蹤、營養衛教、或依據家庭社經背景進行風險分級的相關規範。",
+        "proposed_change": "建議在早產兒追蹤門診的標準流程中，增加對『生長速率』與『BMI』的系統性評估，而不僅是看體重百分位。對於來自社經弱勢地區 (可參考出院住址或透過社工評估) 的個案，應：\n1. **增加監測頻率**：在標準追蹤時間點外，考慮於校正年齡 6 個月、9 個月大時加強監測生長曲線。\n2. **主動提供衛教**：提供個人化的營養衛教，強調均衡飲食、避免含糖飲料及過度餵食，預防『過快的追趕生長』(rapid catch-up growth)。\n3. **納入風險溝通**：將 OWO 風險納入與家屬的常規溝通項目中。\n此建議適用於所有 GA < 33 週的出院早產兒，並對高社經風險家庭加強介入。",
+        "prerequisites": [
+          "修訂早產兒追蹤門診的標準作業流程 (SOP)，納入 BMI 計算與生長速率監測。",
+          "製作針對早產兒家長的 OWO 預防衛教單張，內容需簡單易懂。",
+          "對門診護理師及醫師進行 in-service training，強調辨識社經風險因子與衛教重點。",
+          "建立與營養科及社工的合作模式，建立高風險個案的轉介流程。"
+        ],
+        "missing_evidence": "雖然本研究證實了風險關聯，但我們仍缺乏高品質的證據來支持『何種』出院後介入措施 (nutritional counseling, home visits, etc.) 對於預防早產兒 OWO 最有效，且不會影響其必要的神經發展 catch-up。需要針對性的介入性研究 (intervention studies) 來確認最佳策略。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42014843",
+    "title": "Leader behaviors to improve teamwork during interprofessional rounds in the NICU.",
+    "authors": "Traylor AM, Bell EA, Lewis NCM, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1038/s41372-026-02689-8",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "NICU",
+      "團隊合作",
+      "領導行為",
+      "心理安全感",
+      "查房"
+    ],
+    "one_liner": "這篇研究揭示了NICU領導者在查房時的特定行為，能提升團隊成員的心理安全感和發言意願，對於改善團隊溝通文化有實用參考價值。",
+    "summary": {
+      "purpose": "研究旨在探討新生兒加護病房 (NICU) 領導者在跨專業查房時的團隊合作行為，對團隊成員感知到的團隊流程、信任、心理安全感及發言行為的影響。",
+      "design": "本研究為單中心觀察性研究，首先透過觀察199次查房事件來建立領導者跨專業團隊合作行為的衡量標準。隨後，透過觀察931次跨專業查房並收集115份員工問卷，評估領導者團隊合作行為對團隊的影響。研究地點位於美國東南部的一家NICU。",
+      "findings": "研究識別出領導者在查房時的三類跨專業團隊合作行為：分享資訊、邀請意見、及維持良好關係。結果顯示，這些行為對員工評估的心理安全感和發言行為有小幅度的正向影響，但未能顯著預測員工對團隊流程或信任的評分。",
+      "significance": "本研究指出，NICU領導者在查房時展現的特定團隊合作行為，能有效提升員工的心理安全感和發言意願，這有助於營造更開放的溝通環境。然而，這些行為對整體團隊流程和信任的影響較不明顯，提示改善團隊合作可能需要更全面的策略。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42014841",
+    "title": "Feasibility of invasive neurally-adjusted ventilatory assist in severe congenital diaphragmatic hernia.",
+    "authors": "Roh JH, Jung E, Park J, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1038/s41372-026-02691-0",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 5,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "CDH",
+      "NAVA",
+      "ventilation",
+      "neonate",
+      "ECMO"
+    ],
+    "one_liner": "這篇研究顯示，對於嚴重先天性橫膈膜疝氣術後的新生兒，包括曾接受 ECMO 的病患，使用 NAVA 輔助通氣是可行且安全的，有助於改善氧合。",
+    "summary": {
+      "purpose": "本研究旨在評估嚴重先天性橫膈膜疝氣 (CDH) 新生兒術後使用侵入性神經調節輔助通氣 (NAVA) 的可行性及早期生理效應。",
+      "design": "一項回溯性觀察性研究，納入 19 名術後接受侵入性 NAVA 的嚴重 CDH 新生兒。研究評估 NAVA 啟動後 0、12、24 及 48 小時的呼吸器參數、血氣變數、呼吸指數及橫膈效率指標。",
+      "findings": "研究發現，氧氣需求量隨時間下降，48 小時內血氣交換有良好改善。氧合指數 (oxygenation index) 下降，且呼吸器壓力並未增加。神經通氣及神經機械效率保持穩定，包括 D 型缺陷的嬰兒。所有嬰兒均成功脫離侵入性機械通氣。",
+      "significance": "對於嚴重 CDH 術後、特別是 D 型缺陷或曾接受 ECMO 治療的極高風險新生兒，侵入性 NAVA 是一種可行且耐受性良好的通氣模式，可能改善氧合並促進脫離呼吸器，為臨床提供新的通氣策略選擇。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42014213",
+    "title": "Psychological safety in healthcare - helping everyone to speak up.",
+    "authors": "Patole S",
+    "journal": "Seminars in Fetal and Neonatal Medicine",
+    "pub_date": "2026 Apr 17",
+    "doi": "10.1016/j.siny.2026.101738",
+    "total_score": 3,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 5
+    },
+    "keywords": [
+      "Psychological safety",
+      "team performance",
+      "patient safety",
+      "NICU",
+      "leadership"
+    ],
+    "one_liner": "新生兒科醫師應注意此文，因其強調心理安全對 NICU 團隊表現與病患安全的重要性，有助於建立更開放的溝通文化。",
+    "summary": {
+      "purpose": "本研究旨在回顧醫療領域中「心理安全」的概念，探討其對團隊表現、病患安全的重要性，特別是在新生兒加護病房 (NICU) 環境中，以及領導者在促進此文化中的角色。",
+      "design": "這是一篇敘述性回顧文章，探討心理安全在醫療領域的歷史、重要性、影響、評估工具、促進因素及領導者的角色。文章並未包含具體的患者樣本數或研究方法。",
+      "findings": "心理安全對於卓越的團隊表現至關重要，能鼓勵團隊成員提出疑慮，進而確保提供安全且高品質的照護。在層級嚴謹的醫療組織中，心理安全尤其重要，且對新生兒加護病房 (NICU) 團隊亦不例外。文章探討了缺乏心理安全對所有利害關係人的影響，以及領導者在各層級促進心理安全文化的責任。",
+      "significance": "本文強調了在 NICU 環境中建立心理安全文化的重要性，這對於提升團隊合作、鼓勵成員發聲、及最終確保早產兒和新生兒的照護品質與安全至關重要。雖然不直接影響臨床治療決策，但它為優化照護環境提供了重要的管理和文化視角。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42014551",
+    "title": "A scoping review of decision analytic model-based economic evaluations in neonatal intensive care.",
+    "authors": "King BC, Hay S, Zupancic JAF",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 22",
+    "doi": "10.1038/s41390-026-05003-6",
+    "total_score": 3,
+    "scores": {
+      "design": 4,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "economic evaluation",
+      "decision analytic model",
+      "neonatal intensive care",
+      "scoping review",
+      "quality assessment"
+    ],
+    "one_liner": "這篇文獻回顧指出新生兒重症照護的經濟評估研究數量快速成長，但品質參差不齊，提醒我們在解讀這類報告時需更加謹慎。",
+    "summary": {
+      "purpose": "本研究旨在系統性評估新生兒重症照護領域中，基於決策分析模型之經濟評估研究的頻率與品質。",
+      "design": "研究設計為範圍性文獻回顧 (scoping review)，系統性評估了1992年至2024年間發表的81篇相關研究，並進行了結構化的品質評估。",
+      "findings": "在納入的81篇研究中，50%發表於過去六年。大多數成本效益評估在摘要中報告了低於理想成本效益閾值的正面結果，且不確定性描述極少。所有研究的平均品質分數為65% (範圍39%至98%)。主要改進領域包括擴展敏感性分析以探討結構和方法學上的不確定性，以及對內部和外部效度進行正式評估。",
+      "significance": "新生兒科醫師及政策制定者在參考新生兒重症照護的經濟評估報告時，應留意其研究品質與不確定性，特別是敏感性分析的完整性，以避免過度簡化或誤導性的結論。這有助於提升未來經濟評估研究的嚴謹性與可信度。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42014546",
+    "title": "A novel perspective on adolescent bone health: the role of C-reactive protein-triglyceride-glucose index.",
+    "authors": "Chen K, Liu H, Li Q, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1038/s41390-026-04945-1",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "adolescent bone health",
+      "C-reactive protein",
+      "insulin resistance",
+      "bone mineral density"
+    ],
+    "one_liner": "本研究探討青少年骨骼健康與發炎及胰島素阻抗的關聯，與新生兒科臨床照護無直接相關，新生兒科醫師可略過。",
+    "summary": {
+      "purpose": "本研究旨在探討C-reactive protein-triglyceride-glucose index (CTI) 與青少年骨質密度 (BMD) 之間的關聯，假設較高的CTI水平與較低的BMD相關。",
+      "design": "研究採用多變量線性迴歸模型和限制性立方樣條 (RCS) 分析來檢視CTI與BMD的關聯性，並進行亞組和敏感性分析。研究對象為美國青少年，未涉及新生兒或早產兒族群。",
+      "findings": "CTI每增加一個單位，總股骨、股骨頸、轉子、轉子間和腰椎的BMD分別減少0.040 g/cm²、0.029 g/cm²、0.037 g/cm²、0.046 g/cm²和0.032 g/cm² (P < 0.05)。CTI最高五分位數的青少年在所有五個骨骼部位的BMD均顯著低於最低水平者 (P < 0.05)。RCS分析顯示CTI與BMD之間存在非線性關係。",
+      "significance": "本研究揭示了青少年時期發炎和胰島素阻抗可能對骨骼健康產生負面影響，但其研究對象為青少年，與新生兒科的早產兒照護、新生兒重症醫學或長期發育追蹤等臨床實務無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42018322",
+    "title": "Digital Reminiscence for Predeath Grief Among Family Caregivers of Patients With Dementia: A Pilot Randomized Clinical Trial.",
+    "authors": "Falzarano FB, Greenfield A, Saviano SC, et al.",
+    "journal": "JAMA Network Open",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1001/jamanetworkopen.2026.8278",
+    "total_score": 2,
+    "scores": {
+      "design": 4,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Dementia",
+      "caregivers",
+      "grief",
+      "reminiscence",
+      "digital intervention"
+    ],
+    "one_liner": "新生兒科醫師可以跳過這篇文章，因為它與新生兒或早產兒照護完全無關，主題為失智症照顧者的悲傷輔導。",
+    "summary": {
+      "purpose": "本研究旨在評估一個數位回憶平台 (Living Memory Home for Dementia Care Pairs, LMH-4-DCP) 對於阿茲海默症及相關失智症 (ADRD) 病患家庭照顧者與受照護者配對的實用性、可接受性及初步療效。",
+      "design": "這是一項多中心、參與者盲性、先導型隨機臨床試驗，在美國兩個醫學中心虛擬進行。研究對象為 ADRD 患者的家庭主要照顧者 (18歲以上，英文流利)。共招募 68 名參與者，隨機分為兩組 (LMH-4-DCP 組與對照組)，並在基線和介入後 2 週進行評估。",
+      "findings": "研究顯示 LMH-4-DCP 具有良好的實用性 (88.2% 完成率) 和可接受性。介入組參與者在 2 週後，其臨終前悲傷 (predeath grief) 顯著減少 (Cohen d = -0.38; 平均減少 -3.29; P = .03)，且相較於對照組有更大的改善。關係品質雖有改善但未達統計學意義。",
+      "significance": "這項先導研究證明了數位回憶平台在減少失智症照顧者悲傷方面的可行性、可接受性及初步療效。這些發現將為未來的確定性療效試驗提供依據。然而，此研究與新生兒照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42018320",
+    "title": "Medicaid Retention After Transition to Medicare Among Adults With Expansion Coverage.",
+    "authors": "Yang Z, Cheng D, Price M, et al.",
+    "journal": "JAMA Network Open",
+    "pub_date": "2026 Apr 01",
+    "doi": "10.1001/jamanetworkopen.2026.8560",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 4
+    },
+    "keywords": [
+      "Medicaid",
+      "Medicare",
+      "Health Policy",
+      "Insurance Coverage",
+      "Asset Test"
+    ],
+    "one_liner": "這篇研究探討美國成人醫療保險政策，與新生兒科臨床實務無關，新生兒科醫師可以跳過。",
+    "summary": {
+      "purpose": "本研究旨在探討曾透過Medicaid擴展獲得保險的成年人在轉入Medicare後第一年的Medicaid覆蓋模式，特別比較豁免Medicare Savings Program (MSP) 資產測試的州與未豁免的州之間的差異。",
+      "design": "這是一項回溯性世代研究，分析了2017年1月1日至2019年12月31日的Medicare和Medicaid註冊數據。研究對象為2018年進入Medicare且此前一個月有Medicaid擴展覆蓋的266,009名成年人，平均年齡59歲。研究涵蓋了31個州及華盛頓特區，其中7個地區豁免MSP資產測試。",
+      "findings": "調整後分析顯示，居住在豁免MSP資產測試州的受益人，在Medicare註冊第一年結束時，獲得任何Medicaid覆蓋的可能性更高（差異10個百分點，95% CI 3-17），且有至少6個月（差異14個百分點，95% CI 5-22）或12個月（差異16個百分點，95% CI 6-26）Medicaid覆蓋的可能性也更高。然而，在MSP覆蓋方面則無顯著差異。",
+      "significance": "本研究探討美國成人醫療保險政策，與新生兒科的臨床照護、早產兒管理或長期發育追蹤無直接相關性。其發現對於改善低收入Medicare受益人的財務援助利用率具有政策意義，但對新生兒科醫師的日常實踐或決策沒有影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42014840",
+    "title": "Preoperative nutritional strategies for neonates with complex congenital heart disease: a national survey.",
+    "authors": "Gowda SH, Levy PT, Weems M, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1038/s41372-025-02351-9",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "N/A"
+    ],
+    "one_liner": "摘要內容缺失，無法進行評估。",
+    "summary": {
+      "purpose": "無法分析，因為文章摘要內容缺失。",
+      "design": "無法分析，因為文章摘要內容缺失。",
+      "findings": "無法分析，因為文章摘要內容缺失。",
+      "significance": "無法分析，因為文章摘要內容缺失。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42019020",
+    "title": "Spinal Epidural Abscess.",
+    "authors": "Tande AJ, Currier BL, Osmon DR",
+    "journal": "New England Journal of Medicine",
+    "pub_date": "2026 Apr 23",
+    "doi": "10.1056/NEJMra2412728",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Spinal epidural abscess",
+      "infection",
+      "Staphylococcus aureus",
+      "MRI",
+      "antimicrobial therapy"
+    ],
+    "one_liner": "這篇綜述文章探討脊椎硬膜外膿瘍的診斷與治療，與新生兒科日常照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "此綜述文章旨在回顧脊椎硬膜外膿瘍的臨床表現、診斷方法及治療策略。",
+      "design": "這是一篇敘述性綜述文章，描述脊椎硬膜外膿瘍的典型症狀（局部背痛或頸痛伴隨發燒或神經學症狀）、診斷工具（對比劑增強磁振造影為首選）、常見病原菌（金黃色葡萄球菌佔超過50%），以及治療建議（需脊椎外科醫師和感染科醫師及時評估，多數患者需手術，部分可單獨使用抗生素治療）。文章未提及特定胎齡、出生體重或樣本數。",
+      "findings": "脊椎硬膜外膿瘍的典型表現為局部背痛或頸痛，常伴有發燒或神經學症狀。診斷首選為對比劑增強磁振造影。金黃色葡萄球菌是最常見的致病菌。所有患者均應由脊椎外科醫師和感染科醫師及時評估，多數患者需手術，但部分經仔細篩選的患者可單獨使用抗生素治療。",
+      "significance": "此文章提供脊椎硬膜外膿瘍的全面性概述，但該疾病並非新生兒科常見或特有的照護議題。其內容對新生兒加護病房（NICU）的日常照護決策或早產兒的特殊處置無直接臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-23"
   }
 ]
