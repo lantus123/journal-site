@@ -9263,5 +9263,323 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-23"
+  },
+  {
+    "pmid": "42021760",
+    "title": "Physical Activity in Pediatric Cardiomyopathies: Moving for Health: A Scientific Statement From the American Heart Association.",
+    "authors": "Edelson JB, Baker-Smith CM, Cifra B, et al.",
+    "journal": "Circulation",
+    "pub_date": "2026 Apr 23",
+    "doi": "10.1161/CIR.0000000000001431",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 1,
+      "novelty": 5,
+      "generalizability": 5
+    },
+    "keywords": [
+      "心肌病變",
+      "體能活動",
+      "兒童",
+      "青少年",
+      "科學聲明"
+    ],
+    "one_liner": "此為美國心臟協會針對兒童及青少年心肌病變患者 PA 的科學聲明，挑戰傳統限制性觀點，但與新生兒科日常照護無直接相關。",
+    "summary": {
+      "purpose": "本科學聲明旨在為患有心肌病變的兒童及青少年提供一個實證基礎的體能活動 (PA) 推廣框架，以挑戰過去過度限制的臨床指引。",
+      "design": "此為美國心臟協會發布的科學聲明，透過綜合現有證據，為患有肥厚性、擴張性、限制性或致心律失常性心肌病變，以及植入式心臟去顫器 (ICD) 的兒童及青少年提供指引。研究對象為兒童及青少年，無特定 GA 或出生體重範圍，亦無提及具體樣本數，因其為證據綜合性文件。",
+      "findings": "新興證據挑戰了過去對心肌病變兒童及青少年 PA 的限制性觀點，顯示部分患者運動時猝死風險可能並未增加，且 PA 可能對逆向重塑有正面影響。聲明提供了更新的風險分層策略，包括使用進階影像、運動測試及基因型特異性數據。",
+      "significance": "此聲明主要針對兒童及青少年心肌病變患者的 PA 管理，與新生兒科日常照護決策無直接關聯。對於新生兒科醫師而言，此文獻的臨床意義極低，不影響早產兒照護、新生兒重症醫學或早產兒長期發育追蹤的現行做法。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這是一份美國心臟協會 (AHA) 的科學聲明，主要針對兒童及青少年心肌病變患者的體能活動 (PA) 指引。核心觀點是挑戰過去過度限制的作法，認為在適當的風險分層下，多數病童可以安全地參與 PA。這份文件對我們新生兒科的急性期照護沒有直接影響，但改變了我們對這些家庭進行長期預後諮詢的基調，從預設限制轉向個人化評估。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 提到『更新的風險分層策略』，包括『進階影像、運動測試、及基因型特異性數據』，但未提供具體細節。例如，哪些基因型（如 MYH7, TNNT2）對應較高的運動風險？運動心肺功能測試 (CPET) 的哪些參數（如 VO2 max, VE/VCO2 slope）被用來做決策？",
+          "source": "預計在全文的 \"Risk Stratification\" 或類似章節中會有詳細的表格或流程圖。",
+          "implication": "雖然我們 NICU 不執行這些評估，但在與兒童心臟科會診或為家長做長期諮詢時，了解這些新標準有助於我們理解心臟科的建議，並提供更精準的預後說明。這對有特定基因診斷或代謝異常導致心肌病變的新生兒尤其重要。"
+        },
+        {
+          "finding": "Abstract 使用『兒童及青少年』(children and adolescents) 這個詞，但沒有定義明確的年齡範圍。新生兒或嬰兒期 (infancy) 的心肌病變（如圍產期窒息、病毒性心肌炎後）是否適用這些建議，完全是個問號。",
+          "source": "需在全文的方法學或適用範圍 (scope) 章節尋找年齡的納入/排除標準。",
+          "implication": "這是最大的問題。我們的病人是新生兒。如果這份聲明的證據基礎完全來自學齡兒童或青少年，那麼將其結論外推至嬰兒是危險的。閱讀全文時，必須確認是否有任何針對嬰兒期患者的數據或建議。"
+        },
+        {
+          "finding": "聲明中提到 PA 可能對『逆向重塑』(reverse remodeling) 有正面影響，但沒有量化這個效果。例如，左心室射出分率 (LVEF) 平均能改善多少？左心室舒張末期內徑 (LVDd) z-score 能減少多少？",
+          "source": "全文中引用支持此論點的原始研究部分，可能會提供相關數據。",
+          "implication": "這個潛在好處是我們鼓勵家長讓孩子未來參與活動的關鍵論點之一。如果能有具體數據，我們的諮詢會更有說服力，而不僅僅是『可能有好處』。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "由美國心臟協會 (AHA) 召集的專家委員會撰寫，代表該領域的權威共識。",
+          "這是一份科學聲明 (Scientific Statement)，其目的是綜合現有證據，而非提出單一新研究，因此其廣度是優點。"
+        ],
+        "notes": [
+          "這不是一篇系統性文獻回顧或 meta-analysis，沒有遵循 PRISMA 流程，證據的篩選和整合過程可能不如 Cochrane review 透明。",
+          "其建議的強度取決於其引用的原始研究品質，而這些研究很可能多為觀察性研究或小型病例系列，而非大型 RCTs。"
+        ],
+        "weaknesses": [
+          "作為一份專家共識文件，其建議可能受到寫作小組成員個人經驗或偏好的影響 (expert opinion bias)。",
+          "由於主題的倫理限制，幾乎不可能有關於 PA 的大型 RCTs，因此證據等級本質上就不高，建議主要基於間接證據和觀察性數據。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Maron BJ, et al. 36th Bethesda Conference, 2005",
+            "comparison": "Bethesda Conference 的指引是過去限制性做法的主要依據，普遍建議大多數心肌病變患者僅能參與低強度競技運動 (class IA)。本聲明代表了從『預設禁止』(default restriction) 到『個人化評估與共享決策』(individualized assessment and shared decision-making) 的重大範式轉移。"
+          }
+        ],
+        "guideline_status": "這份 AHA 科學聲明本身就是一份重要的臨床指引，旨在更新並取代過去較為保守的建議。它將成為美國及全球許多地區兒童心臟科醫師實踐的參考標準。",
+        "evidence_gap_filled": "它填補了臨床實踐與新興證據之間的鴻溝。過去十年，許多觀察性研究顯示在特定心肌病變患者中，運動風險並未如想像中高，但缺乏一個權威機構的聲明來整合這些發現並轉化為臨床指引。這份文件正填補了這個空缺。",
+        "ongoing_trials": "不太可能有大型 RCTs 在進行中。未來的證據可能來自於大型、前瞻性的國際登錄研究 (registries)，長期追蹤在這些新指引下，不同心肌病變亞型患者參與 PA 後的臨床事件發生率（如猝死、心衰惡化）。"
+      },
+      "protocol_impact": {
+        "current_practice": "在 NICU，對於有心肌功能障礙的嬰兒（如 HIE、心肌炎、先天性心臟病），我們的照護重點是維持血液動力學穩定、最適化藥物治療（如 milrinone, diuretics）和營養支持。我們沒有所謂的『體能活動』protocol，嬰兒的活動量主要由其臨床狀況和神經行為成熟度決定。出院前，若有心肌病變診斷，我們會診兒童心臟科，並依其建議提供較保守的活動限制衛教。",
+        "proposed_change": "1. **對急性期 NICU protocol 沒有影響。**\n2. **重大影響在於『出院準備』和『長期追蹤門診』的衛教內容。** 我們應停止給予『未來活動會有很多限制』的籠統說法。\n3. **新的衛教重點應為：**『寶寶的心臟狀況需要長期追蹤。隨著他長大，心臟科醫師會透過詳細評估，為他找到可以安全參與的活動。現在的觀念是鼓勵在安全範圍內盡量活動，而不是全面禁止。』這是一個更積極、更有希望的訊息。",
+        "prerequisites": [
+          "與本科的兒童心臟科團隊召開一次聯合會議，了解他們將如何落實這份新聲明的風險分層策略。",
+          "更新我們的出院衛教單張，反映這種從『限制』到『個人化評估』的觀念轉變。",
+          "對負責追蹤門診的醫師和個管師進行 in-service training，確保大家傳遞的訊息一致。"
+        ],
+        "missing_evidence": "最關鍵的缺口是：這些建議是否適用於嬰兒及五歲以下幼兒？目前所有關於『運動』的證據都來自能自我表達、能參與標準化運動測試的較大孩童。對於我們的 NICU 畢業生，在學齡前階段如何評估及建議其活動量，仍是巨大的 evidence gap。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-24"
+  },
+  {
+    "pmid": "42021455",
+    "title": "The impact of gestational diabetes mellitus on neonatal cardiac development.",
+    "authors": "Qi L, Yuan L, Jiang J",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 23",
+    "doi": "10.1017/S1047951126112268",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "GDM",
+      "新生兒心臟",
+      "CHD",
+      "IVS肥厚",
+      "足月兒"
+    ],
+    "one_liner": "這篇回溯性研究指出妊娠糖尿病會增加足月新生兒先天性心臟病風險，並與心室中膈厚度相關，提醒臨床醫師對GDM新生兒應加強心臟評估。",
+    "summary": {
+      "purpose": "探討母體妊娠糖尿病 (GDM) 對新生兒心臟發育的影響。",
+      "design": "本研究為回溯性分析，納入2024年住院的足月新生兒。GDM組有100名來自GDM母親的新生兒，對照組有100名來自非GDM母親的新生兒。比較兩組的出生參數、心臟超音波指標及先天性心臟病 (CHD) 發生率，並分析與新生兒心室中膈 (IVS) 肥厚相關的因素。",
+      "findings": "GDM組新生兒的出生體重、身長和胎盤重量顯著較高 (P < 0.05)。心臟超音波顯示其心臟腔室、大血管較大，IVS較厚，但這些差異的P值 > 0.05。GDM組的CHD發生率為2%，顯著高於對照組的0% (P = 0.047)。母體血糖指標和新生兒出生體重與IVS厚度呈正相關 (P < 0.05)。",
+      "significance": "本研究結果支持GDM對新生兒心臟發育有不利影響，特別是CHD發生率增加。建議GDM孕婦應常規進行胎兒及出生後的心臟評估，以早期發現並介入潛在的心臟問題。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-24"
+  },
+  {
+    "pmid": "42023741",
+    "title": "Electrocardiographic findings in paediatric patients with rheumatic diseases using hydroxychloroquine.",
+    "authors": "Araujo AL, Araujo Júnior E, Rufino IS, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 23",
+    "doi": "10.1017/S1047951126112189",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "hydroxychloroquine",
+      "QT interval",
+      "paediatric rheumatic diseases",
+      "electrocardiogram",
+      "drug safety"
+    ],
+    "one_liner": "新生兒科醫師可以跳過這篇，因為它探討的是兒科風濕病患者使用 hydroxychloroquine 的心電圖變化，與新生兒照護無關。",
+    "summary": {
+      "purpose": "評估使用 hydroxychloroquine 的兒科風濕病患者中，QT 間期延長及其他心電圖變化的盛行率與臨床意義。",
+      "design": "這是一項在巴西單一中心進行的回溯性與前瞻性觀察性分析研究，共納入 26 名年齡 ≤18 歲、使用 hydroxychloroquine 至少六個月的兒科風濕病患者。",
+      "findings": "大多數患者為女性 (76.9%)，最常見的診斷為全身性紅斑狼瘡 (88.9%)。累積 hydroxychloroquine 劑量介於 12 至 447.6 g (平均 223 g)。校正後 QT 間期介於 377 至 454 ms (平均 413 ms)。累積劑量與校正後 QT 間期之間未觀察到統計學上顯著的關聯 (r = -0.24; p = 0.338)，簡單線性迴歸分析亦證實變數間無關聯 (R2 = 5.7%)。",
+      "significance": "本研究結果與新生兒科照護無直接相關性，因為研究對象為兒科風濕病患者，而非新生兒或早產兒。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-24"
+  },
+  {
+    "pmid": "42021453",
+    "title": "Safety and feasibility of deep sedation and general anaesthesia for cardiovascular MRI studies in paediatric patients from two tertiary European centres.",
+    "authors": "Krupickova S, Lane M, Schmidt M, et al.",
+    "journal": "Cardiology in the Young",
+    "pub_date": "2026 Apr 23",
+    "doi": "10.1017/S1047951126111573",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "兒科",
+      "心血管 MRI",
+      "鎮靜",
+      "全身麻醉",
+      "心臟病"
+    ],
+    "one_liner": "這篇研究探討兒科心臟病患進行心血管 MRI 時深層鎮靜與全身麻醉的安全性，對新生兒科醫師的日常照護決策無直接影響，可跳過。",
+    "summary": {
+      "purpose": "本研究旨在探討深層鎮靜與全身麻醉用於患有先天性或後天性心臟疾病之兒科病患進行心血管磁振造影 (cardiovascular MRI) 檢查的安全性與可行性。",
+      "design": "這是一項回溯性研究，納入兩家歐洲醫學中心共 693 名小於 18 歲的兒科病患。其中 522 名接受深層鎮靜，171 名接受全身麻醉。",
+      "findings": "總體不良事件發生率為 2% (14 例)；深層鎮靜組為 1.5% (8 例)，全身麻醉組為 3.5% (6 例)，兩組間無統計學上顯著差異 (p = 0.122)。深層鎮靜組的併發症包括輕度過敏反應、嚴重咳嗽、發紺加劇及疑似吸入性肺炎；全身麻醉組則有低血壓及意外支氣管內插管。",
+      "significance": "該研究指出，在高度專業團隊並嚴格遵守安全規範下，深層鎮靜與全身麻醉皆可安全地應用於兒科心臟病患的心血管 MRI 檢查，併發症發生率低。然而，此研究主要針對廣泛的兒科病患，與新生兒科的日常照護決策無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-24"
+  },
+  {
+    "pmid": "42024568",
+    "title": "Randomized Trial of Left Bundle Branch Pacing vs Right Ventricular Pacing in Vulnerable Cardiac Function.",
+    "authors": "Qiu N, Liu X, Wang Z, et al.",
+    "journal": "Journal of the American College of Cardiology",
+    "pub_date": "2026 Apr 23",
+    "doi": "10.1016/j.jacc.2026.03.161",
+    "total_score": 2,
+    "scores": {
+      "design": 5,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Left bundle branch pacing",
+      "Right ventricular pacing",
+      "Pacing-induced cardiomyopathy",
+      "Cardiac dysfunction",
+      "Randomized controlled trial"
+    ],
+    "one_liner": "這篇研究探討成人心臟起搏策略，與新生兒科照護無關，新生兒科醫師可略過。",
+    "summary": {
+      "purpose": "本研究旨在評估高起搏負荷且有心臟功能障礙高風險的成人患者中，左束支起搏 (LBBP) 相較於右心室起搏 (RVP) 的臨床結果。",
+      "design": "這是一項前瞻性、多中心、隨機對照試驗，共納入160名高起搏負荷且有心臟功能障礙高風險的成人患者，隨機分配至LBBP組或RVP組。",
+      "findings": "中位追蹤36個月後，LBBP組的主要複合終點（全因死亡率、心臟衰竭住院、起搏誘發心肌病變PICM）發生率顯著低於RVP組 (11.6% vs. 33.9%; HR 0.310, 95% CI 0.145-0.664; P=0.001)，主要歸因於PICM風險的降低 (6.5% vs. 18.2%; sHR 0.324, 95% CI 0.119-0.883; P=0.028)。LBBP組在左心室射出分率 (LVEF)、左心室舒張末期內徑 (LVEDD) 和左心室收縮末期內徑 (LVESD) 方面均顯示出優於RVP組的改善 (P <0.001)。",
+      "significance": "此研究針對成人心臟起搏策略，證明LBBP在特定成人患者群體中優於RVP，能降低PICM風險並改善心臟功能。然而，本研究主題與新生兒科的臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-24"
+  },
+  {
+    "pmid": "42019793",
+    "title": "Determinants of Recurrence After Epicardial Ventricular Tachycardia Ablation in Structural Heart Disease.",
+    "authors": "Darma A, Waezsada SE, Arya A, et al.",
+    "journal": "Heart Rhythm",
+    "pub_date": "2026 Apr 20",
+    "doi": "10.1016/j.hrthm.2026.04.026",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "心室頻脈",
+      "心臟病",
+      "燒灼術",
+      "成人",
+      "電生理"
+    ],
+    "one_liner": "這篇研究探討成人心臟病患者心室頻脈燒灼術後復發的預測因子，與新生兒科的臨床實務無關，可直接跳過。",
+    "summary": {
+      "purpose": "本研究旨在識別結構性心臟病患者接受心外膜心室頻脈（VT）燒灼術後，VT復發的臨床與電生理決定因素。",
+      "design": "此為一單中心世代研究，納入74名接受心外膜VT燒灼術的結構性心臟病患者，平均追蹤17個月。研究未提供新生兒相關的胎齡（GA）或出生體重資訊。",
+      "findings": "在追蹤期間，50%的患者發生VT復發。在多變項Cox分析中，electrical storm (HR 3.130, 95% CI 1.421-6.893; p=0.005)、較長VT cycle length (HR 2.835, 95% CI 1.211-6.638; p=0.016) 及較高身體質量指數（BMI, HR 2.918, 95% CI 1.365-6.236; p=0.006) 均獨立與VT復發風險增加相關。",
+      "significance": "本研究探討成人結構性心臟病患者心室頻脈燒灼術後復發的預測因子，其研究對象與新生兒族群完全不同，因此與新生兒加護病房（NICU）的日常照護決策無直接臨床意義。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-24"
+  },
+  {
+    "pmid": "42020925",
+    "title": "Transapical TAVI in Left Ventricular Apical Aneurysm.",
+    "authors": "Helal A, Ing LY, Bilak J, et al.",
+    "journal": "Catheterization and Cardiovascular Interventions",
+    "pub_date": "2026 Apr 22",
+    "doi": "10.1002/ccd.70641",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "TAVI",
+      "心尖動脈瘤",
+      "病例報告",
+      "成人心臟科"
+    ],
+    "one_liner": "本文為成人心臟科的單一病例報告，與新生兒照護無關，新生兒科醫師可直接跳過。",
+    "summary": {
+      "purpose": "本研究旨在報告首例在左心室心尖動脈瘤患者中，經心尖途徑執行經導管主動脈瓣植入術 (TAVI) 的可行性。",
+      "design": "本研究為單一病例報告，描述一名患有嚴重雙瓣膜主動脈狹窄、缺血性心肌病變、周邊血管疾病及慢性阻塞性肺病 (COPD) 的成人患者。",
+      "findings": "儘管患者有纖維化心肌且經股動脈途徑失敗，仍成功經左心室心尖動脈瘤植入 29 mm Edwards Sapien S3 Ultra 瓣膜，術後僅有輕微瓣膜旁逆流，恢復穩定。",
+      "significance": "本研究與新生兒加護病房 (NICU) 照護無直接臨床相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-24"
+  },
+  {
+    "pmid": "42020802",
+    "title": "Endovascular profiles linked to neutrophil activation in children and young adults with long COVID.",
+    "authors": "Steifman CB, Alvarez-Carcamo B, Verma S, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 22",
+    "doi": "10.1038/s41390-026-05024-1",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 2
+    },
+    "keywords": [
+      "long COVID",
+      "children",
+      "young adults",
+      "microclots",
+      "neutrophil activation",
+      "endothelial injury"
+    ],
+    "one_liner": "本研究探討long COVID在兒童及年輕成人的血管病理機制，與新生兒科臨床實務無直接關聯，可略過。",
+    "summary": {
+      "purpose": "本研究旨在探討兒童及年輕成人long COVID患者血管內症狀的潛在機制，特別關注其病理生理學。",
+      "design": "本研究招募84名來自美國及加拿大的兒童與年輕成人（年齡≤25歲），其中61名為long COVID患者，23名為健康對照組。研究評估了症狀負擔、纖維蛋白澱粉樣微血栓、血管內細胞因子、無細胞DNA，並進行體外試驗以評估Spike蛋白相關的嗜中性球介導內皮細胞損傷。",
+      "findings": "Long COVID組的心血管症狀普遍。與對照組相比，long COVID組的微血栓負擔顯著增加 (p=0.0003)，血管新生與內皮重塑標誌物（如FGF-2）亦升高，且FGF-2與微血栓呈正相關 (p=0.04)。白血球趨化相關細胞因子（sVCAM-1, L-selectin, α-2-macroglobulin）減少，而血管內嗜中性球胞外陷阱 (NET) 形成標誌物無細胞DNA增加 (p=0.003)，並與微血栓成分血清澱粉樣蛋白A呈正相關 (p=0.004)。體外共培養試驗顯示，由Spike免疫複合物觸發的NETosis導致內皮損傷。",
+      "significance": "本研究揭示long COVID的兒童及年輕成人患者存在微血栓、內皮損傷及嗜中性球發炎，並提出血管內NETosis可能是其血管病理學的關鍵驅動因素。這些發現有助於理解long COVID的病理機制，並可能用於開發生物標誌物，但與新生兒科的臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-24"
   }
 ]
