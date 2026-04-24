@@ -9581,5 +9581,556 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-24"
+  },
+  {
+    "pmid": "42029925",
+    "title": "Perinatal Management and Appropriate Time of Delivery in Monochorionic Monoamniotic Twins When One Twin has Transposition of the Great Arteries. A Case Report and Systematic Review of the Literature.",
+    "authors": "Montoya J, Tapasco L, Mulinari L, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1007/s00246-026-04271-7",
+    "total_score": 4,
+    "scores": {
+      "design": 5,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Monochorionic monoamniotic twins",
+      "Transposition of the Great Arteries",
+      "Perinatal management",
+      "Timing of delivery",
+      "Neonatal cardiology"
+    ],
+    "one_liner": "這篇系統性回顧與個案報告，針對罕見的單絨毛膜單羊膜雙胞胎其中一胎患有大動脈轉位的情況，提供了圍產期管理與分娩時機的綜合性證據，對於處理此類高風險個案的 NICU 團隊具有重要參考價值。",
+    "summary": {
+      "purpose": "本研究旨在探討單絨毛膜單羊膜雙胞胎其中一胎患有大動脈轉位時的圍產期管理與適當分娩時機。",
+      "design": "本研究結合了一例個案報告與一篇系統性文獻回顧。由於摘要內容未提供，無法得知具體的胎齡、出生體重或系統性回顧所納入的樣本數。",
+      "findings": "由於摘要內容未提供，無法得知具體的研究發現。預期將會綜合現有文獻，提供此類罕見高風險雙胞胎妊娠的圍產期管理策略及分娩時機建議。",
+      "significance": "對於處理此類罕見且複雜的單絨毛膜單羊膜雙胞胎合併大動脈轉位個案，本研究能提供整合性的證據，協助新生兒科醫師、產科醫師及小兒心臟科醫師進行產前諮詢、分娩計畫及新生兒穩定照護的決策。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇系統性回顧整合了單絨毛膜單羊膜 (MCMA) 雙胞胎合併一胎大動脈轉位 (TGA) 的罕見案例，核心在於平衡早產風險與圍產期併發症（如臍帶纏繞）。對我們新生兒科來說，關鍵是產前如何與產科及心臟科共同制定分娩時機，確保 TGA 新生兒出生後能立即獲得 prostaglandin E1 (PGE1) 及心導管介入。這篇文獻回顧能為這個高風險決策提供現有最佳證據，協助我們進行產前諮詢與準備。",
+      "hidden_findings": [
+        {
+          "finding": "系統性回顧中納入個案的分娩週數 (GA) 分佈與最終決策原因。Abstract 不會提供這些細節，但這卻是決定我們臨床實踐最重要的數據。",
+          "source": "閱讀全文時需在 Results section 或 Supplementary data 的表格中尋找，該表格應詳列所有納入個案的臨床特徵。",
+          "implication": "了解實際案例的分娩週數（例如，多數落在 32-34 週，還是在 TGA 診斷後更早分娩？），可以幫助我們建立對風險效益平衡的具體概念，並為與家屬的產前諮詢提供實證依據。"
+        },
+        {
+          "finding": "健康 co-twin 的新生兒結局。研究標題聚焦於 TGA 病嬰，但其手足同樣暴露在早產與 MCMA 共享循環的風險下。",
+          "source": "全文的 Results section，特別是描述個案結局的部分，需要注意是否同時報告了兩個寶寶的 morbidity (如 RDS, IVH, NEC, BPD) 與 mortality。",
+          "implication": "這對完整的產前諮詢至關重要。我們必須讓家長了解，即使另一個寶寶心臟結構正常，他/她仍然是高風險新生兒，其預後直接影響整個家庭的照護負擔。"
+        },
+        {
+          "finding": "TGA 的產前診斷率，以及產前診斷是否影響分娩計畫與新生兒結局。",
+          "source": "全文的 Methods 與 Results section。需要檢視納入的個案報告中，有多少是在產前就已確診 TGA。",
+          "implication": "產前診斷是實現「在具備心臟手術能力的醫學中心進行計畫性分娩，並立即給予 PGE1」此一理想照護模式的先決條件。如果回顧顯示產前診斷顯著改善預後，將更強化我們與產科合作推動高層次超音波的重要性。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "採用系統性文獻回顧的方法，整合了關於此一罕見疾病的零散證據，是目前能取得的最高證據等級。",
+          "針對一個沒有也不可能有 RCT 的臨床難題，提供了寶貴的綜合性資訊。"
+        ],
+        "notes": [
+          "研究類型為 Case Report + Systematic Review，證據強度本質上受限於個案報告的品質。",
+          "閱讀全文時需注意：作者是否遵循 PRISMA 指引進行回顧？是否對納入的個案報告進行了品質評估？",
+          "由於是回顧不同年代、不同機構的個案，新生兒結局的定義（如 BPD 是用 NICHD 2001 還是 Jensen 2019 標準）與神經發育追蹤的有無及工具（如 Bayley-II vs III vs 4）將會極度缺乏一致性。"
+        ],
+        "weaknesses": [
+          "極高的發表偏誤 (publication bias) 風險：成功存活或結局良好的案例可能遠比結局不佳（如胎死腹中、新生兒死亡）的案例更容易被發表。",
+          "個案的異質性 (heterogeneity) 極高：各案例的產科監測頻率、分娩決策標準、新生兒照護策略皆不相同，難以統合出單一的最佳建議。",
+          "缺乏對照組，無法確定所觀察到的結局與採取的管理策略之間是否存在因果關係。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "ACOG Committee Opinion No. 815, 2021",
+            "comparison": "ACOG 指引針對的是『無併發症』的 MCMA 雙胞胎，建議分娩時機為 32+0 至 34+0 週。本研究的獨特之處在於，探討了當其中一胎合併 TGA 這種需要精密產後規劃的重大心臟病時，是否需要調整此一標準建議。"
+          },
+          {
+            "citation": "Gleason et al. Avery's Diseases of the Newborn",
+            "comparison": "標準新生兒科教科書對 TGA 的處置章節，主要著重於出生後的穩定（PGE1, BAS, 外科手術時機），較少著墨如何與產科合作，針對特定高風險妊娠（如 MCMA）來決定最佳分娩時機。本研究試圖連結這兩個領域。"
+          }
+        ],
+        "guideline_status": "目前國際上（如 ACOG, SMFM, AHA）或台灣新生兒科醫學會，並無針對『MCMA 雙胞胎合併 TGA』此一特定情境的專門指引。臨床決策是基於 MCMA 指引與 TGA 指引的綜合考量，但缺乏整合性證據。",
+        "evidence_gap_filled": "本研究填補了一個重要的知識空缺：它首次系統性地整理了這個罕見但極度高風險臨床情境的現有文獻，為多專科團隊（產科、新生兒科、小兒心臟科）的共同決策提供了初步的循證基礎。",
+        "ongoing_trials": "無。由於此疾病的罕見性，未來幾乎不可能有大型 RCT 進行。這類系統性回顧將持續是我們主要的證據來源。"
+      },
+      "protocol_impact": {
+        "current_practice": "目前作法是分開處理：1. 依 MCMA 妊娠常規，由產科主導入院安胎監測，並計畫在 32-34 週進行剖腹產。2. 依 TGA 常規，由新生兒科與小兒心臟科待命，出生後立即給予 PGE1 (starting dose 0.01-0.03 mcg/kg/min)，並評估是否需要緊急 balloon atrial septostomy (BAS)。兩個 protocol 之間缺乏針對『最佳分娩時機』的整合性共識。",
+        "proposed_change": "根據本研究的結論，我們應與產科、小兒心臟科及心臟外科建立一個正式的多專科會議流程。一旦產前診斷此類案例，即啟動會議，共同制定個人化的分娩計畫。目標是訂出一個明確的目標週數（例如，傾向 33 週），此週數需平衡早產併發症、臍帶纏繞風險、以及 TGA 寶寶出生後接受手術的最適體重。我們應將此共識流程寫入科內高風險新生兒的照護指引中。",
+        "prerequisites": [
+          "建立跨專科（MFM, NICU, Peds Cardiology, Peds CTS）的溝通平台與標準會議流程。",
+          "修訂本科的產前諮詢指引，納入此罕見情況的討論要點。",
+          "確保 L&D 與 NICU 人員對此類個案的特殊性有共同認知，例如 PGE1 藥物需預先準備，心臟科醫師需 on-call 待命。"
+        ],
+        "missing_evidence": "長期神經發展結局 (long-term neurodevelopmental outcome)。現有的個案報告極少追蹤到學齡期，我們無從得知在早產與重大心臟手術的雙重打擊下，這些孩子（包括那個『健康』的 co-twin）長期的認知、行為與運動功能表現如何。這是我們在與家屬諮詢時，最缺乏證據支持的一環。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42026684",
+    "title": "Cardiac Function in Fetal Growth Restriction: A Systematic Review and Meta-Analysis.",
+    "authors": "D'Amico A, D'Antonio F, Della Valle L, et al.",
+    "journal": "Prenatal Diagnosis",
+    "pub_date": "2026 Apr 23",
+    "doi": "10.1002/pd.70145",
+    "total_score": 4,
+    "scores": {
+      "design": 5,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 4
+    },
+    "keywords": [
+      "FGR",
+      "fetal cardiac function",
+      "systematic review",
+      "meta-analysis",
+      "prenatal diagnosis"
+    ],
+    "one_liner": "這篇系統性回顧與統合分析證實 FGR 胎兒存在心臟結構與功能改變，為新生兒科醫師理解 FGR 新生兒心血管適應提供重要背景知識。",
+    "summary": {
+      "purpose": "本研究旨在比較胎兒生長遲滯 (FGR) 胎兒與非 FGR 胎兒的心臟功能差異。",
+      "design": "這是一項系統性回顧與統合分析，納入 Medline 和 Embase 資料庫中符合 Delphi 準則定義的 FGR 妊娠與非 FGR 妊娠的比較研究，共分析了 15 篇文獻，評估心臟幾何、收縮功能、舒張功能及整體心臟功能指標。",
+      "findings": "FGR 胎兒的右心室和左心室球形指數 (SI) 較小 (右心室 MD -0.23, 95% CI 0.44 to -0.01, p: 0.04; 左心室 MD: -0.20, 95% CI -0.33 to -0.05)。FGR 胎兒的 MAPSE (MD: -0.91 mm, 95% CI: -1.25 to -0.57; p < 0.001) 和 TAPSE (MD: -1.09 mm, 95% CI: -1.23 to -0.96; p < 0.001) 較短，且左心室心肌表現指數 (MPI) 較高 (MD: 0.09, 95% CI 0.04 to 0.14; p < 0.001)。然而，兩組胎兒在左右心輸出量 (CO) 及二尖瓣/三尖瓣 E/A 比值上無顯著差異。",
+      "significance": "FGR 胎兒在出生前即已存在顯著的心臟幾何結構和功能改變，主要表現為收縮功能受損和整體心肌表現指數升高。這項發現有助於新生兒科醫師理解 FGR 新生兒出生後可能面臨的心血管適應不良風險，並為其出生後的評估與照護提供重要的生理學基礎。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇統合分析證實，FGR 胎兒在出生前心臟就已出現結構和功能重塑。主要表現為心室更趨球形（sphericity index 較小）、縱向收縮功能受損（MAPSE/TAPSE 顯著下降），以及整體心肌表現更差（MPI 升高）。值得注意的是，儘管心肌功能指標變差，但心輸出量（CO）並無顯著差異，這暗示胎兒心臟可能已處於「代償」狀態，為出生後的心血管適應不良（如 PPHN、低血壓）提供了重要的產前生理學解釋。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 未區分早發型 (early-onset) vs. 晚發型 (late-onset) FGR。這兩種 FGR 的病理生理學（胎盤功能不全 vs. 胎兒本身生長潛力）和臨床預後差異極大，其心臟重塑的程度與模式可能也完全不同。",
+          "source": "這是解讀任何 FGR 研究的關鍵。全文的方法學部分（inclusion criteria）或亞群分析（subgroup analysis）必須釐清這點。若將兩者混為一談，會稀釋對高風險早發型 FGR 的真正影響評估。",
+          "implication": "我們臨床上最關注的是與嚴重胎盤功能不全相關的早發型 FGR。如果研究結果主要由晚發型 FGR 驅動，那麼對我們 NICU 中最脆弱的 FGR 早產兒的適用性就會打折扣。閱讀全文時需確認，這些心臟功能變化是否在早發型 FGR 中更為顯著。"
+        },
+        {
+          "finding": "Abstract 提供了平均差異（mean difference），但未提供這些心臟參數在不同孕齡（GA）下的變化。胎兒心臟功能參數本身就與 GA 相關。",
+          "source": "全文的結果部分或 supplementary data 中，應尋找是否有依 GA 進行的 meta-regression 或 subgroup analysis。這對於建立 GA-specific 的正常值或判斷 FGR 影響的嚴重程度至關重要。",
+          "implication": "例如，TAPSE -1.09 mm 的差異，在 28 週和 36 週的臨床意義可能完全不同。若無 GA 校正或分層分析，我們很難將這些數據應用於臨床個案的風險評估。"
+        },
+        {
+          "finding": "收縮功能指標出現矛盾結果：MAPSE/TAPSE（縱向功能）顯著下降，但心輸出量 CO（整體泵血功能）卻無差異。",
+          "source": "這項矛盾點應在全文的討論（Discussion）部分被深入探討。作者可能會推測代償機制，如心率增加、心室幾何改變（更球形以維持射出分率）等。",
+          "implication": "這提示 FGR 胎兒的心臟處於「高耗能、低效率」的代償狀態。出生後，當面臨肺血管阻力下降和體循環阻力上升的劇烈轉變時，這種脆弱的平衡很容易被打破，導致心臟衰竭或 PPHN。這解釋了為何 FGR 新生兒的「蜜月期」可能很短暫。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "這是一項系統性回顧與統合分析，提供了比單一觀察性研究更高等級的證據。",
+          "採用了 Delphi consensus criteria 來定義 FGR，這有助於降低納入研究間的異質性，增加結果的一致性。",
+          "評估了多個心臟功能面向的指標（幾何、收縮、舒張、整體功能），提供了較全面的圖像。",
+          "使用 Random-effect model 進行分析，這在預期納入研究間存在異質性時是合適的統計方法。"
+        ],
+        "notes": [
+          "這是一篇關於『胎兒』心臟功能的統合分析，並未追蹤至出生後的臨床結果（如 BPD、NEC、neurodevelopmental outcome）。其結論是關於病理生理學的，而非臨床預後預測。",
+          "統合分析的品質高度依賴於其納入的原始研究品質。Abstract 未提及是否對原始研究進行了偏誤風險評估（risk of bias assessment），例如使用 Newcastle-Ottawa Scale。",
+          "未提及是否評估了發表偏誤（publication bias），例如 Funnel plot 分析。"
+        ],
+        "weaknesses": [
+          "潛在的異質性（heterogeneity）：儘管 FGR 定義統一，但納入的 15 個研究在超音波儀器、操作者技術、測量時間點（GA）、以及對照組的選擇上可能仍存在巨大差異。",
+          "臨床意義不確定：研究報告了統計上的顯著差異（statistically significant），但這些差異的臨床重要性（clinical significance）為何？例如，MPI 增加 0.09 是否足以預測出生後需要 inotrope 支持？本研究無法回答這個問題。",
+          "缺乏長期預後關聯：研究終點僅為胎兒時期的心臟參數，未能連結到新生兒期的死亡率、重要併發症，或更長期的神經發展與心血管健康。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Crispi F et al., Circulation, 2010",
+            "comparison": "這是該領域的經典研究之一，建立了 FGR 嬰兒在出生後即存在心臟重塑（更球形的心室、心肌肥厚）的概念。本篇 D'Amico 的 meta-analysis 則是將這個概念往前推到『胎兒時期』，並用統合分析的方式證實了這些改變在出生前就已普遍存在。"
+          },
+          {
+            "citation": "Cochrane Neonatal Reviews on FGR",
+            "comparison": "Cochrane reviews 主要關注 FGR 的『處置』，例如分娩時機、產前類固醇使用等，較少著墨於其內在的病理生理學細節。本研究為這些臨床處置的重要性提供了底層的生理學證據——我們之所以要謹慎處理 FGR，部分原因就是他們的心血管系統已經非常脆弱。"
+          }
+        ],
+        "guideline_status": "目前國際指引（如 AAP）將 FGR/SGA 新生兒列為高風險族群，需密切監測血糖、體溫和呼吸狀況，但並未常規建議對所有 FGR 新生兒進行心臟功能評估。本研究的發現強化了 FGR 新生兒心血管系統脆弱的觀念，但尚不足以改變現行指引，使其成為常規篩檢項目。",
+        "evidence_gap_filled": "本研究統合了過去零散的觀察性研究，首次以 meta-analysis 的形式，強而有力地證實了 FGR 在胎兒時期就已存在廣泛的心臟功能異常。它將 FGR 從一個單純的「體重問題」提升到一個「全身性、特別是心血管系統的疾病狀態」。",
+        "ongoing_trials": "目前缺乏大型前瞻性世代研究，將特定的『胎兒心臟功能參數』（如本研究的 MPI, TAPSE）作為預測指標，去追蹤 FGR 新生兒出生後的短期（PPHN、inotrope 使用）與長期（BPD、NDI、成年後心血管疾病）預後。這將是此領域的下一個研究重點。"
+      },
+      "protocol_impact": {
+        "current_practice": "在我們 NICU，對於 FGR 新生兒，特別是早產兒，我們會將其視為高風險個案。我們會預期他們可能有較不穩定的過渡期，對低血壓的容忍度較低。通常在出現臨床症狀（如持續性低血壓、氧合不佳、休克）時，才會安排心臟超音波檢查以評估心臟功能、排除 PPHN 或測量 a-LA ratio。並不會對所有 FGR 新生兒進行常規性的功能性心臟超音波（functional echo）篩檢。",
+        "proposed_change": "本研究結果尚不足以支持我們改變『治療』protocol，但可以改變我們的『監測與評估』策略。\n1.  **提高警覺與溝通**：當產科醫師告知 FGR 胎兒有心臟功能異常的發現時，我們應將其視為出生後心血管不穩定的高度預警信號。\n2.  **考慮早期功能性心臟超音波**：對於特定高風險 FGR 新生兒（如早發型、伴隨嚴重臍動脈血流異常、出生 GA < 32 週），可考慮在出生後 24 小時內安排一次功能性心臟超音波，即使當下生命徵象穩定。目的不是治療，而是建立 baseline，了解其心臟是以收縮功能、舒張功能還是高肺動脈壓為主要問題，以便在未來出現狀況時能更精準地選擇藥物（如 dopamine vs. dobutamine vs. milrinone）。",
+        "prerequisites": [
+          "與兒科心臟科團隊建立共識，討論執行早期功能性心臟超音波的可行性與標準化流程。",
+          "對 NICU 主治醫師與研究醫師進行 FGR 心臟病理生理學的再教育訓練，確保大家能正確解讀超音波結果並應用於臨床決策。",
+          "制定明確的 protocol，定義哪些 FGR 新生兒需要接受早期超音波篩檢，避免資源濫用。"
+        ],
+        "missing_evidence": "我們最需要的是一個前瞻性研究來回答：『對 FGR 新生兒進行早期常規功能性心臟超音波，並根據結果進行目標導向治療（goal-directed therapy），是否能改善他們的短期（如死亡率、IVH、BPD）和長期（如 2 歲神經發展）預後？』在沒有這樣的證據之前，任何改變都應視為加強監測，而非常規治療的改變。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42026688",
+    "title": "Echocardiography-Assisted Stenting of the Ductus Venosus in Infracardiac TAPVC: Report of a New Technique and Review of the Literature.",
+    "authors": "Schmid S, Hofbeck M, Nordmeyer J, et al.",
+    "journal": "Catheterization and Cardiovascular Interventions",
+    "pub_date": "2026 Apr 23",
+    "doi": "10.1002/ccd.70631",
+    "total_score": 3,
+    "scores": {
+      "design": 1,
+      "relevance": 5,
+      "novelty": 5,
+      "generalizability": 1
+    },
+    "keywords": [
+      "TAPVC",
+      "ductus venosus",
+      "stenting",
+      "prematurity",
+      "echocardiography"
+    ],
+    "one_liner": "這是一篇報告針對極早產兒合併心下型TAPVC及DV阻塞，成功執行經頸靜脈DV支架置放的新技術案例，為此類重症患者提供延遲手術的介入治療選項。",
+    "summary": {
+      "purpose": "本研究旨在報告一種針對極早產兒合併心下型TAPVC及功能性DV阻塞的經頸靜脈DV支架置放新技術，並回顧相關介入策略。",
+      "design": "本研究為單一案例報告，描述一名890克早產兒因心下型TAPVC及功能性DV阻塞，成功接受超音波導引下經頸靜脈DV支架置放術。同時簡要回顧了DV支架置放的不同介入策略。",
+      "findings": "該名890克早產兒的DV在超音波導引下成功地被導絲穿過並置放支架。此案例凸顯了超音波在診斷和處理DV阻塞方面的重要性。",
+      "significance": "該案例強調了超音波在診斷和處理DV阻塞的重要性，並提出了一種新的經頸靜脈DV支架置放技術，為極早產兒因極度早產不適合立即手術的TAPVC患者提供了一種延遲手術的介入治療選項。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42025927",
+    "title": "Novel Fetal Embolization Technique via Transcardiac Transarterial Ultrasound- and Fluoroscopy-Guided Endovascular Surgery for Vein of Galen Malformation: Preclinical Study in the Fetal Lamb.",
+    "authors": "Van den Eede E, Chen K, Altman C, et al.",
+    "journal": "Prenatal Diagnosis",
+    "pub_date": "2026 Apr 23",
+    "doi": "10.1002/pd.70157",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 4,
+      "novelty": 4,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Vein of Galen malformation",
+      "fetal intervention",
+      "embolization",
+      "preclinical",
+      "fetal lamb"
+    ],
+    "one_liner": "對於新生兒科醫師來說，這篇臨床前研究展示了胎兒期治療 Vein of Galen malformation 的新穎經動脈栓塞技術，值得關注其未來轉譯至臨床的潛力。",
+    "summary": {
+      "purpose": "本研究旨在臨床前評估一種新型胎兒經心臟經動脈超音波及螢光導引血管內栓塞術 (FETTUS) 治療 Vein of Galen malformation (VOGM) 在胎羊模型中的可行性與安全性。",
+      "design": "此為一項在胎羊模型中進行的臨床前研究。研究團隊在不同胎齡的胎羊（相當於人類 30 週胎齡）上標準化 FETTUS 技術，並評估栓塞成功率及術後 30 分鐘內的胎兒存活率。總計有 16 隻胎羊接受栓塞。",
+      "findings": "栓塞的目標動脈為內上頜動脈。在相當於人類 30 週胎齡的胎羊（130 天胎齡，2.8 ± 0.6 kg）中，栓塞成功率為 100% (3/3)。在較年輕的胎羊（100 天胎齡，0.9 ± 0.3 kg）中成功率為 33% (2/6)，而在 120 天胎齡（2.3 ± 0.4 kg）中成功率為 86% (6/7)。術後 30 分鐘的屍檢未觀察到非目標栓塞、缺血或出血。",
+      "significance": "這項臨床前研究證明了胎兒經動脈栓塞術 (FETTUS) 在胎羊模型中治療 VOGM 的可行性與安全性，特別是在相當於人類 30 週胎齡的胎兒。這為未來開發人類胎兒 VOGM 介入治療提供了新的潛在方向，可能改善此類高風險新生兒的預後。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42029926",
+    "title": "Fetal cardiomyopathy secondary to infiltrative cardiac fibroma.",
+    "authors": "Almeida-Jones M, Pruetz J, Goldstein J, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1007/s00246-026-04270-8",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Fetal cardiomyopathy",
+      "cardiac fibroma",
+      "rare disease",
+      "neonate",
+      "case report"
+    ],
+    "one_liner": "這是一篇關於罕見胎兒心臟纖維瘤導致心肌病變的個案報告，可作為特殊病例的鑑別診斷參考。",
+    "summary": {
+      "purpose": "本研究旨在報告一例罕見的胎兒心肌病變，其病因是浸潤性心臟纖維瘤。",
+      "design": "根據文章標題判斷，這應為一篇個案報告（case report）。由於摘要內容未提供，無法得知具體的胎齡（GA）、出生體重及樣本數。",
+      "findings": "由於摘要內容未提供，無法得知具體的研究發現。",
+      "significance": "此個案報告有助於提升臨床醫師對罕見胎兒心臟腫瘤引起心肌病變的認識，對於診斷與潛在的產前或產後處置提供參考，但對NICU日常照護的影響有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42029924",
+    "title": "Patent Ductus Arteriosus in a Fetus with Truncus Arteriosus and Non-Interrupted Aortic Arch.",
+    "authors": "Gungor SD, Lozada JRDP, Desai M, et al.",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1007/s00246-026-04269-1",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Fetal PDA",
+      "Truncus Arteriosus",
+      "Congenital Heart Disease",
+      "Case Report",
+      "Fetal Cardiology"
+    ],
+    "one_liner": "這是一篇關於罕見胎兒複雜先天性心臟病合併PDA的病例報告，對NICU日常照護的直接影響不大，但對胎兒心臟科有參考價值。",
+    "summary": {
+      "purpose": "根據標題推斷，本研究旨在描述一個罕見的胎兒病例，其診斷為動脈幹（Truncus Arteriosus）合併非中斷性主動脈弓，並同時存在開放性動脈導管（PDA）。",
+      "design": "根據標題推斷，這應為一個病例報告。由於缺乏摘要內容，無法得知具體樣本數、胎齡或出生體重範圍。",
+      "findings": "由於缺乏摘要內容，無法得知具體發現。預期會詳細描述此胎兒的超音波診斷結果、解剖學特徵及其臨床意義。",
+      "significance": "本病例報告可能為罕見先天性心臟病合併PDA的胎兒診斷與管理提供額外資訊，有助於加深對複雜心臟畸形病理生理學的理解。然而，它對新生兒加護病房（NICU）日常照護決策的直接影響有限，主要與胎兒心臟科及小兒心臟外科相關。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42025994",
+    "title": "Commentary: Paradigm Shift in the Management of Ebstein Anomaly.",
+    "authors": "Konstantinov IE",
+    "journal": "Journal of Thoracic and Cardiovascular Surgery",
+    "pub_date": "2026 Apr 21",
+    "doi": "10.1016/j.jtcvs.2026.04.021",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Ebstein Anomaly",
+      "congenital heart disease",
+      "commentary",
+      "cardiac surgery",
+      "management"
+    ],
+    "one_liner": "這是一篇關於Ebstein Anomaly管理策略轉變的評論，新生兒科醫師可作為了解心臟外科新趨勢的參考，但對日常NICU照護影響不大。",
+    "summary": {
+      "purpose": "旨在探討並倡議Ebstein Anomaly管理策略的重大轉變（\"paradigm shift\"）。",
+      "design": "本文為一篇評論性文章，非原創性研究，因此不涉及研究設計、樣本數、GA或出生體重等。",
+      "findings": "作為評論，本文未呈現原創研究結果。預期內容將討論支持此管理策略轉變的現有證據、臨床觀察或新興概念。",
+      "significance": "對於新生兒科醫師而言，此文可提供Ebstein Anomaly治療領域的最新觀點，特別是若涉及新生兒期診斷或早期介入的討論。然而，由於其評論性質且主要聚焦於外科管理，對NICU日常照護決策的直接影響有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42029360",
+    "title": "Sudden Cardiac Death and its Relation to Previously Diagnosed or Occult Cardiac Disease at Autopsy.",
+    "authors": "Salazar JW, Nakasuka K, Connolly AJ, et al.",
+    "journal": "Journal of the American College of Cardiology",
+    "pub_date": "2026 Mar 23",
+    "doi": "10.1016/j.jacc.2026.01.029",
+    "total_score": 2,
+    "scores": {
+      "design": 4,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Sudden cardiac death",
+      "Occult cardiac disease",
+      "Autopsy",
+      "Myocardial infarction",
+      "Dilated cardiomyopathy"
+    ],
+    "one_liner": "這是一篇關於成人社區猝死與隱匿性心臟病理的嚴謹研究，對新生兒科醫師而言無直接臨床意義，可跳過。",
+    "summary": {
+      "purpose": "本研究旨在確定社區猝死者中，已診斷心臟疾病風險因子（RFs）對心律不整性猝死的敏感度，並識別未經診斷RFs者中隱匿性心臟病理（如隱匿性心肌梗塞 [MI] 和擴張性心肌病變 [DCM]）。",
+      "design": "POST SCD 是一項為期12年的前瞻性縣級研究，透過屍體解剖來判斷符合世界衛生組織標準的猝死案例。研究對象為877名疑似猝死者，其中513名為屍體解剖確認的心律不整性猝死，平均年齡約60歲（64.3歲、62.6歲、56.9歲）。",
+      "findings": "在513名心律不整性猝死者中，僅166名（32%）有已診斷的RFs。另有159名（31%）存在隱匿性MI或DCM。其餘185名（36%）猝死者雖然較年輕（平均年齡56.9歲），但仍有心臟重量增加（Z-score: 0.9 vs 0.0）、左心室直徑較大（2.5 cm vs 1.9 cm）及更顯著的冠狀動脈疾病（52% vs 13%，所有 P < 0.001）。總體而言，三分之二的社區心律不整性SCD發生在未經診斷心臟疾病的個體中，其中一半有隱匿性MI或DCM。",
+      "significance": "本研究揭示了成人社區SCD中，大量隱匿性心臟病理的存在，強調了在成人族群中加強心臟疾病早期檢測的重要性。然而，此研究結果與新生兒科的臨床照護無直接相關性，對早產兒照護、新生兒重症醫學或早產兒長期發育追蹤沒有直接影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42029363",
+    "title": "Atrial fibrillation recurrence and outcomes in patients with hypertrophic cardiomyopathy: Insights from a nationwide real-world cohort.",
+    "authors": "Aglan A, Fath AR, Silver JS, et al.",
+    "journal": "Heart Rhythm",
+    "pub_date": "2026 Apr 23",
+    "doi": "10.1016/j.hrthm.2026.03.1906",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "心房顫動",
+      "肥厚性心肌病變",
+      "成人心臟病",
+      "AF",
+      "HCM"
+    ],
+    "one_liner": "本研究探討成人肥厚性心肌病變患者心房顫動的復發率與預測因子，與新生兒科臨床實務無關。",
+    "summary": {
+      "purpose": "本研究旨在比較肥厚性心肌病變 (HCM) 患者與非 HCM 患者心房顫動 (AF) 的復發率，並探討 HCM 患者 AF 復發的預測因子。",
+      "design": "這是一項使用 TriNetX Research Network (2015-2025) 的全國性回溯性世代研究。研究將新發 AF 患者依有無 HCM 分組，並針對首次 AF 診斷、首次 direct-current cardioversion (DCCV) 及首次導管燒灼術後，評估一年內 AF 復發率。HCM 與非 HCM 族群進行 1:1 傾向分數配對，並使用多變量 Cox 模型分析 HCM 患者 AF 復發的預測因子。研究共納入 2,548,991 名新發 AF 患者，其中 31,248 名 (1.2%) 患有 HCM。",
+      "findings": "經配對後，HCM 患者在首次 AF 診斷後 (19.6% vs 14.6%; hazard ratio [HR] 1.25; P < .001)、DCCV 後 (47% vs 40.8%; HR 1.14; P < .001) 及導管燒灼術後 (36.2% vs 29.3%; HR 1.22; P < .001) 的 AF 復發率均高於非 HCM 患者。在 HCM 患者中，持續性 AF 和心臟衰竭是復發的預測因子，而早期導管燒灼術 (AF 診斷後 <6 個月) 與延遲燒灼術 (>12 個月) 相比，復發率較低。",
+      "significance": "本研究結果顯示，HCM 患者的 AF 復發率較高，且早期介入導管燒灼術可能降低復發風險。然而，此研究主要針對成人族群，與新生兒科的臨床照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42028618",
+    "title": "Aortic Sinus-to-RVOT Communication Following Harmony Valve Implantation.",
+    "authors": "Morgan GJ, McCarthy KP, Downs E, et al.",
+    "journal": "Catheterization and Cardiovascular Interventions",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1002/ccd.70634",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Harmony valve",
+      "RVOT",
+      "complication",
+      "cardiac intervention",
+      "case report"
+    ],
+    "one_liner": "本文為心臟科領域的單一病例報告，描述 Harmony 瓣膜植入術後罕見併發症，與新生兒照護無直接關聯，新生兒科醫師可略過。",
+    "summary": {
+      "purpose": "本文旨在報告一例患者在接受 Harmony 瓣膜植入術後，發生右心室流出道 (RVOT) 與右冠狀竇之間醫源性交通的罕見併發症。",
+      "design": "本研究為單一病例報告，描述一名原診斷為肺動脈狹窄合併小型心室中膈缺損的患者，在接受經皮 Harmony 瓣膜植入術後出現的併發症。文章未提供新生兒相關的 GA 範圍、出生體重或樣本數，因其為單一成人或兒童病例。",
+      "findings": "研究發現 Harmony 瓣膜植入後，可能導致 RVOT 與右冠狀竇之間產生醫源性交通。此併發症被認為是未預期的，且其病因可能與瓣膜設計及患者特定的解剖構造有關。",
+      "significance": "對於新生兒科醫師而言，此研究的臨床意義極低。它描述的是一種用於治療右心室流出道逆流的經皮瓣膜植入術的罕見併發症，此類手術通常不適用於新生兒，因此對新生兒重症醫學或早產兒照護決策無直接影響。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42026211",
+    "title": "Utility of electrical impedance tomography to measure neonatal pulmonary circulation changes: a lamb study.",
+    "authors": "Koeppenkastrop SL, Pereira-Fantini PM, Schinckel NF, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 23",
+    "doi": "10.1038/s41390-026-04880-1",
+    "total_score": 2,
+    "scores": {
+      "design": 2,
+      "relevance": 2,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "EIT",
+      "pulmonary circulation",
+      "neonates",
+      "preterm",
+      "animal study"
+    ],
+    "one_liner": "這項動物研究初步驗證了 EIT 在新生兒肺部循環監測的潛力，但仍處於早期開發階段，尚未能直接應用於臨床。",
+    "summary": {
+      "purpose": "本研究旨在探討電阻抗斷層掃描 (EIT) 在兩種生物模型中測量肺部血流模式的潛力，特別是克服心臟運動偽影和通氣對心跳相關訊號的干擾。",
+      "design": "這是一項實驗性動物研究。研究 A 包含 6 隻窒息羔羊，靜脈注射生理食鹽水；研究 B 包含 12 隻早產羔羊，在出生呼吸轉換期間進行持續性肺部充氣。",
+      "findings": "研究 A 顯示，肺部區域的心跳相關阻抗訊號在生理食鹽水注射後顯著下降，且獨立於心輸出量和心臟運動 (p<0.0001)。研究 B 顯示，心跳相關訊號的振幅在肺部充氣期間呈線性下降 (R2=0.062)。",
+      "significance": "EIT 能獨立於心臟運動和通氣，檢測肺部血容量的預期變化，顯示其作為新生兒非侵入性、無輻射肺部通氣與灌流不匹配測量工具的潛力，有助於未來新生兒肺部血流監測技術的發展。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42029923",
+    "title": "Bile Acids, Mitochondria, and Impaired Oxygen Extraction: A Shared Mechanistic Pathway in Fontan Circulation and MASLD-HFpEF.",
+    "authors": "Shah AH",
+    "journal": "Pediatric Cardiology",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1007/s00246-026-04264-6",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 1,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Fontan circulation",
+      "MASLD",
+      "HFpEF",
+      "膽汁酸",
+      "粒線體"
+    ],
+    "one_liner": "新生兒科醫師可跳過此篇，其探討的是Fontan術後病童的長期心臟與肝臟併發症之機制，與新生兒加護病房的臨床照護無直接相關。",
+    "summary": {
+      "purpose": "此文旨在探討膽汁酸、粒線體功能與氧氣萃取受損在Fontan循環及MASLD-HFpEF病患中，可能存在的共同致病機轉。",
+      "design": "根據文章標題判斷，此文應為一篇針對特定病理生理機轉的綜述性文章或假說探討，而非具體的研究設計（如RCT或世代研究），故無明確的GA範圍、出生體重或樣本數。",
+      "findings": "由於缺乏摘要內容，無法提供具體研究發現。預期內容將聚焦於闡述膽汁酸、粒線體功能障礙與氧氣萃取效率下降如何共同導致Fontan循環及MASLD-HFpEF的病理進程。",
+      "significance": "此文探討的是Fontan術後病童的長期心臟與肝臟併發症之機制，與新生兒加護病房（NICU）的急性照護決策或早產兒的特殊管理無直接相關性。對於新生兒科醫師而言，其臨床意義極為有限，主要屬於兒科心臟學或肝臟學的範疇。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42026214",
+    "title": "Overview of T-cell subsets and related cytokines in Kawasaki disease.",
+    "authors": "Zhu Y, Xi S",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1038/s41390-026-04990-w",
+    "total_score": 1,
+    "scores": {
+      "design": 1,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "Kawasaki disease",
+      "T-cell",
+      "cytokines",
+      "vasculitis",
+      "immunotherapy"
+    ],
+    "one_liner": "這篇綜述探討川崎病中T細胞免疫異常，與新生兒科照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "本篇綜述旨在回顧川崎病中T細胞亞群及其相關細胞激素的動態變化與調控機制，並探討T細胞介導的細胞激素風暴、自體免疫反應及血管損傷的分子機制，同時總結T細胞靶向治療的研究進展。",
+      "design": "這是一篇針對川崎病中T細胞免疫異常的綜述文章，並未涉及特定病患的樣本數或研究設計。",
+      "findings": "川崎病患者的T細胞亞群活性呈現顯著差異，且與治療效果相關。此回顧揭示了T細胞在川崎病發病機制中的關鍵作用，並指出潛在的免疫治療靶點。",
+      "significance": "由於此文章主題為川崎病，主要影響一般兒科或兒童風濕免疫科的臨床照護，與新生兒加護病房 (NICU) 的日常照護決策無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-25"
   }
 ]

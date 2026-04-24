@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NB Journal Digest - 2026-04-25</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans TC',sans-serif;background:#f7f7f3;color:#333;line-height:1.8;font-size:16px}
+.container{max-width:720px;margin:0 auto;padding:20px}
+header{padding:20px 0;border-bottom:2px solid #1B6B93;margin-bottom:24px}
+.back{font-size:15px;color:#1B6B93;text-decoration:none}
+.back:hover{text-decoration:underline}
+.date{font-size:15px;color:#888;margin-top:8px}
+h1{font-size:26px;font-weight:700;color:#1B6B93;margin-top:4px}
+.stats{font-size:15px;color:#666;margin-top:6px}
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:18px}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.tag{padding:3px 10px;border-radius:4px;font-size:13px;font-weight:600}
+.tag-journal{font-size:13px;color:#999}
+.card-title{font-size:18px;font-weight:600;color:#222;line-height:1.5;margin-bottom:8px}
+.card-authors{font-size:14px;color:#999;margin-bottom:14px}
+.section{padding:14px 0;border-top:1px solid #f0f0ec}
+.section p{font-size:15px;color:#555;margin-bottom:8px}
+.section-label{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-bottom:10px}
+.hl{border-left:3px solid;padding:10px 14px;margin:8px 0;font-size:15px;line-height:1.7;border-radius:0}
+.hl-green{border-color:#639922;background:#EAF3DE;color:#27500A}
+.hl-amber{border-color:#BA7517;background:#FAEEDA;color:#633806}
+.hl-red{border-color:#E24B4A;background:#FCEBEB;color:#791F1F}
+.hl-blue{border-color:#378ADD;background:#E6F1FB;color:#0C447C}
+.related{font-size:15px;color:#555;padding:8px 0;border-bottom:1px solid #f5f5f0}
+.related:last-child{border-bottom:none}
+.card-links{padding-top:14px;display:flex;gap:16px}
+.card-links a{font-size:14px;color:#1B6B93;text-decoration:none}
+.card-links a:hover{text-decoration:underline}
+footer{padding:24px 0;margin-top:32px;border-top:1px solid #ddd;font-size:13px;color:#999;text-align:center}
+.vote-count{font-size:13px;color:#1B6B93;font-weight:600}
+@media(max-width:600px){.container{padding:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+
+<!-- Auth gate -->
+<div id="auth-gate" style="display:none;justify-content:center;align-items:center;min-height:100vh;background:#f7f7f3;">
+<div style="background:#fff;border-radius:16px;padding:40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.08);max-width:380px;width:90%;">
+  <h2 style="color:#1B6B93;margin:0 0 8px;">NB Journal Digest</h2>
+  <p style="color:#888;font-size:13px;margin:0 0 24px;">馬偕紀念醫院新生兒科</p>
+  <input id="pw-input" type="password" placeholder="請輸入密碼" onkeydown="if(event.key==='Enter')submitPassword()"
+    style="width:100%;padding:10px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;box-sizing:border-box;margin-bottom:12px;">
+  <button onclick="submitPassword()"
+    style="width:100%;padding:10px;background:#1B6B93;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;">進入</button>
+  <p id="pw-error" style="display:none;color:#E24B4A;font-size:13px;margin-top:10px;">密碼錯誤，請重新輸入</p>
+  <p style="color:#bbb;font-size:12px;margin-top:16px;">或從 LINE / Email 點擊連結直接閱讀</p>
+</div>
+</div>
+
+<!-- Digest content (hidden until auth) -->
+<div id="digest-content" style="display:none;">
+<div class="container">
+<header>
+  <a href="index.html" class="back">← Back to archive</a>
+  <div class="date">2026/04/25 (Saturday)</div>
+  <h1>NB Journal Digest</h1>
+  <div class="stats">15 articles · 2 must-read</div>
+</header>
+
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 4-5: DEEP ANALYSIS</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#EEEDFE;color:#3C3489">Score 5</span><span class="tag-journal">Acta Paediatrica</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Identification and Assessment of Systematic Reviews for Evidence-Based Guideline Recommendations on Follow-Up of Preterm Born Children: A Mapping Review.</h2>
+  <div class="card-authors">Kaiser G, Kayser M, Babel M, et al. · 2026 Apr 24</div>
+  <div id="original-analysis-42028996"><div class="section"><b>30 秒重點：</b>這是一篇針對早產兒追蹤照護的「文獻回顧的文獻回顧」(mapping review)，系統性地評估了239篇相關的系統性文獻回顧(SRs)的品質。結論非常明確：現有證據品質普遍不佳。在42篇介入性SRs中，僅7篇品質達中高水準；在197篇關於預後、風險等的SRs中，僅2篇被評為高品質。這提醒我們，目前許多早產兒追蹤的臨床指引，其背後的證據基礎可能比我們想像的要薄弱，在制定或更新本科的追蹤計畫時需更加審慎。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 將「早產兒或 VLBW」混為一談，但並未說明這239篇SRs是否有針對不同GA或BW亞群（如 ELBW vs. VLBW vs. late preterm）進行分析。不同亞群的追蹤需求與預後差異極大，這種概括性的結論可能會掩蓋特定族群的證據品質。</b> Abstract Results section. 全文應會提供納入文獻的特徵表(Table of characteristics)，需仔細檢視其中對研究族群的描述。。如果高品質的證據都集中在 late preterm，而 ELBW 的證據品質極差，那麼我們對 ELBW 的追蹤策略就更應依賴專家共識和謹慎的臨床判斷，而非盲目遵循現有指引。</p><p><b>Abstract 提到「post discharge follow-up」，但未具體說明涵蓋哪些追蹤領域（如神經發展、生長、呼吸道後遺症、代謝症候群等）。證據品質的低落是全面性的，還是僅限於某些特定領域？</b> Abstract Results section. 全文應會將納入的239篇SRs依主題分類，這是理解本研究結論的關鍵。。若神經發展追蹤的證據品質尚可，但關於長期心血管代謝風險的證據付之闕如，這將直接影響我們追蹤門診的檢查項目優先順序與資源分配。</p><p><b>研究指出多數SRs品質不佳，但 Abstract 未說明品質不佳的主要原因。是因為原始研究(primary studies)的偏差風險高？還是SR本身的方法學有缺陷（如檢索策略不完整、未評估發表偏誤）？</b> Abstract Conclusion section. 全文在使用 AMSTAR 2 和 ROBIS 工具進行評估的部分，應會詳細說明各個SRs在哪個項目上失分最多。。了解失敗的原因至關重要。如果是前者，代表我們需要更多高品質的原始RCT；如果是後者，代表我們在解讀現有SRs時，要特別注意其方法學的潛在漏洞。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>系統性地毯式搜索：檢索了三個主要資料庫 (MEDLINE, Epistemonikos, Cochrane)，降低遺漏重要文獻的風險。</div><div class="hl hl-green"><b>Strong：</b>預設品質門檻：納入的SRs本身需符合基本品質要求（至少檢索兩個資料庫、評估 risk of bias），避免了對極低品質文獻的重複評估。</div><div class="hl hl-green"><b>Strong：</b>使用標準化評估工具：針對不同類型的SRs，採用了對應的、廣被認可的品質評估工具 (AMSTAR 2 for interventional, ROBIS for others)，評估結果具可信度與可比較性。</div><div class="hl hl-green"><b>Strong：</b>創新的效率策略：採用「preliminary quality screening」先快速篩掉大量低品質文獻，再對少數潛在高質量文獻進行精細評估，此方法在處理大量文獻時非常實用。</div><div class="hl hl-amber"><b>Note：</b>研究時間範疇：涵蓋2010年至2025年，確保了納入文獻的時效性。</div><div class="hl hl-amber"><b>Note：</b>研究類型：這是一篇 mapping review，其目的在於描繪現有證據的全貌與品質，而非提供具體的臨床治療建議。它的結論是關於「證據的證據」，而非「臨床的證據」。</div><div class="hl hl-red"><b>Weak：</b>摘要資訊有限：Abstract 未說明篩選、資料萃取與品質評估是否由兩位研究者獨立進行，這是避免選擇偏誤和執行偏誤的關鍵步驟。</div><div class="hl hl-red"><b>Weak：</b>潛在的異質性：將所有「追蹤」相關議題的SRs放在一起評估，其主題的異質性可能非常高，從營養介入到物理治療，這可能使得「整體品質不佳」的結論過於簡化。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>AAP Committee on Fetus and Newborn, "Hospital Discharge of the High-Risk Neonate" (e.g., Pediatrics 2008 or subsequent updates)</b> — AAP 指引是根據當時可得的最佳證據與專家意見，提出「應如何做」的臨床建議。本研究則是反過來檢視這些「可得證據」的品質到底有多可靠。本研究的結果，可視為對 AAP 這類指引背後證據基礎的一次壓力測試，結果顯示其基礎可能並不穩固。</div><p><b>指引現況：</b>目前國際主要的新生兒醫學會（如 AAP, ESPGHAN, 台灣新生兒科醫學會）皆強烈建議對高風險早產兒（特別是 GA <32 週或 BW <1500g）進行結構化的長期追蹤。然而，對於追蹤的具體內容、頻率、使用工具及持續時間，各指引間存在差異，且多數建議是基於專家共識而非高級別的證據。本研究的發現，恰好解釋了為何指引多依賴專家共識——因為高品質的統合性證據確實稀少。</p><p><b>填補的 evidence gap：</b>本研究並未填補任何臨床實踐的證據空白，而是填補了「證據學」(evidence science) 上的空白。它首次系統性地量化了早產兒追蹤領域系統性文獻回顧的證據品質是多麼堪憂。這為未來的研究指明了方向：我們迫切需要更多方法學嚴謹的原始研究，以及更高品質的系統性回顧，來支持或修正現有的追蹤指引。</p><p><b>進行中的相關試驗：</b>雖然沒有單一一個大型 RCT 在研究「追蹤本身」是否有效，但許多大型新生兒 RCTs（如關於不同呼吸支持策略、營養方案或藥物使用的試驗）都將長期神經發展結果作為 secondary or primary outcome。這些試驗的長期追蹤數據，將是未來高品質SRs的重要素材來源。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>目前工作手冊中無相關 protocol。我們提供的手冊內容詳盡地規範了新生兒的『住院期間』照護，從入院評估、一般照護、營養支持（TPN、餵食、維生素、鐵劑補充）等，鉅細靡遺。然而，關於『出院後的長期追蹤計畫』，在手冊中並無獨立的章節或標準化流程。臨床實務上雖有早產兒追蹤門診，但其具體時程、評估項目、使用工具及轉介標準，可能更多依賴主治醫師的個人經驗與習慣，而非統一的科內 protocol。<br><b>建議調整：</b>本研究的結論並非建議某項具體的追蹤介入，而是強烈暗示我們需要建立一個『正式、書面化、且基於現有最佳證據（儘管證據薄弱）』的追蹤 protocol。建議如下：
+1.  **成立工作小組**：由新生兒科、兒童發展、復健科、眼科、耳鼻喉科等組成，共同草擬本科的「高風險早產兒長期追蹤指引」。
+2.  **明確定義追蹤對象**：例如，所有 GA < 32 週或 BW < 1500g 的早產兒，以及其他符合特定高風險條件者（如 HIE、複雜先天心臟病、需手術之 NEC 等）。
+3.  **制定標準化追蹤時程與項目**：
+    -   **時程**：明確訂定於矯正年齡 6, 12, 18, 24 個月及學齡前（如5歲）需回診。
+    -   **項目**：每次回診需完成的標準評估，包括：生長評估（身高、體重、頭圍，並標註於 Fenton/WHO 生長曲線）、神經發展篩檢/評估（如 Bayley-IV）、聽力與視力篩檢、營養狀況評估、預防針接種狀態確認等。
+4.  **強調證據的局限性**：在 protocol 中應註明，許多建議是基於專家共識，並應隨著新證據的出現而定期檢討更新。<br><b>導入準備：</b>召開科會，取得共識，確認有必要建立標準化的追蹤 protocol。, 成立跨領域工作小組，並指派負責人（如總醫師或一位主治醫師）。, 進行文獻回顧，參考國內外（如 AAP、台灣新生兒科醫學會）的追蹤建議，草擬 protocol 初稿。, 針對 protocol 內容對相關人員（醫師、個管師、門診護理師）進行 in-service training。, 建立追蹤資料庫，以利於未來評估本科追蹤計畫的執行率與成效。<br><b>等待的證據：</b>如本研究所述，我們最缺乏的是：關於『特定追蹤介入措施』是否能改善長期預後的高品質證據。例如，出院後提供特定營養補充品、早期物理治療介入、或特定家長賦能計畫，對於改善5歲時的認知功能或行為問題，到底有沒有幫助？這些都需要更多大型、長期的 RCT 來回答。</div></div></div>
+  <div id="analysis-result-42028996"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42028996/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1111/apa.70507" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42028996" data-rating="must_read" onclick="vote('42028996','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42028996-must_read" style="display:none;">0</span></button> <button data-pmid="42028996" data-rating="useful" onclick="vote('42028996','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42028996-useful" style="display:none;">0</span></button> <button data-pmid="42028996" data-rating="so_so" onclick="vote('42028996','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42028996-so_so" style="display:none;">0</span></button> <button data-pmid="42028996" data-rating="skip" onclick="vote('42028996','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42028996-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42028996" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42028996" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42028996','Identification and Assessment of Systematic Reviews for Evidence-Based Guideline Recommendations on Follow-Up of Preterm Born Children: A Mapping Review.',this,false)">
+  <button id="upload-btn-42028996" onclick="document.getElementById('pdf-42028996').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42028996" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#EEEDFE;color:#3C3489">Score 5</span><span class="tag-journal">Pediatric Research</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Kangaroo Care as an intervention in randomised controlled trials in neonatal intensive care.</h2>
+  <div class="card-authors">Minotti C, Wallis L, Hoesli J, et al. · 2026 Apr 23</div>
+  <div id="original-analysis-42026208"><div class="section"><b>30 秒重點：</b>這不是一篇新的 RCT，而是一篇關於「研究方法」的敘事性綜合分析。它指出，即使在嚴謹的隨機對照試驗 (RCTs) 中，袋鼠式護理 (Kangaroo Care, KC) 的執行方式（如起始時機、持續時間）也常未達到 WHO 的建議標準。這顯示出從證據到實踐存在巨大的「執行落差」(implementation gap)，這個問題不僅存在於日常臨床工作，也存在於研究本身。對我們而言，這提醒我們推廣 KC 的重點不應只在於「知不知道它有效」，而在於如何克服我們 NICU 內部的基礎設施、人力和文化障礙，來確保真正做到位。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 未區分不同 GA/BW 或疾病嚴重度的亞群。它籠統地批評 RCTs 未達 WHO 標準，但對於一位在呼吸器上使用 inotrope 的 24 週 ELBW 早產兒，和一位穩定的 32 週晚期早產兒，KC 的執行標準和可行性截然不同。這個「執行落差」在極度不成熟的嬰兒中可能更大，但也可能更合理。</b> Abstract 中缺乏對納入 RCTs 的嬰兒族群特徵（特別是 GA、BW、呼吸支持程度）的詳細描述。。我們在設定自己科內的 KC 目標時，不能一概而論。我們需要根據 GA 和臨床穩定度，制定分層、務實的執行目標。直接套用 WHO 對所有早產兒的單一標準可能不切實際且不安全。閱讀全文時，必須找出它是否分析了不同亞群的 KC 執行情況。</p><p><b>Abstract 未明確指出其比較的基準是哪個版本的 WHO 建議。2022 年的 WHO 指引建議對所有早產兒（即使不穩定）立即進行 KC，這是一個非常高的標準，大多數較早期的 RCTs 不可能達到。如果用最新的標準去評判過去的研究，可能會誇大所謂的「落差」。</b> Abstract 僅提及 "WHO recommendations"，未提供具體年份或文件。。這影響我們如何解讀這篇分析的批評力道。我們需要知道它比較的標竿是什麼。這也提醒我們，當我們制定內部 protocol 時，需要明確說明我們參考的指引版本，並解釋為何我們選擇了特定的執行強度。</p><p><b>這篇分析聚焦在 KC 這個「介入措施」的執行細節，但 abstract 並未將執行品質與「臨床結果」連結。例如，它沒有告訴我們，那些執行 KC 時間更長、更早開始的 RCTs，是否真的報告了更好的 BPD、NEC 或神經發育結果。</b> Abstract 專注於描述執行面的障礙，但未提及這些執行差異是否與原始 RCTs 的 outcome 相關。。這是一個關鍵的遺漏。我們最需要知道的，是 KC 的「劑量-反應關係」(dose-response relationship)。如果能證明每天多做 2 小時 KC 能顯著降低 BPD 風險，這將是我們說服同仁和家長、並投入更多資源的最強力證據。閱讀全文時，要看作者是否嘗試進行這種次級分析。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>這是一篇關於「實證醫學如何轉化為臨床實踐」的研究，點出了新生兒科一個非常重要但常被忽略的問題：知易行難 (know-do gap)。</div><div class="hl hl-green"><b>Strong：</b>研究設計（基於系統性回顧的敘事性綜合分析）使其能宏觀地檢視多個 RCTs 的共通問題，而不僅限於單一試驗的結果。</div><div class="hl hl-green"><b>Strong：</b>明確指出了未來研究應走向真實世界中的「有效性-執行性」混合設計 (effectiveness-implementation hybrid design)，例如其提及的 NeoDeco trial，為領域發展指出了方向。</div><div class="hl hl-amber"><b>Note：</b>這不是一篇 primary research，其結論的品質完全取決於它所依據的先前發表的系統性回顧與統合分析的品質。</div><div class="hl hl-amber"><b>Note：</b>BPD 定義：由於這是對過去多個 RCTs 的回顧，這些試驗可能使用了不同版本的 BPD 定義（例如 NICHD 2001 vs. Jensen 2019），這會影響跨研究的比較。</div><div class="hl hl-amber"><b>Note：</b>Neurodevelopmental 評估：同樣地，不同試驗可能使用不同版本的評估工具（如 Bayley-II vs. Bayley-III/IV），這在整合長期預後時是一大挑戰。</div><div class="hl hl-red"><b>Weak：</b>敘事性綜合分析 (narrative synthesis) 比統合分析 (meta-analysis) 更具主觀性，作者選擇呈現和詮釋哪些發現，可能存在偏誤。</div><div class="hl hl-red"><b>Weak：</b>Abstract 未提供量化數據（例如，RCTs 中的平均 KC 時數 vs. WHO 建議時數），使得「執行落差」的程度不夠具體。</div><div class="hl hl-red"><b>Weak：</b>可能存在「時代錯置」的偏誤 (anachronism)，即用今日的高標準去評斷十幾二十年前設計的臨床試驗，當時對於 KC 的認知和執行條件與現在大不相同。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Conde-Agudelo A, Díaz-Rossello JL. Kangaroo mother care to reduce morbidity and mortality in low birthweight infants. Cochrane Database of Systematic Reviews 2016.</b> — Cochrane review 專注於 KC 的「療效」(efficacy)，透過統合分析證明 KC 能有效降低死亡率、敗血症、低體溫等。本研究則專注於 KC 在試驗中的「執行忠誠度」(implementation fidelity)，探討的是「如何做」以及「做得好不好」的問題，兩者互補。</div><div class="related"><b>WHO recommendations for care of the preterm or low-birth-weight infant. WHO 2022.</b> — WHO 指引是「規範性」的臨床建議，設定了理想的照護目標（如立即、長時間的 KC）。本研究則是「描述性」的分析，呈現了研究環境中的「現實」，並探討理想與現實之間的差距。</div><p><b>指引現況：</b>目前國際（WHO, AAP）及台灣新生兒科醫學會均強力推薦 KC 作為早產兒的標準照護。特別是 2022 年 WHO 指引，將 KC 的重要性提升到前所未有的高度，建議對所有 LBW/preterm 嬰兒（包括不穩定者）在出生後應盡快開始執行，並以每日接近連續（>20小時）為目標。</p><p><b>填補的 evidence gap：</b>本研究填補了從「KC 有效嗎？」到「為什麼我們做不到位？」之間的認知鴻溝。它將焦點從單純的臨床療效證據，轉移到執行科學 (implementation science) 的層面，這在新生兒醫學領域相對較新但極為重要。</p><p><b>進行中的相關試驗：</b>Abstract 明確提到正在進行的 NeoDeco effectiveness-implementation trial。這個試驗的結果值得我們密切關注，它可能會提供在真實世界中如何有效推動 KC 的具體策略。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>目前工作手冊中無相關 protocol。我們的工作手冊詳細規定了體重監測（如 `15 g/kg/day for preterm babies`）、生理性脫水容忍度（`Preterm upto 15%`）、黃疸 workup 流程，甚至 progress note 的寫法（如 `Day 8 , PMA 29+3 weeks , BW:1128 (+21gm) (↓10%)`），但對於 Kangaroo Care 的執行標準、時機、時長、禁忌症及記錄方式，完全沒有明文規定。目前 KC 的執行很大程度上依賴個別主治醫師的鼓勵和當班護理師的意願與能力，缺乏系統性、標準化的推動。<br><b>建議調整：</b>這篇文章最重要的啟示是，我們需要建立一個正式的 KC protocol。我建議成立一個跨領域工作小組（包含醫師、護理師、呼吸治療師、家長代表），草擬我們的 NICU KC 指引。
+具體建議修改/新增內容：
+1.  **新增 KC Protocol 章節**：在工作手冊中新增一節，明確定義 KC。
+2.  **適用對象與起始時機**：制定分層標準。例如：
+    *   **穩定型 (Stable grower, e.g., on HFNC/Room Air)**: 出生體重 >1000g 且生命徵象穩定後，應於第一週內開始，目標每日 >4 小時。
+    *   **呼吸器依賴型 (Ventilator-dependent ELBW)**: 在血行動力學穩定（如 inotrope 停用 >24 小時）後，可開始嘗試，目標從每日 1 小時開始，視耐受度逐漸增加。
+3.  **執行與監測**：明確定義 KC 期間的監測標準（vitals, SpO2）。
+4.  **記錄標準化**：修改 progress note 每日記錄格式，在 `Wt: g (+/- g) (+/- %)` 後新增一行 `KC: (hr/day)`，將 KC 時數作為每日交班與評估的常規項目，以量化執行成效。<br><b>導入準備：</b>成立 KC 推動工作小組，進行文獻回顧與標竿學習。, 草擬符合本院 NICU 人力與設備現況的 protocol 草案。, 舉辦全科（醫師、護理師、RT）的 in-service training，建立共識與標準化執行流程。, 採購足夠且舒適的躺椅、屏風等硬體設備。, 製作家長衛教單張與影片，鼓勵並賦能家長參與。<br><b>等待的證據：</b>我們仍然缺乏針對不同 GA 亞群（特別是 <28週的 ELBW）的 KC 最佳「劑量」（時機、頻率、時長）的強力證據。例如，對於一個呼吸器依賴的 25 週早產兒，每天 1 小時的 KC 是否優於不執行？每天 3 小時是否顯著優於 1 小時？這些問題需要更多像 NeoDeco 這樣的研究來回答，以幫助我們更精準地設定目標。</div></div></div>
+  <div id="analysis-result-42026208"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42026208/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41390-026-05020-5" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42026208" data-rating="must_read" onclick="vote('42026208','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42026208-must_read" style="display:none;">0</span></button> <button data-pmid="42026208" data-rating="useful" onclick="vote('42026208','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42026208-useful" style="display:none;">0</span></button> <button data-pmid="42026208" data-rating="so_so" onclick="vote('42026208','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42026208-so_so" style="display:none;">0</span></button> <button data-pmid="42026208" data-rating="skip" onclick="vote('42026208','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42026208-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42026208" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42026208" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42026208','Kangaroo Care as an intervention in randomised controlled trials in neonatal intensive care.',this,false)">
+  <button id="upload-btn-42026208" onclick="document.getElementById('pdf-42026208').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42026208" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">Neonatology</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Rehospitalization in Preterm Infants: Machine Learning Prediction Model &amp; Associated Risk Factors.</h2>
+  <div class="card-authors">Benni D, Ramon-Gonen R, Klinger G, et al. · 2026 Apr 24</div>
+  <div id="original-analysis-42030218"><div class="section"><b>30 秒重點：</b>這是一項以色列的回溯性研究，利用機器學習模型預測早產兒出院後一年的再住院風險，發現16.1%的早產兒會再住院。此模型的強項在於高特異度 (0.87)，能有效篩選出低風險個案。關鍵的風險因子包括：低胎齡、低出生體重、BPD、神經或腸胃道疾病、以及較長的住院天數。這提醒我們，出院準備不能只看體重和餵食，更需整合性的風險評估，以利早期介入。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 將所有「早產兒」混為一談，但未提供關鍵的亞群分析。例如，極低出生體重 (VLBW) 或極度早產兒 (<28週) 的再住院原因和風險權重，可能與晚期早產兒 (late preterm) 截然不同。模型的整體 AUC 0.69 可能掩蓋了在特定重要亞群中表現不佳或特別優異的情況。</b> Abstract 未提供，需在全文的 Methods (收案條件) 和 Results (subgroup analysis) 中尋找。。若無亞群分析，這個模型對我們 NICU 最脆弱的族群（如 ELBW）是否適用將是個大問號。一個「一體適用」的模型在臨床上可能難以落地，因為 25 週和 35 週早產兒的出院後照護挑戰完全不同。</p><p><b>「出院體重 >2000 g」被列為一個重要的預測因子，這與臨床直覺相悖。一般認為較高的出院體重是健康的指標。這可能是個統計上的混淆因子，例如，這群嬰兒可能是因為有嚴重共病（如嚴重 BPD、短腸症）才需要住院更久、長到更大體重才能出院，而真正的風險是共病本身，非體重。</b> Abstract 的 Results 段落。需在全文的 Discussion 中尋找作者對此矛盾發現的解釋。。如果一個關鍵預測因子不符合臨床邏輯，會讓人對整個模型的可靠性產生懷疑。在考慮應用此模型前，必須釐清這個變項背後的真正原因，否則可能導致錯誤的臨床判斷。</p><p><b>Abstract 中提到「異常實驗室數值」和「腸胃道及神經系統疾病」為預測因子，但定義極為模糊。具體是哪些數值（如貧血、電解質不穩）？疾病的嚴重程度如何界定（如 NEC stage II vs. III，IVH grade I vs. IV）？BPD 的定義版本（是傳統的 NICHD 2001 還是較新的 Jensen 2019 生理學定義）也未說明。</b> Abstract 的 Results 段落。需在全文的 Methods 或 Supplementary data 中尋找這些變項的具體操作型定義。。模型的實用性取決於其輸入變項的清晰度和可操作性。如果定義不清，我們團隊將無法一致地應用此模型，也無法與我們自己的臨床實踐進行比較。特別是 BPD 的定義，會直接影響到被標記為高風險的個案數量。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>使用 XGBoost 這種先進的機器學習演算法，能捕捉變項間複雜的非線性關係，可能比傳統的邏輯斯迴歸模型更精準。</div><div class="hl hl-green"><b>Strong：</b>納入「低社經分數」作為預測因子，承認了社會經濟因素在出院後結果的重要性，這在許多純臨床模型中常被忽略。</div><div class="hl hl-green"><b>Strong：</b>樣本數相對較大 (n=2,226)，且來自單一三級醫學中心，確保了資料在收案期間的照護標準和記錄方式具有一定的一致性。</div><div class="hl hl-amber"><b>Note：</b>模型的整體表現中等 (AUC 0.69)，其價值在於高陰性預測值 (NPV 0.87)，意即它更擅長「排除」低風險個案，而非「揪出」高風險個案（敏感度僅 0.38）。</div><div class="hl hl-amber"><b>Note：</b>研究地點在以色列，其醫療體系、出院後社區支持、以及家庭社經結構與台灣不同，模型的外部效度可能受限。</div><div class="hl hl-amber"><b>Note：</b>研究期間為 2018-2023 年，反映了近代的 NICU 照護實踐，結果較具時效性。</div><div class="hl hl-red"><b>Weak：</b>回溯性研究設計，無法避免潛在的資料記錄偏誤和未測量的混淆因子。</div><div class="hl hl-red"><b>Weak：</b>單一中心研究，結果的普遍性 (generalizability) 有限。此模型在應用到馬偕或其他醫院前，必須經過本地數據的外部驗證。</div><div class="hl hl-red"><b>Weak：</b>缺乏外部驗證 (external validation)。一個好的預測模型必須在一個全新的、獨立的資料集上進行測試，以證明其穩健性，本研究摘要中未提及此點。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Cochrane Neonatal reviews on discharge planning and post-discharge support</b> — Cochrane review 主要評估「介入措施」（如個案管理、居家訪視）是否能減少再住院。本研究則專注於「風險預測」，即如何找出最需要這些介入措施的族群。兩者是互補的，本研究的工具可以幫助我們更精準地投放 Cochrane 證實有效的資源。</div><div class="related"><b>Traditional logistic regression studies on rehospitalization risk factors (e.g., Smith et al., Pediatrics, 2019)</b> — 過去的研究多使用傳統統計方法來識別獨立的風險因子（如 BPD、低 GA）。本研究的創新之處在於使用機器學習將多個因子「整合」成一個單一的預測分數，試圖提供一個更全面的風險評估，而不僅僅是一張風險列表。</div><p><b>指引現況：</b>目前台灣新生兒科醫學會、AAP 或其他主要國際組織，尚無針對早產兒出院再住院風險，提出應常規使用特定預測模型的指引。目前的標準做法是基於臨床醫師的綜合判斷，進行個人化的出院準備計畫。</p><p><b>填補的 evidence gap：</b>本研究填補了將現代機器學習技術應用於新生兒出院後再住院風險預測的空白。它從「識別風險因子」的階段，向前推進到「建立量化預測工具」的嘗試。</p><p><b>進行中的相關試驗：</b>全球有許多團隊正在利用 EMR 大數據開發類似的預測模型。然而，關鍵的下一步是進行前瞻性的臨床試驗，驗證使用這些模型指導下的早期介入，是否真的能改善病患預後並降低醫療成本。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>我們目前的工作手冊中無針對「出院後再住院」的整體風險評估 protocol。出院決策主要基於臨床穩定、體重穩定增加、及家長照護準備度。手冊中對特定疾病（如 cCMV、Hypocalcemia）的風險因子和追蹤計畫有所描述，但缺乏一個整合性的、量化的出院前風險篩檢工具。<br><b>建議調整：</b>基於此研究，我們不應直接導入此模型，因其缺乏外部驗證。但我們可以借鑒其識別出的重要因子，建立一個「高風險早產兒出院準備檢核表」。
+1.  **適用對象**：所有 GA < 34 週或 BW < 2000g 的早產兒。
+2.  **檢核項目**：
+    -   **重大共病史**：勾選是否具備 BPD (依 Jensen 2019 定義)、需藥物治療的 GERD、NEC stage ≥II、IVH grade ≥III、PVL、或曾接受重大手術。
+    -   **住院過程**：住院天數是否 > 60 天。
+    -   **出院前狀態**：是否仍需氧氣治療、是否帶有 NG tube 或 gastrostomy、是否需要多種藥物治療。
+    -   **社會心理支持**：由社工評估家庭支持系統。
+3.  **觸發機制**：若符合上述任三項（或以上），即啟動「高風險個案出院轉銜計畫」，內容包括：
+    -   安排出院後一週內由個管師電話追蹤關懷。
+    -   確保出院後兩週內返回新生兒科門診追蹤。
+    -   提供家長 24 小時諮詢專線。<br><b>導入準備：</b>召開科務會議，由主治醫師、護理師、社工師共同制定「高風險早產兒出院準備檢核表」的具體內容與啟動標準。, 對全科同仁進行 in-service training，確保大家對檢核表的使用和轉銜流程有一致的理解。, 與醫院的資訊部門合作，將此檢核表電子化，並整合至出院摘要系統中，以便追蹤與稽核。, 明確個案管理師的角色與工作流程，確保電話追蹤能確實執行。<br><b>等待的證據：</b>我們最需要的是本地數據。在全面實施新 protocol 前，可以先用我們馬偕過去三年的資料，回溯性地驗證這份檢核表的預測能力。此外，還需要前瞻性的證據，證明啟動「高風險個案出院轉銜計畫」後，是否真的能有效降低 30 天或一年內的再住院率。</div></div></div>
+  <div id="analysis-result-42030218"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42030218/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1159/000552171" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42030218" data-rating="must_read" onclick="vote('42030218','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42030218-must_read" style="display:none;">0</span></button> <button data-pmid="42030218" data-rating="useful" onclick="vote('42030218','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42030218-useful" style="display:none;">0</span></button> <button data-pmid="42030218" data-rating="so_so" onclick="vote('42030218','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42030218-so_so" style="display:none;">0</span></button> <button data-pmid="42030218" data-rating="skip" onclick="vote('42030218','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42030218-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42030218" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42030218" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42030218','Rehospitalization in Preterm Infants: Machine Learning Prediction Model &amp; Associated Risk Factors.',this,false)">
+  <button id="upload-btn-42030218" onclick="document.getElementById('pdf-42030218').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42030218" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">Neonatology</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Cerebral oxygenation during the first 15 minutes after birth and short-term outcome measured by the Motor Optimality Score - Revised (MOS-R) in preterm infants.</h2>
+  <div class="card-authors">Scheuchenegger A, Wolfsberger CH, Avian A, et al. · 2026 Apr 24</div>
+  <div id="original-analysis-42030214"><div class="section"><b>30 秒重點：</b>這是一篇針對 COSGOD III 試驗的附屬研究，發現在 <32 週早產兒出生後立即使用 NIRS 引導復甦，雖然不影響正常 Fidgety Movements 的比例，但與校正年齡 6-20 週時有顯著較佳的早期動作發展品質（MOS-R 中位數 26 vs. 24, p=0.003）。這提示在黃金一小時內優化腦部氧合，可能對早期神經發展有正面影響。然而，這僅是早期指標，仍需等待 2 歲的長期追蹤結果來證實其效益。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 未提供 GA 亞群分析。最脆弱的 <28 週族群是否獲益最大？或是效果僅在 28-31 週的早產兒中顯著？這對於決定 NIRS 應優先使用於哪些病患至關重要。</b> 閱讀全文時需尋找 Table 2 或 supplementary data 中的亞群分析 (subgroup analysis)。。如果效益集中在 ELBWs，將強化我們在高風險新生兒復甦時使用 NIRS 的理由；反之，若無差異，則其臨床應用價值可能較為普遍但效益較小。</p><p><b>研究並未提及兩組間其他短期併發症的差異，例如 severe IVH (grade III/IV)、PVL、NEC 或 BPD 的發生率。這些都是影響神經發展的重要干擾因子。</b> 需在全文的 Table 1 (Baseline Characteristics) 和 Results 章節中尋找兩組短期併發症的比較數據。。如果 NIRS 組的 severe IVH 發生率較低，那麼 MOS-R 的改善可能源於腦損傷的減少，這提供了直接的生理機制證據。若無差異，則改善的機制可能更為細微，例如短暫缺氧/高氧事件的減少。</p><p><b>Abstract 未說明 NIRS 組的 crSO₂ 目標值，以及為了維持此目標值所採取的具體干預措施（如：調整 FiO₂、改變 PEEP、給予 volume expander）的頻率與類型。</b> 應在 Methods 章節中尋找 COSGOD III trial 的原始 protocol 或本研究對介入措施的描述。。了解實際的介入措施，才能評估將此策略引入我們 NICU 的可行性與複雜度。例如，如果 NIRS 監測導致更頻繁的 FiO₂ 調整，我們需要評估這是否會增加 BPD 的風險。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>本研究是基於一個大型多中心 RCT (COSGOD III) 的數據，因此病患分組的隨機性 (randomization) 和分配隱匿 (allocation concealment) 具有先天優勢，減少了選擇性偏差 (selection bias)。</div><div class="hl hl-green"><b>Strong：</b>MOS-R 是一個經過驗證且信效度良好的早期動作發展評估工具，能提供比單純觀察 FMs 更細緻的動作品質資訊。</div><div class="hl hl-amber"><b>Note：</b>關鍵點在於 MOS-R 的評分者是否對嬰兒的組別分配『雙盲』(blinded)。由於這是回溯性評分，如果評分者知道嬰兒屬於 NIRS 組或對照組，可能產生觀察者偏誤 (observer bias)。全文方法學部分必須釐清這一點。</div><div class="hl hl-amber"><b>Note：</b>MOS-R 評估時間範圍為校正年齡 6-20 週，這是一個較寬的時間窗。需要確認兩組的評估時間點分佈是否相似。</div><div class="hl hl-amber"><b>Note：</b>研究僅納入兩個奧地利醫學中心，可能存在 center effect，其復甦流程與照護文化可能影響結果，需謹慎推論其普遍性。</div><div class="hl hl-red"><b>Weak：</b>主要弱點是其結果為『早期替代性指標』(early surrogate outcome)。MOS-R 的改善是否能轉化為 2 歲時 Bayley-IV 分數的提升或 CP 發生率的下降，仍是未知數。</div><div class="hl hl-red"><b>Weak：</b>研究設計為 retrospective ancillary observational study，可能存在原始試驗未預期的干擾因子。例如，納入分析的病患是否為存活者偏差 (survivor bias) 的結果。</div><div class="hl hl-red"><b>Weak：</b>失訪率 (attrition rate) 未在 abstract 中說明。從 COSGOD III 原始收案到最終納入 MOS-R 分析，有多少比例的嬰兒因死亡、無錄影或影像品質不佳而被排除，這會影響結果的有效性。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Plomgaard AM et al. (SafeBoosC-III), NEJM 2023</b> — SafeBoosC-III 是一個大型 RCT，探討在 <28 週早產兒使用 NIRS 監測並治療腦部低氧血症，其主要 outcome 是死亡或嚴重腦損傷的複合指標。與本研究相比，SafeBoosC-III 的 GA 範圍更小 (<28wks vs. <32wks)，outcome 是硬指標 (hard outcome)，而非功能性評估。SafeBoosC-III 結果為陰性，但本研究提示 NIRS 可能在較不嚴重的神經功能面向上有潛在益處。</div><div class="related"><b>Pellicer A et al., J Pediatr 2016</b> — 這是另一個較早的 NIRS 監測研究，顯示 NIRS 監測能減少 <29 週早產兒的腦部低氧負荷 (hypoxic burden) 和 severe IVH。本研究將此類生理性指標的改善，進一步連結到早期的功能性 outcome (MOS-R)，在證據鏈上往前推進了一步。</div><p><b>指引現況：</b>目前 ILCOR (International Liaison Committee on Resuscitation) 和台灣新生兒科醫學會的復甦指引，並未將 NIRS 列為新生兒急救的標準監測工具，仍將其視為研究中的輔助設備。指引強調以 SpO₂ 作為氧氣調整的主要依據。</p><p><b>填補的 evidence gap：</b>本研究首次將產房立即 NIRS 監測與一個標準化的『早期功能性神經發展 outcome』(MOS-R) 連結起來。過去研究多半聚焦在腦部影像學變化 (如 IVH) 或生理參數，本研究提供了 NIRS 監測可能改善『動作品質』的初步證據。</p><p><b>進行中的相關試驗：</b>需要持續關注 COSGOD III 試驗本身或其他相關 NIRS 試驗的長期追蹤結果，特別是 2-3 歲的 Bayley Scales of Infant and Toddler Development (Bayley-IV) 或其他標準化神經發展評估。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>根據我們的工作手冊，新生兒出生後的穩定與復甦，主要依賴 Apgar score、心跳、呼吸、膚色及 SpO₂ 監測。在【Routine / NICU Orientation】段落中，詳列了 Vital signs 的正常範圍，其中血氧飽和度目標值在【CV / Cardiology / Patent Ductus Arteriosus】段落中提及為 91-95%，但這是指 NICU 入住後的目標，而非出生後立即過渡期的指引。手冊中完全沒有提到 NIRS (crSO₂) 的使用。因此，『目前工作手冊中無相關 protocol』。<br><b>建議調整：</b>基於這篇研究，我們尚不需全面修改 protocol，但可考慮進行一個 pilot study 或品質改善計畫 (QI project)。建議：
+1.  **對象**：針對最高風險族群，如 GA < 28 週或出生時需要進階復甦的 < 32 週早產兒。
+2.  **措施**：在這些個案的復甦過程中，除了標準監測外，額外放置 NIRS 作為『觀察性』與『輔助性』工具，不強制依其數值介入。
+3.  **目標**：先收集本院高風險早產兒在出生後 15 分鐘內的 crSO₂ 數據，並與 SpO₂、血壓、以及後續的腦部超音波結果 (IVH 等級) 進行內部資料分析，以了解 NIRS 在我們單位的潛在價值。<br><b>導入準備：</b>採購 NIRS 主機及新生兒專用探頭 (sensors)。, 舉辦科內教育訓練 (in-service training)，讓主治醫師、研究醫師、專科護理師及呼吸治療師了解 NIRS 的原理、操作、正常值範圍及常見的干擾因素。, 草擬一份 NIRS 監測的標準作業流程 (SOP)，明確定義放置時機、位置、記錄方式。, 與資訊室協調，將 NIRS 數據整合進電子病歷或監護儀數據流中，以便後續分析。<br><b>等待的證據：</b>在我們能安心將 NIRS 納入常規指引前，還需要更強的證據：
+1.  **長期神經發展結果**：需要看到 NIRS 監測能顯著改善 2 歲時的 Bayley-IV 分數或降低腦性麻痺的發生率。
+2.  **對其他重要併發症的影響**：需要大型 RCT 證實 NIRS 監測能同時降低死亡率、severe IVH、BPD 或 NEC 的風險，而不僅僅是改善單一早期指標。
+3.  **成本效益分析**：導入 NIRS 的設備與人力成本，是否能被其帶來的臨床效益（如減少長期照護需求）所抵銷。</div></div></div>
+  <div id="analysis-result-42030214"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42030214/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1159/000551959" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42030214" data-rating="must_read" onclick="vote('42030214','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42030214-must_read" style="display:none;">0</span></button> <button data-pmid="42030214" data-rating="useful" onclick="vote('42030214','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42030214-useful" style="display:none;">0</span></button> <button data-pmid="42030214" data-rating="so_so" onclick="vote('42030214','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42030214-so_so" style="display:none;">0</span></button> <button data-pmid="42030214" data-rating="skip" onclick="vote('42030214','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42030214-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42030214" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42030214" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42030214','Cerebral oxygenation during the first 15 minutes after birth and short-term outcome measured by the Motor Optimality Score - Revised (MOS-R) in preterm infants.',this,false)">
+  <button id="upload-btn-42030214" onclick="document.getElementById('pdf-42030214').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42030214" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">The Journal of Pediatrics</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Neonatal Pulse Oximetry Accuracy and Disparities by Skin Pigmentation (NeoPODS): A Prospective Study.</h2>
+  <div class="card-authors">Siefkes H, Holla I, Giusto E, et al. · 2026 Apr 21</div>
+  <div id="original-analysis-42025790"><div class="section"><b>30 秒重點：</b>這是一篇前瞻性研究，證實新生兒的脈衝血氧儀 (SpO2) 數值平均比動脈血氧飽和度 (SaO2) 低約 1% (mean bias -0.98%)。最關鍵的發現是，與成人研究不同，本研究在不同膚色或種族的新生兒中，並未發現具有臨床意義的 SpO2 準確度差異。隱匿性低血氧 (Occult hypoxemia) 的狀況極為罕見，這緩解了我們對於深膚色新生兒可能因儀器不準而暴露在缺氧風險中的擔憂，支持我們現行標準化的 SpO2 監測策略。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>研究對象的 GA 及 BW 分佈極為關鍵，但 Abstract 未提供。ELBW (<1000g) 或極早期早產兒 (<28週) 的皮膚特性 (如厚度、通透性) 與足月兒截然不同，可能影響光學訊號的偵測。SpO2 的偏差是否在這些最脆弱的亞群中有所不同，是決定臨床應用性的核心問題。</b> Abstract 未提供，需在全文的 Table 1 (Baseline Characteristics) 及 Results/Subgroup Analysis 章節尋找。。如果偏差在 ELBW 族群中更大，我們目前對 VLBW/ELBW 設定的 SpO2 target (例如 90-95%) 可能需要重新評估，以避免真正的 SaO2 過低或過高，這直接關係到 BPD 和 ROP 的風險管理。</p><p><b>Abstract 僅報告了平均偏差 (mean bias)，但未描述偏差是否在不同的 SaO2 範圍內保持一致。例如，在 SaO2 85-90% 的區間，SpO2 的偏差是否會比在 95-100% 區間更大？</b> Abstract 未提供，需在全文的 Results 章節或 Supplementary data 中尋找 Bland-Altman plot，觀察偏差是否隨 SaO2 數值變化而有系統性改變。。我們在臨床上最關心的就是早產兒目標血氧區間的準確性。如果 SpO2 在低飽和度區間的低估現象更嚴重，代表我們設定的 SpO2 90% 可能對應到更低的 SaO2，增加了神經發展不良的風險。這會直接挑戰如 SUPPORT trial 等大型研究建立的 SpO2 target。</p><p><b>研究使用的脈衝血氧儀品牌與型號為何？是 Masimo SET 還是 Nellcor OxiMax？不同廠商的演算法和硬體設計可能影響其在不同膚色或低灌流狀態下的表現。</b> Abstract 未提供，需在全文的 Methods 章節尋找。。我們科內使用的儀器品牌如果與研究中的不同，那麼結果的外部效度 (generalizability) 就會打折扣。在考慮是否要根據此研究強化我們的 protocol 之前，必須先確認其技術平台與我們是否具可比性。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>前瞻性研究設計 (Prospective design)，減少了回溯性研究的資料偏誤。</div><div class="hl hl-green"><b>Strong：</b>嚴謹的配對測量 (Tightly paired measurements)，SpO2 數值是在動脈抽血的當下同步記錄，時間差極小，增加了數據的可信度。</div><div class="hl hl-green"><b>Strong：</b>使用客觀的膚色測量工具 (ITA, melanin index)，而非單純依賴主觀的種族分類，更具科學性。</div><div class="hl hl-amber"><b>Note：</b>研究對象僅限於出生後 10 天內的新生兒，結果是否能外推至年齡較大的 NICU 病患 (例如，數週大的早產兒) 尚不清楚。</div><div class="hl hl-amber"><b>Note：</b>這是一篇診斷準確性研究，因此沒有 BPD 定義或長期神經發展評估 (neurodevelopmental assessment) 的問題。</div><div class="hl hl-amber"><b>Note：</b>由於是短期準確性研究，沒有 follow-up 失訪率的問題。</div><div class="hl hl-red"><b>Weak：</b>樣本數相對較小 (N=70 patients, 136 pairs)，可能不足以檢測出微小但真實存在的亞群差異 (underpowered for subgroup analyses)。</div><div class="hl hl-red"><b>Weak：</b>統計顯著性的邊緣結果：當以連續變數分析時，僅有在限制為「每位病患首次測量」時，ITA 才達到統計顯著性 (p=0.041)，且信賴區間非常接近 0 (95% CI 0.001-0.032)。這可能是一個偶然發現 (chance finding) 或表示效應非常微弱。</div><div class="hl hl-red"><b>Weak：</b>潛在的中心效應 (Center effect)：研究僅在兩個三級 NICU 進行，其病患族群和照護常規可能無法完全代表所有 NICU。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Fawzy A et al., 2022, JAMA Intern Med</b> — 這是引發廣泛關注的成人研究，顯示黑人患者發生隱匿性低血氧的機率是白人患者的三倍。本篇新生兒研究 (NeoPODS) 直接回應了這個議題，但在新生兒族群中得出了不同的、令人安心的結論。</div><div class="related"><b>SUPPORT Study Group, 2010, NEJM</b> — SUPPORT trial 比較了早產兒較低 (85-89%) 與較高 (91-95%) 的 SpO2 target 對死亡率及 ROP 的影響。該試驗的結論建立在 SpO2 讀數準確的基礎上。本篇 NeoPODS 研究支持了 SUPPORT trial 的基本假設，即 SpO2 是一個在不同族群間相對可靠的監測工具，強化了這些大型 RCT 結果的應用性。</div><p><b>指引現況：</b>目前不論是美國兒科學會 (AAP) 或歐洲新生兒相關學會，都沒有針對不同膚色新生兒設定不同 SpO2 目標值的建議。他們的指引主要基於大型臨床試驗 (如 SUPPORT, COT, BOOST II) 的結果，而這些試驗並未因膚色進行分層。本研究的結果支持了現行的「一體適用」指引。</p><p><b>填補的 evidence gap：</b>本研究填補了一個重要的知識缺口：成人研究中發現的脈衝血氧儀種族偏差，是否同樣存在於新生兒族群？此研究提供了初步但重要的證據，顯示在新生兒中這種偏差可能不具臨床意義。</p><p><b>進行中的相關試驗：</b>鑑於此議題的重要性，未來可能會有更大規模、多中心的前瞻性研究來驗證此結論，特別是專注於 ELBW 或有血液動力學不穩定狀況的嬰兒。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>目前工作手冊中無相關 protocol。我們臨床上的常規做法是為所有新生兒（特別是早產兒）設定標準化的 SpO2 目標範圍（例如，根據 GA 和呼吸支持狀況設定在 90-95%），並不會根據嬰兒的膚色或種族進行任何調整。<br><b>建議調整：</b>本研究結果支持我們目前的做法。因此，不需修改 protocol。建議將此研究結果作為內部教學資料，用以強化及再確認我們現行標準化照護流程的證據基礎。當同仁（特別是年輕醫師或護理師）對深膚色嬰兒的 SpO2 讀數提出疑慮時，可引用此研究說明目前新生兒領域的證據顯示無須過度擔憂或做經驗性調整。<br><b>導入準備：</b>在科內晨會或 Journal Club 進行文獻報告，確保所有主治醫師、研究醫師、住院醫師及專科護理師都了解這項新證據。, 可考慮將此結論的摘要加入工作手冊中關於呼吸監測的章節，作為「常見問題」或「證據回顧」的補充說明。<br><b>等待的證據：</b>仍需要更大規模的研究來確認在極低出生體重早產兒 (ELBW) 或合併有嚴重循環不良 (poor perfusion) 的新生兒中，膚色是否會成為影響 SpO2 準確度的顯著因子。此外，本研究使用的儀器品牌與我們單位的儀器是否一致，其數據是否能直接套用，仍需確認。</div></div></div>
+  <div id="analysis-result-42025790"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42025790/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1016/j.jpeds.2026.115114" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42025790" data-rating="must_read" onclick="vote('42025790','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42025790-must_read" style="display:none;">0</span></button> <button data-pmid="42025790" data-rating="useful" onclick="vote('42025790','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42025790-useful" style="display:none;">0</span></button> <button data-pmid="42025790" data-rating="so_so" onclick="vote('42025790','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42025790-so_so" style="display:none;">0</span></button> <button data-pmid="42025790" data-rating="skip" onclick="vote('42025790','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42025790-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42025790" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42025790" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42025790','Neonatal Pulse Oximetry Accuracy and Disparities by Skin Pigmentation (NeoPODS): A Prospective Study.',this,false)">
+  <button id="upload-btn-42025790" onclick="document.getElementById('pdf-42025790').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42025790" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#E1F5EE;color:#085041">Score 4</span><span class="tag-journal">Pediatric Research</span><span class="tag" style="background:#FAECE7;color:#712B13">Sonnet deep analysis</span></div>
+  <h2 class="card-title">Neurodevelopment after a strength-based intervention in children born extremely preterm: a randomised controlled trial.</h2>
+  <div class="card-authors">Hallin Provenzano A, Wadström N, Löwing K, et al. · 2026 Apr 23</div>
+  <div id="original-analysis-42026207"><div class="section"><b>30 秒重點：</b>這是一項針對極度早產兒的 RCT，評估一種出院後的親子互動介入計畫 (SPIBI)。結果顯示，在矯正年齡 24 個月時，與僅接受延伸追蹤的對照組相比，介入組在認知、語言或動作發展上沒有顯著改善。此研究為陰性結果，提醒我們這類「低強度」的出院後介入，可能不足以在短期內改變高風險早產兒的神經發展軌跡。然而，研究中 44% 的孩子發展分數低於 -1 SD，凸顯了持續追蹤與尋找有效介入方案的急迫性。</div><div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div><p><b>Abstract 未定義「極度早產兒 (extremely preterm)」的確切週數範圍 (e.g., <28 weeks? <27 weeks?)。這對於結果的外推性至關重要，因為 23 週和 27 週出生嬰兒的基線風險和發展潛力截然不同。</b> Abstract, Methods section。如果研究族群主要由較大週數的極度早產兒 (如 26-27 週) 組成，其陰性結果可能不完全適用於我們 NICU 中更脆弱的 22-25 週族群。閱讀全文時，必須尋找依 GA 分層的 subgroup analysis，看是否存在對特定週數更有效的可能性。</p><p><b>對照組接受的是「僅接受延伸追蹤計畫 (solely the extended follow-up program)」，而非「常規照護 (standard care)」。Abstract 未說明此追蹤計畫的具體內容。</b> Abstract, Methods section。這是一個「主動式」的對照組。如果這個「延伸追蹤」本身就提供了優於常規的照護（例如：更頻繁的發展評估、衛教、轉介資源），可能會拉高對照組的表現，從而稀釋了介入措施的真實效果 (treatment dilution)。我們需要從全文了解對照組究竟接受了什麼，才能正確解讀兩組之間的「無差異」。</p><p><b>研究排除了有「重大先天畸形或染色體異常」的嬰兒，但未說明是否排除了有嚴重腦傷（如 grade III-IV IVH, cystic PVL）的嬰兒。</b> Implicit from standard RCT design; a key detail to look for in the full text's inclusion/exclusion criteria.。介入措施的效果很可能受到嬰兒本身神經損傷程度的影響。如果研究排除了嚴重腦傷的嬰兒，其結果將不適用於我們 NICU 中最高風險的族群。反之，如果包含了這些嬰兒但未進行 subgroup analysis，他們的極差預後可能會掩蓋介入措施在輕中度腦傷嬰兒中的微小效益。</p></div><div class="section"><div class="section-label" style="color:#633806">方法學評估</div><div class="hl hl-green"><b>Strong：</b>採用隨機對照試驗 (RCT) 設計，是評估介入效果的最高證據等級。</div><div class="hl hl-green"><b>Strong：</b>預先設定了評估時間點 (24 個月矯正年齡) 和評估工具 (Bayley-III)，減少了 post-hoc 分析的偏誤。</div><div class="hl hl-amber"><b>Note：</b>評估工具為 Bayley Scales of Infant and Toddler Development 3rd edition (Bayley-III)。相較於前代版本，Bayley-III 有高估後期認知功能的傾向，但仍是此年齡層的標準工具。</div><div class="hl hl-amber"><b>Note：</b>介入措施是「出院後」開始，這意味著它錯過了住院期間（從出生到 term age）大腦可塑性最強的關鍵窗口。</div><div class="hl hl-amber"><b>Note：</b>追蹤至 24 個月 CA 僅能算是短期神經發展結果。許多發展差異（如注意力、執行功能）要到學齡期才會顯現。</div><div class="hl hl-red"><b>Weak：</b>介入的性質決定了家長和執行者無法被「盲化 (blinding)」。因此，評估者是否對分組情況盲化，對於避免觀察者偏誤 (observer bias) 至關重要，但 Abstract 未提及此點。</div><div class="hl hl-red"><b>Weak：</b>樣本數 N=130 可能不足 (underpowered)，特別是在 subgroup analysis 中，難以偵測到中等或較小的療效差異。</div><div class="hl hl-red"><b>Weak：</b>Abstract 未提供追蹤失訪率 (loss to follow-up rate)。在高風險族群中，失訪者往往是社經地位較低、預後較差的家庭，高失訪率會嚴重影響研究結果的有效性。</div></div><div class="section"><div class="section-label" style="color:#3C3489">與現有證據的定位</div><div class="related"><b>Cochrane Review: Spittle A, et al. 2015</b> — Cochrane 對於早產兒出院後的早期發展介入，結論是對於認知發展有短期到中期的正面效益 (至學齡前)，但對動作發展影響不大。本研究的陰性結果與 Cochrane 的總體結論有所不同，可能反映了介入內容、強度或對照組設計的差異。</div><div class="related"><b>Infant Health and Development Program (IHDP), 1990s</b> — IHDP 是一個更早期、更高強度（結合教育性托育和家訪）的介入計畫，顯示對較重（>2000g）的早產兒有短期認知效益，但效益隨時間減弱。本研究的介入強度遠低於 IHDP，這可能是結果為陰性的原因之一。</div><p><b>指引現況：</b>目前不論是美國兒科學會 (AAP) 或台灣新生兒科醫學會，皆強烈建議所有極度早產兒應接受長期的神經發展追蹤。對於「應採用何種特定介入計畫」，目前尚無共識或強制性指引，多是鼓勵家庭參與由政府或醫院提供的早期療育資源。</p><p><b>填補的 evidence gap：</b>本研究為「低強度、以家庭為中心、以優勢為基礎 (strength-based)」的出院後介入模式，提供了一個設計嚴謹但結果為陰性的證據。這提醒我們，並非所有「早期介入」都同樣有效，介入的內容、強度和時機是關鍵。</p><p><b>進行中的相關試驗：</b>全球有多項關於早產兒早期介入的試驗正在進行，許多新趨勢著重於：1) 更早開始（從 NICU 階段，如 NIDCAP 或 Family Integrated Care）；2) 運用遠距醫療 (telehealth) 增加介入頻率；3) 針對特定問題（如動作、執行功能）的標靶式介入。</p></div><div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div><div class="hl hl-blue"><b>目前做法：</b>根據我們的工作手冊【Respiratory / BPD / Outcome】，我們明確指出 BPD 或 NICU 重症病人是「with a significant risk of poor neurodevelopmental outcome」。目前做法是在出院前評估風險，並安排病人至新生兒科或小兒神經科的發展追蹤門診，再由門診醫師視情況轉介物理、職能或語言治療等早期療育資源。我們科內並無一套標準化的、主動執行的出院後介入「計畫」。<br><b>建議調整：</b>本研究結果為陰性，因此**不建議**根據此研究改變我們目前的 protocol 或引進 SPIBI 這套介入模式。此研究反而支持我們目前的做法是合理的：即「持續追蹤、個別化評估、依需求轉介」。它告訴我們，一個非特異性、低強度的「套裝」計畫，可能不如我們現行針對個別孩子問題的轉介模式。我們應維持現狀，並加強確保高風險家庭能順利銜接至後續的追蹤與療育體系。<br><b>導入準備：</b>由於不建議改變，此項不適用。但若未來要考慮引進任何介入計畫，將需要：, 1. 跨領域團隊培訓（物理治療師、職能治療師、心理師、社工師）。, 2. 建立標準化的介入流程與教材。, 3. 規劃經費與人力資源。<br><b>等待的證據：</b>要改變目前的做法，我們需要一個 RCT 證明某個特定的介入模式，在我們的醫療環境下，顯著優於「常規追蹤與轉介」。具體來說，我們需要看到：1. 在矯正年齡 5 歲或入學後的長期效益，而不僅是 2 歲的 Bayley 分數。2. 對於我們最關心的超低出生體重 (<1000g) 或合併有嚴重 BPD、腦傷的族群，有明確的 subgroup 效益證據。3. 成本效益分析，證明新計畫的投入是值得的。</div></div></div>
+  <div id="analysis-result-42026207"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42026207/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41390-026-04940-6" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42026207" data-rating="must_read" onclick="vote('42026207','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42026207-must_read" style="display:none;">0</span></button> <button data-pmid="42026207" data-rating="useful" onclick="vote('42026207','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42026207-useful" style="display:none;">0</span></button> <button data-pmid="42026207" data-rating="so_so" onclick="vote('42026207','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42026207-so_so" style="display:none;">0</span></button> <button data-pmid="42026207" data-rating="skip" onclick="vote('42026207','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42026207-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42026207" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42026207" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42026207','Neurodevelopment after a strength-based intervention in children born extremely preterm: a randomised controlled trial.',this,false)">
+  <button id="upload-btn-42026207" onclick="document.getElementById('pdf-42026207').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42026207" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div style="display:flex;align-items:center;gap:10px;margin:28px 0 14px;">
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+  <div style="font-size:12px;font-weight:600;color:#1B6B93;letter-spacing:0.5px;">SCORE 2-3: QUICK SUMMARY</div>
+  <div style="flex:1;height:1px;background:#ddd;"></div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Journal of Perinatology</span></div>
+  <h2 class="card-title">Neonatal management and outcomes in the setting of disseminated coccidioidomycosis in pregnancy.</h2>
+  <div class="card-authors">Darmawan DO, Mathew R, Pasca AM, et al. · 2026 Apr 23</div>
+  <div id="original-analysis-42026156"><div class="section"><p><b>研究目的：</b>本研究旨在回顧新生兒球黴菌病（neonatal coccidioidomycosis）的現有文獻，並針對此罕見但預後不佳的疾病，提出一套風險分層且多學科協同的評估與管理策略。</p><p><b>研究設計：</b>本文為文獻回顧，並結合具代表性的臨床案例，提出針對新生兒球黴菌病風險分層的評估與管理策略。研究未提及具體樣本數，主要基於現有文獻與案例經驗，未涉及特定GA或出生體重範圍。</p><p><b>主要發現：</b>新生兒球黴菌病罕見但與顯著的發病率和死亡率相關。診斷極具挑戰性，因其症狀常與早產兒表現重疊，且現有血清學、抗原及分子檢測方法均有其局限性。傳播途徑可能包括經胎盤傳播、分娩時吸入受感染的蛻膜或早期產後暴露。胎盤病理學雖能提供線索，但無法可靠預測新生兒感染。作者提出一套實用方法，包含母體病史、胎盤評估、新生兒目標性檢測及考慮經驗性抗黴菌治療。</p><p><b>臨床意義：</b>對於台灣新生兒科醫師而言，此研究提供了關於一種在特定地區（如美國西南部及部分美洲地區）流行的罕見但嚴重新生兒感染的診斷與管理框架。儘管球黴菌病在台灣極為罕見，但此文獻強調了對於具特定流行病學暴露史的母親所生新生兒，應考慮罕見感染的可能性，並採取多學科協同的評估策略，有助於提升對罕見疾病的鑑別診斷能力。</p></div></div>
+  <div id="analysis-result-42026156"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42026156/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41372-026-02659-0" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42026156" data-rating="must_read" onclick="vote('42026156','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42026156-must_read" style="display:none;">0</span></button> <button data-pmid="42026156" data-rating="useful" onclick="vote('42026156','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42026156-useful" style="display:none;">0</span></button> <button data-pmid="42026156" data-rating="so_so" onclick="vote('42026156','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42026156-so_so" style="display:none;">0</span></button> <button data-pmid="42026156" data-rating="skip" onclick="vote('42026156','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42026156-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42026156" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42026156" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42026156','Neonatal management and outcomes in the setting of disseminated coccidioidomycosis in pregnancy.',this,false)">
+  <button id="upload-btn-42026156" onclick="document.getElementById('pdf-42026156').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42026156" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Journal of Perinatology</span></div>
+  <h2 class="card-title">Decreasing packed red blood cell (pRBC) transfusions in neonates through quality improvement.</h2>
+  <div class="card-authors">Elberson V, Rao K, Chepuri S, et al. · 2026 Apr 23</div>
+  <div id="original-analysis-42026155"><div class="section"><p><b>研究目的：</b>本研究旨在透過品質改善 (QI) 框架，採用更嚴格的輸血閾值，以減少胎齡小於 35 週新生兒的 pRBC 輸血次數。</p><p><b>研究設計：</b>這是一項單中心品質改善研究，針對出生胎齡小於 35 週的嬰兒。研究團隊設定目標，在 16 個月內將每 1000 病人日的 pRBC 輸血率從基準的 28 降低約 25% 至 21。研究採用五個連續的 Plan-Do-Study-Act (PDSA) 循環，並使用統計過程控制圖追蹤數據。</p><p><b>主要發現：</b>在 16 個月期間，pRBC 輸血率從每 1000 病人日的 28 成功降至 18.3，低於目標的 21。</p><p><b>臨床意義：</b>本研究證明，透過結構化的品質改善框架和實施更嚴格的輸血閾值，NICU 單位能有效且安全地減少早產兒的 pRBC 輸血，這有助於降低輸血相關併發症的風險。</p></div></div>
+  <div id="analysis-result-42026155"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42026155/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41372-026-02699-6" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42026155" data-rating="must_read" onclick="vote('42026155','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42026155-must_read" style="display:none;">0</span></button> <button data-pmid="42026155" data-rating="useful" onclick="vote('42026155','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42026155-useful" style="display:none;">0</span></button> <button data-pmid="42026155" data-rating="so_so" onclick="vote('42026155','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42026155-so_so" style="display:none;">0</span></button> <button data-pmid="42026155" data-rating="skip" onclick="vote('42026155','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42026155-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42026155" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42026155" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42026155','Decreasing packed red blood cell (pRBC) transfusions in neonates through quality improvement.',this,false)">
+  <button id="upload-btn-42026155" onclick="document.getElementById('pdf-42026155').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42026155" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Seminars in Perinatology</span></div>
+  <h2 class="card-title">Social drivers in lactation for mothers of very premature infants.</h2>
+  <div class="card-authors">Kalluri NS, Peña MM, Parker MG · 2026 Apr 22</div>
+  <div id="original-analysis-42025460"><div class="section"><p><b>研究目的：</b>本報告旨在探討極早產兒（≤32週）母親哺乳所面臨的社會驅動因素與長期存在的不平等現象，並將相關障礙與建議介入措施結構化於社會生態學框架中。</p><p><b>研究設計：</b>本研究為一篇敘述性報告或回顧性文章，探討早產兒母親哺乳的社會驅動因素與障礙。無原始研究設計、特定GA範圍、出生體重或樣本數。</p><p><b>主要發現：</b>儘管母乳對極早產兒預後至關重要，但長期存在的哺乳不平等現象持續存在，尤其影響非裔美國人、非英語使用者、低收入、低教育程度或使用公共保險的母親。這些母親面臨獨特挑戰，包括對擠乳器的依賴、與嬰兒分離、交通障礙、經濟壓力、家中設備不足、探視困難及社會支持缺乏。這些障礙常相互交織，導致哺乳結果不佳，且種族和族裔少數群體母親受不利社會健康驅動因素的影響尤為嚴重。</p><p><b>臨床意義：</b>本報告強調了NICU照護中，除了醫療介入外，社會經濟與文化因素對早產兒母親哺乳成功的重要性。它提醒臨床醫師需認識並解決這些多層次障礙，以期改善極早產兒的長期預後。對於台灣NICU，雖然具體社會驅動因素可能不同，但其提出的多層次介入思維仍具參考價值，可促使我們檢視本地的哺乳支持系統。</p></div></div>
+  <div id="analysis-result-42025460"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42025460/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1016/j.semperi.2026.152232" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42025460" data-rating="must_read" onclick="vote('42025460','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42025460-must_read" style="display:none;">0</span></button> <button data-pmid="42025460" data-rating="useful" onclick="vote('42025460','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42025460-useful" style="display:none;">0</span></button> <button data-pmid="42025460" data-rating="so_so" onclick="vote('42025460','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42025460-so_so" style="display:none;">0</span></button> <button data-pmid="42025460" data-rating="skip" onclick="vote('42025460','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42025460-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42025460" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42025460" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42025460','Social drivers in lactation for mothers of very premature infants.',this,false)">
+  <button id="upload-btn-42025460" onclick="document.getElementById('pdf-42025460').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42025460" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Acta Paediatrica</span></div>
+  <h2 class="card-title">Follow-Up After Preterm Birth: Where Evidence Ends and Uncertainty Begins.</h2>
+  <div class="card-authors">Kuitunen I · 2026 Apr 24</div>
+  <div id="original-analysis-42029049"><div class="section"><p><b>研究目的：</b>旨在回顧早產兒出生後長期追蹤照護的現有證據，並明確指出目前證據不足與臨床實踐中存在不確定性的領域。</p><p><b>研究設計：</b>本文為一篇敘述性回顧，綜合分析了早產兒長期發育追蹤的相關文獻，並非原創性研究，故無特定 GA、出生體重或樣本數。</p><p><b>主要發現：</b>文章指出，儘管早產兒長期追蹤的重要性無庸置疑，但在最佳追蹤策略、特定介入措施的效益、以及針對不同風險族群的個別化照護方面，仍存在顯著的證據缺口與臨床不確定性。</p><p><b>臨床意義：</b>本文提醒新生兒科醫師，在規劃早產兒出院後的長期追蹤計畫時，許多決策仍需仰賴專家共識而非強而有力的實證醫學證據，並強調未來研究應聚焦於填補這些知識缺口。</p></div></div>
+  <div id="analysis-result-42029049"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42029049/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1111/apa.70552" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42029049" data-rating="must_read" onclick="vote('42029049','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42029049-must_read" style="display:none;">0</span></button> <button data-pmid="42029049" data-rating="useful" onclick="vote('42029049','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42029049-useful" style="display:none;">0</span></button> <button data-pmid="42029049" data-rating="so_so" onclick="vote('42029049','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42029049-so_so" style="display:none;">0</span></button> <button data-pmid="42029049" data-rating="skip" onclick="vote('42029049','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42029049-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42029049" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42029049" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42029049','Follow-Up After Preterm Birth: Where Evidence Ends and Uncertainty Begins.',this,false)">
+  <button id="upload-btn-42029049" onclick="document.getElementById('pdf-42029049').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42029049" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Pediatric Research</span></div>
+  <h2 class="card-title">Prenatal metal mixtures and genetic susceptibility in birth anthropometry: methodological insights and public health implications.</h2>
+  <div class="card-authors">Téllez-Rojo MM, Collado-López S · 2026 Apr 24</div>
+  <div id="original-analysis-42026215"><div class="section"><p><b>研究目的：</b>本研究旨在探討產前金屬混合物暴露與基因易感性如何影響新生兒身體測量指標（如出生體重、身長、頭圍），並提供方法學見解及公共衛生意涵。</p><p><b>研究設計：</b>由於缺乏摘要內容，研究設計推測為世代研究（cohort study），分析產前環境暴露與基因型對出生結果的關聯。無法提供具體的樣本數、GA 範圍或出生體重資訊。</p><p><b>主要發現：</b>由於缺乏摘要內容，無法提供具體的研究發現及統計數據。</p><p><b>臨床意義：</b>本研究有助於理解環境毒物與基因交互作用對新生兒出生結果的影響，為識別高風險族群及制定公共衛生干預措施提供潛在依據，以改善新生兒健康。儘管非直接影響 NICU 日常照護決策，但對新生兒科醫師理解出生不良結果的病因學具有重要意義。</p></div></div>
+  <div id="analysis-result-42026215"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42026215/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41390-026-05018-z" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42026215" data-rating="must_read" onclick="vote('42026215','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42026215-must_read" style="display:none;">0</span></button> <button data-pmid="42026215" data-rating="useful" onclick="vote('42026215','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42026215-useful" style="display:none;">0</span></button> <button data-pmid="42026215" data-rating="so_so" onclick="vote('42026215','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42026215-so_so" style="display:none;">0</span></button> <button data-pmid="42026215" data-rating="skip" onclick="vote('42026215','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42026215-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42026215" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42026215" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42026215','Prenatal metal mixtures and genetic susceptibility in birth anthropometry: methodological insights and public health implications.',this,false)">
+  <button id="upload-btn-42026215" onclick="document.getElementById('pdf-42026215').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42026215" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Pediatric Research</span></div>
+  <h2 class="card-title">Utility of electrical impedance tomography to measure neonatal pulmonary circulation changes: a lamb study.</h2>
+  <div class="card-authors">Koeppenkastrop SL, Pereira-Fantini PM, Schinckel NF, et al. · 2026 Apr 23</div>
+  <div id="original-analysis-42026211"><div class="section"><p><b>研究目的：</b>本研究旨在評估電阻抗斷層掃描 (EIT) 在兩種生物模型中測量肺部血流模式的效用，並解決心臟運動偽影等技術限制。</p><p><b>研究設計：</b>這是一項實驗性動物研究，分為兩部分。研究A：在心臟有搏動及心搏停止的窒息羔羊 (n=6) 右心房注射10ml生理食鹽水，提取心跳相關訊號 (HRS)。研究B：在早產羔羊 (n=12) 出生時呼吸轉換期間進行持續充氣 (無潮氣通氣)。</p><p><b>主要發現：</b>研究A顯示，注射生理食鹽水後，肺部區域的HRS阻抗顯著下降 (p<0.0001)，且與心臟輸出量及心臟運動無關 (p=0.16)，表明EIT能檢測肺動脈床血容量變化。研究B顯示，充氣過程中HRS振幅呈線性下降 (R2=0.062)，這是舒張期HRS減少和收縮期HRS增加的綜合結果。</p><p><b>臨床意義：</b>EIT展現了在獨立於心臟運動的情況下檢測肺部血容量變化的能力，突顯其在新生兒中測量通氣與肺循環不匹配的潛力，為未來提供非侵入性、無輻射的肺部通氣和灌注測量方法。</p></div></div>
+  <div id="analysis-result-42026211"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42026211/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41390-026-04880-1" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42026211" data-rating="must_read" onclick="vote('42026211','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42026211-must_read" style="display:none;">0</span></button> <button data-pmid="42026211" data-rating="useful" onclick="vote('42026211','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42026211-useful" style="display:none;">0</span></button> <button data-pmid="42026211" data-rating="so_so" onclick="vote('42026211','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42026211-so_so" style="display:none;">0</span></button> <button data-pmid="42026211" data-rating="skip" onclick="vote('42026211','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42026211-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42026211" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42026211" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42026211','Utility of electrical impedance tomography to measure neonatal pulmonary circulation changes: a lamb study.',this,false)">
+  <button id="upload-btn-42026211" onclick="document.getElementById('pdf-42026211').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42026211" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 3</span><span class="tag-journal">Pediatric Research</span></div>
+  <h2 class="card-title">Association between neonatal sepsis and lung function in school-age children born preterm.</h2>
+  <div class="card-authors">Chen CC, Lin YH, Lee YF, et al. · 2026 Apr 23</div>
+  <div id="original-analysis-42026210"><div class="section"><p><b>研究目的：</b>本研究旨在探討新生兒敗血症與學齡期早產兒肺功能之間的關聯，特別是區分其與BPD的獨立影響。</p><p><b>研究設計：</b>此為一回溯性世代研究，共125名早產兒完成標準化肺功能測試，並從病歷中獲取新生兒敗血症病史等臨床資訊。</p><p><b>主要發現：</b>曾有新生兒敗血症病史的兒童，其VC, FEV₁, FVC, 和 MMEF 均較未曾感染者為低。經多變項校正後，新生兒敗血症仍與 MMEF 降低顯著相關；然而，當BPD納入模型後，與其他肺功能參數的關聯則不再顯著。</p><p><b>臨床意義：</b>新生兒敗血症與學齡期早產兒的小氣道功能受損獨立相關，此影響獨立於BPD之外。這強調了感染預防的重要性，並建議對曾有新生兒敗血症病史的早產兒進行長期呼吸道追蹤。</p></div></div>
+  <div id="analysis-result-42026210"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42026210/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41390-026-04931-7" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42026210" data-rating="must_read" onclick="vote('42026210','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42026210-must_read" style="display:none;">0</span></button> <button data-pmid="42026210" data-rating="useful" onclick="vote('42026210','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42026210-useful" style="display:none;">0</span></button> <button data-pmid="42026210" data-rating="so_so" onclick="vote('42026210','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42026210-so_so" style="display:none;">0</span></button> <button data-pmid="42026210" data-rating="skip" onclick="vote('42026210','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42026210-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42026210" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42026210" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42026210','Association between neonatal sepsis and lung function in school-age children born preterm.',this,false)">
+  <button id="upload-btn-42026210" onclick="document.getElementById('pdf-42026210').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42026210" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Seminars in Perinatology</span></div>
+  <h2 class="card-title">Practical strategies to incorporate maternal nutrition into neonatology practice to impact infant outcomes.</h2>
+  <div class="card-authors">Valentine CJ, Beseler L, Langley KL · 2026 Apr 22</div>
+  <div id="original-analysis-42025461"><div class="section"><p><b>研究目的：</b>本研究旨在回顧孕期及哺乳期母體營養的最新指引，並探討其對嬰兒預後的影響，以期將相關策略納入新生兒科實踐。</p><p><b>研究設計：</b>本研究為一篇臨床文獻回顧，透過PubMed檢索相關文獻，旨在建立孕期及哺乳期的飲食指引。無特定胎齡、出生體重或樣本數。</p><p><b>主要發現：</b>研究發現，熱量、DHA、膽鹼、葉酸、維生素B1、B2、B12、D、礦物質、微量元素及纖維等關鍵營養素，對於優化孕期、哺乳期以及隨後的嬰兒生長、發育和微生物群落扮演重要角色。</p><p><b>臨床意義：</b>本研究提醒新生兒科醫師應重視母體營養對胎兒及新生兒長期健康的關鍵影響。臨床醫師可與營養師合作，評估孕產婦的營養狀況，提供飲食建議，以確保母嬰健康的發展軌跡，這對於新生兒出院後的衛教與長期追蹤具有指導意義。</p></div></div>
+  <div id="analysis-result-42025461"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42025461/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1016/j.semperi.2026.152233" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42025461" data-rating="must_read" onclick="vote('42025461','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42025461-must_read" style="display:none;">0</span></button> <button data-pmid="42025461" data-rating="useful" onclick="vote('42025461','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42025461-useful" style="display:none;">0</span></button> <button data-pmid="42025461" data-rating="so_so" onclick="vote('42025461','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42025461-so_so" style="display:none;">0</span></button> <button data-pmid="42025461" data-rating="skip" onclick="vote('42025461','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42025461-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42025461" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;" data-has-analysis="42025461">
+  <span style="font-size:13px;color:#085041;">✓ 已有全文分析</span>
+  <input type="file" id="pdf-42025461" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42025461','Practical strategies to incorporate maternal nutrition into neonatology practice to impact infant outcomes.',this,true)">
+  <button id="upload-btn-42025461" onclick="document.getElementById('pdf-42025461').click()"
+    style="padding:4px 10px;border:1px solid #999;border-radius:6px;background:#fff;
+    color:#666;cursor:pointer;font-size:12px;margin-left:8px;">
+    🔄 重新分析
+  </button>
+  <span id="upload-status-42025461" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<div class="card">
+  <div class="card-tags"><span class="tag" style="background:#F1EFE8;color:#5F5E5A">Score 2</span><span class="tag-journal">Pediatric Research</span></div>
+  <h2 class="card-title">Family: a powerful modifier of outcome.</h2>
+  <div class="card-authors">Whitesel E, Msall M, Church PT · 2026 Apr 24</div>
+  <div id="original-analysis-42026216"><div class="section"><p><b>研究目的：</b>本篇評論旨在強調家庭脆弱性對早產兒神經發育結果的影響，並呼籲加強家庭教育與支持。</p><p><b>研究設計：</b>本篇為一篇評論文章，旨在探討另一篇研究論文的發現。因此，無具體研究設計、GA範圍、出生體重或樣本數。</p><p><b>主要發現：</b>本篇評論指出，家庭脆弱性對早產兒的神經發育結果具有顯著影響，即使在沒有嚴重腦損傷的早產兒中亦是如此。</p><p><b>臨床意義：</b>這項認知為新生兒科醫師提供了機會，應更重視家庭資源，並提供更多教育與支持，以提升家庭照護能力，最終改善早產兒的長期神經發育預後。</p></div></div>
+  <div id="analysis-result-42026216"></div>
+  <div class="card-links"><a href="https://pubmed.ncbi.nlm.nih.gov/42026216/" target="_blank">PubMed →</a> <a href="https://doi.org/10.1038/s41390-026-04980-y" target="_blank">DOI →</a></div>
+  
+<div class="card-feedback" style="padding:10px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+  <button data-pmid="42026216" data-rating="must_read" onclick="vote('42026216','must_read',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">🔥<span class="vote-count" id="cnt-42026216-must_read" style="display:none;">0</span></button> <button data-pmid="42026216" data-rating="useful" onclick="vote('42026216','useful',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👍<span class="vote-count" id="cnt-42026216-useful" style="display:none;">0</span></button> <button data-pmid="42026216" data-rating="so_so" onclick="vote('42026216','so_so',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">➖<span class="vote-count" id="cnt-42026216-so_so" style="display:none;">0</span></button> <button data-pmid="42026216" data-rating="skip" onclick="vote('42026216','skip',this)" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer;font-size:14px;transition:all .15s;display:inline-flex;align-items:center;gap:4px;">👎<span class="vote-count" id="cnt-42026216-skip" style="display:none;">0</span></button> 
+  
+  <span id="voted-42026216" style="display:none;font-size:12px;color:#1B6B93;font-weight:600;"></span>
+</div>
+  
+<div class="card-upload" style="padding:8px 0;">
+  <input type="file" id="pdf-42026216" accept=".pdf" style="display:none"
+    onchange="handlePdfSelect('42026216','Family: a powerful modifier of outcome.',this,false)">
+  <button id="upload-btn-42026216" onclick="document.getElementById('pdf-42026216').click()"
+    style="padding:6px 14px;border:1px solid #1B6B93;border-radius:6px;background:#fff;
+    color:#1B6B93;cursor:pointer;font-size:13px;transition:all .15s;">
+    📄 上傳 PDF 解鎖完整分析
+  </button>
+  <span id="upload-status-42026216" style="display:none;font-size:13px;margin-left:8px;"></span>
+</div>
+</div>
+<footer>
+  Journal Auto-Review System · 馬偕紀念醫院新生兒科<br>
+  AI scoring by Claude (Haiku + Sonnet)
+</footer>
+</div>
+</div>
+
+<script>
+(function() {
+  var TOKEN_HASH = "536cf1198b076674d11c19cf4069831a6ac989136a53bca6a27491b9a0f9fb5e";
+  var PW_HASH = "b6cf8ade465cb0435fd6e1a86d7f8a5b3f67639655691545ced5912ce1cfc08f";
+  var content = document.getElementById('digest-content');
+  var gate = document.getElementById('auth-gate');
+
+  function sha256(str) {
+    var encoder = new TextEncoder();
+    return crypto.subtle.digest('SHA-256', encoder.encode(str)).then(function(buf) {
+      return Array.from(new Uint8Array(buf)).map(function(b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    });
+  }
+
+  function unlock() {
+    gate.style.display = 'none';
+    content.style.display = 'block';
+  }
+
+  function checkAccess() {
+    // 1. Check URL token
+    var params = new URLSearchParams(window.location.search);
+    var t = params.get('t');
+    if (t && TOKEN_HASH) {
+      sha256(t).then(function(h) {
+        if (h === TOKEN_HASH) {
+          localStorage.setItem('digest_token', t);
+          unlock();
+        } else {
+          checkPassword();
+        }
+      });
+      return;
+    }
+
+    // 2. Check stored password
+    checkPassword();
+  }
+
+  function checkPassword() {
+    if (!PW_HASH) { unlock(); return; }
+    var saved = localStorage.getItem('digest_pw');
+    if (saved) {
+      sha256(saved).then(function(h) {
+        if (h === PW_HASH) { unlock(); }
+        else { gate.style.display = 'flex'; }
+      });
+    } else {
+      gate.style.display = 'flex';
+    }
+  }
+
+  window.submitPassword = function() {
+    var input = document.getElementById('pw-input').value;
+    sha256(input).then(function(h) {
+      if (h === PW_HASH) {
+        localStorage.setItem('digest_pw', input);
+        unlock();
+      } else {
+        document.getElementById('pw-error').style.display = 'block';
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', checkAccess);
+})();
+</script>
+<script>
+(function() {
+  var FEEDBACK_URL = "https://script.google.com/macros/s/AKfycbwqSMhyfrFydA2i22AuD_RQLv6bxFPG8m-Jp0G__u1vigkmj-SOx6uwrUiwfux7RNTy/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "newborn";
+  var voted = JSON.parse(localStorage.getItem('digest_voted') || '{}'  );
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore previous votes
+    Object.keys(voted).forEach(function(pmid) {
+      var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+      btns.forEach(function(btn) {
+        btn.style.opacity = '0.4';
+        btn.style.pointerEvents = 'none';
+      });
+      var label = document.getElementById('voted-' + pmid);
+      if (label) {
+        var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+        label.textContent = "Voted: " + (labels[voted[pmid]] || voted[pmid]) + " ✓";
+        label.style.display = 'block';
+      }
+    });
+  });
+
+  window.vote = function(pmid, rating, el) {
+    if (voted[pmid]) return;
+
+    // Get uid from token or anonymous
+    var uid = 'web_anon';
+    var t = new URLSearchParams(window.location.search).get('t');
+    if (t) uid = 'web_' + t.substring(0, 8);
+
+    // JSONP call
+    var script = document.createElement('script');
+    var cb = 'fb_' + Date.now();
+    window[cb] = function(resp) {
+      if (resp && resp.status === 'ok') {
+        voted[pmid] = rating;
+        localStorage.setItem('digest_voted', JSON.stringify(voted));
+
+        var btns = document.querySelectorAll('[data-pmid="' + pmid + '"]');
+        btns.forEach(function(btn) {
+          btn.style.opacity = '0.4';
+          btn.style.pointerEvents = 'none';
+        });
+        el.style.opacity = '1';
+        el.style.background = '#1B6B93';
+        el.style.color = '#fff';
+
+        // Update vote count
+        var cntEl = document.getElementById('cnt-' + pmid + '-' + rating);
+        if (cntEl) {
+          var n = parseInt(cntEl.textContent || '0') + 1;
+          cntEl.textContent = n;
+          cntEl.style.display = '';
+          cntEl.style.color = '#fff';
+        }
+
+        var label = document.getElementById('voted-' + pmid);
+        if (label) {
+          var labels = {"must_read":"🔥 Must read","useful":"👍 Useful","so_so":"➖ So-so","skip":"👎 Skip"};
+          label.textContent = "Voted: " + (labels[rating] || rating) + " ✓";
+          label.style.display = 'block';
+        }
+      }
+      delete window[cb];
+      script.remove();
+    };
+    script.src = FEEDBACK_URL + '?action=feedback&pmid=' + pmid + '&rating=' + rating +
+      '&uid=' + uid + '&source=web&secret=' + SECRET + '&dept=' + DEPT + '&callback=' + cb;
+    document.body.appendChild(script);
+  };
+})();
+</script>
+<script>
+(function() {
+  var WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwqSMhyfrFydA2i22AuD_RQLv6bxFPG8m-Jp0G__u1vigkmj-SOx6uwrUiwfux7RNTy/exec";
+  var SECRET = "nicu2026review";
+  var DEPT = "newborn";
+  var uploaded = JSON.parse(localStorage.getItem('digest_uploaded') || '{}');
+
+  // Load analysis results on page load
+  function loadAnalysis(pmid) {
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        renderAnalysis(pmid, resp.analysis);
+      }
+    });
+  }
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Restore uploaded state from localStorage
+    Object.keys(uploaded).forEach(function(pmid) {
+      var btn = document.getElementById('upload-btn-' + pmid);
+      if (btn) {
+        btn.textContent = '✓ 已上傳，已分析';
+        btn.disabled = true;
+        btn.style.opacity = '0.5';
+        btn.style.cursor = 'default';
+      }
+      loadAnalysis(pmid);
+    });
+    // Auto-load analysis for articles that already have fulltext analysis
+    document.querySelectorAll('[data-has-analysis]').forEach(function(el) {
+      var pmid = el.getAttribute('data-has-analysis');
+      if (!uploaded[pmid]) {
+        loadAnalysis(pmid);
+      }
+    });
+  });
+
+  // JSONP helper for polling
+  function jsonpGet(url, callback) {
+    var script = document.createElement('script');
+    var cb = 'pdfcb_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5);
+    window[cb] = function(resp) {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback(resp);
+    };
+    script.src = url + '&callback=' + cb;
+    script.onerror = function() {
+      delete window[cb];
+      document.head.removeChild(script);
+      callback({ status: 'error', message: 'Network error' });
+    };
+    document.head.appendChild(script);
+  }
+
+  // Poll for analysis result via JSONP GET
+  var POLL_TOTAL = 30;
+  var POLL_STEPS = [
+    '📤 PDF 已上傳，伺服器接收中...',
+    '📄 正在提取 PDF 全文...',
+    '📄 正在提取 PDF 全文...',
+    '🔍 全文提取中，準備進行 AI 分析...',
+    '🔍 全文提取完成，啟動 AI 分析...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 Sonnet 正在深度分析全文...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，解讀方法學與結果...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 分析進行中，評估臨床影響...',
+    '🤖 AI 正在整合分析結果...',
+    '🤖 AI 正在整合分析結果...',
+    '💾 正在儲存分析結果...',
+    '💾 正在儲存分析結果...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 處理時間較長，請稍候...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，再等一下...',
+    '⏳ 仍在處理中，請耐心等候...',
+    '⏳ 仍在處理中，請耐心等候...',
+    '⏳ 大型 PDF 需要較長處理時間...',
+    '⏳ 大型 PDF 需要較長處理時間...',
+    '⏳ 即將完成，感謝您的耐心...',
+    '⏳ 即將完成，感謝您的耐心...',
+    '⏳ 即將完成...',
+    '⏳ 即將完成...',
+    '⏳ 最後處理中...',
+    '⏳ 最後處理中...',
+    '⏳ 最後處理中...'
+  ];
+
+  function pollForResult(pmid, btn, statusEl, attempts) {
+    if (attempts <= 0) {
+      btn.textContent = '❌ 分析逾時';
+      btn.disabled = false;
+      statusEl.textContent = '伺服器處理時間過長，請稍後再試';
+      statusEl.style.color = '#E24B4A';
+      var orig = document.getElementById('original-analysis-' + pmid);
+      if (orig) orig.style.display = '';
+      return;
+    }
+
+    // Update progress message
+    var stepIdx = POLL_TOTAL - attempts;
+    var elapsed = (stepIdx + 1) * 10 + 15;
+    var msg = POLL_STEPS[Math.min(stepIdx, POLL_STEPS.length - 1)];
+    statusEl.textContent = msg + '（' + elapsed + '秒）';
+
+    var url = WEBHOOK_URL + '?action=check_pdf&pmid=' + pmid + '&secret=' + encodeURIComponent(SECRET) + '&dept=' + DEPT;
+    jsonpGet(url, function(resp) {
+      if (resp.status === 'ok' && resp.analysis) {
+        btn.textContent = '✓ 已有全文分析';
+        btn.style.color = '#085041';
+        btn.style.borderColor = '#085041';
+        statusEl.textContent = resp.cached ? '（已有分析結果）' : '🆕 分析完成！';
+        statusEl.style.color = '#085041';
+        uploaded[pmid] = true;
+        localStorage.setItem('digest_uploaded', JSON.stringify(uploaded));
+        var orig = document.getElementById('original-analysis-' + pmid);
+        if (orig) orig.style.display = 'none';
+        renderAnalysis(pmid, resp.analysis);
+      } else if (resp.status === 'pending') {
+        setTimeout(function() { pollForResult(pmid, btn, statusEl, attempts - 1); }, 10000);
+      } else {
+        btn.textContent = '❌ 分析失敗';
+        btn.disabled = false;
+        statusEl.textContent = resp.message || '請稍後再試';
+        statusEl.style.color = '#E24B4A';
+        var orig = document.getElementById('original-analysis-' + pmid);
+        if (orig) orig.style.display = '';
+      }
+    });
+  }
+
+  window.handlePdfSelect = function(pmid, title, input, force) {
+    var file = input.files[0];
+    if (!file) return;
+    if (file.size > 10 * 1024 * 1024) {
+      alert('PDF 檔案不能超過 10MB');
+      return;
+    }
+
+    if (force && !confirm('確定要重新上傳並分析此 PDF？將會覆蓋現有的分析結果。')) {
+      input.value = '';
+      return;
+    }
+
+    var btn = document.getElementById('upload-btn-' + pmid);
+    var statusEl = document.getElementById('upload-status-' + pmid);
+    btn.textContent = '⏳ 上傳中...';
+    btn.disabled = true;
+    statusEl.textContent = '📤 正在上傳 PDF 至伺服器...';
+    statusEl.style.display = 'inline';
+    statusEl.style.color = '#1B6B93';
+
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var base64 = e.target.result.split(',')[1];
+
+      // Step 1: Submit via fetch + URLSearchParams (no-cors, response ignored — polling handles result)
+      fetch(WEBHOOK_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: new URLSearchParams({
+          action: 'upload_pdf',
+          pmid: pmid,
+          title: title,
+          pdf_base64: base64,
+          secret: SECRET,
+          dept: DEPT,
+          force: force ? 'true' : 'false'
+        })
+      }).catch(function() {});
+
+      // Step 2: Poll for result via JSONP (every 10s, up to POLL_TOTAL attempts)
+      setTimeout(function() { pollForResult(pmid, btn, statusEl, POLL_TOTAL); }, 15000);
+    };
+    reader.readAsDataURL(file);
+  };
+
+  window.renderAnalysis = function(pmid, data) {
+    var container = document.getElementById('analysis-result-' + pmid);
+    if (!container) return;
+
+    var a = data.deep_analysis || data;
+    var html = '';
+
+    if (a.thirty_second_summary) {
+      html += '<div class="section"><b>30 秒重點：</b>' + a.thirty_second_summary + '</div>';
+    }
+
+    var hidden = a.hidden_findings || [];
+    if (hidden.length > 0) {
+      html += '<div class="section"><div class="section-label" style="color:#712B13">Abstract 沒告訴你的事</div>';
+      for (var i = 0; i < hidden.length; i++) {
+        html += '<p><b>' + (hidden[i].finding || '') + '</b> ' + (hidden[i].source || '') + '。' + (hidden[i].implication || '') + '</p>';
+      }
+      html += '</div>';
+    }
+
+    var meth = a.methodology_audit || {};
+    var methHtml = '';
+    (meth.strengths || []).forEach(function(s) { methHtml += '<div class="hl hl-green"><b>Strong：</b>' + s + '</div>'; });
+    (meth.notes || []).forEach(function(n) { methHtml += '<div class="hl hl-amber"><b>Note：</b>' + n + '</div>'; });
+    (meth.weaknesses || []).forEach(function(w) { methHtml += '<div class="hl hl-red"><b>Weak：</b>' + w + '</div>'; });
+    if (methHtml) {
+      html += '<div class="section"><div class="section-label" style="color:#633806">方法學評估</div>' + methHtml + '</div>';
+    }
+
+    var impact = a.protocol_impact || {};
+    if (impact.proposed_change) {
+      var impactHtml = '<div class="hl hl-blue">';
+      if (impact.current_practice) impactHtml += '<b>目前做法：</b>' + impact.current_practice + '<br>';
+      if (impact.proposed_change) impactHtml += '<b>建議調整：</b>' + impact.proposed_change + '<br>';
+      if (impact.missing_evidence) impactHtml += '<b>等待的證據：</b>' + impact.missing_evidence;
+      impactHtml += '</div>';
+      html += '<div class="section"><div class="section-label" style="color:#085041">對我們科的具體影響</div>' + impactHtml + '</div>';
+    }
+
+    container.innerHTML = html;
+  };
+})();
+</script>
+</body>
+</html>
