@@ -20112,5 +20112,336 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42032166",
+    "title": "The role of early administration of erythropoiesis-stimulating agents in preterm neonatal neuroprotection: a systematic review and meta-analysis.",
+    "authors": "Argyropoulou M, Fotopoulou E, Kousi D, et al.",
+    "journal": "Journal of Perinatology",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1038/s41372-026-02700-2",
+    "total_score": 5,
+    "scores": {
+      "design": 5,
+      "relevance": 5,
+      "novelty": 4,
+      "generalizability": 5
+    },
+    "keywords": [
+      "ESA",
+      "neuroprotection",
+      "preterm",
+      "cerebral palsy",
+      "cognitive outcome"
+    ],
+    "one_liner": "這篇統合分析顯示早期給予ESAs可能對早產兒的認知發展和腦性麻痺有潛在保護作用，但仍需更多研究確認其臨床應用價值。",
+    "summary": {
+      "purpose": "本研究旨在評估對早產兒（胎齡 <37 週）早期預防性給予erythropoiesis-stimulating agents (ESAs) 是否能改善其至36個月大的神經發育預後。",
+      "design": "這是一項系統性回顧與統合分析，共納入10篇研究（其中8篇為RCTs，2篇為回溯性世代研究），涵蓋2861名早產兒。統合分析僅限於報告Bayley Scales of Infant Development分數或腦性麻痺診斷的RCTs。",
+      "findings": "統合分析結果顯示，ESA治療組的早產兒發生不良認知預後（OR: 0.55; 95% CI: 0.35-0.85）及腦性麻痺（OR: 0.66; 95% CI: 0.45-0.97）的機率較低。然而，敏感性分析指出這些統合估計值可能存在潛在的脆弱性。",
+      "significance": "本研究結果提示，早期給予ESAs可能對早產兒的神經發育，特別是認知功能和腦性麻痺的發生率，具有潛在的保護作用。儘管如此，由於敏感性分析顯示結果可能不夠穩健，目前尚不足以改變NICU的常規照護，仍需更多標準化且長期追蹤的研究來進一步確認其臨床效益和安全性。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這篇統合分析指出，對早產兒早期給予 ESA 可能降低不良認知預後 (OR 0.55) 和腦性麻痺 (OR 0.66) 的風險。然而，作者自己也承認，敏感性分析顯示這個結果可能不夠穩健 (potentially fragile)。考量到這點，以及與先前大型高品質 RCT (PENUT trial) 的結果相左，目前這項發現尚不足以改變我們的臨床常規。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 將所有胎齡 <37 週的早產兒混為一談，但 ESA 的神經保護效果極可能因 GA/BW 而異。例如，對 ELBW (<1000g) 嬰兒的效果可能與中度或晚期早產兒完全不同。Abstract 未提供任何亞群分析，使得結果的適用性不明。",
+          "source": "推斷自 Abstract 的納入標準 (preterm neonates < 37 weeks' gestation) 及結果呈現方式。",
+          "implication": "如果效益僅限於特定高風險族群（如 <28 週），全面性地推薦給所有早產兒可能是不恰當的。閱讀全文時，必須尋找依 GA 或 BW 分層的 forest plot。"
+        },
+        {
+          "finding": "Abstract 僅模糊地提到「早期給予 (early administration)」，但未定義明確的時間窗。是指出生後 6 小時、24 小時還是 72 小時內？給藥時機對於預防急性腦損傷（如 IVH 或 HIE 相關損傷）至關重要。",
+          "source": "推斷自 Abstract 的 OBJECTIVE 和 CONCLUSION 中缺乏具體時間定義。",
+          "implication": "若要將此療法納入 protocol，必須有明確的給藥時間窗。這是決定臨床可行性與成效的關鍵細節，也是閱讀全文時的重點。"
+        },
+        {
+          "finding": "研究使用「Bayley Scales of Infant Development scores」作為認知結果的評估工具，但未指明是哪一版 (e.g., BSID-II, Bayley-III, Bayley-4)。不同版本的量表分數無法直接比較，若統合分析時未經適當轉換或校正，會嚴重影響結果的信度。",
+          "source": "推斷自 Abstract STUDY DESIGN 段落的通用術語。",
+          "implication": "統合分析的結論是否可靠，取決於作者如何處理不同評估工具版本的數據異質性。這是評估其方法學嚴謹度的重要指標。"
+        },
+        {
+          "finding": "追蹤時間點為「至 36 個月大 (up to 36 months of age)」，這是一個範圍而非單一時間點。Abstract 未提供各研究實際的追蹤率 (follow-up rate) 和中位追蹤時間。高失訪率或追蹤時間過短都會削弱結論的強度。",
+          "source": "推斷自 Abstract OBJECTIVE 段落的描述。",
+          "implication": "神經發育預後的評估非常依賴長期且完整的追蹤。我們需要知道這篇統合分析納入的研究追蹤品質如何，才能判斷其結論的可信度。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "遵循系統性回顧與統合分析的標準流程，檢索了多個主要醫學資料庫。",
+          "統合分析的對象僅限於 RCTs，這是較為嚴謹的做法。",
+          "報告了出版偏誤的評估結果 (no evidence of publication bias)。"
+        ],
+        "notes": [
+          "最重要的警訊是 Abstract 自述「Sensitivity analyses indicated potential fragility of pooled estimates」，這意味著只要排除一兩個特定研究，統計顯著性就可能消失，結論非常不穩固。",
+          "納入的研究追蹤到 36 個月，這比許多僅追蹤到 18-24 個月的研究要長，是個優點，但需視實際的追蹤完整度而定。",
+          "認知評估工具 Bayley Scales 版本不明，是潛在的異質性來源。"
+        ],
+        "weaknesses": [
+          "最大的弱點是納入族群的異質性過高 (<37 weeks GA)，這會掩蓋特定亞群的真實效應或無效性。",
+          "Abstract 未提及 ESA 的具體劑量、藥物種類 (epoetin vs. darbepoetin) 及治療時程，這些變因都會影響結果。",
+          "未提及對納入的 RCTs 進行偏誤風險評估 (Risk of Bias assessment) 的結果，無法判斷原始研究的品質。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Juul SE et al. (PENUT Trial), 2020, NEJM",
+            "comparison": "PENUT 是一個大型 (n=941)、高品質、多中心的 RCT，專門針對極度早產兒 (<28 weeks GA)。其結果顯示，高劑量 Epo 並未降低 2 歲時死亡或嚴重神經發育障礙的複合性風險。本篇統合分析的結論與 PENUT trial 的主要發現直接衝突。"
+          },
+          {
+            "citation": "Aher SM et al., 2012, Cochrane Database of Systematic Reviews",
+            "comparison": "這是 PENUT trial 之前的重要 Cochrane review，當時結論是 Epo 對於降低死亡或神經發育障礙沒有顯著效果，但指出需要更大規模的研究。本篇統合分析納入了更多後續研究，但得出了更正向的結論，這使得與 PENUT 的矛盾更加突出。"
+          }
+        ],
+        "guideline_status": "目前不論是美國兒科學會 (AAP) 或歐洲新生兒相關學會，皆未建議常規使用 ESA 於早產兒神經保護。其主要適應症仍是治療早產兒貧血，且使用上仍有爭議。台灣新生兒科醫學會亦無此項建議。",
+        "evidence_gap_filled": "本研究試圖在 PENUT trial 提出陰性結果後，重新整合所有現有證據。它提出的「潛在效益」讓這個議題沒有完全被定論，或許暗示了在 PENUT 未涵蓋的族群（如 28-36 週早產兒）或使用不同治療方案時，可能存在療效，但這個缺口需要更直接的證據來填補。",
+        "ongoing_trials": "在 PENUT trial 公布結果後，針對 ESA 用於神經保護的大型 RCT 熱度已顯著下降。目前沒有已知的大型、決定性的臨床試驗正在進行中，未來短期內可能不會有新的 Level 1 證據出現。"
+      },
+      "protocol_impact": {
+        "current_practice": "根據本科工作手冊，在【Neurology / Intraventricular hemorrhage (IVH)】章節中，提到了使用 indomethacin 進行預防，但並未提及任何使用 ESA 進行神經保護的策略。因此，「目前工作手冊中無相關 protocol」。Erythropoietin (Epo) 或其他 ESAs 在本科並未常規用於神經保護目的，其使用僅限於治療經嚴格評估的早產兒貧血。",
+        "proposed_change": "基於本篇統合分析結果的脆弱性 (potential fragility)、與大型高品質 PENUT trial 結果的顯著矛盾，以及缺乏具體亞群、劑量和給藥時機的證據，**建議維持現行做法，不應採納早期 ESA 作為常規神經保護策略。**",
+        "prerequisites": [
+          "若未來要考慮此療法，必須等待能解釋與 PENUT trial 矛盾之處的新證據。",
+          "需要有針對特定 GA/BW 亞群（例如 PENUT 未涵蓋的 28-34 週早產兒）的高品質 RCT 證明其效益。",
+          "必須釐清有效的藥物劑量、種類 (Epo vs. Darbepoetin) 與關鍵的給藥時間窗。",
+          "需要舉辦科內讀書會，深入討論正反兩方（如本研究 vs. PENUT trial）的證據，形成共識。"
+        ],
+        "missing_evidence": "目前最缺乏的是一份能夠證實此療效、且方法學穩健、足以改變臨床實踐的大型 RCT。此外，關於 ESA 對早產兒其他重要併發症（如 ROP, NEC, BPD）的長期安全性數據，以及對學齡期認知功能和行為的影響，也都是改變 protocol 前必須具備的關鍵證據。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-26"
+  },
+  {
+    "pmid": "42031291",
+    "title": "The Effect of Preterm Birth on Physical Activity for 9-12-Year-Old Children.",
+    "authors": "Cameron KL, Du Berry C, Angel M, et al.",
+    "journal": "The Journal of Pediatrics",
+    "pub_date": "2026 Apr 22",
+    "doi": "10.1016/j.jpeds.2026.115115",
+    "total_score": 4,
+    "scores": {
+      "design": 4,
+      "relevance": 4,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Preterm birth",
+      "physical activity",
+      "sedentary behavior",
+      "long-term follow-up",
+      "school-aged children"
+    ],
+    "one_liner": "新生兒科醫師應注意：早產兒在學齡期有較高的靜態行為和螢幕時間，且普遍身體活動不足，提示需早期介入以促進長期健康。",
+    "summary": {
+      "purpose": "旨在探討早產對9-12歲兒童身體活動的影響，並描述早產兒與足月兒在身體活動與肺功能及呼吸道疾病相關性上的組間差異。",
+      "design": "該研究為一項前瞻性世代追蹤研究，追蹤了343名兒童，包括極度早產兒 (VPT; <30週, n=91)、中度至晚期早產兒 (MLPT; 32-36週, n=139) 及足月兒 (n=117)。身體活動透過7天加速規和兒童身體活動問卷 (PAQ-C) 測量。原始招募樣本為551名參與者。",
+      "findings": "極度早產兒 (VPT) 比足月兒有更多的靜態時間 (MD: 32分鐘, 95% CI 4, 60; p=0.024) 和螢幕時間 (MD: 25分鐘, 95% CI 0.2, 50; p=0.048)，且PAQ-C分數較低 (MD: -0.3, 95% CI -0.4, -0.1; p=0.001)。中度至晚期早產兒 (MLPT) 比足月兒有更多的螢幕時間 (MD: 22分鐘, 95% CI 1, 43; p=0.038)。所有參與者均未能達到中等至劇烈身體活動的建議量 (≥60分鐘/天)，平均僅16.6分鐘。",
+      "significance": "這項研究強調早產兒，特別是極度早產兒，在學齡期有更高的靜態行為和螢幕時間，且普遍未能達到建議的身體活動量。這提示我們應優先考慮早期、有針對性的策略，以減少早產兒的靜態行為並促進身體活動，這對於其長期健康發展至關重要。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-26"
+  },
+  {
+    "pmid": "42032194",
+    "title": "Using quality improvement to optimize neonatal transport team process metrics for critical transfers.",
+    "authors": "Mannan J, Simoncini L, Allcroft TJ, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1038/s41390-026-04966-w",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 5,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "neonatal transport",
+      "quality improvement",
+      "process metrics",
+      "vital signs",
+      "external stressors"
+    ],
+    "one_liner": "這篇長期 QI 研究顯示，儘管內部介入能改善新生兒轉運文件記錄，但轉運時效性仍易受外部系統壓力影響，提醒我們在追求效率時需考量系統韌性。",
+    "summary": {
+      "purpose": "本品質改善 (QI) 專案旨在識別影響新生兒轉運動員時間 (MT) 的可修改因素，並提升轉運效率與病人安全，目標是達成 MT < 30 分鐘、救護車出發時間 (ADT) < 10 分鐘，以及轉運期間生命徵象記錄完整性均達到 ≥75% 的合規率。",
+      "design": "此為一單中心品質改善專案，於 Level III 新生兒加護病房 (NICU) 進行，時間自 2018 年 1 月至 2024 年 8 月。研究採用迭代式 Plan-Do-Study-Act (PDSA) 循環，並以 Systems Engineering Initiative for Patient Safety (SEIPS) 框架為指導，共分析 470 例新生兒轉運。",
+      "findings": "統計過程控制 (SPC) 顯示，MT 和 ADT 呈現共同原因變異 (common cause variation)，未見持續性改善，且其表現受外部系統壓力影響。相較之下，完整的生命徵象文件記錄則呈現特殊原因變異 (special cause variation)，自 2020 年 3-4 月起有持續性改善，儘管後期合規性有所下降，但整體而言在專案期間仍有提升。",
+      "significance": "品質改善介入措施能有效提升新生兒轉運過程中生命徵象記錄的可靠性，但未能持續性縮短轉運動員時間或救護車出發時間。這項發現凸顯了外部系統壓力對轉運效率的關鍵影響，並強調新生兒轉運系統需要持續教育、迭代改進以及適應外部壓力的彈性與韌性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-26"
+  },
+  {
+    "pmid": "42032191",
+    "title": "Stretch, Piezo channels, and store operated calcium entry in developing human airway smooth muscle.",
+    "authors": "Pfeffer-Kleemann DA, Thompson MA, Borkar NA, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1038/s41390-026-05006-3",
+    "total_score": 3,
+    "scores": {
+      "design": 2,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 2
+    },
+    "keywords": [
+      "CPAP",
+      "airway development",
+      "Piezo channels",
+      "calcium signaling",
+      "prematurity"
+    ],
+    "one_liner": "這是一篇基礎研究，解釋 CPAP 造成的氣道牽張如何透過細胞層次機制影響早產兒氣道發育，對於臨床實務尚無直接影響。",
+    "summary": {
+      "purpose": "本研究旨在探討機械敏感性 Piezo (PZ) 頻道與儲存操作鈣離子進入 (SOCE) 微區間的相互作用，是否在牽張下促進人類胎兒氣道平滑肌細胞 (fASM) 內鈣離子增加，進而提高收縮性。",
+      "design": "此為體外實驗 (in vitro study)，使用人類胎兒氣道平滑肌細胞 (fASM)，透過蛋白質表現及鈣離子影像研究，模擬靜態牽張疊加於節律性牽張的影響，並使用 PZ 拮抗劑進行驗證。",
+      "findings": "研究發現牽張導致 fASM 中 Orai1 頻道和 caveolin-1 表現增加，並伴隨 β-catenin 核轉位。這些牽張誘導的變化經證實由 PZ 頻道介導，且 PZ 拮抗劑可抑制 SOCE 功能。",
+      "significance": "本研究揭示 CPAP 引起的牽張可能透過活化 PZ 頻道及 SOCE 途徑，影響早產兒氣道平滑肌細胞的鈣離子調節及結構功能變化。這為理解 CPAP 對早產兒氣道發育的潛在影響提供了細胞層次的機制基礎，有助於未來開發更精準的呼吸支持策略。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-26"
+  },
+  {
+    "pmid": "42032190",
+    "title": "Refugee children and inherited metabolic disorders: lessons from Türkiye and global implications.",
+    "authors": "Yoldaş Çelik M, Köşeci B",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1038/s41390-026-04928-2",
+    "total_score": 3,
+    "scores": {
+      "design": 3,
+      "relevance": 3,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "IMDs",
+      "refugee children",
+      "newborn screening",
+      "consanguinity",
+      "diagnostic delay"
+    ],
+    "one_liner": "對於照護來自高近親通婚率族群的難民新生兒，這篇研究提醒我們IMDs的風險較高，且診斷常有延遲，應重視新生兒篩檢與跨文化照護。",
+    "summary": {
+      "purpose": "本研究旨在評估土耳其敘利亞難民兒童中遺傳性代謝疾病（IMDs）的負擔，並探討其診斷與醫療照護的可近性障礙。",
+      "design": "這是一項結合系統性文獻回顧與回溯性病例系列的研究。研究分析了2023年6月至2024年1月期間，在土耳其阿達納一家兒科代謝門診中，3095名受評估兒童中，303名敘利亞難民兒童的臨床與診斷數據。",
+      "findings": "在303名敘利亞兒童中，有27名（8.9%）被診斷出IMDs。其中92.6%的病例存在近親通婚史。診斷延遲中位數為8個月。常見臨床特徵包括發展遲緩與癲癇。最常見的診斷涉及胺基酸和碳水化合物代謝障礙。普遍存在的系統性障礙包括有限的新生兒篩檢、語言隔閡及不良的後續追蹤。",
+      "significance": "該研究強調難民兒童中IMDs的負擔過重，並指出診斷延遲和醫療照護障礙的普遍性。對於新生兒科醫師而言，這提醒我們在照護來自高近親通婚率族群的嬰兒時，應提高對IMDs的警覺性，並考量新生兒篩檢策略的擴展，尤其是在有語言或文化障礙的家庭中，需加強衛教與追蹤。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-26"
+  },
+  {
+    "pmid": "42032814",
+    "title": "Predicting Mortality in Tanzanian Children With Sepsis Using Point-of-Care Biomarkers.",
+    "authors": "Sorensen AM, Mussa RY, Oltman SP, et al.",
+    "journal": "Pediatrics",
+    "pub_date": "2026 Apr 25",
+    "doi": "10.1542/peds.2026-076344",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 3,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Sepsis",
+      "mortality",
+      "biomarkers",
+      "pediatrics",
+      "resource-limited settings"
+    ],
+    "one_liner": "這篇研究探討坦尚尼亞敗血症兒童（28天至14歲）的死亡率預測模型，對新生兒科的直接臨床應用有限。",
+    "summary": {
+      "purpose": "本研究旨在評估點照護 (POC) 生物標記和臨床特徵在坦尚尼亞敗血症兒童中預測住院死亡率的表現。",
+      "design": "這是一項前瞻性觀察性世代研究，收納坦尚尼亞 Muhimbili 國家醫院的敗血症兒童（28天至14歲），共755名參與者。研究評估了 POC 生物標記（procalcitonin, C-reactive protein, ferritin, lactate）和臨床特徵與死亡率的關聯。",
+      "findings": "研究結果顯示，19.6% (n=148) 的參與者在住院期間死亡。procalcitonin 和測試的臨床特徵與死亡率顯著相關 (p<0.001)。一個結合 procalcitonin、營養不良、呼吸困難和意識改變的多變項模型，對死亡率的預測能力強 (AUC 0.87, 95% CI 0.84-0.90)，優於單獨的生物標記或臨床特徵。",
+      "significance": "此研究提出結合 POC 生物標記和易於測量的臨床特徵的模型，能有效預測坦尚尼亞敗血症兒童的死亡率。這有助於在資源有限的環境中及時進行風險分層，並指導有針對性的干預措施，以改善兒童敗血症預後。然而，由於研究對象為28天至14歲兒童，與新生兒科的直接臨床應用有限。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-26"
+  },
+  {
+    "pmid": "42032875",
+    "title": "Implications of the Tongue's Anatomy and Biomechanics for Breastfeeding.",
+    "authors": "Guóth-Gumberger M, Zoeggeler T, Bachmann M, et al.",
+    "journal": "Acta Paediatrica",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1111/apa.70555",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 2
+    },
+    "keywords": [
+      "Breastfeeding",
+      "Tongue anatomy",
+      "Biomechanics",
+      "Neonatal development",
+      "Sucking"
+    ],
+    "one_liner": "這篇文章從解剖學和生物力學角度，為新生兒母乳哺育的現有建議提供了堅實的生理學基礎，值得新生兒科醫師參考以加強衛教。",
+    "summary": {
+      "purpose": "該研究旨在探討人類舌頭的解剖構造與生物力學，並從中得出對母乳哺育的結論，以支持健康的發育。",
+      "design": "這是一篇文獻回顧與綜合性分析，結合了人類與動物舌頭解剖學及生理學的文獻搜尋，並分析研究者自身的視覺材料。由於缺乏母乳哺育期間舌頭解剖學/生理學的直接數據，研究者將其他研究領域的資料進行轉化應用。研究中未提及特定的GA範圍、出生體重或樣本數，因其非臨床研究。",
+      "findings": "舌頭作為一個肌肉靜水壓器官，能產生多種形狀，涉及不同肌肉纖維的協同收縮與放鬆，並需要卓越的神經控制。研究從舌頭的解剖與功能中，為保護和支持母乳哺育以及生理性舌頭靜止位置提出了明確的結論。",
+      "significance": "這篇文章從解剖學和生物力學的角度，再次確認了現有的母乳哺育建議，例如在輕鬆環境下頻繁哺餵、俯臥姿勢、避免人工奶嘴以及支持睡眠時鼻呼吸（「吸吮至上顎」）。對於新生兒科醫師而言，這提供了支持母乳哺育實踐的生理學基礎，有助於向家長解釋母乳哺育的重要性及正確姿勢，但並未改變現有的臨床照護決策或指引。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-26"
+  },
+  {
+    "pmid": "42032187",
+    "title": "Gorm Greisen and the transformation of our understanding of newborn brain physiology: a tribute on the occasion of his retirement, on behalf of the ESPR NIRS Special Interest Group.",
+    "authors": "Kooi EMW, Pellicer A, Mitra S",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1038/s41390-026-05017-0",
+    "total_score": 2,
+    "scores": {
+      "design": 1,
+      "relevance": 3,
+      "novelty": 2,
+      "generalizability": 1
+    },
+    "keywords": [
+      "NIRS",
+      "newborn brain",
+      "cerebral monitoring",
+      "preterm infant",
+      "neurodevelopment"
+    ],
+    "one_liner": "這是一篇向新生兒腦部生理學巨擘 Gorm Greisen 教授致敬的文章，回顧他對 NIRS 應用及新生兒腦部照護的開創性貢獻，對於理解新生兒腦部監測的基礎知識很有幫助。",
+    "summary": {
+      "purpose": "旨在表彰 Gorm Greisen 教授在新生兒腦部生理學及照護領域的深遠影響，特別是其在近紅外光譜儀 (NIRS) 應用上的貢獻。",
+      "design": "這是一篇致敬文 (INSIGHT contribution)，回顧並總結 Greisen 教授超過四十年的學術成就與對新生兒腦部生理學研究的影響。本文並非原創研究，因此無特定研究設計、GA 範圍、出生體重或樣本數。",
+      "findings": "Greisen 教授透過方法學創新與嚴謹的生理學探究，確立了非侵入性腦部監測 (NIRS) 作為科學上可靠的臨床工具，並闡明了早產兒及足月兒腦部自動調節能力及氧代謝平衡的極限。他也在國際合作研究中扮演關鍵角色，協助建立新生兒生理學試驗的標準。",
+      "significance": "本文強調了 NIRS 在新生兒腦部監測的重要性，以及理解新生兒腦部血液動力學和代謝平衡對臨床照護決策的基礎作用。對於新生兒科醫師而言，這提醒我們持續關注腦部保護策略及監測工具的發展，並認識到嚴謹研究方法的重要性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-26"
   }
 ]

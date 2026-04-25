@@ -10132,5 +10132,215 @@
     "is_oa": false,
     "oa_url": "",
     "processed_date": "2026-04-25"
+  },
+  {
+    "pmid": "42031156",
+    "title": "The Society of Thoracic Surgeons/ World Society for Pediatric and Congenital Heart Surgery/ European Congenital Heart Surgeons Association 2026 Clinical Practice Guidelines on Indications and Timing of Pulmonary Valve Replacement in Repaired Tetralogy of Fallot.",
+    "authors": "Nelson JS, Lu JC, Ashfaq A, et al.",
+    "journal": "Annals of Thoracic Surgery",
+    "pub_date": "2026 Apr 22",
+    "doi": "10.1016/j.athoracsur.2026.04.011",
+    "total_score": 4,
+    "scores": {
+      "design": 5,
+      "relevance": 1,
+      "novelty": 4,
+      "generalizability": 5
+    },
+    "keywords": [
+      "Tetralogy of Fallot",
+      "Pulmonary Valve Replacement",
+      "Clinical Practice Guidelines",
+      "Congenital Heart Disease"
+    ],
+    "one_liner": "新生兒科醫師可以跳過這篇，因為它主要針對已修補法洛氏四合症的兒童及成人病患，討論肺動脈瓣置換術的適應症與時機，與新生兒照護無直接關聯。",
+    "summary": {
+      "purpose": "本指引旨在整合最新證據，為已修補法洛氏四合症（Tetralogy of Fallot）病患的肺動脈瓣置換術（Pulmonary Valve Replacement, PVR）提供適應症與時機的臨床實踐建議。",
+      "design": "這是一份由胸腔外科醫師學會、世界小兒與先天性心臟外科醫學會、歐洲先天性心臟外科醫學會共同發布的2026年臨床實踐指引，為三部曲系列的第一部分，針對已修補法洛氏四合症的兒童與成人病患。",
+      "findings": "新指引納入過去五年內關於進階影像、電生理檢查、運動測試及經導管PVR的最新證據。相較於現有指引，本次更新強調症狀（兒童與成人）、心室容積（成人），以及PVR前進行侵入性電生理檢查的必要性（成人）。",
+      "significance": "此指引更新了已修補法洛氏四合症病患PVR的決策流程，整合了新技術與評估標準，並強調多專科團隊評估、治療規劃及長期追蹤的重要性。然而，由於其主要針對已修補法洛氏四合症的兒童及成人病患，與新生兒科的日常照護無直接相關性。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "各位同仁，這是一份針對『已修復』法洛氏四合症 (TOF) 患者，何時該接受肺動脈瓣置換 (PVR) 的最新指引。重點是，這份指引完全不適用於我們新生兒科的日常業務，因為它處理的是初次手術後數年甚至數十年的長期問題。它強調了對『兒童與成人』症狀、心室容積和電生理檢查的重視。對我們 NICU 而言，最大的價值在於更新我們對 TOF 寶寶長期預後的認知，以便能更準確地為家長進行衛教諮詢。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 未定義『兒童』的年齡範圍。指引中對兒童 PVR 的建議是基於症狀，但這些『症狀』究竟是像我們在嬰兒期看到的餵食困難、體重不增，還是指學齡兒童的運動不耐受？這點至關重要。",
+          "source": "需查閱全文中的『Methods』或『Recommendations for Children』章節，尋找具體的納入標準和症狀定義。",
+          "implication": "如果指引將 PVR 的適應症擴展到更年幼、症狀更輕微的嬰幼兒，這將改變我們對 TOF 寶寶出院後追蹤的重點，以及與家長溝通的長期照護計畫。"
+        },
+        {
+          "finding": "Abstract 提到成人 PVR 的決策依據包含『心室容積』，但未說明兒童是否適用同樣的影像學標準。兒童的心臟重塑能力與成人不同，直接套用成人標準可能不恰當。",
+          "source": "需在全文中尋找是否有專門針對兒童的 MRI 或 Echo 定量標準 (quantitative criteria)，以及支持這些標準的證據等級。",
+          "implication": "這決定了我們的小兒心臟科同事會如何追蹤我們送出去的 TOF 寶寶。了解他們是否會更積極地使用心臟 MRI 來評估 RV 功能，有助於我們理解整個治療藍圖。"
+        },
+        {
+          "finding": "指引強調了經導管肺動脈瓣置換 (transcatheter PVR)，但 Abstract 未說明這項技術對不同年齡層兒童的適用性、限制、以及與傳統外科手術的比較證據。",
+          "source": "全文中關於『Treatment Options』或『Transcatheter vs. Surgical PVR』的段落會提供這些關鍵資訊。",
+          "implication": "雖然這不是 NICU 的決策，但家長常會問到未來的治療選項。了解微創瓣膜置換的進展，能讓我們在回答家長問題時更具體、更與時俱進。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "由三大國際級心臟外科醫學會 (STS, WSPCHS, ECHSA) 共同制定，代表了該領域的全球專家共識，權威性高。",
+          "明確指出整合了過去五年的最新證據，特別是先進影像和經導管治療等快速發展的領域。"
+        ],
+        "notes": [
+          "這是一份 Clinical Practice Guideline，其方法學重點在於證據回顧與推薦等級的系統（例如 GRADE system），而非傳統 RCT 的設計。閱讀全文時需注意其證據評級的嚴謹度。",
+          "由於涉及瓣膜等醫材，需留意作者群與相關廠商的利益衝突 (conflict of interest) 聲明。",
+          "指引分為三大部分，這只是 Part 1。完整的臨床圖像需要結合關於兒童的 Part 2 (Expert Consensus) 和運動測試的 Part 3 (Expert Opinion) 一起解讀。"
+        ],
+        "weaknesses": [
+          "對新生兒科醫師而言，最大的『缺陷』是其適用族群完全錯開 (population mismatch)。研究對象是『repaired TOF』，這已經排除了所有在 NICU 中等待初次手術的 neonates。",
+          "指引的建議可能主要基於觀察性研究和專家意見，而非大型 RCTs，尤其在兒科族群，因為對 PVR 時機進行隨機分派存在倫理和執行上的困難。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "AHA/ACC 2018 Guideline for the Management of Adults With Congenital Heart Disease",
+            "comparison": "舊的指引主要針對成人，且當時經導管 PVR 的證據相對較少。本 2026 指引的關鍵更新在於整合了近五年來快速發展的經導管技術證據，並試圖為兒童提供更明確的建議。"
+          }
+        ],
+        "guideline_status": "這份文件本身就是一份臨床實踐指引，一旦發布，將成為胸腔外科與小兒心臟科領域針對此議題的最新、最權威的參考標準，可能會取代或更新現有各學會的相關建議。",
+        "evidence_gap_filled": "它填補了自 2010 年代末期以來，因影像技術（如 cardiac MRI 4D flow）、電生理學（arrhythmia risk stratification）和經導管瓣膜技術進步所產生的臨床決策真空地帶。",
+        "ongoing_trials": "關於 PVR 時機的大型 RCT 很少。然而，追蹤 surgical PVR vs. transcatheter PVR 長期結果（如死亡率、再介入率、心律不整發生率）的大型國際登錄研究 (large international registries) 正在進行中，這些真實世界數據將是未來指引更新的關鍵。"
+      },
+      "protocol_impact": {
+        "current_practice": "在我們 NICU，對 TOF 新生兒的照護重點是：穩定生命徵象、若為 ductal-dependent 則使用 prostaglandin E1 (PGE1) 維持 PDA 血流、處理 hypercyanotic spells (tet spells)、提供術前優化營養，並與小兒心臟內外科團隊合作，安排初次矯正或分流手術。我們完全不涉及 PVR 的決策。",
+        "proposed_change": "對 NICU 的『臨床常規』(protocol) 沒有任何影響。我們的工作流程、用藥、監測方式完全不變。唯一的改變是『知識更新』：我們在向家長解釋 TOF 的長期病程時，可以更精確地描述未來數十年可能的治療路徑，包括 PVR 的時機和選項，這有助於建立家長的長期心理準備。",
+        "prerequisites": [
+          "不需修改任何 protocol 或準備新藥物。",
+          "建議可將此指引摘要分享給我們的小兒心臟科團隊，並在將來討論複雜 CHD 個案時，將這些長期預後觀點納入共同照護計畫的討論中。"
+        ],
+        "missing_evidence": "從新生兒科的角度來看，我們最關心的問題是：新生兒時期的特定生理狀況或初次手術的選擇（例如 shunt vs. primary repair），是否會影響數十年後 PVR 的時機與結果？這類從出生到成年的超長期世代研究 (birth-to-adulthood cohort studies) 的證據仍然非常缺乏。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-26"
+  },
+  {
+    "pmid": "42032188",
+    "title": "Perioperative biventricular function in congenital diaphragmatic hernia: a three-dimensional echocardiographic study.",
+    "authors": "Toyoshima K, Saito T, Katsumata K, et al.",
+    "journal": "Pediatric Research",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1038/s41390-026-04970-0",
+    "total_score": 4,
+    "scores": {
+      "design": 3,
+      "relevance": 4,
+      "novelty": 4,
+      "generalizability": 3
+    },
+    "keywords": [
+      "CDH",
+      "cardiac function",
+      "echocardiography",
+      "perioperative",
+      "neonate"
+    ],
+    "one_liner": "這篇研究首次利用3D心臟超音波詳細描繪CDH嬰兒圍手術期雙心室功能動態變化，有助於理解其心臟適應機制並可能影響未來的照護策略。",
+    "summary": {
+      "purpose": "本研究旨在利用三維心臟超音波，首次系列性評估先天性橫膈膜疝氣（CDH）嬰兒從出生到圍手術期的雙心室功能適應變化。",
+      "design": "這是一項單中心回溯性研究，納入49名於2017至2024年間接受CDH手術的嬰兒。研究團隊使用3D心臟超音波，在出生1-3天、術前、術後<18小時及術後24-72小時測量左心室（LV）和右心室（RV）的舒張末期容積（LVEDV, RVEDV）、射出分率（EF）及心輸出量。",
+      "findings": "在術前階段，右心室收縮功能及右心室-肺動脈耦合度有所改善（RVEF從37.5%增至45.5%；P<0.001）。LVEDV/RVEDV比值從出生1天的0.65±0.18增加至術前的0.74±0.24（P=0.001）。術後24-72小時，雙心室的舒張末期容積及搏出量相較於術前均有增加（LVEDV從1.32增至1.51 mL/kg, P=0.008；RVEDV從1.82增至2.07 mL/kg, P=0.013），顯示心室充盈增強。",
+      "significance": "本研究首次利用3D心臟超音波詳細追蹤CDH嬰兒圍手術期雙心室功能的動態變化，提供了對心臟適應機制的深入生理學見解。這些發現有助於我們更精確地理解CDH病患的心臟病理生理學，並可能為未來優化圍手術期心臟管理策略提供寶貴依據。"
+    },
+    "deep_analysis": {
+      "thirty_second_summary": "這是一篇利用 3D 心臟超音波，首次系列性追蹤 49 位 CDH 新生兒圍手術期雙心室功能變化的單中心回溯性研究。研究發現，在術前穩定期間，右心室功能 (RVEF 從 37.5% 顯著提升至 45.5%) 與心室-肺動脈耦合度會改善。手術修補後，雙心室的舒張末期容積 (LVEDV, RVEDV) 明顯增加，證實了橫膈膜修補能有效解除對心臟的機械性壓迫，改善心室充盈。這為我們臨床上強調『術前穩定』和『術後監測血行動力學』的做法，提供了重要的生理學證據。",
+      "hidden_findings": [
+        {
+          "finding": "Abstract 提到術前 RV 功能改善是『management and/or physiological adaptation』的結果，但並未說明是哪些具體的醫療介入（如 iNO, sildenafil, milrinone）導致的，或是單純生理適應的結果。",
+          "source": "閱讀全文時需在 Methods 章節尋找關於術前血行動力學支持的詳細 protocol，並在 Results/Discussion 章節尋找藥物使用與 RVEF 改善的相關性分析。",
+          "implication": "這點至關重要。如果改善主要來自生理適應，代表給予足夠時間穩定是關鍵；如果來自特定藥物，則會強化該藥物在 CDH 術前管理的角色。這會直接影響我們術前用藥的積極程度與時機選擇。"
+        },
+        {
+          "finding": "研究報告的是整體世代的平均值，但 CDH 的嚴重程度差異極大。Abstract 未提供根據 CDH 嚴重度（如 liver-up/down, O/E LHR）或是否需要 ECMO 的亞群分析。",
+          "source": "需在全文的 Results 或 Supplementary data 中尋找是否有針對不同嚴重程度 CDH 病患的心臟功能變化進行比較。",
+          "implication": "高風險 CDH（如 liver-up）病患的心臟適應不良可能是預後不佳的主因。如果他們的圍手術期心臟變化模式與低風險族群不同，我們就需要為他們制定更個人化、更積極的血行動力學監測與支持策略。"
+        },
+        {
+          "finding": "Abstract 僅描述了心臟功能的『變化』，但未將這些 3D echo 參數與重要的臨床預後（如死亡率、住院天數、BPD、ECMO 使用）建立關聯。",
+          "source": "需在全文中尋找是否有相關性分析 (correlation analysis) 或迴歸模型 (regression model)，探討術前 RVEF 或術後 LVEDV 的改善程度是否能預測臨床 outcome。",
+          "implication": "如果特定的 3D echo 參數能成為有效的預後指標，它將成為我們評估 CDH 病情、與家屬溝通、甚至決定是否升級治療（如 ECMO）的強力工具，而不僅僅是個生理學觀察。"
+        }
+      ],
+      "methodology_audit": {
+        "strengths": [
+          "使用 3D 心臟超音波：相較於傳統 2D echo，3D echo 對於形狀不規則的右心室 (RV) 容積和功能評估更為準確，這在 PPHN 導致 RV 壓力負荷過重的 CDH 病患中尤其重要。",
+          "系列性縱向測量 (Longitudinal design)：在圍手術期設定四個關鍵時間點進行測量，能捕捉心臟功能的動態變化過程，而不僅是單一時間點的快照。"
+        ],
+        "notes": [
+          "回溯性研究 (Retrospective design)：這是本研究最大的內在限制，可能存在選擇性偏差 (selection bias) 和因果關係推論的困難。",
+          "單一醫學中心 (Single-center)：研究結果可能受到該中心特定照護 protocol 的影響（如呼吸器策略、藥物選擇、手術時機），這可能限制其在其他 NICU 的外部通用性 (generalizability)。",
+          "樣本數 (N=49)：對於 CDH 這種罕見疾病，此樣本數已屬不易，但若要進行有意義的亞群分析（如依據 CDH 嚴重度），統計檢定力 (statistical power) 可能不足。"
+        ],
+        "weaknesses": [
+          "缺乏對照組：研究沒有非 CDH 的新生兒對照組，無法完全排除某些心臟功能的變化是新生兒出生後正常生理過渡的一部分，而非 CDH 特有的病理生理反應。",
+          "潛在的干擾因子 (Confounding)：由於是觀察性研究，無法控制不同病患間的治療差異（如呼吸器設定、鎮靜藥物、inotropes 使用），這些都可能影響心臟功能，進而干擾對研究結果的解讀。",
+          "缺乏臨床預後連結：如前述，研究主要聚焦於生理參數的變化，缺乏與短期或長期臨床預後的連結，使其臨床應用意義打了折扣。"
+        ]
+      },
+      "evidence_positioning": {
+        "related_studies": [
+          {
+            "citation": "Patel N et al., J Perinatol, 2014",
+            "comparison": "該研究使用 2D echo 和 tissue Doppler，發現 CDH 病患普遍存在 LV 舒張和收縮功能不全。本研究的關鍵差異在於：1) 使用更精確的 3D echo 技術；2) 提供了圍手術期『連續』的數據，而不僅是出生初期的評估；3) 更深入地探討了 RV 功能的動態適應過程。"
+          },
+          {
+            "citation": "CDH Study Group (CDHSG) publications",
+            "comparison": "CDHSG 的研究是基於大型跨國登錄資料庫，提供關於 CDH 流行病學和臨床預後因子的寶貴資訊，但通常缺乏精細的生理學數據。本研究則填補了這個空缺，為 CDHSG 觀察到的臨床現象（如術前穩定改善預後）提供了底層的血行動力學機制解釋。"
+          }
+        ],
+        "guideline_status": "目前國際指引（如 CDH Euro Consortium consensus guidelines）強調術前需達到生理穩定（特別是 PPHN 的控制），但對於使用何種影像學工具或具體參數來定義『穩定』，尚無明確建議。指引多為專家共識，缺乏來自 RCT 的高級別證據。本研究的發現有潛力為未來指引提供更量化的監測目標。",
+        "evidence_gap_filled": "本研究首次使用更精確的 3D echo 技術，量化並證實了臨床上長期存在的兩個觀念：1) CDH 病患在術前支持性照護下，心肺功能確實會有一段生理適應期，特別是 RV 功能的改善。2) 手術修補能立即改善心室充盈。它為『等待穩定再開刀』的策略提供了強而有力的生理學證據。",
+        "ongoing_trials": "目前全球尚無大型 RCT 專門針對『以 3D echo 指導的 CDH 血行動力學管理』進行研究。多數 CDH 的臨床試驗集中在產前胎兒鏡介入 (FETO) 或新的藥物治療。"
+      },
+      "protocol_impact": {
+        "current_practice": "在我們 NICU，CDH 病患的標準照護是入院後立即進行心臟超音波評估，主要使用 2D echo 和 Doppler。評估重點包括 PPHN 嚴重程度（如 TR jet velocity, PDA shunt direction, 心室中膈位置）和心室功能（目測 EF, TAPSE, MAPSE）。治療上，會使用高頻呼吸器 (HFOV)、iNO 來處理 PPHN，並根據血壓和灌流狀況使用 inotropes (如 milrinone, dobutamine) 或 vasopressors。手術時機取決於臨床穩定性，通常要求 FiO2 < 0.5 且無顯著代謝性酸中毒。",
+        "proposed_change": "本研究結果尚不足以改變我們的『治療策略』，但可以強化我們的『監測策略』。建議：\n1.  對於所有 CDH 病患，在既有的 2D echo 評估外，若儀器和人力許可，應增加 3D echo 評估，特別是在出生 24-48 小時、術前 24 小時、術後 24-48 小時這幾個關鍵時間點。\n2.  將 RVEF 和 LVEDV/RVEDV ratio 的『變化趨勢』納入評估『術前穩定』的客觀指標之一。若 RVEF 持續上升，代表病患正處於正向的生理適應期。\n3.  術後若 LVEDV 和 RVEDV 未如預期增加，需警覺是否有心包填塞、過高的 PEEP 或其他導致心室充盈受阻的問題。",
+        "prerequisites": [
+          "需要與心臟科合作，或由我們科內同仁接受 3D 心臟超音波的操作與判讀訓練 (in-service training)。",
+          "確認現有超音波儀器具備 3D 探頭及分析軟體。",
+          "制定 CDH 病患的系列心臟超音波監測 protocol 草案，明確定義檢查時機、測量項目與報告格式。"
+        ],
+        "missing_evidence": "最關鍵的缺口是：這些 3D echo 參數的變化，是否能真正『預測』重要的臨床預後（如 ECMO 需求、死亡率、長期神經發展）？我們需要一個前瞻性的世代研究來回答這個問題。在有更強的預後關聯性證據之前，將 3D echo 作為常規監測工具的成本效益仍有待商榷。"
+      }
+    },
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-26"
+  },
+  {
+    "pmid": "42031403",
+    "title": "Pulmonary hypertension after atrial septal defect repair.",
+    "authors": "Cai Y, Tang H, Wei X",
+    "journal": "Heart",
+    "pub_date": "2026 Apr 24",
+    "doi": "10.1136/heartjnl-2025-327583",
+    "total_score": 2,
+    "scores": {
+      "design": 3,
+      "relevance": 1,
+      "novelty": 2,
+      "generalizability": 3
+    },
+    "keywords": [
+      "Pulmonary hypertension",
+      "atrial septal defect",
+      "cardiology"
+    ],
+    "one_liner": "此文主題與新生兒照護無直接關聯，新生兒科醫師可跳過。",
+    "summary": {
+      "purpose": "根據標題推測，本研究旨在探討心房中膈缺損修補術後肺高壓的發生率、危險因子或預後。",
+      "design": "摘要未提供研究設計、樣本數、受試者年齡或出生體重等詳細資訊。",
+      "findings": "摘要未提供任何研究結果或關鍵數據。",
+      "significance": "由於摘要內容不足，且主題主要涉及心房中膈缺損修補術後肺高壓，與新生兒加護病房的日常照護無直接相關性。"
+    },
+    "deep_analysis": {},
+    "is_oa": false,
+    "oa_url": "",
+    "processed_date": "2026-04-26"
   }
 ]
