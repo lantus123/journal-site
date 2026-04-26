@@ -1,8 +1,11 @@
 name: Daily Journal Review
 
 on:
-  schedule:
-    - cron: '0 23 * * *'
+  # cron 暫停 (2026-04-26) — Gemini API key 已刪、Anthropic balance 用罄，
+  # 等遷移到 Anthropic Routines (Max20 subscription) 後再恢復或整支移除。
+  # 期間如需手動補跑請用 workflow_dispatch (含 dry_run / backfill_dates 參數)。
+  # schedule:
+  #   - cron: '0 23 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
