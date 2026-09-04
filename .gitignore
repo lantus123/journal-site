@@ -1,3 +1,9 @@
 __pycache__/
 config/manuals/
 data/*/manual_chunks.json
+
+# 本機專用，不可進入公開 repo
+HANDOFF.md
+.env
+*.env
+.venv/

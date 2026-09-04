@@ -18,9 +18,11 @@ logger = logging.getLogger(__name__)
 
 # Model mapping per provider
 MODELS = {
+    # key 是「層級」不是型號：haiku=快篩（每天約 26 次）、sonnet=深度分析（每天約 3.4 次）。
+    # 換型號只要動這裡，不必動 scorer.py / process_manuals.py。
     "anthropic": {
-        "haiku": "claude-haiku-4-5-20251001",
-        "sonnet": "claude-sonnet-4-6-20250514",
+        "haiku": "claude-haiku-4-5",
+        "sonnet": "claude-fable-5-1",
     },
     "gemini": {
         "haiku": "gemini-2.5-flash",
@@ -30,6 +32,28 @@ MODELS = {
         "haiku": "llama-3.1-8b-instant",
         "sonnet": "llama-3.3-70b-versatile",
     },
+}
+
+# Claude 5 世代（Fable / Mythos / Opus 5 / Sonnet 5）的請求限制：
+#   - 取樣參數被移除，傳 temperature / top_p / top_k 會回 400
+#   - adaptive thinking 恆開，傳任何 thinking 設定（含 disabled）也會回 400
+#   - thinking token 計入 max_tokens，額度不足會把 JSON 輸出截斷
+ADAPTIVE_THINKING_PREFIXES = (
+    "claude-fable-5",
+    "claude-mythos-5",
+    "claude-opus-5",
+    "claude-sonnet-5",
+)
+
+# thinking 恆開時的 max_tokens 下限。max_tokens 是上限不是預付額度，
+# 調高不會多花錢，但調太低會讓推理吃光額度、正文被截斷。
+MIN_MAX_TOKENS_WITH_THINKING = 16000
+
+# 每百萬 token 單價 (input, output)，用於成本估算。
+# 兩層差 10 倍，必須逐次依實際型號累計，不能用單一費率乘總量。
+ANTHROPIC_PRICING = {
+    "claude-haiku-4-5": (1.0, 5.0),
+    "claude-fable-5-1": (10.0, 50.0),
 }
 
 
@@ -51,6 +75,7 @@ class LLMClient:
         self.total_input_tokens = 0
         self.total_output_tokens = 0
         self.call_count = 0
+        self.tracked_cost_usd = 0.0   # 逐次依實際型號累計（目前只有 anthropic 走這條）
         logger.info(f"LLM provider: {self.provider}")
 
     def _init_anthropic(self):
@@ -103,18 +128,42 @@ class LLMClient:
 
     def _call_anthropic(self, prompt, model_id, max_tokens, temperature, retries):
         import anthropic
+
+        params = {
+            "model": model_id,
+            "max_tokens": max_tokens,
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        if model_id.startswith(ADAPTIVE_THINKING_PREFIXES):
+            # 這一代不吃 temperature（400），thinking 也不能傳；改用 max_tokens 留推理空間
+            params["max_tokens"] = max(max_tokens, MIN_MAX_TOKENS_WITH_THINKING)
+        else:
+            params["temperature"] = temperature
+
         for attempt in range(retries):
             try:
-                response = self.client.messages.create(
-                    model=model_id,
-                    max_tokens=max_tokens,
-                    temperature=temperature,
-                    messages=[{"role": "user", "content": prompt}],
-                )
+                response = self.client.messages.create(**params)
                 self.total_input_tokens += response.usage.input_tokens
                 self.total_output_tokens += response.usage.output_tokens
                 self.call_count += 1
-                return response.content[0].text
+                in_rate, out_rate = ANTHROPIC_PRICING.get(model_id, (0.0, 0.0))
+                self.tracked_cost_usd += (
+                    response.usage.input_tokens * in_rate
+                    + response.usage.output_tokens * out_rate
+                ) / 1_000_000
+
+                # 安全分類器擋下時 stop_reason="refusal"，content 可能沒有 text block
+                if getattr(response, "stop_reason", None) == "refusal":
+                    logger.error(f"Request refused by safety classifier ({model_id})")
+                    return None
+                # thinking 恆開的型號回應可能夾帶 thinking block，不能直接取 content[0]
+                text = next((b.text for b in response.content if b.type == "text"), None)
+                if text is None:
+                    logger.error(
+                        f"No text block in response (stop_reason={getattr(response, 'stop_reason', None)})"
+                    )
+                    return None
+                return text
 
             except anthropic.RateLimitError:
                 wait = 2 ** (attempt + 1)
@@ -245,19 +294,20 @@ class LLMClient:
 
     def get_usage_summary(self) -> dict:
         """Return usage stats for logging. Cost estimate is provider-aware."""
-        # Per-provider haiku-tier rates ($/token). Sonnet calls are billed higher
-        # but we don't track per-call which model was used, so this is a lower
-        # bound — use mainly to sanity-check that we're not silently exploding.
-        rates = {
-            "anthropic": (1.0 / 1_000_000, 5.0 / 1_000_000),  # Haiku 4.5
-            "gemini": (0.075 / 1_000_000, 0.30 / 1_000_000),  # 2.5 Flash
-            "groq": (0.0, 0.0),  # free tier
-        }
-        in_rate, out_rate = rates.get(self.provider, (0.0, 0.0))
-        est_cost = (
-            self.total_input_tokens * in_rate
-            + self.total_output_tokens * out_rate
-        )
+        # anthropic 走逐次實際型號累計（兩層單價差 10 倍，用單一費率會嚴重低估）。
+        # 其餘 provider 仍用單層費率估算，屬下限值。
+        if self.provider == "anthropic":
+            est_cost = self.tracked_cost_usd
+        else:
+            rates = {
+                "gemini": (0.075 / 1_000_000, 0.30 / 1_000_000),  # 2.5 Flash
+                "groq": (0.0, 0.0),  # free tier
+            }
+            in_rate, out_rate = rates.get(self.provider, (0.0, 0.0))
+            est_cost = (
+                self.total_input_tokens * in_rate
+                + self.total_output_tokens * out_rate
+            )
         return {
             "provider": self.provider,
             "total_calls": self.call_count,
